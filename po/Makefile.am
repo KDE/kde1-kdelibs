@@ -15,7 +15,8 @@ localedir = $(kde_locale)
 MAINTAINERCLEANFILES = $(GMOFILES)
 
 EXTRA_DIST = kde.pot $(POFILES) $(GMOFILES) texts.cpp
-
+# install this to make excluding of this messages possible
+include_HEADERS = kde.pot
 
 all: all-@USE_NLS@
 install-data-local: install-@USE_NLS@
