@@ -2331,7 +2331,7 @@ msgid ""
 "%s"
 msgstr ""
 "Interner Fehler.\n"
-"Bitte schicken Sie einen vollständigen Fehlerbericht an\n
+"Bitte schicken Sie einen vollständigen Fehlerbericht an\n"
 "kde-bugs@kde.org\n"
 "%s"
 
@@ -2389,7 +2389,7 @@ msgid ""
 msgstr ""
 "%s\n"
 "ist ein Verzeichnis.\n"
-"Erwartet wird eine Datei.""
+"Erwartet wird eine Datei."
 
 #: kio/kio_error.cc:46
 #, c-format
@@ -2426,7 +2426,7 @@ msgid ""
 "Could not enter directory\n"
 "%s"
 msgstr ""
-"Konnte nicht in das Verzeichnis gehen:\"
+"Konnte nicht in das Verzeichnis gehen:\n"
 "%s"
 
 #: kio/kio_error.cc:58
@@ -2531,8 +2531,8 @@ msgid ""
 "is not a filter protocol"
 msgstr ""
 "Das Protokoll %s\n"
-"ist kein Filterprotokoll.
-"
+"ist kein Filterprotokoll."
+
 #: kio/kio_error.cc:91
 #, c-format
 msgid ""
@@ -2649,7 +2649,7 @@ msgstr "Die Zwischenablage ist leer."
 msgid ""
 "Pasting clipboard data is only supported on the local hard disk currently"
 msgstr ""
-"Einfügen aus der Zwischenablage wird derzeit nur auf der lokalen Festplatte unterstützt.""
+"Einfügen aus der Zwischenablage wird derzeit nur auf der lokalen Festplatte unterstützt."
 
 #: kio/kio_paste.cc:80
 msgid "Filename for clipboard content:"
@@ -2711,7 +2711,7 @@ msgstr "%i:%i:%i"
 #: kio/kio_progress_dlg.cc:201
 #, c-format
 msgid "%i%s  Remaining time: %s"
-msgstr "%i%s Verbleibende Zeit: %s""
+msgstr "%i%s Verbleibende Zeit: %s"
 
 #: kio/kio_progress_dlg.cc:207
 msgid "Scanning "
@@ -2803,7 +2803,7 @@ msgstr "Die Mime-Typ Konfigurationsdatei "
 
 #: kio/kmimetypes.cc:133 kio/kregfactories.cc:74
 msgid "does not conatain a MimeType=... entry"
-msgstr "enthält keinen Eintrag MimeType=...""
+msgstr "enthält keinen Eintrag MimeType=..."
 
 #: kio/kmimetypes.cc:486
 #, c-format
@@ -2887,7 +2887,7 @@ msgstr ""
 
 #: kio/kservices.cc:111
 msgid "The application config file\n"
-msgstr "Die Anwendugs-Konfigurations Datei"
+msgstr "Die Anwendugs-Konfigurations Datei\n"
 
 #: kio/kservices.cc:113
 msgid ""
@@ -2895,4 +2895,5 @@ msgid ""
 "does not conatain a Name=... entry"
 msgstr ""
 "\n"
-"hat keinen Eintrag Name=...""
+"hat keinen Eintrag Name=..."
+
