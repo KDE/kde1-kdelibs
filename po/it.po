@@ -1,18 +1,21 @@
 # KTranslator Generated File
+
+# KTranslator Generated File
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-12-06 01:01+0100\n"
-"PO-Revision-Date: Sat Oct 24 1998 10:13:56+0200\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"PO-Revision-Date: Mon Dec 7 1998 17:48:09+0200\n"
 "Last-Translator: Andrea Rizzi <rizzi@kde.org>\n"
 "Language-Team: Italiano <it@li.org>\n"
-"Content-Type: text/plain; charset=\n"
-"Files: chooser.cpp gif.cpp jpeg.cpp kdmconfig.cpp kdmdesktop.cpp "
-"kdmshutdown.cpp kdmview.cpp kfdialog.cpp kgreeter.cpp\n"
-"X-Generator: KTranslator v 0.4.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"X-Generator: KTranslator v 0.4.0"
 
 #
 #: kab/AssertDialog.cpp:29
@@ -95,6 +98,9 @@ msgid ""
 "handed over to the program, but the dialog\n"
 "will not be closed.Use this to try different settings."
 msgstr ""
+"Quando viene premuto applica, le impostazioni saranno\n"
+"mandate a tutto il programma,ma la finestra di dialogo\n"
+"non sarà chiusa. Sfrutta ciò per provare impostazioni differenti."
 
 #: kab/DialogBase.cpp:44
 msgid ""
@@ -104,6 +110,11 @@ msgid ""
 "The program will be in the state before\n"
 "opening the dialog."
 msgstr ""
+"Se premi il pulsante annulla, tutte le modifiche che hai\n"
+"fatto saranno abbandonate e la finestra di dialogo\n"
+"sarà chiusa.\n"
+"Il programma tornerà nello stato in cui era prima\n"
+"di aprire la finestra di dialogo."
 
 #: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
 #: kdeui/kwizard.cpp:228 po/texts.cpp:36
@@ -122,31 +133,31 @@ msgstr "&Annulla"
 
 #: kab/PrintDialog.cpp:26
 msgid "Headline text:"
-msgstr ""
+msgstr "Testo titolo:"
 
 #: kab/PrintDialog.cpp:27
 msgid "Right footer text:"
-msgstr ""
+msgstr "Testo pedice destro:"
 
 #: kab/PrintDialog.cpp:28
 msgid "Left footer text:"
-msgstr ""
+msgstr "Testo pedice sinstro:"
 
 #: kab/SearchDialog.cpp:47
 msgid "The title"
-msgstr ""
+msgstr "Il titolo"
 
 #: kab/SearchDialog.cpp:48
 msgid "The first name"
-msgstr ""
+msgstr "Il primo nome"
 
 #: kab/SearchDialog.cpp:49
 msgid "The additional name"
-msgstr ""
+msgstr "Il secondo nome"
 
 #: kab/SearchDialog.cpp:50
 msgid "The name prefix"
-msgstr ""
+msgstr "Il prefisso del nome"
 
 #
 #: kab/SearchDialog.cpp:51
@@ -155,11 +166,11 @@ msgstr "Il nome"
 
 #: kab/SearchDialog.cpp:52
 msgid "The formatted name"
-msgstr ""
+msgstr "Il nome per esteso"
 
 #: kab/SearchDialog.cpp:53
 msgid "The address"
-msgstr ""
+msgstr "L'indirizzo"
 
 #
 #: kab/SearchDialog.cpp:54
@@ -168,51 +179,51 @@ msgstr "La città"
 
 #: kab/SearchDialog.cpp:55
 msgid "The organization"
-msgstr ""
+msgstr "L'organizzazione"
 
 #: kab/SearchDialog.cpp:56
 msgid "The role"
-msgstr ""
+msgstr "Il ruolo"
 
 #: kab/SearchDialog.cpp:57
 msgid "The org unit"
-msgstr ""
+msgstr "L'unità dell'org."
 
 #: kab/SearchDialog.cpp:58
 msgid "The org subunit"
-msgstr ""
+msgstr "La sottounità dell'org."
 
 #: kab/SearchDialog.cpp:59
 msgid "The email address"
-msgstr ""
+msgstr "L'indirizzo email"
 
 #: kab/SearchDialog.cpp:60
 msgid "The second email address"
-msgstr ""
+msgstr "Il secondo indirizzo email"
 
 #: kab/SearchDialog.cpp:61
 msgid "The third email address"
-msgstr ""
+msgstr "Il terzo indirizzo email"
 
 #: kab/SearchDialog.cpp:62
 msgid "The telephone number"
-msgstr ""
+msgstr "Il numero telefonico"
 
 #: kab/SearchDialog.cpp:63
 msgid "The fax number"
-msgstr ""
+msgstr "Il numero di fax"
 
 #: kab/SearchDialog.cpp:64
 msgid "The modem number"
-msgstr ""
+msgstr "Il numero del modem"
 
 #: kab/SearchDialog.cpp:65
 msgid "The homepage URL"
-msgstr ""
+msgstr "La URL della homepage"
 
 #: kab/SearchDialog.cpp:66
 msgid "The comment"
-msgstr ""
+msgstr "Il commento"
 
 #
 #: kab/SearchDialog.cpp:74
@@ -221,39 +232,39 @@ msgstr "kab: Cerca voce"
 
 #: kab/SearchDialogMainWidget.cpp:22
 msgid "matches"
-msgstr ""
+msgstr "combacia"
 
 #: kab/SearchDialogMainWidget.cpp:23
 msgid "Use shell wildcard patterns here"
-msgstr ""
+msgstr "Usa i caratteri jolly della shell qui"
 
 #: kab/SearchDialogMainWidget.cpp:24
 msgid "Select field to match the pattern"
-msgstr ""
+msgstr "Scegli il campo dove cercare"
 
 #: kab/StringListEditWidget.cpp:30
 msgid "Add a new string"
-msgstr ""
+msgstr "Aggiungi una stringa"
 
 #: kab/StringListEditWidget.cpp:31
 msgid "Move this string up"
-msgstr ""
+msgstr "Sposta questa stringa in alto"
 
 #: kab/StringListEditWidget.cpp:32
 msgid "Move this string down"
-msgstr ""
+msgstr "Sposta questa stringa in basso"
 
 #: kab/StringListEditWidget.cpp:33
 msgid "Delete this string"
-msgstr ""
+msgstr "Cancella questa stringa"
 
 #: kab/StringListSelectAndReorderSet.cpp:34
 msgid "Possible values:"
-msgstr ""
+msgstr "Valori possibili:"
 
 #: kab/StringListSelectAndReorderSet.cpp:35
 msgid "Selected values:"
-msgstr ""
+msgstr "Valori selezionati:"
 
 #: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:555 kfile/kfiledialog.cpp:1199
 #: kfile/kfiledialog.cpp:1358 kfile/kfiledialog.cpp:1392 po/texts.cpp:65
@@ -749,7 +760,7 @@ msgstr "Filtro:"
 
 #: kdeui/kkeydialog.cpp:219
 msgid "Configure key bindings"
-msgstr ""
+msgstr "Configura key bindings"
 
 #: kdeui/kkeydialog.cpp:232 kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:205
 #: po/texts.cpp:45
@@ -798,7 +809,7 @@ msgstr "Non configurabile"
 
 #: kdeui/kkeydialog.cpp:528
 msgid "Global Keys"
-msgstr ""
+msgstr "Tasti globali"
 
 #: kdeui/kkeydialog.cpp:560
 msgid "Keys"
@@ -832,10 +843,14 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"La combinazione di tasti %s è già stata assegnata\n"
+"all'azione globale %s.\n"
+"\n"
+"Per favore scegli una combinazione di tasti unica."
 
 #: kdeui/kkeydialog.cpp:1030
 msgid "Global key conflict"
-msgstr ""
+msgstr "Conflitto tra i tasti globali"
 
 #: kdeui/kkeydialog.cpp:1053
 #, c-format
@@ -845,6 +860,10 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"La combinazione di tasti %s è già stata assegnata\n"
+"all'azione standard %s.\n"
+"\n"
+"Per favore scegli una combinazione di tasti unica."
 
 #: kdeui/kkeydialog.cpp:1057
 msgid "Standard key conflict"
@@ -858,6 +877,10 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"La combinazione di tasti %s è già stata assegnata\n"
+"all'azione %s.\n"
+"\n"
+"Per favore scegli una combinazione di tasti unica."
 
 #: kdeui/kkeydialog.cpp:1081
 msgid "Key conflict"
@@ -1604,10 +1627,13 @@ msgid ""
 "The program will try to create\n"
 "         "
 msgstr ""
+"La directory dove i dati specifici dell'utente\n"
+"per l'addressbook sono salvati non esiste\n"
+"Il programma proverà a crearla\n"
 
 #: kab/addressbook.cc:92
 msgid "and store all local files in this directory."
-msgstr ""
+msgstr "e a mettere tutti i file locali in questa directory."
 
 #: kab/addressbook.cc:96
 msgid ""
@@ -1617,22 +1643,27 @@ msgid ""
 "in your home directory. Run the KDE filemanager\n"
 "kfm once to automatically create it."
 msgstr ""
+"La directory non può essere creata.\n"
+"Probabilmente non hai mai usato KDE prima,"
+"quindi non hai una directory locale \".kde\" \n"
+"nelal tua Home directory. Esegui il filemanager KDE\n"
+"(kfm) una volta per crearla automaticamente."
 
 #: kab/addressbook.cc:104
 msgid "The directory has been created.\n"
-msgstr ""
+msgstr "La directory è stata creata.\n"
 
 #: kab/addressbook.cc:138
 msgid "No addressbook database file, creating new one."
-msgstr ""
+msgstr "Nessun file di database di addressbook, ne sto creando uno nuovo."
 
 #: kab/addressbook.cc:157
 msgid "Tried to load database for creating backup, but failed"
-msgstr ""
+msgstr "Ho provato a caricare il database per creare una copia di backup, ma ho fallito"
 
 #: kab/addressbook.cc:192
 msgid "Unable to save to backup file."
-msgstr ""
+msgstr "Impossibile salvare su file di backup."
 
 #: kab/addressbook.cc:198
 msgid "Unable to reset filename after creating backup."
@@ -1640,23 +1671,24 @@ msgstr ""
 
 #: kab/addressbook.cc:203
 msgid "Unable to create backup file"
-msgstr ""
+msgstr "Impossibile creare il file di backup"
 
 #: kab/addressbook.cc:256
 msgid "Unable to insert \""
-msgstr ""
+msgstr "impossibile inserire \""
 
 #: kab/addressbook.cc:257
 msgid "\" into configuration section (ignored)."
-msgstr ""
+msgstr "\" nella sezione di configurazione (ignorato)."
 
 #: kab/addressbook.cc:659
+# ,fuzzy
 msgid "Unable to add a new entry with available key."
-msgstr ""
+msgstr "Impossibile aggiungere una nuova voce con un tasto disponibile."
 
 #: kab/addressbook.cc:665
 msgid "Cannot find previously created section."
-msgstr ""
+msgstr "Impossibile trovare la sezione precedentemente creata."
 
 #: kab/addressbook.cc:696
 msgid "Unable to create key-value-map for entry."
@@ -1664,48 +1696,49 @@ msgstr ""
 
 #: kab/addressbook.cc:925
 msgid "entry without name"
-msgstr ""
+msgstr "voce senza nome"
 
 #: kab/addressbook.cc:943
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
 msgstr ""
+"Impossibile creare un nuovo file di database (probabile permesso negato), uscita."
 
 #: kab/addressbook.cc:949
 msgid "Cannot create configuration section, exiting."
-msgstr ""
+msgstr "Impossibile creare sezione di configurazione, uscita."
 
 #: kab/addressbook.cc:954
 msgid "Cannot create entries section, exiting."
-msgstr ""
+msgstr "Impossibile creare le voci di sezione, uscita."
 
 #: kab/addressbook.cc:959
 msgid "Unable to find previously created section, exiting."
-msgstr ""
+msgstr "Impossibile trovare la sezione precedentemente creata, uscita."
 
 #: kab/addressbook.cc:967
 msgid "Cannot save newly created database."
-msgstr ""
+msgstr "Impossibile salvare il database appena creato."
 
 #: kab/addressbook.cc:973
 msgid "Cannot erase database contents."
-msgstr ""
+msgstr "Impossibile cancellare i contenuti del database."
 
 #: kab/addressbook.cc:1052
 msgid "First name"
-msgstr ""
+msgstr "Primo nome"
 
 #: kab/addressbook.cc:1056
 msgid "Additional name"
-msgstr ""
+msgstr "Secondo nome"
 
 #: kab/addressbook.cc:1060
 msgid "Name prefix"
-msgstr ""
+msgstr "Prefisso del nome"
 
 #: kab/addressbook.cc:1064
 msgid "Formatted name"
-msgstr ""
+msgstr "Nome per esteso"
 
 #: kab/addressbook.cc:1068
 msgid "Comment"
@@ -1713,7 +1746,7 @@ msgstr "Commento"
 
 #: kab/addressbook.cc:1072
 msgid "Organization"
-msgstr ""
+msgstr "Organizzazione"
 
 #
 #: kab/addressbook.cc:1076
@@ -1737,11 +1770,11 @@ msgstr "Ruolo"
 
 #: kab/addressbook.cc:1092
 msgid "Birthday"
-msgstr ""
+msgstr "Compleanno"
 
 #: kab/addressbook.cc:1096
 msgid "Talk addresses"
-msgstr ""
+msgstr "Indirizzi talk"
 
 #: kab/addressbook.cc:1100
 msgid "Delivery label"
@@ -1749,19 +1782,19 @@ msgstr ""
 
 #: kab/addressbook.cc:1104
 msgid "Email address"
-msgstr ""
+msgstr "Indirizzo email"
 
 #: kab/addressbook.cc:1108
 msgid "Second email address"
-msgstr ""
+msgstr "Secondo indirizzo email"
 
 #: kab/addressbook.cc:1112
 msgid "Third email address"
-msgstr ""
+msgstr "Terzo indirizzo email"
 
 #: kab/addressbook.cc:1116
 msgid "Email addresses"
-msgstr ""
+msgstr "Indirizzi email"
 
 #
 #: kab/addressbook.cc:1120
@@ -1770,15 +1803,15 @@ msgstr "Indirizzo"
 
 #: kab/addressbook.cc:1124
 msgid "City/Town"
-msgstr ""
+msgstr "Città/paese"
 
 #: kab/addressbook.cc:1128
 msgid "Telephone"
-msgstr ""
+msgstr "Telefono"
 
 #: kab/addressbook.cc:1132
 msgid "Fax number"
-msgstr ""
+msgstr "Numero fax"
 
 #: kab/addressbook.cc:1136
 msgid "Modem number"
@@ -1786,23 +1819,23 @@ msgstr "Numero modem"
 
 #: kab/addressbook.cc:1140
 msgid "Homepage URL"
-msgstr ""
+msgstr "URL della Homepage"
 
 #: kab/addressbook.cc:1144
 msgid "Zip/postal code"
-msgstr ""
+msgstr "codice postale/Zip"
 
 #: kab/addressbook.cc:1148
 msgid "State/province"
-msgstr ""
+msgstr "Stato/provincia"
 
 #: kab/addressbook.cc:1152
 msgid "Country"
-msgstr "Paese"
+msgstr "Nazione"
 
 #: kab/addressbook.cc:1319
 msgid "(unnamed entry)"
-msgstr ""
+msgstr "(voce senzanome)"
 
 #
 #: kab/datepickerdialog.cc:34
@@ -1811,7 +1844,7 @@ msgstr "Secgli compleanno"
 
 #: kab/editentry.cc:38
 msgid "Edit the current entry"
-msgstr ""
+msgstr "Modifica la voce attuale"
 
 #
 #: kab/editentry.cc:61
@@ -1820,15 +1853,15 @@ msgstr "Titolo:"
 
 #: kab/editentry.cc:62
 msgid "First name:"
-msgstr ""
+msgstr "Primo Nome:"
 
 #: kab/editentry.cc:63
 msgid "Additional Name:"
-msgstr ""
+msgstr "Secondo Nome"
 
 #: kab/editentry.cc:65
 msgid "Formatted Name:"
-msgstr ""
+msgstr "Nome per esteso"
 
 #
 #: kab/editentry.cc:88
@@ -1841,11 +1874,11 @@ msgstr "Indirizzo:"
 
 #: kab/editentry.cc:104
 msgid "Zip/postal code:"
-msgstr ""
+msgstr "codice postale/Zip"
 
 #: kab/editentry.cc:105
 msgid "Town:"
-msgstr ""
+msgstr "Città:"
 
 #
 #: kab/editentry.cc:106
@@ -1854,23 +1887,23 @@ msgstr "Stato:"
 
 #: kab/editentry.cc:107
 msgid "Country:"
-msgstr ""
+msgstr "Nazione:"
 
 #: kab/editentry.cc:130
 msgid "&Address"
-msgstr ""
+msgstr "&Indirizzo"
 
 #: kab/editentry.cc:145
 msgid "Organization:"
-msgstr ""
+msgstr "Organizzazione"
 
 #: kab/editentry.cc:146
 msgid "Org Unit:"
-msgstr ""
+msgstr "Unità org."
 
 #: kab/editentry.cc:147
 msgid "Org Subunit:"
-msgstr ""
+msgstr "Sottounità org:"
 
 #
 #: kab/editentry.cc:148
@@ -1879,11 +1912,11 @@ msgstr "Ruolo:"
 
 #: kab/editentry.cc:169
 msgid "&Organization"
-msgstr ""
+msgstr "&Organizzazione"
 
 #: kab/editentry.cc:184
 msgid "Telephone:"
-msgstr ""
+msgstr "Telefono:"
 
 #: kab/editentry.cc:185
 msgid "Fax:"
@@ -1896,15 +1929,15 @@ msgstr "Modem:"
 
 #: kab/editentry.cc:187
 msgid "Homepage (URL):"
-msgstr ""
+msgstr "Homepage (URL):"
 
 #: kab/editentry.cc:200 kab/editentry.cc:418
 msgid "Edit email addresses"
-msgstr ""
+msgstr "Modifica indirizzi email"
 
 #: kab/editentry.cc:206 kab/editentry.cc:400
 msgid "Edit talk addresses"
-msgstr ""
+msgstr "Modifica indirizzi talk"
 
 #
 #: kab/editentry.cc:218
@@ -1918,27 +1951,27 @@ msgstr "Commento:"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
-msgstr ""
+msgstr "Compleanno:"
 
 #: kab/editentry.cc:249
 msgid "Double click to set date"
-msgstr ""
+msgstr "Doppio click per impostare la data"
 
 #: kab/editentry.cc:256
 msgid "O&thers"
-msgstr ""
+msgstr "Al&tri"
 
 #: kab/kabapi.cc:134
 msgid "Your new entry could not be added."
-msgstr ""
+msgstr "Le tue nuove voci non possono essere aggiunte."
 
 #: kab/searchresults.cc:33
 msgid "search results"
-msgstr ""
+msgstr "risultati ricerca"
 
 #: kab/widget.cc:141
 msgid "Conversion problem"
-msgstr ""
+msgstr "Problema di conversione"
 
 #: kab/widget.cc:142
 msgid ""
@@ -1947,6 +1980,10 @@ msgid ""
 "You can use it, but not all features will be\n"
 "supported."
 msgstr ""
+"Kab non può convertire il tuo database nel\n"
+"formato attuale del file.\n"
+"Puoi usarlo ma non tutte le caratteristiche\n"
+"saranno supportate."
 
 #: kab/widget.cc:160
 msgid ""
@@ -1970,15 +2007,15 @@ msgstr ""
 
 #: kab/widget.cc:245 kab/widget.cc:309 kab/widget.cc:317
 msgid "File handling error"
-msgstr ""
+msgstr "Errore manipolazione file"
 
 #: kab/widget.cc:246
 msgid "Unable to open database file r/w."
-msgstr ""
+msgstr "Impossibile aprire il file database r/w."
 
 #: kab/widget.cc:254
 msgid "Email storage conversion"
-msgstr ""
+msgstr "Conversione salvataggi email"
 
 #: kab/widget.cc:255
 msgid ""
@@ -1989,7 +2026,7 @@ msgstr ""
 
 #: kab/widget.cc:288
 msgid "kab database update"
-msgstr ""
+msgstr "aggiornamento database kab"
 
 #: kab/widget.cc:289
 msgid ""
@@ -2010,7 +2047,7 @@ msgstr "Impossibile salvare il database dopo l'aggiornamento."
 
 #: kab/widget.cc:318
 msgid "Unable to reopen database file r/o."
-msgstr ""
+msgstr "Impossibile riaprire il file database r/o."
 
 #
 #: kab/widget.cc:479
@@ -2029,23 +2066,23 @@ msgstr "voce successiva"
 
 #: kab/widget.cc:482
 msgid "last entry"
-msgstr ""
+msgstr "ultima voce"
 
 #: kab/widget.cc:483
 msgid "search entries"
-msgstr ""
+msgstr "ricerca voci"
 
 #: kab/widget.cc:484
 msgid "add a new entry"
-msgstr ""
+msgstr "aggiungi una nuova voce"
 
 #: kab/widget.cc:485
 msgid "change this entry"
-msgstr ""
+msgstr "cambia questa voce"
 
 #: kab/widget.cc:486
 msgid "remove this entry"
-msgstr ""
+msgstr "elimina questa voce"
 
 #: kab/widget.cc:525
 msgid "Switched to first entry."
@@ -2057,7 +2094,7 @@ msgstr ""
 
 #: kab/widget.cc:618 kab/widget.cc:672 kab/widget.cc:849 kab/widget.cc:911
 msgid "Sorry, file changed."
-msgstr ""
+msgstr "Spiacenete, il file è cambiato."
 
 #
 #: kab/widget.cc:622 kab/widget.cc:676 kab/widget.cc:915
@@ -2071,15 +2108,15 @@ msgstr "Rimuovo la voce ?"
 
 #: kab/widget.cc:634
 msgid "Really remove this entry?"
-msgstr ""
+msgstr "Rimuovere davvero questa voce?"
 
 #: kab/widget.cc:652
 msgid "Entry deleted."
-msgstr ""
+msgstr "Voce elminiata."
 
 #: kab/widget.cc:686
 msgid "Added a new entry."
-msgstr ""
+msgstr "Aggiunta nuova voce."
 
 #: kab/widget.cc:810
 msgid "Opened browser window."
@@ -2087,16 +2124,16 @@ msgstr ""
 
 #: kab/widget.cc:813
 msgid "No URL."
-msgstr ""
+msgstr "Nessuna URL."
 
 #: kab/widget.cc:817 kab/widget.cc:986 kab/widget.cc:1165 kab/widget.cc:1778
 #: kab/widget.cc:1956 kab/widget.cc:2040
 msgid "No entries."
-msgstr ""
+msgstr "Nessuna voce."
 
 #: kab/widget.cc:822
 msgid "The filemanager is busy, please try again."
-msgstr ""
+msgstr "Il file manager è occupato, per favore prova di nuovo."
 
 #: kab/widget.cc:842
 msgid ""
@@ -2107,11 +2144,11 @@ msgstr ""
 
 #: kab/widget.cc:859
 msgid "Database saved successfully."
-msgstr ""
+msgstr "Database salvato con successo."
 
 #: kab/widget.cc:864
 msgid "kab: File error"
-msgstr ""
+msgstr "kab: Errore file"
 
 #: kab/widget.cc:864
 msgid "Could not save database."
@@ -2129,19 +2166,19 @@ msgstr "&Ignora"
 #
 #: kab/widget.cc:868
 msgid "Saving cancelled.\n"
-msgstr ""
+msgstr "Salvataggio annullato.\n"
 
 #: kab/widget.cc:934
 msgid "Entry changed."
-msgstr ""
+msgstr "Voce cambiata."
 
 #: kab/widget.cc:1030
 msgid "Results"
-msgstr ""
+msgstr "Risultati"
 
 #: kab/widget.cc:1030
 msgid "No entry matches this."
-msgstr ""
+msgstr "Nessuna voce combacia con questa."
 
 #: kab/widget.cc:1039 kab/widget.cc:1685 kab/widget.cc:1820 kab/widget.cc:1985
 #: kab/widget.cc:2008 kab/widget.cc:2065
@@ -2154,27 +2191,27 @@ msgstr ""
 
 #: kab/widget.cc:1154
 msgid "The talk command must be configured before!"
-msgstr ""
+msgstr "Prima deve essere configurato il comando di talk!"
 
 #: kab/widget.cc:1159
 msgid "Talk configuration"
-msgstr ""
+msgstr "Configurazione Talk"
 
 #: kab/widget.cc:1160
 msgid "Please configure the parameters for the talk command."
-msgstr ""
+msgstr "Per favore configura i parametri per il comando talk."
 
 #: kab/widget.cc:1173
 msgid "No talk address."
-msgstr ""
+msgstr "Nessun indirizzo talk."
 
 #: kab/widget.cc:1181
 msgid "kab: Talk addresses"
-msgstr ""
+msgstr "kab: Indirizzi talk"
 
 #: kab/widget.cc:1182
 msgid "Available talk addresses:"
-msgstr ""
+msgstr "Indirizzi talk disponibili:"
 
 #
 #: kab/widget.cc:1188 kab/widget.cc:1916
@@ -2183,51 +2220,55 @@ msgstr "Annullato."
 
 #: kab/widget.cc:1211
 msgid "The talk command parameters are wrong."
-msgstr ""
+msgstr "I parametri del comando talk sono sbagliati."
 
 #: kab/widget.cc:1223
 msgid ""
 "Talk command failed.\n"
 "Make sure you did setup your talk command and parameter!"
 msgstr ""
+"Comando talk fallito.\n"
+"Assicurati di aver impostato il comando talk e i parametri!"
 
 #: kab/widget.cc:1226
 msgid "Talk program started."
-msgstr ""
+msgstr "Programma talk eseguito."
 
 #: kab/widget.cc:1274
 msgid "Attention: printing is still experimental!"
-msgstr ""
+msgstr "Attenzione: la stampa è ancora sperimentale!"
 
 #: kab/widget.cc:1370 kab/widget.cc:1412
 msgid "Page size problem"
-msgstr ""
+msgstr "Problema con le dimensioni della pagina"
 
 #: kab/widget.cc:1371 kab/widget.cc:1413
 msgid ""
 "The fields you requested to print do\n"
 "not fit into the page width."
 msgstr ""
+"I campi che hai chiesto di stampare non\n"
+"entrano nella larghezza della pagina."
 
 #: kab/widget.cc:1590 kab/widget.cc:2019
 msgid "Printing finished successfully."
-msgstr ""
+msgstr "Stampa finita con successo."
 
 #: kab/widget.cc:1616
 msgid "kab: Email addresses"
-msgstr ""
+msgstr "kab: Indirizzi email"
 
 #: kab/widget.cc:1617
 msgid "Available email addresses:"
-msgstr ""
+msgstr "Indirizzi email disponibili:"
 
 #: kab/widget.cc:1682
 msgid "kab: Select fields to copy"
-msgstr ""
+msgstr "kab: Secgli campi da copiare"
 
 #: kab/widget.cc:1692
 msgid "Nothing selected."
-msgstr ""
+msgstr "Niente di selezionato."
 
 #: kab/widget.cc:1750 kab/widget.cc:2002
 msgid "KDE addressbook overview"
@@ -2235,7 +2276,7 @@ msgstr ""
 
 #: kab/widget.cc:1794
 msgid "Name-Email-Link (!!)"
-msgstr ""
+msgstr "Nome-Email-Link (!!)"
 
 #
 #: kab/widget.cc:1796
@@ -2244,55 +2285,55 @@ msgstr "Scegli colonne tabella"
 
 #: kab/widget.cc:1801
 msgid "Nothing to export."
-msgstr ""
+msgstr "Niente da esportare."
 
 #: kab/widget.cc:1830
 msgid "Email link"
-msgstr ""
+msgstr "Collegamento Email"
 
 #: kab/widget.cc:1905
 msgid "Could not find the users home directory."
-msgstr ""
+msgstr "Impossibile trovare la home directory degli utenti."
 
 #: kab/widget.cc:1906
 msgid "Intern error!"
-msgstr ""
+msgstr "Errore interno!"
 
 #: kab/widget.cc:1926
 msgid "Could not open the file to create the HTML table."
-msgstr ""
+msgstr "Impossibile aprire il file per creare la tabella HTML."
 
 #: kab/widget.cc:1962
 msgid "Printing cancelled."
-msgstr ""
+msgstr "Stampa annullata."
 
 #: kab/widget.cc:1978
 msgid "kab: Select columns for printing"
-msgstr ""
+msgstr "kab: Scegli le colonne per la stampa"
 
 #: kab/widget.cc:1991
 msgid "Nothing to print."
-msgstr ""
+msgstr "Niente da stampare."
 
 #: kab/widget.cc:2003
 msgid "Page <p>"
-msgstr ""
+msgstr "Pagina <p>"
 
 #: kab/widget.cc:2004
 msgid "KDE - the professionals choice."
-msgstr ""
+msgstr "KDE - la scelta professionale."
 
 #: kab/widget.cc:2017
 msgid "Printing failed!"
-msgstr ""
+msgstr "Stampa fallita!"
 
 #: kab/widget.cc:2048
 msgid "Empty email address."
-msgstr ""
+msgstr "Indirizzo email vuoto."
 
 #: kab/widget.cc:2067
 msgid "No email address."
-msgstr ""
+msgstr "Nessun indirizzo email."
 
 #
 #: kab/widget.cc:2077
@@ -2301,23 +2342,23 @@ msgstr "Errore nella chiamata del mailer."
 
 #: kab/widget.cc:2079
 msgid "Mailer called."
-msgstr ""
+msgstr "Mailer chiamato."
 
 #: kab/widget.cc:2102
 msgid "The mail command must be configured before!"
-msgstr ""
+msgstr "Prima devi configurare il comando per la posta!"
 
 #: kab/widget.cc:2107
 msgid "Mail configuration"
-msgstr ""
+msgstr "Configurazione posta"
 
 #: kab/widget.cc:2108
 msgid "Please configure the parameters for the email command."
-msgstr ""
+msgstr "Per favore imposta i parametri per il comando di email."
 
 #: kab/widget.cc:2146
 msgid "The email command parameters are wrong."
-msgstr ""
+msgstr "I parametri del comando email sono sbagliati."
 
 #: kab/widget.cc:2158
 msgid ""
@@ -2327,15 +2368,15 @@ msgstr ""
 
 #: kab/widget.cc:2162
 msgid "Mail program started."
-msgstr ""
+msgstr "Programma di posta avviato."
 
 #: kio/kio_cache.cc:345
 msgid "KIO Cache"
-msgstr ""
+msgstr "KIO Cache"
 
 #: kio/kio_cache.cc:347
 msgid "Contents of the cache"
-msgstr ""
+msgstr "Contenuti della cache"
 
 #: kio/kio_cache.cc:352
 msgid ""
@@ -2345,11 +2386,11 @@ msgstr ""
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"
-msgstr ""
+msgstr "Data di creazione"
 
 #: kio/kio_cache.cc:357
 msgid "Expiration Date"
-msgstr ""
+msgstr "Data di scadenza"
 
 #
 #: kio/kio_cache.cc:422
@@ -2367,6 +2408,8 @@ msgid ""
 "Could not read\n"
 "%s"
 msgstr ""
+"Impossibile leggere\n"
+"%s"
 
 #: kio/kio_error.cc:19
 #, c-format
@@ -2394,6 +2437,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Errore Interno\n"
+"Per favore manda un bugreport completo a kde-bugs@kde.org\n"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:28
 #, c-format
@@ -2410,6 +2457,8 @@ msgid ""
 "The protocol %s\n"
 " is not supported"
 msgstr ""
+"Il protocollo %s\n"
+" non è supportato"
 
 #: kio/kio_error.cc:34
 #, c-format
@@ -2417,6 +2466,8 @@ msgid ""
 "The protocol %s\n"
 "is only a filter protocol.\n"
 msgstr ""
+"Il protocollo %s\n"
+"è solo un protocollo filtro."
 
 #: kio/kio_error.cc:37
 #, c-format
@@ -2424,6 +2475,8 @@ msgid ""
 "Unsupported action\n"
 "%s"
 msgstr ""
+"Azione non supportata\n"
+"%s"
 
 #: kio/kio_error.cc:40
 #, c-format
@@ -2443,6 +2496,9 @@ msgid ""
 " is a directory,\n"
 "but a file was expected"
 msgstr ""
+"%s\n"
+" è una directory,\n"
+"ma era atteso un file"
 
 #: kio/kio_error.cc:46
 #, c-format
@@ -2460,6 +2516,9 @@ msgid ""
 "%s\n"
 "does already exist"
 msgstr ""
+"Il file o la directory\n"
+"%s\n"
+"esiste già"
 
 #: kio/kio_error.cc:52
 #, c-format
@@ -2467,6 +2526,8 @@ msgid ""
 "%s\n"
 "Access denied"
 msgstr ""
+"%s\n"
+"Accesso negato"
 
 #: kio/kio_error.cc:55
 #, c-format
@@ -2483,6 +2544,8 @@ msgid ""
 "The protocol %s\n"
 "does not implement a directory service"
 msgstr ""
+"Il protocollo %s\n"
+"non implementa un servizio sulle directory"
 
 #: kio/kio_error.cc:61
 #, c-format
@@ -2490,6 +2553,8 @@ msgid ""
 "Found a cyclic link in\n"
 "%s"
 msgstr ""
+"Trovato un collegamento ciclico in\n"
+"%s"
 
 #: kio/kio_error.cc:64
 #, c-format
@@ -2516,6 +2581,8 @@ msgid ""
 "Action has been\n"
 "canceled by the user"
 msgstr ""
+"L'azione è stata\n"
+"annullata dall'utente"
 
 #: kio/kio_error.cc:73
 #, c-format
@@ -2523,6 +2590,8 @@ msgid ""
 "Found a cyclic link while copying\n"
 "%s"
 msgstr ""
+"Trovato un collegamento ciclico durante copia di\n"
+"%s"
 
 #: kio/kio_error.cc:76
 #, c-format
@@ -2530,6 +2599,8 @@ msgid ""
 "Could not create socket for accessing\n"
 "%s"
 msgstr ""
+"Impossibile creare un socket per accedere a\n"
+"%s"
 
 #: kio/kio_error.cc:79
 #, c-format
@@ -2546,6 +2617,8 @@ msgid ""
 "Unknown host\n"
 "%s"
 msgstr ""
+"Host sconosciuto\n"
+"%s"
 
 #: kio/kio_error.cc:85
 #, c-format
@@ -2554,6 +2627,9 @@ msgid ""
 "%s\n"
 "is broken"
 msgstr ""
+"La connessione all'host\n"
+"%s\n"
+"è rotta"
 
 #: kio/kio_error.cc:88
 #, c-format
@@ -2561,6 +2637,8 @@ msgid ""
 "The protocol %s\n"
 "is not a filter protocol"
 msgstr ""
+"Il protocollo %s\n"
+"non è un protocollo filtro"
 
 #: kio/kio_error.cc:91
 #, c-format
@@ -2569,6 +2647,9 @@ msgid ""
 "is a file,\n"
 "but a directory was expected"
 msgstr ""
+"%s\n"
+"è un file,\n"
+"ma era attesa una directory"
 
 #: kio/kio_error.cc:94
 #, c-format
@@ -2578,6 +2659,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Impossibile montare il dispositivo.\n"
+"L'errore riportato è:"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:97
 #, c-format
@@ -2587,6 +2672,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Impossibile smontare il dispositivo.\n"
+"L'errore riportato è:"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:100
 #, c-format
@@ -2595,6 +2684,9 @@ msgid ""
 "%s protocol\n"
 "died unexpectedly"
 msgstr ""
+"Il processo per il\n"
+"protocollo %s\n"
+"è morto inaspettatamente"
 
 #: kio/kio_error.cc:103
 #, c-format
@@ -2613,6 +2705,10 @@ msgid ""
 "\n"
 "Please send a full bugreport to kde-bugs@kde.org"
 msgstr ""
+"Codice errore %i sconosciuto \n"
+"%s\n"
+"\n"
+"Per favore manda un bugreport completo a kde-bugs@kde.org"
 
 #: kio/kio_error.cc:118 kio/kio_linedit_dlg.cc:42 kio/kio_openwith.cc:260
 #: kio/kio_pass_dlg.cc:75 kio/kio_paste.cc:48 kio/kio_paste.cc:60
@@ -2628,7 +2724,7 @@ msgstr "Ok"
 #: kio/kio_job.cc:138
 #, c-format
 msgid "Mounting %s ..."
-msgstr ""
+msgstr "Sto montando %s ..."
 
 #: kio/kio_job.cc:158
 #, c-format
@@ -2637,7 +2733,7 @@ msgstr "Sto smontando %s ..."
 
 #: kio/kio_openwith.cc:133
 msgid "This group is empty!"
-msgstr ""
+msgstr "Questo gruppo è vuoto!"
 
 #
 #: kio/kio_openwith.cc:264
@@ -2650,24 +2746,25 @@ msgstr "Utente"
 
 #: kio/kio_pass_dlg.cc:44 kio/kio_pass_dlg.cc:88
 msgid "Password"
-msgstr ""
+msgstr "Password"
 
 #: kio/kio_paste.cc:48 kio/kio_paste.cc:60
 msgid "The clipboard is empty"
-msgstr ""
+msgstr "Non ci sono appunti"
 
 #: kio/kio_paste.cc:75
 msgid ""
 "Pasting clipboard data is only supported on the local hard disk currently"
 msgstr ""
+"Attualmente incollare gli appunti è possibile solo su hard disk locali"
 
 #: kio/kio_paste.cc:80
 msgid "Filename for clipboard content:"
-msgstr ""
+msgstr "Nome file per gli appunti:"
 
 #: kio/kio_paste.cc:87
 msgid "You did not enter a filename"
-msgstr ""
+msgstr "Non hai immesso un nome file"
 
 #: kio/kio_paste.cc:97
 #, c-format
@@ -2721,7 +2818,7 @@ msgstr "%i:%i:%i"
 #: kio/kio_progress_dlg.cc:201
 #, c-format
 msgid "%i%s  Remaining time: %s"
-msgstr ""
+msgstr "%i%s  Tempo rimasto: %s"
 
 #
 #: kio/kio_progress_dlg.cc:207
@@ -2735,7 +2832,7 @@ msgstr "Creazione dir"
 
 #: kio/kio_progress_dlg.cc:229
 msgid "Fetching file"
-msgstr ""
+msgstr "Recupero file"
 
 #
 #: kio/kio_rename_dlg.cc:33
@@ -2748,7 +2845,7 @@ msgstr "Salta"
 
 #: kio/kio_rename_dlg.cc:41 kio/kio_skip_dlg.cc:28
 msgid "Auto Skip"
-msgstr ""
+msgstr "Auto salta "
 
 #: kio/kio_rename_dlg.cc:47
 msgid "Overwrite"
@@ -2766,7 +2863,7 @@ msgstr "Ripristina"
 #
 #: kio/kio_rename_dlg.cc:64
 msgid "Resume All"
-msgstr ""
+msgstr "Ripristina tutto"
 
 #: kio/kio_rename_dlg.cc:75
 msgid "You try to overwrite"
@@ -2782,11 +2879,11 @@ msgstr "o rinomina in"
 
 #: kio/kio_rename_dlg.cc:119
 msgid "already exists."
-msgstr ""
+msgstr "esiste già."
 
 #: kio/kio_rename_dlg.cc:124
 msgid "Do you want to rename it ?"
-msgstr ""
+msgstr "Vuoi  rinominarlo ?"
 
 #
 #: kio/kio_rename_dlg.cc:215
@@ -2795,7 +2892,7 @@ msgstr "URL maldefinita\n"
 
 #: kio/kio_rename_dlg.cc:224
 msgid "You must not change the protocol"
-msgstr ""
+msgstr "Non devi cambiare il protocollo"
 
 #
 #: kio/kio_skip_dlg.cc:35
@@ -2813,7 +2910,7 @@ msgstr "Nessun Mime Type installato!"
 
 #: kio/kmimetypes.cc:85
 msgid "Could not find mime type\n"
-msgstr ""
+msgstr "Impossibile trovare mimetype\n"
 
 #: kio/kmimetypes.cc:131
 msgid "The mime type config file "
@@ -2830,6 +2927,9 @@ msgid ""
 "%s\n"
 "has no Type=... entry"
 msgstr ""
+"Il file kdelnk\n"
+"%s\n"
+"non ha la voce Type=..."
 
 #: kio/kmimetypes.cc:504
 #, c-format
@@ -2838,6 +2938,9 @@ msgid ""
 "%s\n"
 "is unknown"
 msgstr ""
+"Il tipo di kdelnk\n"
+"%s\n"
+"è sconosciuto"
 
 #: kio/kmimetypes.cc:518 kio/kmimetypes.cc:598 kio/kmimetypes.cc:690
 #, c-format
@@ -2846,6 +2949,9 @@ msgid ""
 "%s\n"
 "is of type FSDevice but has no Dev=... entry"
 msgstr ""
+"Il file kdelnk\n"
+"%s\n"
+"è del tipo FSDevice ma non ha la voce Dev=..."
 
 #: kio/kmimetypes.cc:565
 #, c-format
@@ -2853,7 +2959,9 @@ msgid ""
 "The kdelnk file\n"
 "%s\n"
 "is of type Link but has no URL=... entry"
-msgstr ""
+msgstr "\n"
+"%s\n"
+"è del tipo Link ma non ha la voce URL=..."
 
 #
 #: kio/kmimetypes.cc:608
@@ -2872,10 +2980,14 @@ msgid ""
 " has an invalid menu entry\n"
 "%s"
 msgstr ""
+"Il file kdelnk\n"
+"%s\n"
+" ha una voce menu non valida\n"
+"%s"
 
 #: kio/kregfactories.cc:72
 msgid "The mime type _cfg file "
-msgstr ""
+msgstr "Il file mimetype _cfg"
 
 #: kio/krun.cc:39
 #, c-format
@@ -2884,13 +2996,18 @@ msgid ""
 "%s\n"
 "Access denied"
 msgstr ""
+"Impossibile entrare in\n"
+"%s\n"
+"Accesso negato"
 
 #: kio/kservices.cc:111
 msgid "The application config file\n"
-msgstr ""
+msgstr "Il file di configurazione dell'applicazione\n"
 
 #: kio/kservices.cc:113
 msgid ""
 "\n"
 "does not conatain a Name=... entry"
 msgstr ""
+"\n"
+"non contiene la voce Name=..."
