@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-03 15:26+0100\n"
+"POT-Creation-Date: 1998-01-03 16:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,26 +14,26 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: kdecore/kapp.cpp:407
+#: kdecore/kapp.cpp:410
 #, fuzzy
 msgid "&Help..."
 msgstr "Nápovìda"
 
-#: kdecore/kapp.cpp:412
+#: kdecore/kapp.cpp:415
 #, fuzzy
 msgid "&About"
 msgstr "Informace"
 
-#: kdecore/kapp.cpp:416
+#: kdecore/kapp.cpp:419
 #, fuzzy
 msgid "About &KDE..."
 msgstr "Informace o KDE"
 
-#: kdecore/kapp.cpp:437
+#: kdecore/kapp.cpp:440
 msgid "About KDE"
 msgstr "Informace o KDE"
 
-#: kdecore/kapp.cpp:439
+#: kdecore/kapp.cpp:442
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
@@ -73,17 +73,16 @@ msgid "Add to Custom Colors"
 msgstr "Pøidat k vlastním barvám"
 
 #: kdeui/kcolordlg.cpp:461 kdeui/kfontdialog.cpp:351
-#: kdeui/kiconloaderdialog.cpp:210 po.old/texts.cpp:36 po/texts.cpp:36
+#: kdeui/kiconloaderdialog.cpp:210 po/texts.cpp:37
 msgid "Ok"
 msgstr "Ok"
 
 #: kdeui/kcolordlg.cpp:464 kdeui/kcontrol.cpp:41 kdeui/kfontdialog.cpp:346
-#: kdeui/kiconloaderdialog.cpp:211 po.old/texts.cpp:39 po/texts.cpp:39
+#: kdeui/kiconloaderdialog.cpp:211 po/texts.cpp:40
 msgid "Cancel"
 msgstr "Zru¹it"
 
-#: kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34 po.old/texts.cpp:43
-#: po/texts.cpp:43
+#: kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34 po/texts.cpp:45
 msgid "Help"
 msgstr "Nápovìda"
 
@@ -91,11 +90,11 @@ msgstr "Nápovìda"
 msgid "Custom..."
 msgstr "Vlastní..."
 
-#: kdeui/kcontrol.cpp:39 po.old/texts.cpp:35 po/texts.cpp:35
+#: kdeui/kcontrol.cpp:39 po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
 
-#: kdeui/kcontrol.cpp:40 po.old/texts.cpp:40 po/texts.cpp:40
+#: kdeui/kcontrol.cpp:40 po/texts.cpp:42
 msgid "Apply"
 msgstr "Pøevzít"
 
@@ -115,8 +114,7 @@ msgstr "Aktuální znaková sada"
 msgid "Family:"
 msgstr "Rodina:"
 
-#: kdeui/kfontdialog.cpp:188 kdeui/kfontdialog.cpp:194 po.old/texts.cpp:26
-#: po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:188 kdeui/kfontdialog.cpp:194 po/texts.cpp:26
 msgid "Charset:"
 msgstr "Kódování:"
 
@@ -208,7 +206,7 @@ msgstr "Plovoucí"
 msgid "UnFloat"
 msgstr "Pøipevnit"
 
-#: kdeui/kpopmenu.cpp:10 po.old/texts.cpp:34 po/texts.cpp:34
+#: kdeui/kpopmenu.cpp:10 po/texts.cpp:34
 msgid "Untitled"
 msgstr "Nepojmenovaný"
 
@@ -225,311 +223,321 @@ msgid "Right"
 msgstr "Vpravo"
 
 # general messages, that are often used
-#: po.old/texts.cpp:24 po/texts.cpp:24
+#: po/texts.cpp:24
 msgid "Error"
 msgstr "Chyba"
 
-#: po.old/texts.cpp:25 po/texts.cpp:25
+#: po/texts.cpp:25
 msgid "Malformed URL"
 msgstr "URL má chybný formát"
 
-#: po.old/texts.cpp:27 po/texts.cpp:27
+#: po/texts.cpp:27
 msgid "Yes"
 msgstr "Ano"
 
-#: po.old/texts.cpp:28 po/texts.cpp:28
+#: po/texts.cpp:28
 msgid "No"
 msgstr "Ne"
 
-#: po.old/texts.cpp:29 po/texts.cpp:29
+#: po/texts.cpp:29
 msgid "Warning"
 msgstr "Varování"
 
-#: po.old/texts.cpp:30 po/texts.cpp:30
+#: po/texts.cpp:30
 msgid "Save a file"
 msgstr "Ulo¾it soubor"
 
-#: po.old/texts.cpp:31 po/texts.cpp:31
+#: po/texts.cpp:31
 msgid "Contents"
 msgstr "Obsah"
 
-#: po.old/texts.cpp:32 po/texts.cpp:32
+#: po/texts.cpp:32
 msgid "About"
 msgstr "Informace"
 
-#: po.old/texts.cpp:33 po/texts.cpp:33
+#: po/texts.cpp:33
 #, fuzzy
 msgid "A&bout..."
 msgstr "Informace"
 
-#: po.old/texts.cpp:37 po/texts.cpp:37
+#: po/texts.cpp:36
+#, fuzzy
+msgid "&OK"
+msgstr "OK"
+
+#: po/texts.cpp:38
 #, fuzzy
 msgid "On"
 msgstr "Otevøít"
 
-#: po.old/texts.cpp:38 po/texts.cpp:38
+#: po/texts.cpp:39
 msgid "Off"
 msgstr ""
 
-#: po.old/texts.cpp:41 po/texts.cpp:41
+#: po/texts.cpp:41
+#, fuzzy
+msgid "&Cancel"
+msgstr "Zru¹it"
+
+#: po/texts.cpp:43
 msgid "File"
 msgstr "Soubor"
 
-#: po.old/texts.cpp:42 po/texts.cpp:42
+#: po/texts.cpp:44
 #, fuzzy
 msgid "&File"
 msgstr "Soubor"
 
-#: po.old/texts.cpp:44 po/texts.cpp:44
+#: po/texts.cpp:46
 #, fuzzy
 msgid "&Help"
 msgstr "Nápovìda"
 
-#: po.old/texts.cpp:45 po/texts.cpp:45
+#: po/texts.cpp:47
 msgid "Edit"
 msgstr "Úpravy"
 
-#: po.old/texts.cpp:46 po/texts.cpp:46
+#: po/texts.cpp:48
 #, fuzzy
 msgid "&Edit"
 msgstr "Úpravy"
 
-#: po.old/texts.cpp:47 po/texts.cpp:47
+#: po/texts.cpp:49
 msgid "&Options"
 msgstr ""
 
-#: po.old/texts.cpp:48 po/texts.cpp:48
+#: po/texts.cpp:50
 msgid "View"
 msgstr ""
 
-#: po.old/texts.cpp:49 po/texts.cpp:49
+#: po/texts.cpp:51
 #, fuzzy
 msgid "&View"
 msgstr "Soubor"
 
-#: po.old/texts.cpp:50 po/texts.cpp:50
+#: po/texts.cpp:52
 #, fuzzy
 msgid "E&xit"
 msgstr "Úpravy"
 
-#: po.old/texts.cpp:51 po/texts.cpp:51
+#: po/texts.cpp:53
 msgid "Quit"
 msgstr "Ukonèit"
 
-#: po.old/texts.cpp:52 po/texts.cpp:52
+#: po/texts.cpp:54
 #, fuzzy
 msgid "&Quit"
 msgstr "Ukonèit"
 
-#: po.old/texts.cpp:53 po/texts.cpp:53
+#: po/texts.cpp:55
 msgid "Reload"
 msgstr ""
 
-#: po.old/texts.cpp:54 po/texts.cpp:54
+#: po/texts.cpp:56
 msgid "Back"
 msgstr ""
 
-#: po.old/texts.cpp:55 po/texts.cpp:55
+#: po/texts.cpp:57
 msgid "Forward"
 msgstr ""
 
-#: po.old/texts.cpp:56 po/texts.cpp:56
+#: po/texts.cpp:58
 msgid "Copy"
 msgstr ""
 
-#: po.old/texts.cpp:57 po/texts.cpp:57
+#: po/texts.cpp:59
 msgid "&Copy"
 msgstr ""
 
-#: po.old/texts.cpp:58 po/texts.cpp:58
+#: po/texts.cpp:60
 msgid "Paste"
 msgstr ""
 
-#: po.old/texts.cpp:59 po/texts.cpp:59
+#: po/texts.cpp:61
 msgid "&Paste"
 msgstr ""
 
-#: po.old/texts.cpp:60 po/texts.cpp:60
+#: po/texts.cpp:62
 msgid "New"
 msgstr ""
 
-#: po.old/texts.cpp:61 po/texts.cpp:61
+#: po/texts.cpp:63
 msgid "&New"
 msgstr ""
 
-#: po.old/texts.cpp:62 po/texts.cpp:62
+#: po/texts.cpp:64
 #, fuzzy
 msgid "&New..."
 msgstr "Otevøít"
 
-#: po.old/texts.cpp:63 po/texts.cpp:63
+#: po/texts.cpp:65
 msgid "&New Window..."
 msgstr ""
 
-#: po.old/texts.cpp:64 po/texts.cpp:64
+#: po/texts.cpp:66
 msgid "New &Window..."
 msgstr ""
 
-#: po.old/texts.cpp:65 po/texts.cpp:65
+#: po/texts.cpp:67
 #, fuzzy
 msgid "New Game"
 msgstr "Ulo¾it"
 
-#: po.old/texts.cpp:66 po/texts.cpp:66
+#: po/texts.cpp:68
 #, fuzzy
 msgid "&New Game"
 msgstr "Ulo¾it"
 
-#: po.old/texts.cpp:67 po/texts.cpp:67
+#: po/texts.cpp:69
 msgid "Open"
 msgstr "Otevøít"
 
-#: po.old/texts.cpp:68 po/texts.cpp:68
+#: po/texts.cpp:70
 msgid "Open a file"
 msgstr "Otevøít soubor"
 
-#: po.old/texts.cpp:69 po/texts.cpp:69
+#: po/texts.cpp:71
 #, fuzzy
 msgid "Open..."
 msgstr "Otevøít"
 
-#: po.old/texts.cpp:70 po/texts.cpp:70
+#: po/texts.cpp:72
 #, fuzzy
 msgid "&Open..."
 msgstr "Otevøít"
 
-#: po.old/texts.cpp:71 po/texts.cpp:71
+#: po/texts.cpp:73
 msgid "Cut"
 msgstr ""
 
-#: po.old/texts.cpp:72 po/texts.cpp:72
+#: po/texts.cpp:74
 #, fuzzy
 msgid "C&ut"
 msgstr "Ukonèit"
 
-#: po.old/texts.cpp:73 po/texts.cpp:73
+#: po/texts.cpp:75
 #, fuzzy
 msgid "Font"
 msgstr "Plovoucí"
 
-#: po.old/texts.cpp:74 po/texts.cpp:74
+#: po/texts.cpp:76
 msgid "&Foreground Color"
 msgstr ""
 
-#: po.old/texts.cpp:75 po/texts.cpp:75
+#: po/texts.cpp:77
 msgid "&Background Color"
 msgstr ""
 
-#: po.old/texts.cpp:76 po/texts.cpp:76
+#: po/texts.cpp:78
 msgid "Save"
 msgstr "Ulo¾it"
 
-#: po.old/texts.cpp:77 po/texts.cpp:77
+#: po/texts.cpp:79
 #, fuzzy
 msgid "&Save"
 msgstr "Ulo¾it"
 
-#: po.old/texts.cpp:78 po/texts.cpp:78
+#: po/texts.cpp:80
 msgid "Save As"
 msgstr "Ulo¾it jako"
 
-#: po.old/texts.cpp:79 po/texts.cpp:79
+#: po/texts.cpp:81
 #, fuzzy
 msgid "Save as..."
 msgstr "Ulo¾it jako"
 
-#: po.old/texts.cpp:80 po/texts.cpp:80
+#: po/texts.cpp:82
 #, fuzzy
 msgid "S&ave as..."
 msgstr "Ulo¾it jako"
 
-#: po.old/texts.cpp:81 po/texts.cpp:81
+#: po/texts.cpp:83
 msgid "Close"
 msgstr "Zavøít"
 
-#: po.old/texts.cpp:82 po/texts.cpp:82
+#: po/texts.cpp:84
 #, fuzzy
 msgid "&Close"
 msgstr "Zavøít"
 
-#: po.old/texts.cpp:83 po/texts.cpp:83
+#: po/texts.cpp:85
 msgid "&Print..."
 msgstr ""
 
-#: po.old/texts.cpp:84 po/texts.cpp:84
+#: po/texts.cpp:86
 msgid "Done"
 msgstr ""
 
-#: po.old/texts.cpp:85 po/texts.cpp:85
+#: po/texts.cpp:87
 msgid "Sorry"
 msgstr ""
 
-#: po.old/texts.cpp:86 po/texts.cpp:86
+#: po/texts.cpp:88
 msgid "Options"
 msgstr ""
 
-#: po.old/texts.cpp:87 po/texts.cpp:87
+#: po/texts.cpp:89
 msgid "Remove"
 msgstr ""
 
-#: po.old/texts.cpp:88 po/texts.cpp:88
+#: po/texts.cpp:90
 msgid "Add"
 msgstr ""
 
-#: po.old/texts.cpp:89 po/texts.cpp:89
+#: po/texts.cpp:91
 #, fuzzy
 msgid "Change"
 msgstr "Zru¹it"
 
-#: po.old/texts.cpp:90 po/texts.cpp:90
+#: po/texts.cpp:92
 msgid "Delete"
 msgstr ""
 
-#: po.old/texts.cpp:91 po/texts.cpp:91
+#: po/texts.cpp:93
 msgid "&Delete"
 msgstr ""
 
-#: po.old/texts.cpp:92 po/texts.cpp:92
+#: po/texts.cpp:94
 #, fuzzy
 msgid "Clear"
 msgstr "Zavøít"
 
-#: po.old/texts.cpp:93 po/texts.cpp:93
+#: po/texts.cpp:95
 #, fuzzy
 msgid "Italic"
 msgstr "italic"
 
-#: po.old/texts.cpp:94 po/texts.cpp:94
+#: po/texts.cpp:96
 #, fuzzy
 msgid "Roman"
 msgstr "roman"
 
-#: po.old/texts.cpp:95 po/texts.cpp:95
+#: po/texts.cpp:97
 msgid "Undo"
 msgstr ""
 
-#: po.old/texts.cpp:96 po/texts.cpp:96
+#: po/texts.cpp:98
 msgid "&Undo"
 msgstr ""
 
-#: po.old/texts.cpp:97 po/texts.cpp:97
+#: po/texts.cpp:99
 msgid "Redo"
 msgstr ""
 
-#: po.old/texts.cpp:98 po/texts.cpp:98
+#: po/texts.cpp:100
 msgid "&Redo"
 msgstr ""
 
-#: po.old/texts.cpp:99 po/texts.cpp:99
+#: po/texts.cpp:101
 #, fuzzy
 msgid "&Game"
 msgstr "Ulo¾it"
 
-#: po.old/texts.cpp:100 po/texts.cpp:100
+#: po/texts.cpp:102
 msgid "Information"
 msgstr ""
 
-#: po.old/texts.cpp:101 po/texts.cpp:101
+#: po/texts.cpp:103
 msgid "Browse..."
 msgstr ""
 
