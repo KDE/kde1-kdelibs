@@ -285,7 +285,7 @@ msgstr "Stärke:"
 
 #: kdeui/kfontdialog.cpp:229 kdeui/kfontdialog.cpp:237
 msgid "Style:"
-msgstr "Schnitt:"
+msgstr "Stil:"
 
 #: kdeui/kfontdialog.cpp:272
 msgid "Charset"
