@@ -38,13 +38,12 @@ msgid ""
 "Please report bugs at http://buglist.kde.org.\n"
 msgstr ""
 "\n"
-"KDE Desktop ympäristön on kehittänyt KDE ryhmä joka on\n"
-"maailmanlaajuinen joukko ohjelmistonkehittäjiä joka\n"
-"osallistuu vapaaseen ohjelmistokehitykseen.\n"
+"KDE Desktop -ympäristön on kehittänyt KDE-ryhmä, joka on\n"
+"maailmanlaajuinen joukko ohjelmistonkehittäjiä, jotka\n"
+"osallistuvat vapaaseen ohjelmistokehitykseen.\n"
 "\n"
 "Vieraile osoitteessa http://www.kde.org saadaksesi lisää\n"
-"tietoa KDE projektista. Harkitse myls liittymistä KDE:n kehitykseen.\n"
-"\n"
+"tietoa KDE-projektista. Harkitse myös liittymistä KDE:n \n"
 "Raportoi virheet osoitteeseen http://buglist.kde.org.\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416
@@ -259,7 +258,7 @@ msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
-"En saanut talletettua asikirjaa.\n"
+"En saanut talletettua asiakirjaa.\n"
 "Luo uusi asiakirja kuitenkin?"
 
 #: kdeui/keditcl1.cpp:530 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
@@ -426,7 +425,7 @@ msgstr "Normaali"
 
 #: kdeui/kiconloaderdialog.cpp:237
 msgid "Select Icon"
-msgstr "Valitse ikoni"
+msgstr "Valitse kuvake"
 
 #: kdeui/kiconloaderdialog.cpp:242
 msgid "Filter:"
@@ -576,15 +575,15 @@ msgstr "Näytä piilotiedostot"
 
 #: kfile/kfiledialog.cpp:487
 msgid "Error: Not local file"
-msgstr "Virhe: Ei paikallinen tiedosto"
+msgstr "Virhe: Ei ole paikallinen tiedosto"
 
 #: kfile/kfiledialog.cpp:488
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
 msgstr ""
-"Määritelty hakemisto ei ole paikallinen hakemisto\n"
-"Mutta sovellus hyväksyy vain paikalliset tiedostot."
+"Määritelty hakemisto ei ole paikallinen hakemisto,\n"
+"mutta sovellus hyväksyy vain paikalliset tiedostot."
 
 #: kfile/kfiledialog.cpp:502 kfile/kfiledialog.cpp:608
 msgid "Error: Cannot Open Directory"
