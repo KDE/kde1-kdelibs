@@ -67,15 +67,15 @@ msgstr "Éditer"
 # libkdeui messages
 #: kcolordlg.cpp:239
 msgid "Select Color"
-msgstr "Selection couleure"
+msgstr "Selection couleur"
 
 #: kcolordlg.cpp:244
 msgid "System Colors"
-msgstr "Couleures de Systemes"
+msgstr "Couleurs de Systèmes"
 
 #: kcolordlg.cpp:269
 msgid "Custom Colors"
-msgstr "Couleures personnalisées"
+msgstr "Couleurs personnalisées"
 
 #: kcolordlg.cpp:345
 msgid "Add to Custom Colors"
@@ -115,7 +115,7 @@ msgstr "Style:"
 
 #: kfontdialog.cpp:190
 msgid "Size"
-msgstr "Taille:"
+msgstr "Taille"
 
 #: kfontdialog.cpp:229
 msgid "Weight"
@@ -123,7 +123,7 @@ msgstr "Poids:"
 
 #: kfontdialog.cpp:230 kfontdialog.cpp:327
 msgid "normal"
-msgstr "normale"
+msgstr "normal"
 
 #: kfontdialog.cpp:231 kfontdialog.cpp:329
 msgid "bold"
@@ -151,7 +151,7 @@ msgstr "Gras"
 
 #: kfontdialog.cpp:364
 msgid "Normal"
-msgstr "Normale"
+msgstr "Normal"
 
 #: kiconloader.cpp:176
 msgid "Select Icon"
