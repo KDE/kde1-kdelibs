@@ -1,53 +1,42 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: kde\n"
-"POT-Creation-Date: 1998-06-21 18:14+0200\n"
-"PO-Revision-Date: 1998-06-23 09:00-0300\n"
-"Last-Translator:Elvis Pfützenreuter <epx@netville.com.br>\n"
+msgstr "Project-Id-Version: kde\n"
+       "POT-Creation-Date: 1998-03-21 18:32+0300\n"
+       "PO-Revision-Date: 1998-06-23 09:00-0300\n"
+       "Last-Translator:Elvis Pfützenreuter <epx@netville.com.br>\n"
 
-#: kdecore/kapp.cpp:494
+#: kdecore/kapp.cpp:490
 msgid "&Contents"
 msgstr "&Conteúdo"
 
-#: kdecore/kapp.cpp:500
+#: kdecore/kapp.cpp:496
 msgid "&About"
 msgstr "&Sobre"
 
-#: kdecore/kapp.cpp:507
+#: kdecore/kapp.cpp:503
 msgid "About &KDE..."
 msgstr "Sobre o &KDE..."
 
-#: kdecore/kapp.cpp:528
+#: kdecore/kapp.cpp:524
 msgid "About KDE"
 msgstr "Sobre o KDE"
 
-#: kdecore/kapp.cpp:530
-#, fuzzy
+#: kdecore/kapp.cpp:526
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
-"a world-wide network of software engineers committed to\n"
+"a world-wide network of software engineers commited to\n"
 "free software development.\n"
 "\n"
 "Visit http://www.kde.org for more information on the KDE\n"
 "Project. Please consider joining and supporting KDE.\n"
 "\n"
 "Please report bugs at http://buglist.kde.org.\n"
-msgstr ""
-"\n"
-"O Ambiente Gráfico KDE foi desenvolvido pelo Time KDE,\n"
-"uma rede mundial de engenheiros de software comprometidos\n"
-"com o desenvolvimento de software gratuito.\n"
-"\n"
-"Visite http://www.kde.org para maiores informações sobre\n"
-"o Projeto KDE. Considere juntar-se à equipe KDE.\n"
-"\n"
-"Favor reportar bugs no site http://buglist.kde.org.\n"
+msgstr "\nO Ambiente Gráfico KDE foi desenvolvido pelo Time KDE,\n"
+       "uma rede mundial de engenheiros de software comprometidos\n"
+       "com o desenvolvimento de software gratuito.\n\n"
+       "Visite http://www.kde.org para maiores informações sobre\n"
+       "o Projeto KDE. Considere juntar-se à equipe KDE."
+       "\n\nFavor reportar bugs no site http://buglist.kde.org.\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416
 #: kdeui/keditcl1.cpp:477 kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573
@@ -240,17 +229,15 @@ msgstr "Aviso:"
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
-msgstr ""
-"O Documento atual foi modificado.\n"
-"Gostaria de gravá-lo?"
+msgstr "O Documento atual foi modificado.\n"
+       "Gostaria de gravá-lo?"
 
 #: kdeui/keditcl1.cpp:414
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
-msgstr ""
-"Não consegui gravar o documento.\n"
-"Abrir um novo documento de qualquer modo?"
+msgstr "Não consegui gravar o documento.\n"
+       "Abrir um novo documento de qualquer modo?"
 
 #: kdeui/keditcl1.cpp:445
 msgid "Select Document to Open"
@@ -260,9 +247,8 @@ msgstr "Selecione documento a ser aberto"
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
-msgstr ""
-"Não consegui gravar o documento.\n"
-"Criar um novo documento de qualquer modo?"
+msgstr "Não consegui gravar o documento.\n"
+       "Criar um novo documento de qualquer modo?"
 
 #: kdeui/keditcl1.cpp:530 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
 msgid "Untitled"
@@ -280,9 +266,8 @@ msgstr "Salvar Documento Como"
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
-msgstr ""
-"Um Documento com este Nome já existe\n"
-"Quer sobrescrevê-lo ?"
+msgstr "Um Documento com este Nome já existe\n"
+       "Quer sobrescrevê-lo ?"
 
 #: kdeui/keditcl1.cpp:1628
 msgid "You do not have write permission to this file.\n"
@@ -298,18 +283,16 @@ msgstr "Procurar"
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
-msgstr ""
-"Fim do documento atingido.\n"
-"Continuar do princípio?"
+msgstr "Fim do documento atingido.\n"
+       "Continuar do princípio?"
 
 #: kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426
 #: kdeui/keditcl2.cpp:473
 msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
-msgstr ""
-"Inicio do documento atingido.\n"
-"Continuar do fim?"
+msgstr "Inicio do documento atingido.\n"
+       "Continuar do fim?"
 
 #: kdeui/keditcl2.cpp:425 kdeui/keditcl2.cpp:455 kdeui/keditcl2.cpp:472
 #: kdeui/keditcl2.cpp:791
@@ -584,8 +567,8 @@ msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
 msgstr ""
-"O diretório especifico não é local\n"
-"mas a aplicação só aceita arquivos locais."
+       "O diretório especifico não é local\n"
+       "mas a aplicação só aceita arquivos locais."
 
 #: kfile/kfiledialog.cpp:502 kfile/kfiledialog.cpp:608
 msgid "Error: Cannot Open Directory"
@@ -596,8 +579,8 @@ msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
 msgstr ""
-"O arquivo especificado não existe\n"
-"ou não está acessível para leitura."
+       "O arquivo especificado não existe\n"
+       "ou não está acessível para leitura."
 
 #: kfile/kfiledialog.cpp:505 kfile/kfiledialog.cpp:611
 msgid "Dismiss"
@@ -682,16 +665,16 @@ msgid ""
 "Mario Weilguni <mweilguni@sime.com>\n"
 "and Martin Jones <mjones@kde.org>"
 msgstr ""
-"Seletor de Arquivos KDE por:\n"
-"\n"
-"Richard Moore <rich@kde.org>\n"
-"Stephan Kulow <coolo@kde.org>\n"
-"e Daniel Grana <grana@ie.iwi.unibe.ch>\n"
-"\n"
-"com contribuições de\n"
-"\n"
-"Mario Weilguni <mweilguni@sime.com>\n"
-"e Martin Jones <mjones@kde.org>"
+       "Seletor de Arquivos KDE por:\n"
+       "\n"
+       "Richard Moore <rich@kde.org>\n"
+       "Stephan Kulow <coolo@kde.org>\n"
+       "e Daniel Grana <grana@ie.iwi.unibe.ch>\n"
+       "\n"
+       "com contribuições de\n"
+       "\n"
+       "Mario Weilguni <mweilguni@sime.com>\n"
+       "e Martin Jones <mjones@kde.org>"
 
 #: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
 msgid "About"
@@ -826,9 +809,8 @@ msgstr "pasta"
 msgid ""
 "You dont have the file %s\n"
 "Could not do Authorization"
-msgstr ""
-"Você não tem o arquivo %s\n"
-"Não posso proceder à Autorização"
+msgstr "Você não tem o arquivo %s\n"
+       "Não posso proceder à Autorização"
 
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
 msgid "KFM Error"
@@ -839,9 +821,8 @@ msgstr "Erro do KFM"
 msgid ""
 "The file %s is corrupted\n"
 "Could not do Authorization"
-msgstr ""
-"O arquivo %s está corrompido\n"
-"Não posso proceder à Autorização"
+msgstr "O arquivo %s está corrompido\n"
+       "Não posso proceder à Autorização"
 
 #: po/texts.cpp:24
 msgid "Error"
