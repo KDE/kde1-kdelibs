@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdehelp 0.5.2\n"
-"POT-Creation-Date: 1998-03-14 22:49+0100\n"
+"POT-Creation-Date: 1998-04-10 11:17+0200\n"
 "PO-Revision-Date: 1997-09-21 19:39+MET\n"
 "Last-Translator: John Zero <johnzero@telnet.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -14,75 +14,77 @@ msgstr ""
 "Content-Type: text/plain; charset=Latin2\n"
 "Content-Transfer-Encoding: iso-8859-2\n"
 
-#: kdecore/kapp.cpp:439
+#: kdecore/kapp.cpp:484
 msgid "&Contents"
 msgstr "&Tartalom"
 
-#: kdecore/kapp.cpp:444
+#: kdecore/kapp.cpp:490
 msgid "&About"
 msgstr "&Névjegy"
 
-#: kdecore/kapp.cpp:448
+#: kdecore/kapp.cpp:497
 msgid "About &KDE..."
 msgstr "&KDE Névjegy"
 
-#: kdecore/kapp.cpp:469
+#: kdecore/kapp.cpp:518
 msgid "About KDE"
 msgstr "&KDE Névjegy"
 
-#: kdecore/kapp.cpp:471
+#: kdecore/kapp.cpp:520
 msgid ""
-"The KDE Desktop Environment was written by the KDE team.\n"
+"\n"
+"The KDE Desktop Environment was written by the KDE Team,\n"
+"a world-wide network of software engineers commited to\n"
+"free software development.\n"
+"\n"
+"Visit http://www.kde.org for more information on the KDE\n"
+"Project. Please consider joining and supporting KDE.\n"
 "\n"
 "Please report bugs at http://buglist.kde.org.\n"
-"\n"
-"\n"
-"KDE was developed with Qt, a cross-platform GUI library.\n"
-"\n"
-"Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
-"Qt may be used freely to develop free software on the X Window System.\n"
 msgstr ""
 
 # libkdeui messages
-#: kdeui/kcolordlg.cpp:283
+#: kdeui/kcolordlg.cpp:285
 msgid "Select Color"
 msgstr "Szín kiválasztása"
 
-#: kdeui/kcolordlg.cpp:295
+#: kdeui/kcolordlg.cpp:297
 msgid "System Colors"
 msgstr "Rendszerpaletta"
 
-#: kdeui/kcolordlg.cpp:326
+#: kdeui/kcolordlg.cpp:328
 msgid "Custom Colors"
 msgstr "Saját paletta"
 
-#: kdeui/kcolordlg.cpp:339
+#: kdeui/kcolordlg.cpp:341
 msgid "Add to Custom Colors"
 msgstr "Saját palettához ad"
 
-#: kdeui/kcolordlg.cpp:461 kdeui/kfontdialog.cpp:322
-#: kdeui/kiconloaderdialog.cpp:210 po/texts.cpp:37
+#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:339
+#: kdeui/kiconloaderdialog.cpp:210 kfile/kfiledialog.cpp:886 po/texts.cpp:37
 msgid "Ok"
 msgstr ""
 
-#: kdeui/kcolordlg.cpp:464 kdeui/kcontrol.cpp:41 kdeui/keditcl1.cpp:397
-#: kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897 kdeui/kfontdialog.cpp:317
-#: kdeui/kiconloaderdialog.cpp:211 kdeui/kmsgbox.cpp:509 po/texts.cpp:40
+#: kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:41 kdeui/keditcl1.cpp:397
+#: kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897 kdeui/kfontdialog.cpp:334
+#: kdeui/kiconloaderdialog.cpp:211 kdeui/kmsgbox.cpp:505
+#: kfile/kfiledialog.cpp:288 kfile/kfiledialog.cpp:891 po/texts.cpp:40
 msgid "Cancel"
 msgstr "Mégsem"
 
-#: kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34 po/texts.cpp:45
+#: kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34 kfile/kfiledialog.cpp:294
+#: po/texts.cpp:45
 msgid "Help"
 msgstr "Segítség"
 
-#: kdeui/kcolordlg.cpp:786 kdeui/kcolordlg.cpp:838
+#: kdeui/kcolordlg.cpp:788 kdeui/kcolordlg.cpp:840
 msgid "Custom..."
 msgstr "Saját..."
 
 #: kdeui/kcontrol.cpp:39 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
-#: kdeui/keditcl1.cpp:1473 kdeui/keditcl1.cpp:1630 kdeui/kmsgbox.cpp:477
-#: po/texts.cpp:35
+#: kdeui/keditcl1.cpp:1473 kdeui/keditcl1.cpp:1630 kdeui/kmsgbox.cpp:473
+#: kfile/kfiledialog.cpp:282 kfile/kfiledialog.cpp:501 po/texts.cpp:35
 msgid "OK"
 msgstr ""
 
@@ -136,7 +138,7 @@ msgstr ""
 #: kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573 kdeui/keditcl2.cpp:108
 #: kdeui/keditcl2.cpp:125 kdeui/keditcl2.cpp:365 kdeui/keditcl2.cpp:382
 #: kdeui/keditcl2.cpp:428 kdeui/keditcl2.cpp:458 kdeui/keditcl2.cpp:475
-#: kdeui/kmsgbox.cpp:492 kdeui/kmsgbox.cpp:507 po/texts.cpp:27
+#: kdeui/kmsgbox.cpp:488 kdeui/kmsgbox.cpp:503 po/texts.cpp:27
 msgid "Yes"
 msgstr "Igen"
 
@@ -144,7 +146,7 @@ msgstr "Igen"
 #: kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1574 kdeui/keditcl2.cpp:109
 #: kdeui/keditcl2.cpp:126 kdeui/keditcl2.cpp:366 kdeui/keditcl2.cpp:383
 #: kdeui/keditcl2.cpp:429 kdeui/keditcl2.cpp:459 kdeui/keditcl2.cpp:476
-#: kdeui/kmsgbox.cpp:490 kdeui/kmsgbox.cpp:505 po/texts.cpp:28
+#: kdeui/kmsgbox.cpp:486 kdeui/kmsgbox.cpp:501 po/texts.cpp:28
 msgid "No"
 msgstr "Nem"
 
@@ -252,81 +254,81 @@ msgstr "Ugrás sorra"
 msgid "Go"
 msgstr "Mehet"
 
-#: kdeui/kfontdialog.cpp:132
+#: kdeui/kfontdialog.cpp:141
 msgid "Select Font"
 msgstr "Kiválasztott betûtípus"
 
-#: kdeui/kfontdialog.cpp:136
+#: kdeui/kfontdialog.cpp:145
 msgid "Requested Font"
 msgstr "Kért betûtípus"
 
-#: kdeui/kfontdialog.cpp:141
+#: kdeui/kfontdialog.cpp:150
 msgid "Actual Font"
 msgstr "Tényleges betûtípus"
 
-#: kdeui/kfontdialog.cpp:145 kdeui/kfontdialog.cpp:149
+#: kdeui/kfontdialog.cpp:154 kdeui/kfontdialog.cpp:158
 msgid "Family:"
 msgstr "Család:"
 
-#: kdeui/kfontdialog.cpp:156 kdeui/kfontdialog.cpp:162 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:165 kdeui/kfontdialog.cpp:171 po/texts.cpp:26
 msgid "Charset:"
 msgstr "Betûkészlet:"
 
-#: kdeui/kfontdialog.cpp:169 kdeui/kfontdialog.cpp:174
+#: kdeui/kfontdialog.cpp:178 kdeui/kfontdialog.cpp:183 kfile/kpreview.cpp:173
 msgid "Size:"
 msgstr "Méret:"
 
-#: kdeui/kfontdialog.cpp:183 kdeui/kfontdialog.cpp:188
+#: kdeui/kfontdialog.cpp:191 kdeui/kfontdialog.cpp:196
 msgid "Weight:"
 msgstr "Vastagság:"
 
-#: kdeui/kfontdialog.cpp:197 kdeui/kfontdialog.cpp:205
+#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:212
 msgid "Style:"
 msgstr "Stílus:"
 
-#: kdeui/kfontdialog.cpp:240
+#: kdeui/kfontdialog.cpp:249
 msgid "Charset"
 msgstr "Betûkészlet:"
 
-#: kdeui/kfontdialog.cpp:255
+#: kdeui/kfontdialog.cpp:266 kfile/kfiledetaillist.cpp:35
 msgid "Size"
 msgstr "Méret"
 
-#: kdeui/kfontdialog.cpp:294
+#: kdeui/kfontdialog.cpp:307
 msgid "Weight"
 msgstr "Vastagság"
 
-#: kdeui/kfontdialog.cpp:295 kdeui/kfontdialog.cpp:413
+#: kdeui/kfontdialog.cpp:308 kdeui/kfontdialog.cpp:430
 msgid "normal"
 msgstr "normál"
 
-#: kdeui/kfontdialog.cpp:296 kdeui/kfontdialog.cpp:415
+#: kdeui/kfontdialog.cpp:309 kdeui/kfontdialog.cpp:432
 msgid "bold"
 msgstr "félkövér"
 
-#: kdeui/kfontdialog.cpp:305
+#: kdeui/kfontdialog.cpp:320
 msgid "Style"
 msgstr "Stílus"
 
-#: kdeui/kfontdialog.cpp:306 kdeui/kfontdialog.cpp:426
-#: kdeui/kfontdialog.cpp:455
+#: kdeui/kfontdialog.cpp:321 kdeui/kfontdialog.cpp:443
+#: kdeui/kfontdialog.cpp:472
 msgid "roman"
 msgstr ""
 
-#: kdeui/kfontdialog.cpp:307 kdeui/kfontdialog.cpp:428
-#: kdeui/kfontdialog.cpp:453
+#: kdeui/kfontdialog.cpp:322 kdeui/kfontdialog.cpp:445
+#: kdeui/kfontdialog.cpp:470
 msgid "italic"
 msgstr "kurzív"
 
-#: kdeui/kfontdialog.cpp:335
+#: kdeui/kfontdialog.cpp:352
 msgid "Dolor Ipse"
 msgstr "árvíztûrõ tükörfúrógép"
 
-#: kdeui/kfontdialog.cpp:448
+#: kdeui/kfontdialog.cpp:465
 msgid "Bold"
 msgstr "Félkövér"
 
-#: kdeui/kfontdialog.cpp:450
+#: kdeui/kfontdialog.cpp:467
 msgid "Normal"
 msgstr "Normál"
 
@@ -338,37 +340,321 @@ msgstr "Ikon kiválasztása"
 msgid "Filter:"
 msgstr "Szûrõ:"
 
-#: kdeui/kmenubar.cpp:154 kdeui/ktoolbar.cpp:326
+#: kdeui/kmenubar.cpp:154 kdeui/ktoolbar.cpp:431
 msgid "Top"
 msgstr "Tetején"
 
-#: kdeui/kmenubar.cpp:155 kdeui/ktoolbar.cpp:328
+#: kdeui/kmenubar.cpp:155 kdeui/ktoolbar.cpp:433
 msgid "Bottom"
 msgstr "Alján"
 
-#: kdeui/kmenubar.cpp:156 kdeui/ktoolbar.cpp:329
+#: kdeui/kmenubar.cpp:156 kdeui/ktoolbar.cpp:434
 msgid "Floating"
 msgstr "Lebegõ"
 
-#: kdeui/kmenubar.cpp:196 kdeui/kmenubar.cpp:335 kdeui/ktoolbar.cpp:1283
+#: kdeui/kmenubar.cpp:196 kdeui/kmenubar.cpp:336 kdeui/ktoolbar.cpp:1453
 msgid "Float"
 msgstr "Lebegtetés"
 
-#: kdeui/kmenubar.cpp:324 kdeui/ktoolbar.cpp:1265
+#: kdeui/kmenubar.cpp:325 kdeui/ktoolbar.cpp:1435
 msgid "UnFloat"
 msgstr "Rögzítés"
 
-#: kdeui/ktoolbar.cpp:121 kdeui/ktoolbar.cpp:186
+#: kdeui/ktoolbar.cpp:149 kdeui/ktoolbar.cpp:273
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: pixmap üres, hiányzik a file?"
 
-#: kdeui/ktoolbar.cpp:325
+#: kdeui/ktoolbar.cpp:430
 msgid "Left"
 msgstr "Bal"
 
-#: kdeui/ktoolbar.cpp:327
+#: kdeui/ktoolbar.cpp:432
 msgid "Right"
 msgstr "Jobb"
+
+#: kfile/bookmark.cpp:246
+msgid "<!-- Do not edit this file -->"
+msgstr ""
+
+#: kfile/kcombiview.cpp:80
+#, fuzzy
+msgid "Folders:"
+msgstr "Szûrõ:"
+
+#: kfile/kcombiview.cpp:81
+#, fuzzy
+msgid "Contents:"
+msgstr "Tartalom"
+
+#: kfile/kfiledetaillist.cpp:34
+#, fuzzy
+msgid "Name"
+msgstr "Uj játék"
+
+#: kfile/kfiledetaillist.cpp:36
+msgid "Permissions"
+msgstr ""
+
+#: kfile/kfiledetaillist.cpp:37
+#, fuzzy
+msgid "Date"
+msgstr "Beilleszt"
+
+#: kfile/kfiledetaillist.cpp:38
+msgid "Owner"
+msgstr ""
+
+#: kfile/kfiledetaillist.cpp:39
+msgid "Group"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:141 po/texts.cpp:56
+msgid "Back"
+msgstr "Vissza"
+
+#: kfile/kfiledialog.cpp:144 po/texts.cpp:57
+msgid "Forward"
+msgstr "Elõre"
+
+#: kfile/kfiledialog.cpp:147
+msgid "Up to parent"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:150
+msgid "Home"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:153 po/texts.cpp:55
+msgid "Reload"
+msgstr "Ujratölt"
+
+#: kfile/kfiledialog.cpp:169
+msgid "Bookmarks"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:173
+msgid "Create new folder"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:176
+#, fuzzy
+msgid "Search for a file"
+msgstr "File mentése"
+
+#: kfile/kfiledialog.cpp:179
+msgid "Configure this dialog [development only]"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:187
+msgid "The path"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:215
+msgid "&Location:"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:227
+#, fuzzy
+msgid "&Filter:"
+msgstr "Szûrõ:"
+
+#: kfile/kfiledialog.cpp:260
+msgid "Show hidden"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:496
+msgid "Error: Not local file"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:497
+msgid ""
+"The specified directory is not a local directory\n"
+"But the application accepts just local files."
+msgstr ""
+
+#: kfile/kfiledialog.cpp:511 kfile/kfiledialog.cpp:611
+msgid "Error: Cannot Open Directory"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:512
+#, fuzzy
+msgid ""
+"The specified directory does not exist\n"
+"or was not readable."
+msgstr "A megadott file nem létezik"
+
+#: kfile/kfiledialog.cpp:514 kfile/kfiledialog.cpp:614
+msgid "Dismiss"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:550 kfile/kfiledialog.cpp:1154
+#: kfile/kfiledialog.cpp:1304 kfile/kfiledialog.cpp:1338 po/texts.cpp:69
+msgid "Open"
+msgstr "Megnyitás"
+
+#: kfile/kfiledialog.cpp:565 kfile/kfiledialog.cpp:1319 po/texts.cpp:80
+msgid "Save As"
+msgstr "Mentés másként"
+
+#: kfile/kfiledialog.cpp:587
+msgid "Root Directory"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:612
+#, fuzzy
+msgid "The specified directory does not exist or was not readable."
+msgstr "A megadott file nem létezik"
+
+#: kfile/kfiledialog.cpp:871
+msgid "Create new directory in :  "
+msgstr ""
+
+#: kfile/kfiledialog.cpp:874
+msgid "New Directory"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:946
+#, fuzzy
+msgid "Add to bookmarks"
+msgstr "Saját palettához ad"
+
+#: kfile/kfiledialog.cpp:1188
+msgid "Choose Directory"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:1209 kfile/kfiledialog.cpp:1359 po/texts.cpp:78
+msgid "Save"
+msgstr "Mentés"
+
+#: kfile/kfiledialog.cpp:1256
+msgid "directory"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:1258
+msgid "directories"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:1260 kfile/kpreview.cpp:299
+#, fuzzy
+msgid "file"
+msgstr "File"
+
+#: kfile/kfiledialog.cpp:1262
+#, fuzzy
+msgid "files"
+msgstr "File"
+
+#: kfile/kfiledialog.cpp:1264
+#, c-format
+msgid "%d %s and %d %s"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:1274
+msgid "1 directory"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:41
+msgid "Look and Feel"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:47 po/texts.cpp:32
+msgid "About"
+msgstr "Névjegy"
+
+#: kfile/kfiledialogconf.cpp:66
+msgid "Width"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:88
+#, fuzzy
+msgid "Height"
+msgstr "Vastagság"
+
+#: kfile/kfiledialogconf.cpp:110
+msgid "Panner"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:140
+msgid "View style"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:144
+msgid "Show Short View"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:150
+msgid "Show Detail View"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:162
+msgid "Misc"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:168
+#, fuzzy
+msgid "Show Filter"
+msgstr "Szûrõ:"
+
+#: kfile/kfiledialogconf.cpp:174
+msgid "Show List Labels"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:180
+msgid "Show Hidden"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:186
+msgid "Show Status Line"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:192
+msgid "Use single Click"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:197
+msgid "Mix dirs and files"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:202
+msgid "Keep dirs first"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:94 kfile/kfileinfo.cpp:98
+msgid "unknown"
+msgstr ""
+
+#: kfile/kpreview.cpp:164
+#, fuzzy
+msgid "Name:"
+msgstr "Uj játék"
+
+#: kfile/kpreview.cpp:182
+msgid "Date:"
+msgstr ""
+
+#: kfile/kpreview.cpp:191
+msgid "Owner:"
+msgstr ""
+
+#: kfile/kpreview.cpp:200
+msgid "Group:"
+msgstr ""
+
+#: kfile/kpreview.cpp:209
+msgid "Type:"
+msgstr ""
+
+#: kfile/kpreview.cpp:262
+msgid "locked"
+msgstr ""
+
+#: kfile/kpreview.cpp:286
+msgid "picture"
+msgstr ""
+
+#: kfile/kpreview.cpp:314
+msgid "folder"
+msgstr ""
 
 #: po/texts.cpp:24
 msgid "Error"
@@ -389,10 +675,6 @@ msgstr "File mentése"
 #: po/texts.cpp:31
 msgid "Contents"
 msgstr "Tartalom"
-
-#: po/texts.cpp:32
-msgid "About"
-msgstr "Névjegy"
 
 #: po/texts.cpp:33
 msgid "A&bout..."
@@ -458,18 +740,6 @@ msgstr "Kilép"
 msgid "&Quit"
 msgstr "&Kilép"
 
-#: po/texts.cpp:55
-msgid "Reload"
-msgstr "Ujratölt"
-
-#: po/texts.cpp:56
-msgid "Back"
-msgstr "Vissza"
-
-#: po/texts.cpp:57
-msgid "Forward"
-msgstr "Elõre"
-
 #: po/texts.cpp:58
 msgid "Copy"
 msgstr "Másol"
@@ -514,10 +784,6 @@ msgstr "Uj játék"
 msgid "&New Game"
 msgstr "&Uj játék"
 
-#: po/texts.cpp:69
-msgid "Open"
-msgstr "Megnyitás"
-
 #: po/texts.cpp:70
 msgid "Open a file"
 msgstr "File megnyitása"
@@ -550,17 +816,9 @@ msgstr "&Elõtér színe"
 msgid "&Background Color"
 msgstr "&Háttér színe"
 
-#: po/texts.cpp:78
-msgid "Save"
-msgstr "Mentés"
-
 #: po/texts.cpp:79
 msgid "&Save"
 msgstr "Menté&s"
-
-#: po/texts.cpp:80
-msgid "Save As"
-msgstr "Mentés másként"
 
 #: po/texts.cpp:81
 msgid "Save as..."
@@ -649,6 +907,3 @@ msgstr "Tallóz..."
 #: po/texts.cpp:104
 msgid "(none)"
 msgstr "(nincs)"
-
-
-
