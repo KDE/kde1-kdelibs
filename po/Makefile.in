@@ -89,11 +89,11 @@ distclean:
 merge:
 	@catalogs='$(POFILES)'; \
 	for cat in $$catalogs; do \
-	msgmerge $$cat messages.po > $$cat.new ; \
-	if ! diff -q $$cat $$cat.new; then \
-		mv $$cat.new $$cat ;\
-	else  \
+	msgmerge $$cat kde.po > $$cat.new ; \
+	if diff -q $$cat $$cat.new; then \
 		rm $$cat.new ;\
+	else  \
+		mv $$cat.new $$cat ;\
 	fi; \
 	done 
 
