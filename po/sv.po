@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs 1.1\n"
-"POT-Creation-Date: 1998-11-16 01:02+0100\n"
+"POT-Creation-Date: 1998-11-18 11:04+0100\n"
 "PO-Revision-Date: 1998-11-13 22:35+01:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
@@ -775,23 +775,23 @@ msgstr "&Standardtangent"
 msgid "&Custom key"
 msgstr "&Egen tangent"
 
-#: kdeui/kmenubar.cpp:203 kdeui/ktoolbar.cpp:828
+#: kdeui/kmenubar.cpp:206 kdeui/ktoolbar.cpp:831
 msgid "Top"
 msgstr "Överst"
 
-#: kdeui/kmenubar.cpp:204 kdeui/ktoolbar.cpp:830
+#: kdeui/kmenubar.cpp:207 kdeui/ktoolbar.cpp:833
 msgid "Bottom"
 msgstr "Underst"
 
-#: kdeui/kmenubar.cpp:205 kdeui/ktoolbar.cpp:831
+#: kdeui/kmenubar.cpp:208 kdeui/ktoolbar.cpp:834
 msgid "Floating"
 msgstr "Svävande"
 
-#: kdeui/kmenubar.cpp:350 kdeui/kmenubar.cpp:605 kdeui/ktoolbar.cpp:2134
+#: kdeui/kmenubar.cpp:353 kdeui/kmenubar.cpp:608 kdeui/ktoolbar.cpp:2137
 msgid "Float"
 msgstr "Sväva"
 
-#: kdeui/kmenubar.cpp:574 kdeui/ktoolbar.cpp:2115
+#: kdeui/kmenubar.cpp:577 kdeui/ktoolbar.cpp:2118
 msgid "UnFloat"
 msgstr "Landa"
 
@@ -807,15 +807,15 @@ msgstr "&Standard"
 msgid "Quickhelp"
 msgstr "Snabbhjälp"
 
-#: kdeui/ktoolbar.cpp:263 kdeui/ktoolbar.cpp:314
+#: kdeui/ktoolbar.cpp:266 kdeui/ktoolbar.cpp:317
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: pixmapen är tom, kanske saknas någon fil"
 
-#: kdeui/ktoolbar.cpp:827
+#: kdeui/ktoolbar.cpp:830
 msgid "Left"
 msgstr "Vänster"
 
-#: kdeui/ktoolbar.cpp:829
+#: kdeui/ktoolbar.cpp:832
 msgid "Right"
 msgstr "Höger"
 

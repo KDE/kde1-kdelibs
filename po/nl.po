@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-11-16 01:02+0100\n"
+"POT-Creation-Date: 1998-11-18 11:04+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-10-01 16:40:07+0200\n"
 "From: root <flidr@CyberGate.zcu.cz>\n"
@@ -813,23 +813,23 @@ msgstr "Standaard:"
 msgid "&Custom key"
 msgstr "Eigen..."
 
-#: kdeui/kmenubar.cpp:203 kdeui/ktoolbar.cpp:828
+#: kdeui/kmenubar.cpp:206 kdeui/ktoolbar.cpp:831
 msgid "Top"
 msgstr "Boven"
 
-#: kdeui/kmenubar.cpp:204 kdeui/ktoolbar.cpp:830
+#: kdeui/kmenubar.cpp:207 kdeui/ktoolbar.cpp:833
 msgid "Bottom"
 msgstr "Onder"
 
-#: kdeui/kmenubar.cpp:205 kdeui/ktoolbar.cpp:831
+#: kdeui/kmenubar.cpp:208 kdeui/ktoolbar.cpp:834
 msgid "Floating"
 msgstr "Zwevend"
 
-#: kdeui/kmenubar.cpp:350 kdeui/kmenubar.cpp:605 kdeui/ktoolbar.cpp:2134
+#: kdeui/kmenubar.cpp:353 kdeui/kmenubar.cpp:608 kdeui/ktoolbar.cpp:2137
 msgid "Float"
 msgstr "Zweven"
 
-#: kdeui/kmenubar.cpp:574 kdeui/ktoolbar.cpp:2115
+#: kdeui/kmenubar.cpp:577 kdeui/ktoolbar.cpp:2118
 msgid "UnFloat"
 msgstr "Vast"
 
@@ -846,15 +846,15 @@ msgstr "Standaard:"
 msgid "Quickhelp"
 msgstr ""
 
-#: kdeui/ktoolbar.cpp:263 kdeui/ktoolbar.cpp:314
+#: kdeui/ktoolbar.cpp:266 kdeui/ktoolbar.cpp:317
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: pixmap is leeg, mischien een missend bestand"
 
-#: kdeui/ktoolbar.cpp:827
+#: kdeui/ktoolbar.cpp:830
 msgid "Left"
 msgstr "Links"
 
-#: kdeui/ktoolbar.cpp:829
+#: kdeui/ktoolbar.cpp:832
 msgid "Right"
 msgstr "Rechts"
 
