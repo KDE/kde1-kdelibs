@@ -137,7 +137,7 @@ msgid ""
 "Would you like to save it?"
 msgstr ""
 "יוניש רבע יחכונה ךמסמה\n"
-"? ותוא רומשל ןיינועמ התא םאה\n"
+"? ותוא רומשל ןיינועמ התא םאה"
 #: kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416 kdeui/keditcl1.cpp:477
 #: kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1572 kdeui/keditcl2.cpp:108
 #: kdeui/keditcl2.cpp:125 kdeui/keditcl2.cpp:365 kdeui/keditcl2.cpp:382
@@ -178,7 +178,7 @@ msgstr "םש אלל"
 
 #: kdeui/keditcl1.cpp:1471
 msgid "Could not save the document\n"
-msgstr "ךמסמה תא רומשל היה ןתינ אל"
+msgstr "ךמסמה תא רומשל היה ןתינ אל\n"
 
 #: kdeui/keditcl1.cpp:1541
 msgid "Save Document As"
@@ -193,7 +193,7 @@ msgstr ""
 "? וילע בותכל ןיינועמ התא םאה"
 #: kdeui/keditcl1.cpp:1627
 msgid "You do not have write permission to this file.\n"
-msgstr "הזה ץבוקל הביתכ תואשרה ךל ןיא"
+msgstr "הזה ץבוקל הביתכ תואשרה ךל ןיא\n"
 
 #: kdeui/keditcl2.cpp:105 kdeui/keditcl2.cpp:122 kdeui/keditcl2.cpp:362
 #: kdeui/keditcl2.cpp:379 kdeui/keditcl2.cpp:678 kdeui/keditcl2.cpp:687
