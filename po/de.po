@@ -824,11 +824,12 @@ msgid ""
 "You dont have the file %s\n"
 "Could not do Authorization"
 msgstr ""
+"Sie haben keine Datei %s\n"
+"Konnte Authentifizierung nicht ausführen"
 
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:209
-#, fuzzy
 msgid "KFM Error"
-msgstr "Fehler"
+msgstr "KFM Fehler"
 
 #: kfmlib/kfm.cpp:207
 #, c-format
@@ -836,6 +837,8 @@ msgid ""
 "The file %s is corrupted\n"
 "Could not do Authorization"
 msgstr ""
+"Die Datei %s ist defekt\n"
+"Konnte Authentifizierung nicht ausführen"
 
 #: po/texts.cpp:24
 msgid "Error"
