@@ -1,27 +1,34 @@
+# Esperantaj mesaЬoj por "kdelibs"
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Wolfram Diestel <diestel@rzaix340.rz.uni-leipzig.de>, 1998.
+#
+#
 msgid ""
 msgstr ""
+"Project-Id-Version: kdelibs 1.0pre2\n"
 "POT-Creation-Date: 1998-06-21 18:14+0200\n"
-"Content-Type: text/plain; charset=koi8-r\n"
-"Date: 1997-11-20 18:24:38+0600\n"
-"From: Denis Y. Pershin <dyp@inetlab.com>\n"
-"Xgettext-Options: --default-domain=xquser --directory=../.. --add-comments "
-"--keyword=_ --keyword=N_ --files-from=../../po/POTFILES.in\n"
+"PO-Revision-Date: 1998-07-13 19:00+0100\n"
+"Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
+"Language-Team: Esperanto <eo@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-3\n"
+"Content-Transfer-Encoding: 8-bit\n"
 
 #: kdecore/kapp.cpp:494
 msgid "&Contents"
-msgstr "Содержимое"
+msgstr "&Enhavo"
 
 #: kdecore/kapp.cpp:500
 msgid "&About"
-msgstr "&О программе"
+msgstr "&Pri"
 
 #: kdecore/kapp.cpp:507
 msgid "About &KDE..."
-msgstr "О &KDE"
+msgstr "Pri &KDE"
 
 #: kdecore/kapp.cpp:528
 msgid "About KDE"
-msgstr "О KDE"
+msgstr "Pri KDE"
 
 #: kdecore/kapp.cpp:530
 msgid ""
@@ -36,14 +43,15 @@ msgid ""
 "Please report bugs at http://buglist.kde.org.\n"
 msgstr ""
 "\n"
-"Проект KDE написан командой KDE,\n"
-"всемирной сетью инженеров-программистов посвятивших\n"
-"себя разработке свободно распространяемого программного обеспечения.\n"
+"La labortabula medio KDE estas farita de la\n"
+"KDE-teamo, mondvasta reto de softvar-inЬenieroj\n"
+"subtenantaj la evoluigadon de libera softvaro.\n"
 "\n"
-"Для получения дополнительной информации о проекте KDE посетите\n"
-"http://www.kde.org. Пожайлуста, подумайте о присоединении и поддержке KDE.\n"
+"Vizitu http://www.kde.org por ricevi pli da informoj pri\n"
+"la KDE-projekto. Bonvolu ankaЩ konsideri aliЬon kaj \n"
+"subtenon de KDE.\n"
 "\n"
-"Об ошибках сообщайте: http://buglist.kde.org.\n"
+"Bonvolu raporti erarojn Фe http://buglist.kde.org.\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416
 #: kdeui/keditcl1.cpp:477 kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573
@@ -52,7 +60,7 @@ msgstr ""
 #: kdeui/keditcl2.cpp:475 kdeui/kmsgbox.cpp:488 kdeui/kmsgbox.cpp:503
 #: po/texts.cpp:27
 msgid "Yes"
-msgstr "Да"
+msgstr "Jes"
 
 #: kdetest/klocaletest.cpp:101 kdeui/keditcl1.cpp:396 kdeui/keditcl1.cpp:417
 #: kdeui/keditcl1.cpp:478 kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1574
@@ -61,12 +69,12 @@ msgstr "Да"
 #: kdeui/keditcl2.cpp:476 kdeui/kmsgbox.cpp:486 kdeui/kmsgbox.cpp:501
 #: po/texts.cpp:28
 msgid "No"
-msgstr "Нет"
+msgstr "Ne"
 
 #: kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34
 #: kfile/kfiledialog.cpp:240 po/texts.cpp:45
 msgid "Help"
-msgstr "Помощь"
+msgstr "Helpo"
 
 #: kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:46
 #: kdeui/keditcl1.cpp:397 kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897
@@ -74,38 +82,37 @@ msgstr "Помощь"
 #: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:877
 #: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:407 po/texts.cpp:40
 msgid "Cancel"
-msgstr "Отмена"
+msgstr "Rezignu"
 
 #: kdeui/kcolordlg.cpp:285
 msgid "Select Color"
-msgstr "Выбрать цвет"
+msgstr "Elektu koloron"
 
 #: kdeui/kcolordlg.cpp:297
 msgid "System Colors"
-msgstr "Системные цвета"
+msgstr "Operaciumaj koloroj"
 
 #: kdeui/kcolordlg.cpp:328
 msgid "Custom Colors"
-msgstr "Собственные цвета"
+msgstr "Propraj koloroj"
 
 #: kdeui/kcolordlg.cpp:341
 msgid "Add to Custom Colors"
-msgstr "Добавить собственный цвет"
+msgstr "Aldonu al la propraj koloroj"
 
 #: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:360
 #: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872
 #: kfmlib/kfm.cpp:403 po/texts.cpp:37
 msgid "Ok"
-msgstr "Ок"
+msgstr "Konfirmu"
 
 #: kdeui/kcolordlg.cpp:788 kdeui/kcolordlg.cpp:840
 msgid "Custom..."
-msgstr "Настройки"
+msgstr "Adaptu..."
 
-# 
 #: kdeui/kcontrol.cpp:39
 msgid "Default"
-msgstr "По умолчанию:"
+msgstr "Implicita"
 
 #: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
@@ -113,196 +120,191 @@ msgstr "По умолчанию:"
 #: kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:492
 #: kfile/kfiledialogconf.cpp:60 po/texts.cpp:35
 msgid "OK"
-msgstr "ОК"
+msgstr "Konfirmu"
 
 #: kdeui/kcontrol.cpp:45 kfile/kfiledialogconf.cpp:59 po/texts.cpp:42
 msgid "Apply"
-msgstr "Применить"
+msgstr "Apliku"
 
 #: kdeui/kdatepik.cpp:102
 msgid "January"
-msgstr "Январь"
+msgstr "Januaro"
 
 #: kdeui/kdatepik.cpp:102
 msgid "February"
-msgstr "Февраль"
+msgstr "Februaro"
 
 #: kdeui/kdatepik.cpp:103
 msgid "March"
-msgstr "Март"
+msgstr "Marto"
 
 #: kdeui/kdatepik.cpp:103
 msgid "April"
-msgstr "Апрель"
+msgstr "Aprilo"
 
-#
 #: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:222
 msgid "May"
-msgstr "Май"
+msgstr "Majo"
 
 #: kdeui/kdatepik.cpp:104
 msgid "June"
-msgstr "Июнь"
+msgstr "Junio"
 
 #: kdeui/kdatepik.cpp:105
 msgid "July"
-msgstr "Июль"
+msgstr "Julio"
 
 #: kdeui/kdatepik.cpp:105
 msgid "August"
-msgstr "Август"
+msgstr "AЩgusto"
 
 #: kdeui/kdatepik.cpp:106
 msgid "September"
-msgstr "Сентябрь"
+msgstr "Septembro"
 
 #: kdeui/kdatepik.cpp:106
 msgid "October"
-msgstr "Октябрь"
+msgstr "Oktobro"
 
 #: kdeui/kdatepik.cpp:107
 msgid "November"
-msgstr "Ноябрь"
+msgstr "Novembro"
 
 #: kdeui/kdatepik.cpp:107
 msgid "December"
-msgstr "Декабрь"
+msgstr "Decembro"
 
 #: kdeui/kdatepik.cpp:248
 msgid "(invalid)"
-msgstr "(неверный)"
+msgstr "(nevalida)"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:48
 msgid "Sun"
-msgstr "Звук"
+msgstr "Dim"
 
-#
 #: kdeui/kdatetbl.cpp:48
 msgid "Mon"
-msgstr "Пон"
+msgstr "Lun"
 
 #: kdeui/kdatetbl.cpp:48
 msgid "Tue"
-msgstr ""
+msgstr "Mar"
 
-#
 #: kdeui/kdatetbl.cpp:49
 msgid "Wed"
-msgstr "Срд"
+msgstr "Mer"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Thu"
-msgstr "Чет"
+msgstr "╛aЩ"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Fri"
-msgstr "Пят"
+msgstr "Ven"
 
-#
 #: kdeui/kdatetbl.cpp:50
 msgid "Sat"
-msgstr "Суб"
+msgstr "Sab"
 
 #: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
 #: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:89
 msgid "Sorry"
-msgstr "Извините"
+msgstr "Pardonu"
 
 #: kdeui/keditcl1.cpp:128
 msgid "The specified File does not exist"
-msgstr "Указанный файл не существует"
+msgstr "La indikita dosiero ne ekzistas"
 
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:494
 #: kdeui/keditcl1.cpp:1627
 msgid "Sorry:"
-msgstr "Извините:"
+msgstr "Pardonu:"
 
 #: kdeui/keditcl1.cpp:142
 msgid "You have specificated a directory"
-msgstr "Вы указали каталог"
+msgstr "Vi ne indikis dosierujon"
 
 #: kdeui/keditcl1.cpp:157 kdeui/keditcl1.cpp:178
 msgid "You do not have read permission to this file."
-msgstr "Вы не имеете прав на чтение данного файла"
+msgstr "Vi ne havas legopermeson por tiu Фi dosiero."
 
 #: kdeui/keditcl1.cpp:191
 msgid "An Error occured while trying to open this Document"
-msgstr "Ошибка во время открытия данного Документа"
+msgstr "Okazis eraro dum malfermado de tiu Фi dokumento"
 
 #: kdeui/keditcl1.cpp:356
 msgid "Select Document to Insert"
-msgstr "Выберите Документ для Вставки"
+msgstr "Elektu dokumenton por enmeto"
 
 #: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1570
 msgid "Warning:"
-msgstr "Предупреждение:"
+msgstr "Averto:"
 
 #: kdeui/keditcl1.cpp:393 kdeui/keditcl1.cpp:475
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
 msgstr ""
-"Текущий Документ изменен\n"
-"Сохранить?"
+"La aktuala dokumento estas ЧaЬita.\n"
+"фu vi volas savi Ьin?"
 
 #: kdeui/keditcl1.cpp:414
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
-"Не могу записать документ.\n"
-"Все равно открыть новый документ?"
+"Ne eblis savi la dokumenton.\n"
+"фu tamen malfermi novan dokumenton?"
 
 #: kdeui/keditcl1.cpp:445
 msgid "Select Document to Open"
-msgstr "Выберите Документ"
+msgstr "Elektu dokumenton malfermendan"
 
 #: kdeui/keditcl1.cpp:495
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
-"Не могу записать документ.\n"
-"Все равно создать новый документ?"
+"Ne eblis savi la dokumenton.\n"
+"фu tamen krei novan dokumenton?"
 
 #: kdeui/keditcl1.cpp:530 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
 msgid "Untitled"
-msgstr "Беззаголовка"
+msgstr "Sentitola"
 
 #: kdeui/keditcl1.cpp:1472
 msgid "Could not save the document\n"
-msgstr "Не могу записать документ.\n"
+msgstr "Ne eblis savi la dokumenton\n"
 
 #: kdeui/keditcl1.cpp:1542
 msgid "Save Document As"
-msgstr "Сохранить Документ как"
+msgstr "Sekurigu la dokumenton kiel"
 
 #: kdeui/keditcl1.cpp:1571
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
 msgstr ""
-"Документ с данным именем существует\n"
-"Переписать?"
+"Dokumento kun tiu nomo jam ekzistas\n"
+"фu vi volas Ьin anstataЩigi?"
 
 #: kdeui/keditcl1.cpp:1628
 msgid "You do not have write permission to this file.\n"
-msgstr "Вы не имеете прав на запись данного файла.\n"
+msgstr "Vi ne havas skribpermeson por tiu Фi dosiero.\n"
 
 #: kdeui/keditcl2.cpp:105 kdeui/keditcl2.cpp:122 kdeui/keditcl2.cpp:362
 #: kdeui/keditcl2.cpp:379 kdeui/keditcl2.cpp:678 kdeui/keditcl2.cpp:687
 #: kdeui/keditcl2.cpp:788
 msgid "Find"
-msgstr "Найти"
+msgstr "Trovu"
 
 #: kdeui/keditcl2.cpp:106 kdeui/keditcl2.cpp:363 kdeui/keditcl2.cpp:456
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
 msgstr ""
-"Конец документа.\n"
-"Продолжить с начала?"
+"Fino de la dokumento atingita.\n"
+"фu daЩrigi de la komenco?"
 
 #: kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426
 #: kdeui/keditcl2.cpp:473
@@ -310,399 +312,366 @@ msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
 msgstr ""
-"Начало документа.\n"
-"Продолжить с конца?"
+"Komenco de la dokumento atingita.\n"
+"фu daЩrigi de la fino?"
 
 #: kdeui/keditcl2.cpp:425 kdeui/keditcl2.cpp:455 kdeui/keditcl2.cpp:472
 #: kdeui/keditcl2.cpp:791
 msgid "Replace"
-msgstr "Заменить"
+msgstr "AnstataЩigu"
 
 #: kdeui/keditcl2.cpp:684 kdeui/keditcl2.cpp:782
 msgid "Case Sensitive"
-msgstr "С учетом регистра"
+msgstr "Distingu majusklojn kaj minusklojn"
 
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:785
 msgid "Find Backwards"
-msgstr "Искать назад"
+msgstr "Trovu retroire"
 
 #: kdeui/keditcl2.cpp:690 kdeui/keditcl2.cpp:797 po/texts.cpp:88
 msgid "Done"
-msgstr "Готово"
+msgstr "preta"
 
 #: kdeui/keditcl2.cpp:770
 msgid "Find:"
-msgstr "Найти:"
+msgstr "Trovu:"
 
 #: kdeui/keditcl2.cpp:780
 msgid "Replace with:"
-msgstr "Заменить на:"
+msgstr "AnstataЩigu per:"
 
 #: kdeui/keditcl2.cpp:794
 msgid "Replace All"
-msgstr "Заменить все"
+msgstr "AnstataЩigu Фie"
 
 #: kdeui/keditcl2.cpp:891
 msgid "Goto Line"
-msgstr "На строку"
+msgstr "Iru la linio"
 
 #: kdeui/keditcl2.cpp:896
 msgid "Go"
-msgstr "Идти"
+msgstr "Ek"
 
 #: kdeui/kfontdialog.cpp:171
 msgid "Select Font"
-msgstr "Выберите шрифт"
+msgstr "Elektu tiparon"
 
 #: kdeui/kfontdialog.cpp:175
 msgid "Requested Font"
-msgstr "Запрошенные шрифты"
+msgstr "Postulita tiparo"
 
 #: kdeui/kfontdialog.cpp:180
 msgid "Actual Font"
-msgstr "Существующие шрифты"
+msgstr "Fakta tiparo"
 
 #: kdeui/kfontdialog.cpp:184 kdeui/kfontdialog.cpp:188
 msgid "Family:"
-msgstr "Семейство:"
+msgstr "Familio:"
 
 #: kdeui/kfontdialog.cpp:195 kdeui/kfontdialog.cpp:201 po/texts.cpp:26
 msgid "Charset:"
-msgstr "Кодировка:"
+msgstr "Signaro:"
 
 #: kdeui/kfontdialog.cpp:208 kdeui/kfontdialog.cpp:213 kfile/kpreview.cpp:196
 msgid "Size:"
-msgstr "Размер:"
+msgstr "Grandeco:"
 
 #: kdeui/kfontdialog.cpp:220 kdeui/kfontdialog.cpp:225
 msgid "Weight:"
-msgstr "Ширина:"
+msgstr "Graseco:"
 
 #: kdeui/kfontdialog.cpp:233 kdeui/kfontdialog.cpp:240
 msgid "Style:"
-msgstr "Стиль:"
+msgstr "Stilo:"
 
 #: kdeui/kfontdialog.cpp:276
 msgid "Charset"
-msgstr "Кодировка"
+msgstr "Signaro"
 
 #: kdeui/kfontdialog.cpp:287 kfile/kfiledetaillist.cpp:38
 msgid "Size"
-msgstr "Размер"
+msgstr "Grandeco"
 
 #: kdeui/kfontdialog.cpp:328
 msgid "Weight"
-msgstr "Ширина"
+msgstr "Graseco"
 
 #: kdeui/kfontdialog.cpp:329 kdeui/kfontdialog.cpp:470
 msgid "normal"
-msgstr "нормальный"
+msgstr "normala"
 
 #: kdeui/kfontdialog.cpp:330 kdeui/kfontdialog.cpp:472
 msgid "bold"
-msgstr "жирный"
+msgstr "grasa"
 
 #: kdeui/kfontdialog.cpp:341
 msgid "Style"
-msgstr "Стиль"
+msgstr "Stilo"
 
 #: kdeui/kfontdialog.cpp:342 kdeui/kfontdialog.cpp:483
 #: kdeui/kfontdialog.cpp:512
 msgid "roman"
-msgstr "роман"
+msgstr "romana"
 
 #: kdeui/kfontdialog.cpp:343 kdeui/kfontdialog.cpp:485
 #: kdeui/kfontdialog.cpp:510
 msgid "italic"
-msgstr "наклонный"
+msgstr "kursiva"
 
 #: kdeui/kfontdialog.cpp:373
 msgid "Dolor Ipse"
-msgstr "Тестируем"
+msgstr "Dolor Ipse"
 
 #: kdeui/kfontdialog.cpp:505
 msgid "Bold"
-msgstr "Жирный"
+msgstr "Grasa"
 
 #: kdeui/kfontdialog.cpp:507
 msgid "Normal"
-msgstr "Нормальный"
+msgstr "Normala"
 
 #: kdeui/kiconloaderdialog.cpp:237
 msgid "Select Icon"
-msgstr "Выберите пиктограмму"
+msgstr "Elektu piktogramon"
 
 #: kdeui/kiconloaderdialog.cpp:242
 msgid "Filter:"
-msgstr "Фильтр:"
+msgstr "Filtrilo:"
 
 #: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:470
 msgid "Top"
-msgstr "Верх"
+msgstr "Supre"
 
 #: kdeui/kmenubar.cpp:172 kdeui/ktoolbar.cpp:472
 msgid "Bottom"
-msgstr "Низ"
+msgstr "Malsupre"
 
 #: kdeui/kmenubar.cpp:173 kdeui/ktoolbar.cpp:473
 msgid "Floating"
-msgstr "Плавающий"
+msgstr "Glitante"
 
 #: kdeui/kmenubar.cpp:287 kdeui/kmenubar.cpp:437 kdeui/ktoolbar.cpp:1605
 msgid "Float"
-msgstr "Сделать плавающей"
+msgstr "Glite"
 
 #: kdeui/kmenubar.cpp:426 kdeui/ktoolbar.cpp:1587
 msgid "UnFloat"
-msgstr "Сделать неплавающей"
+msgstr "Neglite"
 
 #: kdeui/knotebook.cpp:145
 msgid "Trying to add page when no KWizards are added!"
-msgstr "Пробую добавить страницу, когда не добавлен KWizard!"
+msgstr "Provante aldoni paЬon sen aldonitaj Kwizard-oj!"
 
 #: kdeui/knotebook.cpp:178 kdeui/kwizard.cpp:120 po/texts.cpp:41
 msgid "&Cancel"
-msgstr "&Отмена"
+msgstr "&Rezignu"
 
-#
 #: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:143
 msgid "&Default"
-msgstr "&По умолчанию:"
+msgstr "&Implicita"
 
 #: kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:166 po/texts.cpp:46
 msgid "&Help"
-msgstr "&Помощь"
+msgstr "&Helpo"
 
-# , fuzzy
 #: kdeui/knotebook.cpp:247 kdeui/kwizard.cpp:189
 msgid "&Ok"
-msgstr "Ок"
+msgstr "&Konfirmu"
 
 #: kdeui/ktoolbar.cpp:178 kdeui/ktoolbar.cpp:297
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr "KToolBarButton: пустая пиктограмма, возможно отсутствует файл"
+msgstr "KToolBarButton: rastrumo estas malplena, verЧajne mankas dosiero"
 
 #: kdeui/ktoolbar.cpp:469
 msgid "Left"
-msgstr "Слева"
+msgstr "Maldekstre"
 
 #: kdeui/ktoolbar.cpp:471
 msgid "Right"
-msgstr "Справа"
+msgstr "Dekstre"
 
-# , c-format
 #: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
 #, c-format
 msgid "Page %d of %d"
-msgstr ""
+msgstr "PaЬo %d de %d"
 
 #: kfile/bookmark.cpp:246
 msgid "<!-- Do not edit this file -->"
-msgstr "<!-- Не редактировать этот файл -->"
+msgstr "<!-- Ne redaktu tiun Фi dosieron -->"
 
-#
 #: kfile/kcombiview.cpp:80
 msgid "Folders:"
-msgstr "Папка:"
+msgstr "Dosierujoj:"
 
-#
 #: kfile/kcombiview.cpp:81
 msgid "Contents:"
-msgstr "Содержимое:"
+msgstr "Enhavo:"
 
-#
 #: kfile/kfiledetaillist.cpp:36
 msgid "Name"
-msgstr "Имя"
+msgstr "Nomo"
 
-#
 #: kfile/kfiledetaillist.cpp:40
 msgid "Permissions"
-msgstr "Права"
+msgstr "Permesoj"
 
-#
 #: kfile/kfiledetaillist.cpp:42
 msgid "Date"
-msgstr "Дата"
+msgstr "Dato"
 
-#
 #: kfile/kfiledetaillist.cpp:45
 msgid "Owner"
-msgstr "Владелец"
+msgstr "Posed."
 
-#
 #: kfile/kfiledetaillist.cpp:47
 msgid "Group"
-msgstr "Группы"
+msgstr "Grupo"
 
 #: kfile/kfiledialog.cpp:122 po/texts.cpp:56
 msgid "Back"
-msgstr "Назад"
+msgstr "MalantaЩen"
 
 #: kfile/kfiledialog.cpp:125 po/texts.cpp:57
 msgid "Forward"
-msgstr "Вперед"
+msgstr "AntaЩen"
 
-#
 #: kfile/kfiledialog.cpp:128
 msgid "Up to parent"
-msgstr "Вверх"
+msgstr "Supren al la parenco"
 
-#
 #: kfile/kfiledialog.cpp:131
 msgid "Home"
-msgstr "Мой домашний каталог"
+msgstr "Hejmen"
 
 #: kfile/kfiledialog.cpp:134 po/texts.cpp:55
 msgid "Reload"
-msgstr "Перегрузить"
+msgstr "Relegu"
 
-#
 #: kfile/kfiledialog.cpp:150
 msgid "Bookmarks"
-msgstr "Закладки"
+msgstr "Legosignoj"
 
-#
 #: kfile/kfiledialog.cpp:154
 msgid "Create new folder"
-msgstr "Создать новую папку"
+msgstr "Kreu novan dosierujon"
 
-#
 #: kfile/kfiledialog.cpp:157
 msgid "Search for a file"
-msgstr "Искать файл"
+msgstr "SerФu dosieron"
 
 #: kfile/kfiledialog.cpp:160
 msgid "Configure this dialog [development only]"
-msgstr "Настроить этот диалог [только для разработчиков]"
+msgstr "Konfiguru tiun Фi dialogon"
 
 #: kfile/kfiledialog.cpp:168
 msgid "The path"
-msgstr "Путь"
+msgstr "La pado"
 
-#
 #: kfile/kfiledialog.cpp:193
 msgid "&Location:"
-msgstr "&Расположение"
+msgstr "&Situo:"
 
-#
 #: kfile/kfiledialog.cpp:206
 msgid "&Filter:"
-msgstr "&Фильтр:"
+msgstr "&Filtrilo:"
 
-#
 #: kfile/kfiledialog.cpp:220
 msgid "Show hidden"
-msgstr "Показывать скрытые"
+msgstr "Montru kaЧitajn"
 
-#
 #: kfile/kfiledialog.cpp:487
 msgid "Error: Not local file"
-msgstr "Ошибка: не локальный файл"
+msgstr "Eraro: Ne estas loka dosiero"
 
 #: kfile/kfiledialog.cpp:488
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
 msgstr ""
-"Указаный каталог не является локальным.\n"
-"А приложение поддерживает только локальные файлы."
+"La indikita dosierujo ne estas loka dosierujo\n"
+"Se la aplika╪o akceptas nur lokajn dosierojn."
 
-#
 #: kfile/kfiledialog.cpp:502 kfile/kfiledialog.cpp:608
 msgid "Error: Cannot Open Directory"
-msgstr "Ошибка: Не возможно открыть каталог."
+msgstr "Eraro: Ne eblis malfermi la dosierujon"
 
-#
 #: kfile/kfiledialog.cpp:503
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
 msgstr ""
-"Указанный каталог не существует\n"
-"или не доступен по чтению."
+"La indikita dosierujo ne ekzistas\n"
+"aЩ ne estis legebla."
 
 #: kfile/kfiledialog.cpp:505 kfile/kfiledialog.cpp:611
 msgid "Dismiss"
-msgstr "Убрать"
+msgstr "Foriru"
 
 #: kfile/kfiledialog.cpp:542 kfile/kfiledialog.cpp:1179
 #: kfile/kfiledialog.cpp:1338 kfile/kfiledialog.cpp:1372 po/texts.cpp:70
 msgid "Open"
-msgstr "Открыть"
+msgstr "Malfermu"
 
 #: kfile/kfiledialog.cpp:557 kfile/kfiledialog.cpp:1353 po/texts.cpp:82
 msgid "Save As"
-msgstr "Сохранить как"
+msgstr "Sekurigu kiel"
 
-#
 #: kfile/kfiledialog.cpp:580
 msgid "Root Directory"
-msgstr "Корневой каталог"
+msgstr "Radika dosierujo"
 
-#
 #: kfile/kfiledialog.cpp:609
 msgid "The specified directory does not exist or was not readable."
-msgstr "Указанный каталог не существует или не доступен по чтению."
+msgstr "La indikita dosierujo ne ekzistas aЩ ne estis legebla."
 
-#
 #: kfile/kfiledialog.cpp:857
 msgid "Create new directory in: "
-msgstr "Создать каталог в: "
+msgstr "Kreu novan dosierujon en: "
 
-#
 #: kfile/kfiledialog.cpp:860
 msgid "New Directory"
-msgstr "Новый каталог"
+msgstr "Nova dosierujo"
 
-#
 #: kfile/kfiledialog.cpp:932
 msgid "Add to bookmarks"
-msgstr "Добавить закладку"
+msgstr "Aldonu la legosignoj"
 
-#
 #: kfile/kfiledialog.cpp:1213
 msgid "Choose Directory"
-msgstr "Выбрать каталог"
+msgstr "Elektu dosierujon"
 
 #: kfile/kfiledialog.cpp:1234 kfile/kfiledialog.cpp:1393 po/texts.cpp:80
 msgid "Save"
-msgstr "Сохранить"
+msgstr "Sekurigu"
 
-#
 #: kfile/kfiledialog.cpp:1281
 msgid "directory"
-msgstr "каталог"
+msgstr "dosierujo"
 
-#
 #: kfile/kfiledialog.cpp:1283
 msgid "directories"
-msgstr "каталоги:"
+msgstr "dosierujoj"
 
-#
 #: kfile/kfiledialog.cpp:1285 kfile/kpreview.cpp:326
 msgid "file"
-msgstr "файл"
+msgstr "dosiero"
 
-#
 #: kfile/kfiledialog.cpp:1287
 msgid "files"
-msgstr "файлы"
+msgstr "dosieroj"
 
-# , c-format
 #: kfile/kfiledialog.cpp:1289
 #, c-format
 msgid "%d %s and %d %s"
-msgstr "%d %s и %d %s"
+msgstr "%d %s kaj %d %s"
 
-#
 #: kfile/kfiledialog.cpp:1299
 msgid "one directory"
-msgstr "один каталог"
+msgstr "unu dosierujo"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"
-msgstr "Вид"
+msgstr "Aspekto kaj Sento"
 
 #: kfile/kfiledialogconf.cpp:43
 msgid ""
@@ -717,602 +686,563 @@ msgid ""
 "Mario Weilguni <mweilguni@sime.com>\n"
 "and Martin Jones <mjones@kde.org>"
 msgstr ""
-"KDE выбор файлов::\n"
+"KDE-Dosierelektilo de.\n"
 "\n"
-"Ричард Мур <rich@kde.org>\n"
-"Степан Кулов <coolo@kde.org>\n"
-"и Даниэль Грана <grana@ie.iwi.unibe.ch>\n"
+"Richard Moore <rich@kde.org>,\n"
+"Stephan Kulow <coolo@kde.org>\n"
+"kaj Daniel Grana <grana@ie.iwi.unibe.ch>\n"
 "\n"
-"с участием\n"
+"kun kontribuoj de\n"
 "\n"
-"Марио Вельджуни <mweilguni@sime.com>\n"
-"и Мартина Джонса <mjones@kde.org>"
+"Mario Weilguni <mweilguni@sime.com>\n"
+"kaj Martin Jones <mjones@kde.org>"
 
 #: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
 msgid "About"
-msgstr "О программе"
+msgstr "Pri"
 
-#
 #: kfile/kfiledialogconf.cpp:70
 msgid "View style"
-msgstr "Тип представления"
+msgstr "Aspekto"
 
-#
 #: kfile/kfiledialogconf.cpp:74
 msgid "Show Short View"
-msgstr "Показывать короткое представление"
+msgstr "Montru koncize"
 
-#
 #: kfile/kfiledialogconf.cpp:80
 msgid "Show Detail View"
-msgstr "Показывать детальное представление"
+msgstr "Montru detale"
 
 #: kfile/kfiledialogconf.cpp:89
 msgid "Misc"
-msgstr "Разное"
+msgstr "Diverse"
 
-#
 #: kfile/kfiledialogconf.cpp:95
 msgid "Show Filter"
-msgstr "Показывать фильтр"
+msgstr "Montru filtrilon"
 
-#
 #: kfile/kfiledialogconf.cpp:101
 msgid "Show List Labels"
-msgstr "Показать список меток"
+msgstr "Montru listotitolojn"
 
-#
 #: kfile/kfiledialogconf.cpp:107
 msgid "Show Hidden"
-msgstr "Показать скрытые"
+msgstr "Montru kaЧitajn"
 
-#
 #: kfile/kfiledialogconf.cpp:113
 msgid "Show Status Line"
-msgstr "Показать Строку состояния"
+msgstr "Montru statolistelon"
 
 #: kfile/kfiledialogconf.cpp:119
 msgid "Use single Click"
-msgstr "Использовать один щелчок"
+msgstr "Uzu solan klikon"
 
 #: kfile/kfiledialogconf.cpp:125
 msgid "Mix dirs and files"
-msgstr "Смешивать файлы и каталоги"
+msgstr "Miksu ujojn kaj dosierojn"
 
 #: kfile/kfiledialogconf.cpp:131
 msgid "Keep dirs first"
-msgstr "Каталоги вначале"
+msgstr "Dosierujoj unue"
 
 #: kfile/kfileinfo.cpp:95 kfile/kfileinfo.cpp:99
 msgid "unknown"
-msgstr "неизвестно"
+msgstr "nekonata"
 
-#
 #: kfile/kfileinfo.cpp:218
 msgid "Jan"
-msgstr "Янв"
+msgstr "Jan"
 
 #: kfile/kfileinfo.cpp:219
 msgid "Feb"
-msgstr "Фев"
+msgstr "Feb"
 
-#
 #: kfile/kfileinfo.cpp:220
 msgid "Mar"
-msgstr "Мар"
+msgstr "Mar"
 
-#
 #: kfile/kfileinfo.cpp:221
 msgid "Apr"
-msgstr "Апр"
+msgstr "Apr"
 
-#
 #: kfile/kfileinfo.cpp:223
 msgid "Jun"
-msgstr "Июн"
+msgstr "Jun"
 
-#
 #: kfile/kfileinfo.cpp:224
 msgid "Jul"
-msgstr "Июл"
+msgstr "Jul"
 
-#
 #: kfile/kfileinfo.cpp:225
 msgid "Aug"
-msgstr "Авг"
+msgstr "AЩg"
 
-#
 #: kfile/kfileinfo.cpp:226
 msgid "Sep"
-msgstr "Сен"
+msgstr "Sep"
 
-#
 #: kfile/kfileinfo.cpp:227
 msgid "Oct"
-msgstr "Окт"
+msgstr "Okt"
 
-#
 #: kfile/kfileinfo.cpp:228
 msgid "Nov"
-msgstr "Нов"
+msgstr "Nov"
 
-#
 #: kfile/kfileinfo.cpp:229
 msgid "Dec"
-msgstr "Дек"
+msgstr "Dec"
 
-#
 #: kfile/kpreview.cpp:187
 msgid "Name:"
-msgstr "Имя:"
+msgstr "Nomo:"
 
-#
 #: kfile/kpreview.cpp:205
 msgid "Date:"
-msgstr "Дата:"
+msgstr "Dato:"
 
-#
 #: kfile/kpreview.cpp:214
 msgid "Owner:"
-msgstr "Владелец"
+msgstr "Posedanto:"
 
-#
 #: kfile/kpreview.cpp:223
 msgid "Group:"
-msgstr "Группа:"
+msgstr "Grupo:"
 
-#
 #: kfile/kpreview.cpp:232
 msgid "Type:"
-msgstr "Тип:"
+msgstr "Tipo:"
 
-#
 #: kfile/kpreview.cpp:287
 msgid "locked"
-msgstr "закрыто"
+msgstr "Чlosita"
 
 #: kfile/kpreview.cpp:311
 msgid "picture"
-msgstr "картинка"
+msgstr "bildo"
 
-#
 #: kfile/kpreview.cpp:343
 msgid "folder"
-msgstr "папка"
+msgstr "dosierujo"
 
-# , c-format
 #: kfmlib/kfm.cpp:197
 #, c-format
 msgid ""
 "You dont have the file %s\n"
 "Could not do Authorization"
 msgstr ""
-"У вас отсутствует файл %s\n"
-"Не могу произвести авторизацию"
+"Vi ne posedas la dosieron %s\n"
+"Ne eblis legitimigi vin"
 
-#
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
 msgid "KFM Error"
-msgstr "Ошибка KFM"
+msgstr "KFM-Eraro"
 
-# , c-format
 #: kfmlib/kfm.cpp:208
 #, c-format
 msgid ""
 "The file %s is corrupted\n"
 "Could not do Authorization"
 msgstr ""
-"Файл %s поврежден\n"
-"Не могу произвести авторизацию"
+"La dosiero %s estas difektita\n"
+"Ne eblis legitimig vin"
 
 #: po/texts.cpp:24
 msgid "Error"
-msgstr "Ошибка"
+msgstr "Eraro"
 
 #: po/texts.cpp:25
 msgid "Malformed URL"
-msgstr "Неверный URL"
+msgstr "Misformita URL"
 
 #: po/texts.cpp:29
 msgid "Warning"
-msgstr "Предупреждение"
+msgstr "Averto"
 
 #: po/texts.cpp:30
 msgid "Save a file"
-msgstr "Сохранить файл"
+msgstr "Sekurigas dosieron"
 
 #: po/texts.cpp:31
 msgid "Contents"
-msgstr "Содержимое"
+msgstr "Enhavo"
 
 #: po/texts.cpp:33
 msgid "A&bout..."
-msgstr "О &программе..."
+msgstr "&Pri..."
 
 #: po/texts.cpp:36
 msgid "&OK"
-msgstr "&ОК"
+msgstr "&Konfirmu"
 
 #: po/texts.cpp:38
 msgid "On"
-msgstr "Включено"
+msgstr "EnЧaltita"
 
 #: po/texts.cpp:39
 msgid "Off"
-msgstr "Выключено"
+msgstr "ElЧaltita"
 
 #: po/texts.cpp:43
 msgid "File"
-msgstr "Файл"
+msgstr "Dosiero"
 
 #: po/texts.cpp:44
 msgid "&File"
-msgstr "&Файл"
+msgstr "&Dosiero"
 
 #: po/texts.cpp:47
 msgid "Edit"
-msgstr "Редактирование"
+msgstr "Redakto"
 
 #: po/texts.cpp:48
 msgid "&Edit"
-msgstr "&Редактирование"
+msgstr "&Redakto"
 
 #: po/texts.cpp:49
 msgid "&Options"
-msgstr "Оп&ции"
+msgstr "&Opcioj"
 
 #: po/texts.cpp:50
 msgid "View"
-msgstr "Вид"
+msgstr "Aspekto"
 
 #: po/texts.cpp:51
 msgid "&View"
-msgstr "&Вид"
+msgstr "&Aspekto"
 
 #: po/texts.cpp:52
 msgid "E&xit"
-msgstr "&Выход"
+msgstr "&Finu"
 
 #: po/texts.cpp:53
 msgid "Quit"
-msgstr "Выход"
+msgstr "Finu"
 
 #: po/texts.cpp:54
 msgid "&Quit"
-msgstr "&Выход"
+msgstr "&Finu"
 
 #: po/texts.cpp:58
 msgid "Copy"
-msgstr "Копировать"
+msgstr "Kopiu"
 
 #: po/texts.cpp:59
 msgid "&Copy"
-msgstr "&Копировать"
+msgstr "&Kopiu"
 
 #: po/texts.cpp:60
 msgid "Paste"
-msgstr "Вставить"
+msgstr "Enmetu"
 
 #: po/texts.cpp:61
 msgid "&Paste"
-msgstr "&Вставить"
+msgstr "E&nmetu"
 
 #: po/texts.cpp:62
 msgid "New"
-msgstr "Новый"
+msgstr "Nova"
 
 #: po/texts.cpp:63
 msgid "&New"
-msgstr "&Новый"
+msgstr "&Nova"
 
 #: po/texts.cpp:64
 msgid "&New..."
-msgstr "&Новый..."
+msgstr "&Nova..."
 
 #: po/texts.cpp:65
 msgid "&New Window..."
-msgstr "&Новое окно"
+msgstr "&Nova Fenestro..."
 
 #: po/texts.cpp:66
 msgid "New &Window..."
-msgstr "Новое &окно"
+msgstr "Nova &Fenestro..."
 
 #: po/texts.cpp:67
 msgid "&New Window"
-msgstr "Новое окно"
+msgstr "&Nova Fenestro"
 
 #: po/texts.cpp:68
 msgid "New Game"
-msgstr "Новая игра"
+msgstr "Nova Ludo"
 
 #: po/texts.cpp:69
 msgid "&New Game"
-msgstr "&Новая игра"
+msgstr "&Nova Ludo"
 
 #: po/texts.cpp:71
 msgid "Open a file"
-msgstr "Открыть файл"
+msgstr "Malfermu dosieron"
 
 #: po/texts.cpp:72
 msgid "Open..."
-msgstr "Открыть..."
+msgstr "Malfermu..."
 
 #: po/texts.cpp:73
 msgid "&Open..."
-msgstr "&Открыть..."
+msgstr "&Malfermu..."
 
 #: po/texts.cpp:74
 msgid "Cut"
-msgstr "Вырезать"
+msgstr "Eltondu"
 
 #: po/texts.cpp:75
 msgid "&Cut"
-msgstr "Вырезать"
+msgstr "El&tondu"
 
 #: po/texts.cpp:76
 msgid "C&ut"
-msgstr "Вы&резать"
+msgstr "El&tondu"
 
 #: po/texts.cpp:77
 msgid "Font"
-msgstr "Шрифт"
+msgstr "Tiparo"
 
 #: po/texts.cpp:78
 msgid "&Foreground Color"
-msgstr "Цвет &текста"
+msgstr "&Teksta koloro"
 
 #: po/texts.cpp:79
 msgid "&Background Color"
-msgstr "Цвет &фона"
+msgstr "&Fona koloro"
 
 #: po/texts.cpp:81
 msgid "&Save"
-msgstr "&Сохранить"
+msgstr "&Sekurigu"
 
 #: po/texts.cpp:83
 msgid "Save as..."
-msgstr "Сохранить как..."
+msgstr "Sekurigu kiel..."
 
 #: po/texts.cpp:84
 msgid "S&ave as..."
-msgstr "С&охранить как..."
+msgstr "Sekurigu &kiel..."
 
 #: po/texts.cpp:85
 msgid "Close"
-msgstr "Закрыть"
+msgstr "Fermu"
 
 #: po/texts.cpp:86
 msgid "&Close"
-msgstr "&Закрыть"
+msgstr "&Fermu"
 
 #: po/texts.cpp:87
 msgid "&Print..."
-msgstr "&Печать..."
+msgstr "&Presu..."
 
 #: po/texts.cpp:90
 msgid "Options"
-msgstr "Установки"
+msgstr "Opcioj"
 
 #: po/texts.cpp:91
 msgid "Remove"
-msgstr "Удалить"
+msgstr "Forigu"
 
 #: po/texts.cpp:92
 msgid "Add"
-msgstr "Добавить"
+msgstr "Aldonu"
 
 #: po/texts.cpp:93
 msgid "Change"
-msgstr "Изменить"
+msgstr "чanЬu"
 
 #: po/texts.cpp:94
 msgid "Delete"
-msgstr "Удалить"
+msgstr "For╪etu"
 
 #: po/texts.cpp:95
 msgid "&Delete"
-msgstr "&Удалить"
+msgstr "&For╪etu"
 
 #: po/texts.cpp:96
 msgid "Clear"
-msgstr "Очистить"
+msgstr "ForviЧu"
 
 #: po/texts.cpp:97
 msgid "Italic"
-msgstr "Наклонный"
+msgstr "Kursiva"
 
 #: po/texts.cpp:98
 msgid "Roman"
-msgstr "Роман"
+msgstr "Romana"
 
 #: po/texts.cpp:99
 msgid "Undo"
-msgstr "Откат"
+msgstr "Malfaru"
 
 #: po/texts.cpp:100
 msgid "&Undo"
-msgstr "&Откат"
+msgstr "&Malfaru"
 
 #: po/texts.cpp:101
 msgid "Redo"
-msgstr "Откат назад"
+msgstr "Refaru"
 
 #: po/texts.cpp:102
 msgid "&Redo"
-msgstr "Откат &назад"
+msgstr "&Refaru"
 
 #: po/texts.cpp:103
 msgid "&Game"
-msgstr "&Игра"
+msgstr "&Ludo"
 
 #: po/texts.cpp:104
 msgid "Information"
-msgstr "Информация"
+msgstr "Informo"
 
 #: po/texts.cpp:105
 msgid "Browse..."
-msgstr "Просмотр..."
+msgstr "Rigardu..."
 
 #: po/texts.cpp:106
 msgid "(none)"
-msgstr "(ничего)"
+msgstr "(nedifinite)"
 
 #: po/texts.cpp:107
 msgid "None"
-msgstr "Нет"
+msgstr "Neniu"
 
 #: po/texts.cpp:108
 msgid "Stop"
-msgstr "Стоп"
+msgstr "Stop!"
 
-#
 #: po/texts.cpp:109
 msgid "&Remove"
-msgstr "&Удалить"
+msgstr "&Forigu"
 
-#
 #: po/texts.cpp:110
 msgid "&Properties..."
-msgstr "&Свойства..."
+msgstr "&Ecoj..."
 
 #: po/texts.cpp:111
 msgid "Properties"
-msgstr "Свойства"
+msgstr "Ecoj"
 
-#
 #: po/texts.cpp:112
 msgid "&Start"
-msgstr "На &старте"
+msgstr "&Ek"
 
-#
 #: po/texts.cpp:113
 msgid "St&op"
-msgstr "С&топ"
+msgstr "&Stop"
 
 #: po/texts.cpp:114
 msgid "Move"
-msgstr "Перемещать"
+msgstr "Movu"
 
 #: po/texts.cpp:115
 msgid "Miscellaneous"
-msgstr "Разное"
+msgstr "Diversaj"
 
 #: po/texts.cpp:116
 msgid "Font Size"
-msgstr "Размер шрифта"
+msgstr "Tipargrandeco"
 
 #: po/texts.cpp:117
 msgid "Small"
-msgstr "Маленький"
+msgstr "Malgranda"
 
 #: po/texts.cpp:118
 msgid "Medium"
-msgstr "Средний"
+msgstr "Mezgranda"
 
 #: po/texts.cpp:119
 msgid "Large"
-msgstr "Большой"
+msgstr "Granda"
 
 #: po/texts.cpp:120
 msgid "Fonts"
-msgstr "Шрифты"
+msgstr "Tiparoj"
 
 #: po/texts.cpp:121
 msgid "&Fonts"
-msgstr "&Шрифты"
+msgstr "&Tiparoj"
 
 #: po/texts.cpp:122
 msgid "&Reload"
-msgstr "Перезагрузить"
+msgstr "&Relegu"
 
 #: po/texts.cpp:123
 msgid "&Previous"
-msgstr "Предыдущий"
+msgstr "&AntaЩa"
 
 #: po/texts.cpp:124
 msgid "&Next"
-msgstr "Следующий"
+msgstr "&Sekva"
 
 #: po/texts.cpp:125
 msgid "Files"
-msgstr "Файлы"
+msgstr "Dosieroj"
 
 #: po/texts.cpp:126
 msgid "Continue"
-msgstr "Продолжить"
+msgstr "DaЩrigu"
 
 #: po/texts.cpp:127
 msgid "Restore"
-msgstr "Восстановить"
+msgstr "Restarigu"
 
 #: po/texts.cpp:128
 msgid "Appearance"
-msgstr "Вид"
+msgstr "Aspekto"
 
 #: po/texts.cpp:129
 msgid "Print"
-msgstr "Печать"
+msgstr "Presu"
 
 #: po/texts.cpp:130
 msgid "Monday"
-msgstr "Понедельник"
+msgstr "Lundo"
 
 #: po/texts.cpp:131
 msgid "Tuesday"
-msgstr "Вторник"
+msgstr "Mardo"
 
 #: po/texts.cpp:132
 msgid "Wednesday"
-msgstr "Среда"
+msgstr "Merkredo"
 
-#
 #: po/texts.cpp:133
 msgid "Thursday"
-msgstr "Четверг"
+msgstr "╛aЩdo"
 
-#
 #: po/texts.cpp:134
 msgid "Friday"
-msgstr "Пятница"
+msgstr "Vendredo"
 
 #: po/texts.cpp:135
 msgid "Saturday"
-msgstr "Суббота"
+msgstr "Sabato"
 
-#
 #: po/texts.cpp:136
 msgid "Sunday"
-msgstr "Воскресенье"
+msgstr "DimanФo"
 
-#
 #: po/texts.cpp:137
 msgid "&Update"
-msgstr "&Обновить"
+msgstr "&Renovigu"
 
-#
 #: po/texts.cpp:138
 msgid "Layout"
-msgstr "Расположение"
+msgstr "AranЬo"
 
 #: po/texts.cpp:139
 msgid "Highscore"
-msgstr "Наивысшие баллы"
+msgstr "Listo de plej bonaj"
 
-#
 #: po/texts.cpp:140
 msgid "&New View"
-msgstr "&Новый вид"
+msgstr "&Nova rigardo"
 
 #: po/texts.cpp:141
 msgid "&Insert"
-msgstr "&Вставить"
+msgstr "E&nmetu"
 
-#
 #: po/texts.cpp:144
 msgid "&Next >>"
-msgstr "&Следующий >>"
+msgstr "&Sekva >>"
 
-#
 #: po/texts.cpp:145
 msgid "<< &Previous"
-msgstr "<< &Предыдущий"
+msgstr "<< &AntaЩa"
