@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-11-01 13:56+0100\n"
+"POT-Creation-Date: 1998-11-02 01:02+0100\n"
 "PO-Revision-Date: 1998-10-28 19:01+0200\n"
 "Language-Team: Spanish <kde-es@kyb.ml.org>\n"
 "Translator: Boris Wesslowski <bwess@gmx.net>\n"
@@ -73,20 +73,20 @@ msgstr "No se pudo guardar la base de datos."
 msgid "The author did not publish an email address."
 msgstr "La tercera dirección de email"
 
-#: kab/DialogBase.cpp:34
+#: kab/DialogBase.cpp:36
 msgid ""
 "If you press the OK button, all changes\n"
 "you made will be used to proceed."
 msgstr ""
 
-#: kab/DialogBase.cpp:37
+#: kab/DialogBase.cpp:39
 msgid ""
 "When clicking apply, the settings will be\n"
 "handed over to the program, but the dialog\n"
 "will not be closed.Use this to try different settings."
 msgstr ""
 
-#: kab/DialogBase.cpp:42
+#: kab/DialogBase.cpp:44
 msgid ""
 "If you press the Cancel button, all changes\n"
 "you made will be abandoned and the dialog\n"
@@ -95,17 +95,17 @@ msgid ""
 "opening the dialog."
 msgstr ""
 
-#: kab/DialogBase.cpp:55 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
+#: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
 #: kdeui/kwizard.cpp:228 po/texts.cpp:36
 msgid "&OK"
 msgstr "&OK"
 
-#: kab/DialogBase.cpp:56
+#: kab/DialogBase.cpp:58
 #, fuzzy
 msgid "&Apply"
 msgstr "Aplicar"
 
-#: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
+#: kab/DialogBase.cpp:59 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
 #: kdeui/kwizard.cpp:159 po/texts.cpp:40
 msgid "&Cancel"
 msgstr "&Cancelar"
@@ -808,7 +808,7 @@ msgstr "Carpetas:"
 msgid "Contents:"
 msgstr "Contenido:"
 
-#: kab/addressbook.cc:1047 kfile/kfiledetaillist.cpp:36
+#: kab/addressbook.cc:1048 kfile/kfiledetaillist.cpp:36
 msgid "Name"
 msgstr "Nombre"
 
@@ -1081,7 +1081,7 @@ msgstr "Nov"
 msgid "Dec"
 msgstr "Dic"
 
-#: kab/editentry.cc:63 kfile/kpreview.cpp:187
+#: kab/editentry.cc:64 kfile/kpreview.cpp:187
 msgid "Name:"
 msgstr "Nombre:"
 
@@ -1514,173 +1514,173 @@ msgstr "No hay archivo de base de datos para direcciones, creando nuevo."
 msgid "Tried to load database for creating backup, but failed"
 msgstr "Error al cargar base de datos para hacer un respaldo"
 
-#: kab/addressbook.cc:191
+#: kab/addressbook.cc:192
 msgid "Unable to save to backup file."
 msgstr "Imposible guardar el respaldo."
 
-#: kab/addressbook.cc:197
+#: kab/addressbook.cc:198
 msgid "Unable to reset filename after creating backup."
 msgstr "Imposible cambiar nombre después de crear el respaldo."
 
-#: kab/addressbook.cc:202
+#: kab/addressbook.cc:203
 msgid "Unable to create backup file"
 msgstr "Imposible crear el respaldo"
 
-#: kab/addressbook.cc:255
+#: kab/addressbook.cc:256
 msgid "Unable to insert \""
 msgstr "Imposible insertar \""
 
-#: kab/addressbook.cc:256
+#: kab/addressbook.cc:257
 msgid "\" into configuration section (ignored)."
 msgstr "\" en sección de configuración (ignorado)."
 
-#: kab/addressbook.cc:658
+#: kab/addressbook.cc:659
 msgid "Unable to add a new entry with available key."
 msgstr "Imposible añadir entrada nueva con llave disponible."
 
-#: kab/addressbook.cc:664
+#: kab/addressbook.cc:665
 msgid "Cannot find previously created section."
 msgstr "No se pudo encontrar sección previamente creada."
 
-#: kab/addressbook.cc:695
+#: kab/addressbook.cc:696
 #, fuzzy
 msgid "Unable to create key-value-map for entry."
 msgstr "Imposible crear el respaldo"
 
-#: kab/addressbook.cc:924
+#: kab/addressbook.cc:925
 msgid "entry without name"
 msgstr "entrada sin nombre"
 
-#: kab/addressbook.cc:942
+#: kab/addressbook.cc:943
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
 msgstr "Imposible crear nueva base de datos (probablemente permiso denegado)."
 
-#: kab/addressbook.cc:948
+#: kab/addressbook.cc:949
 msgid "Cannot create configuration section, exiting."
 msgstr "Imposible crear sección de configuración."
 
-#: kab/addressbook.cc:953
+#: kab/addressbook.cc:954
 msgid "Cannot create entries section, exiting."
 msgstr "Imposible crear entradas de sección."
 
-#: kab/addressbook.cc:958
+#: kab/addressbook.cc:959
 msgid "Unable to find previously created section, exiting."
 msgstr "Imposible encontrar seciión previamente creada."
 
-#: kab/addressbook.cc:966
+#: kab/addressbook.cc:967
 msgid "Cannot save newly created database."
 msgstr "No se pudo guardar base de datos nueva."
 
-#: kab/addressbook.cc:972
+#: kab/addressbook.cc:973
 msgid "Cannot erase database contents."
 msgstr "No se pudo suprimir el contenido de la base de datos."
 
-#: kab/addressbook.cc:1051
+#: kab/addressbook.cc:1052
 msgid "First name"
 msgstr "Primer nombre"
 
-#: kab/addressbook.cc:1055
+#: kab/addressbook.cc:1056
 msgid "Additional name"
 msgstr "Nombre adicional"
 
-#: kab/addressbook.cc:1059
+#: kab/addressbook.cc:1060
 msgid "Name prefix"
 msgstr "Prefijo"
 
-#: kab/addressbook.cc:1063
+#: kab/addressbook.cc:1064
 msgid "Formatted name"
 msgstr "Nombre formateado"
 
-#: kab/addressbook.cc:1067
+#: kab/addressbook.cc:1068
 msgid "Comment"
 msgstr "Comentario"
 
-#: kab/addressbook.cc:1071
+#: kab/addressbook.cc:1072
 msgid "Organization"
 msgstr "Organización"
 
-#: kab/addressbook.cc:1075
+#: kab/addressbook.cc:1076
 msgid "Unit"
 msgstr "Unidad"
 
-#: kab/addressbook.cc:1079
+#: kab/addressbook.cc:1080
 msgid "Subunit"
 msgstr "Subunidad"
 
-#: kab/addressbook.cc:1083
+#: kab/addressbook.cc:1084
 msgid "Title"
 msgstr "Título"
 
-#: kab/addressbook.cc:1087
+#: kab/addressbook.cc:1088
 msgid "Role"
 msgstr ""
 
-#: kab/addressbook.cc:1091
+#: kab/addressbook.cc:1092
 msgid "Birthday"
 msgstr "Cumpleaños"
 
-#: kab/addressbook.cc:1095
+#: kab/addressbook.cc:1096
 msgid "Talk addresses"
 msgstr "Dirección para talk"
 
-#: kab/addressbook.cc:1099
+#: kab/addressbook.cc:1100
 msgid "Delivery label"
 msgstr "Marca de envío"
 
-#: kab/addressbook.cc:1103
+#: kab/addressbook.cc:1104
 msgid "Email address"
 msgstr "Dirección de email"
 
-#: kab/addressbook.cc:1107
+#: kab/addressbook.cc:1108
 msgid "Second email address"
 msgstr "Segunda dirección de email"
 
-#: kab/addressbook.cc:1111
+#: kab/addressbook.cc:1112
 msgid "Third email address"
 msgstr "Tercera dirección de email"
 
-#: kab/addressbook.cc:1115
+#: kab/addressbook.cc:1116
 msgid "Email addresses"
 msgstr "Direcciónes de email"
 
-#: kab/addressbook.cc:1119
+#: kab/addressbook.cc:1120
 msgid "Address"
 msgstr "Dirección"
 
-#: kab/addressbook.cc:1123
+#: kab/addressbook.cc:1124
 msgid "City/Town"
 msgstr "Ciudad"
 
-#: kab/addressbook.cc:1127
+#: kab/addressbook.cc:1128
 msgid "Telephone"
 msgstr "Teléfono"
 
-#: kab/addressbook.cc:1131
+#: kab/addressbook.cc:1132
 msgid "Fax number"
 msgstr "Número de fax"
 
-#: kab/addressbook.cc:1135
+#: kab/addressbook.cc:1136
 msgid "Modem number"
 msgstr "Número de modem"
 
-#: kab/addressbook.cc:1139
+#: kab/addressbook.cc:1140
 msgid "Homepage URL"
 msgstr "URL del homepage"
 
-#: kab/addressbook.cc:1143
+#: kab/addressbook.cc:1144
 msgid "Zip/postal code"
 msgstr "Código postal"
 
-#: kab/addressbook.cc:1147
+#: kab/addressbook.cc:1148
 msgid "State/province"
 msgstr "Estado/provincia"
 
-#: kab/addressbook.cc:1151
+#: kab/addressbook.cc:1152
 msgid "Country"
 msgstr "País"
 
-#: kab/addressbook.cc:1318
+#: kab/addressbook.cc:1319
 msgid "(unnamed entry)"
 msgstr "(entrada sin nombre)"
 
@@ -1688,111 +1688,115 @@ msgstr "(entrada sin nombre)"
 msgid "Select birthday"
 msgstr "Elija cumpleaños"
 
-#: kab/editentry.cc:37
+#: kab/editentry.cc:38
 msgid "Edit the current entry"
 msgstr "Editar la entrada actual"
 
-#: kab/editentry.cc:60
+#: kab/editentry.cc:61
 msgid "Title:"
 msgstr "Título:"
 
-#: kab/editentry.cc:61
+#: kab/editentry.cc:62
 msgid "First name:"
 msgstr "Primer nombre:"
 
-#: kab/editentry.cc:62
+#: kab/editentry.cc:63
 msgid "Additional Name:"
 msgstr "Nombre adicional:"
 
-#: kab/editentry.cc:64
+#: kab/editentry.cc:65
 msgid "Formatted Name:"
 msgstr "Nombre formateado:"
 
-#: kab/editentry.cc:87
+#: kab/editentry.cc:88
 msgid "&Name"
 msgstr "&Nombre"
 
-#: kab/editentry.cc:104
+#: kab/editentry.cc:103
 msgid "Address:"
 msgstr "Dirección:"
 
-#: kab/editentry.cc:105
+#: kab/editentry.cc:104
 msgid "Zip/postal code:"
 msgstr "Código postal:"
 
-#: kab/editentry.cc:106
+#: kab/editentry.cc:105
 msgid "Town:"
 msgstr "Ciudad:"
 
-#: kab/editentry.cc:107
+#: kab/editentry.cc:106
 msgid "State:"
 msgstr "Estado:"
 
-#: kab/editentry.cc:108
+#: kab/editentry.cc:107
 msgid "Country:"
 msgstr "País:"
 
-#: kab/editentry.cc:131
+#: kab/editentry.cc:130
 msgid "&Address"
 msgstr "&Dirección"
 
-#: kab/editentry.cc:148
+#: kab/editentry.cc:145
 msgid "Organization:"
 msgstr "Oragnaización:"
 
-#: kab/editentry.cc:149
+#: kab/editentry.cc:146
 msgid "Org Unit:"
 msgstr "Unidad organizacional"
 
-#: kab/editentry.cc:150
+#: kab/editentry.cc:147
 msgid "Org Subunit:"
 msgstr "Subundad organizacional"
 
-#: kab/editentry.cc:151
+#: kab/editentry.cc:148
 msgid "Role:"
 msgstr ""
 
-#: kab/editentry.cc:172
+#: kab/editentry.cc:169
 msgid "&Organization"
 msgstr "&Oragnización"
 
-#: kab/editentry.cc:189
+#: kab/editentry.cc:184
 msgid "Telephone:"
 msgstr "Teléfono:"
 
-#: kab/editentry.cc:190
+#: kab/editentry.cc:185
 msgid "Fax:"
 msgstr "Fax:"
 
-#: kab/editentry.cc:191
+#: kab/editentry.cc:186
 msgid "Modem:"
 msgstr "Modem:"
 
-#: kab/editentry.cc:192
+#: kab/editentry.cc:187
 msgid "Homepage (URL):"
 msgstr "Homepage (URL):"
 
-#: kab/editentry.cc:206 kab/editentry.cc:434
+#: kab/editentry.cc:200 kab/editentry.cc:416
 msgid "Edit email addresses"
 msgstr "Editar dirección de email"
 
-#: kab/editentry.cc:212 kab/editentry.cc:416
+#: kab/editentry.cc:206 kab/editentry.cc:398
 msgid "Edit talk addresses"
 msgstr "Editar dirección de talk"
 
-#: kab/editentry.cc:224
+#: kab/editentry.cc:218
 msgid "&Contact"
 msgstr "&Contacto"
 
-#: kab/editentry.cc:247
+#: kab/editentry.cc:239
 msgid "Comment:"
 msgstr "Comentario:"
 
-#: kab/editentry.cc:254
+#: kab/editentry.cc:246
 msgid "Birthday:"
 msgstr "Cumpleaños:"
 
-#: kab/editentry.cc:264
+#: kab/editentry.cc:249
+msgid "Double click to set date"
+msgstr ""
+
+#: kab/editentry.cc:256
 msgid "O&thers"
 msgstr "O&tros"
 

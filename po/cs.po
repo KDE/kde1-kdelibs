@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-11-01 13:56+0100\n"
+"POT-Creation-Date: 1998-11-02 01:02+0100\n"
 "PO-Revision-Date: 1998-10-24 16:13 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <flidr@kky.cu.cz>\n"
@@ -75,20 +75,20 @@ msgstr "Není mo¾né ulo¾it dokument\n"
 msgid "The author did not publish an email address."
 msgstr "Tøetí e-mail adresa"
 
-#: kab/DialogBase.cpp:34
+#: kab/DialogBase.cpp:36
 msgid ""
 "If you press the OK button, all changes\n"
 "you made will be used to proceed."
 msgstr ""
 
-#: kab/DialogBase.cpp:37
+#: kab/DialogBase.cpp:39
 msgid ""
 "When clicking apply, the settings will be\n"
 "handed over to the program, but the dialog\n"
 "will not be closed.Use this to try different settings."
 msgstr ""
 
-#: kab/DialogBase.cpp:42
+#: kab/DialogBase.cpp:44
 msgid ""
 "If you press the Cancel button, all changes\n"
 "you made will be abandoned and the dialog\n"
@@ -97,17 +97,17 @@ msgid ""
 "opening the dialog."
 msgstr ""
 
-#: kab/DialogBase.cpp:55 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
+#: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
 #: kdeui/kwizard.cpp:228 po/texts.cpp:36
 msgid "&OK"
 msgstr "&OK"
 
-#: kab/DialogBase.cpp:56
+#: kab/DialogBase.cpp:58
 #, fuzzy
 msgid "&Apply"
 msgstr "Pou¾ít"
 
-#: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
+#: kab/DialogBase.cpp:59 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
 #: kdeui/kwizard.cpp:159 po/texts.cpp:40
 msgid "&Cancel"
 msgstr "&Zru¹it"
@@ -811,7 +811,7 @@ msgstr "Adresáøe:"
 msgid "Contents:"
 msgstr "Obsah:"
 
-#: kab/addressbook.cc:1047 kfile/kfiledetaillist.cpp:36
+#: kab/addressbook.cc:1048 kfile/kfiledetaillist.cpp:36
 msgid "Name"
 msgstr "Jméno"
 
@@ -1085,7 +1085,7 @@ msgstr "Lis"
 msgid "Dec"
 msgstr "Pro"
 
-#: kab/editentry.cc:63 kfile/kpreview.cpp:187
+#: kab/editentry.cc:64 kfile/kpreview.cpp:187
 msgid "Name:"
 msgstr "Jméno:"
 
@@ -1520,175 +1520,175 @@ msgstr "Nemáte ¾ádný databázový soubor knihy adres, vytváøím jej."
 msgid "Tried to load database for creating backup, but failed"
 msgstr "Neuspì¹ný pokus naètení databáze pro vytvoøení zálohy"
 
-#: kab/addressbook.cc:191
+#: kab/addressbook.cc:192
 msgid "Unable to save to backup file."
 msgstr "Není mo¾né ulo¾it zálo¾ní soubor."
 
-#: kab/addressbook.cc:197
+#: kab/addressbook.cc:198
 msgid "Unable to reset filename after creating backup."
 msgstr "Není mo¾né obnovit jméno souboru po vytvoøení zálohy."
 
-#: kab/addressbook.cc:202
+#: kab/addressbook.cc:203
 msgid "Unable to create backup file"
 msgstr "Není mo¾né vytvoøit zálo¾ní soubor"
 
-#: kab/addressbook.cc:255
+#: kab/addressbook.cc:256
 msgid "Unable to insert \""
 msgstr "Není mo¾né vlo¾it \""
 
-#: kab/addressbook.cc:256
+#: kab/addressbook.cc:257
 msgid "\" into configuration section (ignored)."
 msgstr "\" do konfiguraèní sekce (ignorované)."
 
-#: kab/addressbook.cc:658
+#: kab/addressbook.cc:659
 msgid "Unable to add a new entry with available key."
 msgstr "Není mo¾né pøidat novou polo¾ku s dostupným klièem."
 
-#: kab/addressbook.cc:664
+#: kab/addressbook.cc:665
 msgid "Cannot find previously created section."
 msgstr "Není mo¾né nalézt døíve vytvoøenou sekci."
 
-#: kab/addressbook.cc:695
+#: kab/addressbook.cc:696
 #, fuzzy
 msgid "Unable to create key-value-map for entry."
 msgstr "Není mo¾né vytvoøit zálo¾ní soubor"
 
-#: kab/addressbook.cc:924
+#: kab/addressbook.cc:925
 msgid "entry without name"
 msgstr "polo¾ka beze jména"
 
-#: kab/addressbook.cc:942
+#: kab/addressbook.cc:943
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
 msgstr ""
 "Není mo¾né vytvoøit nový databázový soubor (pravdìpodobnì nejsou pøístupová "
 "práva), ukonèuji."
 
-#: kab/addressbook.cc:948
+#: kab/addressbook.cc:949
 msgid "Cannot create configuration section, exiting."
 msgstr "Není mo¾né vytvoøit konfiguraèní sekci, ukonèuji."
 
-#: kab/addressbook.cc:953
+#: kab/addressbook.cc:954
 msgid "Cannot create entries section, exiting."
 msgstr "Není mo¾né vytvoøit sekci polo¾ek, ukonèuji."
 
-#: kab/addressbook.cc:958
+#: kab/addressbook.cc:959
 msgid "Unable to find previously created section, exiting."
 msgstr "Není mo¾né nalézt døíve vytvoøenou sekci, ukonèuji."
 
-#: kab/addressbook.cc:966
+#: kab/addressbook.cc:967
 msgid "Cannot save newly created database."
 msgstr "Není mo¾né ulo¾it èerstvì vytvoøenou databázi."
 
-#: kab/addressbook.cc:972
+#: kab/addressbook.cc:973
 msgid "Cannot erase database contents."
 msgstr "Není mo¾né vymazat obsah databáze."
 
-#: kab/addressbook.cc:1051
+#: kab/addressbook.cc:1052
 msgid "First name"
 msgstr "Køestní jméno"
 
-#: kab/addressbook.cc:1055
+#: kab/addressbook.cc:1056
 msgid "Additional name"
 msgstr "Dal¹í jméno"
 
-#: kab/addressbook.cc:1059
+#: kab/addressbook.cc:1060
 msgid "Name prefix"
 msgstr "Prefix jména"
 
-#: kab/addressbook.cc:1063
+#: kab/addressbook.cc:1064
 msgid "Formatted name"
 msgstr "Zformátované jméno"
 
-#: kab/addressbook.cc:1067
+#: kab/addressbook.cc:1068
 msgid "Comment"
 msgstr "Komentáø"
 
-#: kab/addressbook.cc:1071
+#: kab/addressbook.cc:1072
 msgid "Organization"
 msgstr "Organizace"
 
-#: kab/addressbook.cc:1075
+#: kab/addressbook.cc:1076
 msgid "Unit"
 msgstr "Jednotka"
 
-#: kab/addressbook.cc:1079
+#: kab/addressbook.cc:1080
 msgid "Subunit"
 msgstr "Podjednotka"
 
-#: kab/addressbook.cc:1083
+#: kab/addressbook.cc:1084
 msgid "Title"
 msgstr "Titul"
 
-#: kab/addressbook.cc:1087
+#: kab/addressbook.cc:1088
 msgid "Role"
 msgstr "Funkce"
 
-#: kab/addressbook.cc:1091
+#: kab/addressbook.cc:1092
 msgid "Birthday"
 msgstr "Narozeniny"
 
-#: kab/addressbook.cc:1095
+#: kab/addressbook.cc:1096
 msgid "Talk addresses"
 msgstr "Adresa pro talk"
 
-#: kab/addressbook.cc:1099
+#: kab/addressbook.cc:1100
 msgid "Delivery label"
 msgstr "Doruèovací pojmenování"
 
-#: kab/addressbook.cc:1103
+#: kab/addressbook.cc:1104
 msgid "Email address"
 msgstr "E-mail adresa"
 
-#: kab/addressbook.cc:1107
+#: kab/addressbook.cc:1108
 msgid "Second email address"
 msgstr "Druhá e-mail adresa"
 
-#: kab/addressbook.cc:1111
+#: kab/addressbook.cc:1112
 msgid "Third email address"
 msgstr "Tøetí e-mail adresa"
 
-#: kab/addressbook.cc:1115
+#: kab/addressbook.cc:1116
 msgid "Email addresses"
 msgstr "E-mail adresy"
 
-#: kab/addressbook.cc:1119
+#: kab/addressbook.cc:1120
 msgid "Address"
 msgstr "Adresa"
 
-#: kab/addressbook.cc:1123
+#: kab/addressbook.cc:1124
 msgid "City/Town"
 msgstr "Mìsto"
 
-#: kab/addressbook.cc:1127
+#: kab/addressbook.cc:1128
 msgid "Telephone"
 msgstr "Telefon"
 
-#: kab/addressbook.cc:1131
+#: kab/addressbook.cc:1132
 msgid "Fax number"
 msgstr "Faxové èíslo"
 
-#: kab/addressbook.cc:1135
+#: kab/addressbook.cc:1136
 msgid "Modem number"
 msgstr "Modemové èíslo"
 
-#: kab/addressbook.cc:1139
+#: kab/addressbook.cc:1140
 msgid "Homepage URL"
 msgstr "URL domovské stránky"
 
-#: kab/addressbook.cc:1143
+#: kab/addressbook.cc:1144
 msgid "Zip/postal code"
 msgstr "Po¹tovní smìrovací èíslo"
 
-#: kab/addressbook.cc:1147
+#: kab/addressbook.cc:1148
 msgid "State/province"
 msgstr "Stát/provincie"
 
-#: kab/addressbook.cc:1151
+#: kab/addressbook.cc:1152
 msgid "Country"
 msgstr "Zemì"
 
-#: kab/addressbook.cc:1318
+#: kab/addressbook.cc:1319
 msgid "(unnamed entry)"
 msgstr "(nepojmenovaná polo¾ka)"
 
@@ -1696,111 +1696,115 @@ msgstr "(nepojmenovaná polo¾ka)"
 msgid "Select birthday"
 msgstr "Vyber den narození"
 
-#: kab/editentry.cc:37
+#: kab/editentry.cc:38
 msgid "Edit the current entry"
 msgstr "Uprava aktuální polo¾ky"
 
-#: kab/editentry.cc:60
+#: kab/editentry.cc:61
 msgid "Title:"
 msgstr "Titul:"
 
-#: kab/editentry.cc:61
+#: kab/editentry.cc:62
 msgid "First name:"
 msgstr "Køestní jméno:"
 
-#: kab/editentry.cc:62
+#: kab/editentry.cc:63
 msgid "Additional Name:"
 msgstr "Dal¹í jméno:"
 
-#: kab/editentry.cc:64
+#: kab/editentry.cc:65
 msgid "Formatted Name:"
 msgstr "Formátované jméno:"
 
-#: kab/editentry.cc:87
+#: kab/editentry.cc:88
 msgid "&Name"
 msgstr "&Jméno"
 
-#: kab/editentry.cc:104
+#: kab/editentry.cc:103
 msgid "Address:"
 msgstr "Adresa:"
 
-#: kab/editentry.cc:105
+#: kab/editentry.cc:104
 msgid "Zip/postal code:"
 msgstr "Po¹t. smìrovací èíslo:"
 
-#: kab/editentry.cc:106
+#: kab/editentry.cc:105
 msgid "Town:"
 msgstr "Mìsto:"
 
-#: kab/editentry.cc:107
+#: kab/editentry.cc:106
 msgid "State:"
 msgstr "Stát:"
 
-#: kab/editentry.cc:108
+#: kab/editentry.cc:107
 msgid "Country:"
 msgstr "Zemì:"
 
-#: kab/editentry.cc:131
+#: kab/editentry.cc:130
 msgid "&Address"
 msgstr "&Adresa"
 
-#: kab/editentry.cc:148
+#: kab/editentry.cc:145
 msgid "Organization:"
 msgstr "Organizace:"
 
-#: kab/editentry.cc:149
+#: kab/editentry.cc:146
 msgid "Org Unit:"
 msgstr "Org. jednotka:"
 
-#: kab/editentry.cc:150
+#: kab/editentry.cc:147
 msgid "Org Subunit:"
 msgstr "Org. podjednotka:"
 
-#: kab/editentry.cc:151
+#: kab/editentry.cc:148
 msgid "Role:"
 msgstr "Funkce:"
 
-#: kab/editentry.cc:172
+#: kab/editentry.cc:169
 msgid "&Organization"
 msgstr "&Organizace"
 
-#: kab/editentry.cc:189
+#: kab/editentry.cc:184
 msgid "Telephone:"
 msgstr "Telefon:"
 
-#: kab/editentry.cc:190
+#: kab/editentry.cc:185
 msgid "Fax:"
 msgstr "Fax:"
 
-#: kab/editentry.cc:191
+#: kab/editentry.cc:186
 msgid "Modem:"
 msgstr "Modem:"
 
-#: kab/editentry.cc:192
+#: kab/editentry.cc:187
 msgid "Homepage (URL):"
 msgstr "Domovská stránka (URL):"
 
-#: kab/editentry.cc:206 kab/editentry.cc:434
+#: kab/editentry.cc:200 kab/editentry.cc:416
 msgid "Edit email addresses"
 msgstr "Upravit e-mail adresy"
 
-#: kab/editentry.cc:212 kab/editentry.cc:416
+#: kab/editentry.cc:206 kab/editentry.cc:398
 msgid "Edit talk addresses"
 msgstr "Upravit talk adresy"
 
-#: kab/editentry.cc:224
+#: kab/editentry.cc:218
 msgid "&Contact"
 msgstr "&Kontakt"
 
-#: kab/editentry.cc:247
+#: kab/editentry.cc:239
 msgid "Comment:"
 msgstr "Komentáø:"
 
-#: kab/editentry.cc:254
+#: kab/editentry.cc:246
 msgid "Birthday:"
 msgstr "Narozeniny:"
 
-#: kab/editentry.cc:264
+#: kab/editentry.cc:249
+msgid "Double click to set date"
+msgstr ""
+
+#: kab/editentry.cc:256
 msgid "O&thers"
 msgstr "Os&tatní"
 
