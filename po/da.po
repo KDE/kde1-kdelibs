@@ -1676,10 +1676,12 @@ msgid "&About..."
 msgstr "&Om..."
 
 #: kab/addressbook.cc:90
+#, fuzzy
 msgid ""
 "The directory where user specific data for the\n"
 "addressbook application is stored does not exist.\n"
 "The program will try to create\n"
+"         "
 msgstr ""
 "Den folder hvor brugerspecifikke data for\n"
 "adressebogsprogrammet gemmes findes ikke.\n"
