@@ -10,21 +10,20 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: kab/AssertDialog.cpp:29
-#, fuzzy
 msgid "(unknown file)"
-msgstr "inconnu"
+msgstr "(fichier inconnu)"
 
 #: kab/AssertDialog.cpp:30
 msgid "(unknown line number)"
-msgstr ""
+msgstr "(numéro de ligne inconnu)"
 
 #: kab/AssertDialog.cpp:31
 msgid "(unknown condition)"
-msgstr ""
+msgstr "(condition inconnue)"
 
 #: kab/AssertDialog.cpp:39
 msgid "You have found a bug in "
-msgstr ""
+msgstr "Vous avez trouvé une bogue dans "
 
 #: kab/AssertDialog.cpp:45
 msgid "Ignore the error, possibly causing much more damage"
@@ -52,25 +51,23 @@ msgstr "OK"
 
 #: kab/AssertDialog.cpp:140
 msgid "The following condition failed:\n"
-msgstr ""
+msgstr "La condition suivante a échoué:\n"
 
 #: kab/AssertDialog.cpp:141
-#, fuzzy
 msgid "In file "
-msgstr "fichier"
+msgstr "Dans le fichier "
 
 #: kab/AssertDialog.cpp:141
 msgid ", line "
-msgstr ""
+msgstr ", ligne "
 
 #: kab/AssertDialog.cpp:212 kab/AssertDialog.cpp:217
 msgid "Error handling error"
 msgstr ""
 
 #: kab/AssertDialog.cpp:213
-#, fuzzy
 msgid "Could not send message."
-msgstr "Le document ne peut pas être enregistré.\n"
+msgstr "Le message ne peut pas être envoyé."
 
 #: kab/AssertDialog.cpp:218
 msgid "The author did not publish an email address."
@@ -299,9 +296,8 @@ msgid "Replace"
 msgstr "Remplacer"
 
 #: kdecore/kaccel.cpp:279 po/texts.cpp:134
-#, fuzzy
 msgid "Insert"
-msgstr "&Insérer"
+msgstr "Insérer"
 
 #: kdecore/kaccel.cpp:283 kfile/kfiledialog.cpp:131
 msgid "Home"
@@ -309,17 +305,15 @@ msgstr "Maison"
 
 #: kdecore/kaccel.cpp:287
 msgid "End"
-msgstr ""
+msgstr "Fin"
 
 #: kdecore/kaccel.cpp:291
-#, fuzzy
 msgid "Prior"
-msgstr "Erreur"
+msgstr ""
 
 #: kdecore/kaccel.cpp:295
-#, fuzzy
 msgid "Next"
-msgstr "&Suivant"
+msgstr ""
 
 #: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471
 #: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:240 po/texts.cpp:44
@@ -328,15 +322,15 @@ msgstr "Aide"
 
 #: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:661
 msgid "SHIFT"
-msgstr ""
+msgstr "SHIFT"
 
 #: kdecore/kaccel.cpp:601 kdecore/kaccel.cpp:663
 msgid "CTRL"
-msgstr ""
+msgstr "CONTROL"
 
 #: kdecore/kaccel.cpp:605 kdecore/kaccel.cpp:665
 msgid "ALT"
-msgstr ""
+msgstr "ALT"
 
 #: kdecore/kapp.cpp:551 po/texts.cpp:137
 msgid "&Contents"
@@ -369,7 +363,7 @@ msgstr ""
 "\n"
 "L'Environnement de bureau KDE a été écrit par l'équipe KDE,\n"
 "un réseau mondial d'ingénieurs logiciels engagés dans le\n"
-"développement le logiciels libres.\n"
+"développement de logiciels libres.\n"
 "\n"
 "Visitez http://www.kde.org pour plus d'informations sur\n"
 "le projet KDE. Rejoignez-nous et supportez KDE !\n"
@@ -740,9 +734,8 @@ msgid "Current key"
 msgstr ""
 
 #: kdeui/kkeydialog.cpp:331
-#, fuzzy
 msgid "&Action"
-msgstr "Emp&lacement :"
+msgstr "&Action"
 
 #: kdeui/kkeydialog.cpp:392
 msgid "&No key"
@@ -754,9 +747,8 @@ msgid "&Default key"
 msgstr "Par &défaut"
 
 #: kdeui/kkeydialog.cpp:408
-#, fuzzy
 msgid "&Custom key"
-msgstr "Personnalisées..."
+msgstr "Tou&ches personnalisées..."
 
 #: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:731
 msgid "Top"
@@ -1484,7 +1476,6 @@ msgid "<< &Previous"
 msgstr "<< &Précédent"
 
 #: po/texts.cpp:138
-#, fuzzy
 msgid "&About..."
 msgstr "&A propos..."
 
@@ -1599,41 +1590,37 @@ msgid "Formatted name"
 msgstr ""
 
 #: kab/addressbook.cc:1068
-#, fuzzy
 msgid "Comment"
-msgstr "Contenu"
+msgstr "Commentaire"
 
 #: kab/addressbook.cc:1072
 msgid "Organization"
-msgstr ""
+msgstr "Organisation"
 
 #: kab/addressbook.cc:1076
 #, fuzzy
 msgid "Unit"
-msgstr "Sans titre"
+msgstr "Unité"
 
 #: kab/addressbook.cc:1080
-#, fuzzy
 msgid "Subunit"
-msgstr "Dim"
+msgstr ""
 
 #: kab/addressbook.cc:1084
-#, fuzzy
 msgid "Title"
-msgstr "fichier"
+msgstr "Titre"
 
 #: kab/addressbook.cc:1088
-#, fuzzy
 msgid "Role"
-msgstr "dossier"
+msgstr "Rôle"
 
 #: kab/addressbook.cc:1092
 msgid "Birthday"
-msgstr ""
+msgstr "Anniversaire"
 
 #: kab/addressbook.cc:1096
 msgid "Talk addresses"
-msgstr ""
+msgstr "Adresse talk"
 
 #: kab/addressbook.cc:1100
 msgid "Delivery label"
@@ -1641,24 +1628,23 @@ msgstr ""
 
 #: kab/addressbook.cc:1104
 msgid "Email address"
-msgstr ""
+msgstr "Adresse email"
 
 #: kab/addressbook.cc:1108
 msgid "Second email address"
-msgstr ""
+msgstr "Deuxième adresse email"
 
 #: kab/addressbook.cc:1112
 msgid "Third email address"
-msgstr ""
+msgstr "Troisième adresse email"
 
 #: kab/addressbook.cc:1116
 msgid "Email addresses"
-msgstr ""
+msgstr "Adresses email"
 
 #: kab/addressbook.cc:1120
-#, fuzzy
 msgid "Address"
-msgstr "Ajouter"
+msgstr "Adresse"
 
 #: kab/addressbook.cc:1124
 msgid "City/Town"
@@ -1666,16 +1652,15 @@ msgstr ""
 
 #: kab/addressbook.cc:1128
 msgid "Telephone"
-msgstr ""
+msgstr "Téléphone"
 
 #: kab/addressbook.cc:1132
 msgid "Fax number"
-msgstr ""
+msgstr "Numéro de fax"
 
 #: kab/addressbook.cc:1136
-#, fuzzy
 msgid "Modem number"
-msgstr "Novembre"
+msgstr "Numéro de modem"
 
 #: kab/addressbook.cc:1140
 msgid "Homepage URL"
@@ -1699,18 +1684,16 @@ msgid "(unnamed entry)"
 msgstr ""
 
 #: kab/datepickerdialog.cc:34
-#, fuzzy
 msgid "Select birthday"
-msgstr "Choisir une police"
+msgstr "Choisir une date anniversaire"
 
 #: kab/editentry.cc:38
 msgid "Edit the current entry"
 msgstr ""
 
 #: kab/editentry.cc:61
-#, fuzzy
 msgid "Title:"
-msgstr "Style :"
+msgstr "Titre :"
 
 #: kab/editentry.cc:62
 msgid "First name:"
@@ -1725,9 +1708,8 @@ msgid "Formatted Name:"
 msgstr ""
 
 #: kab/editentry.cc:88
-#, fuzzy
 msgid "&Name"
-msgstr "Nom"
+msgstr "&Nom"
 
 #: kab/editentry.cc:103
 msgid "Address:"
