@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kde\n"
-"POT-Creation-Date: 1998-11-12 13:50+0100\n"
+"POT-Creation-Date: 1998-11-18 11:24+0100\n"
 "PO-Revision-Date: 1998-06-23 09:00-0300\n"
 "Last-Translator:Elvis Pfützenreuter <epx@netville.com.br>\n"
 
@@ -40,7 +40,7 @@ msgstr "Mandar um e-mail para o mantenedor da aplicação"
 #: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:370
 #: kdeui/kiconloaderdialog.cpp:254 kdeui/kmsgbox.cpp:277
 #: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:505
-#: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:400
+#: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:409
 #: po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
@@ -73,7 +73,8 @@ msgstr "O autor não publicou um e-mail."
 msgid ""
 "If you press the OK button, all changes\n"
 "you made will be used to proceed."
-msgstr "Se você pressionar o botão OK, todas as mudanças\n"
+msgstr ""
+"Se você pressionar o botão OK, todas as mudanças\n"
 "que você fez serão procedidas."
 
 #: kab/DialogBase.cpp:39
@@ -81,10 +82,11 @@ msgid ""
 "When clicking apply, the settings will be\n"
 "handed over to the program, but the dialog\n"
 "will not be closed.Use this to try different settings."
-msgstr "Ao clicar Aplicar, as configurações serão\n"
-       "efetivadas, mas a janela não será fechada.\n"
-       "Utilize esta opção para tentar configurações\n" 
-       "diferentes."
+msgstr ""
+"Ao clicar Aplicar, as configurações serão\n"
+"efetivadas, mas a janela não será fechada.\n"
+"Utilize esta opção para tentar configurações\n"
+"diferentes."
 
 #: kab/DialogBase.cpp:44
 msgid ""
@@ -93,11 +95,12 @@ msgid ""
 "will be closed.\n"
 "The program will be in the state before\n"
 "opening the dialog."
-msgstr "Se você pressionar o botão Cancelar, todas\n" 
-       "as mudanças que você fez serão abandonadas\n"
-       "e a janela será fechada.\n"
-       "O programa continuará no estado anterior à\n"
-       "abertura da janela."
+msgstr ""
+"Se você pressionar o botão Cancelar, todas\n"
+"as mudanças que você fez serão abandonadas\n"
+"e a janela será fechada.\n"
+"O programa continuará no estado anterior à\n"
+"abertura da janela."
 
 #: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
 #: kdeui/kwizard.cpp:228 po/texts.cpp:36
@@ -399,7 +402,7 @@ msgstr "Não"
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:365
 #: kdeui/kiconloaderdialog.cpp:255 kdeui/kmsgbox.cpp:312
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:892
-#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:404 kio/kio_job.cc:693
+#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:413 kio/kio_job.cc:693
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
 #: po/texts.cpp:39
@@ -451,7 +454,7 @@ msgstr "Março"
 msgid "April"
 msgstr "Abril"
 
-#: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:224
+#: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:225
 msgid "May"
 msgstr "Maio"
 
@@ -766,23 +769,23 @@ msgstr "&Tecla padrão"
 msgid "&Custom key"
 msgstr "T&ecla personalizada"
 
-#: kdeui/kmenubar.cpp:203 kdeui/ktoolbar.cpp:828
+#: kdeui/kmenubar.cpp:206 kdeui/ktoolbar.cpp:831
 msgid "Top"
 msgstr "Topo"
 
-#: kdeui/kmenubar.cpp:204 kdeui/ktoolbar.cpp:830
+#: kdeui/kmenubar.cpp:207 kdeui/ktoolbar.cpp:833
 msgid "Bottom"
 msgstr "Fundo"
 
-#: kdeui/kmenubar.cpp:205 kdeui/ktoolbar.cpp:831
+#: kdeui/kmenubar.cpp:208 kdeui/ktoolbar.cpp:834
 msgid "Floating"
 msgstr "Flutuante"
 
-#: kdeui/kmenubar.cpp:350 kdeui/kmenubar.cpp:605 kdeui/ktoolbar.cpp:2134
+#: kdeui/kmenubar.cpp:353 kdeui/kmenubar.cpp:608 kdeui/ktoolbar.cpp:2137
 msgid "Float"
 msgstr "Flutuar"
 
-#: kdeui/kmenubar.cpp:574 kdeui/ktoolbar.cpp:2115
+#: kdeui/kmenubar.cpp:577 kdeui/ktoolbar.cpp:2118
 msgid "UnFloat"
 msgstr "Retirar Flutuação"
 
@@ -798,15 +801,15 @@ msgstr "&Padrão"
 msgid "Quickhelp"
 msgstr "Ajuda rápida"
 
-#: kdeui/ktoolbar.cpp:263 kdeui/ktoolbar.cpp:314
+#: kdeui/ktoolbar.cpp:266 kdeui/ktoolbar.cpp:317
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: imagem vazia, talvez falte um arquivo"
 
-#: kdeui/ktoolbar.cpp:827
+#: kdeui/ktoolbar.cpp:830
 msgid "Left"
 msgstr "Esquerda"
 
-#: kdeui/ktoolbar.cpp:829
+#: kdeui/ktoolbar.cpp:832
 msgid "Right"
 msgstr "Direita"
 
@@ -1056,47 +1059,47 @@ msgstr "Mostrar dirs primeiro"
 msgid "unknown"
 msgstr "desconhecido"
 
-#: kfile/kfileinfo.cpp:220
+#: kfile/kfileinfo.cpp:221
 msgid "Jan"
 msgstr "Jan"
 
-#: kfile/kfileinfo.cpp:221
+#: kfile/kfileinfo.cpp:222
 msgid "Feb"
 msgstr "Fev"
 
-#: kfile/kfileinfo.cpp:222
+#: kfile/kfileinfo.cpp:223
 msgid "Mar"
 msgstr "Mar"
 
-#: kfile/kfileinfo.cpp:223
+#: kfile/kfileinfo.cpp:224
 msgid "Apr"
 msgstr "Abr"
 
-#: kfile/kfileinfo.cpp:225
+#: kfile/kfileinfo.cpp:226
 msgid "Jun"
 msgstr "Jun"
 
-#: kfile/kfileinfo.cpp:226
+#: kfile/kfileinfo.cpp:227
 msgid "Jul"
 msgstr "Jul"
 
-#: kfile/kfileinfo.cpp:227
+#: kfile/kfileinfo.cpp:228
 msgid "Aug"
 msgstr "Ago"
 
-#: kfile/kfileinfo.cpp:228
+#: kfile/kfileinfo.cpp:229
 msgid "Sep"
 msgstr "Set"
 
-#: kfile/kfileinfo.cpp:229
+#: kfile/kfileinfo.cpp:230
 msgid "Oct"
 msgstr "Out"
 
-#: kfile/kfileinfo.cpp:230
+#: kfile/kfileinfo.cpp:231
 msgid "Nov"
 msgstr "Nov"
 
-#: kfile/kfileinfo.cpp:231
+#: kfile/kfileinfo.cpp:232
 msgid "Dec"
 msgstr "Dez"
 
@@ -1865,13 +1868,13 @@ msgid ""
 "now and will not affect you anymore.\n"
 "All configuration values have been reset to\n"
 "its default settings."
-msgstr "A versão do kab que você usou antes tinha\n"
-       "um problema concernente à atualização do\n"
-       "banco de dados para novas versões. Esse \n"
-       "erro foi removido e não vai mais lhe afetar.\n"
-       "Todos os valores da configuração foram\n"
-       "preenchidos com os valores originais."
- 
+msgstr ""
+"A versão do kab que você usou antes tinha\n"
+"um problema concernente à atualização do\n"
+"banco de dados para novas versões. Esse \n"
+"erro foi removido e não vai mais lhe afetar.\n"
+"Todos os valores da configuração foram\n"
+"preenchidos com os valores originais."
 
 #: kab/widget.cc:243 kab/widget.cc:307 kab/widget.cc:315
 msgid "File handling error"
@@ -2562,19 +2565,23 @@ msgstr ""
 "terminou inesperadamente"
 
 #: kio/kio_error.cc:103
+#, c-format
 msgid ""
 "Could not access\n"
 "%s"
-msgstr "Não consegui acessar\n"
+msgstr ""
+"Não consegui acessar\n"
 "%s"
 
 #: kio/kio_error.cc:106
+#, c-format
 msgid ""
 "Unknown error code %i\n"
 "%s\n"
 "\n"
 "Please send a full bugreport to kde-bugs@kde.org"
-msgstr "Erro desconhecido, código %i\n"
+msgstr ""
+"Erro desconhecido, código %i\n"
 "%s\n"
 "\n"
 "Queira mandar um relatório completo para kde-bugs@kde.org"
