@@ -1,7 +1,7 @@
 
 GMOFILES = de.gmo fr.gmo sv.gmo cs.gmo es.gmo ru.gmo \
 	hu.gmo da.gmo it.gmo nl.gmo pt.gmo no.gmo pl.gmo
-POFILES = $(GMFILES:.gmo=.po) 
+POFILES = $(GMOFILES:.gmo=.po) 
 
 localedir = $(prefix)/share/locale
 
@@ -10,7 +10,7 @@ MAINTAINERCLEANFILES = $(GMOFILES)
 GMSGFMT = @GMSGFMT@
 MSGFMT = @MSGFMT@
 XGETTEXT = @XGETTEXT@
-DISTFILES = Makefile.in $(POFILES) $(GMOFILES)
+DISTFILES = kde.pot $(POFILES) $(GMOFILES)
 
 
 all: all-@USE_NLS@
