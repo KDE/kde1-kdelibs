@@ -564,7 +564,7 @@ msgstr "Stien"
 
 #: kfile/kfiledialog.cpp:193
 msgid "&Location:"
-msgstr "&Sted:"
+msgstr "S&ted:"
 
 #: kfile/kfiledialog.cpp:206
 msgid "&Filter:"
@@ -931,11 +931,11 @@ msgstr "Ko&pier"
 
 #: po/texts.cpp:60
 msgid "Paste"
-msgstr "Sett inn"
+msgstr "Lim inn"
 
 #: po/texts.cpp:61
 msgid "&Paste"
-msgstr "&Sett inn"
+msgstr "&Lim inn"
 
 #: po/texts.cpp:62
 msgid "New"
@@ -955,7 +955,7 @@ msgstr "&Nytt vindu..."
 
 #: po/texts.cpp:66
 msgid "New &Window..."
-msgstr "Nytt Vin&du..."
+msgstr "Nytt vin&du..."
 
 #: po/texts.cpp:67
 msgid "&New Window"
@@ -999,11 +999,11 @@ msgstr "Skrifttype"
 
 #: po/texts.cpp:78
 msgid "&Foreground Color"
-msgstr "Forgrunns farge"
+msgstr "&Forgrunnsfarge"
 
 #: po/texts.cpp:79
 msgid "&Background Color"
-msgstr "&Bakgrunns farge"
+msgstr "&Bakgrunnsfarge"
 
 #: po/texts.cpp:81
 msgid "&Save"
@@ -1015,7 +1015,7 @@ msgstr "Lagre som..."
 
 #: po/texts.cpp:84
 msgid "S&ave as..."
-msgstr "&Lagre som..."
+msgstr "Lagre &som..."
 
 #: po/texts.cpp:85
 msgid "Close"
@@ -1023,7 +1023,7 @@ msgstr "Lukk"
 
 #: po/texts.cpp:86
 msgid "&Close"
-msgstr "&Lukk"
+msgstr "Lu&kk"
 
 #: po/texts.cpp:87
 msgid "&Print..."
