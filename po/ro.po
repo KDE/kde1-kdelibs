@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-25 13:21+0100\n"
+"POT-Creation-Date: 1998-01-17 07:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Paul Ionescu <omy@main.romsoft.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,23 +14,23 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: kdecore/kapp.cpp:419
+#: kdecore/kapp.cpp:416
 msgid "&Help..."
 msgstr "&Ajutor"
 
-#: kdecore/kapp.cpp:424
+#: kdecore/kapp.cpp:421
 msgid "&About"
 msgstr "&Detalii"
 
-#: kdecore/kapp.cpp:428
+#: kdecore/kapp.cpp:425
 msgid "About &KDE..."
 msgstr "Despre &KDE..."
 
-#: kdecore/kapp.cpp:449
+#: kdecore/kapp.cpp:446
 msgid "About KDE"
 msgstr "Despre KDE"
 
-#: kdecore/kapp.cpp:451
+#: kdecore/kapp.cpp:448
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
@@ -41,19 +41,18 @@ msgid ""
 "\n"
 "Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
 "Qt may be used freely to develop free software on the X Window System.\n"
+
+
 msgstr ""
 "Mediul de lucru KDE a fost creat de echipa KDE.\n"
 "\n"
-"Vã rugãm sã raportaþi disfunctionalitaþile la adresa "
-"http://buglist.kde.org.\n"
+"Vã rugãm sã raportaþi disfunctionalitaþile la adresa http://buglist.kde.org.\n"
 "\n"
 "\n"
 "KDE a fost dezvoltat cu Qt, o bibliotecã graficã multi-platformã.\n"
 "\n"
 "Qt este produs de firma Troll Tech (http://www.troll.no, info@troll.no).\n"
-"Qt poate fi folosit gratis pentru dezvoltarea de programe gratuite pentru "
-"X.\n"
-
+"Qt poate fi folosit gratis pentru dezvoltarea de programe gratuite pentru X.\n"
 #: kdeui/kcolordlg.cpp:283
 msgid "Select Color"
 msgstr "Selectare Culoare"
@@ -70,13 +69,13 @@ msgstr "Culori utilizator"
 msgid "Add to Custom Colors"
 msgstr "Adaugã la culorile utilizator"
 
-#: kdeui/kcolordlg.cpp:461 kdeui/kfontdialog.cpp:322
+#: kdeui/kcolordlg.cpp:461 kdeui/kfontdialog.cpp:351
 #: kdeui/kiconloaderdialog.cpp:210 po/texts.cpp:37
 msgid "Ok"
 msgstr "Ochei"
 
 #: kdeui/kcolordlg.cpp:464 kdeui/kcontrol.cpp:41 kdeui/keditcl1.cpp:397
-#: kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897 kdeui/kfontdialog.cpp:317
+#: kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897 kdeui/kfontdialog.cpp:346
 #: kdeui/kiconloaderdialog.cpp:211 kdeui/kmsgbox.cpp:509 po/texts.cpp:40
 msgid "Cancel"
 msgstr "Renunþã"
@@ -91,7 +90,7 @@ msgstr "Configurabil..."
 
 #: kdeui/kcontrol.cpp:39 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
-#: kdeui/keditcl1.cpp:1473 kdeui/keditcl1.cpp:1630 kdeui/kmsgbox.cpp:477
+#: kdeui/keditcl1.cpp:1472 kdeui/keditcl1.cpp:1629 kdeui/kmsgbox.cpp:477
 #: po/texts.cpp:35
 msgid "OK"
 msgstr "Ochei"
@@ -101,7 +100,7 @@ msgid "Apply"
 msgstr "Seteazã"
 
 #: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
-#: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:87
+#: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1470 po/texts.cpp:87
 msgid "Sorry"
 msgstr "Pardon ..."
 
@@ -110,7 +109,7 @@ msgid "The specified File does not exist"
 msgstr "Fiºierul specificat nu exista"
 
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:494
-#: kdeui/keditcl1.cpp:1627
+#: kdeui/keditcl1.cpp:1626
 msgid "Sorry:"
 msgstr "Hopa : "
 
@@ -130,7 +129,7 @@ msgstr "A aparut o eroare la încercarea de deschidere a acestui document"
 msgid "Select Document to Insert"
 msgstr "Selecteaza Documentul de Inserat"
 
-#: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1570
+#: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1569
 msgid "Warning:"
 msgstr "Atenþie :"
 
@@ -143,7 +142,7 @@ msgstr ""
 "Vrei sã îl salvez ?"
 
 #: kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416 kdeui/keditcl1.cpp:477
-#: kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573 kdeui/keditcl2.cpp:108
+#: kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1572 kdeui/keditcl2.cpp:108
 #: kdeui/keditcl2.cpp:125 kdeui/keditcl2.cpp:365 kdeui/keditcl2.cpp:382
 #: kdeui/keditcl2.cpp:428 kdeui/keditcl2.cpp:458 kdeui/keditcl2.cpp:475
 #: kdeui/kmsgbox.cpp:492 kdeui/kmsgbox.cpp:507 po/texts.cpp:27
@@ -151,7 +150,7 @@ msgid "Yes"
 msgstr "Da"
 
 #: kdeui/keditcl1.cpp:396 kdeui/keditcl1.cpp:417 kdeui/keditcl1.cpp:478
-#: kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1574 kdeui/keditcl2.cpp:109
+#: kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1573 kdeui/keditcl2.cpp:109
 #: kdeui/keditcl2.cpp:126 kdeui/keditcl2.cpp:366 kdeui/keditcl2.cpp:383
 #: kdeui/keditcl2.cpp:429 kdeui/keditcl2.cpp:459 kdeui/keditcl2.cpp:476
 #: kdeui/kmsgbox.cpp:490 kdeui/kmsgbox.cpp:505 po/texts.cpp:28
@@ -182,15 +181,15 @@ msgstr ""
 msgid "Untitled"
 msgstr "Farã_titlu"
 
-#: kdeui/keditcl1.cpp:1472
+#: kdeui/keditcl1.cpp:1471
 msgid "Could not save the document\n"
 msgstr "Nu pot salva documentul.\n"
 
-#: kdeui/keditcl1.cpp:1542
+#: kdeui/keditcl1.cpp:1541
 msgid "Save Document As"
 msgstr "Salvez documentul ca"
 
-#: kdeui/keditcl1.cpp:1571
+#: kdeui/keditcl1.cpp:1570
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
@@ -198,7 +197,7 @@ msgstr ""
 "Un document cu acest nume existã deja\n"
 "Vrei sã îl suprascriu ?"
 
-#: kdeui/keditcl1.cpp:1628
+#: kdeui/keditcl1.cpp:1627
 msgid "You do not have write permission to this file.\n"
 msgstr "Nu ai voie sã scrii în acest fiºier !.\n"
 
@@ -215,7 +214,6 @@ msgid ""
 msgstr ""
 "Am ajuns la sfârºitul documentului.\n"
 "Vrei sã o iau de la capãt ?"
-
 #: kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426
 #: kdeui/keditcl2.cpp:473
 msgid ""
@@ -262,81 +260,81 @@ msgstr "Salt la linia"
 msgid "Go"
 msgstr "Mergi"
 
-#: kdeui/kfontdialog.cpp:132
+#: kdeui/kfontdialog.cpp:164
 msgid "Select Font"
 msgstr "Selectare Font"
 
-#: kdeui/kfontdialog.cpp:136
+#: kdeui/kfontdialog.cpp:168
 msgid "Requested Font"
 msgstr "Fontul cerut"
 
-#: kdeui/kfontdialog.cpp:141
+#: kdeui/kfontdialog.cpp:173
 msgid "Actual Font"
 msgstr "Fontul Actual"
 
-#: kdeui/kfontdialog.cpp:145 kdeui/kfontdialog.cpp:149
+#: kdeui/kfontdialog.cpp:177 kdeui/kfontdialog.cpp:181
 msgid "Family:"
 msgstr "Familia:"
 
-#: kdeui/kfontdialog.cpp:156 kdeui/kfontdialog.cpp:162 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:188 kdeui/kfontdialog.cpp:194 po/texts.cpp:26
 msgid "Charset:"
 msgstr "Setul de caractere:"
 
-#: kdeui/kfontdialog.cpp:169 kdeui/kfontdialog.cpp:174
+#: kdeui/kfontdialog.cpp:201 kdeui/kfontdialog.cpp:206
 msgid "Size:"
 msgstr "Mãrime:"
 
-#: kdeui/kfontdialog.cpp:183 kdeui/kfontdialog.cpp:188
+#: kdeui/kfontdialog.cpp:215 kdeui/kfontdialog.cpp:220
 msgid "Weight:"
 msgstr "Grosime:"
 
-#: kdeui/kfontdialog.cpp:197 kdeui/kfontdialog.cpp:205
+#: kdeui/kfontdialog.cpp:229 kdeui/kfontdialog.cpp:237
 msgid "Style:"
 msgstr "Stil:"
 
-#: kdeui/kfontdialog.cpp:240
+#: kdeui/kfontdialog.cpp:272
 msgid "Charset"
 msgstr "Set de caractere"
 
-#: kdeui/kfontdialog.cpp:255
+#: kdeui/kfontdialog.cpp:284
 msgid "Size"
 msgstr "Mãrime"
 
-#: kdeui/kfontdialog.cpp:294
+#: kdeui/kfontdialog.cpp:323
 msgid "Weight"
 msgstr "Grosime"
 
-#: kdeui/kfontdialog.cpp:295 kdeui/kfontdialog.cpp:413
+#: kdeui/kfontdialog.cpp:324 kdeui/kfontdialog.cpp:433
 msgid "normal"
 msgstr "normal"
 
-#: kdeui/kfontdialog.cpp:296 kdeui/kfontdialog.cpp:415
+#: kdeui/kfontdialog.cpp:325 kdeui/kfontdialog.cpp:435
 msgid "bold"
 msgstr "bold"
 
-#: kdeui/kfontdialog.cpp:305
+#: kdeui/kfontdialog.cpp:334
 msgid "Style"
 msgstr "Stil"
 
-#: kdeui/kfontdialog.cpp:306 kdeui/kfontdialog.cpp:426
-#: kdeui/kfontdialog.cpp:455
+#: kdeui/kfontdialog.cpp:335 kdeui/kfontdialog.cpp:446
+#: kdeui/kfontdialog.cpp:476
 msgid "roman"
 msgstr "roman"
 
-#: kdeui/kfontdialog.cpp:307 kdeui/kfontdialog.cpp:428
-#: kdeui/kfontdialog.cpp:453
+#: kdeui/kfontdialog.cpp:336 kdeui/kfontdialog.cpp:448
+#: kdeui/kfontdialog.cpp:474
 msgid "italic"
 msgstr "italic"
 
-#: kdeui/kfontdialog.cpp:335
+#: kdeui/kfontdialog.cpp:364
 msgid "Dolor Ipse"
 msgstr "Probe de Font (ºªþÞãÃâÂîÎ)"
 
-#: kdeui/kfontdialog.cpp:448
+#: kdeui/kfontdialog.cpp:469
 msgid "Bold"
 msgstr "Bold"
 
-#: kdeui/kfontdialog.cpp:450
+#: kdeui/kfontdialog.cpp:471
 msgid "Normal"
 msgstr "Normal"
 
@@ -348,36 +346,36 @@ msgstr "Selectare Icoanã"
 msgid "Filter:"
 msgstr "Filtru:"
 
-#: kdeui/kmenubar.cpp:149 kdeui/ktoolbar.cpp:325
+#: kdeui/kmenubar.cpp:149 kdeui/ktoolbar.cpp:315
 msgid "Top"
 msgstr "Sus"
 
-#: kdeui/kmenubar.cpp:150 kdeui/ktoolbar.cpp:327
+#: kdeui/kmenubar.cpp:150 kdeui/ktoolbar.cpp:317
 msgid "Bottom"
 msgstr "Jos"
 
-#: kdeui/kmenubar.cpp:151 kdeui/ktoolbar.cpp:328
+#: kdeui/kmenubar.cpp:151 kdeui/ktoolbar.cpp:318
 msgid "Floating"
 msgstr "Flotant"
 
-#: kdeui/kmenubar.cpp:191 kdeui/kmenubar.cpp:330 kdeui/ktoolbar.cpp:734
-#: kdeui/ktoolbar.cpp:1285
+#: kdeui/kmenubar.cpp:191 kdeui/kmenubar.cpp:330 kdeui/ktoolbar.cpp:784
+#: kdeui/ktoolbar.cpp:1329
 msgid "Float"
 msgstr "Flotare"
 
-#: kdeui/kmenubar.cpp:319 kdeui/ktoolbar.cpp:1267
+#: kdeui/kmenubar.cpp:319 kdeui/ktoolbar.cpp:1315
 msgid "UnFloat"
 msgstr "Lipeºte"
 
-#: kdeui/ktoolbar.cpp:120 kdeui/ktoolbar.cpp:185
+#: kdeui/ktoolbar.cpp:118 kdeui/ktoolbar.cpp:177
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: pixmap-ul este gol, poate lipsesc niºte fiºiere "
 
-#: kdeui/ktoolbar.cpp:324
+#: kdeui/ktoolbar.cpp:314
 msgid "Left"
 msgstr "Stânga"
 
-#: kdeui/ktoolbar.cpp:326
+#: kdeui/ktoolbar.cpp:316
 msgid "Right"
 msgstr "Dreapta"
 
@@ -656,7 +654,3 @@ msgstr "Informaþii"
 #: po/texts.cpp:103
 msgid "Browse..."
 msgstr "Expandare..."
-
-#: po/texts.cpp:104
-msgid "(none)"
-msgstr ""
