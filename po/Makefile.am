@@ -11,13 +11,13 @@ CHARSETFILES = de.charset cs.charset pl.charset ru.charset fr.charset \
                hu.charset ro.charset fi.charset da.charset pt.charset \
                sk.charset es.charset sv.charset eo.charset no.charset \
 	       is.charset hr.charset sl.charset ca.charset he.charset \
-	       et.charset
+	       et.charset it.charset pt_BR.charset
 
 localedir = $(kde_locale)
 
 MAINTAINERCLEANFILES = $(GMOFILES)
 
-EXTRA_DIST = kde.pot kdelibs.pot $(CHARSETFILES) $(POFILES) $(GMOFILES) texts.cpp
+EXTRA_DIST = kde.pot kdelibs.pot $(CHARSETFILES) $(POFILES) texts.cpp
 # install this to make excluding of this messages possible
 include_HEADERS = kde.pot
 
@@ -95,3 +95,5 @@ merge:
 	fi ;\
 	done
 
+dist-hook: $(GMOFILES)
+	cp $(GMOFILES) $(distdir)
