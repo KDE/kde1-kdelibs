@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs \n"
-"POT-Creation-Date: 1998-01-17 07:40+0100\n"
+"POT-Creation-Date: 1998-01-18 13:27+0100\n"
 "PO-Revision-Date: 1998-01-05 17:17+0100\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -650,3 +650,8 @@ msgstr "Informacja"
 #: po/texts.cpp:103
 msgid "Browse..."
 msgstr "Przegl±daj..."
+
+#: po/texts.cpp:104
+#, fuzzy
+msgid "(none)"
+msgstr "OK"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-17 07:40+0100\n"
+"POT-Creation-Date: 1998-01-18 13:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -663,6 +663,11 @@ msgstr "Tietoja"
 #: po/texts.cpp:103
 msgid "Browse..."
 msgstr "Selaa..."
+
+#: po/texts.cpp:104
+#, fuzzy
+msgid "(none)"
+msgstr "Valmis"
 
 #~ msgid "ERROR: couldn't find icon: %s"
 #~ msgstr "VIRHE: Ikonia: %s ei löydy"

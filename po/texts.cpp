@@ -101,3 +101,4 @@ translate( "&Redo");
 translate( "&Game");
 translate( "Information");
 translate( "Browse...");
+translate( "(none)");
