@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE LIBS\n"
-"POT-Creation-Date: 1999-03-24 01:02+0100\n"
+"POT-Creation-Date: 1999-03-25 01:01+0100\n"
 "PO-Revision-Date: 1998-04-20 18:55+0100\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -865,23 +865,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr "Tastkonflikt"
 
-#: kdeui/kmenubar.cpp:285 kdeui/ktoolbar.cpp:860
+#: kdeui/kmenubar.cpp:306 kdeui/ktoolbar.cpp:860
 msgid "Top"
 msgstr "Topp"
 
-#: kdeui/kmenubar.cpp:286 kdeui/ktoolbar.cpp:862
+#: kdeui/kmenubar.cpp:307 kdeui/ktoolbar.cpp:862
 msgid "Bottom"
 msgstr "Bunn"
 
-#: kdeui/kmenubar.cpp:287 kdeui/ktoolbar.cpp:863
+#: kdeui/kmenubar.cpp:308 kdeui/ktoolbar.cpp:863
 msgid "Floating"
 msgstr "Flytende"
 
-#: kdeui/kmenubar.cpp:436 kdeui/kmenubar.cpp:788 kdeui/ktoolbar.cpp:2090
+#: kdeui/kmenubar.cpp:457 kdeui/kmenubar.cpp:809 kdeui/ktoolbar.cpp:2090
 msgid "Float"
 msgstr "Flyt"
 
-#: kdeui/kmenubar.cpp:740 kdeui/ktoolbar.cpp:2071
+#: kdeui/kmenubar.cpp:761 kdeui/ktoolbar.cpp:2071
 msgid "UnFloat"
 msgstr "På plass"
 

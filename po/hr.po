@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-03-24 01:02+0100\n"
+"POT-Creation-Date: 1999-03-25 01:01+0100\n"
 "PO-Revision-Date: 1998-12-22 20:00-0500\n"
 "Last-Translator:  Vladimir Vuksan <vuksan@veus.hr> \n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -842,23 +842,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr ""
 
-#: kdeui/kmenubar.cpp:285 kdeui/ktoolbar.cpp:860
+#: kdeui/kmenubar.cpp:306 kdeui/ktoolbar.cpp:860
 msgid "Top"
 msgstr "Vrh"
 
-#: kdeui/kmenubar.cpp:286 kdeui/ktoolbar.cpp:862
+#: kdeui/kmenubar.cpp:307 kdeui/ktoolbar.cpp:862
 msgid "Bottom"
 msgstr "Dno"
 
-#: kdeui/kmenubar.cpp:287 kdeui/ktoolbar.cpp:863
+#: kdeui/kmenubar.cpp:308 kdeui/ktoolbar.cpp:863
 msgid "Floating"
 msgstr "Plutajuæi"
 
-#: kdeui/kmenubar.cpp:436 kdeui/kmenubar.cpp:788 kdeui/ktoolbar.cpp:2090
+#: kdeui/kmenubar.cpp:457 kdeui/kmenubar.cpp:809 kdeui/ktoolbar.cpp:2090
 msgid "Float"
 msgstr "Plutaj"
 
-#: kdeui/kmenubar.cpp:740 kdeui/ktoolbar.cpp:2071
+#: kdeui/kmenubar.cpp:761 kdeui/ktoolbar.cpp:2071
 msgid "UnFloat"
 msgstr "Pristani"
 

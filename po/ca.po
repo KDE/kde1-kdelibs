@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-03-24 01:02+0100\n"
+"POT-Creation-Date: 1999-03-25 01:01+0100\n"
 "PO-Revision-Date: 1999-02-05 22:51\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
@@ -870,23 +870,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr "Conflicte de tecla"
 
-#: kdeui/kmenubar.cpp:285 kdeui/ktoolbar.cpp:860
+#: kdeui/kmenubar.cpp:306 kdeui/ktoolbar.cpp:860
 msgid "Top"
 msgstr "Dalt"
 
-#: kdeui/kmenubar.cpp:286 kdeui/ktoolbar.cpp:862
+#: kdeui/kmenubar.cpp:307 kdeui/ktoolbar.cpp:862
 msgid "Bottom"
 msgstr "Baix"
 
-#: kdeui/kmenubar.cpp:287 kdeui/ktoolbar.cpp:863
+#: kdeui/kmenubar.cpp:308 kdeui/ktoolbar.cpp:863
 msgid "Floating"
 msgstr "Flotant"
 
-#: kdeui/kmenubar.cpp:436 kdeui/kmenubar.cpp:788 kdeui/ktoolbar.cpp:2090
+#: kdeui/kmenubar.cpp:457 kdeui/kmenubar.cpp:809 kdeui/ktoolbar.cpp:2090
 msgid "Float"
 msgstr "Surar"
 
-#: kdeui/kmenubar.cpp:740 kdeui/ktoolbar.cpp:2071
+#: kdeui/kmenubar.cpp:761 kdeui/ktoolbar.cpp:2071
 msgid "UnFloat"
 msgstr "No surar"
 
