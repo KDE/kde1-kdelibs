@@ -1,23 +1,15 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: kdelibs \n"
 "POT-Creation-Date: 1997-12-29 17:42+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"PO-Revision-Date: 1997-12-30 15:56+0100\n"
+"Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
 
 #: kdecore/kapp.cpp:404 kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34
 #: po/texts.cpp:45
 msgid "Help"
-msgstr "Pomo&c"
+msgstr "Pomoc"
 
 #: kdecore/kapp.cpp:409
 msgid "About "
@@ -71,12 +63,12 @@ msgstr "Dodaj do kolorów u¿ytkownika"
 #: kdeui/kcolordlg.cpp:461 kdeui/kfontdialog.cpp:351
 #: kdeui/kiconloaderdialog.cpp:210 po/texts.cpp:41
 msgid "Ok"
-msgstr "O&k"
+msgstr "Ok"
 
 #: kdeui/kcolordlg.cpp:464 kdeui/kcontrol.cpp:41 kdeui/kfontdialog.cpp:346
 #: kdeui/kiconloaderdialog.cpp:211 po/texts.cpp:42
 msgid "Cancel"
-msgstr "A&nuluj"
+msgstr "Anuluj"
 
 #: kdeui/kcolordlg.cpp:786 kdeui/kcolordlg.cpp:838
 msgid "Custom..."
@@ -84,11 +76,11 @@ msgstr "Definiuj kolory u¿ytkownika"
 
 #: kdeui/kcontrol.cpp:39 po/texts.cpp:40
 msgid "OK"
-msgstr "O&K"
+msgstr "OK"
 
 #: kdeui/kcontrol.cpp:40 po/texts.cpp:43
 msgid "Apply"
-msgstr "Z&astosuj"
+msgstr "Zastosuj"
 
 #: kdeui/kfontdialog.cpp:164
 msgid "Select Font"
@@ -108,7 +100,7 @@ msgstr "Rodzina:"
 
 #: kdeui/kfontdialog.cpp:188 kdeui/kfontdialog.cpp:194 po/texts.cpp:26
 msgid "Charset:"
-msgstr ""
+msgstr "Charset:"
 
 #: kdeui/kfontdialog.cpp:201 kdeui/kfontdialog.cpp:206
 msgid "Size:"
@@ -124,7 +116,7 @@ msgstr "Styl:"
 
 #: kdeui/kfontdialog.cpp:272
 msgid "Charset"
-msgstr ""
+msgstr "Charset"
 
 #: kdeui/kfontdialog.cpp:284
 msgid "Size"
@@ -223,11 +215,11 @@ msgstr "B³êdny URL"
 
 #: po/texts.cpp:27
 msgid "Yes"
-msgstr "&Tak"
+msgstr "Tak"
 
 #: po/texts.cpp:28
 msgid "No"
-msgstr "&Nie"
+msgstr "Nie"
 
 #: po/texts.cpp:29
 msgid "Warning"
@@ -271,171 +263,148 @@ msgstr "Zakoñcz"
 
 #: po/texts.cpp:44
 msgid "File"
-msgstr "&Plik"
+msgstr "Plik"
 
 #: po/texts.cpp:46
 msgid "Edit"
-msgstr "&Edycja"
+msgstr "Edycja"
 
 #: po/texts.cpp:47
-#, fuzzy
 msgid "On"
-msgstr "Otwórz"
+msgstr "W³"
 
 #: po/texts.cpp:48
 msgid "Off"
-msgstr ""
+msgstr "Wy³±cz"
 
 #: po/texts.cpp:49
-#, fuzzy
 msgid "&File"
 msgstr "&Plik"
 
 #: po/texts.cpp:50
 msgid "&Options"
-msgstr ""
+msgstr "&Opcje"
 
 #: po/texts.cpp:51
-#, fuzzy
 msgid "&Help"
 msgstr "Pomo&c"
 
 #: po/texts.cpp:52
-#, fuzzy
 msgid "&Edit"
 msgstr "&Edycja"
 
 #: po/texts.cpp:53
-#, fuzzy
 msgid "E&xit"
-msgstr "&Edycja"
+msgstr "&Wyj¶cie"
 
 #: po/texts.cpp:54
-#, fuzzy
 msgid "&Quit"
-msgstr "Zakoñcz"
+msgstr "Za&koñcz"
 
 #: po/texts.cpp:55
 msgid "Reload"
-msgstr ""
+msgstr "Prze³aduj"
 
 #: po/texts.cpp:56
 msgid "Back"
-msgstr ""
+msgstr "W ty³"
 
 #: po/texts.cpp:57
 msgid "Forward"
-msgstr ""
+msgstr "W przód"
 
 #: po/texts.cpp:58
 msgid "Copy"
-msgstr ""
+msgstr "Kopiuj"
 
 #: po/texts.cpp:59
 msgid "Paste"
-msgstr ""
+msgstr "Wklej"
 
 #: po/texts.cpp:60
-#, fuzzy
 msgid "Open..."
-msgstr "Otwórz"
+msgstr "Otwórz..."
 
 #: po/texts.cpp:61
-#, fuzzy
 msgid "Save as..."
-msgstr "Zachowaj jako"
+msgstr "Zachowaj jako..."
 
 #: po/texts.cpp:62
 msgid "Cut"
-msgstr ""
+msgstr "Wytnij"
 
 #: po/texts.cpp:63
-#, fuzzy
 msgid "Font"
-msgstr "Uruchom"
+msgstr "Naprzód"
 
 #: po/texts.cpp:64
 msgid "&Foreground Color"
-msgstr ""
+msgstr "Kolor &tekstu"
 
 #: po/texts.cpp:65
 msgid "&Background Color"
-msgstr ""
+msgstr "Kolor &t³a"
 
 #: po/texts.cpp:66
-#, fuzzy
 msgid "&Save"
-msgstr "Zachowaj"
+msgstr "&Zachowaj"
 
 #: po/texts.cpp:67
-#, fuzzy
 msgid "S&ave as..."
-msgstr "Zachowaj jako"
+msgstr "Zachowaj &jako..."
 
 #: po/texts.cpp:68
-#, fuzzy
 msgid "&Close"
-msgstr "Zamknij"
+msgstr "Z&amknij"
 
 #: po/texts.cpp:69
 msgid "&Print..."
-msgstr ""
+msgstr "&Drukuj..."
 
 #: po/texts.cpp:70
 msgid "&Copy"
-msgstr ""
+msgstr "&Kopiuj"
 
 #: po/texts.cpp:71
 msgid "&Paste"
-msgstr ""
+msgstr "&Wklej"
 
 #: po/texts.cpp:72
-#, fuzzy
 msgid "C&ut"
-msgstr "Zakoñcz"
+msgstr "Wy&tnij"
 
 #: po/texts.cpp:73
 msgid "Done"
-msgstr ""
+msgstr "OK"
 
 #: po/texts.cpp:74
 msgid "Sorry"
-msgstr ""
+msgstr "Niestety"
 
 #: po/texts.cpp:75
 msgid "Options"
-msgstr ""
+msgstr "Opcje"
 
 #: po/texts.cpp:76
 msgid "Remove"
-msgstr ""
+msgstr "Usuñ"
 
 #: po/texts.cpp:77
 msgid "Add"
-msgstr ""
+msgstr "Dodaj"
 
 #: po/texts.cpp:78
 msgid "View"
-msgstr ""
+msgstr "Poka¿"
 
 #: po/texts.cpp:79
-#, fuzzy
 msgid "Change"
-msgstr "A&nuluj"
+msgstr "Zmieñ"
 
 #: po/texts.cpp:80
 msgid "New"
-msgstr ""
+msgstr "Nowy"
 
 #: po/texts.cpp:81
 msgid "Delete"
-msgstr ""
-
-# Polish translation of KDE kdelibs
-# Version 0.1.5
-# (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
-#~ msgid "ERROR: couldn't find mini icon: %s"
-#~ msgstr "B£¡D: nie mogê znale¿æ mini ikony: %s"
-
-#~ msgid "ERROR: couldn't find icon: %s"
-#~ msgstr "B£¡D: nie mogê znale¿æ ikony: %s"
+msgstr "Skasuj"
