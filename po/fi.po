@@ -513,7 +513,6 @@ msgid "The specified directory does not exist or was not readable."
 msgstr "Määriteltyä hakemistoa ei ole olemassa tai sitä ei voida lukea"
 
 #: kfile/kfiledialog.cpp:883
-#, fuzzy
 msgid "Create new directory in: "
 msgstr "Uuden hakemiston polku :"
 
@@ -555,9 +554,8 @@ msgid "%d %s and %d %s"
 msgstr "%d %s ja %d %s"
 
 #: kfile/kfiledialog.cpp:1276
-#, fuzzy
 msgid "one directory"
-msgstr "1 hakemisto"
+msgstr "yksi hakemisto"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"
@@ -576,6 +574,16 @@ msgid ""
 "Mario Weilguni <mweilguni@sime.com>\n"
 "and Martin Jones <mjones@kde.org>"
 msgstr ""
+"KDE Tiedostovalitsin:\n"
+"\n"
+"Richard Moore <rich@kde.org>\n"
+"Stephan Kulow <coolo@kde.org>\n"
+"ja Daniel Grana <grana@ie.iwi.unibe.ch>\n"
+"\n"
+"Työssä ovat avustaneet myös:\n"
+"\n"
+"Mario Weilguni <mweilguni@sime.com>\n"
+"and Martin Jones <mjones@kde.org>"
 
 #: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
 msgid "About"
@@ -631,52 +639,51 @@ msgstr "tuntematon"
 
 #: kfile/kfileinfo.cpp:217
 msgid "Jan"
-msgstr ""
+msgstr "Tammi"
 
 #: kfile/kfileinfo.cpp:218
 msgid "Feb"
-msgstr ""
+msgstr "Helmi"
 
 #: kfile/kfileinfo.cpp:219
 msgid "Mar"
-msgstr ""
+msgstr "Maalis"
 
 #: kfile/kfileinfo.cpp:220
 msgid "Apr"
-msgstr ""
+msgstr "Huhti"
 
 #: kfile/kfileinfo.cpp:221
 msgid "May"
-msgstr ""
+msgstr "Touko"
 
 #: kfile/kfileinfo.cpp:222
 msgid "Jun"
-msgstr ""
+msgstr "Kesä"
 
 #: kfile/kfileinfo.cpp:223
 msgid "Jul"
-msgstr ""
+msgstr "Heinä"
 
 #: kfile/kfileinfo.cpp:224
 msgid "Aug"
-msgstr ""
+msgstr "Elo"
 
 #: kfile/kfileinfo.cpp:225
 msgid "Sep"
-msgstr ""
+msgstr "Syys"
 
 #: kfile/kfileinfo.cpp:226
 msgid "Oct"
-msgstr ""
+msgstr "Loka"
 
 #: kfile/kfileinfo.cpp:227
-#, fuzzy
 msgid "Nov"
-msgstr "Ei"
+msgstr "Marras"
 
 #: kfile/kfileinfo.cpp:228
 msgid "Dec"
-msgstr ""
+msgstr "Joulu"
 
 #: kfile/kpreview.cpp:187
 msgid "Name:"
