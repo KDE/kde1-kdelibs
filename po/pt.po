@@ -3,13 +3,13 @@ msgid "Error"
 msgstr "Erro"
 
 msgid "Malformed URL"
-msgstr "URL inv lido"
+msgstr "URL inválido"
 
 msgid "Yes"
 msgstr "Sim"
 
 msgid "No"
-msgstr "NÙo"
+msgstr "Não"
 
 msgid "Warning"
 msgstr "Aviso"
@@ -21,7 +21,7 @@ msgid "Save a file"
 msgstr "Gravar um ficheiro"
 
 msgid "Contents"
-msgstr "Conteudo"
+msgstr "Conteúdo"
 
 msgid "About"
 msgstr "Acerca"
@@ -42,7 +42,7 @@ msgid "Quit"
 msgstr "Sair"
 
 msgid "Untitled"
-msgstr "Sem-tit£lo"
+msgstr "Sem-titúlo"
 
 msgid "OK"
 msgstr "OK"
@@ -166,15 +166,15 @@ msgstr "Filtro:"
 #: kiconloader.cpp:337
 #, c-format
 msgid "ERROR: couldn't find icon: %s"
-msgstr "Erro: nÙo foi possivel econtrar icon: %s"
+msgstr "Erro: não foi possivel econtrar icon: %s"
 
 #: kmenubar.cpp:106 ktoolbar.cpp:273
 msgid "Top"
-msgstr "Emcima"
+msgstr "Topo"
 
 #: kmenubar.cpp:107 ktoolbar.cpp:275
 msgid "Bottom"
-msgstr "Embaixo"
+msgstr "Fundo"
 
 #: kmenubar.cpp:108 ktoolbar.cpp:276
 msgid "Floating"
@@ -186,7 +186,7 @@ msgstr "Flutuar"
 
 #: kmenubar.cpp:213 ktoolbar.cpp:1198
 msgid "UnFloat"
-msgstr "NÙp Flutuar"
+msgstr "Desflutuar"
 
 #: ktoolbar.cpp:87 ktoolbar.cpp:145
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
