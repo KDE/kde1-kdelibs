@@ -1873,7 +1873,7 @@ msgstr ""
 
 #: kab/widget.cc:302
 msgid "Could not save database after update."
-msgstr "En saanut talletettua tietokantaa päivityksen jälkeen.\n"
+msgstr "En saanut talletettua tietokantaa päivityksen jälkeen."
 
 #: kab/widget.cc:310
 msgid "Unable to reopen database file r/o."
@@ -2009,7 +2009,7 @@ msgstr ""
 
 #: kab/widget.cc:959
 msgid "Could not save database."
-msgstr "En saanut talletettua tietokantaa\n"
+msgstr "En saanut talletettua tietokantaa"
 
 #: kab/widget.cc:961
 msgid "Database saved successfully."
