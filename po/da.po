@@ -144,7 +144,7 @@ msgstr "kursiv"
 
 #: kfontdialog.cpp:270
 msgid "Dolor Ipse"
-msgstr ""
+msgstr "Dolor Ipse"
 
 #: kfontdialog.cpp:362
 msgid "Bold"
@@ -221,3 +221,12 @@ msgid ""
 "Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
 "Qt may be used freely to develop free software on the X Window System.\n"
 msgstr ""
+"KDE Desktop Environment er udviklet fra KDE teamen.\n"
+"\n"
+"Please send bug reports to kde-bugs@kde.org.\n"
+"\n"
+"\n"
+"Dette program er udviklet med Qt - et tværplatforms-GUI-bibliotek.\n"
+"\n"
+"Qt er et produkt fra Troll Tech AS (http://www.troll.no, info@troll.no).\n"
+"Qt kan benyttes frit til at udvikle \"free software\" på X Window System.\n"
