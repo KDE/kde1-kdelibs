@@ -2823,23 +2823,20 @@ msgstr ""
 "Vil du virkelig overskrive det?"
 
 #: kio/kio_progress_dlg.cc:108 kio/kio_progress_dlg.cc:124
-#, fuzzy
 msgid "Bytes"
-msgstr " Bytes"
+msgstr "Bytes"
 
 #: kio/kio_progress_dlg.cc:113 kio/kio_progress_dlg.cc:129
-#, fuzzy
 msgid "Kb"
-msgstr " Kb"
+msgstr "Kb"
 
 #: kio/kio_progress_dlg.cc:118 kio/kio_progress_dlg.cc:134
-#, fuzzy
 msgid "Mb"
-msgstr " Mb"
+msgstr "Mb"
 
 #: kio/kio_progress_dlg.cc:139 kio/kio_progress_dlg.cc:146
 msgid "of"
-msgstr ""
+msgstr "af"
 
 #: kio/kio_progress_dlg.cc:171 kio/kio_progress_dlg.cc:197
 msgid "Stalled"
@@ -2883,11 +2880,11 @@ msgstr "Undersøger"
 
 #: kio/kio_progress_dlg.cc:234
 msgid "From : "
-msgstr ""
+msgstr "Fra : "
 
 #: kio/kio_progress_dlg.cc:238
 msgid "To: "
-msgstr ""
+msgstr "Til: "
 
 #: kio/kio_progress_dlg.cc:245
 msgid "Creating dir "
