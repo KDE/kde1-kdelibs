@@ -3,7 +3,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-12-10 01:01+0100\n"
+"POT-Creation-Date: 1998-12-12 01:01+0100\n"
 "PO-Revision-Date: 1998-10-23 23:31+0200\n"
 "Last-Translator: Logi Ragnarsson <logir@imf.au.dk>\n"
 "Language-Team: is\n"
@@ -754,64 +754,64 @@ msgstr "&Sjálfgefin gildi"
 msgid "Current key"
 msgstr "Núverandi takki"
 
-#: kdeui/kkeydialog.cpp:331
+#: kdeui/kkeydialog.cpp:332
 msgid "&Action"
 msgstr "&Aðgerð"
 
-#: kdeui/kkeydialog.cpp:365
+#: kdeui/kkeydialog.cpp:366
 msgid "Choose a key for the selected action"
 msgstr ""
 
-#: kdeui/kkeydialog.cpp:392
+#: kdeui/kkeydialog.cpp:393
 msgid "&No key"
 msgstr "&Enginn taki"
 
-#: kdeui/kkeydialog.cpp:400
+#: kdeui/kkeydialog.cpp:401
 msgid "&Default key"
 msgstr "&Sjálfgefinn takki"
 
-#: kdeui/kkeydialog.cpp:408
+#: kdeui/kkeydialog.cpp:409
 msgid "&Custom key"
 msgstr "&Heimatilbúinn takki"
 
-#: kdeui/kkeydialog.cpp:471
+#: kdeui/kkeydialog.cpp:472
 msgid "No keys defined"
 msgstr ""
 
-#: kdeui/kkeydialog.cpp:473
+#: kdeui/kkeydialog.cpp:474
 msgid "Not configurable"
 msgstr ""
 
-#: kdeui/kkeydialog.cpp:528
+#: kdeui/kkeydialog.cpp:530
 msgid "Global Keys"
 msgstr ""
 
-#: kdeui/kkeydialog.cpp:560
+#: kdeui/kkeydialog.cpp:562
 msgid "Keys"
 msgstr ""
 
-#: kdeui/kkeydialog.cpp:635 kdeui/kkeydialog.cpp:968
+#: kdeui/kkeydialog.cpp:637 kdeui/kkeydialog.cpp:970
 msgid "Attention : key already used"
 msgstr ""
 
-#: kdeui/kkeydialog.cpp:918
+#: kdeui/kkeydialog.cpp:920
 msgid "Press the wanted key"
 msgstr ""
 
-#: kdeui/kkeydialog.cpp:941
+#: kdeui/kkeydialog.cpp:943
 msgid "Undefined key"
 msgstr ""
 
-#: kdeui/kkeydialog.cpp:990
+#: kdeui/kkeydialog.cpp:992
 msgid "Return to end edition"
 msgstr ""
 
-#: kdeui/kkeydialog.cpp:1000
+#: kdeui/kkeydialog.cpp:1002
 #, fuzzy
 msgid "Incorrect key"
 msgstr "Núverandi takki"
 
-#: kdeui/kkeydialog.cpp:1026
+#: kdeui/kkeydialog.cpp:1028
 #, c-format
 msgid ""
 "The %s key combination has already been allocated\n"
@@ -820,11 +820,11 @@ msgid ""
 "Please choose a unique key combination."
 msgstr ""
 
-#: kdeui/kkeydialog.cpp:1030
+#: kdeui/kkeydialog.cpp:1032
 msgid "Global key conflict"
 msgstr ""
 
-#: kdeui/kkeydialog.cpp:1053
+#: kdeui/kkeydialog.cpp:1055
 #, c-format
 msgid ""
 "The %s key combination has already been allocated\n"
@@ -833,11 +833,11 @@ msgid ""
 "Please choose a unique key combination."
 msgstr ""
 
-#: kdeui/kkeydialog.cpp:1057
+#: kdeui/kkeydialog.cpp:1059
 msgid "Standard key conflict"
 msgstr ""
 
-#: kdeui/kkeydialog.cpp:1077
+#: kdeui/kkeydialog.cpp:1079
 #, c-format
 msgid ""
 "The %s key combination has already been allocated\n"
@@ -846,7 +846,7 @@ msgid ""
 "Please choose a unique key combination."
 msgstr ""
 
-#: kdeui/kkeydialog.cpp:1081
+#: kdeui/kkeydialog.cpp:1083
 msgid "Key conflict"
 msgstr ""
 

@@ -1,14 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-12-06 01:01+0100\n"
+"POT-Creation-Date: 1998-12-12 01:01+0100\n"
 "PO-Revision-Date: 1998-12-10 11:00 CET\n"
-"Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
-"Last-Translator: Francois-Xavier DURANCEAU <Francois-Xavier.Duranceau@loria.fr>\n"
+"Last-Translator: Francois-Xavier DURANCEAU "
+"<Francois-Xavier.Duranceau@loria.fr>\n"
 "Language-Team: Français <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
+"Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
 
 #: kab/AssertDialog.cpp:29
 msgid "(unknown file)"
@@ -45,7 +46,7 @@ msgstr ""
 #: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:391
 #: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:277
 #: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:505
-#: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:409
+#: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:407
 #: po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
@@ -394,7 +395,7 @@ msgstr "Non"
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:394
 #: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:312
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:892
-#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:413 kio/kio_job.cc:703
+#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:411 kio/kio_job.cc:703
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
 #: po/texts.cpp:39
@@ -749,63 +750,63 @@ msgstr "Par &défaut"
 msgid "Current key"
 msgstr "Touche courante"
 
-#: kdeui/kkeydialog.cpp:331
+#: kdeui/kkeydialog.cpp:332
 msgid "&Action"
 msgstr "&Action"
 
-#: kdeui/kkeydialog.cpp:365
+#: kdeui/kkeydialog.cpp:366
 msgid "Choose a key for the selected action"
 msgstr "Choisissez une touche pour l'action sélectionnée"
 
-#: kdeui/kkeydialog.cpp:392
+#: kdeui/kkeydialog.cpp:393
 msgid "&No key"
 msgstr "Aucu&ne touche"
 
-#: kdeui/kkeydialog.cpp:400
+#: kdeui/kkeydialog.cpp:401
 msgid "&Default key"
 msgstr "Touche par &défaut"
 
-#: kdeui/kkeydialog.cpp:408
+#: kdeui/kkeydialog.cpp:409
 msgid "&Custom key"
 msgstr "Tou&ches personnalisées..."
 
-#: kdeui/kkeydialog.cpp:471
+#: kdeui/kkeydialog.cpp:472
 msgid "No keys defined"
 msgstr "Aucune touche définie"
 
-#: kdeui/kkeydialog.cpp:473
+#: kdeui/kkeydialog.cpp:474
 msgid "Not configurable"
 msgstr "Non configurable"
 
-#: kdeui/kkeydialog.cpp:528
+#: kdeui/kkeydialog.cpp:530
 msgid "Global Keys"
 msgstr "Touches globales"
 
-#: kdeui/kkeydialog.cpp:560
+#: kdeui/kkeydialog.cpp:562
 msgid "Keys"
 msgstr "Touches"
 
-#: kdeui/kkeydialog.cpp:635 kdeui/kkeydialog.cpp:968
+#: kdeui/kkeydialog.cpp:637 kdeui/kkeydialog.cpp:970
 msgid "Attention : key already used"
 msgstr "Attention : touche déjà utilisée"
 
-#: kdeui/kkeydialog.cpp:918
+#: kdeui/kkeydialog.cpp:920
 msgid "Press the wanted key"
 msgstr "Appuyez sur la touche souhaitée"
 
-#: kdeui/kkeydialog.cpp:941
+#: kdeui/kkeydialog.cpp:943
 msgid "Undefined key"
 msgstr "Touche non définie"
 
-#: kdeui/kkeydialog.cpp:990
+#: kdeui/kkeydialog.cpp:992
 msgid "Return to end edition"
 msgstr ""
 
-#: kdeui/kkeydialog.cpp:1000
+#: kdeui/kkeydialog.cpp:1002
 msgid "Incorrect key"
 msgstr "Touche incorrecte"
 
-#: kdeui/kkeydialog.cpp:1026
+#: kdeui/kkeydialog.cpp:1028
 #, c-format
 msgid ""
 "The %s key combination has already been allocated\n"
@@ -818,11 +819,11 @@ msgstr ""
 "\n"
 "Choisissez une combinaison de touches unique."
 
-#: kdeui/kkeydialog.cpp:1030
+#: kdeui/kkeydialog.cpp:1032
 msgid "Global key conflict"
 msgstr "Conflit de touche globale"
 
-#: kdeui/kkeydialog.cpp:1053
+#: kdeui/kkeydialog.cpp:1055
 #, c-format
 msgid ""
 "The %s key combination has already been allocated\n"
@@ -835,11 +836,11 @@ msgstr ""
 "\n"
 "Choisissez une combinaison de touches unique."
 
-#: kdeui/kkeydialog.cpp:1057
+#: kdeui/kkeydialog.cpp:1059
 msgid "Standard key conflict"
 msgstr "Conflit de touche standard"
 
-#: kdeui/kkeydialog.cpp:1077
+#: kdeui/kkeydialog.cpp:1079
 #, c-format
 msgid ""
 "The %s key combination has already been allocated\n"
@@ -852,27 +853,27 @@ msgstr ""
 "\n"
 "Choisissez une combinaison de touches unique."
 
-#: kdeui/kkeydialog.cpp:1081
+#: kdeui/kkeydialog.cpp:1083
 msgid "Key conflict"
 msgstr "Conflit de touche"
 
-#: kdeui/kmenubar.cpp:244 kdeui/ktoolbar.cpp:844
+#: kdeui/kmenubar.cpp:256 kdeui/ktoolbar.cpp:847
 msgid "Top"
 msgstr "Haut"
 
-#: kdeui/kmenubar.cpp:245 kdeui/ktoolbar.cpp:846
+#: kdeui/kmenubar.cpp:257 kdeui/ktoolbar.cpp:849
 msgid "Bottom"
 msgstr "Bas"
 
-#: kdeui/kmenubar.cpp:246 kdeui/ktoolbar.cpp:847
+#: kdeui/kmenubar.cpp:258 kdeui/ktoolbar.cpp:850
 msgid "Floating"
 msgstr "Flottant"
 
-#: kdeui/kmenubar.cpp:396 kdeui/kmenubar.cpp:732 kdeui/ktoolbar.cpp:2158
+#: kdeui/kmenubar.cpp:408 kdeui/kmenubar.cpp:744 kdeui/ktoolbar.cpp:2161
 msgid "Float"
 msgstr "Flottant"
 
-#: kdeui/kmenubar.cpp:701 kdeui/ktoolbar.cpp:2139
+#: kdeui/kmenubar.cpp:713 kdeui/ktoolbar.cpp:2142
 msgid "UnFloat"
 msgstr "Rattacher"
 
@@ -889,15 +890,15 @@ msgstr "Par &défaut"
 msgid "Quickhelp"
 msgstr "Aide rapide"
 
-#: kdeui/ktoolbar.cpp:272 kdeui/ktoolbar.cpp:324
+#: kdeui/ktoolbar.cpp:275 kdeui/ktoolbar.cpp:327
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton : pixmap vide, il manque probablement un fichier"
 
-#: kdeui/ktoolbar.cpp:843
+#: kdeui/ktoolbar.cpp:846
 msgid "Left"
 msgstr "Gauche"
 
-#: kdeui/ktoolbar.cpp:845
+#: kdeui/ktoolbar.cpp:848
 msgid "Right"
 msgstr "Droite"
 
