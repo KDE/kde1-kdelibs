@@ -671,7 +671,6 @@ msgid "Actual Font"
 msgstr "Police actuelle"
 
 #: kdeui/kfontdialog.cpp:202 kdeui/kfontdialog.cpp:207
-#, fuzzy
 msgid "Family:"
 msgstr "Famille :"
 
@@ -1381,11 +1380,11 @@ msgstr "&A propos..."
 
 #: po/texts.cpp:37
 msgid "On"
-msgstr "Allumé"
+msgstr "Actif"
 
 #: po/texts.cpp:38
 msgid "Off"
-msgstr "Eteint"
+msgstr "Inactif"
 
 #: po/texts.cpp:42
 msgid "File"
