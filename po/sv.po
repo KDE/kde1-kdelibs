@@ -47,7 +47,7 @@ msgstr ""
 # libkdeui messages
 #: kdeui/kcolordlg.cpp:285
 msgid "Select Color"
-msgstr "Välj värg"
+msgstr "Välj färg"
 
 #: kdeui/kcolordlg.cpp:297
 msgid "System Colors"
