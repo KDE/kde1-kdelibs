@@ -1,39 +1,33 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-18 13:01+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"POT-Creation-Date: 1998-06-14 22:28+0200\n"
+"Content-Type: text/plain; charset=\n"
+"Date: 1997-10-01 16:40:07+0200\n"
+"From: root <flidr@CyberGate.zcu.cz>\n"
+"Xgettext-Options: -s -C -ktranslate\n"
+"Files: kfarch.cpp kfdird.cpp kfind.cpp kfindtop.cpp kfoptions.cpp kfsave.cpp "
+"kftabdlg.cpp kftypes.cpp kfwin.cpp main.cpp mkfdird.cpp mkfind.cpp "
+"mkfindtop.cpp mkfoptions.cpp mkftabdlg.cpp mkfwin.cpp\n"
 
-#: kdecore/kapp.cpp:494
-#, fuzzy
+#: kdecore/kapp.cpp:497
 msgid "&Contents"
 msgstr "Inhoud"
 
-#: kdecore/kapp.cpp:500
-#, fuzzy
+#: kdecore/kapp.cpp:503
 msgid "&About"
-msgstr "Info"
+msgstr "&Info"
 
-#: kdecore/kapp.cpp:507
+#: kdecore/kapp.cpp:510
 #, fuzzy
 msgid "About &KDE..."
-msgstr "Info"
+msgstr "Over Krn..."
 
-#: kdecore/kapp.cpp:528
+#: kdecore/kapp.cpp:531
+#, fuzzy
 msgid "About KDE"
-msgstr ""
+msgstr "Over "
 
-#: kdecore/kapp.cpp:530
+#: kdecore/kapp.cpp:533
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -46,7 +40,37 @@ msgid ""
 "Please report bugs at http://buglist.kde.org.\n"
 msgstr ""
 
-# libkdeui messages
+#: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416
+#: kdeui/keditcl1.cpp:477 kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573
+#: kdeui/keditcl2.cpp:108 kdeui/keditcl2.cpp:125 kdeui/keditcl2.cpp:365
+#: kdeui/keditcl2.cpp:382 kdeui/keditcl2.cpp:428 kdeui/keditcl2.cpp:458
+#: kdeui/keditcl2.cpp:475 kdeui/kmsgbox.cpp:488 kdeui/kmsgbox.cpp:503
+#: po/texts.cpp:27
+msgid "Yes"
+msgstr "Ja"
+
+#: kdetest/klocaletest.cpp:101 kdeui/keditcl1.cpp:396 kdeui/keditcl1.cpp:417
+#: kdeui/keditcl1.cpp:478 kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1574
+#: kdeui/keditcl2.cpp:109 kdeui/keditcl2.cpp:126 kdeui/keditcl2.cpp:366
+#: kdeui/keditcl2.cpp:383 kdeui/keditcl2.cpp:429 kdeui/keditcl2.cpp:459
+#: kdeui/keditcl2.cpp:476 kdeui/kmsgbox.cpp:486 kdeui/kmsgbox.cpp:501
+#: po/texts.cpp:28
+msgid "No"
+msgstr "Nee"
+
+#: kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34
+#: kfile/kfiledialog.cpp:252 po/texts.cpp:45
+msgid "Help"
+msgstr "Help"
+
+#: kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:46
+#: kdeui/keditcl1.cpp:397 kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897
+#: kdeui/kfontdialog.cpp:352 kdeui/kiconloaderdialog.cpp:255
+#: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:877
+#: kfile/kfiledialogconf.cpp:58 po/texts.cpp:40
+msgid "Cancel"
+msgstr "Annuleren"
+
 #: kdeui/kcolordlg.cpp:285
 msgid "Select Color"
 msgstr "Selecteer kleur"
@@ -63,36 +87,24 @@ msgstr "Eigen kleuren"
 msgid "Add to Custom Colors"
 msgstr "Aan eigen kleuren toevoegen"
 
-#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:337
-#: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:889 po/texts.cpp:37
+#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:357
+#: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872 po/texts.cpp:37
 msgid "Ok"
 msgstr "Ok"
-
-#: kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:46 kdeui/keditcl1.cpp:397
-#: kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897 kdeui/kfontdialog.cpp:332
-#: kdeui/kiconloaderdialog.cpp:255 kdeui/kmsgbox.cpp:505
-#: kfile/kfiledialog.cpp:288 kfile/kfiledialog.cpp:894
-#: kfile/kfiledialogconf.cpp:58 po/texts.cpp:40
-msgid "Cancel"
-msgstr "Annuleren"
-
-#: kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34 kfile/kfiledialog.cpp:294
-#: po/texts.cpp:45
-msgid "Help"
-msgstr "Help"
 
 #: kdeui/kcolordlg.cpp:788 kdeui/kcolordlg.cpp:840
 msgid "Custom..."
 msgstr "Eigen..."
 
 #: kdeui/kcontrol.cpp:39
+#, fuzzy
 msgid "Default"
-msgstr ""
+msgstr "Standaard:"
 
 #: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
 #: kdeui/keditcl1.cpp:1473 kdeui/keditcl1.cpp:1630 kdeui/kmsgbox.cpp:473
-#: kfile/kfiledialog.cpp:282 kfile/kfiledialog.cpp:516
+#: kfile/kfiledialog.cpp:240 kfile/kfiledialog.cpp:492
 #: kfile/kfiledialogconf.cpp:60 po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
@@ -101,91 +113,183 @@ msgstr "OK"
 msgid "Apply"
 msgstr "Toepassen"
 
-#: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
-#: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:87
-msgid "Sorry"
+#: kdeui/kdatepik.cpp:102
+msgid "January"
+msgstr "Januari"
+
+#: kdeui/kdatepik.cpp:102
+msgid "February"
+msgstr "Februari"
+
+#: kdeui/kdatepik.cpp:103
+msgid "March"
+msgstr "Maart"
+
+#: kdeui/kdatepik.cpp:103
+msgid "April"
+msgstr "April"
+
+#: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:222
+#, fuzzy
+msgid "May"
+msgstr "enige"
+
+#: kdeui/kdatepik.cpp:104
+msgid "June"
+msgstr "Juni"
+
+#: kdeui/kdatepik.cpp:105
+msgid "July"
+msgstr "Juli"
+
+#: kdeui/kdatepik.cpp:105
+msgid "August"
+msgstr "Augustus"
+
+#: kdeui/kdatepik.cpp:106
+msgid "September"
+msgstr "September"
+
+#: kdeui/kdatepik.cpp:106
+msgid "October"
+msgstr "Oktober"
+
+#: kdeui/kdatepik.cpp:107
+msgid "November"
+msgstr "November"
+
+#: kdeui/kdatepik.cpp:107
+msgid "December"
+msgstr "December"
+
+#: kdeui/kdatepik.cpp:248
+msgid "(invalid)"
 msgstr ""
 
+#: kdeui/kdatetbl.cpp:48
+#, fuzzy
+msgid "Sun"
+msgstr "&Geluid"
+
+#: kdeui/kdatetbl.cpp:48
+#, fuzzy
+msgid "Mon"
+msgstr "Maand:"
+
+#: kdeui/kdatetbl.cpp:48
+#, fuzzy
+msgid "Tue"
+msgstr "Tien"
+
+#: kdeui/kdatetbl.cpp:49
+#, fuzzy
+msgid "Wed"
+msgstr "Rood"
+
+#: kdeui/kdatetbl.cpp:49
+msgid "Thu"
+msgstr ""
+
+#: kdeui/kdatetbl.cpp:49
+msgid "Fri"
+msgstr ""
+
+#: kdeui/kdatetbl.cpp:50
+#, fuzzy
+msgid "Sat"
+msgstr "bij"
+
+#: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
+#: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:89
+msgid "Sorry"
+msgstr "Sorry"
+
 #: kdeui/keditcl1.cpp:128
+#, fuzzy
 msgid "The specified File does not exist"
 msgstr ""
+"Het gespecificeerde bestand bestaat niet:\n"
+"%s"
 
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:494
 #: kdeui/keditcl1.cpp:1627
+#, fuzzy
 msgid "Sorry:"
-msgstr ""
+msgstr "Sorry"
 
 #: kdeui/keditcl1.cpp:142
+#, fuzzy
 msgid "You have specificated a directory"
 msgstr ""
+"U hebt niet de benodigde rechten\n"
+" om deze map te verwijderen"
 
 #: kdeui/keditcl1.cpp:157 kdeui/keditcl1.cpp:178
+#, fuzzy
 msgid "You do not have read permission to this file."
 msgstr ""
+"U hebt geen lees rechten voor het bestand:\n"
+"%s"
 
 #: kdeui/keditcl1.cpp:191
+#, fuzzy
 msgid "An Error occured while trying to open this Document"
-msgstr ""
+msgstr "Fout bij het bepalen van de wijze van aansluiting van floppy\n"
 
 #: kdeui/keditcl1.cpp:356
+#, fuzzy
 msgid "Select Document to Insert"
-msgstr ""
+msgstr "Selecteet Bestand om te Openen"
 
 #: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1570
 #, fuzzy
 msgid "Warning:"
-msgstr "Waarschuwing"
+msgstr "Waarschuwing: "
 
 #: kdeui/keditcl1.cpp:393 kdeui/keditcl1.cpp:475
+#, fuzzy
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
 msgstr ""
-
-#: kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416 kdeui/keditcl1.cpp:477
-#: kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573 kdeui/keditcl2.cpp:108
-#: kdeui/keditcl2.cpp:125 kdeui/keditcl2.cpp:365 kdeui/keditcl2.cpp:382
-#: kdeui/keditcl2.cpp:428 kdeui/keditcl2.cpp:458 kdeui/keditcl2.cpp:475
-#: kdeui/kmsgbox.cpp:488 kdeui/kmsgbox.cpp:503 po/texts.cpp:27
-msgid "Yes"
-msgstr "Ja"
-
-#: kdeui/keditcl1.cpp:396 kdeui/keditcl1.cpp:417 kdeui/keditcl1.cpp:478
-#: kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1574 kdeui/keditcl2.cpp:109
-#: kdeui/keditcl2.cpp:126 kdeui/keditcl2.cpp:366 kdeui/keditcl2.cpp:383
-#: kdeui/keditcl2.cpp:429 kdeui/keditcl2.cpp:459 kdeui/keditcl2.cpp:476
-#: kdeui/kmsgbox.cpp:486 kdeui/kmsgbox.cpp:501 po/texts.cpp:28
-msgid "No"
-msgstr "Nee"
+"Dit document is gewijzigd.\n"
+"Moet het opgeslagen worden?"
 
 #: kdeui/keditcl1.cpp:414
+#, fuzzy
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
+"Kan de KNote Bladen niet opslaan.\n"
+"Toch afsluiten ?"
 
 #: kdeui/keditcl1.cpp:445
 msgid "Select Document to Open"
-msgstr ""
+msgstr "Selecteet Bestand om te Openen"
 
 #: kdeui/keditcl1.cpp:495
+#, fuzzy
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
+"Kan de KNote Bladen niet opslaan.\n"
+"Toch afsluiten ?"
 
 #: kdeui/keditcl1.cpp:530 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
 msgid "Untitled"
 msgstr "Naamloos"
 
 #: kdeui/keditcl1.cpp:1472
+#, fuzzy
 msgid "Could not save the document\n"
-msgstr ""
+msgstr "Kon dokument niet invoegen"
 
 #: kdeui/keditcl1.cpp:1542
 #, fuzzy
 msgid "Save Document As"
-msgstr "Opslaan als"
+msgstr "Document opslaan"
 
 #: kdeui/keditcl1.cpp:1571
 msgid ""
@@ -194,143 +298,155 @@ msgid ""
 msgstr ""
 
 #: kdeui/keditcl1.cpp:1628
+#, fuzzy
 msgid "You do not have write permission to this file.\n"
 msgstr ""
+"U hebt geen lees rechten voor het bestand:\n"
+"%s"
 
 #: kdeui/keditcl2.cpp:105 kdeui/keditcl2.cpp:122 kdeui/keditcl2.cpp:362
 #: kdeui/keditcl2.cpp:379 kdeui/keditcl2.cpp:678 kdeui/keditcl2.cpp:687
 #: kdeui/keditcl2.cpp:788
 msgid "Find"
-msgstr ""
+msgstr "Zoek"
 
 #: kdeui/keditcl2.cpp:106 kdeui/keditcl2.cpp:363 kdeui/keditcl2.cpp:456
+#, fuzzy
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
-msgstr ""
+msgstr "Einde van document bereikt, doorgaan vanaf begin ?"
 
 #: kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426
 #: kdeui/keditcl2.cpp:473
+#, fuzzy
 msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
-msgstr ""
+msgstr "Einde van document bereikt, doorgaan vanaf begin ?"
 
 #: kdeui/keditcl2.cpp:425 kdeui/keditcl2.cpp:455 kdeui/keditcl2.cpp:472
 #: kdeui/keditcl2.cpp:791
+#, fuzzy
 msgid "Replace"
-msgstr ""
+msgstr "&Vervangen"
 
 #: kdeui/keditcl2.cpp:684 kdeui/keditcl2.cpp:782
 msgid "Case Sensitive"
 msgstr ""
 
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:785
+#, fuzzy
 msgid "Find Backwards"
-msgstr ""
+msgstr "Terug"
 
-#: kdeui/keditcl2.cpp:690 kdeui/keditcl2.cpp:797 po/texts.cpp:86
+#: kdeui/keditcl2.cpp:690 kdeui/keditcl2.cpp:797 po/texts.cpp:88
 msgid "Done"
-msgstr ""
+msgstr "Klaar"
 
 #: kdeui/keditcl2.cpp:770
+#, fuzzy
 msgid "Find:"
-msgstr ""
+msgstr "Zoek"
 
 #: kdeui/keditcl2.cpp:780
+#, fuzzy
 msgid "Replace with:"
-msgstr ""
+msgstr "Bestanden vervangen"
 
 #: kdeui/keditcl2.cpp:794
+#, fuzzy
 msgid "Replace All"
-msgstr ""
+msgstr "Bestanden vervangen"
 
 #: kdeui/keditcl2.cpp:891
+#, fuzzy
 msgid "Goto Line"
-msgstr ""
+msgstr "&Ga naar regel..."
 
 #: kdeui/keditcl2.cpp:896
+#, fuzzy
 msgid "Go"
-msgstr ""
+msgstr "&Ga naar"
 
-#: kdeui/kfontdialog.cpp:145
+#: kdeui/kfontdialog.cpp:168
 msgid "Select Font"
 msgstr "Selecteer lettertype"
 
-#: kdeui/kfontdialog.cpp:149
+#: kdeui/kfontdialog.cpp:172
 msgid "Requested Font"
 msgstr "Geselecteerd lettertype"
 
-#: kdeui/kfontdialog.cpp:154
+#: kdeui/kfontdialog.cpp:177
 msgid "Actual Font"
 msgstr "Werkelijk lettertype"
 
-#: kdeui/kfontdialog.cpp:158 kdeui/kfontdialog.cpp:162
+#: kdeui/kfontdialog.cpp:181 kdeui/kfontdialog.cpp:185
 msgid "Family:"
 msgstr "Familie:"
 
-#: kdeui/kfontdialog.cpp:169 kdeui/kfontdialog.cpp:175 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:192 kdeui/kfontdialog.cpp:198 po/texts.cpp:26
+#, fuzzy
 msgid "Charset:"
-msgstr ""
+msgstr "Karakterverzamelingen..."
 
-#: kdeui/kfontdialog.cpp:182 kdeui/kfontdialog.cpp:187 kfile/kpreview.cpp:196
+#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:210 kfile/kpreview.cpp:196
 msgid "Size:"
 msgstr "Grootte:"
 
-# FIXME
-#: kdeui/kfontdialog.cpp:195 kdeui/kfontdialog.cpp:200
+#: kdeui/kfontdialog.cpp:217 kdeui/kfontdialog.cpp:222
 msgid "Weight:"
 msgstr "Gewicht"
 
-#: kdeui/kfontdialog.cpp:209 kdeui/kfontdialog.cpp:216
+#: kdeui/kfontdialog.cpp:230 kdeui/kfontdialog.cpp:237
 msgid "Style:"
 msgstr "Stijl:"
 
-#: kdeui/kfontdialog.cpp:253
+#: kdeui/kfontdialog.cpp:273
+#, fuzzy
 msgid "Charset"
-msgstr ""
+msgstr "Karakterverzamelingen..."
 
-#: kdeui/kfontdialog.cpp:264 kfile/kfiledetaillist.cpp:38
+#: kdeui/kfontdialog.cpp:284 kfile/kfiledetaillist.cpp:38
 msgid "Size"
 msgstr "Grootte"
 
-# FIXME
-#: kdeui/kfontdialog.cpp:305
+#: kdeui/kfontdialog.cpp:325
 msgid "Weight"
 msgstr "Gewicht"
 
-#: kdeui/kfontdialog.cpp:306 kdeui/kfontdialog.cpp:433
+#: kdeui/kfontdialog.cpp:326 kdeui/kfontdialog.cpp:467
 msgid "normal"
 msgstr "normaal"
 
-#: kdeui/kfontdialog.cpp:307 kdeui/kfontdialog.cpp:435
+#: kdeui/kfontdialog.cpp:327 kdeui/kfontdialog.cpp:469
 msgid "bold"
 msgstr "vet"
 
-#: kdeui/kfontdialog.cpp:318
+#: kdeui/kfontdialog.cpp:338
 msgid "Style"
 msgstr "Stijl"
 
-# FIXME
-#: kdeui/kfontdialog.cpp:319 kdeui/kfontdialog.cpp:446
-#: kdeui/kfontdialog.cpp:475
+#: kdeui/kfontdialog.cpp:339 kdeui/kfontdialog.cpp:480
+#: kdeui/kfontdialog.cpp:509
 msgid "roman"
 msgstr "rechtop"
 
-#: kdeui/kfontdialog.cpp:320 kdeui/kfontdialog.cpp:448
-#: kdeui/kfontdialog.cpp:473
+#: kdeui/kfontdialog.cpp:340 kdeui/kfontdialog.cpp:482
+#: kdeui/kfontdialog.cpp:507
 msgid "italic"
 msgstr "cursief"
 
-#: kdeui/kfontdialog.cpp:350
+#: kdeui/kfontdialog.cpp:370
+#, fuzzy
 msgid "Dolor Ipse"
-msgstr ""
+msgstr "Kleuren"
 
-#: kdeui/kfontdialog.cpp:468
+#: kdeui/kfontdialog.cpp:502
 msgid "Bold"
 msgstr "Vet"
 
-#: kdeui/kfontdialog.cpp:470
+#: kdeui/kfontdialog.cpp:504
 msgid "Normal"
 msgstr "Normaal"
 
@@ -339,48 +455,78 @@ msgid "Select Icon"
 msgstr "Selecteer pictogram"
 
 #: kdeui/kiconloaderdialog.cpp:242
+#, fuzzy
 msgid "Filter:"
-msgstr ""
+msgstr "Bestand"
 
-#: kdeui/kmenubar.cpp:157 kdeui/ktoolbar.cpp:444
+#: kdeui/kmenubar.cpp:168 kdeui/ktoolbar.cpp:453
 msgid "Top"
 msgstr "Boven"
 
-#: kdeui/kmenubar.cpp:158 kdeui/ktoolbar.cpp:446
+#: kdeui/kmenubar.cpp:169 kdeui/ktoolbar.cpp:455
 msgid "Bottom"
 msgstr "Onder"
 
-#: kdeui/kmenubar.cpp:159 kdeui/ktoolbar.cpp:447
+#: kdeui/kmenubar.cpp:170 kdeui/ktoolbar.cpp:456
 msgid "Floating"
 msgstr "Zwevend"
 
-#: kdeui/kmenubar.cpp:273 kdeui/kmenubar.cpp:413 kdeui/ktoolbar.cpp:1576
+#: kdeui/kmenubar.cpp:284 kdeui/kmenubar.cpp:434 kdeui/ktoolbar.cpp:1588
 msgid "Float"
 msgstr "Zweven"
 
-#: kdeui/kmenubar.cpp:402 kdeui/ktoolbar.cpp:1558
+#: kdeui/kmenubar.cpp:423 kdeui/ktoolbar.cpp:1570
 msgid "UnFloat"
 msgstr "Vast"
 
-#: kdeui/ktoolbar.cpp:161 kdeui/ktoolbar.cpp:280
+#: kdeui/knotebook.cpp:145
+msgid "Trying to add page when no KWizards are added!"
+msgstr ""
+
+#: kdeui/knotebook.cpp:178 kdeui/kwizard.cpp:120 po/texts.cpp:41
+#, fuzzy
+msgid "&Cancel"
+msgstr "Annuleren"
+
+#: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:143
+#, fuzzy
+msgid "&Default"
+msgstr "Standaard:"
+
+#: kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:166 po/texts.cpp:46
+msgid "&Help"
+msgstr "&Help"
+
+#: kdeui/knotebook.cpp:247 kdeui/kwizard.cpp:189
+#, fuzzy
+msgid "&Ok"
+msgstr "Ok"
+
+#: kdeui/ktoolbar.cpp:164 kdeui/ktoolbar.cpp:283
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: pixmap is leeg, mischien een missend bestand"
 
-#: kdeui/ktoolbar.cpp:443
+#: kdeui/ktoolbar.cpp:452
 msgid "Left"
 msgstr "Links"
 
-#: kdeui/ktoolbar.cpp:445
+#: kdeui/ktoolbar.cpp:454
 msgid "Right"
 msgstr "Rechts"
+
+#: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
+#, fuzzy, c-format
+msgid "Page %d of %d"
+msgstr "Regel: %d kolom: %d"
 
 #: kfile/bookmark.cpp:246
 msgid "<!-- Do not edit this file -->"
 msgstr ""
 
 #: kfile/kcombiview.cpp:80
+#, fuzzy
 msgid "Folders:"
-msgstr ""
+msgstr "Mappen"
 
 #: kfile/kcombiview.cpp:81
 #, fuzzy
@@ -388,168 +534,192 @@ msgid "Contents:"
 msgstr "Inhoud"
 
 #: kfile/kfiledetaillist.cpp:36
-#, fuzzy
 msgid "Name"
-msgstr "Opslaan"
+msgstr "Naam"
 
 #: kfile/kfiledetaillist.cpp:40
+#, fuzzy
 msgid "Permissions"
-msgstr ""
+msgstr "Permissie geweigerd"
 
 #: kfile/kfiledetaillist.cpp:42
+#, fuzzy
 msgid "Date"
-msgstr ""
+msgstr "Datum:"
 
 #: kfile/kfiledetaillist.cpp:45
 msgid "Owner"
-msgstr ""
+msgstr "Eigenaar"
 
 #: kfile/kfiledetaillist.cpp:47
+#, fuzzy
 msgid "Group"
-msgstr ""
+msgstr "Groepen"
 
-#: kfile/kfiledialog.cpp:146 po/texts.cpp:56
+#: kfile/kfiledialog.cpp:122 po/texts.cpp:56
+#, fuzzy
 msgid "Back"
-msgstr ""
+msgstr "&Terug"
 
-#: kfile/kfiledialog.cpp:149 po/texts.cpp:57
+#: kfile/kfiledialog.cpp:125 po/texts.cpp:57
 msgid "Forward"
-msgstr ""
+msgstr "Voorwaarts"
 
-#: kfile/kfiledialog.cpp:152
+#: kfile/kfiledialog.cpp:128
+#, fuzzy
 msgid "Up to parent"
-msgstr ""
+msgstr "Ga naar bladzijde"
 
-#: kfile/kfiledialog.cpp:155
+#: kfile/kfiledialog.cpp:131
+#, fuzzy
 msgid "Home"
-msgstr ""
+msgstr "Mijn Home"
 
-#: kfile/kfiledialog.cpp:158 po/texts.cpp:55
+#: kfile/kfiledialog.cpp:134 po/texts.cpp:55
 msgid "Reload"
-msgstr ""
+msgstr "Heropen"
 
-#: kfile/kfiledialog.cpp:174
+#: kfile/kfiledialog.cpp:150
+#, fuzzy
 msgid "Bookmarks"
-msgstr ""
+msgstr "B&ladwijzers"
 
-#: kfile/kfiledialog.cpp:178
+#: kfile/kfiledialog.cpp:154
+#, fuzzy
 msgid "Create new folder"
-msgstr ""
+msgstr "Map kon niet aangemaakt worden"
 
-#: kfile/kfiledialog.cpp:181
+#: kfile/kfiledialog.cpp:157
 #, fuzzy
 msgid "Search for a file"
-msgstr "Bewaar een bestand"
+msgstr "Zoek naar:"
 
-#: kfile/kfiledialog.cpp:184
+#: kfile/kfiledialog.cpp:160
 msgid "Configure this dialog [development only]"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:192
+#: kfile/kfiledialog.cpp:168
 msgid "The path"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:217
+#: kfile/kfiledialog.cpp:193
+#, fuzzy
 msgid "&Location:"
-msgstr ""
+msgstr "Lokatie:"
 
-#: kfile/kfiledialog.cpp:229
+#: kfile/kfiledialog.cpp:206
 #, fuzzy
 msgid "&Filter:"
-msgstr "Bestand"
+msgstr "&Bestand"
 
-#: kfile/kfiledialog.cpp:262
+#: kfile/kfiledialog.cpp:220
+#, fuzzy
 msgid "Show hidden"
-msgstr ""
+msgstr "Toon menu"
 
-#: kfile/kfiledialog.cpp:511
+#: kfile/kfiledialog.cpp:487
+#, fuzzy
 msgid "Error: Not local file"
-msgstr ""
+msgstr "Fout in \"info\"-bestand"
 
-#: kfile/kfiledialog.cpp:512
+#: kfile/kfiledialog.cpp:488
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
 msgstr ""
 
-#: kfile/kfiledialog.cpp:526 kfile/kfiledialog.cpp:628
+#: kfile/kfiledialog.cpp:502 kfile/kfiledialog.cpp:608
+#, fuzzy
 msgid "Error: Cannot Open Directory"
-msgstr ""
+msgstr "Fout! Kan katalogus niet openen:"
 
-#: kfile/kfiledialog.cpp:527
+#: kfile/kfiledialog.cpp:503
+#, fuzzy
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
 msgstr ""
+"Het gespecificeerde bestand bestaat niet:\n"
+"%s"
 
-#: kfile/kfiledialog.cpp:529 kfile/kfiledialog.cpp:631
+#: kfile/kfiledialog.cpp:505 kfile/kfiledialog.cpp:611
 msgid "Dismiss"
-msgstr ""
+msgstr "Annuleren"
 
-#: kfile/kfiledialog.cpp:566 kfile/kfiledialog.cpp:1146
-#: kfile/kfiledialog.cpp:1305 kfile/kfiledialog.cpp:1339 po/texts.cpp:69
+#: kfile/kfiledialog.cpp:542 kfile/kfiledialog.cpp:1179
+#: kfile/kfiledialog.cpp:1338 kfile/kfiledialog.cpp:1372 po/texts.cpp:70
 msgid "Open"
 msgstr "Openen"
 
-#: kfile/kfiledialog.cpp:581 kfile/kfiledialog.cpp:1320 po/texts.cpp:80
+#: kfile/kfiledialog.cpp:557 kfile/kfiledialog.cpp:1353 po/texts.cpp:82
 msgid "Save As"
 msgstr "Opslaan als"
 
-#: kfile/kfiledialog.cpp:604
+#: kfile/kfiledialog.cpp:580
+#, fuzzy
 msgid "Root Directory"
-msgstr ""
+msgstr "Home directory"
 
-#: kfile/kfiledialog.cpp:629
+#: kfile/kfiledialog.cpp:609
+#, fuzzy
 msgid "The specified directory does not exist or was not readable."
 msgstr ""
+"Het gespecificeerde bestand bestaat niet:\n"
+"%s"
 
-#: kfile/kfiledialog.cpp:874
+#: kfile/kfiledialog.cpp:857
+#, fuzzy
 msgid "Create new directory in: "
-msgstr ""
+msgstr "Maak home directory"
 
-#: kfile/kfiledialog.cpp:877
+#: kfile/kfiledialog.cpp:860
+#, fuzzy
 msgid "New Directory"
-msgstr ""
+msgstr "Home directory"
 
-#: kfile/kfiledialog.cpp:949
+#: kfile/kfiledialog.cpp:932
 #, fuzzy
 msgid "Add to bookmarks"
-msgstr "Aan eigen kleuren toevoegen"
+msgstr "Aan bladwijzers toevoegen"
 
-#: kfile/kfiledialog.cpp:1180
+#: kfile/kfiledialog.cpp:1213
+#, fuzzy
 msgid "Choose Directory"
-msgstr ""
+msgstr "Home directory"
 
-#: kfile/kfiledialog.cpp:1201 kfile/kfiledialog.cpp:1360 po/texts.cpp:78
+#: kfile/kfiledialog.cpp:1234 kfile/kfiledialog.cpp:1393 po/texts.cpp:80
 msgid "Save"
-msgstr "Opslaan"
+msgstr "Bewaar"
 
-#: kfile/kfiledialog.cpp:1248
+#: kfile/kfiledialog.cpp:1281
+#, fuzzy
 msgid "directory"
-msgstr ""
+msgstr "Home directory"
 
-#: kfile/kfiledialog.cpp:1250
+#: kfile/kfiledialog.cpp:1283
+#, fuzzy
 msgid "directories"
-msgstr ""
+msgstr "Mappen"
 
-#: kfile/kfiledialog.cpp:1252 kfile/kpreview.cpp:326
+#: kfile/kfiledialog.cpp:1285 kfile/kpreview.cpp:326
 #, fuzzy
 msgid "file"
-msgstr "Bestand"
+msgstr " bestanden"
 
-#: kfile/kfiledialog.cpp:1254
+#: kfile/kfiledialog.cpp:1287
 #, fuzzy
 msgid "files"
-msgstr "Bestand"
+msgstr " bestanden"
 
-#: kfile/kfiledialog.cpp:1256
+#: kfile/kfiledialog.cpp:1289
 #, c-format
 msgid "%d %s and %d %s"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1266
+#: kfile/kfiledialog.cpp:1299
+#, fuzzy
 msgid "one directory"
-msgstr ""
+msgstr "Home directory"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"
@@ -574,36 +744,43 @@ msgid "About"
 msgstr "Info"
 
 #: kfile/kfiledialogconf.cpp:70
+#, fuzzy
 msgid "View style"
-msgstr ""
+msgstr "Verbindingstijl"
 
 #: kfile/kfiledialogconf.cpp:74
+#, fuzzy
 msgid "Show Short View"
-msgstr ""
+msgstr "&Puntbestanden tonen"
 
 #: kfile/kfiledialogconf.cpp:80
+#, fuzzy
 msgid "Show Detail View"
-msgstr ""
+msgstr "&Puntbestanden tonen"
 
 #: kfile/kfiledialogconf.cpp:89
 msgid "Misc"
 msgstr ""
 
 #: kfile/kfiledialogconf.cpp:95
+#, fuzzy
 msgid "Show Filter"
-msgstr ""
+msgstr "&Puntbestanden tonen"
 
 #: kfile/kfiledialogconf.cpp:101
+#, fuzzy
 msgid "Show List Labels"
-msgstr ""
+msgstr "Laat het paneel zien"
 
 #: kfile/kfiledialogconf.cpp:107
+#, fuzzy
 msgid "Show Hidden"
-msgstr ""
+msgstr "Toon menu"
 
 #: kfile/kfiledialogconf.cpp:113
+#, fuzzy
 msgid "Show Status Line"
-msgstr ""
+msgstr "&Statusbalk tonen"
 
 #: kfile/kfiledialogconf.cpp:119
 msgid "Use single Click"
@@ -618,48 +795,53 @@ msgid "Keep dirs first"
 msgstr ""
 
 #: kfile/kfileinfo.cpp:95 kfile/kfileinfo.cpp:99
+#, fuzzy
 msgid "unknown"
-msgstr ""
+msgstr " onbekend"
 
 #: kfile/kfileinfo.cpp:218
+#, fuzzy
 msgid "Jan"
-msgstr ""
+msgstr "en"
 
 #: kfile/kfileinfo.cpp:219
 msgid "Feb"
 msgstr ""
 
 #: kfile/kfileinfo.cpp:220
+#, fuzzy
 msgid "Mar"
-msgstr ""
+msgstr "Maart"
 
 #: kfile/kfileinfo.cpp:221
+#, fuzzy
 msgid "Apr"
-msgstr ""
-
-#: kfile/kfileinfo.cpp:222
-msgid "May"
-msgstr ""
+msgstr "April"
 
 #: kfile/kfileinfo.cpp:223
+#, fuzzy
 msgid "Jun"
-msgstr ""
+msgstr "Juni"
 
 #: kfile/kfileinfo.cpp:224
+#, fuzzy
 msgid "Jul"
-msgstr ""
+msgstr "Juli"
 
 #: kfile/kfileinfo.cpp:225
+#, fuzzy
 msgid "Aug"
-msgstr ""
+msgstr "Augustus"
 
 #: kfile/kfileinfo.cpp:226
+#, fuzzy
 msgid "Sep"
-msgstr ""
+msgstr "Setup"
 
 #: kfile/kfileinfo.cpp:227
+#, fuzzy
 msgid "Oct"
-msgstr ""
+msgstr "Buiten"
 
 #: kfile/kfileinfo.cpp:228
 #, fuzzy
@@ -667,45 +849,49 @@ msgid "Nov"
 msgstr "Nee"
 
 #: kfile/kfileinfo.cpp:229
+#, fuzzy
 msgid "Dec"
-msgstr ""
+msgstr "Ontcijfer"
 
 #: kfile/kpreview.cpp:187
 #, fuzzy
 msgid "Name:"
-msgstr "Opslaan"
+msgstr "Naam"
 
 #: kfile/kpreview.cpp:205
+#, fuzzy
 msgid "Date:"
-msgstr ""
+msgstr "Datum:"
 
 #: kfile/kpreview.cpp:214
+#, fuzzy
 msgid "Owner:"
-msgstr ""
+msgstr "Eigenaar"
 
 #: kfile/kpreview.cpp:223
+#, fuzzy
 msgid "Group:"
-msgstr ""
+msgstr "Groepen:"
 
 #: kfile/kpreview.cpp:232
 msgid "Type:"
-msgstr ""
+msgstr "Type:"
 
 #: kfile/kpreview.cpp:287
+#, fuzzy
 msgid "locked"
-msgstr ""
+msgstr "Klok"
 
 #: kfile/kpreview.cpp:311
+#, fuzzy
 msgid "picture"
-msgstr ""
+msgstr "plaatjes"
 
 #: kfile/kpreview.cpp:343
+#, fuzzy
 msgid "folder"
-msgstr ""
+msgstr "Map"
 
-# Dutch translation of the general kde messages.
-# Copyright (C) 1997 Jeroen van der Most <jvdmost@wi.leidenuniv.nl>.
-#
 #: po/texts.cpp:24
 msgid "Error"
 msgstr "Fout"
@@ -729,7 +915,7 @@ msgstr "Inhoud"
 #: po/texts.cpp:33
 #, fuzzy
 msgid "A&bout..."
-msgstr "Info"
+msgstr "Info..."
 
 #: po/texts.cpp:36
 #, fuzzy
@@ -739,256 +925,404 @@ msgstr "OK"
 #: po/texts.cpp:38
 #, fuzzy
 msgid "On"
-msgstr "Openen"
+msgstr "Een"
 
 #: po/texts.cpp:39
-msgid "Off"
-msgstr ""
-
-#: po/texts.cpp:41
 #, fuzzy
-msgid "&Cancel"
-msgstr "Annuleren"
+msgid "Off"
+msgstr "Bureau11"
 
 #: po/texts.cpp:43
 msgid "File"
 msgstr "Bestand"
 
 #: po/texts.cpp:44
-#, fuzzy
 msgid "&File"
-msgstr "Bestand"
-
-#: po/texts.cpp:46
-#, fuzzy
-msgid "&Help"
-msgstr "Help"
+msgstr "&Bestand"
 
 #: po/texts.cpp:47
 msgid "Edit"
-msgstr "Bewerken"
+msgstr "Edit"
 
 #: po/texts.cpp:48
 #, fuzzy
 msgid "&Edit"
-msgstr "Bewerken"
+msgstr "Edit"
 
 #: po/texts.cpp:49
 msgid "&Options"
-msgstr ""
+msgstr "&Opties"
 
 #: po/texts.cpp:50
+#, fuzzy
 msgid "View"
-msgstr ""
+msgstr "Toon..."
 
 #: po/texts.cpp:51
 #, fuzzy
 msgid "&View"
-msgstr "Bestand"
+msgstr "&HTML tonen"
 
 #: po/texts.cpp:52
 #, fuzzy
 msgid "E&xit"
-msgstr "Bewerken"
+msgstr "Afsluiten"
 
 #: po/texts.cpp:53
 msgid "Quit"
 msgstr "Afsluiten"
 
 #: po/texts.cpp:54
-#, fuzzy
 msgid "&Quit"
-msgstr "Afsluiten"
+msgstr "&Afsluiten"
 
 #: po/texts.cpp:58
+#, fuzzy
 msgid "Copy"
-msgstr ""
+msgstr "&Kopieer..."
 
 #: po/texts.cpp:59
+#, fuzzy
 msgid "&Copy"
-msgstr ""
+msgstr "&Kopieer..."
 
 #: po/texts.cpp:60
+#, fuzzy
 msgid "Paste"
-msgstr ""
+msgstr "Pauzeer "
 
 #: po/texts.cpp:61
+#, fuzzy
 msgid "&Paste"
-msgstr ""
+msgstr "Laatste"
 
 #: po/texts.cpp:62
 msgid "New"
-msgstr ""
+msgstr "Nieuw"
 
 #: po/texts.cpp:63
 msgid "&New"
-msgstr ""
+msgstr "&Nieuw"
 
 #: po/texts.cpp:64
 #, fuzzy
 msgid "&New..."
-msgstr "Openen"
+msgstr "Nieuw..."
 
 #: po/texts.cpp:65
+#, fuzzy
 msgid "&New Window..."
-msgstr ""
+msgstr "Nieuw &venster"
 
 #: po/texts.cpp:66
+#, fuzzy
 msgid "New &Window..."
-msgstr ""
+msgstr "Nieuw &Venster"
 
 #: po/texts.cpp:67
-#, fuzzy
-msgid "New Game"
-msgstr "Opslaan"
+msgid "&New Window"
+msgstr "Nieuw &venster"
 
 #: po/texts.cpp:68
 #, fuzzy
-msgid "&New Game"
-msgstr "Opslaan"
+msgid "New Game"
+msgstr "Nieuw spel"
 
-#: po/texts.cpp:70
+#: po/texts.cpp:69
+#, fuzzy
+msgid "&New Game"
+msgstr "&Nieuw spel"
+
+#: po/texts.cpp:71
 msgid "Open a file"
 msgstr "Open een bestand"
 
-#: po/texts.cpp:71
-#, fuzzy
-msgid "Open..."
-msgstr "Openen"
-
 #: po/texts.cpp:72
-#, fuzzy
-msgid "&Open..."
-msgstr "Openen"
+msgid "Open..."
+msgstr "Open..."
 
 #: po/texts.cpp:73
-msgid "Cut"
-msgstr ""
+#, fuzzy
+msgid "&Open..."
+msgstr "&Openen ..."
 
 #: po/texts.cpp:74
 #, fuzzy
-msgid "C&ut"
-msgstr "Afsluiten"
+msgid "Cut"
+msgstr "Eigen patroon"
 
 #: po/texts.cpp:75
 #, fuzzy
-msgid "Font"
-msgstr "Zweven"
+msgid "&Cut"
+msgstr "Huidige"
 
 #: po/texts.cpp:76
-msgid "&Foreground Color"
-msgstr ""
+#, fuzzy
+msgid "C&ut"
+msgstr "&Afsluiten"
 
 #: po/texts.cpp:77
-msgid "&Background Color"
-msgstr ""
+#, fuzzy
+msgid "Font"
+msgstr "&Lettertype..."
+
+#: po/texts.cpp:78
+#, fuzzy
+msgid "&Foreground Color"
+msgstr "Voorgrond Kleur"
 
 #: po/texts.cpp:79
 #, fuzzy
-msgid "&Save"
-msgstr "Opslaan"
+msgid "&Background Color"
+msgstr "Achtergrond Kleur"
 
 #: po/texts.cpp:81
-#, fuzzy
-msgid "Save as..."
-msgstr "Opslaan als"
-
-#: po/texts.cpp:82
-#, fuzzy
-msgid "S&ave as..."
-msgstr "Opslaan als"
+msgid "&Save"
+msgstr "&Bewaar"
 
 #: po/texts.cpp:83
-msgid "Close"
-msgstr "Sluiten"
+msgid "Save as..."
+msgstr "Bewaar als..."
 
 #: po/texts.cpp:84
 #, fuzzy
+msgid "S&ave as..."
+msgstr "Bewaar als..."
+
+#: po/texts.cpp:85
+msgid "Close"
+msgstr "Sluiten"
+
+#: po/texts.cpp:86
 msgid "&Close"
 msgstr "Sluiten"
 
-#: po/texts.cpp:85
+#: po/texts.cpp:87
+#, fuzzy
 msgid "&Print..."
-msgstr ""
-
-#: po/texts.cpp:88
-msgid "Options"
-msgstr ""
-
-#: po/texts.cpp:89
-msgid "Remove"
-msgstr ""
+msgstr "Af&drukken"
 
 #: po/texts.cpp:90
-msgid "Add"
-msgstr ""
+msgid "Options"
+msgstr "Opties"
 
 #: po/texts.cpp:91
-#, fuzzy
-msgid "Change"
-msgstr "Annuleren"
+msgid "Remove"
+msgstr "Verwijderen"
 
 #: po/texts.cpp:92
-msgid "Delete"
-msgstr ""
+msgid "Add"
+msgstr "Toevoegen"
 
 #: po/texts.cpp:93
-msgid "&Delete"
-msgstr ""
+msgid "Change"
+msgstr "Veranderen"
 
 #: po/texts.cpp:94
-#, fuzzy
-msgid "Clear"
-msgstr "Sluiten"
+msgid "Delete"
+msgstr "Verwijderen"
 
 #: po/texts.cpp:95
+#, fuzzy
+msgid "&Delete"
+msgstr "Verwijderen"
+
+#: po/texts.cpp:96
+#, fuzzy
+msgid "Clear"
+msgstr "Kalender"
+
+#: po/texts.cpp:97
 #, fuzzy
 msgid "Italic"
 msgstr "cursief"
 
-# FIXME
-#: po/texts.cpp:96
+#: po/texts.cpp:98
 #, fuzzy
 msgid "Roman"
 msgstr "rechtop"
 
-#: po/texts.cpp:97
-msgid "Undo"
-msgstr ""
-
-#: po/texts.cpp:98
-msgid "&Undo"
-msgstr ""
-
 #: po/texts.cpp:99
-msgid "Redo"
-msgstr ""
+#, fuzzy
+msgid "Undo"
+msgstr "Maak zet ongedaan"
 
 #: po/texts.cpp:100
-msgid "&Redo"
-msgstr ""
+#, fuzzy
+msgid "&Undo"
+msgstr "&Maak zet ongedaan"
 
 #: po/texts.cpp:101
 #, fuzzy
-msgid "&Game"
-msgstr "Opslaan"
+msgid "Redo"
+msgstr "Rood"
 
 #: po/texts.cpp:102
-msgid "Information"
-msgstr ""
+#, fuzzy
+msgid "&Redo"
+msgstr "Rood"
 
 #: po/texts.cpp:103
-msgid "Browse..."
-msgstr ""
+msgid "&Game"
+msgstr "&Spel"
 
 #: po/texts.cpp:104
+#, fuzzy
+msgid "Information"
+msgstr "Informatie..."
+
+#: po/texts.cpp:105
+#, fuzzy
+msgid "Browse..."
+msgstr "B&laderen..."
+
+#: po/texts.cpp:106
+#, fuzzy
 msgid "(none)"
+msgstr "(Niets)"
+
+#: po/texts.cpp:107
+msgid "None"
+msgstr "Niemand"
+
+#: po/texts.cpp:108
+msgid "Stop"
+msgstr "Stop"
+
+#: po/texts.cpp:109
+msgid "&Remove"
+msgstr "Verwijder"
+
+#: po/texts.cpp:110
+#, fuzzy
+msgid "&Properties..."
+msgstr "Eigenschappen..."
+
+#: po/texts.cpp:111
+msgid "Properties"
+msgstr "Eigenschappen"
+
+#: po/texts.cpp:112
+msgid "&Start"
+msgstr "&Start"
+
+#: po/texts.cpp:113
+#, fuzzy
+msgid "St&op"
+msgstr "Stop"
+
+#: po/texts.cpp:114
+msgid "Move"
+msgstr "Verplaats"
+
+#: po/texts.cpp:115
+msgid "Miscellaneous"
+msgstr "Diversen"
+
+#: po/texts.cpp:116
+msgid "Font Size"
+msgstr "Lettertype grootte"
+
+#: po/texts.cpp:117
+msgid "Small"
+msgstr "Klein"
+
+#: po/texts.cpp:118
+msgid "Medium"
+msgstr "Middel"
+
+#: po/texts.cpp:119
+msgid "Large"
+msgstr "Groot"
+
+#: po/texts.cpp:120
+msgid "Fonts"
+msgstr "Lettertypen"
+
+#: po/texts.cpp:121
+msgid "&Fonts"
+msgstr "&Lettertypen"
+
+#: po/texts.cpp:122
+msgid "&Reload"
+msgstr "&Opnieuw inlezen menus"
+
+#: po/texts.cpp:123
+msgid "&Previous"
+msgstr "Vo&rige"
+
+#: po/texts.cpp:124
+msgid "&Next"
+msgstr "&Volgende"
+
+#: po/texts.cpp:125
+msgid "Files"
+msgstr "Bestanden"
+
+#: po/texts.cpp:126
+msgid "Continue"
+msgstr "Doorgaan"
+
+#: po/texts.cpp:127
+msgid "Restore"
+msgstr "Herstel"
+
+#: po/texts.cpp:128
+msgid "Appearance"
+msgstr "Uiterlijk"
+
+#: po/texts.cpp:129
+msgid "Print"
+msgstr "Afdrukken"
+
+#: po/texts.cpp:130
+#, fuzzy
+msgid "Monday"
+msgstr "Tweede"
+
+#: po/texts.cpp:131
+msgid "Tuesday"
 msgstr ""
 
-# FIXME
+#: po/texts.cpp:132
+msgid "Wednesday"
+msgstr ""
+
+#: po/texts.cpp:133
 #, fuzzy
+msgid "Thursday"
+msgstr "Derde"
+
+#: po/texts.cpp:134
+#, fuzzy
+msgid "Friday"
+msgstr "Eerste"
+
+#: po/texts.cpp:135
+msgid "Saturday"
+msgstr ""
+
+#: po/texts.cpp:136
+#, fuzzy
+msgid "Sunday"
+msgstr "&Geluid"
+
+#: po/texts.cpp:137
+#, fuzzy
+msgid "&Update"
+msgstr "Breng bij de tijd"
+
+#: po/texts.cpp:138
+#, fuzzy
+msgid "Layout"
+msgstr "Stijl "
+
+#: po/texts.cpp:139
+msgid "Highscore"
+msgstr ""
+
 #~ msgid "Height"
-#~ msgstr "Gewicht"
+#~ msgstr "Hoogte"
 
 #, fuzzy
 #~ msgid ""
@@ -1015,7 +1349,8 @@ msgstr ""
 
 #, fuzzy
 #~ msgid "&Help..."
-#~ msgstr "Help"
+#~ msgstr "&Help"
 
+#, fuzzy
 #~ msgid "ERROR: couldn't find icon: %s"
-#~ msgstr "FOUT: kan pictogram %s niet vinden"
+#~ msgstr " Fout: Kan niet naar %s schrijven"

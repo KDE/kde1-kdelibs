@@ -1,40 +1,29 @@
-# Перевод KDE
-# Copyright (C) 1998 Free Software Foundation, Inc.
-# Denis Pershin <dyp@inetlab.com>, 1998.
-#
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: KDE 0.2\n"
-"POT-Creation-Date: 1998-05-18 13:01+0200\n"
-"PO-Revision-Date: 1998-04-05 11:51+0600\n"
-"Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
-"Language-Team: Russian <ru@li.org>\n"
-"MIME-Version: 1.0\n"
+"POT-Creation-Date: 1998-06-14 22:28+0200\n"
 "Content-Type: text/plain; charset=koi8-r\n"
-"Content-Transfer-Encoding: 8-bit\n"
+"Date: 1997-11-20 18:24:38+0600\n"
+"From: Denis Y. Pershin <dyp@inetlab.com>\n"
+"Xgettext-Options: --default-domain=xquser --directory=../.. --add-comments "
+"--keyword=_ --keyword=N_ --files-from=../../po/POTFILES.in\n"
 
-#
-#: kdecore/kapp.cpp:494
+#: kdecore/kapp.cpp:497
 msgid "&Contents"
 msgstr "Содержимое"
 
-#
-#: kdecore/kapp.cpp:500
+#: kdecore/kapp.cpp:503
 msgid "&About"
 msgstr "&О программе"
 
-#
-#: kdecore/kapp.cpp:507
+#: kdecore/kapp.cpp:510
 msgid "About &KDE..."
 msgstr "О &KDE"
 
-#
-#: kdecore/kapp.cpp:528
+#: kdecore/kapp.cpp:531
 msgid "About KDE"
 msgstr "О KDE"
 
-#: kdecore/kapp.cpp:530
+#: kdecore/kapp.cpp:533
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -47,7 +36,37 @@ msgid ""
 "Please report bugs at http://buglist.kde.org.\n"
 msgstr ""
 
-# libkdeui messages
+#: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416
+#: kdeui/keditcl1.cpp:477 kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573
+#: kdeui/keditcl2.cpp:108 kdeui/keditcl2.cpp:125 kdeui/keditcl2.cpp:365
+#: kdeui/keditcl2.cpp:382 kdeui/keditcl2.cpp:428 kdeui/keditcl2.cpp:458
+#: kdeui/keditcl2.cpp:475 kdeui/kmsgbox.cpp:488 kdeui/kmsgbox.cpp:503
+#: po/texts.cpp:27
+msgid "Yes"
+msgstr "Да"
+
+#: kdetest/klocaletest.cpp:101 kdeui/keditcl1.cpp:396 kdeui/keditcl1.cpp:417
+#: kdeui/keditcl1.cpp:478 kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1574
+#: kdeui/keditcl2.cpp:109 kdeui/keditcl2.cpp:126 kdeui/keditcl2.cpp:366
+#: kdeui/keditcl2.cpp:383 kdeui/keditcl2.cpp:429 kdeui/keditcl2.cpp:459
+#: kdeui/keditcl2.cpp:476 kdeui/kmsgbox.cpp:486 kdeui/kmsgbox.cpp:501
+#: po/texts.cpp:28
+msgid "No"
+msgstr "Нет"
+
+#: kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34
+#: kfile/kfiledialog.cpp:252 po/texts.cpp:45
+msgid "Help"
+msgstr "Помощь"
+
+#: kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:46
+#: kdeui/keditcl1.cpp:397 kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897
+#: kdeui/kfontdialog.cpp:352 kdeui/kiconloaderdialog.cpp:255
+#: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:877
+#: kfile/kfiledialogconf.cpp:58 po/texts.cpp:40
+msgid "Cancel"
+msgstr "Отмена"
+
 #: kdeui/kcolordlg.cpp:285
 msgid "Select Color"
 msgstr "Выбрать цвет"
@@ -64,23 +83,10 @@ msgstr "Собственные цвета"
 msgid "Add to Custom Colors"
 msgstr "Добавить собственный цвет"
 
-#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:337
-#: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:889 po/texts.cpp:37
+#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:357
+#: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872 po/texts.cpp:37
 msgid "Ok"
 msgstr "Ок"
-
-#: kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:46 kdeui/keditcl1.cpp:397
-#: kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897 kdeui/kfontdialog.cpp:332
-#: kdeui/kiconloaderdialog.cpp:255 kdeui/kmsgbox.cpp:505
-#: kfile/kfiledialog.cpp:288 kfile/kfiledialog.cpp:894
-#: kfile/kfiledialogconf.cpp:58 po/texts.cpp:40
-msgid "Cancel"
-msgstr "Отмена"
-
-#: kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34 kfile/kfiledialog.cpp:294
-#: po/texts.cpp:45
-msgid "Help"
-msgstr "Помощь"
 
 #: kdeui/kcolordlg.cpp:788 kdeui/kcolordlg.cpp:840
 msgid "Custom..."
@@ -89,12 +95,12 @@ msgstr "Настройки"
 #: kdeui/kcontrol.cpp:39
 #, fuzzy
 msgid "Default"
-msgstr "Удалить"
+msgstr "По умолчанию:"
 
 #: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
 #: kdeui/keditcl1.cpp:1473 kdeui/keditcl1.cpp:1630 kdeui/kmsgbox.cpp:473
-#: kfile/kfiledialog.cpp:282 kfile/kfiledialog.cpp:516
+#: kfile/kfiledialog.cpp:240 kfile/kfiledialog.cpp:492
 #: kfile/kfiledialogconf.cpp:60 po/texts.cpp:35
 msgid "OK"
 msgstr "ОК"
@@ -103,8 +109,93 @@ msgstr "ОК"
 msgid "Apply"
 msgstr "Применить"
 
+#: kdeui/kdatepik.cpp:102
+msgid "January"
+msgstr "Январь"
+
+#: kdeui/kdatepik.cpp:102
+msgid "February"
+msgstr "Февраль"
+
+#: kdeui/kdatepik.cpp:103
+msgid "March"
+msgstr "Март"
+
+#: kdeui/kdatepik.cpp:103
+msgid "April"
+msgstr "Апрель"
+
+#: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:222
+#, fuzzy
+msgid "May"
+msgstr "любой"
+
+#: kdeui/kdatepik.cpp:104
+msgid "June"
+msgstr "Июнь"
+
+#: kdeui/kdatepik.cpp:105
+msgid "July"
+msgstr "Июль"
+
+#: kdeui/kdatepik.cpp:105
+msgid "August"
+msgstr "Август"
+
+#: kdeui/kdatepik.cpp:106
+msgid "September"
+msgstr "Сентябрь"
+
+#: kdeui/kdatepik.cpp:106
+msgid "October"
+msgstr "Октябрь"
+
+#: kdeui/kdatepik.cpp:107
+msgid "November"
+msgstr "Ноябрь"
+
+#: kdeui/kdatepik.cpp:107
+msgid "December"
+msgstr "Декабрь"
+
+#: kdeui/kdatepik.cpp:248
+msgid "(invalid)"
+msgstr ""
+
+#: kdeui/kdatetbl.cpp:48
+#, fuzzy
+msgid "Sun"
+msgstr "Звук"
+
+#: kdeui/kdatetbl.cpp:48
+#, fuzzy
+msgid "Mon"
+msgstr "Монтировать"
+
+#: kdeui/kdatetbl.cpp:48
+msgid "Tue"
+msgstr ""
+
+#: kdeui/kdatetbl.cpp:49
+#, fuzzy
+msgid "Wed"
+msgstr "Красный"
+
+#: kdeui/kdatetbl.cpp:49
+msgid "Thu"
+msgstr ""
+
+#: kdeui/kdatetbl.cpp:49
+msgid "Fri"
+msgstr ""
+
+#: kdeui/kdatetbl.cpp:50
+#, fuzzy
+msgid "Sat"
+msgstr "Умные"
+
 #: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
-#: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:87
+#: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:89
 msgid "Sorry"
 msgstr "Извините"
 
@@ -133,7 +224,6 @@ msgstr "Ошибка во время открытия данного Документа"
 msgid "Select Document to Insert"
 msgstr "Выберите Документ для Вставки"
 
-#
 #: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1570
 msgid "Warning:"
 msgstr "Предупреждение:"
@@ -145,22 +235,6 @@ msgid ""
 msgstr ""
 "Текущий Документ изменен\n"
 "Сохранить?"
-
-#: kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416 kdeui/keditcl1.cpp:477
-#: kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573 kdeui/keditcl2.cpp:108
-#: kdeui/keditcl2.cpp:125 kdeui/keditcl2.cpp:365 kdeui/keditcl2.cpp:382
-#: kdeui/keditcl2.cpp:428 kdeui/keditcl2.cpp:458 kdeui/keditcl2.cpp:475
-#: kdeui/kmsgbox.cpp:488 kdeui/kmsgbox.cpp:503 po/texts.cpp:27
-msgid "Yes"
-msgstr "Да"
-
-#: kdeui/keditcl1.cpp:396 kdeui/keditcl1.cpp:417 kdeui/keditcl1.cpp:478
-#: kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1574 kdeui/keditcl2.cpp:109
-#: kdeui/keditcl2.cpp:126 kdeui/keditcl2.cpp:366 kdeui/keditcl2.cpp:383
-#: kdeui/keditcl2.cpp:429 kdeui/keditcl2.cpp:459 kdeui/keditcl2.cpp:476
-#: kdeui/kmsgbox.cpp:486 kdeui/kmsgbox.cpp:501 po/texts.cpp:28
-msgid "No"
-msgstr "Нет"
 
 #: kdeui/keditcl1.cpp:414
 msgid ""
@@ -190,7 +264,6 @@ msgstr "Беззаголовка"
 msgid "Could not save the document\n"
 msgstr "Не могу записать документ.\n"
 
-#
 #: kdeui/keditcl1.cpp:1542
 msgid "Save Document As"
 msgstr "Сохранить Документ как"
@@ -243,7 +316,7 @@ msgstr "С учетом регистра"
 msgid "Find Backwards"
 msgstr "Искать назад"
 
-#: kdeui/keditcl2.cpp:690 kdeui/keditcl2.cpp:797 po/texts.cpp:86
+#: kdeui/keditcl2.cpp:690 kdeui/keditcl2.cpp:797 po/texts.cpp:88
 msgid "Done"
 msgstr "Готово"
 
@@ -267,82 +340,81 @@ msgstr "На строку"
 msgid "Go"
 msgstr "Идти"
 
-#: kdeui/kfontdialog.cpp:145
+#: kdeui/kfontdialog.cpp:168
 msgid "Select Font"
 msgstr "Выберите шрифт"
 
-#: kdeui/kfontdialog.cpp:149
+#: kdeui/kfontdialog.cpp:172
 msgid "Requested Font"
 msgstr "Запрошенные шрифты"
 
-#: kdeui/kfontdialog.cpp:154
+#: kdeui/kfontdialog.cpp:177
 msgid "Actual Font"
 msgstr "Существующие шрифты"
 
-#: kdeui/kfontdialog.cpp:158 kdeui/kfontdialog.cpp:162
+#: kdeui/kfontdialog.cpp:181 kdeui/kfontdialog.cpp:185
 msgid "Family:"
 msgstr "Семейство:"
 
-#: kdeui/kfontdialog.cpp:169 kdeui/kfontdialog.cpp:175 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:192 kdeui/kfontdialog.cpp:198 po/texts.cpp:26
 msgid "Charset:"
 msgstr "Кодировка:"
 
-#: kdeui/kfontdialog.cpp:182 kdeui/kfontdialog.cpp:187 kfile/kpreview.cpp:196
+#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:210 kfile/kpreview.cpp:196
 msgid "Size:"
 msgstr "Размер:"
 
-#: kdeui/kfontdialog.cpp:195 kdeui/kfontdialog.cpp:200
+#: kdeui/kfontdialog.cpp:217 kdeui/kfontdialog.cpp:222
 msgid "Weight:"
 msgstr "Ширина:"
 
-#: kdeui/kfontdialog.cpp:209 kdeui/kfontdialog.cpp:216
+#: kdeui/kfontdialog.cpp:230 kdeui/kfontdialog.cpp:237
 msgid "Style:"
 msgstr "Стиль:"
 
-#
-#: kdeui/kfontdialog.cpp:253
+#: kdeui/kfontdialog.cpp:273
 msgid "Charset"
 msgstr "Кодировка"
 
-#: kdeui/kfontdialog.cpp:264 kfile/kfiledetaillist.cpp:38
+#: kdeui/kfontdialog.cpp:284 kfile/kfiledetaillist.cpp:38
 msgid "Size"
 msgstr "Размер"
 
-#: kdeui/kfontdialog.cpp:305
+#: kdeui/kfontdialog.cpp:325
 msgid "Weight"
 msgstr "Ширина"
 
-#: kdeui/kfontdialog.cpp:306 kdeui/kfontdialog.cpp:433
+#: kdeui/kfontdialog.cpp:326 kdeui/kfontdialog.cpp:467
 msgid "normal"
 msgstr "нормальный"
 
-#: kdeui/kfontdialog.cpp:307 kdeui/kfontdialog.cpp:435
+#: kdeui/kfontdialog.cpp:327 kdeui/kfontdialog.cpp:469
 msgid "bold"
 msgstr "жирный"
 
-#: kdeui/kfontdialog.cpp:318
+#: kdeui/kfontdialog.cpp:338
 msgid "Style"
 msgstr "Стиль"
 
-#: kdeui/kfontdialog.cpp:319 kdeui/kfontdialog.cpp:446
-#: kdeui/kfontdialog.cpp:475
+#: kdeui/kfontdialog.cpp:339 kdeui/kfontdialog.cpp:480
+#: kdeui/kfontdialog.cpp:509
 msgid "roman"
 msgstr "роман"
 
-#: kdeui/kfontdialog.cpp:320 kdeui/kfontdialog.cpp:448
-#: kdeui/kfontdialog.cpp:473
+#: kdeui/kfontdialog.cpp:340 kdeui/kfontdialog.cpp:482
+#: kdeui/kfontdialog.cpp:507
 msgid "italic"
 msgstr "наклонный"
 
-#: kdeui/kfontdialog.cpp:350
+#: kdeui/kfontdialog.cpp:370
 msgid "Dolor Ipse"
 msgstr "Тестируем"
 
-#: kdeui/kfontdialog.cpp:468
+#: kdeui/kfontdialog.cpp:502
 msgid "Bold"
 msgstr "Жирный"
 
-#: kdeui/kfontdialog.cpp:470
+#: kdeui/kfontdialog.cpp:504
 msgid "Normal"
 msgstr "Нормальный"
 
@@ -354,37 +426,64 @@ msgstr "Выберите пиктограмму"
 msgid "Filter:"
 msgstr "Фильтр:"
 
-#: kdeui/kmenubar.cpp:157 kdeui/ktoolbar.cpp:444
+#: kdeui/kmenubar.cpp:168 kdeui/ktoolbar.cpp:453
 msgid "Top"
 msgstr "Верх"
 
-#: kdeui/kmenubar.cpp:158 kdeui/ktoolbar.cpp:446
+#: kdeui/kmenubar.cpp:169 kdeui/ktoolbar.cpp:455
 msgid "Bottom"
 msgstr "Низ"
 
-#: kdeui/kmenubar.cpp:159 kdeui/ktoolbar.cpp:447
+#: kdeui/kmenubar.cpp:170 kdeui/ktoolbar.cpp:456
 msgid "Floating"
 msgstr "Плавающий"
 
-#: kdeui/kmenubar.cpp:273 kdeui/kmenubar.cpp:413 kdeui/ktoolbar.cpp:1576
+#: kdeui/kmenubar.cpp:284 kdeui/kmenubar.cpp:434 kdeui/ktoolbar.cpp:1588
 msgid "Float"
 msgstr "Сделать плавающей"
 
-#: kdeui/kmenubar.cpp:402 kdeui/ktoolbar.cpp:1558
+#: kdeui/kmenubar.cpp:423 kdeui/ktoolbar.cpp:1570
 msgid "UnFloat"
 msgstr "Сделать неплавающей"
 
-#: kdeui/ktoolbar.cpp:161 kdeui/ktoolbar.cpp:280
+#: kdeui/knotebook.cpp:145
+msgid "Trying to add page when no KWizards are added!"
+msgstr ""
+
+#: kdeui/knotebook.cpp:178 kdeui/kwizard.cpp:120 po/texts.cpp:41
+msgid "&Cancel"
+msgstr "&Отмена"
+
+#: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:143
+#, fuzzy
+msgid "&Default"
+msgstr "По умолчанию:"
+
+#: kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:166 po/texts.cpp:46
+msgid "&Help"
+msgstr "&Помощь"
+
+#: kdeui/knotebook.cpp:247 kdeui/kwizard.cpp:189
+#, fuzzy
+msgid "&Ok"
+msgstr "Ок"
+
+#: kdeui/ktoolbar.cpp:164 kdeui/ktoolbar.cpp:283
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: пустая пиктограмма, возможно отсутствует файл"
 
-#: kdeui/ktoolbar.cpp:443
+#: kdeui/ktoolbar.cpp:452
 msgid "Left"
 msgstr "Слева"
 
-#: kdeui/ktoolbar.cpp:445
+#: kdeui/ktoolbar.cpp:454
 msgid "Right"
 msgstr "Справа"
+
+#: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
+#, c-format
+msgid "Page %d of %d"
+msgstr ""
 
 #: kfile/bookmark.cpp:246
 msgid "<!-- Do not edit this file -->"
@@ -393,22 +492,22 @@ msgstr ""
 #: kfile/kcombiview.cpp:80
 #, fuzzy
 msgid "Folders:"
-msgstr "Фильтр:"
+msgstr "Папка"
 
 #: kfile/kcombiview.cpp:81
 #, fuzzy
 msgid "Contents:"
 msgstr "Содержимое"
 
-#
 #: kfile/kfiledetaillist.cpp:36
 #, fuzzy
 msgid "Name"
-msgstr "Новая игра"
+msgstr "Имя:"
 
 #: kfile/kfiledetaillist.cpp:40
+#, fuzzy
 msgid "Permissions"
-msgstr ""
+msgstr "Права"
 
 #: kfile/kfiledetaillist.cpp:42
 #, fuzzy
@@ -416,157 +515,174 @@ msgid "Date"
 msgstr "Вставить"
 
 #: kfile/kfiledetaillist.cpp:45
+#, fuzzy
 msgid "Owner"
-msgstr ""
+msgstr "Один"
 
 #: kfile/kfiledetaillist.cpp:47
+#, fuzzy
 msgid "Group"
-msgstr ""
+msgstr "Группы"
 
-#: kfile/kfiledialog.cpp:146 po/texts.cpp:56
+#: kfile/kfiledialog.cpp:122 po/texts.cpp:56
 msgid "Back"
 msgstr "Назад"
 
-#: kfile/kfiledialog.cpp:149 po/texts.cpp:57
+#: kfile/kfiledialog.cpp:125 po/texts.cpp:57
 msgid "Forward"
 msgstr "Вперед"
 
-#: kfile/kfiledialog.cpp:152
+#: kfile/kfiledialog.cpp:128
+#, fuzzy
 msgid "Up to parent"
-msgstr ""
+msgstr "На начало"
 
-#: kfile/kfiledialog.cpp:155
+#: kfile/kfiledialog.cpp:131
+#, fuzzy
 msgid "Home"
-msgstr ""
+msgstr "Мой домашний каталог"
 
-#: kfile/kfiledialog.cpp:158 po/texts.cpp:55
+#: kfile/kfiledialog.cpp:134 po/texts.cpp:55
 msgid "Reload"
 msgstr "Перегрузить"
 
-#: kfile/kfiledialog.cpp:174
+#: kfile/kfiledialog.cpp:150
+#, fuzzy
 msgid "Bookmarks"
-msgstr ""
+msgstr "Закладки"
 
-#: kfile/kfiledialog.cpp:178
+#: kfile/kfiledialog.cpp:154
+#, fuzzy
 msgid "Create new folder"
-msgstr ""
+msgstr "Не могу создать папку"
 
-#: kfile/kfiledialog.cpp:181
+#: kfile/kfiledialog.cpp:157
 #, fuzzy
 msgid "Search for a file"
 msgstr "Сохранить файл"
 
-#: kfile/kfiledialog.cpp:184
+#: kfile/kfiledialog.cpp:160
 msgid "Configure this dialog [development only]"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:192
+#: kfile/kfiledialog.cpp:168
 msgid "The path"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:217
+#: kfile/kfiledialog.cpp:193
+#, fuzzy
 msgid "&Location:"
-msgstr ""
+msgstr "Расположение"
 
-#: kfile/kfiledialog.cpp:229
+#: kfile/kfiledialog.cpp:206
 #, fuzzy
 msgid "&Filter:"
 msgstr "Фильтр:"
 
-#: kfile/kfiledialog.cpp:262
+#: kfile/kfiledialog.cpp:220
+#, fuzzy
 msgid "Show hidden"
-msgstr ""
+msgstr "Показать Буфер"
 
-#: kfile/kfiledialog.cpp:511
+#: kfile/kfiledialog.cpp:487
+#, fuzzy
 msgid "Error: Not local file"
-msgstr ""
+msgstr "Ошибка в info файле"
 
-#: kfile/kfiledialog.cpp:512
+#: kfile/kfiledialog.cpp:488
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
 msgstr ""
 
-#: kfile/kfiledialog.cpp:526 kfile/kfiledialog.cpp:628
+#: kfile/kfiledialog.cpp:502 kfile/kfiledialog.cpp:608
+#, fuzzy
 msgid "Error: Cannot Open Directory"
-msgstr ""
+msgstr "Не возможно открыть или прочитать подкаталог."
 
-#: kfile/kfiledialog.cpp:527
+#: kfile/kfiledialog.cpp:503
 #, fuzzy
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
 msgstr "Указанный файл не существует"
 
-#: kfile/kfiledialog.cpp:529 kfile/kfiledialog.cpp:631
+#: kfile/kfiledialog.cpp:505 kfile/kfiledialog.cpp:611
 msgid "Dismiss"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:566 kfile/kfiledialog.cpp:1146
-#: kfile/kfiledialog.cpp:1305 kfile/kfiledialog.cpp:1339 po/texts.cpp:69
+#: kfile/kfiledialog.cpp:542 kfile/kfiledialog.cpp:1179
+#: kfile/kfiledialog.cpp:1338 kfile/kfiledialog.cpp:1372 po/texts.cpp:70
 msgid "Open"
 msgstr "Открыть"
 
-#: kfile/kfiledialog.cpp:581 kfile/kfiledialog.cpp:1320 po/texts.cpp:80
+#: kfile/kfiledialog.cpp:557 kfile/kfiledialog.cpp:1353 po/texts.cpp:82
 msgid "Save As"
 msgstr "Сохранить как"
 
-#: kfile/kfiledialog.cpp:604
+#: kfile/kfiledialog.cpp:580
+#, fuzzy
 msgid "Root Directory"
-msgstr ""
+msgstr "Домашний подкаталог"
 
-#: kfile/kfiledialog.cpp:629
+#: kfile/kfiledialog.cpp:609
 #, fuzzy
 msgid "The specified directory does not exist or was not readable."
 msgstr "Указанный файл не существует"
 
-#: kfile/kfiledialog.cpp:874
+#: kfile/kfiledialog.cpp:857
+#, fuzzy
 msgid "Create new directory in: "
-msgstr ""
+msgstr "Создать домашний подкаталог"
 
-#: kfile/kfiledialog.cpp:877
+#: kfile/kfiledialog.cpp:860
+#, fuzzy
 msgid "New Directory"
-msgstr ""
+msgstr "Домашний подкаталог"
 
-#: kfile/kfiledialog.cpp:949
+#: kfile/kfiledialog.cpp:932
 #, fuzzy
 msgid "Add to bookmarks"
-msgstr "Добавить собственный цвет"
+msgstr "Добавить закладку"
 
-#: kfile/kfiledialog.cpp:1180
+#: kfile/kfiledialog.cpp:1213
+#, fuzzy
 msgid "Choose Directory"
-msgstr ""
+msgstr "Домашний подкаталог"
 
-#: kfile/kfiledialog.cpp:1201 kfile/kfiledialog.cpp:1360 po/texts.cpp:78
+#: kfile/kfiledialog.cpp:1234 kfile/kfiledialog.cpp:1393 po/texts.cpp:80
 msgid "Save"
 msgstr "Сохранить"
 
-#: kfile/kfiledialog.cpp:1248
+#: kfile/kfiledialog.cpp:1281
+#, fuzzy
 msgid "directory"
-msgstr ""
+msgstr "Домашний подкаталог"
 
-#: kfile/kfiledialog.cpp:1250
+#: kfile/kfiledialog.cpp:1283
+#, fuzzy
 msgid "directories"
-msgstr ""
+msgstr "Подкаталоги:"
 
-#: kfile/kfiledialog.cpp:1252 kfile/kpreview.cpp:326
+#: kfile/kfiledialog.cpp:1285 kfile/kpreview.cpp:326
 #, fuzzy
 msgid "file"
 msgstr "Файл"
 
-#: kfile/kfiledialog.cpp:1254
+#: kfile/kfiledialog.cpp:1287
 #, fuzzy
 msgid "files"
-msgstr "Файл"
+msgstr "Файлы"
 
-#: kfile/kfiledialog.cpp:1256
+#: kfile/kfiledialog.cpp:1289
 #, c-format
 msgid "%d %s and %d %s"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1266
+#: kfile/kfiledialog.cpp:1299
+#, fuzzy
 msgid "one directory"
-msgstr ""
+msgstr "Домашний подкаталог"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"
@@ -591,16 +707,19 @@ msgid "About"
 msgstr "О программе"
 
 #: kfile/kfiledialogconf.cpp:70
+#, fuzzy
 msgid "View style"
-msgstr ""
+msgstr "Присоеденить тип:"
 
 #: kfile/kfiledialogconf.cpp:74
+#, fuzzy
 msgid "Show Short View"
-msgstr ""
+msgstr "Показывать скрытые файлы"
 
 #: kfile/kfiledialogconf.cpp:80
+#, fuzzy
 msgid "Show Detail View"
-msgstr ""
+msgstr "Показывать скрытые файлы"
 
 #: kfile/kfiledialogconf.cpp:89
 msgid "Misc"
@@ -609,19 +728,22 @@ msgstr ""
 #: kfile/kfiledialogconf.cpp:95
 #, fuzzy
 msgid "Show Filter"
-msgstr "Фильтр:"
+msgstr "Показывать скрытые файлы"
 
 #: kfile/kfiledialogconf.cpp:101
+#, fuzzy
 msgid "Show List Labels"
-msgstr ""
+msgstr "Показать панель"
 
 #: kfile/kfiledialogconf.cpp:107
+#, fuzzy
 msgid "Show Hidden"
-msgstr ""
+msgstr "Скрыть"
 
 #: kfile/kfiledialogconf.cpp:113
+#, fuzzy
 msgid "Show Status Line"
-msgstr ""
+msgstr "Показать Строку состояния"
 
 #: kfile/kfiledialogconf.cpp:119
 msgid "Use single Click"
@@ -640,44 +762,48 @@ msgid "unknown"
 msgstr ""
 
 #: kfile/kfileinfo.cpp:218
+#, fuzzy
 msgid "Jan"
-msgstr ""
+msgstr "и"
 
 #: kfile/kfileinfo.cpp:219
 msgid "Feb"
 msgstr ""
 
 #: kfile/kfileinfo.cpp:220
+#, fuzzy
 msgid "Mar"
-msgstr ""
+msgstr "Март"
 
 #: kfile/kfileinfo.cpp:221
+#, fuzzy
 msgid "Apr"
-msgstr ""
-
-#: kfile/kfileinfo.cpp:222
-msgid "May"
-msgstr ""
+msgstr "Апрель"
 
 #: kfile/kfileinfo.cpp:223
+#, fuzzy
 msgid "Jun"
-msgstr ""
+msgstr "Июнь"
 
 #: kfile/kfileinfo.cpp:224
+#, fuzzy
 msgid "Jul"
-msgstr ""
+msgstr "Июль"
 
 #: kfile/kfileinfo.cpp:225
+#, fuzzy
 msgid "Aug"
-msgstr ""
+msgstr "Август"
 
 #: kfile/kfileinfo.cpp:226
+#, fuzzy
 msgid "Sep"
-msgstr ""
+msgstr "Конфигурация"
 
 #: kfile/kfileinfo.cpp:227
+#, fuzzy
 msgid "Oct"
-msgstr ""
+msgstr "Октябрь"
 
 #: kfile/kfileinfo.cpp:228
 #, fuzzy
@@ -685,44 +811,49 @@ msgid "Nov"
 msgstr "Нет"
 
 #: kfile/kfileinfo.cpp:229
+#, fuzzy
 msgid "Dec"
-msgstr ""
+msgstr "Устройство"
 
-#
 #: kfile/kpreview.cpp:187
 #, fuzzy
 msgid "Name:"
-msgstr "Новая игра"
+msgstr "Имя:"
 
 #: kfile/kpreview.cpp:205
+#, fuzzy
 msgid "Date:"
-msgstr ""
+msgstr "День:"
 
 #: kfile/kpreview.cpp:214
+#, fuzzy
 msgid "Owner:"
-msgstr ""
+msgstr "Один"
 
 #: kfile/kpreview.cpp:223
+#, fuzzy
 msgid "Group:"
-msgstr ""
+msgstr "Группы"
 
 #: kfile/kpreview.cpp:232
+#, fuzzy
 msgid "Type:"
-msgstr ""
+msgstr "Тип ФС:"
 
 #: kfile/kpreview.cpp:287
+#, fuzzy
 msgid "locked"
-msgstr ""
+msgstr "Часы"
 
 #: kfile/kpreview.cpp:311
 msgid "picture"
 msgstr ""
 
 #: kfile/kpreview.cpp:343
+#, fuzzy
 msgid "folder"
-msgstr ""
+msgstr "Папка"
 
-# general messages, that are often used
 #: po/texts.cpp:24
 msgid "Error"
 msgstr "Ошибка"
@@ -743,17 +874,14 @@ msgstr "Сохранить файл"
 msgid "Contents"
 msgstr "Содержимое"
 
-#
 #: po/texts.cpp:33
 msgid "A&bout..."
 msgstr "О &программе..."
 
-#
 #: po/texts.cpp:36
 msgid "&OK"
 msgstr "&ОК"
 
-#
 #: po/texts.cpp:38
 msgid "On"
 msgstr "Включено"
@@ -762,30 +890,18 @@ msgstr "Включено"
 msgid "Off"
 msgstr "Выключено"
 
-#
-#: po/texts.cpp:41
-msgid "&Cancel"
-msgstr "&Отмена"
-
 #: po/texts.cpp:43
 msgid "File"
 msgstr "Файл"
 
-#
 #: po/texts.cpp:44
 msgid "&File"
 msgstr "&Файл"
-
-#
-#: po/texts.cpp:46
-msgid "&Help"
-msgstr "&Помощь"
 
 #: po/texts.cpp:47
 msgid "Edit"
 msgstr "Редактирование"
 
-#
 #: po/texts.cpp:48
 msgid "&Edit"
 msgstr "&Редактирование"
@@ -798,12 +914,10 @@ msgstr "Оп&ции"
 msgid "View"
 msgstr "Вид"
 
-#
 #: po/texts.cpp:51
 msgid "&View"
 msgstr "&Вид"
 
-#
 #: po/texts.cpp:52
 msgid "E&xit"
 msgstr "&Выход"
@@ -812,7 +926,6 @@ msgstr "&Выход"
 msgid "Quit"
 msgstr "Выход"
 
-#
 #: po/texts.cpp:54
 msgid "&Quit"
 msgstr "&Выход"
@@ -841,7 +954,6 @@ msgstr "Новый"
 msgid "&New"
 msgstr "&Новый"
 
-#
 #: po/texts.cpp:64
 msgid "&New..."
 msgstr "&Новый..."
@@ -854,156 +966,290 @@ msgstr "&Новое окно"
 msgid "New &Window..."
 msgstr "Новое &окно"
 
-#
 #: po/texts.cpp:67
+msgid "&New Window"
+msgstr "Новое окно"
+
+#: po/texts.cpp:68
 msgid "New Game"
 msgstr "Новая игра"
 
-#
-#: po/texts.cpp:68
+#: po/texts.cpp:69
 msgid "&New Game"
 msgstr "&Новая игра"
 
-#: po/texts.cpp:70
+#: po/texts.cpp:71
 msgid "Open a file"
 msgstr "Открыть файл"
 
-#
-#: po/texts.cpp:71
+#: po/texts.cpp:72
 msgid "Open..."
 msgstr "Открыть..."
 
-#
-#: po/texts.cpp:72
+#: po/texts.cpp:73
 msgid "&Open..."
 msgstr "&Открыть..."
 
-#: po/texts.cpp:73
+#: po/texts.cpp:74
 msgid "Cut"
 msgstr "Вырезать"
 
-#
-#: po/texts.cpp:74
+#: po/texts.cpp:75
+msgid "&Cut"
+msgstr "Вырезать"
+
+#: po/texts.cpp:76
 msgid "C&ut"
 msgstr "Вы&резать"
 
-#
-#: po/texts.cpp:75
+#: po/texts.cpp:77
 msgid "Font"
 msgstr "Шрифт"
 
-#: po/texts.cpp:76
+#: po/texts.cpp:78
 msgid "&Foreground Color"
 msgstr "Цвет &текста"
 
-#: po/texts.cpp:77
+#: po/texts.cpp:79
 msgid "&Background Color"
 msgstr "Цвет &фона"
 
-#
-#: po/texts.cpp:79
+#: po/texts.cpp:81
 msgid "&Save"
 msgstr "&Сохранить"
 
-#
-#: po/texts.cpp:81
+#: po/texts.cpp:83
 msgid "Save as..."
 msgstr "Сохранить как..."
 
-#
-#: po/texts.cpp:82
+#: po/texts.cpp:84
 msgid "S&ave as..."
 msgstr "С&охранить как..."
 
-#: po/texts.cpp:83
+#: po/texts.cpp:85
 msgid "Close"
 msgstr "Закрыть"
 
-#
-#: po/texts.cpp:84
+#: po/texts.cpp:86
 msgid "&Close"
 msgstr "&Закрыть"
 
-#: po/texts.cpp:85
+#: po/texts.cpp:87
 msgid "&Print..."
 msgstr "&Печать..."
 
-#: po/texts.cpp:88
+#: po/texts.cpp:90
 msgid "Options"
-msgstr "Опции"
+msgstr "Установки"
 
-#: po/texts.cpp:89
+#: po/texts.cpp:91
 msgid "Remove"
 msgstr "Удалить"
 
-#: po/texts.cpp:90
+#: po/texts.cpp:92
 msgid "Add"
 msgstr "Добавить"
 
-#
-#: po/texts.cpp:91
+#: po/texts.cpp:93
 msgid "Change"
 msgstr "Изменить"
 
-#: po/texts.cpp:92
+#: po/texts.cpp:94
 msgid "Delete"
 msgstr "Удалить"
 
-#: po/texts.cpp:93
+#: po/texts.cpp:95
 msgid "&Delete"
 msgstr "&Удалить"
 
-#
-#: po/texts.cpp:94
+#: po/texts.cpp:96
 msgid "Clear"
 msgstr "Очистить"
 
-#
-#: po/texts.cpp:95
+#: po/texts.cpp:97
 msgid "Italic"
 msgstr "Наклонный"
 
-#
-#: po/texts.cpp:96
+#: po/texts.cpp:98
 msgid "Roman"
 msgstr "Роман"
 
-#: po/texts.cpp:97
+#: po/texts.cpp:99
 msgid "Undo"
 msgstr "Откат"
 
-#: po/texts.cpp:98
+#: po/texts.cpp:100
 msgid "&Undo"
 msgstr "&Откат"
 
-#: po/texts.cpp:99
+#: po/texts.cpp:101
 msgid "Redo"
 msgstr "Откат назад"
 
-#: po/texts.cpp:100
+#: po/texts.cpp:102
 msgid "&Redo"
 msgstr "Откат &назад"
 
-#
-#: po/texts.cpp:101
+#: po/texts.cpp:103
 msgid "&Game"
 msgstr "&Игра"
 
-#: po/texts.cpp:102
+#: po/texts.cpp:104
 msgid "Information"
 msgstr "Информация"
 
-#: po/texts.cpp:103
+#: po/texts.cpp:105
 msgid "Browse..."
 msgstr "Просмотр..."
 
-#: po/texts.cpp:104
+#: po/texts.cpp:106
 msgid "(none)"
 msgstr "(ничего)"
 
+#: po/texts.cpp:107
+msgid "None"
+msgstr "Никому"
+
+#: po/texts.cpp:108
+msgid "Stop"
+msgstr "Стоп"
+
+#: po/texts.cpp:109
+#, fuzzy
+msgid "&Remove"
+msgstr "Удалить"
+
+#: po/texts.cpp:110
+#, fuzzy
+msgid "&Properties..."
+msgstr "Свойства..."
+
+#: po/texts.cpp:111
+msgid "Properties"
+msgstr "Свойства"
+
+#: po/texts.cpp:112
+#, fuzzy
+msgid "&Start"
+msgstr "На старте"
+
+#: po/texts.cpp:113
+#, fuzzy
+msgid "St&op"
+msgstr "Стоп"
+
+#: po/texts.cpp:114
+msgid "Move"
+msgstr "Перемещать"
+
+#: po/texts.cpp:115
+msgid "Miscellaneous"
+msgstr "Разное"
+
+#: po/texts.cpp:116
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: po/texts.cpp:117
+msgid "Small"
+msgstr "Маленький"
+
+#: po/texts.cpp:118
+msgid "Medium"
+msgstr "Средний"
+
+#: po/texts.cpp:119
+msgid "Large"
+msgstr "Большой"
+
+#: po/texts.cpp:120
+msgid "Fonts"
+msgstr "Шрифты"
+
+#: po/texts.cpp:121
+msgid "&Fonts"
+msgstr "&Шрифты"
+
+#: po/texts.cpp:122
+msgid "&Reload"
+msgstr "Перезагрузить"
+
+#: po/texts.cpp:123
+msgid "&Previous"
+msgstr "Предыдущий"
+
+#: po/texts.cpp:124
+msgid "&Next"
+msgstr "Следующий"
+
+#: po/texts.cpp:125
+msgid "Files"
+msgstr "Файлы"
+
+#: po/texts.cpp:126
+msgid "Continue"
+msgstr "Продолжить"
+
+#: po/texts.cpp:127
+msgid "Restore"
+msgstr "Восстановить"
+
+#: po/texts.cpp:128
+msgid "Appearance"
+msgstr "Вид"
+
+#: po/texts.cpp:129
+msgid "Print"
+msgstr "Печать"
+
+#: po/texts.cpp:130
+msgid "Monday"
+msgstr ""
+
+#: po/texts.cpp:131
+msgid "Tuesday"
+msgstr ""
+
+#: po/texts.cpp:132
+msgid "Wednesday"
+msgstr ""
+
+#: po/texts.cpp:133
+#, fuzzy
+msgid "Thursday"
+msgstr "Третий"
+
+#: po/texts.cpp:134
+#, fuzzy
+msgid "Friday"
+msgstr "Найти"
+
+#: po/texts.cpp:135
+msgid "Saturday"
+msgstr ""
+
+#: po/texts.cpp:136
+#, fuzzy
+msgid "Sunday"
+msgstr "Звук"
+
+#: po/texts.cpp:137
+#, fuzzy
+msgid "&Update"
+msgstr "&Вставить"
+
+#: po/texts.cpp:138
+#, fuzzy
+msgid "Layout"
+msgstr "Выйти"
+
+#: po/texts.cpp:139
+msgid "Highscore"
+msgstr ""
+
 #, fuzzy
 #~ msgid "Height"
-#~ msgstr "Ширина"
+#~ msgstr "Высота:"
 
 #
 #~ msgid ""
@@ -1028,6 +1274,6 @@ msgstr "(ничего)"
 #~ "Qt может свободно использоваться для разработки свободного\n"
 #~ "программного обеспечения под X Window System.\n"
 
-#
+#, fuzzy
 #~ msgid "&Help..."
 #~ msgstr "&Помощь"

@@ -1,36 +1,31 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# Juha Tuomala <EMAIL@ADDRESS>, 1997.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-18 13:01+0200\n"
+"POT-Creation-Date: 1998-06-14 22:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: kdecore/kapp.cpp:494
+#: kdecore/kapp.cpp:497
 msgid "&Contents"
 msgstr "&Sis‰ltˆ"
 
-#: kdecore/kapp.cpp:500
+#: kdecore/kapp.cpp:503
 msgid "&About"
 msgstr "&Tietoja"
 
-#: kdecore/kapp.cpp:507
+#: kdecore/kapp.cpp:510
 msgid "About &KDE..."
 msgstr "Tietoja &KDE:ta..."
 
-#: kdecore/kapp.cpp:528
+#: kdecore/kapp.cpp:531
 msgid "About KDE"
 msgstr "Tietoja KDE:ta"
 
-#: kdecore/kapp.cpp:530
+#: kdecore/kapp.cpp:533
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -52,7 +47,37 @@ msgstr ""
 "\n"
 "Raportoi virheet osoitteeseen http://buglist.kde.org.\n"
 
-# libkdeui messages
+#: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416
+#: kdeui/keditcl1.cpp:477 kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573
+#: kdeui/keditcl2.cpp:108 kdeui/keditcl2.cpp:125 kdeui/keditcl2.cpp:365
+#: kdeui/keditcl2.cpp:382 kdeui/keditcl2.cpp:428 kdeui/keditcl2.cpp:458
+#: kdeui/keditcl2.cpp:475 kdeui/kmsgbox.cpp:488 kdeui/kmsgbox.cpp:503
+#: po/texts.cpp:27
+msgid "Yes"
+msgstr "Kyll‰"
+
+#: kdetest/klocaletest.cpp:101 kdeui/keditcl1.cpp:396 kdeui/keditcl1.cpp:417
+#: kdeui/keditcl1.cpp:478 kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1574
+#: kdeui/keditcl2.cpp:109 kdeui/keditcl2.cpp:126 kdeui/keditcl2.cpp:366
+#: kdeui/keditcl2.cpp:383 kdeui/keditcl2.cpp:429 kdeui/keditcl2.cpp:459
+#: kdeui/keditcl2.cpp:476 kdeui/kmsgbox.cpp:486 kdeui/kmsgbox.cpp:501
+#: po/texts.cpp:28
+msgid "No"
+msgstr "Ei"
+
+#: kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34
+#: kfile/kfiledialog.cpp:252 po/texts.cpp:45
+msgid "Help"
+msgstr "Ohje"
+
+#: kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:46
+#: kdeui/keditcl1.cpp:397 kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897
+#: kdeui/kfontdialog.cpp:352 kdeui/kiconloaderdialog.cpp:255
+#: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:877
+#: kfile/kfiledialogconf.cpp:58 po/texts.cpp:40
+msgid "Cancel"
+msgstr "Peruuta"
+
 #: kdeui/kcolordlg.cpp:285
 msgid "Select Color"
 msgstr "Valitse v‰ri"
@@ -69,23 +94,10 @@ msgstr "Omat v‰rit"
 msgid "Add to Custom Colors"
 msgstr "Lis‰‰ omiin v‰reihin"
 
-#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:337
-#: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:889 po/texts.cpp:37
+#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:357
+#: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872 po/texts.cpp:37
 msgid "Ok"
 msgstr "Ok"
-
-#: kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:46 kdeui/keditcl1.cpp:397
-#: kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897 kdeui/kfontdialog.cpp:332
-#: kdeui/kiconloaderdialog.cpp:255 kdeui/kmsgbox.cpp:505
-#: kfile/kfiledialog.cpp:288 kfile/kfiledialog.cpp:894
-#: kfile/kfiledialogconf.cpp:58 po/texts.cpp:40
-msgid "Cancel"
-msgstr "Peruuta"
-
-#: kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34 kfile/kfiledialog.cpp:294
-#: po/texts.cpp:45
-msgid "Help"
-msgstr "Ohje"
 
 #: kdeui/kcolordlg.cpp:788 kdeui/kcolordlg.cpp:840
 msgid "Custom..."
@@ -94,12 +106,12 @@ msgstr "Omat ..."
 #: kdeui/kcontrol.cpp:39
 #, fuzzy
 msgid "Default"
-msgstr "Tuhoa"
+msgstr "Oletus:"
 
 #: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
 #: kdeui/keditcl1.cpp:1473 kdeui/keditcl1.cpp:1630 kdeui/kmsgbox.cpp:473
-#: kfile/kfiledialog.cpp:282 kfile/kfiledialog.cpp:516
+#: kfile/kfiledialog.cpp:240 kfile/kfiledialog.cpp:492
 #: kfile/kfiledialogconf.cpp:60 po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
@@ -108,8 +120,93 @@ msgstr "OK"
 msgid "Apply"
 msgstr "K‰yt‰"
 
+#: kdeui/kdatepik.cpp:102
+msgid "January"
+msgstr "Tammikuu"
+
+#: kdeui/kdatepik.cpp:102
+msgid "February"
+msgstr "Helmikuu"
+
+#: kdeui/kdatepik.cpp:103
+msgid "March"
+msgstr "Maaliskuu"
+
+#: kdeui/kdatepik.cpp:103
+msgid "April"
+msgstr "Huhtikuu"
+
+#: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:222
+msgid "May"
+msgstr "Touko"
+
+#: kdeui/kdatepik.cpp:104
+msgid "June"
+msgstr "Kes‰kuu"
+
+#: kdeui/kdatepik.cpp:105
+msgid "July"
+msgstr "Hein‰kuu"
+
+#: kdeui/kdatepik.cpp:105
+msgid "August"
+msgstr "Elokuu"
+
+#: kdeui/kdatepik.cpp:106
+msgid "September"
+msgstr "Syyskuu"
+
+#: kdeui/kdatepik.cpp:106
+msgid "October"
+msgstr "Lokakuu"
+
+#: kdeui/kdatepik.cpp:107
+msgid "November"
+msgstr "Marraskuu"
+
+#: kdeui/kdatepik.cpp:107
+msgid "December"
+msgstr "Joulukuu"
+
+#: kdeui/kdatepik.cpp:248
+msgid "(invalid)"
+msgstr ""
+
+#: kdeui/kdatetbl.cpp:48
+#, fuzzy
+msgid "Sun"
+msgstr "&ƒ‰net"
+
+#: kdeui/kdatetbl.cpp:48
+#, fuzzy
+msgid "Mon"
+msgstr "Liit‰"
+
+#: kdeui/kdatetbl.cpp:48
+#, fuzzy
+msgid "Tue"
+msgstr "Kymmenen"
+
+#: kdeui/kdatetbl.cpp:49
+#, fuzzy
+msgid "Wed"
+msgstr "Punainen"
+
+#: kdeui/kdatetbl.cpp:49
+msgid "Thu"
+msgstr ""
+
+#: kdeui/kdatetbl.cpp:49
+msgid "Fri"
+msgstr ""
+
+#: kdeui/kdatetbl.cpp:50
+#, fuzzy
+msgid "Sat"
+msgstr " "
+
 #: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
-#: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:87
+#: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:89
 msgid "Sorry"
 msgstr "Anteeksi"
 
@@ -149,22 +246,6 @@ msgid ""
 msgstr ""
 "Asiakirjaa on muutettu.\n"
 "Haluatko tallentaa sen?"
-
-#: kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416 kdeui/keditcl1.cpp:477
-#: kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573 kdeui/keditcl2.cpp:108
-#: kdeui/keditcl2.cpp:125 kdeui/keditcl2.cpp:365 kdeui/keditcl2.cpp:382
-#: kdeui/keditcl2.cpp:428 kdeui/keditcl2.cpp:458 kdeui/keditcl2.cpp:475
-#: kdeui/kmsgbox.cpp:488 kdeui/kmsgbox.cpp:503 po/texts.cpp:27
-msgid "Yes"
-msgstr "Kyll‰"
-
-#: kdeui/keditcl1.cpp:396 kdeui/keditcl1.cpp:417 kdeui/keditcl1.cpp:478
-#: kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1574 kdeui/keditcl2.cpp:109
-#: kdeui/keditcl2.cpp:126 kdeui/keditcl2.cpp:366 kdeui/keditcl2.cpp:383
-#: kdeui/keditcl2.cpp:429 kdeui/keditcl2.cpp:459 kdeui/keditcl2.cpp:476
-#: kdeui/kmsgbox.cpp:486 kdeui/kmsgbox.cpp:501 po/texts.cpp:28
-msgid "No"
-msgstr "Ei"
 
 #: kdeui/keditcl1.cpp:414
 msgid ""
@@ -246,7 +327,7 @@ msgstr "Huomioi kirjasintaso"
 msgid "Find Backwards"
 msgstr "Etsi taaksep‰in"
 
-#: kdeui/keditcl2.cpp:690 kdeui/keditcl2.cpp:797 po/texts.cpp:86
+#: kdeui/keditcl2.cpp:690 kdeui/keditcl2.cpp:797 po/texts.cpp:88
 msgid "Done"
 msgstr "Valmis"
 
@@ -270,81 +351,81 @@ msgstr "Siirry riville"
 msgid "Go"
 msgstr "Siirry"
 
-#: kdeui/kfontdialog.cpp:145
+#: kdeui/kfontdialog.cpp:168
 msgid "Select Font"
 msgstr "Valitse kirjasin"
 
-#: kdeui/kfontdialog.cpp:149
+#: kdeui/kfontdialog.cpp:172
 msgid "Requested Font"
 msgstr "Pyydetty kirjasin"
 
-#: kdeui/kfontdialog.cpp:154
+#: kdeui/kfontdialog.cpp:177
 msgid "Actual Font"
 msgstr "Todellinen kirjasin"
 
-#: kdeui/kfontdialog.cpp:158 kdeui/kfontdialog.cpp:162
+#: kdeui/kfontdialog.cpp:181 kdeui/kfontdialog.cpp:185
 msgid "Family:"
 msgstr "Perhe:"
 
-#: kdeui/kfontdialog.cpp:169 kdeui/kfontdialog.cpp:175 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:192 kdeui/kfontdialog.cpp:198 po/texts.cpp:26
 msgid "Charset:"
 msgstr "Merkistˆ:"
 
-#: kdeui/kfontdialog.cpp:182 kdeui/kfontdialog.cpp:187 kfile/kpreview.cpp:196
+#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:210 kfile/kpreview.cpp:196
 msgid "Size:"
 msgstr "Koko:"
 
-#: kdeui/kfontdialog.cpp:195 kdeui/kfontdialog.cpp:200
+#: kdeui/kfontdialog.cpp:217 kdeui/kfontdialog.cpp:222
 msgid "Weight:"
 msgstr "Paino:"
 
-#: kdeui/kfontdialog.cpp:209 kdeui/kfontdialog.cpp:216
+#: kdeui/kfontdialog.cpp:230 kdeui/kfontdialog.cpp:237
 msgid "Style:"
 msgstr "Tyyli:"
 
-#: kdeui/kfontdialog.cpp:253
+#: kdeui/kfontdialog.cpp:273
 msgid "Charset"
 msgstr "Kirjasin"
 
-#: kdeui/kfontdialog.cpp:264 kfile/kfiledetaillist.cpp:38
+#: kdeui/kfontdialog.cpp:284 kfile/kfiledetaillist.cpp:38
 msgid "Size"
 msgstr "Koko"
 
-#: kdeui/kfontdialog.cpp:305
+#: kdeui/kfontdialog.cpp:325
 msgid "Weight"
 msgstr "Paino"
 
-#: kdeui/kfontdialog.cpp:306 kdeui/kfontdialog.cpp:433
+#: kdeui/kfontdialog.cpp:326 kdeui/kfontdialog.cpp:467
 msgid "normal"
 msgstr "normaali"
 
-#: kdeui/kfontdialog.cpp:307 kdeui/kfontdialog.cpp:435
+#: kdeui/kfontdialog.cpp:327 kdeui/kfontdialog.cpp:469
 msgid "bold"
 msgstr "lihavoitu"
 
-#: kdeui/kfontdialog.cpp:318
+#: kdeui/kfontdialog.cpp:338
 msgid "Style"
 msgstr "Tyyli"
 
-#: kdeui/kfontdialog.cpp:319 kdeui/kfontdialog.cpp:446
-#: kdeui/kfontdialog.cpp:475
+#: kdeui/kfontdialog.cpp:339 kdeui/kfontdialog.cpp:480
+#: kdeui/kfontdialog.cpp:509
 msgid "roman"
 msgstr "roman"
 
-#: kdeui/kfontdialog.cpp:320 kdeui/kfontdialog.cpp:448
-#: kdeui/kfontdialog.cpp:473
+#: kdeui/kfontdialog.cpp:340 kdeui/kfontdialog.cpp:482
+#: kdeui/kfontdialog.cpp:507
 msgid "italic"
 msgstr "kursivoitu"
 
-#: kdeui/kfontdialog.cpp:350
+#: kdeui/kfontdialog.cpp:370
 msgid "Dolor Ipse"
 msgstr "Dolor Ipse"
 
-#: kdeui/kfontdialog.cpp:468
+#: kdeui/kfontdialog.cpp:502
 msgid "Bold"
 msgstr "Lihavoitu"
 
-#: kdeui/kfontdialog.cpp:470
+#: kdeui/kfontdialog.cpp:504
 msgid "Normal"
 msgstr "Normaali"
 
@@ -356,37 +437,63 @@ msgstr "Valitse ikoni"
 msgid "Filter:"
 msgstr "Suodata:"
 
-#: kdeui/kmenubar.cpp:157 kdeui/ktoolbar.cpp:444
+#: kdeui/kmenubar.cpp:168 kdeui/ktoolbar.cpp:453
 msgid "Top"
 msgstr "Ylh‰‰ll‰"
 
-#: kdeui/kmenubar.cpp:158 kdeui/ktoolbar.cpp:446
+#: kdeui/kmenubar.cpp:169 kdeui/ktoolbar.cpp:455
 msgid "Bottom"
 msgstr "Alhaalla"
 
-#: kdeui/kmenubar.cpp:159 kdeui/ktoolbar.cpp:447
+#: kdeui/kmenubar.cpp:170 kdeui/ktoolbar.cpp:456
 msgid "Floating"
 msgstr "Kelluva"
 
-#: kdeui/kmenubar.cpp:273 kdeui/kmenubar.cpp:413 kdeui/ktoolbar.cpp:1576
+#: kdeui/kmenubar.cpp:284 kdeui/kmenubar.cpp:434 kdeui/ktoolbar.cpp:1588
 msgid "Float"
 msgstr "Kellua"
 
-#: kdeui/kmenubar.cpp:402 kdeui/ktoolbar.cpp:1558
+#: kdeui/kmenubar.cpp:423 kdeui/ktoolbar.cpp:1570
 msgid "UnFloat"
 msgstr "Upota"
 
-#: kdeui/ktoolbar.cpp:161 kdeui/ktoolbar.cpp:280
+#: kdeui/knotebook.cpp:145
+msgid "Trying to add page when no KWizards are added!"
+msgstr ""
+
+#: kdeui/knotebook.cpp:178 kdeui/kwizard.cpp:120 po/texts.cpp:41
+msgid "&Cancel"
+msgstr "&Peruuta"
+
+#: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:143
+#, fuzzy
+msgid "&Default"
+msgstr "&Oletukset"
+
+#: kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:166 po/texts.cpp:46
+msgid "&Help"
+msgstr "&Ohje"
+
+#: kdeui/knotebook.cpp:247 kdeui/kwizard.cpp:189
+msgid "&Ok"
+msgstr "&Ok"
+
+#: kdeui/ktoolbar.cpp:164 kdeui/ktoolbar.cpp:283
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: pixmap on tyhj‰, ehk‰ jokin puuttuva tiedosto."
 
-#: kdeui/ktoolbar.cpp:443
+#: kdeui/ktoolbar.cpp:452
 msgid "Left"
 msgstr "Vasemmalla"
 
-#: kdeui/ktoolbar.cpp:445
+#: kdeui/ktoolbar.cpp:454
 msgid "Right"
 msgstr "Oikealla"
+
+#: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
+#, fuzzy, c-format
+msgid "Page %d of %d"
+msgstr "Rivi: %d Sarake: %d"
 
 #: kfile/bookmark.cpp:246
 msgid "<!-- Do not edit this file -->"
@@ -420,63 +527,63 @@ msgstr "Omistaja"
 msgid "Group"
 msgstr "Ryhm‰"
 
-#: kfile/kfiledialog.cpp:146 po/texts.cpp:56
+#: kfile/kfiledialog.cpp:122 po/texts.cpp:56
 msgid "Back"
 msgstr "Taakse"
 
-#: kfile/kfiledialog.cpp:149 po/texts.cpp:57
+#: kfile/kfiledialog.cpp:125 po/texts.cpp:57
 msgid "Forward"
 msgstr "Eteen"
 
-#: kfile/kfiledialog.cpp:152
+#: kfile/kfiledialog.cpp:128
 msgid "Up to parent"
 msgstr "Edellinen kansio"
 
-#: kfile/kfiledialog.cpp:155
+#: kfile/kfiledialog.cpp:131
 msgid "Home"
 msgstr "Alkuun"
 
-#: kfile/kfiledialog.cpp:158 po/texts.cpp:55
+#: kfile/kfiledialog.cpp:134 po/texts.cpp:55
 msgid "Reload"
 msgstr "Lataa uudelleen"
 
-#: kfile/kfiledialog.cpp:174
+#: kfile/kfiledialog.cpp:150
 msgid "Bookmarks"
 msgstr "Kirjanmerkit"
 
-#: kfile/kfiledialog.cpp:178
+#: kfile/kfiledialog.cpp:154
 msgid "Create new folder"
 msgstr "Lis‰‰ kansio"
 
-#: kfile/kfiledialog.cpp:181
+#: kfile/kfiledialog.cpp:157
 msgid "Search for a file"
 msgstr "Etsi tiedostoa"
 
-#: kfile/kfiledialog.cpp:184
+#: kfile/kfiledialog.cpp:160
 msgid "Configure this dialog [development only]"
 msgstr "Dialogin asetukset [vain kehitys]"
 
-#: kfile/kfiledialog.cpp:192
+#: kfile/kfiledialog.cpp:168
 msgid "The path"
 msgstr "Polku"
 
-#: kfile/kfiledialog.cpp:217
+#: kfile/kfiledialog.cpp:193
 msgid "&Location:"
 msgstr "&Sijainti:"
 
-#: kfile/kfiledialog.cpp:229
+#: kfile/kfiledialog.cpp:206
 msgid "&Filter:"
 msgstr "&Suodata:"
 
-#: kfile/kfiledialog.cpp:262
+#: kfile/kfiledialog.cpp:220
 msgid "Show hidden"
 msgstr "N‰yt‰ piilotiedostot"
 
-#: kfile/kfiledialog.cpp:511
+#: kfile/kfiledialog.cpp:487
 msgid "Error: Not local file"
 msgstr "Virhe: Ei paikallinen tiedosto"
 
-#: kfile/kfiledialog.cpp:512
+#: kfile/kfiledialog.cpp:488
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
@@ -484,11 +591,11 @@ msgstr ""
 "M‰‰ritelty hakemisto ei ole paikallinen hakemisto\n"
 "Mutta sovellus hyv‰ksyy vain paikalliset tiedostot."
 
-#: kfile/kfiledialog.cpp:526 kfile/kfiledialog.cpp:628
+#: kfile/kfiledialog.cpp:502 kfile/kfiledialog.cpp:608
 msgid "Error: Cannot Open Directory"
 msgstr "Virhe: En voi avata hakemistoa"
 
-#: kfile/kfiledialog.cpp:527
+#: kfile/kfiledialog.cpp:503
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
@@ -496,69 +603,69 @@ msgstr ""
 "M‰‰ritelty‰ hakemistoa ei ole olemassa\n"
 "tai sit‰ ei voida lukea."
 
-#: kfile/kfiledialog.cpp:529 kfile/kfiledialog.cpp:631
+#: kfile/kfiledialog.cpp:505 kfile/kfiledialog.cpp:611
 msgid "Dismiss"
 msgstr "Peruuta"
 
-#: kfile/kfiledialog.cpp:566 kfile/kfiledialog.cpp:1146
-#: kfile/kfiledialog.cpp:1305 kfile/kfiledialog.cpp:1339 po/texts.cpp:69
+#: kfile/kfiledialog.cpp:542 kfile/kfiledialog.cpp:1179
+#: kfile/kfiledialog.cpp:1338 kfile/kfiledialog.cpp:1372 po/texts.cpp:70
 msgid "Open"
 msgstr "Avaa"
 
-#: kfile/kfiledialog.cpp:581 kfile/kfiledialog.cpp:1320 po/texts.cpp:80
+#: kfile/kfiledialog.cpp:557 kfile/kfiledialog.cpp:1353 po/texts.cpp:82
 msgid "Save As"
 msgstr "Tallenna nimell‰"
 
-#: kfile/kfiledialog.cpp:604
+#: kfile/kfiledialog.cpp:580
 msgid "Root Directory"
 msgstr "Juurihakemisto"
 
-#: kfile/kfiledialog.cpp:629
+#: kfile/kfiledialog.cpp:609
 msgid "The specified directory does not exist or was not readable."
 msgstr "M‰‰ritelty‰ hakemistoa ei ole olemassa tai sit‰ ei voida lukea"
 
-#: kfile/kfiledialog.cpp:874
+#: kfile/kfiledialog.cpp:857
 msgid "Create new directory in: "
 msgstr "Uuden hakemiston polku :"
 
-#: kfile/kfiledialog.cpp:877
+#: kfile/kfiledialog.cpp:860
 msgid "New Directory"
 msgstr "Uusi hakemisto"
 
-#: kfile/kfiledialog.cpp:949
+#: kfile/kfiledialog.cpp:932
 msgid "Add to bookmarks"
 msgstr "Lis‰‰ kirjanmerkkeihin"
 
-#: kfile/kfiledialog.cpp:1180
+#: kfile/kfiledialog.cpp:1213
 msgid "Choose Directory"
 msgstr "Valitse hakemisto"
 
-#: kfile/kfiledialog.cpp:1201 kfile/kfiledialog.cpp:1360 po/texts.cpp:78
+#: kfile/kfiledialog.cpp:1234 kfile/kfiledialog.cpp:1393 po/texts.cpp:80
 msgid "Save"
 msgstr "Tallenna"
 
-#: kfile/kfiledialog.cpp:1248
+#: kfile/kfiledialog.cpp:1281
 msgid "directory"
 msgstr "hakemisto"
 
-#: kfile/kfiledialog.cpp:1250
+#: kfile/kfiledialog.cpp:1283
 msgid "directories"
 msgstr "hakemistoa"
 
-#: kfile/kfiledialog.cpp:1252 kfile/kpreview.cpp:326
+#: kfile/kfiledialog.cpp:1285 kfile/kpreview.cpp:326
 msgid "file"
 msgstr "tiedosto"
 
-#: kfile/kfiledialog.cpp:1254
+#: kfile/kfiledialog.cpp:1287
 msgid "files"
 msgstr "tiedostoa"
 
-#: kfile/kfiledialog.cpp:1256
+#: kfile/kfiledialog.cpp:1289
 #, c-format
 msgid "%d %s and %d %s"
 msgstr "%d %s ja %d %s"
 
-#: kfile/kfiledialog.cpp:1266
+#: kfile/kfiledialog.cpp:1299
 msgid "one directory"
 msgstr "yksi hakemisto"
 
@@ -658,10 +765,6 @@ msgstr "Maalis"
 msgid "Apr"
 msgstr "Huhti"
 
-#: kfile/kfileinfo.cpp:222
-msgid "May"
-msgstr "Touko"
-
 #: kfile/kfileinfo.cpp:223
 msgid "Jun"
 msgstr "Kes‰"
@@ -758,10 +861,6 @@ msgstr "P‰‰ll‰"
 msgid "Off"
 msgstr "Pois"
 
-#: po/texts.cpp:41
-msgid "&Cancel"
-msgstr "&Peruuta"
-
 #: po/texts.cpp:43
 msgid "File"
 msgstr "Tiedosto"
@@ -769,10 +868,6 @@ msgstr "Tiedosto"
 #: po/texts.cpp:44
 msgid "&File"
 msgstr "&Tiedosto"
-
-#: po/texts.cpp:46
-msgid "&Help"
-msgstr "&Ohje"
 
 #: po/texts.cpp:47
 msgid "Edit"
@@ -843,136 +938,284 @@ msgid "New &Window..."
 msgstr "Uusi &Ikkuna"
 
 #: po/texts.cpp:67
+msgid "&New Window"
+msgstr "&Uusi ikkuna"
+
+#: po/texts.cpp:68
 msgid "New Game"
 msgstr "Uusi peli"
 
-#: po/texts.cpp:68
+#: po/texts.cpp:69
 msgid "&New Game"
 msgstr "&Uusi peli"
 
-#: po/texts.cpp:70
+#: po/texts.cpp:71
 msgid "Open a file"
 msgstr "Avaa tiedosto"
 
-#: po/texts.cpp:71
+#: po/texts.cpp:72
 msgid "Open..."
 msgstr "Avaa..."
 
-#: po/texts.cpp:72
+#: po/texts.cpp:73
 msgid "&Open..."
 msgstr "&Avaa..."
 
-#: po/texts.cpp:73
+#: po/texts.cpp:74
 msgid "Cut"
 msgstr "Leikkaa"
 
-#: po/texts.cpp:74
+#: po/texts.cpp:75
+msgid "&Cut"
+msgstr "&Leikkaa"
+
+#: po/texts.cpp:76
 msgid "C&ut"
 msgstr "L&eikkaa"
 
-#: po/texts.cpp:75
+#: po/texts.cpp:77
 msgid "Font"
 msgstr "Kirjasin"
 
-#: po/texts.cpp:76
+#: po/texts.cpp:78
 msgid "&Foreground Color"
 msgstr "Edustav‰ri"
 
-#: po/texts.cpp:77
+#: po/texts.cpp:79
 msgid "&Background Color"
 msgstr "Taustav‰ri"
 
-#: po/texts.cpp:79
+#: po/texts.cpp:81
 msgid "&Save"
 msgstr "&Tallenna"
 
-#: po/texts.cpp:81
+#: po/texts.cpp:83
 msgid "Save as..."
 msgstr "Tallenna nimell‰..."
 
-#: po/texts.cpp:82
+#: po/texts.cpp:84
 msgid "S&ave as..."
 msgstr "Tallenna &nimell‰"
 
-#: po/texts.cpp:83
+#: po/texts.cpp:85
 msgid "Close"
 msgstr "Sulje"
 
-#: po/texts.cpp:84
+#: po/texts.cpp:86
 msgid "&Close"
 msgstr "&Sulje"
 
-#: po/texts.cpp:85
+#: po/texts.cpp:87
 msgid "&Print..."
 msgstr "T&ulosta"
 
-#: po/texts.cpp:88
+#: po/texts.cpp:90
 msgid "Options"
 msgstr "Asetukset"
 
-#: po/texts.cpp:89
+#: po/texts.cpp:91
 msgid "Remove"
 msgstr "Poista"
 
-#: po/texts.cpp:90
+#: po/texts.cpp:92
 msgid "Add"
 msgstr "Lis‰‰"
 
-#: po/texts.cpp:91
+#: po/texts.cpp:93
 msgid "Change"
 msgstr "Muuta"
 
-#: po/texts.cpp:92
+#: po/texts.cpp:94
 msgid "Delete"
 msgstr "Tuhoa"
 
-#: po/texts.cpp:93
+#: po/texts.cpp:95
 msgid "&Delete"
 msgstr "&Tuhoa"
 
-#: po/texts.cpp:94
+#: po/texts.cpp:96
 msgid "Clear"
 msgstr "Puhdista"
 
-#: po/texts.cpp:95
+#: po/texts.cpp:97
 msgid "Italic"
 msgstr "kursivoitu"
 
-#: po/texts.cpp:96
+#: po/texts.cpp:98
 msgid "Roman"
 msgstr "roman"
 
-#: po/texts.cpp:97
+#: po/texts.cpp:99
 msgid "Undo"
 msgstr "Peru"
 
-#: po/texts.cpp:98
+#: po/texts.cpp:100
 msgid "&Undo"
 msgstr "&Peru"
 
-#: po/texts.cpp:99
+#: po/texts.cpp:101
 msgid "Redo"
 msgstr "Tee uudelleen"
 
-#: po/texts.cpp:100
+#: po/texts.cpp:102
 msgid "&Redo"
 msgstr "Tee &uudelleen"
 
-#: po/texts.cpp:101
+#: po/texts.cpp:103
 msgid "&Game"
 msgstr "&Peli"
 
-#: po/texts.cpp:102
+#: po/texts.cpp:104
 msgid "Information"
 msgstr "Tietoja"
 
-#: po/texts.cpp:103
+#: po/texts.cpp:105
 msgid "Browse..."
 msgstr "Selaa..."
 
-#: po/texts.cpp:104
+#: po/texts.cpp:106
 msgid "(none)"
 msgstr "(ei mik‰‰n)"
+
+#: po/texts.cpp:107
+msgid "None"
+msgstr "Ei kukaan"
+
+#: po/texts.cpp:108
+msgid "Stop"
+msgstr "Pys‰yt‰"
+
+#: po/texts.cpp:109
+msgid "&Remove"
+msgstr "&Poista"
+
+#: po/texts.cpp:110
+#, fuzzy
+msgid "&Properties..."
+msgstr "Ominaisuudet..."
+
+#: po/texts.cpp:111
+msgid "Properties"
+msgstr "Ominaisuudet"
+
+#: po/texts.cpp:112
+msgid "&Start"
+msgstr "&K‰ynnist‰"
+
+#: po/texts.cpp:113
+#, fuzzy
+msgid "St&op"
+msgstr "Pys‰yt‰"
+
+#: po/texts.cpp:114
+msgid "Move"
+msgstr "Siirr‰"
+
+#: po/texts.cpp:115
+msgid "Miscellaneous"
+msgstr "Muut"
+
+#: po/texts.cpp:116
+msgid "Font Size"
+msgstr "Kirjasimen koko"
+
+#: po/texts.cpp:117
+msgid "Small"
+msgstr "Pieni"
+
+#: po/texts.cpp:118
+msgid "Medium"
+msgstr "Keskikoko"
+
+#: po/texts.cpp:119
+msgid "Large"
+msgstr "Suuri"
+
+#: po/texts.cpp:120
+msgid "Fonts"
+msgstr "Kirjasin"
+
+#: po/texts.cpp:121
+msgid "&Fonts"
+msgstr "&Kirjasin"
+
+#: po/texts.cpp:122
+msgid "&Reload"
+msgstr "&P‰ivit‰"
+
+#: po/texts.cpp:123
+msgid "&Previous"
+msgstr "E&delliseen"
+
+#: po/texts.cpp:124
+msgid "&Next"
+msgstr "&Seuraavaan"
+
+#: po/texts.cpp:125
+msgid "Files"
+msgstr "Tiedostot"
+
+#: po/texts.cpp:126
+msgid "Continue"
+msgstr "Jatka"
+
+#: po/texts.cpp:127
+msgid "Restore"
+msgstr "Palauta"
+
+#: po/texts.cpp:128
+msgid "Appearance"
+msgstr "Ulkon‰kˆ"
+
+#: po/texts.cpp:129
+msgid "Print"
+msgstr "Tulosta"
+
+#: po/texts.cpp:130
+#, fuzzy
+msgid "Monday"
+msgstr "Touko"
+
+#: po/texts.cpp:131
+msgid "Tuesday"
+msgstr ""
+
+#: po/texts.cpp:132
+msgid "Wednesday"
+msgstr ""
+
+#: po/texts.cpp:133
+#, fuzzy
+msgid "Thursday"
+msgstr "Kolmas"
+
+#: po/texts.cpp:134
+#, fuzzy
+msgid "Friday"
+msgstr "Ensisijainen"
+
+#: po/texts.cpp:135
+msgid "Saturday"
+msgstr ""
+
+#: po/texts.cpp:136
+#, fuzzy
+msgid "Sunday"
+msgstr "&ƒ‰net"
+
+#: po/texts.cpp:137
+#, fuzzy
+msgid "&Update"
+msgstr "P‰ivit‰"
+
+#: po/texts.cpp:138
+#, fuzzy
+msgid "Layout"
+msgstr "Tyyli "
+
+#: po/texts.cpp:139
+msgid "Highscore"
+msgstr ""
 
 #~ msgid "Width"
 #~ msgstr "Leveys"
@@ -980,5 +1223,6 @@ msgstr "(ei mik‰‰n)"
 #~ msgid "Height"
 #~ msgstr "Korkeus"
 
+#, fuzzy
 #~ msgid "Panner"
-#~ msgstr "Selain"
+#~ msgstr "Viesti"
