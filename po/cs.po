@@ -11,7 +11,7 @@ msgstr ""
 
 #: kab/AssertDialog.cpp:29
 msgid "(unknown file)"
-msgstr "{neznámý soubor)"
+msgstr "(neznámý soubor)"
 
 #: kab/AssertDialog.cpp:30
 msgid "(unknown line number)"
