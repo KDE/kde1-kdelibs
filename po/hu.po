@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.1pre2\n"
-"POT-Creation-Date: 1999-03-30 01:01+0200\n"
+"POT-Creation-Date: 1999-04-14 01:01+0200\n"
 "PO-Revision-Date: Thu Jan 28 1999 11:33:33+0100\n"
 "Last-Translator: Marcell Lengyel <miketkf@yahoo.com>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -358,23 +358,23 @@ msgstr "CTRL"
 msgid "ALT"
 msgstr "ALT"
 
-#: kdecore/kapp.cpp:608 po/texts.cpp:137
+#: kdecore/kapp.cpp:612 po/texts.cpp:137
 msgid "&Contents"
 msgstr "&Tartalom"
 
-#: kdecore/kapp.cpp:614
+#: kdecore/kapp.cpp:618
 msgid "&About"
 msgstr "&Névjegy"
 
-#: kdecore/kapp.cpp:621
+#: kdecore/kapp.cpp:625
 msgid "About &KDE..."
 msgstr "&KDE Névjegy..."
 
-#: kdecore/kapp.cpp:642
+#: kdecore/kapp.cpp:646
 msgid "About KDE"
 msgstr "KDE Névjegy"
 
-#: kdecore/kapp.cpp:644
+#: kdecore/kapp.cpp:648
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"

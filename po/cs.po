@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-03-30 01:01+0200\n"
+"POT-Creation-Date: 1999-04-14 01:01+0200\n"
 "PO-Revision-Date: 1999-02-09 08:17+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <flidr@kky.cu.cz>\n"
@@ -342,23 +342,23 @@ msgstr "CTRL"
 msgid "ALT"
 msgstr "ALT"
 
-#: kdecore/kapp.cpp:608 po/texts.cpp:137
+#: kdecore/kapp.cpp:612 po/texts.cpp:137
 msgid "&Contents"
 msgstr "&Obsah"
 
-#: kdecore/kapp.cpp:614
+#: kdecore/kapp.cpp:618
 msgid "&About"
 msgstr "&Informace o aplikaci "
 
-#: kdecore/kapp.cpp:621
+#: kdecore/kapp.cpp:625
 msgid "About &KDE..."
 msgstr "Informace o &KDE ..."
 
-#: kdecore/kapp.cpp:642
+#: kdecore/kapp.cpp:646
 msgid "About KDE"
 msgstr "Informace o KDE"
 
-#: kdecore/kapp.cpp:644
+#: kdecore/kapp.cpp:648
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
