@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kde\n"
 "POT-Creation-Date: 1998-05-18 13:01+0200\n"
-"PO-Revision-Date: 1998-04-17 16:23 MET DST\n"
+"PO-Revision-Date: 1998-05-19 15:10 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -91,9 +91,8 @@ msgid "Custom..."
 msgstr "Vlastní..."
 
 #: kdeui/kcontrol.cpp:39
-#, fuzzy
 msgid "Default"
-msgstr "Smazat"
+msgstr "Implicitní"
 
 #: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
@@ -633,52 +632,51 @@ msgstr "neznámé"
 
 #: kfile/kfileinfo.cpp:218
 msgid "Jan"
-msgstr ""
+msgstr "Led"
 
 #: kfile/kfileinfo.cpp:219
 msgid "Feb"
-msgstr ""
+msgstr "Úno"
 
 #: kfile/kfileinfo.cpp:220
 msgid "Mar"
-msgstr ""
+msgstr "Bøe"
 
 #: kfile/kfileinfo.cpp:221
 msgid "Apr"
-msgstr ""
+msgstr "Dub"
 
 #: kfile/kfileinfo.cpp:222
 msgid "May"
-msgstr ""
+msgstr "Kvì"
 
 #: kfile/kfileinfo.cpp:223
 msgid "Jun"
-msgstr ""
+msgstr "Èen"
 
 #: kfile/kfileinfo.cpp:224
 msgid "Jul"
-msgstr ""
+msgstr "Èec"
 
 #: kfile/kfileinfo.cpp:225
 msgid "Aug"
-msgstr ""
+msgstr "Srp"
 
 #: kfile/kfileinfo.cpp:226
 msgid "Sep"
-msgstr ""
+msgstr "Záø"
 
 #: kfile/kfileinfo.cpp:227
 msgid "Oct"
-msgstr ""
+msgstr "Øíj"
 
 #: kfile/kfileinfo.cpp:228
-#, fuzzy
 msgid "Nov"
-msgstr "Ne"
+msgstr "Lis"
 
 #: kfile/kfileinfo.cpp:229
 msgid "Dec"
-msgstr ""
+msgstr "Pro"
 
 #: kfile/kpreview.cpp:187
 msgid "Name:"
@@ -964,12 +962,3 @@ msgstr "Listuj ..."
 #: po/texts.cpp:104
 msgid "(none)"
 msgstr "(¾ádná)"
-
-#~ msgid "Width"
-#~ msgstr "©íøka"
-
-#~ msgid "Height"
-#~ msgstr "Vý¹ka"
-
-#~ msgid "Panner"
-#~ msgstr "Rozdìlení"
