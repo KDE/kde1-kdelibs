@@ -1,28 +1,27 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: libs pt\n"
-"POT-Creation-Date: 1998-02-19 22:49+0100\n"
+"POT-Creation-Date: 1998-01-25 13:21+0100\n"
 "PO-Revision-Date: 1998-01-26 20:00+0000\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
-#: kdecore/kapp.cpp:439
-#, fuzzy
-msgid "&Contents"
-msgstr "Conteúdo"
+#: kdecore/kapp.cpp:419
+msgid "&Help..."
+msgstr "A&juda..."
 
-#: kdecore/kapp.cpp:444
+#: kdecore/kapp.cpp:424
 msgid "&About"
 msgstr "&Acerca do"
 
-#: kdecore/kapp.cpp:448
+#: kdecore/kapp.cpp:428
 msgid "About &KDE..."
 msgstr "Acerca do &KDE..."
 
-#: kdecore/kapp.cpp:469
+#: kdecore/kapp.cpp:449
 msgid "About KDE"
 msgstr "Acerca do KDE"
 
-#: kdecore/kapp.cpp:471
+#: kdecore/kapp.cpp:451
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
@@ -250,7 +249,7 @@ msgstr "Substituir Tudo"
 
 #: kdeui/keditcl2.cpp:891
 msgid "Goto Line"
-msgstr "Ir para Linha"
+msgstr "Ir para a Linha"
 
 #: kdeui/keditcl2.cpp:896
 msgid "Go"
@@ -342,35 +341,36 @@ msgstr "Escolher Ícone"
 msgid "Filter:"
 msgstr "Filtro:"
 
-#: kdeui/kmenubar.cpp:154 kdeui/ktoolbar.cpp:326
+#: kdeui/kmenubar.cpp:149 kdeui/ktoolbar.cpp:325
 msgid "Top"
 msgstr "Topo"
 
-#: kdeui/kmenubar.cpp:155 kdeui/ktoolbar.cpp:328
+#: kdeui/kmenubar.cpp:150 kdeui/ktoolbar.cpp:327
 msgid "Bottom"
 msgstr "Fundo"
 
-#: kdeui/kmenubar.cpp:156 kdeui/ktoolbar.cpp:329
+#: kdeui/kmenubar.cpp:151 kdeui/ktoolbar.cpp:328
 msgid "Floating"
 msgstr "Flutuante"
 
-#: kdeui/kmenubar.cpp:196 kdeui/kmenubar.cpp:335 kdeui/ktoolbar.cpp:1283
+#: kdeui/kmenubar.cpp:191 kdeui/kmenubar.cpp:330 kdeui/ktoolbar.cpp:734
+#: kdeui/ktoolbar.cpp:1285
 msgid "Float"
 msgstr "Flutuar"
 
-#: kdeui/kmenubar.cpp:324 kdeui/ktoolbar.cpp:1265
+#: kdeui/kmenubar.cpp:319 kdeui/ktoolbar.cpp:1267
 msgid "UnFloat"
 msgstr "DesFlutuar"
 
-#: kdeui/ktoolbar.cpp:121 kdeui/ktoolbar.cpp:186
+#: kdeui/ktoolbar.cpp:120 kdeui/ktoolbar.cpp:185
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: imagem vazia, talvez falte um ficheiro"
 
-#: kdeui/ktoolbar.cpp:325
+#: kdeui/ktoolbar.cpp:324
 msgid "Left"
 msgstr "Esquerda"
 
-#: kdeui/ktoolbar.cpp:327
+#: kdeui/ktoolbar.cpp:326
 msgid "Right"
 msgstr "Direita"
 
@@ -549,7 +549,7 @@ msgstr "Fonte"
 
 #: po/texts.cpp:76
 msgid "&Foreground Color"
-msgstr "Cor de &Primeiro Plano"
+msgstr "Cor do &Texto"
 
 #: po/texts.cpp:77
 msgid "&Background Color"
@@ -654,6 +654,3 @@ msgstr "Explorar..."
 #: po/texts.cpp:104
 msgid "(none)"
 msgstr "(nenhum)"
-
-#~ msgid "&Help..."
-#~ msgstr "A&juda..."
