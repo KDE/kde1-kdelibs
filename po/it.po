@@ -1,148 +1,146 @@
-# KDE Translation project
-# Italian Translation by Andrea Rizzzi <Bilibao@ouverture.it>
 # general messages, that are often used
 msgid "Error"
-msgstr "Errore"
+msgstr ""
 
 msgid "Malformed URL"
-msgstr "URL maldefinita"
+msgstr ""
 
 msgid "Yes"
-msgstr "Si"
+msgstr ""
 
 msgid "No"
-msgstr "No"
+msgstr ""
 
 msgid "Warning"
-msgstr "Attenzione"
+msgstr ""
 
 msgid "Open a file"
-msgstr "Apre un file"
+msgstr ""
 
 msgid "Save a file"
-msgstr "Salva un file"
+msgstr ""
 
 msgid "Contents"
-msgstr "Contenuti"
+msgstr ""
 
 msgid "About"
 msgstr ""
 
 msgid "Open"
-msgstr "Apri"
+msgstr ""
 
 msgid "Save"
-msgstr "Salva"
+msgstr ""
 
 msgid "Save As"
-msgstr "Salva con nome"
+msgstr ""
 
 msgid "Close"
-msgstr "Chiudi"
+msgstr ""
 
 msgid "Quit"
-msgstr "Esci"
+msgstr ""
 
 msgid "Untitled"
-msgstr "Senza Titolo"
+msgstr ""
 
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 msgid "Ok"
-msgstr "Ok"
+msgstr ""
 
 msgid "Cancel"
-msgstr "Cancella"
+msgstr ""
 
 msgid "Apply"
-msgstr "Applica"
+msgstr ""
 
 msgid "File"
-msgstr "File"
+msgstr ""
 
 msgid "Help"
-msgstr "?"
+msgstr ""
 
 msgid "Edit"
-msgstr "Modifica"
+msgstr ""
 
 # libkdeui messages
 #: kcolordlg.cpp:239
 msgid "Select Color"
-msgstr "Scegli colore"
+msgstr ""
 
 #: kcolordlg.cpp:244
 msgid "System Colors"
-msgstr "Colori di sistema"
+msgstr ""
 
 #: kcolordlg.cpp:269
 msgid "Custom Colors"
-msgstr "Colori personalizzati"
+msgstr ""
 
 #: kcolordlg.cpp:345
 msgid "Add to Custom Colors"
-msgstr "Aggiungi ai colori personalizzati"
+msgstr ""
 
 #: kcolordlg.cpp:649 kcolordlg.cpp:699
 msgid "Custom..."
-msgstr "Personalizza..."
+msgstr ""
 
 #: kfontdialog.cpp:95
 msgid "Select Font"
-msgstr "Secgli carattere"
+msgstr ""
 
 #: kfontdialog.cpp:99
 msgid "Requested Font"
-msgstr "Carattere richiesto"
+msgstr ""
 
 #: kfontdialog.cpp:104
 msgid "Actual Font"
-msgstr "Carattere attuale"
+msgstr ""
 
 #: kfontdialog.cpp:108 kfontdialog.cpp:112
 msgid "Family:"
-msgstr "Famiglia:"
+msgstr ""
 
 #: kfontdialog.cpp:119 kfontdialog.cpp:124
 msgid "Size:"
-msgstr "Dimensione:"
+msgstr ""
 
 #: kfontdialog.cpp:133 kfontdialog.cpp:138
 msgid "Weight:"
-msgstr "Altezza:"
+msgstr ""
 
 #: kfontdialog.cpp:147 kfontdialog.cpp:155
 msgid "Style:"
-msgstr "Stile:"
+msgstr ""
 
 #: kfontdialog.cpp:190
 msgid "Size"
-msgstr "Dimensione"
+msgstr ""
 
 #: kfontdialog.cpp:229
 msgid "Weight"
-msgstr "Altezza"
+msgstr ""
 
 #: kfontdialog.cpp:230 kfontdialog.cpp:327
 msgid "normal"
-msgstr "normale"
+msgstr ""
 
 #: kfontdialog.cpp:231 kfontdialog.cpp:329
 msgid "bold"
-msgstr "bold"
+msgstr ""
 
 #: kfontdialog.cpp:240
 msgid "Style"
-msgstr "Stile"
+msgstr ""
 
 #: kfontdialog.cpp:241 kfontdialog.cpp:340 kfontdialog.cpp:369
 msgid "roman"
-msgstr "romano"
+msgstr ""
 
 #: kfontdialog.cpp:242 kfontdialog.cpp:342 kfontdialog.cpp:367
 msgid "italic"
-msgstr "italico"
+msgstr ""
 
 #: kfontdialog.cpp:270
 msgid "Dolor Ipse"
@@ -154,52 +152,52 @@ msgstr ""
 
 #: kfontdialog.cpp:364
 msgid "Normal"
-msgstr "Normale"
+msgstr ""
 
 #: kiconloader.cpp:176
 msgid "Select Icon"
-msgstr "Scegli Icona"
+msgstr ""
 
 #: kiconloader.cpp:182
 msgid "Filter:"
-msgstr "Filtro:"
+msgstr ""
 
 #: kiconloader.cpp:337
 #, c-format
 msgid "ERROR: couldn't find icon: %s"
-msgstr "ERORRE: impossibile trovare l'icona: %s"
+msgstr ""
 
 #: kmenubar.cpp:106 ktoolbar.cpp:273
 msgid "Top"
-msgstr "In Alto"
+msgstr ""
 
 #: kmenubar.cpp:107 ktoolbar.cpp:275
 msgid "Bottom"
-msgstr "In Basso"
+msgstr ""
 
 #: kmenubar.cpp:108 ktoolbar.cpp:276
 msgid "Floating"
-msgstr "Galleggiante"
+msgstr ""
 
 #: kmenubar.cpp:182 kmenubar.cpp:223 ktoolbar.cpp:699 ktoolbar.cpp:1208
 msgid "Float"
-msgstr "Galleggia"
+msgstr ""
 
 #: kmenubar.cpp:213 ktoolbar.cpp:1198
 msgid "UnFloat"
-msgstr "Non Galleggiante"
+msgstr ""
 
 #: ktoolbar.cpp:87 ktoolbar.cpp:145
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr "KToolBarButton: Pixmap vuota, è possibile che manchi il file"
+msgstr ""
 
 #: ktoolbar.cpp:272
 msgid "Left"
-msgstr "Sinistra"
+msgstr ""
 
 #: ktoolbar.cpp:274
 msgid "Right"
-msgstr "Destra"
+msgstr ""
 
 #: kapp.cpp:330
 msgid "About "
@@ -211,27 +209,9 @@ msgstr ""
 
 #: kapp.cpp:357
 msgid ""
-"The KDE Desktop Environment was written by\n"
+"The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
-"Roberto Alsina (ralsina@unl.edu.ar)\n"
-"Kalle Dalheimer (kalle@kde.org)\n"
-"Mark Donohoe (donohoe@kde.org)\n"
-"Fritz Elfert (fritz@wuemaus.franken.de)\n"
-"Matthias Ettrich (ettrich@kde.org)\n"
-"Steffen Hansen (stefh@mip.ou.dk)\n"
-"Martin Jones (mjones@kde.org)\n"
-"Sirtaj Singh Kang (taj@kde.org)\n"
-"Martin Konold (konold@kde.org)\n"
-"Stephan Kulow (coolo@kde.org)\n"
-"Richard Moore (rich@kde.org)\n"
-"Uwe Thiem (uwix.alt.na)\n"
-"Stefan Taferner (taferner@salzburg.co.at)\n"
-"Torben Weis (weis@kde.org)\n"
-"Robert David Williams (rwilliam@kde.org)\n"
-"Bernd Johannes Wuebben (wuebben@kde.org)\n"
-"Markus Wuebben (markus.wuebben@kde.org)\n"
-"and lots of other developers, contributors, documentation writers and "
-"maintainers.\n"
+"Please send bug reports to kde-bugs@kde.org.\n"
 "\n"
 "\n"
 "KDE was developed with Qt, a cross-platform GUI library.\n"
@@ -239,27 +219,9 @@ msgid ""
 "Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
 "Qt may be used freely to develop free software on the X Window System.\n"
 msgstr ""
-"Il KDE Desktop Environment é stato sviluppato\n"
+"Il KDE Desktop Environment was written by the KDE team.\n"
 "\n"
-"Roberto Alsina (ralsina@unl.edu.ar)\n"
-"Kalle Dalheimer (kalle@kde.org)\n"
-"Mark Donohoe (donohoe@kde.org)\n"
-"Fritz Elfert (fritz@wuemaus.franken.de)\n"
-"Matthias Ettrich (ettrich@kde.org)\n"
-"Steffen Hansen (stefh@mip.ou.dk)\n"
-"Martin Jones (mjones@kde.org)\n"
-"Sirtaj Singh Kang (taj@kde.org)\n"
-"Martin Konold (konold@kde.org)\n"
-"Stephan Kulow (coolo@kde.org)\n"
-"Richard Moore (rich@kde.org)\n"
-"Uwe Thiem (uwix.alt.na)\n"
-"Stefan Taferner (taferner@salzburg.co.at)\n"
-"Torben Weis (weis@kde.org)\n"
-"Robert David Williams (rwilliam@kde.org)\n"
-"Bernd Johannes Wuebben (wuebben@kde.org)\n"
-"Markus Wuebben (markus.wuebben@kde.org)\n"
-"and lots of other developers, contributors, documentation writers and "
-"maintainers.\n"
+"Please send bug reports to kde-bugs@kde.org.\n"
 "\n"
 "\n"
 "KDE é stato sviluppato con Qt, una multipiattaforma-biblioteca GUI.\n"

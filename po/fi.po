@@ -1,242 +1,217 @@
-#
-#	Version 0.3.1
-#
-#	Muutettu 11.10.1997 / Juha Tuomala
-#
 # general messages, that are often used
 msgid "Error"
-msgstr "Virhe"
+msgstr ""
 
 msgid "Malformed URL"
-msgstr "Virheellinen URL"
+msgstr ""
 
 msgid "Yes"
-msgstr "Kyllä"
+msgstr ""
 
 msgid "No"
-msgstr "Ei"
+msgstr ""
 
 msgid "Warning"
-msgstr "Varoitus"
+msgstr ""
 
 msgid "Open a file"
-msgstr "Avaa tiedosto"
+msgstr ""
 
 msgid "Save a file"
-msgstr "Tallenna tiedostoon"
+msgstr ""
 
 msgid "Contents"
-msgstr "Sisältö"
+msgstr ""
 
 msgid "About"
-msgstr "Tietoja"
+msgstr ""
 
 msgid "Open"
-msgstr "Avaa"
+msgstr ""
 
 msgid "Save"
-msgstr "&Tallenna"
+msgstr ""
 
 msgid "Save As"
-msgstr "Tallenna nimellä"
+msgstr ""
 
 msgid "Close"
-msgstr "Sulje"
+msgstr ""
 
 msgid "Quit"
-msgstr "Lopeta"
+msgstr ""
 
 msgid "Untitled"
-msgstr "Nimeämätön"
+msgstr ""
 
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 msgid "Ok"
-msgstr "Ok"
+msgstr ""
 
 msgid "Cancel"
-msgstr "Peruuta"
+msgstr ""
 
 msgid "Apply"
-msgstr "Käytä"
+msgstr ""
 
 msgid "File"
-msgstr "Tiedosto"
+msgstr ""
 
 msgid "Help"
-msgstr "Ohje"
+msgstr ""
 
 msgid "Edit"
-msgstr "Muokkaa"
+msgstr ""
 
 # libkdeui messages
 #: kcolordlg.cpp:239
 msgid "Select Color"
-msgstr "Valitse väri"
+msgstr ""
 
 #: kcolordlg.cpp:244
 msgid "System Colors"
-msgstr "Järjestelmän värit"
+msgstr ""
 
 #: kcolordlg.cpp:269
 msgid "Custom Colors"
-msgstr "Omat värit"
+msgstr ""
 
 #: kcolordlg.cpp:345
 msgid "Add to Custom Colors"
-msgstr "Lisää omiin väreihin"
+msgstr ""
 
 #: kcolordlg.cpp:649 kcolordlg.cpp:699
 msgid "Custom..."
-msgstr "Omat ..."
+msgstr ""
 
 #: kfontdialog.cpp:95
 msgid "Select Font"
-msgstr "Valitse fontti"
+msgstr ""
 
 #: kfontdialog.cpp:99
 msgid "Requested Font"
-msgstr "Pyydetty fontti"
+msgstr ""
 
 #: kfontdialog.cpp:104
 msgid "Actual Font"
-msgstr "Todellinen fontti"
+msgstr ""
 
 #: kfontdialog.cpp:108 kfontdialog.cpp:112
 msgid "Family:"
-msgstr "Perhe:"
+msgstr ""
 
 #: kfontdialog.cpp:119 kfontdialog.cpp:124
 msgid "Size:"
-msgstr "Koko:"
+msgstr ""
 
 #: kfontdialog.cpp:133 kfontdialog.cpp:138
 msgid "Weight:"
-msgstr "Paino:"
+msgstr ""
 
 #: kfontdialog.cpp:147 kfontdialog.cpp:155
 msgid "Style:"
-msgstr "Tyyli:"
+msgstr ""
 
 #: kfontdialog.cpp:190
 msgid "Size"
-msgstr "Koko"
+msgstr ""
 
 #: kfontdialog.cpp:229
 msgid "Weight"
-msgstr "Paino"
+msgstr ""
 
 #: kfontdialog.cpp:230 kfontdialog.cpp:327
 msgid "normal"
-msgstr "normaali"
+msgstr ""
 
 #: kfontdialog.cpp:231 kfontdialog.cpp:329
 msgid "bold"
-msgstr "lihavoitu"
+msgstr ""
 
 #: kfontdialog.cpp:240
 msgid "Style"
-msgstr "Tyyli"
+msgstr ""
 
 #: kfontdialog.cpp:241 kfontdialog.cpp:340 kfontdialog.cpp:369
 msgid "roman"
-msgstr "roman"
+msgstr ""
 
 #: kfontdialog.cpp:242 kfontdialog.cpp:342 kfontdialog.cpp:367
 msgid "italic"
-msgstr "kursivoitu"
+msgstr ""
 
 #: kfontdialog.cpp:270
 msgid "Dolor Ipse"
-msgstr "Dolor Ipse"
+msgstr ""
 
 #: kfontdialog.cpp:362
 msgid "Bold"
-msgstr "Lihavoitu"
+msgstr ""
 
 #: kfontdialog.cpp:364
 msgid "Normal"
-msgstr "Normaali"
+msgstr ""
 
 #: kiconloader.cpp:176
 msgid "Select Icon"
-msgstr "Valitse ikoni"
+msgstr ""
 
 #: kiconloader.cpp:182
 msgid "Filter:"
-msgstr "Suodata:"
+msgstr ""
 
 #: kiconloader.cpp:337
 #, c-format
 msgid "ERROR: couldn't find icon: %s"
-msgstr "VIRHE: Ikonia: %s ei löydy"
+msgstr ""
 
 #: kmenubar.cpp:106 ktoolbar.cpp:273
 msgid "Top"
-msgstr "Ylhäällä"
+msgstr ""
 
 #: kmenubar.cpp:107 ktoolbar.cpp:275
 msgid "Bottom"
-msgstr "Alhaalla"
+msgstr ""
 
 #: kmenubar.cpp:108 ktoolbar.cpp:276
 msgid "Floating"
-msgstr "Kelluva"
+msgstr ""
 
 #: kmenubar.cpp:182 kmenubar.cpp:223 ktoolbar.cpp:699 ktoolbar.cpp:1208
 msgid "Float"
-msgstr "Kellua"
+msgstr ""
 
 #: kmenubar.cpp:213 ktoolbar.cpp:1198
 msgid "UnFloat"
-msgstr "Upota"
+msgstr ""
 
 #: ktoolbar.cpp:87 ktoolbar.cpp:145
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr "KToolBarButton: pixmap on tyhjä, ehkä jokin puuttuva tiedosto."
+msgstr ""
 
 #: ktoolbar.cpp:272
 msgid "Left"
-msgstr "Vasemmalla"
+msgstr ""
 
 #: ktoolbar.cpp:274
 msgid "Right"
-msgstr "Oikealla"
+msgstr ""
 
 #: kapp.cpp:330
-#, fuzzy
 msgid "About "
-msgstr "Tietoja"
+msgstr ""
 
 #: kapp.cpp:334 kapp.cpp:355
-#, fuzzy
 msgid "About KDE"
-msgstr "Tietoja"
+msgstr ""
 
 #: kapp.cpp:357
 msgid ""
-"The KDE Desktop Environment was written by\n"
+"The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
-"Roberto Alsina (ralsina@unl.edu.ar)\n"
-"Kalle Dalheimer (kalle@kde.org)\n"
-"Mark Donohoe (donohoe@kde.org)\n"
-"Fritz Elfert (fritz@wuemaus.franken.de)\n"
-"Matthias Ettrich (ettrich@kde.org)\n"
-"Steffen Hansen (stefh@mip.ou.dk)\n"
-"Martin Jones (mjones@kde.org)\n"
-"Sirtaj Singh Kang (taj@kde.org)\n"
-"Martin Konold (konold@kde.org)\n"
-"Stephan Kulow (coolo@kde.org)\n"
-"Richard Moore (rich@kde.org)\n"
-"Uwe Thiem (uwix.alt.na)\n"
-"Stefan Taferner (taferner@salzburg.co.at)\n"
-"Torben Weis (weis@kde.org)\n"
-"Robert David Williams (rwilliam@kde.org)\n"
-"Bernd Johannes Wuebben (wuebben@kde.org)\n"
-"Markus Wuebben (markus.wuebben@kde.org)\n"
-"and lots of other developers, contributors, documentation writers and "
-"maintainers.\n"
+"Please send bug reports to kde-bugs@kde.org.\n"
 "\n"
 "\n"
 "KDE was developed with Qt, a cross-platform GUI library.\n"
@@ -244,30 +219,12 @@ msgid ""
 "Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
 "Qt may be used freely to develop free software on the X Window System.\n"
 msgstr ""
-"KDE Desktop Environment kehitettiin:\n"
+"The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
-"Roberto Alsina (ralsina@unl.edu.ar)\n"
-"Kalle Dalheimer (kalle@kde.org)\n"
-"Mark Donohoe (donohoe@kde.org)\n"
-"Fritz Elfert (fritz@wuemaus.franken.de)\n"
-"Matthias Ettrich (ettrich@kde.org)\n"
-"Steffen Hansen (stefh@mip.ou.dk)\n"
-"Martin Jones (mjones@kde.org)\n"
-"Sirtaj Singh Kang (taj@kde.org)\n"
-"Martin Konold (konold@kde.org)\n"
-"Stephan Kulow (coolo@kde.org)\n"
-"Richard Moore (rich@kde.org)\n"
-"Uwe Thiem (uwix.alt.na)\n"
-"Stefan Taferner (taferner@salzburg.co.at)\n"
-"Torben Weis (weis@kde.org)\n"
-"Robert David Williams (rwilliam@kde.org)\n"
-"Bernd Johannes Wuebben (wuebben@kde.org)\n"
-"Markus Wuebben (markus.wuebben@kde.org)\n"
-"and lots of other developers, contributors, documentation writers and "
-"maintainers.\n"
+"Please send bug reports to kde-bugs@kde.org.\n"
 "\n"
 "\n"
 "KDE kehitettiin Qt:lla. Qt on monen ympäristön GUI-kirjasto.\n"
 "\n"
-"Qt on tuote, jonka kehitti Troll Tech (http://www.troll.no, info@troll.no).\n" 
+"Qt on tuote, jonka kehitti Troll Tech (http://www.troll.no, info@troll.no). \n"
 "Qt on rajoituksetta käytettävissä X Window-järjestelmässä toimivien ohjelmien kehitykseen.\n"

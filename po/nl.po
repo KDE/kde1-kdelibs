@@ -1,151 +1,146 @@
-# Dutch translation of the general kde messages.
-# Copyright (C) 1997 Jeroen van der Most <jvdmost@wi.leidenuniv.nl>.
-#
+# general messages, that are often used
 msgid "Error"
-msgstr "Fout"
+msgstr ""
 
 msgid "Malformed URL"
-msgstr "URL heeft een verkeerd formaat"
+msgstr ""
 
 msgid "Yes"
-msgstr "Ja"
+msgstr ""
 
 msgid "No"
-msgstr "Nee"
+msgstr ""
 
 msgid "Warning"
-msgstr "Waarschuwing"
+msgstr ""
 
 msgid "Open a file"
-msgstr "Open een bestand"
+msgstr ""
 
 msgid "Save a file"
-msgstr "Bewaar een bestand"
+msgstr ""
 
 msgid "Contents"
-msgstr "Inhoud"
+msgstr ""
 
 msgid "About"
-msgstr "Info"
+msgstr ""
 
 msgid "Open"
-msgstr "Openen"
+msgstr ""
 
 msgid "Save"
-msgstr "Opslaan"
+msgstr ""
 
 msgid "Save As"
-msgstr "Opslaan als"
+msgstr ""
 
 msgid "Close"
-msgstr "Sluiten"
+msgstr ""
 
 msgid "Quit"
-msgstr "Afsluiten"
+msgstr ""
 
 msgid "Untitled"
-msgstr "Naamloos"
+msgstr ""
 
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 msgid "Ok"
-msgstr "Ok"
+msgstr ""
 
 msgid "Cancel"
-msgstr "Annuleren"
+msgstr ""
 
 msgid "Apply"
-msgstr "Toepassen"
+msgstr ""
 
 msgid "File"
-msgstr "Bestand"
+msgstr ""
 
 msgid "Help"
-msgstr "Help"
+msgstr ""
 
 msgid "Edit"
-msgstr "Bewerken"
+msgstr ""
 
 # libkdeui messages
 #: kcolordlg.cpp:239
 msgid "Select Color"
-msgstr "Selecteer kleur"
+msgstr ""
 
 #: kcolordlg.cpp:244
 msgid "System Colors"
-msgstr "Systeem kleuren"
+msgstr ""
 
 #: kcolordlg.cpp:269
 msgid "Custom Colors"
-msgstr "Eigen kleuren"
+msgstr ""
 
 #: kcolordlg.cpp:345
 msgid "Add to Custom Colors"
-msgstr "Aan eigen kleuren toevoegen"
+msgstr ""
 
 #: kcolordlg.cpp:649 kcolordlg.cpp:699
 msgid "Custom..."
-msgstr "Eigen..."
+msgstr ""
 
 #: kfontdialog.cpp:95
 msgid "Select Font"
-msgstr "Selecteer lettertype"
+msgstr ""
 
 #: kfontdialog.cpp:99
 msgid "Requested Font"
-msgstr "Geselecteerd lettertype"
+msgstr ""
 
 #: kfontdialog.cpp:104
 msgid "Actual Font"
-msgstr "Werkelijk lettertype"
+msgstr ""
 
 #: kfontdialog.cpp:108 kfontdialog.cpp:112
 msgid "Family:"
-msgstr "Familie:"
+msgstr ""
 
 #: kfontdialog.cpp:119 kfontdialog.cpp:124
 msgid "Size:"
-msgstr "Grootte:"
+msgstr ""
 
-# FIXME
 #: kfontdialog.cpp:133 kfontdialog.cpp:138
 msgid "Weight:"
-msgstr "Gewicht"
+msgstr ""
 
 #: kfontdialog.cpp:147 kfontdialog.cpp:155
 msgid "Style:"
-msgstr "Stijl:"
+msgstr ""
 
 #: kfontdialog.cpp:190
 msgid "Size"
-msgstr "Grootte"
+msgstr ""
 
-# FIXME
 #: kfontdialog.cpp:229
 msgid "Weight"
-msgstr "Gewicht"
+msgstr ""
 
 #: kfontdialog.cpp:230 kfontdialog.cpp:327
 msgid "normal"
-msgstr "normaal"
+msgstr ""
 
 #: kfontdialog.cpp:231 kfontdialog.cpp:329
 msgid "bold"
-msgstr "vet"
+msgstr ""
 
 #: kfontdialog.cpp:240
 msgid "Style"
-msgstr "Stijl"
+msgstr ""
 
-# FIXME
 #: kfontdialog.cpp:241 kfontdialog.cpp:340 kfontdialog.cpp:369
 msgid "roman"
-msgstr "rechtop"
+msgstr ""
 
 #: kfontdialog.cpp:242 kfontdialog.cpp:342 kfontdialog.cpp:367
 msgid "italic"
-msgstr "cursief"
+msgstr ""
 
 #: kfontdialog.cpp:270
 msgid "Dolor Ipse"
@@ -153,15 +148,15 @@ msgstr ""
 
 #: kfontdialog.cpp:362
 msgid "Bold"
-msgstr "Vet"
+msgstr ""
 
 #: kfontdialog.cpp:364
 msgid "Normal"
-msgstr "Normaal"
+msgstr ""
 
 #: kiconloader.cpp:176
 msgid "Select Icon"
-msgstr "Selecteer pictogram"
+msgstr ""
 
 #: kiconloader.cpp:182
 msgid "Filter:"
@@ -170,73 +165,53 @@ msgstr ""
 #: kiconloader.cpp:337
 #, c-format
 msgid "ERROR: couldn't find icon: %s"
-msgstr "FOUT: kan pictogram %s niet vinden"
+msgstr ""
 
 #: kmenubar.cpp:106 ktoolbar.cpp:273
 msgid "Top"
-msgstr "Boven"
+msgstr ""
 
 #: kmenubar.cpp:107 ktoolbar.cpp:275
 msgid "Bottom"
-msgstr "Onder"
+msgstr ""
 
 #: kmenubar.cpp:108 ktoolbar.cpp:276
 msgid "Floating"
-msgstr "Zwevend"
+msgstr ""
 
 #: kmenubar.cpp:182 kmenubar.cpp:223 ktoolbar.cpp:699 ktoolbar.cpp:1208
 msgid "Float"
-msgstr "Zweven"
+msgstr ""
 
 #: kmenubar.cpp:213 ktoolbar.cpp:1198
 msgid "UnFloat"
-msgstr "Vast"
+msgstr ""
 
 #: ktoolbar.cpp:87 ktoolbar.cpp:145
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr "KToolBarButton: pixmap is leeg, mischien een missend bestand"
+msgstr ""
 
 #: ktoolbar.cpp:272
 msgid "Left"
-msgstr "Links"
+msgstr ""
 
 #: ktoolbar.cpp:274
 msgid "Right"
-msgstr "Rechts"
+msgstr ""
 
 #: kapp.cpp:330
-#, fuzzy
 msgid "About "
-msgstr "Info"
+msgstr ""
 
 #: kapp.cpp:334 kapp.cpp:355
-#, fuzzy
 msgid "About KDE"
-msgstr "Info"
+msgstr ""
 
 #: kapp.cpp:357
 msgid ""
-"The KDE Desktop Environment was written by\n"
+"The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
-"Roberto Alsina (ralsina@unl.edu.ar)\n"
-"Kalle Dalheimer (kalle@kde.org)\n"
-"Mark Donohoe (donohoe@kde.org)\n"
-"Fritz Elfert (fritz@wuemaus.franken.de)\n"
-"Matthias Ettrich (ettrich@kde.org)\n"
-"Steffen Hansen (stefh@mip.ou.dk)\n"
-"Martin Jones (mjones@kde.org)\n"
-"Sirtaj Singh Kang (taj@kde.org)\n"
-"Martin Konold (konold@kde.org)\n"
-"Stephan Kulow (coolo@kde.org)\n"
-"Richard Moore (rich@kde.org)\n"
-"Uwe Thiem (uwix.alt.na)\n"
-"Stefan Taferner (taferner@salzburg.co.at)\n"
-"Torben Weis (weis@kde.org)\n"
-"Robert David Williams (rwilliam@kde.org)\n"
-"Bernd Johannes Wuebben (wuebben@kde.org)\n"
-"Markus Wuebben (markus.wuebben@kde.org)\n"
-"and lots of other developers, contributors, documentation writers and "
-"maintainers.\n"
+"Please send bug reports to kde-bugs@kde.org.\n"
 "\n"
 "\n"
 "KDE was developed with Qt, a cross-platform GUI library.\n"
@@ -244,27 +219,9 @@ msgid ""
 "Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
 "Qt may be used freely to develop free software on the X Window System.\n"
 msgstr ""
-"Het KDE Desktop Environment is ontwikkeld door\n"
+"Het KDE Desktop Environment is ontwikkeld door de KDE team.\n"
 "\n"
-"Roberto Alsina (ralsina@unl.edu.ar)\n"
-"Kalle Dalheimer (kalle@kde.org)\n"
-"Mark Donohoe (donohoe@kde.org)\n"
-"Fritz Elfert (fritz@wuemaus.franken.de)\n"
-"Matthias Ettrich (ettrich@kde.org)\n"
-"Steffen Hansen (stefh@mip.ou.dk)\n"
-"Martin Jones (mjones@kde.org)\n"
-"Sirtaj Singh Kang (taj@kde.org)\n"
-"Martin Konold (konold@kde.org)\n"
-"Stephan Kulow (coolo@kde.org)\n"
-"Richard Moore (rich@kde.org)\n"
-"Uwe Thiem (uwix.alt.na)\n"
-"Stefan Taferner (taferner@salzburg.co.at)\n"
-"Torben Weis (weis@kde.org)\n"
-"Robert David Williams (rwilliam@kde.org)\n"
-"Bernd Johannes Wuebben (wuebben@kde.org)\n"
-"Markus Wuebben (markus.wuebben@kde.org)\n"
-"and lots of other developers, contributors, documentation writers and "
-"maintainers.\n"
+"Please send bug reports to kde-bugs@kde.org.\n"
 "\n"
 "\n"
 "KDE is ontwikkeld met Qt, de GUI-bibliotheek voor meerdere platforms.\n"

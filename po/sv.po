@@ -1,50 +1,51 @@
+# general messages, that are often used
 msgid "Error"
-msgstr "Fel"
+msgstr ""
 
 msgid "Malformed URL"
-msgstr "Ogiltlig URL"
+msgstr ""
 
 msgid "Yes"
-msgstr "Ja"
+msgstr ""
 
 msgid "No"
-msgstr "Nej"
+msgstr ""
 
 msgid "Warning"
-msgstr "Varning"
+msgstr ""
 
 msgid "Open a file"
-msgstr "Öppna en fil"
+msgstr ""
 
 msgid "Save a file"
-msgstr "Spara en fil"
+msgstr ""
 
 msgid "Contents"
-msgstr "Innehåll"
+msgstr ""
 
 msgid "About"
-msgstr "Om"
+msgstr ""
 
 msgid "Open"
-msgstr "Öppna"
+msgstr ""
 
 msgid "Save"
-msgstr "Spara"
+msgstr ""
 
 msgid "Save As"
-msgstr "Spara som"
+msgstr ""
 
 msgid "Close"
-msgstr "Stäng"
+msgstr ""
 
 msgid "Quit"
-msgstr "Avsluta"
+msgstr ""
 
 msgid "Untitled"
-msgstr "Namnlös"
+msgstr ""
 
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 msgid "Ok"
 msgstr ""
@@ -199,38 +200,18 @@ msgid "Right"
 msgstr ""
 
 #: kapp.cpp:330
-#, fuzzy
 msgid "About "
-msgstr "Om"
+msgstr ""
 
 #: kapp.cpp:334 kapp.cpp:355
-#, fuzzy
 msgid "About KDE"
-msgstr "Om"
+msgstr ""
 
 #: kapp.cpp:357
 msgid ""
-"The KDE Desktop Environment was written by\n"
+"The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
-"Roberto Alsina (ralsina@unl.edu.ar)\n"
-"Kalle Dalheimer (kalle@kde.org)\n"
-"Mark Donohoe (donohoe@kde.org)\n"
-"Fritz Elfert (fritz@wuemaus.franken.de)\n"
-"Matthias Ettrich (ettrich@kde.org)\n"
-"Steffen Hansen (stefh@mip.ou.dk)\n"
-"Martin Jones (mjones@kde.org)\n"
-"Sirtaj Singh Kang (taj@kde.org)\n"
-"Martin Konold (konold@kde.org)\n"
-"Stephan Kulow (coolo@kde.org)\n"
-"Richard Moore (rich@kde.org)\n"
-"Uwe Thiem (uwix.alt.na)\n"
-"Stefan Taferner (taferner@salzburg.co.at)\n"
-"Torben Weis (weis@kde.org)\n"
-"Robert David Williams (rwilliam@kde.org)\n"
-"Bernd Johannes Wuebben (wuebben@kde.org)\n"
-"Markus Wuebben (markus.wuebben@kde.org)\n"
-"and lots of other developers, contributors, documentation writers and "
-"maintainers.\n"
+"Please send bug reports to kde-bugs@kde.org.\n"
 "\n"
 "\n"
 "KDE was developed with Qt, a cross-platform GUI library.\n"

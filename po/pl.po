@@ -1,240 +1,217 @@
-# Polish translation of KDE kdelibs
-# Version 0.1.3
-# (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
 # general messages, that are often used
 msgid "Error"
-msgstr "B³±d"
+msgstr ""
 
 msgid "Malformed URL"
-msgstr "B³êdny URL"
+msgstr ""
 
 msgid "Yes"
-msgstr "&Tak"
+msgstr ""
 
 msgid "No"
-msgstr "&Nie"
+msgstr ""
 
 msgid "Warning"
-msgstr "Ostrze¿enie"
+msgstr ""
 
 msgid "Open a file"
-msgstr "Otwórz plik"
+msgstr ""
 
 msgid "Save a file"
-msgstr "Zapisz plik"
+msgstr ""
 
 msgid "Contents"
-msgstr "Tre¶æ"
+msgstr ""
 
 msgid "About"
-msgstr "Informacje"
+msgstr ""
 
 msgid "Open"
-msgstr "Otwórz"
+msgstr ""
 
 msgid "Save"
-msgstr "Zachowaj"
+msgstr ""
 
 msgid "Save As"
-msgstr "Zachowaj jako"
+msgstr ""
 
 msgid "Close"
-msgstr "Zamknij"
+msgstr ""
 
 msgid "Quit"
-msgstr "Zakoñcz"
+msgstr ""
 
 msgid "Untitled"
-msgstr "Nienazwany"
+msgstr ""
 
 msgid "OK"
-msgstr "O&K"
+msgstr ""
 
 msgid "Ok"
-msgstr "O&k"
+msgstr ""
 
 msgid "Cancel"
-msgstr "A&nuluj"
+msgstr ""
 
 msgid "Apply"
-msgstr "Z&astosuj"
+msgstr ""
 
 msgid "File"
-msgstr "&Plik"
+msgstr ""
 
 msgid "Help"
-msgstr "Pomo&c"
+msgstr ""
 
 msgid "Edit"
-msgstr "&Edycja"
+msgstr ""
 
 # libkdeui messages
 #: kcolordlg.cpp:239
 msgid "Select Color"
-msgstr "Wybierz kolor"
+msgstr ""
 
 #: kcolordlg.cpp:244
 msgid "System Colors"
-msgstr "Kolory podstawowe"
+msgstr ""
 
 #: kcolordlg.cpp:269
 msgid "Custom Colors"
-msgstr "Kolory u¿ytkownika"
+msgstr ""
 
 #: kcolordlg.cpp:345
 msgid "Add to Custom Colors"
-msgstr "Dodaj do kolorów u¿ytkownika"
+msgstr ""
 
 #: kcolordlg.cpp:649 kcolordlg.cpp:699
 msgid "Custom..."
-msgstr "Definiuj kolory u¿ytkownika"
+msgstr ""
 
 #: kfontdialog.cpp:95
 msgid "Select Font"
-msgstr "Wybierz czcionkê"
+msgstr ""
 
 #: kfontdialog.cpp:99
 msgid "Requested Font"
-msgstr "¯±dana czcionka"
+msgstr ""
 
 #: kfontdialog.cpp:104
 msgid "Actual Font"
-msgstr "Aktualna czcionka"
+msgstr ""
 
 #: kfontdialog.cpp:108 kfontdialog.cpp:112
 msgid "Family:"
-msgstr "Rodzina:"
+msgstr ""
 
 #: kfontdialog.cpp:119 kfontdialog.cpp:124
 msgid "Size:"
-msgstr "Rozmiar:"
+msgstr ""
 
 #: kfontdialog.cpp:133 kfontdialog.cpp:138
 msgid "Weight:"
-msgstr "Waga:"
+msgstr ""
 
 #: kfontdialog.cpp:147 kfontdialog.cpp:155
 msgid "Style:"
-msgstr "Styl:"
+msgstr ""
 
 #: kfontdialog.cpp:190
 msgid "Size"
-msgstr "Rozmiar"
+msgstr ""
 
 #: kfontdialog.cpp:229
 msgid "Weight"
-msgstr "Waga"
+msgstr ""
 
 #: kfontdialog.cpp:230 kfontdialog.cpp:327
 msgid "normal"
-msgstr "normal"
+msgstr ""
 
 #: kfontdialog.cpp:231 kfontdialog.cpp:329
 msgid "bold"
-msgstr "bold"
+msgstr ""
 
 #: kfontdialog.cpp:240
 msgid "Style"
-msgstr "Styl"
+msgstr ""
 
 #: kfontdialog.cpp:241 kfontdialog.cpp:340 kfontdialog.cpp:369
 msgid "roman"
-msgstr "roman"
+msgstr ""
 
 #: kfontdialog.cpp:242 kfontdialog.cpp:342 kfontdialog.cpp:367
 msgid "italic"
-msgstr "italic"
+msgstr ""
 
 #: kfontdialog.cpp:270
 msgid "Dolor Ipse"
-msgstr "Dolor Ipse"
+msgstr ""
 
 #: kfontdialog.cpp:362
 msgid "Bold"
-msgstr "Pogrubiona"
+msgstr ""
 
 #: kfontdialog.cpp:364
 msgid "Normal"
-msgstr "Normalna"
+msgstr ""
 
 #: kiconloader.cpp:176
 msgid "Select Icon"
-msgstr "Wybierz ikonê"
+msgstr ""
 
 #: kiconloader.cpp:182
 msgid "Filter:"
-msgstr "Filtr:"
+msgstr ""
 
 #: kiconloader.cpp:337
 #, c-format
 msgid "ERROR: couldn't find icon: %s"
-msgstr "B£¡D: nie mogê znale¿æ ikony: %s"
+msgstr ""
 
 #: kmenubar.cpp:106 ktoolbar.cpp:273
 msgid "Top"
-msgstr "Góra"
+msgstr ""
 
 #: kmenubar.cpp:107 ktoolbar.cpp:275
 msgid "Bottom"
-msgstr "Dó³"
+msgstr ""
 
 #: kmenubar.cpp:108 ktoolbar.cpp:276
 msgid "Floating"
-msgstr "Ruchomy"
+msgstr ""
 
 #: kmenubar.cpp:182 kmenubar.cpp:223 ktoolbar.cpp:699 ktoolbar.cpp:1208
 msgid "Float"
-msgstr "Uruchom"
+msgstr ""
 
 #: kmenubar.cpp:213 ktoolbar.cpp:1198
 msgid "UnFloat"
-msgstr "Unieruchom"
+msgstr ""
 
 #: ktoolbar.cpp:87 ktoolbar.cpp:145
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr "KToolBarButton: pixmapa jest pusta, prawdopodobnie brak pliku"
+msgstr ""
 
 #: ktoolbar.cpp:272
 msgid "Left"
-msgstr "Lewo"
+msgstr ""
 
 #: ktoolbar.cpp:274
 msgid "Right"
-msgstr "Prawo"
+msgstr ""
 
 #: kapp.cpp:330
-#, fuzzy
 msgid "About "
-msgstr "Informacje"
+msgstr ""
 
 #: kapp.cpp:334 kapp.cpp:355
-#, fuzzy
 msgid "About KDE"
-msgstr "Informacje"
+msgstr ""
 
 #: kapp.cpp:357
 msgid ""
-"The KDE Desktop Environment was written by\n"
+"The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
-"Roberto Alsina (ralsina@unl.edu.ar)\n"
-"Kalle Dalheimer (kalle@kde.org)\n"
-"Mark Donohoe (donohoe@kde.org)\n"
-"Fritz Elfert (fritz@wuemaus.franken.de)\n"
-"Matthias Ettrich (ettrich@kde.org)\n"
-"Steffen Hansen (stefh@mip.ou.dk)\n"
-"Martin Jones (mjones@kde.org)\n"
-"Sirtaj Singh Kang (taj@kde.org)\n"
-"Martin Konold (konold@kde.org)\n"
-"Stephan Kulow (coolo@kde.org)\n"
-"Richard Moore (rich@kde.org)\n"
-"Uwe Thiem (uwix.alt.na)\n"
-"Stefan Taferner (taferner@salzburg.co.at)\n"
-"Torben Weis (weis@kde.org)\n"
-"Robert David Williams (rwilliam@kde.org)\n"
-"Bernd Johannes Wuebben (wuebben@kde.org)\n"
-"Markus Wuebben (markus.wuebben@kde.org)\n"
-"and lots of other developers, contributors, documentation writers and "
-"maintainers.\n"
+"Please send bug reports to kde-bugs@kde.org.\n"
 "\n"
 "\n"
 "KDE was developed with Qt, a cross-platform GUI library.\n"
@@ -242,6 +219,3 @@ msgid ""
 "Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
 "Qt may be used freely to develop free software on the X Window System.\n"
 msgstr ""
-
-#~ msgid "ERROR: couldn't find mini icon: %s"
-#~ msgstr "B£¡D: nie mogê znale¿æ mini ikony: %s"

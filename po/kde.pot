@@ -200,3 +200,23 @@ msgstr ""
 msgid "Right"
 msgstr ""
 
+#: kapp.cpp:330
+msgid "About "
+msgstr ""
+
+#: kapp.cpp:334 kapp.cpp:355
+msgid "About KDE"
+msgstr ""
+
+#: kapp.cpp:357
+msgid ""
+"The KDE Desktop Environment was written by the KDE team.\n"
+"\n"
+"Please send bug reports to kde-bugs@kde.org.\n"
+"\n"
+"\n"
+"KDE was developed with Qt, a cross-platform GUI library.\n"
+"\n"
+"Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
+"Qt may be used freely to develop free software on the X Window System.\n"
+msgstr ""
