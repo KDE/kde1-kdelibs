@@ -23,7 +23,7 @@ msgid "Contents"
 msgstr "Hilfe"
 
 msgid "About"
-msgstr "Info"
+msgstr "Über..."
 
 msgid "Open"
 msgstr "Datei öffnen"
@@ -79,7 +79,7 @@ msgstr "Eigene Farben"
 
 #: kcolordlg.cpp:345
 msgid "Add to Custom Colors"
-msgstr "Zu eigenen Farben hinzufürgen"
+msgstr "Zu eigenen Farben hinzufügen"
 
 #: kcolordlg.cpp:649 kcolordlg.cpp:699
 msgid "Custom..."
@@ -95,11 +95,11 @@ msgstr "Gewünschter Zeichensatz"
 
 #: kfontdialog.cpp:104
 msgid "Actual Font"
-msgstr "Derzeitiger Zeichensatz"
+msgstr "Benutzter Zeichensatz"
 
 #: kfontdialog.cpp:108 kfontdialog.cpp:112
 msgid "Family:"
-msgstr "Familie"
+msgstr "Familie:"
 
 #: kfontdialog.cpp:119 kfontdialog.cpp:124
 msgid "Size:"
@@ -143,7 +143,7 @@ msgstr "italic"
 
 #: kfontdialog.cpp:270
 msgid "Dolor Ipse"
-msgstr "Bernd ist gemein ;)"
+msgstr "Dolor Ipse"
 
 #: kfontdialog.cpp:362
 msgid "Bold"
@@ -155,7 +155,7 @@ msgstr "Normal"
 
 #: kiconloader.cpp:176
 msgid "Select Icon"
-msgstr "Wähle Icon"
+msgstr "Icon auswählen"
 
 #: kiconloader.cpp:182
 msgid "Filter:"
@@ -164,7 +164,7 @@ msgstr "Filter:"
 #: kiconloader.cpp:337
 #, c-format
 msgid "ERROR: couldn't find icon: %s"
-msgstr "Fehler: can icon %s nicht finden"
+msgstr "Fehler: Kann icon %s nicht finden"
 
 #: kmenubar.cpp:106 ktoolbar.cpp:273
 msgid "Top"
@@ -189,7 +189,7 @@ msgstr "Fest"
 #: ktoolbar.cpp:87 ktoolbar.cpp:145
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr ""
-"KToolBarButton: Ein Fehler ist aufgetreten, wahrscheinlich fehlt ein File"
+"KToolBarButton: Ein Fehler ist aufgetreten, wahrscheinlich fehlt eine Datei"
 
 #: ktoolbar.cpp:272
 msgid "Left"
