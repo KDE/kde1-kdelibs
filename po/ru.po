@@ -101,8 +101,7 @@ msgstr ""
 "Если вы нажмете кнопку Отмена, все изменения\n"
 "будут утеряны и диалог будет закрыт.\n"
 "Программа будет в том состоянии, в котором она была\n"
-"до отрытия диалога."
-
+"до открытия диалога."
 
 #: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
 #: kdeui/kwizard.cpp:228 po/texts.cpp:36
@@ -1582,10 +1581,10 @@ msgid ""
 "kfm once to automatically create it."
 msgstr ""
 "Ошибка создания каталога.\n"
-"Возможно вы не использовали до этого KDE, поэтому"
-"у вас нет локального каталога \".kde\"\n в вашем"
-"домашнем каталоге. Запустите один раз файл менеджер\n"
-"KDE kfm для того чтобы автоматически создать его."
+"Возможно вы не использовали до этого KDE, поэтому у вас нет локального "
+"каталога \".kde\"\n"
+" в вашем домашнем каталоге. Запустите один раз файл менеджер\n"
+"KDE kfm - для того, чтобы автоматически создать его."
 
 #: kab/addressbook.cc:104
 msgid "The directory has been created.\n"
@@ -2323,8 +2322,9 @@ msgid ""
 "Use the icons for drag and drop actions, since they refer to the cache files "
 "on your hard disk, while you should use the textual links for browsing"
 msgstr ""
-"Используйте пиктограммы для действий Тащить и Кидать, так как они относятся к "
-"кэш файлам на вашем жестком диске. Вы должны использовать текстовые ссылки для просмотра"
+"Используйте пиктограммы для действий Тащить и Кидать, так как они относятся "
+"к кэш файлам на вашем жестком диске. Вы должны использовать текстовые ссылки "
+"для просмотра"
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"
@@ -2356,7 +2356,8 @@ msgstr ""
 msgid ""
 "Could not write to\n"
 "%s"
-msgstr "Ошибка записи в\n"
+msgstr ""
+"Ошибка записи в\n"
 "%s"
 
 #: kio/kio_error.cc:22
@@ -2364,7 +2365,8 @@ msgstr "Ошибка записи в\n"
 msgid ""
 "Could not start process\n"
 "%s"
-msgstr "Не могу запустить процесс\n"
+msgstr ""
+"Не могу запустить процесс\n"
 "%s"
 
 #: kio/kio_error.cc:25
@@ -2385,7 +2387,8 @@ msgstr ""
 msgid ""
 "Malformed URL\n"
 "%s"
-msgstr "Неверный URL\n"
+msgstr ""
+"Неверный URL\n"
 "%s"
 
 #: kio/kio_error.cc:31
@@ -2623,7 +2626,7 @@ msgid ""
 "died unexpectedly"
 msgstr ""
 "Процесс протокола\n"
-"%s"
+"%s\n"
 "неожиданно умер"
 
 #: kio/kio_error.cc:111 kio/kio_linedit_dlg.cc:42 kio/kio_openwith.cc:260
