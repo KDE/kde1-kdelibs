@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1998-11-02 09:27+0100\n"
-"PO-Revision-Date: 1998-11-03 15:54+01:00\n"
+"PO-Revision-Date: 1998-11-04 14:02+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <flidr@kky.cu.cz>\n"
 "MIME-Version: 1.0\n"
@@ -216,15 +216,15 @@ msgstr "kab: Hledat polo¾ky"
 
 #: kab/SearchDialogMainWidget.cpp:22
 msgid "matches"
-msgstr ""
+msgstr "shody"
 
 #: kab/SearchDialogMainWidget.cpp:23
 msgid "Use shell wildcard patterns here"
-msgstr ""
+msgstr "Zde pou¾ijte \"wildcarrd\" shellu"
 
 #: kab/SearchDialogMainWidget.cpp:24
 msgid "Select field to match the pattern"
-msgstr ""
+msgstr "Vyberte pole, které se má odpovídat vzoru"
 
 #: kab/StringListDialog.cpp:35 kab/datepickerdialog.cc:26 kab/kabapi.cc:38
 #: kab/widget.cc:1361 kab/widget.cc:1403 kdetest/klocaletest.cpp:103
@@ -1805,7 +1805,7 @@ msgstr "Narozeniny:"
 
 #: kab/editentry.cc:249
 msgid "Double click to set date"
-msgstr ""
+msgstr "Dvojkliknout ke zmìnì datumu"
 
 #: kab/editentry.cc:256
 msgid "O&thers"
@@ -1830,16 +1830,22 @@ msgid ""
 "You can use it, but not all features will be\n"
 "supported."
 msgstr ""
+"Kab nemohl provést konverzi Va¹í databáze\n"
+"do souèasného formátu souboru.\n"
+"Mù¾ete jej pou¾ívat, ale nebudou podporovány\n"
+"v¹echny vlastnosti."
 
 #: kab/widget.cc:158
 msgid ""
 "The application saved the last current entry,\n"
 "but this entry does not exist anymore."
 msgstr ""
+"Aplikace ulo¾ila poslední aktuální polo¾ku,\n"
+"ale tako polo¾ka ji¾ neexistuje."
 
 #: kab/widget.cc:224
 msgid "kab: Removed bug warning"
-msgstr ""
+msgstr "kab: Varování o chybì"
 
 #: kab/widget.cc:225
 msgid ""
@@ -1850,18 +1856,24 @@ msgid ""
 "All configuration values have been reset to\n"
 "its default settings."
 msgstr ""
+"Verze kabu, kterou jste pou¾ívali døíve mìla\n"
+"chybu týkající se zmìny databáze pro novou vezi.\n"
+"Tato chyba byla odstranìna  a nyní se Vás ji¾ \n"
+"nebude týkat.\n"
+"V¹echna nastavení byla upravena na implicitní\n"
+"hodnoty."
 
 #: kab/widget.cc:243 kab/widget.cc:307 kab/widget.cc:315
 msgid "File handling error"
-msgstr ""
+msgstr "Chyba práce se soubory"
 
 #: kab/widget.cc:244
 msgid "Unable to open database file r/w."
-msgstr ""
+msgstr "Není mo¾né otevøít databázový soubor pro ètení/zápis."
 
 #: kab/widget.cc:252
 msgid "Email storage conversion"
-msgstr ""
+msgstr "Zmìna ulo¾ení po¹ty"
 
 #: kab/widget.cc:253
 msgid ""
@@ -1869,10 +1881,13 @@ msgid ""
 "the new style supporting unlimited numbers\n"
 "of email addresses per entry."
 msgstr ""
+"Kab pøevede Va¹i e-mail adresu na\n"
+"nový styl, který podporuje neomezený \n"
+"poèet e-mailových adres v polo¾ce."
 
 #: kab/widget.cc:286
 msgid "kab database update"
-msgstr ""
+msgstr "Aktualizace databáze kabu"
 
 #: kab/widget.cc:287
 msgid ""
@@ -1885,6 +1900,14 @@ msgid ""
 "You will probably need to edit some of your\n"
 "entries to make use of it."
 msgstr ""
+"Prosím v¹imnìte si, ¾e kab nyní pou¾ívá nìkterá\n"
+"nová pole ve svých adresách. Nová pole jsou:\n"
+"\n"
+"o stavové pole,\n"
+"o pole kraj/zemì\n"
+"o pole s po¹tovním kódem.\n"
+"Pravdìpodobnì budete muset upravit nìkteré Va¹e\n"
+"záznamy, aby jste je mohly pou¾ívat."
 
 #: kab/widget.cc:308
 msgid "Could not save database after update."
@@ -1892,7 +1915,7 @@ msgstr "Nebylo mo¾né ulo¾it databázi po aktualizaci."
 
 #: kab/widget.cc:316
 msgid "Unable to reopen database file r/o."
-msgstr ""
+msgstr "Není mo¾né znovu otevøít databázový soubor."
 
 #: kab/widget.cc:477
 msgid "first entry"
@@ -1981,14 +2004,17 @@ msgid ""
 "locked by another application.\n"
 "kab cannot save it."
 msgstr ""
+"Soubor knihy adres je momentálnì\n"
+"zamknuta jinou aplikací.\n"
+"kab jej nemù¾e ulo¾it."
 
 #: kab/widget.cc:855
 msgid "Database saved successfully."
-msgstr ""
+msgstr "databáze byla úspì¹nì ulo¾ena."
 
 #: kab/widget.cc:860
 msgid "kab: File error"
-msgstr ""
+msgstr "kab: souborová chyba"
 
 #: kab/widget.cc:860
 msgid "Could not save database."
@@ -2032,19 +2058,19 @@ msgstr "Konfikurace pøíkazu talk"
 
 #: kab/widget.cc:1148
 msgid "Please configure the parameters for the talk command."
-msgstr ""
+msgstr "Prosím nastavte parametry pøíkazu talk."
 
 #: kab/widget.cc:1161
 msgid "No talk address."
-msgstr ""
+msgstr "®ádná talk adresa."
 
 #: kab/widget.cc:1169
 msgid "kab: Talk addresses"
-msgstr ""
+msgstr "kab: Talk adresa"
 
 #: kab/widget.cc:1170
 msgid "Available talk addresses:"
-msgstr ""
+msgstr "Dostupné talk adresy:"
 
 #: kab/widget.cc:1176 kab/widget.cc:1904
 msgid "Cancelled."
@@ -2052,64 +2078,68 @@ msgstr "Pøeru¹eno."
 
 #: kab/widget.cc:1199
 msgid "The talk command parameters are wrong."
-msgstr ""
+msgstr "Parametry pøíkazu talk jsou chybné."
 
 #: kab/widget.cc:1211
 msgid ""
 "Talk command failed.\n"
 "Make sure you did setup your talk command and parameter!"
 msgstr ""
+"Pøíkaz talk selhal.\n"
+"Ujistìte se, ¾e jste nastavli parametry pøíkazu talk!"
 
 #: kab/widget.cc:1214
 msgid "Talk program started."
-msgstr ""
+msgstr "Program talk spu¹tìn."
 
 #: kab/widget.cc:1262
 msgid "Attention: printing is still experimental!"
-msgstr ""
+msgstr "Pozor: tisk je stále experimentální!"
 
 #: kab/widget.cc:1358 kab/widget.cc:1400
 msgid "Page size problem"
-msgstr ""
+msgstr "Problém s velikostí stránky"
 
 #: kab/widget.cc:1359 kab/widget.cc:1401
 msgid ""
 "The fields you requested to print do\n"
 "not fit into the page width."
 msgstr ""
+"Pole, která jste po¾adovali vytisknout\n"
+"pøesahují ¹íøku stránky."
 
 #: kab/widget.cc:1578 kab/widget.cc:2002
 msgid "Printing finished successfully."
-msgstr ""
+msgstr "Tisk byl ukonèn úspì¹nì."
 
 #: kab/widget.cc:1604
 msgid "kab: Email addresses"
-msgstr ""
+msgstr "kab: E-mailové adresy"
 
 #: kab/widget.cc:1605
 msgid "Available email addresses:"
-msgstr ""
+msgstr "Dostupné e-mailové adresy:"
 
 #: kab/widget.cc:1670
 msgid "kab: Select fields to copy"
-msgstr ""
+msgstr "kab: Výbìr polí ke kopírování"
 
 #: kab/widget.cc:1673 kab/widget.cc:1808 kab/widget.cc:1971 kab/widget.cc:1993
 #: kab/widget.cc:2048
 msgid "Rejected."
-msgstr ""
+msgstr "Odmítnuto"
 
 #: kab/widget.cc:1680
 msgid "Nothing selected."
-msgstr ""
+msgstr "Nic není vybráno"
 
 #: kab/widget.cc:1738 kab/widget.cc:1987
 msgid "KDE addressbook overview"
-msgstr ""
+msgstr "Pøehled Knihy adres KDE"
 
 #: kab/widget.cc:1782
 msgid "Name-Email-Link (!!)"
-msgstr ""
+msgstr "Jméno-Email-Odkaz (!!)"
 
 #: kab/widget.cc:1784
 msgid "Select table columns"
@@ -2117,51 +2147,51 @@ msgstr "Vyberte sloupce tabulky"
 
 #: kab/widget.cc:1789
 msgid "Nothing to export."
-msgstr ""
+msgstr "Není nic k exportování"
 
 #: kab/widget.cc:1818
 msgid "Email link"
-msgstr ""
+msgstr "E-mail odkaz"
 
 #: kab/widget.cc:1893
 msgid "Could not find the users home directory."
-msgstr ""
+msgstr "Není mo¾né nalézt u¾ivatelovo domovský adresáø."
 
 #: kab/widget.cc:1894
 msgid "Intern error!"
-msgstr ""
+msgstr "Vnitøní chyba!"
 
 #: kab/widget.cc:1914
 msgid "Could not open the file to create the HTML table."
-msgstr ""
+msgstr "Není mo¾n0 otevøít soubor k vytvoøení HTML tabulky."
 
 #: kab/widget.cc:1949
 msgid "Printing cancelled."
-msgstr ""
+msgstr "Tisk pøeru¹en."
 
 #: kab/widget.cc:1964
 msgid "kab: Select columns for printing"
-msgstr ""
+msgstr "kab: Výbìr sloupcù pro tisk"
 
 #: kab/widget.cc:1977
 msgid "Nothing to print."
-msgstr ""
+msgstr "Není nic k tisku"
 
 #: kab/widget.cc:1988
 msgid "Page <p>"
-msgstr ""
+msgstr "Stránka <p>"
 
 #: kab/widget.cc:1989
 msgid "KDE - the professionals choice."
-msgstr ""
+msgstr "KDE - profesionálova volba"
 
 #: kab/widget.cc:2000
 msgid "Printing failed!"
-msgstr ""
+msgstr "Tisk selhal!"
 
 #: kab/widget.cc:2031
 msgid "Empty email address."
-msgstr ""
+msgstr "Prázdná e-mailová adresa"
 
 #: kab/widget.cc:2050
 msgid "No email address."
