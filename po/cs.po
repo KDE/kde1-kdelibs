@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
 "POT-Creation-Date: 1998-06-21 18:14+0200\n"
-"PO-Revision-Date: 1998-07-01 08:20 MET DST\n"
+"PO-Revision-Date: 1998-07-12 15:57 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <flidr@kky.cu.cz>\n"
 "MIME-Version: 1.0\n"
@@ -943,7 +943,7 @@ msgstr "Nový"
 
 #: po/texts.cpp:63
 msgid "&New"
-msgstr "&Nová"
+msgstr "&Nový"
 
 #: po/texts.cpp:64
 msgid "&New..."
