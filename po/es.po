@@ -765,52 +765,51 @@ msgstr ""
 
 #: kdeui/kkeydialog.cpp:393
 msgid "&No key"
-msgstr "Sin llave"
+msgstr "&Sin tecla"
 
 #: kdeui/kkeydialog.cpp:401
 msgid "&Default key"
-msgstr "Llave estándar"
+msgstr "Tecla por &defecto"
 
 #: kdeui/kkeydialog.cpp:409
 msgid "&Custom key"
-msgstr "Llave propia"
+msgstr "&Tecla propia"
 
 #: kdeui/kkeydialog.cpp:472
 msgid "No keys defined"
-msgstr ""
+msgstr "Teclas no definidas"
 
 #: kdeui/kkeydialog.cpp:474
 msgid "Not configurable"
-msgstr ""
+msgstr "No configurable"
 
 #: kdeui/kkeydialog.cpp:530
 msgid "Global Keys"
-msgstr ""
+msgstr "Teclas globales"
 
 #: kdeui/kkeydialog.cpp:562
 msgid "Keys"
-msgstr ""
+msgstr "Teclas"
 
 #: kdeui/kkeydialog.cpp:637 kdeui/kkeydialog.cpp:976
 msgid "Attention : key already used"
-msgstr ""
+msgstr "Atención : la tecla ya se usa"
 
 #: kdeui/kkeydialog.cpp:926
 msgid "Press the wanted key"
-msgstr ""
+msgstr "Presiona la tecla que quieras"
 
 #: kdeui/kkeydialog.cpp:949
 msgid "Undefined key"
-msgstr ""
+msgstr "Tecla no definida"
 
 #: kdeui/kkeydialog.cpp:999
 msgid "Return to end edition"
-msgstr ""
+msgstr "Volver al final de la edición"
 
 #: kdeui/kkeydialog.cpp:1009
-#, fuzzy
 msgid "Incorrect key"
-msgstr "Llave actual"
+msgstr "Tecla incorrecta"
 
 #: kdeui/kkeydialog.cpp:1035
 #, c-format
@@ -820,10 +819,13 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"La combinación de teclas %s ya está en uso\n"
+"para la acción global %s.\n"
+"\n"
 
 #: kdeui/kkeydialog.cpp:1039
 msgid "Global key conflict"
-msgstr ""
+msgstr "Conflicto de teclas globales"
 
 #: kdeui/kkeydialog.cpp:1062
 #, c-format
@@ -833,10 +835,13 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"La combinación de teclas %s ya está en uso\n"
+"para la acción estandar %s.\n"
+"\n"
 
 #: kdeui/kkeydialog.cpp:1066
 msgid "Standard key conflict"
-msgstr ""
+msgstr "Conflicto de teclas estandar"
 
 #: kdeui/kkeydialog.cpp:1086
 #, c-format
@@ -846,10 +851,13 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"La combinación de teclas %s ya está en uso\n"
+"para la acción %s.\n"
+"\n"
 
 #: kdeui/kkeydialog.cpp:1090
 msgid "Key conflict"
-msgstr ""
+msgstr "Conflicto de teclas"
 
 #: kdeui/kmenubar.cpp:269 kdeui/ktoolbar.cpp:847
 msgid "Top"
@@ -1062,9 +1070,9 @@ msgid "one directory"
 msgstr "un directorio"
 
 #: kfile/kfiledialog.cpp:1321
-#, fuzzy, c-format
+#, c-format
 msgid "%d directories"
-msgstr "directorios"
+msgstr "%d directorios"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"
@@ -1229,7 +1237,7 @@ msgid ""
 "Could not do Authorization"
 msgstr ""
 "No tiene el archivo %s\n"
-"La autorización falló"
+"No se pudo autorizar"
 
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210 kio/kmimetypes.cc:61
 #: kio/kmimetypes.cc:88 kio/kmimetypes.cc:134 kio/kregfactories.cc:75
@@ -1244,7 +1252,7 @@ msgid ""
 "Could not do Authorization"
 msgstr ""
 "El archivo %s fue corrompido\n"
-"La autorización falló"
+"No se pudo autorizar"
 
 #: kab/widget.cc:159 kab/widget.cc:1153 kab/widget.cc:1211 kab/widget.cc:1222
 #: kab/widget.cc:1925 kab/widget.cc:2017 kab/widget.cc:2101 kab/widget.cc:2146
@@ -1559,7 +1567,7 @@ msgstr "Formato"
 
 #: po/texts.cpp:125
 msgid "Highscore"
-msgstr "Puntaje máximo"
+msgstr "Puntuación máxima"
 
 #: po/texts.cpp:126
 msgid "&New View"
@@ -1606,10 +1614,10 @@ msgid ""
 "kfm once to automatically create it."
 msgstr ""
 "El directorio no pudo ser creado.\n"
-"Probablemente no ha usado el KDE antes,\n"
+"Probablemente no ha usado KDE antes,\n"
 "por eso no tiene un directorio \".kde\" local\n"
 "en su directorio. Abra el administrador de archivos\n"
-"del KDE kfm para crearlo automáticamente."
+"de KDE kfm para crearlo automáticamente."
 
 #: kab/addressbook.cc:104
 msgid "The directory has been created.\n"
@@ -1621,19 +1629,19 @@ msgstr "No hay archivo de base de datos para direcciones, creando nuevo."
 
 #: kab/addressbook.cc:157
 msgid "Tried to load database for creating backup, but failed"
-msgstr "Error al cargar base de datos para hacer un respaldo"
+msgstr "Error al cargar base de datos para hacer una copia de seguridad"
 
 #: kab/addressbook.cc:192
 msgid "Unable to save to backup file."
-msgstr "Imposible guardar el respaldo."
+msgstr "Imposible guardar la copia de seguridad."
 
 #: kab/addressbook.cc:198
 msgid "Unable to reset filename after creating backup."
-msgstr "Imposible cambiar nombre después de crear el respaldo."
+msgstr "Imposible resetear nombre después de crear copia de seguridad."
 
 #: kab/addressbook.cc:203
 msgid "Unable to create backup file"
-msgstr "Imposible crear el respaldo"
+msgstr "Imposible crear una copia de seguridad"
 
 #: kab/addressbook.cc:256
 msgid "Unable to insert \""
@@ -1645,7 +1653,7 @@ msgstr "\" en sección de configuración (ignorado)."
 
 #: kab/addressbook.cc:659
 msgid "Unable to add a new entry with available key."
-msgstr "Imposible añadir entrada nueva con llave disponible."
+msgstr "Imposible añadir una entrada nueva con tecla disponible."
 
 #: kab/addressbook.cc:665
 msgid "Cannot find previously created section."
@@ -1662,19 +1670,19 @@ msgstr "entrada sin nombre"
 #: kab/addressbook.cc:943
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
-msgstr "Imposible crear nueva base de datos (probablemente permiso denegado)."
+msgstr "Imposible crear nueva base de datos (probablemente permiso denegado), saliendo."
 
 #: kab/addressbook.cc:949
 msgid "Cannot create configuration section, exiting."
-msgstr "Imposible crear sección de configuración."
+msgstr "Imposible crear sección de configuración, saliendo."
 
 #: kab/addressbook.cc:954
 msgid "Cannot create entries section, exiting."
-msgstr "Imposible crear entradas de sección."
+msgstr "Imposible crear entradas de sección, saliendo."
 
 #: kab/addressbook.cc:959
 msgid "Unable to find previously created section, exiting."
-msgstr "Imposible encontrar seciión previamente creada."
+msgstr "Imposible encontrar seciión previamente creada, saliendo."
 
 #: kab/addressbook.cc:967
 msgid "Cannot save newly created database."
@@ -1722,7 +1730,7 @@ msgstr "Título"
 
 #: kab/addressbook.cc:1088
 msgid "Role"
-msgstr ""
+msgstr "Papel"
 
 #: kab/addressbook.cc:1092
 msgid "Birthday"
@@ -1734,7 +1742,7 @@ msgstr "Dirección para talk"
 
 #: kab/addressbook.cc:1100
 msgid "Delivery label"
-msgstr "Marca de envío"
+msgstr "Etiqueta de envío"
 
 #: kab/addressbook.cc:1104
 msgid "Email address"
@@ -1846,7 +1854,7 @@ msgstr "&Dirección"
 
 #: kab/editentry.cc:145
 msgid "Organization:"
-msgstr "Oragnaización:"
+msgstr "Organización:"
 
 #: kab/editentry.cc:146
 msgid "Org Unit:"
@@ -1854,15 +1862,15 @@ msgstr "Unidad organizacional"
 
 #: kab/editentry.cc:147
 msgid "Org Subunit:"
-msgstr "Subundad organizacional"
+msgstr "Subunidad organizacional"
 
 #: kab/editentry.cc:148
 msgid "Role:"
-msgstr ""
+msgstr "Papel:"
 
 #: kab/editentry.cc:169
 msgid "&Organization"
-msgstr "&Oragnización"
+msgstr "&Organización"
 
 #: kab/editentry.cc:184
 msgid "Telephone:"
@@ -2446,7 +2454,6 @@ msgid ""
 "does not exist"
 msgstr ""
 "El archivo o directorio\n"
-"The file or directory\n"
 "%s\n"
 "no existe"
 
@@ -2467,7 +2474,7 @@ msgid ""
 "Could not make directory\n"
 "%s"
 msgstr ""
-"un directorioNo se pudo crear el directorio\n"
+"No se pudo crear el directorio\n"
 "%s"
 
 #: kio/kio_error.cc:49
@@ -2523,7 +2530,7 @@ msgid ""
 "Could not change permissions for\n"
 "%s"
 msgstr ""
-"No se pudieron cambiar los derechos del archivo\n"
+"No se pudieron cambiar los permisos a\n"
 "%s"
 
 #: kio/kio_error.cc:67
@@ -2560,7 +2567,7 @@ msgid ""
 "Could not create socket for accessing\n"
 "%s"
 msgstr ""
-"No se pudo crear socket para accesar\n"
+"No se pudo crear socket para acceder\n"
 "%s"
 
 #: kio/kio_error.cc:79
@@ -2569,7 +2576,7 @@ msgid ""
 "Could not connect to host\n"
 "%s"
 msgstr ""
-"No se pudo conectar a\n"
+"No se pudo conectar al host\n"
 "%s"
 
 #: kio/kio_error.cc:82
@@ -2588,7 +2595,7 @@ msgid ""
 "%s\n"
 "is broken"
 msgstr ""
-"Conección a la máquina\n"
+"Conexión al host\n"
 "%s\n"
 "se interrumpió"
 
@@ -2621,7 +2628,7 @@ msgid ""
 "%s"
 msgstr ""
 "No se pudo montar el dispositivo.\n"
-"El error reportado fue:\n"
+"El error recivido fue:\n"
 "\n"
 "%s"
 
@@ -2633,8 +2640,8 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"No se pudo demontar el dispositivo.\n"
-"El error reportado fue:\n"
+"No se pudo desmontar el dispositivo.\n"
+"El error recivido fue:\n"
 "\n"
 "%s"
 
@@ -2655,7 +2662,7 @@ msgid ""
 "Could not access\n"
 "%s"
 msgstr ""
-"No se pudo accesar\n"
+"No se pudo acceder\n"
 "%s"
 
 #: kio/kio_error.cc:106
@@ -2669,7 +2676,7 @@ msgstr ""
 "Código de error desconocido %i\n"
 "%s\n"
 "\n"
-"Por favor envíe un reporte completo de fallo a kde-bugs@kde.org"
+"Por favor envíe un informe completo del fallo a kde-bugs@kde.org"
 
 #: kio/kio_error.cc:118 kio/kio_linedit_dlg.cc:42 kio/kio_openwith.cc:260
 #: kio/kio_pass_dlg.cc:75 kio/kio_paste.cc:48 kio/kio_paste.cc:60
@@ -2690,7 +2697,7 @@ msgstr "Montando %s ..."
 #: kio/kio_job.cc:158
 #, c-format
 msgid "Unmounting %s ..."
-msgstr "Demontando %s ..."
+msgstr "Desmontando %s ..."
 
 #: kio/kio_openwith.cc:133
 msgid "This group is empty!"
@@ -2710,16 +2717,16 @@ msgstr "Contraseña"
 
 #: kio/kio_paste.cc:48 kio/kio_paste.cc:60
 msgid "The clipboard is empty"
-msgstr "El pasapapeles está vacío"
+msgstr "El portapapeles está vacío"
 
 #: kio/kio_paste.cc:75
 msgid ""
 "Pasting clipboard data is only supported on the local hard disk currently"
-msgstr "Pasar datos del pasapapeles sólo es posible en discos locales"
+msgstr "Pasar datos del portapapeles sólo es posible en discos locales actualmente"
 
 #: kio/kio_paste.cc:80
 msgid "Filename for clipboard content:"
-msgstr "Nombre de arhcivo para contenido del pasapapeles:"
+msgstr "Nombre de archivo para contenido del portapapeles:"
 
 #: kio/kio_paste.cc:87
 msgid "You did not enter a filename"
@@ -2736,11 +2743,11 @@ msgstr " Bytes"
 
 #: kio/kio_progress_dlg.cc:97 kio/kio_progress_dlg.cc:113
 msgid " Kb"
-msgstr " kB"
+msgstr " Kb"
 
 #: kio/kio_progress_dlg.cc:102 kio/kio_progress_dlg.cc:118
 msgid " Mb"
-msgstr " MB"
+msgstr " Mb"
 
 #: kio/kio_progress_dlg.cc:151 kio/kio_progress_dlg.cc:177
 msgid "Stalled"
@@ -2752,11 +2759,11 @@ msgstr " Bytes/s"
 
 #: kio/kio_progress_dlg.cc:164
 msgid " Kb/s"
-msgstr " kB/s"
+msgstr " Kb/s"
 
 #: kio/kio_progress_dlg.cc:169
 msgid " Mb/s"
-msgstr " MB/s"
+msgstr " Mb/s"
 
 #: kio/kio_progress_dlg.cc:184
 #, c-format
@@ -2796,11 +2803,11 @@ msgstr "Renombrar"
 
 #: kio/kio_rename_dlg.cc:38 kio/kio_skip_dlg.cc:23
 msgid "Skip"
-msgstr "Esquivar"
+msgstr "Saltar"
 
 #: kio/kio_rename_dlg.cc:41 kio/kio_skip_dlg.cc:28
 msgid "Auto Skip"
-msgstr "Autoesquivar"
+msgstr "Auto Saltar"
 
 #: kio/kio_rename_dlg.cc:47
 msgid "Overwrite"
@@ -2808,15 +2815,15 @@ msgstr "Sobreescribir"
 
 #: kio/kio_rename_dlg.cc:52
 msgid "Overwrite All"
-msgstr "Sobreescribir todo"
+msgstr "Sobreescribir Todo"
 
 #: kio/kio_rename_dlg.cc:59
 msgid "Resume"
-msgstr "Resumir"
+msgstr "Continuar"
 
 #: kio/kio_rename_dlg.cc:64
 msgid "Resume All"
-msgstr "Resumir todos"
+msgstr "Continuar Todos"
 
 #: kio/kio_rename_dlg.cc:75
 msgid "You try to overwrite"
@@ -2852,19 +2859,19 @@ msgstr "No se puede escribir"
 
 #: kio/kio_skip_dlg.cc:46
 msgid "Permission denied!"
-msgstr "Permiso denegado."
+msgstr "Permiso denegado!"
 
 #: kio/kmimetypes.cc:61
 msgid "No mime types installed!"
-msgstr "No hay tipos MIME instalados!"
+msgstr "No hay tipos mime instalados!"
 
 #: kio/kmimetypes.cc:85
 msgid "Could not find mime type\n"
-msgstr "No se encontraron tipos MIME\n"
+msgstr "No se encontraron tipos mime\n"
 
 #: kio/kmimetypes.cc:131
 msgid "The mime type config file "
-msgstr "El archivo de configuración de tipos MIME"
+msgstr "El archivo de configuración de tipos mime "
 
 #: kio/kmimetypes.cc:133 kio/kregfactories.cc:74
 msgid "does not conatain a MimeType=... entry"
@@ -2912,7 +2919,7 @@ msgid ""
 msgstr ""
 "El archivo kdelnk\n"
 "%s\n"
-"el del tipo enlace pero tiene una entrada URL=..."
+"el del tipo enlace pero no tiene una entrada URL=..."
 
 #: kio/kmimetypes.cc:608
 msgid "Mount"
@@ -2920,7 +2927,7 @@ msgstr "Montar"
 
 #: kio/kmimetypes.cc:615
 msgid "Unmount"
-msgstr "Demontar"
+msgstr "Desmontar"
 
 #: kio/kmimetypes.cc:658
 #, c-format
@@ -2952,7 +2959,7 @@ msgstr ""
 
 #: kio/kservices.cc:111
 msgid "The application config file\n"
-msgstr "El aricho de configuración de la aplicación\n"
+msgstr "El archivo de configuración de la aplicación\n"
 
 #: kio/kservices.cc:113
 msgid ""
