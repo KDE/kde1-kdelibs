@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs 1.1\n"
 "POT-Creation-Date: 1998-12-12 01:01+0100\n"
-"PO-Revision-Date: 1998-12-01 18:58+01:00\n"
+"PO-Revision-Date: 1998-12-12 17:44+01:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -748,7 +748,7 @@ msgstr "Filter:"
 
 #: kdeui/kkeydialog.cpp:219
 msgid "Configure key bindings"
-msgstr ""
+msgstr "Konfigurera tangentbindningar"
 
 #: kdeui/kkeydialog.cpp:232 kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:205
 #: po/texts.cpp:45
@@ -769,7 +769,7 @@ msgstr "&Operation"
 
 #: kdeui/kkeydialog.cpp:366
 msgid "Choose a key for the selected action"
-msgstr ""
+msgstr "Välj en tangent för den valda operationen"
 
 #: kdeui/kkeydialog.cpp:393
 msgid "&No key"
@@ -785,40 +785,39 @@ msgstr "&Egen tangent"
 
 #: kdeui/kkeydialog.cpp:472
 msgid "No keys defined"
-msgstr ""
+msgstr "Inga tangenter definierade"
 
 #: kdeui/kkeydialog.cpp:474
 msgid "Not configurable"
-msgstr ""
+msgstr "Ej konfigurerbar"
 
 #: kdeui/kkeydialog.cpp:530
 msgid "Global Keys"
-msgstr ""
+msgstr "Globala tangenter"
 
 #: kdeui/kkeydialog.cpp:562
 msgid "Keys"
-msgstr ""
+msgstr "Tangenter"
 
 #: kdeui/kkeydialog.cpp:637 kdeui/kkeydialog.cpp:970
 msgid "Attention : key already used"
-msgstr ""
+msgstr "Observera : tangenten används redan"
 
 #: kdeui/kkeydialog.cpp:920
 msgid "Press the wanted key"
-msgstr ""
+msgstr "Tryck på den önskade tangenten"
 
 #: kdeui/kkeydialog.cpp:943
 msgid "Undefined key"
-msgstr ""
+msgstr "Odefinierad tangent"
 
 #: kdeui/kkeydialog.cpp:992
 msgid "Return to end edition"
-msgstr ""
+msgstr "Retur för att avsluta editering"
 
 #: kdeui/kkeydialog.cpp:1002
-#, fuzzy
 msgid "Incorrect key"
-msgstr "Aktuell tangent"
+msgstr "Felaktig tangent"
 
 #: kdeui/kkeydialog.cpp:1028
 #, c-format
@@ -828,10 +827,14 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"Tangentkombinationen %s används redan av\n"
+"den globala operationen %s.\n"
+"\n"
+"Var god välj en unik tangentkombination."
 
 #: kdeui/kkeydialog.cpp:1032
 msgid "Global key conflict"
-msgstr ""
+msgstr "Global tangentkonflikt"
 
 #: kdeui/kkeydialog.cpp:1055
 #, c-format
@@ -841,10 +844,14 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"Tangentkombinationen %s används redan av\n"
+"standardoperationen %s.\n"
+"\n"
+"Var god välj en unik tangentkombination."
 
 #: kdeui/kkeydialog.cpp:1059
 msgid "Standard key conflict"
-msgstr ""
+msgstr "Standardtangentkonflikt"
 
 #: kdeui/kkeydialog.cpp:1079
 #, c-format
@@ -854,10 +861,14 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"Tangentkombinationen %s används redan av\n"
+"operationen %s.\n"
+"\n"
+"Var god välj en unik tangentkombination."
 
 #: kdeui/kkeydialog.cpp:1083
 msgid "Key conflict"
-msgstr ""
+msgstr "Tangentkonflikt"
 
 #: kdeui/kmenubar.cpp:256 kdeui/ktoolbar.cpp:847
 msgid "Top"
