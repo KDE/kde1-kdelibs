@@ -2818,23 +2818,20 @@ msgid "The file %s does already exist. Do you really want to overwrite it ?"
 msgstr "Filen %s eksisterer allerede. Vil du overskrive det?"
 
 #: kio/kio_progress_dlg.cc:108 kio/kio_progress_dlg.cc:124
-#, fuzzy
 msgid "Bytes"
-msgstr " byter"
+msgstr "Byter"
 
 #: kio/kio_progress_dlg.cc:113 kio/kio_progress_dlg.cc:129
-#, fuzzy
 msgid "Kb"
-msgstr " kB"
+msgstr "kB"
 
 #: kio/kio_progress_dlg.cc:118 kio/kio_progress_dlg.cc:134
-#, fuzzy
 msgid "Mb"
-msgstr " MB"
+msgstr "MB"
 
 #: kio/kio_progress_dlg.cc:139 kio/kio_progress_dlg.cc:146
 msgid "of"
-msgstr ""
+msgstr "av"
 
 #: kio/kio_progress_dlg.cc:171 kio/kio_progress_dlg.cc:197
 msgid "Stalled"
@@ -2878,11 +2875,11 @@ msgstr "Gransker "
 
 #: kio/kio_progress_dlg.cc:234
 msgid "From : "
-msgstr ""
+msgstr "Fra: "
 
 #: kio/kio_progress_dlg.cc:238
 msgid "To: "
-msgstr ""
+msgstr "Til: "
 
 #: kio/kio_progress_dlg.cc:245
 msgid "Creating dir "
