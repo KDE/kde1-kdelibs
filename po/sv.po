@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs 1.0pre\n"
 "POT-Creation-Date: 1998-06-21 18:14+0200\n"
-"PO-Revision-Date: 1998-07-06 19:04 +0200\n"
+"PO-Revision-Date: 1998-07-08 22:24+02:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -111,7 +111,7 @@ msgstr "Egna..."
 
 #: kdeui/kcontrol.cpp:39
 msgid "Default"
-msgstr "Standardvärden"
+msgstr "Standard"
 
 #: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
@@ -467,7 +467,7 @@ msgstr "&Avbryt"
 
 #: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:143
 msgid "&Default"
-msgstr "&Standardvärden"
+msgstr "&Standard"
 
 #: kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:166 po/texts.cpp:46
 msgid "&Help"
@@ -541,7 +541,7 @@ msgstr "Upp till förälder"
 
 #: kfile/kfiledialog.cpp:131
 msgid "Home"
-msgstr "Gå till hemkatalogen"
+msgstr "Hem"
 
 #: kfile/kfiledialog.cpp:134 po/texts.cpp:55
 msgid "Reload"
@@ -634,7 +634,7 @@ msgstr "Ny katalog"
 
 #: kfile/kfiledialog.cpp:932
 msgid "Add to bookmarks"
-msgstr "Lägg till som bokmärke"
+msgstr "Lägg till bokmärkena"
 
 #: kfile/kfiledialog.cpp:1213
 msgid "Choose Directory"
@@ -856,7 +856,7 @@ msgstr "Fel"
 
 #: po/texts.cpp:25
 msgid "Malformed URL"
-msgstr "Ogiltig URL"
+msgstr "Felaktig URL"
 
 #: po/texts.cpp:29
 msgid "Warning"
@@ -932,7 +932,7 @@ msgstr "Kopiera"
 
 #: po/texts.cpp:59
 msgid "&Copy"
-msgstr "&Kopiera"
+msgstr "K&opiera"
 
 #: po/texts.cpp:60
 msgid "Paste"
@@ -956,7 +956,7 @@ msgstr "&Ny..."
 
 #: po/texts.cpp:65
 msgid "&New Window..."
-msgstr "&Nytt fönster..."
+msgstr "Nytt &fönster..."
 
 #: po/texts.cpp:66
 msgid "New &Window..."
@@ -964,7 +964,7 @@ msgstr "Nytt &fönster..."
 
 #: po/texts.cpp:67
 msgid "&New Window"
-msgstr "&Nytt fönster"
+msgstr "Nytt &fönster"
 
 #: po/texts.cpp:68
 msgid "New Game"
@@ -984,7 +984,7 @@ msgstr "Öppna..."
 
 #: po/texts.cpp:73
 msgid "&Open..."
-msgstr "&Öppna..."
+msgstr "Ö&ppna..."
 
 #: po/texts.cpp:74
 msgid "Cut"
@@ -992,11 +992,11 @@ msgstr "Klipp ut"
 
 #: po/texts.cpp:75
 msgid "&Cut"
-msgstr "Klipp &ut"
+msgstr "&Klipp ut"
 
 #: po/texts.cpp:76
 msgid "C&ut"
-msgstr "Klipp &ut"
+msgstr "&Klipp ut"
 
 #: po/texts.cpp:77
 msgid "Font"
@@ -1028,11 +1028,11 @@ msgstr "Stäng"
 
 #: po/texts.cpp:86
 msgid "&Close"
-msgstr "S&täng"
+msgstr "Stän&g"
 
 #: po/texts.cpp:87
 msgid "&Print..."
-msgstr "S&kriv ut..."
+msgstr "Skriv &ut..."
 
 #: po/texts.cpp:90
 msgid "Options"
@@ -1052,11 +1052,11 @@ msgstr "Ändra"
 
 #: po/texts.cpp:94
 msgid "Delete"
-msgstr "Radera"
+msgstr "Ta bort"
 
 #: po/texts.cpp:95
 msgid "&Delete"
-msgstr "&Radera"
+msgstr "&Ta bort"
 
 #: po/texts.cpp:96
 msgid "Clear"
@@ -1076,7 +1076,7 @@ msgstr "Ångra"
 
 #: po/texts.cpp:100
 msgid "&Undo"
-msgstr "&Ångra"
+msgstr "Å&ngra"
 
 #: po/texts.cpp:101
 msgid "Redo"
