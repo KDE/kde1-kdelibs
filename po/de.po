@@ -317,11 +317,11 @@ msgstr "Ende"
 
 #: kdecore/kaccel.cpp:291
 msgid "Prior"
-msgstr "Vorrang"
+msgstr "Seite hoch"
 
 #: kdecore/kaccel.cpp:295
 msgid "Next"
-msgstr "Nächstes"
+msgstr "Seite runter"
 
 #: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
 #: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 po/texts.cpp:44
