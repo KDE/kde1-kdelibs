@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
 "POT-Creation-Date: 1998-06-21 18:14+0200\n"
-"PO-Revision-Date: 1998-07-12 15:57 CEST\n"
+"PO-Revision-Date: 1998-07-20 09:17 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <flidr@kky.cu.cz>\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr "&Nápovìda"
 
 #: kdecore/kapp.cpp:500
 msgid "&About"
-msgstr "&Informace"
+msgstr "&Informace o aplikaci "
 
 #: kdecore/kapp.cpp:507
 msgid "About &KDE..."
