@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-11-28 14:05+0100\n"
+"POT-Creation-Date: 1998-12-20 01:00+0100\n"
 "PO-Revision-Date: 1998-12-02 19:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -43,13 +43,13 @@ msgid "Send an email to the application maintainer"
 msgstr "Sendu retpoþton al la fleganto de la aplika¼o"
 
 #: kab/AssertDialog.cpp:51 kab/datepickerdialog.cc:25 kab/kabapi.cc:35
-#: kdeui/kcolordlg.cpp:463 kdeui/kcontrol.cpp:46 kdeui/kcontrol.cpp:51
+#: kdeui/kcolordlg.cpp:467 kdeui/kcontrol.cpp:46 kdeui/kcontrol.cpp:51
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:155 kdeui/keditcl1.cpp:170
 #: kdeui/keditcl1.cpp:191 kdeui/keditcl1.cpp:204 kdeui/keditcl1.cpp:1561
-#: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:370
-#: kdeui/kiconloaderdialog.cpp:254 kdeui/kmsgbox.cpp:277
-#: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:505
-#: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:409
+#: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:391
+#: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:277
+#: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:507
+#: kfile/kfiledialog.cpp:888 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:407
 #: po/texts.cpp:35
 msgid "OK"
 msgstr "Konfirmu"
@@ -255,8 +255,8 @@ msgstr "Eblaj valoroj:"
 msgid "Selected values:"
 msgstr "Elektita valoro:"
 
-#: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:555 kfile/kfiledialog.cpp:1199
-#: kfile/kfiledialog.cpp:1358 kfile/kfiledialog.cpp:1392 po/texts.cpp:65
+#: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:556 kfile/kfiledialog.cpp:1202
+#: kfile/kfiledialog.cpp:1361 kfile/kfiledialog.cpp:1395 po/texts.cpp:65
 msgid "Open"
 msgstr "Malfermu"
 
@@ -268,8 +268,8 @@ msgstr "Nova"
 msgid "Close"
 msgstr "Fermu"
 
-#: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1254
-#: kfile/kfiledialog.cpp:1413 po/texts.cpp:75
+#: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1257
+#: kfile/kfiledialog.cpp:1416 po/texts.cpp:75
 msgid "Save"
 msgstr "Sekurigu"
 
@@ -328,7 +328,7 @@ msgstr "Eraro"
 msgid "Next"
 msgstr "Sekva"
 
-#: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471
+#: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
 #: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 po/texts.cpp:44
 msgid "Help"
 msgstr "Helpo"
@@ -345,23 +345,23 @@ msgstr "KTRL"
 msgid "ALT"
 msgstr "ALT"
 
-#: kdecore/kapp.cpp:586 po/texts.cpp:137
+#: kdecore/kapp.cpp:598 po/texts.cpp:137
 msgid "&Contents"
 msgstr "&Enhavo"
 
-#: kdecore/kapp.cpp:592
+#: kdecore/kapp.cpp:604
 msgid "&About"
 msgstr "&Pri"
 
-#: kdecore/kapp.cpp:599
+#: kdecore/kapp.cpp:611
 msgid "About &KDE..."
 msgstr "Pri &KDE..."
 
-#: kdecore/kapp.cpp:620
+#: kdecore/kapp.cpp:632
 msgid "About KDE"
 msgstr "Pri KDE"
 
-#: kdecore/kapp.cpp:622
+#: kdecore/kapp.cpp:634
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -403,12 +403,12 @@ msgid "No"
 msgstr "Ne"
 
 #: kab/datepickerdialog.cc:26 kab/kabapi.cc:38 kab/widget.cc:1373
-#: kab/widget.cc:1415 kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466
+#: kab/widget.cc:1415 kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:470
 #: kdeui/kcontrol.cpp:48 kdeui/kcontrol.cpp:55 kdeui/keditcl1.cpp:414
-#: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:365
-#: kdeui/kiconloaderdialog.cpp:255 kdeui/kmsgbox.cpp:312
-#: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:892
-#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:413 kio/kio_job.cc:693
+#: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:394
+#: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:312
+#: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:893
+#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:411 kio/kio_job.cc:697
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
 #: po/texts.cpp:39
@@ -431,7 +431,7 @@ msgstr "Propraj koloroj"
 msgid "Add to Custom Colors"
 msgstr "Aldonu al la propraj koloroj"
 
-#: kdeui/kcolordlg.cpp:788 kdeui/kcolordlg.cpp:840
+#: kdeui/kcolordlg.cpp:789 kdeui/kcolordlg.cpp:841
 msgid "Custom..."
 msgstr "Adaptu..."
 
@@ -660,23 +660,23 @@ msgstr "Iru la linio"
 msgid "Go"
 msgstr "Ek"
 
-#: kdeui/kfontdialog.cpp:181
+#: kdeui/kfontdialog.cpp:168
 msgid "Select Font"
 msgstr "Elektu tiparon"
 
-#: kdeui/kfontdialog.cpp:185
+#: kdeui/kfontdialog.cpp:172
 msgid "Requested Font"
 msgstr "Postulita tiparo"
 
-#: kdeui/kfontdialog.cpp:190
+#: kdeui/kfontdialog.cpp:173
 msgid "Actual Font"
 msgstr "Fakta tiparo"
 
-#: kdeui/kfontdialog.cpp:194 kdeui/kfontdialog.cpp:198
+#: kdeui/kfontdialog.cpp:193 kdeui/kfontdialog.cpp:198
 msgid "Family:"
 msgstr "Familio:"
 
-#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:211 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:210 po/texts.cpp:26
 msgid "Charset:"
 msgstr "Signaro:"
 
@@ -688,63 +688,67 @@ msgstr "Grandeco:"
 msgid "Weight:"
 msgstr "Graseco:"
 
-#: kdeui/kfontdialog.cpp:243 kdeui/kfontdialog.cpp:250
+#: kdeui/kfontdialog.cpp:242 kdeui/kfontdialog.cpp:247
 msgid "Style:"
 msgstr "Stilo:"
 
-#: kdeui/kfontdialog.cpp:286
-msgid "Charset"
-msgstr "Signaro"
-
-#: kdeui/kfontdialog.cpp:297 kfile/kfiledetaillist.cpp:38
+#: kdeui/kfontdialog.cpp:275 kfile/kfiledetaillist.cpp:38
 msgid "Size"
 msgstr "Grandeco"
 
-#: kdeui/kfontdialog.cpp:338
+#: kdeui/kfontdialog.cpp:313
 msgid "Weight"
 msgstr "Graseco"
 
-#: kdeui/kfontdialog.cpp:339 kdeui/kfontdialog.cpp:480
+#: kdeui/kfontdialog.cpp:316 kdeui/kfontdialog.cpp:475
 msgid "normal"
 msgstr "normala"
 
-#: kdeui/kfontdialog.cpp:340 kdeui/kfontdialog.cpp:482
+#: kdeui/kfontdialog.cpp:317 kdeui/kfontdialog.cpp:477
 msgid "bold"
 msgstr "grasa"
 
-#: kdeui/kfontdialog.cpp:351
+#: kdeui/kfontdialog.cpp:327
 msgid "Style"
 msgstr "Stilo"
 
-#: kdeui/kfontdialog.cpp:352 kdeui/kfontdialog.cpp:493
-#: kdeui/kfontdialog.cpp:522
+#: kdeui/kfontdialog.cpp:330 kdeui/kfontdialog.cpp:488
+#: kdeui/kfontdialog.cpp:517
 msgid "roman"
 msgstr "romana"
 
-#: kdeui/kfontdialog.cpp:353 kdeui/kfontdialog.cpp:495
-#: kdeui/kfontdialog.cpp:520
+#: kdeui/kfontdialog.cpp:331 kdeui/kfontdialog.cpp:490
+#: kdeui/kfontdialog.cpp:515
 msgid "italic"
 msgstr "kursiva"
 
-#: kdeui/kfontdialog.cpp:383
+#: kdeui/kfontdialog.cpp:339
+msgid "Charset"
+msgstr "Signaro"
+
+#: kdeui/kfontdialog.cpp:358
 msgid "Dolor Ipse"
 msgstr "Dolor Ipse"
 
-#: kdeui/kfontdialog.cpp:515
+#: kdeui/kfontdialog.cpp:510
 msgid "Bold"
 msgstr "Grasa"
 
-#: kdeui/kfontdialog.cpp:517
+#: kdeui/kfontdialog.cpp:512
 msgid "Normal"
 msgstr "Normala"
 
-#: kdeui/kiconloaderdialog.cpp:237
+#: kdeui/kiconloaderdialog.cpp:247
 msgid "Select Icon"
 msgstr "Elektu piktogramon"
 
-#: kdeui/kiconloaderdialog.cpp:242
+#: kdeui/kiconloaderdialog.cpp:252
 msgid "Filter:"
 msgstr "Filtrilo:"
+
+#: kdeui/kkeydialog.cpp:219
+msgid "Configure key bindings"
+msgstr ""
 
 #: kdeui/kkeydialog.cpp:232 kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:205
 #: po/texts.cpp:45
@@ -760,39 +764,119 @@ msgstr "&Implicita"
 msgid "Current key"
 msgstr "Aktuala klavo"
 
-#: kdeui/kkeydialog.cpp:331
+#: kdeui/kkeydialog.cpp:332
 msgid "&Action"
 msgstr "&Ago"
 
-#: kdeui/kkeydialog.cpp:392
+#: kdeui/kkeydialog.cpp:366
+msgid "Choose a key for the selected action"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:393
 msgid "&No key"
 msgstr "&Neniu klavo"
 
-#: kdeui/kkeydialog.cpp:400
+#: kdeui/kkeydialog.cpp:401
 msgid "&Default key"
 msgstr "&Implicita klavo"
 
-#: kdeui/kkeydialog.cpp:408
+#: kdeui/kkeydialog.cpp:409
 msgid "&Custom key"
 msgstr "&Propra klavo"
 
-#: kdeui/kmenubar.cpp:241 kdeui/ktoolbar.cpp:841
+#: kdeui/kkeydialog.cpp:472
+msgid "No keys defined"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:474
+msgid "Not configurable"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:530
+msgid "Global Keys"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:562
+msgid "Keys"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:637 kdeui/kkeydialog.cpp:976
+msgid "Attention : key already used"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:926
+msgid "Press the wanted key"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:949
+msgid "Undefined key"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:999
+msgid "Return to end edition"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:1009
+#, fuzzy
+msgid "Incorrect key"
+msgstr "Aktuala klavo"
+
+#: kdeui/kkeydialog.cpp:1035
+#, c-format
+msgid ""
+"The %s key combination has already been allocated\n"
+"to the global %s action.\n"
+"\n"
+"Please choose a unique key combination."
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:1039
+msgid "Global key conflict"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:1062
+#, c-format
+msgid ""
+"The %s key combination has already been allocated\n"
+"to the standard %s action.\n"
+"\n"
+"Please choose a unique key combination."
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:1066
+msgid "Standard key conflict"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:1086
+#, c-format
+msgid ""
+"The %s key combination has already been allocated\n"
+"to the %s action.\n"
+"\n"
+"Please choose a unique key combination."
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:1090
+msgid "Key conflict"
+msgstr ""
+
+#: kdeui/kmenubar.cpp:269 kdeui/ktoolbar.cpp:847
 msgid "Top"
 msgstr "Supre"
 
-#: kdeui/kmenubar.cpp:242 kdeui/ktoolbar.cpp:843
+#: kdeui/kmenubar.cpp:270 kdeui/ktoolbar.cpp:849
 msgid "Bottom"
 msgstr "Malsupre"
 
-#: kdeui/kmenubar.cpp:243 kdeui/ktoolbar.cpp:844
+#: kdeui/kmenubar.cpp:271 kdeui/ktoolbar.cpp:850
 msgid "Floating"
 msgstr "Glitante"
 
-#: kdeui/kmenubar.cpp:393 kdeui/kmenubar.cpp:727 kdeui/ktoolbar.cpp:2155
+#: kdeui/kmenubar.cpp:420 kdeui/kmenubar.cpp:762 kdeui/ktoolbar.cpp:2161
 msgid "Float"
 msgstr "Glite"
 
-#: kdeui/kmenubar.cpp:696 kdeui/ktoolbar.cpp:2136
+#: kdeui/kmenubar.cpp:714 kdeui/ktoolbar.cpp:2142
 msgid "UnFloat"
 msgstr "Neglite"
 
@@ -808,15 +892,15 @@ msgstr "&Implicita"
 msgid "Quickhelp"
 msgstr "Helpeto"
 
-#: kdeui/ktoolbar.cpp:269 kdeui/ktoolbar.cpp:321
+#: kdeui/ktoolbar.cpp:275 kdeui/ktoolbar.cpp:327
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: rastrumo estas malplena, verþajne mankas dosiero"
 
-#: kdeui/ktoolbar.cpp:840
+#: kdeui/ktoolbar.cpp:846
 msgid "Left"
 msgstr "Maldekstre"
 
-#: kdeui/ktoolbar.cpp:842
+#: kdeui/ktoolbar.cpp:848
 msgid "Right"
 msgstr "Dekstre"
 
@@ -825,10 +909,6 @@ msgstr "Dekstre"
 msgid "Page %d of %d"
 msgstr "Paøo %d de %d"
 
-#: kfile/bookmark.cpp:246
-msgid "<!-- Do not edit this file -->"
-msgstr "<!-- Ne redaktu tiun æi dosieron -->"
-
 #: kfile/kcombiview.cpp:80
 msgid "Folders:"
 msgstr "Dosierujoj:"
@@ -836,6 +916,10 @@ msgstr "Dosierujoj:"
 #: kfile/kcombiview.cpp:81
 msgid "Contents:"
 msgstr "Enhavo:"
+
+#: kfile/kfilebookmark.cpp:246
+msgid "<!-- Do not edit this file -->"
+msgstr "<!-- Ne redaktu tiun æi dosieron -->"
 
 #: kab/addressbook.cc:1048 kfile/kfiledetaillist.cpp:36
 msgid "Name"
@@ -905,11 +989,11 @@ msgstr "&Filtrilo:"
 msgid "Show hidden"
 msgstr "Montru kaþitajn"
 
-#: kfile/kfiledialog.cpp:500
+#: kfile/kfiledialog.cpp:502
 msgid "Error: Not local file"
 msgstr "Eraro: Ne estas loka dosiero"
 
-#: kfile/kfiledialog.cpp:501
+#: kfile/kfiledialog.cpp:503
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
@@ -917,11 +1001,11 @@ msgstr ""
 "La indikita dosierujo ne estas loka dosierujo\n"
 "Se la aplika¼o akceptas nur lokajn dosierojn."
 
-#: kfile/kfiledialog.cpp:515 kfile/kfiledialog.cpp:621
+#: kfile/kfiledialog.cpp:517 kfile/kfiledialog.cpp:622
 msgid "Error: Cannot Open Directory"
 msgstr "Eraro: Ne eblis malfermi la dosierujon"
 
-#: kfile/kfiledialog.cpp:516
+#: kfile/kfiledialog.cpp:518
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
@@ -929,64 +1013,64 @@ msgstr ""
 "La indikita dosierujo ne ekzistas\n"
 "aý ne estis legebla."
 
-#: kfile/kfiledialog.cpp:518 kfile/kfiledialog.cpp:624
+#: kfile/kfiledialog.cpp:520 kfile/kfiledialog.cpp:625
 msgid "Dismiss"
 msgstr "Foriru"
 
-#: kfile/kfiledialog.cpp:570 kfile/kfiledialog.cpp:1373 po/texts.cpp:77
+#: kfile/kfiledialog.cpp:571 kfile/kfiledialog.cpp:1376 po/texts.cpp:77
 msgid "Save As"
 msgstr "Sekurigu kiel"
 
-#: kfile/kfiledialog.cpp:593
+#: kfile/kfiledialog.cpp:594
 msgid "Root Directory"
 msgstr "Radika dosierujo"
 
-#: kfile/kfiledialog.cpp:622
+#: kfile/kfiledialog.cpp:623
 msgid "The specified directory does not exist or was not readable."
 msgstr "La indikita dosierujo ne ekzistas aý ne estis legebla."
 
-#: kfile/kfiledialog.cpp:872
+#: kfile/kfiledialog.cpp:873
 msgid "Create new directory in: "
 msgstr "Kreu novan dosierujon en: "
 
-#: kfile/kfiledialog.cpp:875
+#: kfile/kfiledialog.cpp:876
 msgid "New Directory"
 msgstr "Nova dosierujo"
 
-#: kfile/kfiledialog.cpp:947
+#: kfile/kfiledialog.cpp:948
 msgid "Add to bookmarks"
 msgstr "Aldonu al legosignoj"
 
-#: kfile/kfiledialog.cpp:1233
+#: kfile/kfiledialog.cpp:1236
 msgid "Choose Directory"
 msgstr "Elektu dosierujon"
 
-#: kfile/kfiledialog.cpp:1301
+#: kfile/kfiledialog.cpp:1304
 msgid "directory"
 msgstr "dosierujo"
 
-#: kfile/kfiledialog.cpp:1303
+#: kfile/kfiledialog.cpp:1306
 msgid "directories"
 msgstr "dosierujoj"
 
-#: kfile/kfiledialog.cpp:1305 kfile/kpreview.cpp:326
+#: kfile/kfiledialog.cpp:1308 kfile/kpreview.cpp:326
 msgid "file"
 msgstr "dosiero"
 
-#: kfile/kfiledialog.cpp:1307
+#: kfile/kfiledialog.cpp:1310
 msgid "files"
 msgstr "dosieroj"
 
-#: kfile/kfiledialog.cpp:1309
+#: kfile/kfiledialog.cpp:1312
 #, c-format
 msgid "%d %s and %d %s"
 msgstr "%d %s kaj %d %s"
 
-#: kfile/kfiledialog.cpp:1319
+#: kfile/kfiledialog.cpp:1322
 msgid "one directory"
 msgstr "unu dosierujo"
 
-#: kfile/kfiledialog.cpp:1321
+#: kfile/kfiledialog.cpp:1324
 #, fuzzy, c-format
 msgid "%d directories"
 msgstr "dosierujoj"
@@ -2271,8 +2355,8 @@ msgid ""
 "Use the icons for drag and drop actions, since they refer to the cache files "
 "on your hard disk, while you should use the textual links for browsing"
 msgstr ""
-"Uzu la piktogramoj por þovi agojn, se ili referencas al la tenejaj "
-"dosieroj sur via disko. Uzu la tekstajn ligojn por legado"
+"Uzu la piktogramoj por þovi agojn, se ili referencas al la tenejaj dosieroj "
+"sur via disko. Uzu la tekstajn ligojn por legado"
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"
@@ -2304,7 +2388,8 @@ msgstr ""
 msgid ""
 "Could not write to\n"
 "%s"
-msgstr "Ne eblis savi la dokumenton\n"
+msgstr ""
+"Ne eblis savi la dokumenton\n"
 "Ne eblis skribi al\n"
 "%s"
 
@@ -2313,7 +2398,8 @@ msgstr "Ne eblis savi la dokumenton\n"
 msgid ""
 "Could not start process\n"
 "%s"
-msgstr "Ne eblis savi la dokumenton\n"
+msgstr ""
+"Ne eblis savi la dokumenton\n"
 "Ne eblis lanæi procezon\n"
 "%s"
 
@@ -2330,13 +2416,12 @@ msgstr ""
 "\n"
 "%s"
 
-
 #: kio/kio_error.cc:28
 #, fuzzy, c-format
 msgid ""
 "Malformed URL\n"
 "%s"
-msgstr 
+msgstr ""
 "Misformita URL\n"
 "%s"
 
@@ -2373,7 +2458,7 @@ msgid ""
 "The file or directory\n"
 "%s\n"
 "does not exist"
-msgstr 
+msgstr ""
 "La dosiero aý dosierujo\n"
 "%s\n"
 "ne ekzistas"
@@ -2394,7 +2479,7 @@ msgstr ""
 msgid ""
 "Could not make directory\n"
 "%s"
-msgstr 
+msgstr ""
 "Ne eblis krei dosierujon\n"
 "%s"
 
@@ -2423,7 +2508,7 @@ msgstr ""
 msgid ""
 "Could not enter directory\n"
 "%s"
-msgstr 
+msgstr ""
 "Ne eblis eniri la dosierujon\n"
 "%s"
 
@@ -2450,7 +2535,7 @@ msgstr ""
 msgid ""
 "Could not change permissions for\n"
 "%s"
-msgstr 
+msgstr ""
 "Ne eblis þanøi la permesojn por\n"
 "%s"
 
@@ -2496,7 +2581,7 @@ msgstr ""
 msgid ""
 "Could not connect to host\n"
 "%s"
-msgstr 
+msgstr ""
 "Ne eblis kontakti la komputilon\n"
 "%s"
 
@@ -2582,7 +2667,7 @@ msgstr ""
 msgid ""
 "Could not access\n"
 "%s"
-msgstr 
+msgstr ""
 "Ne eblis aliri\n"
 "%s"
 
@@ -2610,12 +2695,12 @@ msgstr ""
 msgid "Ok"
 msgstr "Konfirmu"
 
-#: kio/kio_job.cc:137
+#: kio/kio_job.cc:138
 #, c-format
 msgid "Mounting %s ..."
 msgstr "Muntante %s ..."
 
-#: kio/kio_job.cc:157
+#: kio/kio_job.cc:158
 #, c-format
 msgid "Unmounting %s ..."
 msgstr "Malmuntatne %s ..."
@@ -2645,8 +2730,8 @@ msgstr "La interdeponejo estas malplena"
 msgid ""
 "Pasting clipboard data is only supported on the local hard disk currently"
 msgstr ""
-"Enmeto de interdeponitaj datumoj estas subtenata momente nur sur "
-"la loka disko"
+"Enmeto de interdeponitaj datumoj estas subtenata momente nur sur la loka "
+"disko"
 
 #: kio/kio_paste.cc:80
 msgid "Filename for clipboard content:"
@@ -2891,4 +2976,4 @@ msgid ""
 "does not conatain a Name=... entry"
 msgstr ""
 "\n"
-"ne enhavas eron Name=..." 
+"ne enhavas eron Name=..."
