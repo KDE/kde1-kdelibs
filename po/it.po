@@ -7,7 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1998-02-19 22:49+0100\n"
-"PO-Revision-Date: 1998-02-03 16:00+0100nLast-Translator: Andrea Rizzi "
+"PO-Revision-Date: 1998-02-03 16:00+0100\n"
+"Last-Translator: Andrea Rizzi "
 "<Bilibao@ouverture.it>\n"
 "Language-Team: Italiano <it@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +18,7 @@ msgstr ""
 #: kdecore/kapp.cpp:439
 #, fuzzy
 msgid "&Contents"
-msgstr "Contenuti"
+msgstr "&Contenuti"
 
 #: kdecore/kapp.cpp:444
 msgid "&About"
@@ -25,7 +26,7 @@ msgstr "&Info"
 
 #: kdecore/kapp.cpp:448
 msgid "About &KDE..."
-msgstr "Info sul &KDE"
+msgstr "Info sul &KDE..."
 
 #: kdecore/kapp.cpp:469
 msgid "About KDE"
@@ -84,7 +85,7 @@ msgstr "Cancella"
 
 #: kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34 po/texts.cpp:45
 msgid "Help"
-msgstr "?"
+msgstr "Aiuto" 
 
 #: kdeui/kcolordlg.cpp:786 kdeui/kcolordlg.cpp:838
 msgid "Custom..."
@@ -623,11 +624,11 @@ msgstr "Pulisci"
 
 #: po/texts.cpp:95
 msgid "Italic"
-msgstr "italico"
+msgstr "Italico"
 
 #: po/texts.cpp:96
 msgid "Roman"
-msgstr "romano"
+msgstr "Romano"
 
 #: po/texts.cpp:97
 msgid "Undo"
@@ -660,7 +661,8 @@ msgstr "Sfoglia..."
 #: po/texts.cpp:104
 #, fuzzy
 msgid "(none)"
-msgstr "Fatto"
+msgstr "Nessuno"      
 
 #~ msgid "&Help..."
 #~ msgstr "&Aiuto..."
+ 
