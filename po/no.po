@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-25 13:21+0100\n"
+"POT-Creation-Date: 1998-02-19 22:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,26 +14,26 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: kdecore/kapp.cpp:419
+#: kdecore/kapp.cpp:439
 #, fuzzy
-msgid "&Help..."
-msgstr "Hjelp"
+msgid "&Contents"
+msgstr "Innhold"
 
-#: kdecore/kapp.cpp:424
+#: kdecore/kapp.cpp:444
 #, fuzzy
 msgid "&About"
 msgstr "Om"
 
-#: kdecore/kapp.cpp:428
+#: kdecore/kapp.cpp:448
 #, fuzzy
 msgid "About &KDE..."
 msgstr "Om"
 
-#: kdecore/kapp.cpp:449
+#: kdecore/kapp.cpp:469
 msgid "About KDE"
 msgstr ""
 
-#: kdecore/kapp.cpp:451
+#: kdecore/kapp.cpp:471
 #, fuzzy
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
@@ -342,36 +342,35 @@ msgstr "Velg Ikon"
 msgid "Filter:"
 msgstr "Filter:"
 
-#: kdeui/kmenubar.cpp:149 kdeui/ktoolbar.cpp:325
+#: kdeui/kmenubar.cpp:154 kdeui/ktoolbar.cpp:326
 msgid "Top"
 msgstr "Topp"
 
-#: kdeui/kmenubar.cpp:150 kdeui/ktoolbar.cpp:327
+#: kdeui/kmenubar.cpp:155 kdeui/ktoolbar.cpp:328
 msgid "Bottom"
 msgstr "Bunn"
 
-#: kdeui/kmenubar.cpp:151 kdeui/ktoolbar.cpp:328
+#: kdeui/kmenubar.cpp:156 kdeui/ktoolbar.cpp:329
 msgid "Floating"
 msgstr "Flytende"
 
-#: kdeui/kmenubar.cpp:191 kdeui/kmenubar.cpp:330 kdeui/ktoolbar.cpp:734
-#: kdeui/ktoolbar.cpp:1285
+#: kdeui/kmenubar.cpp:196 kdeui/kmenubar.cpp:335 kdeui/ktoolbar.cpp:1283
 msgid "Float"
 msgstr "Flyt"
 
-#: kdeui/kmenubar.cpp:319 kdeui/ktoolbar.cpp:1267
+#: kdeui/kmenubar.cpp:324 kdeui/ktoolbar.cpp:1265
 msgid "UnFloat"
 msgstr ""
 
-#: kdeui/ktoolbar.cpp:120 kdeui/ktoolbar.cpp:185
+#: kdeui/ktoolbar.cpp:121 kdeui/ktoolbar.cpp:186
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: pixmap er tom, kanskje en manglende fil"
 
-#: kdeui/ktoolbar.cpp:324
+#: kdeui/ktoolbar.cpp:325
 msgid "Left"
 msgstr "Venstre"
 
-#: kdeui/ktoolbar.cpp:326
+#: kdeui/ktoolbar.cpp:327
 msgid "Right"
 msgstr "Høyre"
 
@@ -683,6 +682,10 @@ msgstr ""
 #: po/texts.cpp:104
 msgid "(none)"
 msgstr ""
+
+#, fuzzy
+#~ msgid "&Help..."
+#~ msgstr "Hjelp"
 
 #~ msgid "ERROR: couldn't find icon: %s"
 #~ msgstr "FEIL: kunne ikke finne ikon: %s"

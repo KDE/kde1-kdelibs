@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE 0.2\n"
-"POT-Creation-Date: 1998-01-25 13:21+0100\n"
+"POT-Creation-Date: 1998-02-19 22:49+0100\n"
 "PO-Revision-Date: 1998-01-20 11:51+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -14,28 +14,28 @@ msgstr ""
 "Content-Type: text/plain; charset=koi8-r\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#
-#: kdecore/kapp.cpp:419
-msgid "&Help..."
-msgstr "&Помощь"
+#: kdecore/kapp.cpp:439
+#, fuzzy
+msgid "&Contents"
+msgstr "Содержимое"
 
 #
-#: kdecore/kapp.cpp:424
+#: kdecore/kapp.cpp:444
 msgid "&About"
 msgstr "&О программе"
 
 #
-#: kdecore/kapp.cpp:428
+#: kdecore/kapp.cpp:448
 msgid "About &KDE..."
 msgstr "О &KDE"
 
 #
-#: kdecore/kapp.cpp:449
+#: kdecore/kapp.cpp:469
 msgid "About KDE"
 msgstr "О KDE"
 
 #
-#: kdecore/kapp.cpp:451
+#: kdecore/kapp.cpp:471
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
@@ -356,36 +356,35 @@ msgstr "Выберите пиктограмму"
 msgid "Filter:"
 msgstr "Фильтр:"
 
-#: kdeui/kmenubar.cpp:149 kdeui/ktoolbar.cpp:325
+#: kdeui/kmenubar.cpp:154 kdeui/ktoolbar.cpp:326
 msgid "Top"
 msgstr "Верх"
 
-#: kdeui/kmenubar.cpp:150 kdeui/ktoolbar.cpp:327
+#: kdeui/kmenubar.cpp:155 kdeui/ktoolbar.cpp:328
 msgid "Bottom"
 msgstr "Низ"
 
-#: kdeui/kmenubar.cpp:151 kdeui/ktoolbar.cpp:328
+#: kdeui/kmenubar.cpp:156 kdeui/ktoolbar.cpp:329
 msgid "Floating"
 msgstr "Плавающий"
 
-#: kdeui/kmenubar.cpp:191 kdeui/kmenubar.cpp:330 kdeui/ktoolbar.cpp:734
-#: kdeui/ktoolbar.cpp:1285
+#: kdeui/kmenubar.cpp:196 kdeui/kmenubar.cpp:335 kdeui/ktoolbar.cpp:1283
 msgid "Float"
 msgstr "Сделать плавающей"
 
-#: kdeui/kmenubar.cpp:319 kdeui/ktoolbar.cpp:1267
+#: kdeui/kmenubar.cpp:324 kdeui/ktoolbar.cpp:1265
 msgid "UnFloat"
 msgstr "Сделать неплавающей"
 
-#: kdeui/ktoolbar.cpp:120 kdeui/ktoolbar.cpp:185
+#: kdeui/ktoolbar.cpp:121 kdeui/ktoolbar.cpp:186
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: пустая пиктограмма, возможно отсутствует файл"
 
-#: kdeui/ktoolbar.cpp:324
+#: kdeui/ktoolbar.cpp:325
 msgid "Left"
 msgstr "Слева"
 
-#: kdeui/ktoolbar.cpp:326
+#: kdeui/ktoolbar.cpp:327
 msgid "Right"
 msgstr "Справа"
 
@@ -695,3 +694,7 @@ msgstr "Просмотр..."
 #: po/texts.cpp:104
 msgid "(none)"
 msgstr "(ничего)"
+
+#
+#~ msgid "&Help..."
+#~ msgstr "&Помощь"

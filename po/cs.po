@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kde\n"
-"POT-Creation-Date: 1998-01-25 13:21+0100\n"
+"POT-Creation-Date: 1998-02-19 22:49+0100\n"
 "PO-Revision-Date: 1998-01-20 11:07 MET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -13,23 +13,24 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: kdecore/kapp.cpp:419
-msgid "&Help..."
-msgstr "&Nápovìda..."
+#: kdecore/kapp.cpp:439
+#, fuzzy
+msgid "&Contents"
+msgstr "Obsah"
 
-#: kdecore/kapp.cpp:424
+#: kdecore/kapp.cpp:444
 msgid "&About"
 msgstr "&Informace o aplikaci"
 
-#: kdecore/kapp.cpp:428
+#: kdecore/kapp.cpp:448
 msgid "About &KDE..."
 msgstr "Informace o &KDE ..."
 
-#: kdecore/kapp.cpp:449
+#: kdecore/kapp.cpp:469
 msgid "About KDE"
 msgstr "Informace o KDE"
 
-#: kdecore/kapp.cpp:451
+#: kdecore/kapp.cpp:471
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
@@ -346,36 +347,35 @@ msgstr "Vyber ikonu"
 msgid "Filter:"
 msgstr "Filtr:"
 
-#: kdeui/kmenubar.cpp:149 kdeui/ktoolbar.cpp:325
+#: kdeui/kmenubar.cpp:154 kdeui/ktoolbar.cpp:326
 msgid "Top"
 msgstr "Nahoøe"
 
-#: kdeui/kmenubar.cpp:150 kdeui/ktoolbar.cpp:327
+#: kdeui/kmenubar.cpp:155 kdeui/ktoolbar.cpp:328
 msgid "Bottom"
 msgstr "Dole"
 
-#: kdeui/kmenubar.cpp:151 kdeui/ktoolbar.cpp:328
+#: kdeui/kmenubar.cpp:156 kdeui/ktoolbar.cpp:329
 msgid "Floating"
 msgstr "Plovoucí"
 
-#: kdeui/kmenubar.cpp:191 kdeui/kmenubar.cpp:330 kdeui/ktoolbar.cpp:734
-#: kdeui/ktoolbar.cpp:1285
+#: kdeui/kmenubar.cpp:196 kdeui/kmenubar.cpp:335 kdeui/ktoolbar.cpp:1283
 msgid "Float"
 msgstr "Plovoucí"
 
-#: kdeui/kmenubar.cpp:319 kdeui/ktoolbar.cpp:1267
+#: kdeui/kmenubar.cpp:324 kdeui/ktoolbar.cpp:1265
 msgid "UnFloat"
 msgstr "Pøipevnit"
 
-#: kdeui/ktoolbar.cpp:120 kdeui/ktoolbar.cpp:185
+#: kdeui/ktoolbar.cpp:121 kdeui/ktoolbar.cpp:186
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: pixmapa je prázdná, pravdìpodovnì chybí nìjaký soubor"
 
-#: kdeui/ktoolbar.cpp:324
+#: kdeui/ktoolbar.cpp:325
 msgid "Left"
 msgstr "Vlevo"
 
-#: kdeui/ktoolbar.cpp:326
+#: kdeui/ktoolbar.cpp:327
 msgid "Right"
 msgstr "Vpravo"
 
@@ -659,3 +659,6 @@ msgstr "Listuj ..."
 #: po/texts.cpp:104
 msgid "(none)"
 msgstr "(¾ádná)"
+
+#~ msgid "&Help..."
+#~ msgstr "&Nápovìda..."

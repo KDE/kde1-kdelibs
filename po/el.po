@@ -1,27 +1,28 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-01-25 13:21+0100\n"
+"POT-Creation-Date: 1998-02-19 22:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fotis Andritsopoulos <fandrit@duth.gr>\n"
 
-#: kdecore/kapp.cpp:419
-msgid "&Help..."
-msgstr "&Βοήθεια"
+#: kdecore/kapp.cpp:439
+#, fuzzy
+msgid "&Contents"
+msgstr "Περιεχόμενα"
 
-#: kdecore/kapp.cpp:424
+#: kdecore/kapp.cpp:444
 msgid "&About"
 msgstr "&Σχετικά"
 
-#: kdecore/kapp.cpp:428
+#: kdecore/kapp.cpp:448
 msgid "About &KDE..."
 msgstr "Σχετικά με το &KDE..."
 
-#: kdecore/kapp.cpp:449
+#: kdecore/kapp.cpp:469
 msgid "About KDE"
 msgstr "Σχετικά με το KDE"
 
-#: kdecore/kapp.cpp:451
+#: kdecore/kapp.cpp:471
 #, fuzzy
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
@@ -333,36 +334,35 @@ msgstr "Επέλεξε Εικονίδιο"
 msgid "Filter:"
 msgstr "Φίλτρο:"
 
-#: kdeui/kmenubar.cpp:149 kdeui/ktoolbar.cpp:325
+#: kdeui/kmenubar.cpp:154 kdeui/ktoolbar.cpp:326
 msgid "Top"
 msgstr "Επάνω"
 
-#: kdeui/kmenubar.cpp:150 kdeui/ktoolbar.cpp:327
+#: kdeui/kmenubar.cpp:155 kdeui/ktoolbar.cpp:328
 msgid "Bottom"
 msgstr "Κάτω"
 
-#: kdeui/kmenubar.cpp:151 kdeui/ktoolbar.cpp:328
+#: kdeui/kmenubar.cpp:156 kdeui/ktoolbar.cpp:329
 msgid "Floating"
 msgstr "Επιπλέον"
 
-#: kdeui/kmenubar.cpp:191 kdeui/kmenubar.cpp:330 kdeui/ktoolbar.cpp:734
-#: kdeui/ktoolbar.cpp:1285
+#: kdeui/kmenubar.cpp:196 kdeui/kmenubar.cpp:335 kdeui/ktoolbar.cpp:1283
 msgid "Float"
 msgstr "Επέπλευσε"
 
-#: kdeui/kmenubar.cpp:319 kdeui/ktoolbar.cpp:1267
+#: kdeui/kmenubar.cpp:324 kdeui/ktoolbar.cpp:1265
 msgid "UnFloat"
 msgstr "Βούλιαξε"
 
-#: kdeui/ktoolbar.cpp:120 kdeui/ktoolbar.cpp:185
+#: kdeui/ktoolbar.cpp:121 kdeui/ktoolbar.cpp:186
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: το pixmap είναι άδειο, ίσως λοίπει κάποιο αρχείο"
 
-#: kdeui/ktoolbar.cpp:324
+#: kdeui/ktoolbar.cpp:325
 msgid "Left"
 msgstr "Αριστερά"
 
-#: kdeui/ktoolbar.cpp:326
+#: kdeui/ktoolbar.cpp:327
 msgid "Right"
 msgstr "Δεξιά"
 
@@ -649,3 +649,6 @@ msgstr "Εξερεύνηση"
 #, fuzzy
 msgid "(none)"
 msgstr "Έγινε"
+
+#~ msgid "&Help..."
+#~ msgstr "&Βοήθεια"
