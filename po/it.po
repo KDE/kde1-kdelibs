@@ -1331,14 +1331,12 @@ msgid "ISpell Default"
 msgstr "Predefinito di ISpell"
 
 #: kspell/kspelldlg.cpp:58
-#, fuzzy
 msgid "Misspelled Word:"
-msgstr "Parole sbagliate:"
+msgstr "Parola non corretta:"
 
 #: kspell/kspelldlg.cpp:68
-#, fuzzy
 msgid "Replacement:"
-msgstr "Cambia"
+msgstr "Sostituzione:"
 
 #: kspell/kspelldlg.cpp:77
 msgid "Suggestions:"
@@ -1748,7 +1746,7 @@ msgid "\" into configuration section (ignored)."
 msgstr "\" nella sezione di configurazione (ignorato)."
 
 #: kab/addressbook.cc:666
-#, fuzzy
+#,fuzzy
 msgid "Unable to add a new entry with available key."
 msgstr "Impossibile aggiungere una nuova voce con un tasto disponibile."
 
@@ -2737,15 +2735,15 @@ msgstr "Programma di posta avviato."
 #~ msgid "The file %s does already exist. Do you really want to overwrite it ?"
 #~ msgstr "Il file %s esiste già.Volete sovrascriverlo?"
 
-#, fuzzy
+
 #~ msgid "Bytes"
 #~ msgstr " Byte"
 
-#, fuzzy
+
 #~ msgid "Kb"
 #~ msgstr " Kb"
 
-#, fuzzy
+
 #~ msgid "Mb"
 #~ msgstr " Mb"
 
