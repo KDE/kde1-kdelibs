@@ -820,8 +820,7 @@ msgid ""
 "Please choose a unique key combination."
 msgstr ""
 "La combinación de teclas %s ya está en uso\n"
-"para la acción global %s.\n"
-"\n"
+"para la acción global %s."
 
 #: kdeui/kkeydialog.cpp:1039
 msgid "Global key conflict"
@@ -836,8 +835,7 @@ msgid ""
 "Please choose a unique key combination."
 msgstr ""
 "La combinación de teclas %s ya está en uso\n"
-"para la acción estandar %s.\n"
-"\n"
+"para la acción estandar %s."
 
 #: kdeui/kkeydialog.cpp:1066
 msgid "Standard key conflict"
@@ -852,8 +850,7 @@ msgid ""
 "Please choose a unique key combination."
 msgstr ""
 "La combinación de teclas %s ya está en uso\n"
-"para la acción %s.\n"
-"\n"
+"para la acción %s."
 
 #: kdeui/kkeydialog.cpp:1090
 msgid "Key conflict"
