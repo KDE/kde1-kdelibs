@@ -53,6 +53,7 @@ msgstr ""
 "\n"
 "Bonvolu raporti erarojn æe http://buglist.kde.org.\n"
 
+
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416
 #: kdeui/keditcl1.cpp:477 kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573
 #: kdeui/keditcl2.cpp:108 kdeui/keditcl2.cpp:125 kdeui/keditcl2.cpp:365
@@ -322,7 +323,7 @@ msgstr "Anstataýigu"
 
 #: kdeui/keditcl2.cpp:684 kdeui/keditcl2.cpp:782
 msgid "Case Sensitive"
-msgstr "Distingu majusklojn kaj minusklojn"
+msgstr "Dist. usklecon"
 
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:785
 msgid "Find Backwards"
@@ -634,7 +635,7 @@ msgstr "Nova dosierujo"
 
 #: kfile/kfiledialog.cpp:932
 msgid "Add to bookmarks"
-msgstr "Aldonu la legosignoj"
+msgstr "Aldonu al legosignoj"
 
 #: kfile/kfiledialog.cpp:1213
 msgid "Choose Directory"
@@ -1025,7 +1026,7 @@ msgstr "Fermu"
 
 #: po/texts.cpp:86
 msgid "&Close"
-msgstr "&Fermu"
+msgstr "F&ermu"
 
 #: po/texts.cpp:87
 msgid "&Print..."
@@ -1246,3 +1247,4 @@ msgstr "&Sekva >>"
 #: po/texts.cpp:145
 msgid "<< &Previous"
 msgstr "<< &Antaýa"
+
