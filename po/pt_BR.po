@@ -1001,7 +1001,7 @@ msgstr "Cor de &Fundo"
 
 #: po/texts.cpp:81
 msgid "&Save"
-msgstr "&Gravar"
+msgstr "&Salvar"
 
 #: po/texts.cpp:83
 msgid "Save as..."
