@@ -629,7 +629,7 @@ msgstr ""
 
 #: kdeui/keditcl2.cpp:682 kdeui/keditcl2.cpp:780
 msgid "Case Sensitive"
-msgstr "Afhængig af store/små bogstaver"
+msgstr "Afhængig af bogstavsstørrelse"
 
 #: kdeui/keditcl2.cpp:683 kdeui/keditcl2.cpp:783
 msgid "Find Backwards"
