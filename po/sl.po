@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-01-17 07:40+0100\n"
+"POT-Creation-Date: 1998-04-17 23:25+0200\n"
 "PO-Revision-Date: 1998-05-01 12:12+0100\n"
 "Last-Translator: Bla¾ Zupanèiè <Blaz.Zupancic@guest.arnes.si>\n"
 "Language-Team: Slovenian\n"
@@ -14,92 +14,88 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: iso-8859-2\n"
 
-#: kdecore/kapp.cpp:416
-msgid "&Help..."
-msgstr "&Pomoè..."
+#: kdecore/kapp.cpp:494
+#, fuzzy
+msgid "&Contents"
+msgstr "Vsebina"
 
-#: kdecore/kapp.cpp:421
+#: kdecore/kapp.cpp:500
 msgid "&About"
 msgstr "&O programu"
 
-#: kdecore/kapp.cpp:425
+#: kdecore/kapp.cpp:507
 msgid "About &KDE..."
 msgstr "O &KDE..."
 
-#: kdecore/kapp.cpp:446
+#: kdecore/kapp.cpp:528
 msgid "About KDE"
 msgstr "O KDE"
 
-#: kdecore/kapp.cpp:448
+#: kdecore/kapp.cpp:530
 msgid ""
-"The KDE Desktop Environment was written by the KDE team.\n"
+"\n"
+"The KDE Desktop Environment was written by the KDE Team,\n"
+"a world-wide network of software engineers commited to\n"
+"free software development.\n"
+"\n"
+"Visit http://www.kde.org for more information on the KDE\n"
+"Project. Please consider joining and supporting KDE.\n"
 "\n"
 "Please report bugs at http://buglist.kde.org.\n"
-"\n"
-"\n"
-"KDE was developed with Qt, a cross-platform GUI library.\n"
-"\n"
-"Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
-"Qt may be used freely to develop free software on the X Window System.\n"
 msgstr ""
-"KDE namizno okolje je napisala KDE ekipa.\n"
-"\n"
-"Prosimo, da poroèate o hro¹èih na naslovu http://buglist.kde.org.\n"
-"\n"
-"\n"
-"KDE je bil razvit s Qt, GUI knji¾nico za veè platform.\n"
-"\n"
-"Qt je proizvod Troll Techa (http://www.troll.no, info@troll.no).\n"
-"Lahko ga zastonj uporabljate za pisanje brezplaènih programov v X Oknih.\n"
 
-#: kdeui/kcolordlg.cpp:283
+#: kdeui/kcolordlg.cpp:285
 msgid "Select Color"
 msgstr "Izberi barvo"
 
-#: kdeui/kcolordlg.cpp:295
+#: kdeui/kcolordlg.cpp:297
 msgid "System Colors"
 msgstr "Sistemske barve"
 
-#: kdeui/kcolordlg.cpp:326
+#: kdeui/kcolordlg.cpp:328
 msgid "Custom Colors"
 msgstr "Izbrane barve"
 
-#: kdeui/kcolordlg.cpp:339
+#: kdeui/kcolordlg.cpp:341
 msgid "Add to Custom Colors"
 msgstr "Dodaj izbranim barvam"
 
-#: kdeui/kcolordlg.cpp:461 kdeui/kfontdialog.cpp:351
-#: kdeui/kiconloaderdialog.cpp:210 po/texts.cpp:37
+#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:337
+#: kdeui/kiconloaderdialog.cpp:210 kfile/kfiledialog.cpp:898 po/texts.cpp:37
 msgid "Ok"
 msgstr "V redu"
 
-#: kdeui/kcolordlg.cpp:464 kdeui/kcontrol.cpp:41 kdeui/keditcl1.cpp:397
-#: kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897 kdeui/kfontdialog.cpp:346
-#: kdeui/kiconloaderdialog.cpp:211 kdeui/kmsgbox.cpp:509 po/texts.cpp:40
+#: kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:41 kdeui/keditcl1.cpp:397
+#: kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897 kdeui/kfontdialog.cpp:332
+#: kdeui/kiconloaderdialog.cpp:211 kdeui/kmsgbox.cpp:505
+#: kfile/kfiledialog.cpp:286 kfile/kfiledialog.cpp:903
+#: kfile/kfiledialogconf.cpp:58 po/texts.cpp:40
 msgid "Cancel"
 msgstr "Preklièi"
 
-#: kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34 po/texts.cpp:45
+#: kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34 kfile/kfiledialog.cpp:292
+#: po/texts.cpp:45
 msgid "Help"
 msgstr "Pomoè"
 
-#: kdeui/kcolordlg.cpp:786 kdeui/kcolordlg.cpp:838
+#: kdeui/kcolordlg.cpp:788 kdeui/kcolordlg.cpp:840
 msgid "Custom..."
 msgstr "Izbrano..."
 
 #: kdeui/kcontrol.cpp:39 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
-#: kdeui/keditcl1.cpp:1472 kdeui/keditcl1.cpp:1629 kdeui/kmsgbox.cpp:477
-#: po/texts.cpp:35
+#: kdeui/keditcl1.cpp:1473 kdeui/keditcl1.cpp:1630 kdeui/kmsgbox.cpp:473
+#: kfile/kfiledialog.cpp:280 kfile/kfiledialog.cpp:513
+#: kfile/kfiledialogconf.cpp:60 po/texts.cpp:35
 msgid "OK"
 msgstr "V redu"
 
-#: kdeui/kcontrol.cpp:40 po/texts.cpp:42
+#: kdeui/kcontrol.cpp:40 kfile/kfiledialogconf.cpp:59 po/texts.cpp:42
 msgid "Apply"
 msgstr "Uporabi"
 
 #: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
-#: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1470 po/texts.cpp:87
+#: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:87
 msgid "Sorry"
 msgstr "Oprostite"
 
@@ -108,7 +104,7 @@ msgid "The specified File does not exist"
 msgstr "®eljena datoteka ne obstaja"
 
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:494
-#: kdeui/keditcl1.cpp:1626
+#: kdeui/keditcl1.cpp:1627
 msgid "Sorry:"
 msgstr "Oprostite:"
 
@@ -128,7 +124,7 @@ msgstr "Pri odpiranju dokumenta je pri¹lo do napake"
 msgid "Select Document to Insert"
 msgstr "Izberite dokument, ki ga ¾elite vstaviti"
 
-#: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1569
+#: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1570
 msgid "Warning:"
 msgstr "Pozor:"
 
@@ -141,18 +137,18 @@ msgstr ""
 "Ga ¾elite shraniti?"
 
 #: kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416 kdeui/keditcl1.cpp:477
-#: kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1572 kdeui/keditcl2.cpp:108
+#: kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573 kdeui/keditcl2.cpp:108
 #: kdeui/keditcl2.cpp:125 kdeui/keditcl2.cpp:365 kdeui/keditcl2.cpp:382
 #: kdeui/keditcl2.cpp:428 kdeui/keditcl2.cpp:458 kdeui/keditcl2.cpp:475
-#: kdeui/kmsgbox.cpp:492 kdeui/kmsgbox.cpp:507 po/texts.cpp:27
+#: kdeui/kmsgbox.cpp:488 kdeui/kmsgbox.cpp:503 po/texts.cpp:27
 msgid "Yes"
 msgstr "Ja"
 
 #: kdeui/keditcl1.cpp:396 kdeui/keditcl1.cpp:417 kdeui/keditcl1.cpp:478
-#: kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1573 kdeui/keditcl2.cpp:109
+#: kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1574 kdeui/keditcl2.cpp:109
 #: kdeui/keditcl2.cpp:126 kdeui/keditcl2.cpp:366 kdeui/keditcl2.cpp:383
 #: kdeui/keditcl2.cpp:429 kdeui/keditcl2.cpp:459 kdeui/keditcl2.cpp:476
-#: kdeui/kmsgbox.cpp:490 kdeui/kmsgbox.cpp:505 po/texts.cpp:28
+#: kdeui/kmsgbox.cpp:486 kdeui/kmsgbox.cpp:501 po/texts.cpp:28
 msgid "No"
 msgstr "Ne"
 
@@ -180,15 +176,15 @@ msgstr ""
 msgid "Untitled"
 msgstr "Brez naslova"
 
-#: kdeui/keditcl1.cpp:1471
+#: kdeui/keditcl1.cpp:1472
 msgid "Could not save the document\n"
 msgstr "Dokumenta mi ni uspelo shraniti.\n"
 
-#: kdeui/keditcl1.cpp:1541
+#: kdeui/keditcl1.cpp:1542
 msgid "Save Document As"
 msgstr "Shrani dokument kot"
 
-#: kdeui/keditcl1.cpp:1570
+#: kdeui/keditcl1.cpp:1571
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
@@ -196,7 +192,7 @@ msgstr ""
 "Dokument s tem imenom ¾e obstaja\n"
 "Ga ¾elite prepisati?"
 
-#: kdeui/keditcl1.cpp:1627
+#: kdeui/keditcl1.cpp:1628
 msgid "You do not have write permission to this file.\n"
 msgstr "Za pisanje v to datoteko nimate dovoljenja.\n"
 
@@ -260,81 +256,81 @@ msgstr "Pojdi v vrstico"
 msgid "Go"
 msgstr "Gremo"
 
-#: kdeui/kfontdialog.cpp:164
+#: kdeui/kfontdialog.cpp:145
 msgid "Select Font"
 msgstr "Izberi pisavo"
 
-#: kdeui/kfontdialog.cpp:168
+#: kdeui/kfontdialog.cpp:149
 msgid "Requested Font"
 msgstr "Zahtevana pisava"
 
-#: kdeui/kfontdialog.cpp:173
+#: kdeui/kfontdialog.cpp:154
 msgid "Actual Font"
 msgstr "Dejanska pisava"
 
-#: kdeui/kfontdialog.cpp:177 kdeui/kfontdialog.cpp:181
+#: kdeui/kfontdialog.cpp:158 kdeui/kfontdialog.cpp:162
 msgid "Family:"
 msgstr "Rod:"
 
-#: kdeui/kfontdialog.cpp:188 kdeui/kfontdialog.cpp:194 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:169 kdeui/kfontdialog.cpp:175 po/texts.cpp:26
 msgid "Charset:"
 msgstr "Nabor z.:"
 
-#: kdeui/kfontdialog.cpp:201 kdeui/kfontdialog.cpp:206
+#: kdeui/kfontdialog.cpp:182 kdeui/kfontdialog.cpp:187 kfile/kpreview.cpp:196
 msgid "Size:"
 msgstr "Mera:"
 
-#: kdeui/kfontdialog.cpp:215 kdeui/kfontdialog.cpp:220
+#: kdeui/kfontdialog.cpp:195 kdeui/kfontdialog.cpp:200
 msgid "Weight:"
 msgstr "Oblika:"
 
-#: kdeui/kfontdialog.cpp:229 kdeui/kfontdialog.cpp:237
+#: kdeui/kfontdialog.cpp:209 kdeui/kfontdialog.cpp:216
 msgid "Style:"
 msgstr "Slog:"
 
-#: kdeui/kfontdialog.cpp:272
+#: kdeui/kfontdialog.cpp:253
 msgid "Charset"
 msgstr "Nabor z."
 
-#: kdeui/kfontdialog.cpp:284
+#: kdeui/kfontdialog.cpp:264 kfile/kfiledetaillist.cpp:38
 msgid "Size"
 msgstr "Mera"
 
-#: kdeui/kfontdialog.cpp:323
+#: kdeui/kfontdialog.cpp:305
 msgid "Weight"
 msgstr "Oblika"
 
-#: kdeui/kfontdialog.cpp:324 kdeui/kfontdialog.cpp:433
+#: kdeui/kfontdialog.cpp:306 kdeui/kfontdialog.cpp:433
 msgid "normal"
 msgstr "navadna"
 
-#: kdeui/kfontdialog.cpp:325 kdeui/kfontdialog.cpp:435
+#: kdeui/kfontdialog.cpp:307 kdeui/kfontdialog.cpp:435
 msgid "bold"
 msgstr "krepka"
 
-#: kdeui/kfontdialog.cpp:334
+#: kdeui/kfontdialog.cpp:318
 msgid "Style"
 msgstr "Slog"
 
-#: kdeui/kfontdialog.cpp:335 kdeui/kfontdialog.cpp:446
-#: kdeui/kfontdialog.cpp:476
+#: kdeui/kfontdialog.cpp:319 kdeui/kfontdialog.cpp:446
+#: kdeui/kfontdialog.cpp:475
 msgid "roman"
 msgstr "roman"
 
-#: kdeui/kfontdialog.cpp:336 kdeui/kfontdialog.cpp:448
-#: kdeui/kfontdialog.cpp:474
+#: kdeui/kfontdialog.cpp:320 kdeui/kfontdialog.cpp:448
+#: kdeui/kfontdialog.cpp:473
 msgid "italic"
 msgstr "po¹even"
 
-#: kdeui/kfontdialog.cpp:364
+#: kdeui/kfontdialog.cpp:350
 msgid "Dolor Ipse"
 msgstr "Ta suhi ¹kafec pu¹èa."
 
-#: kdeui/kfontdialog.cpp:469
+#: kdeui/kfontdialog.cpp:468
 msgid "Bold"
 msgstr "Krepko"
 
-#: kdeui/kfontdialog.cpp:471
+#: kdeui/kfontdialog.cpp:470
 msgid "Normal"
 msgstr "Navadno"
 
@@ -346,38 +342,371 @@ msgstr "Izberi ikono"
 msgid "Filter:"
 msgstr "Filter:"
 
-#: kdeui/kmenubar.cpp:149 kdeui/ktoolbar.cpp:315
+#: kdeui/kmenubar.cpp:154 kdeui/ktoolbar.cpp:435
 msgid "Top"
 msgstr "Na vrh"
 
-#: kdeui/kmenubar.cpp:150 kdeui/ktoolbar.cpp:317
+#: kdeui/kmenubar.cpp:155 kdeui/ktoolbar.cpp:437
 msgid "Bottom"
 msgstr "Na dno"
 
-#: kdeui/kmenubar.cpp:151 kdeui/ktoolbar.cpp:318
+#: kdeui/kmenubar.cpp:156 kdeui/ktoolbar.cpp:438
 msgid "Floating"
 msgstr "Lebdeèe"
 
-#: kdeui/kmenubar.cpp:191 kdeui/kmenubar.cpp:330 kdeui/ktoolbar.cpp:784
-#: kdeui/ktoolbar.cpp:1329
+#: kdeui/kmenubar.cpp:197 kdeui/kmenubar.cpp:337 kdeui/ktoolbar.cpp:1459
 msgid "Float"
 msgstr "Lebdeèe"
 
-#: kdeui/kmenubar.cpp:319 kdeui/ktoolbar.cpp:1315
+#: kdeui/kmenubar.cpp:326 kdeui/ktoolbar.cpp:1441
 msgid "UnFloat"
 msgstr "Nelebdeèe"
 
-#: kdeui/ktoolbar.cpp:118 kdeui/ktoolbar.cpp:177
+#: kdeui/ktoolbar.cpp:153 kdeui/ktoolbar.cpp:277
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: ikone ni; mogoèe manjka katera datoteka"
 
-#: kdeui/ktoolbar.cpp:314
+#: kdeui/ktoolbar.cpp:434
 msgid "Left"
 msgstr "Levo"
 
-#: kdeui/ktoolbar.cpp:316
+#: kdeui/ktoolbar.cpp:436
 msgid "Right"
 msgstr "Desno"
+
+#: kfile/bookmark.cpp:246
+msgid "<!-- Do not edit this file -->"
+msgstr ""
+
+#: kfile/kcombiview.cpp:80
+#, fuzzy
+msgid "Folders:"
+msgstr "Filter:"
+
+#: kfile/kcombiview.cpp:81
+#, fuzzy
+msgid "Contents:"
+msgstr "Vsebina"
+
+#: kfile/kfiledetaillist.cpp:36
+#, fuzzy
+msgid "Name"
+msgstr "Nova igra"
+
+#: kfile/kfiledetaillist.cpp:40
+msgid "Permissions"
+msgstr ""
+
+#: kfile/kfiledetaillist.cpp:42
+#, fuzzy
+msgid "Date"
+msgstr "Prilepi"
+
+#: kfile/kfiledetaillist.cpp:45
+msgid "Owner"
+msgstr ""
+
+#: kfile/kfiledetaillist.cpp:47
+msgid "Group"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:144 po/texts.cpp:56
+msgid "Back"
+msgstr "Nazaj"
+
+#: kfile/kfiledialog.cpp:147 po/texts.cpp:57
+msgid "Forward"
+msgstr "Naprej"
+
+#: kfile/kfiledialog.cpp:150
+msgid "Up to parent"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:153
+msgid "Home"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:156 po/texts.cpp:55
+msgid "Reload"
+msgstr "Ponovno nalo¾i"
+
+#: kfile/kfiledialog.cpp:172
+msgid "Bookmarks"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:176
+msgid "Create new folder"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:179
+#, fuzzy
+msgid "Search for a file"
+msgstr "Shrani datoteko"
+
+#: kfile/kfiledialog.cpp:182
+msgid "Configure this dialog [development only]"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:190
+msgid "The path"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:215
+msgid "&Location:"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:227
+#, fuzzy
+msgid "&Filter:"
+msgstr "Filter:"
+
+#: kfile/kfiledialog.cpp:260
+msgid "Show hidden"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:508
+msgid "Error: Not local file"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:509
+msgid ""
+"The specified directory is not a local directory\n"
+"But the application accepts just local files."
+msgstr ""
+
+#: kfile/kfiledialog.cpp:523 kfile/kfiledialog.cpp:623
+msgid "Error: Cannot Open Directory"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:524
+#, fuzzy
+msgid ""
+"The specified directory does not exist\n"
+"or was not readable."
+msgstr "®eljena datoteka ne obstaja"
+
+#: kfile/kfiledialog.cpp:526 kfile/kfiledialog.cpp:626
+msgid "Dismiss"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:562 kfile/kfiledialog.cpp:1156
+#: kfile/kfiledialog.cpp:1315 kfile/kfiledialog.cpp:1349 po/texts.cpp:69
+msgid "Open"
+msgstr "Odpri"
+
+#: kfile/kfiledialog.cpp:577 kfile/kfiledialog.cpp:1330 po/texts.cpp:80
+msgid "Save As"
+msgstr "Shrani kot"
+
+#: kfile/kfiledialog.cpp:599
+msgid "Root Directory"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:624
+#, fuzzy
+msgid "The specified directory does not exist or was not readable."
+msgstr "®eljena datoteka ne obstaja"
+
+#: kfile/kfiledialog.cpp:883
+msgid "Create new directory in: "
+msgstr ""
+
+#: kfile/kfiledialog.cpp:886
+msgid "New Directory"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:958
+#, fuzzy
+msgid "Add to bookmarks"
+msgstr "Dodaj izbranim barvam"
+
+#: kfile/kfiledialog.cpp:1190
+msgid "Choose Directory"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:1211 kfile/kfiledialog.cpp:1370 po/texts.cpp:78
+msgid "Save"
+msgstr "Shrani"
+
+#: kfile/kfiledialog.cpp:1258
+msgid "directory"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:1260
+msgid "directories"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:1262 kfile/kpreview.cpp:326
+#, fuzzy
+msgid "file"
+msgstr "Datoteka"
+
+#: kfile/kfiledialog.cpp:1264
+#, fuzzy
+msgid "files"
+msgstr "Datoteka"
+
+#: kfile/kfiledialog.cpp:1266
+#, c-format
+msgid "%d %s and %d %s"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:1276
+msgid "one directory"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:41
+msgid "Look and Feel"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:43
+msgid ""
+"KDE File Selector by:\n"
+"\n"
+"Richard Moore <rich@kde.org>\n"
+"Stephan Kulow <coolo@kde.org>\n"
+"and Daniel Grana <grana@ie.iwi.unibe.ch>\n"
+"\n"
+"with contributions by\n"
+"\n"
+"Mario Weilguni <mweilguni@sime.com>\n"
+"and Martin Jones <mjones@kde.org>"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
+msgid "About"
+msgstr "O programu"
+
+#: kfile/kfiledialogconf.cpp:70
+msgid "View style"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:74
+msgid "Show Short View"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:80
+msgid "Show Detail View"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:89
+msgid "Misc"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:95
+#, fuzzy
+msgid "Show Filter"
+msgstr "Filter:"
+
+#: kfile/kfiledialogconf.cpp:101
+msgid "Show List Labels"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:107
+msgid "Show Hidden"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:113
+msgid "Show Status Line"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:119
+msgid "Use single Click"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:125
+msgid "Mix dirs and files"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:131
+msgid "Keep dirs first"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:95 kfile/kfileinfo.cpp:99
+msgid "unknown"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:217
+msgid "Jan"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:218
+msgid "Feb"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:219
+msgid "Mar"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:220
+msgid "Apr"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:221
+msgid "May"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:222
+msgid "Jun"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:223
+msgid "Jul"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:224
+msgid "Aug"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:225
+msgid "Sep"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:226
+msgid "Oct"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:227
+#, fuzzy
+msgid "Nov"
+msgstr "Ne"
+
+#: kfile/kfileinfo.cpp:228
+msgid "Dec"
+msgstr ""
+
+#: kfile/kpreview.cpp:187
+#, fuzzy
+msgid "Name:"
+msgstr "Nova igra"
+
+#: kfile/kpreview.cpp:205
+msgid "Date:"
+msgstr ""
+
+#: kfile/kpreview.cpp:214
+msgid "Owner:"
+msgstr ""
+
+#: kfile/kpreview.cpp:223
+msgid "Group:"
+msgstr ""
+
+#: kfile/kpreview.cpp:232
+msgid "Type:"
+msgstr ""
+
+#: kfile/kpreview.cpp:287
+msgid "locked"
+msgstr ""
+
+#: kfile/kpreview.cpp:311
+msgid "picture"
+msgstr ""
+
+#: kfile/kpreview.cpp:343
+msgid "folder"
+msgstr ""
 
 #: po/texts.cpp:24
 msgid "Error"
@@ -398,10 +727,6 @@ msgstr "Shrani datoteko"
 #: po/texts.cpp:31
 msgid "Contents"
 msgstr "Vsebina"
-
-#: po/texts.cpp:32
-msgid "About"
-msgstr "O programu"
 
 #: po/texts.cpp:33
 msgid "A&bout..."
@@ -467,18 +792,6 @@ msgstr "Odidi"
 msgid "&Quit"
 msgstr "Od&idi"
 
-#: po/texts.cpp:55
-msgid "Reload"
-msgstr "Ponovno nalo¾i"
-
-#: po/texts.cpp:56
-msgid "Back"
-msgstr "Nazaj"
-
-#: po/texts.cpp:57
-msgid "Forward"
-msgstr "Naprej"
-
 #: po/texts.cpp:58
 msgid "Copy"
 msgstr "Kopiraj"
@@ -523,10 +836,6 @@ msgstr "Nova igra"
 msgid "&New Game"
 msgstr "&Nova igra"
 
-#: po/texts.cpp:69
-msgid "Open"
-msgstr "Odpri"
-
 #: po/texts.cpp:70
 msgid "Open a file"
 msgstr "Odpri datoteko"
@@ -559,17 +868,9 @@ msgstr "Barva o&spredja"
 msgid "&Background Color"
 msgstr "Barva o&zadja"
 
-#: po/texts.cpp:78
-msgid "Save"
-msgstr "Shrani"
-
 #: po/texts.cpp:79
 msgid "&Save"
 msgstr "&Shrani"
-
-#: po/texts.cpp:80
-msgid "Save As"
-msgstr "Shrani kot"
 
 #: po/texts.cpp:81
 msgid "Save as..."
@@ -654,3 +955,31 @@ msgstr "Obvestilo"
 #: po/texts.cpp:103
 msgid "Browse..."
 msgstr "Brskaj..."
+
+#: po/texts.cpp:104
+msgid "(none)"
+msgstr ""
+
+#~ msgid "&Help..."
+#~ msgstr "&Pomoè..."
+
+#~ msgid ""
+#~ "The KDE Desktop Environment was written by the KDE team.\n"
+#~ "\n"
+#~ "Please report bugs at http://buglist.kde.org.\n"
+#~ "\n"
+#~ "\n"
+#~ "KDE was developed with Qt, a cross-platform GUI library.\n"
+#~ "\n"
+#~ "Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
+#~ "Qt may be used freely to develop free software on the X Window System.\n"
+#~ msgstr ""
+#~ "KDE namizno okolje je napisala KDE ekipa.\n"
+#~ "\n"
+#~ "Prosimo, da poroèate o hro¹èih na naslovu http://buglist.kde.org.\n"
+#~ "\n"
+#~ "\n"
+#~ "KDE je bil razvit s Qt, GUI knji¾nico za veè platform.\n"
+#~ "\n"
+#~ "Qt je proizvod Troll Techa (http://www.troll.no, info@troll.no).\n"
+#~ "Lahko ga zastonj uporabljate za pisanje brezplaènih programov v X Oknih.\n"
