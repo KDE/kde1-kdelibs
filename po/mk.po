@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdebase\n"
-"POT-Creation-Date: 1999-03-25 01:01+0100\n"
+"POT-Creation-Date: 1999-03-30 01:01+0200\n"
 "PO-Revision-Date: 1998-05-22 10:10+0000\n"
 "Last-Translator: Sasha Konecni <sasha@msi-uk.com>\n"
 "Language-Team: Macedonian\n"
@@ -581,7 +581,8 @@ msgstr ""
 "Ne mozhe da se zachuva dokumentot.\n"
 "Napravi nov dokument bez razlika?"
 
-#: kdeui/keditcl1.cpp:547 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
+#: kdeui/keditcl1.cpp:547 kdeui/keditcl1.cpp:1700 kdeui/kpopmenu.cpp:10
+#: po/texts.cpp:34
 msgid "Untitled"
 msgstr "Bez Naslov"
 

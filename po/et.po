@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-03-25 01:01+0100\n"
+"POT-Creation-Date: 1999-03-30 01:01+0200\n"
 "PO-Revision-Date: 1999-02-05 19:46+0200\n"
 "Last-Translator: Hasso C. Tepper <heathcliff@iname.com>\n"
 "Language-Team: Estonian <heathcliff@iname.com>\n"
@@ -586,7 +586,8 @@ msgstr ""
 "Dokumenti ei saa salvestada.\n"
 "Kas luua vaatamata sellele uus dokument?"
 
-#: kdeui/keditcl1.cpp:547 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
+#: kdeui/keditcl1.cpp:547 kdeui/keditcl1.cpp:1700 kdeui/kpopmenu.cpp:10
+#: po/texts.cpp:34
 msgid "Untitled"
 msgstr "Nimetu"
 

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-03-25 01:01+0100\n"
+"POT-Creation-Date: 1999-03-30 01:01+0200\n"
 "PO-Revision-Date: 1998-06-25 01:00\n"
 "Last-Translator: LinuxKorea Co. <kde@linuxkorea.co.kr>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
@@ -582,7 +582,8 @@ msgstr ""
 "문서를 저장할 수 없읍니다.\n"
 "새 문서를 만드시겠습니까?"
 
-#: kdeui/keditcl1.cpp:547 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
+#: kdeui/keditcl1.cpp:547 kdeui/keditcl1.cpp:1700 kdeui/kpopmenu.cpp:10
+#: po/texts.cpp:34
 msgid "Untitled"
 msgstr "제목없음"
 

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-03-25 01:01+0100\n"
+"POT-Creation-Date: 1999-03-30 01:01+0200\n"
 "PO-Revision-Date: 1998-12-22 20:00-0500\n"
 "Last-Translator:  Vladimir Vuksan <vuksan@veus.hr> \n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -571,7 +571,8 @@ msgstr ""
 "Ne mogu spremiti dokument.\n"
 "®elite li ipak stvoriti novi dokument?"
 
-#: kdeui/keditcl1.cpp:547 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
+#: kdeui/keditcl1.cpp:547 kdeui/keditcl1.cpp:1700 kdeui/kpopmenu.cpp:10
+#: po/texts.cpp:34
 msgid "Untitled"
 msgstr "Bez imena"
 
