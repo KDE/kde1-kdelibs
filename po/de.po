@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-12-01 01:01+0100\n"
+"POT-Creation-Date: 1998-12-03 01:01+0100\n"
 "PO-Revision-Date: 1998-10-10 16:33+0200\n"
 "Last-Translator: Stephan Kulow <coolo@kde.org>\n"
 
@@ -815,6 +815,7 @@ msgid "Incorrect key"
 msgstr "Ungültige Taste"
 
 #: kdeui/kkeydialog.cpp:1026
+#, c-format
 msgid ""
 "The %s key combination has already been allocated\n"
 "to the global %s action.\n"
@@ -831,6 +832,7 @@ msgid "Global key conflict"
 msgstr ""
 
 #: kdeui/kkeydialog.cpp:1053
+#, c-format
 msgid ""
 "The %s key combination has already been allocated\n"
 "to the standard %s action.\n"
@@ -847,6 +849,7 @@ msgid "Standard key conflict"
 msgstr ""
 
 #: kdeui/kkeydialog.cpp:1077
+#, c-format
 msgid ""
 "The %s key combination has already been allocated\n"
 "to the %s action.\n"
@@ -862,23 +865,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr "Konflikt"
 
-#: kdeui/kmenubar.cpp:241 kdeui/ktoolbar.cpp:841
+#: kdeui/kmenubar.cpp:244 kdeui/ktoolbar.cpp:844
 msgid "Top"
 msgstr "Oben"
 
-#: kdeui/kmenubar.cpp:242 kdeui/ktoolbar.cpp:843
+#: kdeui/kmenubar.cpp:245 kdeui/ktoolbar.cpp:846
 msgid "Bottom"
 msgstr "Unten"
 
-#: kdeui/kmenubar.cpp:243 kdeui/ktoolbar.cpp:844
+#: kdeui/kmenubar.cpp:246 kdeui/ktoolbar.cpp:847
 msgid "Floating"
 msgstr "Beweglich"
 
-#: kdeui/kmenubar.cpp:393 kdeui/kmenubar.cpp:727 kdeui/ktoolbar.cpp:2155
+#: kdeui/kmenubar.cpp:396 kdeui/kmenubar.cpp:732 kdeui/ktoolbar.cpp:2158
 msgid "Float"
 msgstr "Beweglich"
 
-#: kdeui/kmenubar.cpp:696 kdeui/ktoolbar.cpp:2136
+#: kdeui/kmenubar.cpp:701 kdeui/ktoolbar.cpp:2139
 msgid "UnFloat"
 msgstr "Fest"
 
@@ -895,21 +898,22 @@ msgstr "&Standard"
 msgid "Quickhelp"
 msgstr "Schnell-Hilfe"
 
-#: kdeui/ktoolbar.cpp:269 kdeui/ktoolbar.cpp:321
+#: kdeui/ktoolbar.cpp:272 kdeui/ktoolbar.cpp:324
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr ""
 "KToolBarButton: Ein Fehler ist aufgetreten, wahrscheinlich fehlt eine Datei"
 
-#: kdeui/ktoolbar.cpp:840
+#: kdeui/ktoolbar.cpp:843
 msgid "Left"
 msgstr "Links"
 
-#: kdeui/ktoolbar.cpp:842
+#: kdeui/ktoolbar.cpp:845
 msgid "Right"
 msgstr "Rechts"
 
 # , c-format
 #: kdeui/kwizard.cpp:531 kdeui/kwizard.cpp:678
+#, c-format
 msgid "Page %d of %d"
 msgstr "Seite: %d von %d"
 
@@ -1067,6 +1071,7 @@ msgstr "Dateien"
 
 # , c-format
 #: kfile/kfiledialog.cpp:1309
+#, c-format
 msgid "%d %s and %d %s"
 msgstr "%d %s und %d %s"
 
@@ -1075,6 +1080,7 @@ msgid "one directory"
 msgstr "ein Verzeichnis"
 
 #: kfile/kfiledialog.cpp:1321
+#, c-format
 msgid "%d directories"
 msgstr "%d Verzeichnisse"
 
@@ -1236,6 +1242,7 @@ msgstr "Verzeichnis"
 
 # , c-format
 #: kfmlib/kfm.cpp:197
+#, c-format
 msgid ""
 "You dont have the file %s\n"
 "Could not do Authorization"
@@ -1251,6 +1258,7 @@ msgstr "KFM Fehler"
 
 # , c-format
 #: kfmlib/kfm.cpp:208
+#, c-format
 msgid ""
 "The file %s is corrupted\n"
 "Could not do Authorization"
@@ -2384,6 +2392,7 @@ msgid "Never"
 msgstr "Niemals"
 
 #: kio/kio_error.cc:16
+#, c-format
 msgid ""
 "Could not read\n"
 "%s"
@@ -2392,6 +2401,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:19
+#, c-format
 msgid ""
 "Could not write to\n"
 "%s"
@@ -2400,6 +2410,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:22
+#, c-format
 msgid ""
 "Could not start process\n"
 "%s"
@@ -2409,6 +2420,7 @@ msgstr ""
 "nicht starten."
 
 #: kio/kio_error.cc:25
+#, c-format
 msgid ""
 "Internal Error\n"
 "Please send a full bugreport to kde-bugs@kde.org\n"
@@ -2421,12 +2433,14 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:28
+#, c-format
 msgid ""
 "Malformed URL\n"
 "%s"
 msgstr "URL hat falsches Format"
 
 #: kio/kio_error.cc:31
+#, c-format
 msgid ""
 "The protocol %s\n"
 " is not supported"
@@ -2435,6 +2449,7 @@ msgstr ""
 "wird nicht unterstützt."
 
 #: kio/kio_error.cc:34
+#, c-format
 msgid ""
 "The protocol %s\n"
 "is only a filter protocol.\n"
@@ -2443,6 +2458,7 @@ msgstr ""
 "ist lediglich ein Filter-Protokoll.\n"
 
 #: kio/kio_error.cc:37
+#, c-format
 msgid ""
 "Unsupported action\n"
 "%s"
@@ -2451,6 +2467,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:40
+#, c-format
 msgid ""
 "The file or directory\n"
 "%s\n"
@@ -2461,6 +2478,7 @@ msgstr ""
 "existiert nicht."
 
 #: kio/kio_error.cc:43
+#, c-format
 msgid ""
 "%s\n"
 " is a directory,\n"
@@ -2471,12 +2489,14 @@ msgstr ""
 "Erwartet wird eine Datei."
 
 #: kio/kio_error.cc:46
+#, c-format
 msgid ""
 "Could not make directory\n"
 "%s"
 msgstr "Das Verzeichnis konnte nicht erstellt werden.%s"
 
 #: kio/kio_error.cc:49
+#, c-format
 msgid ""
 "The file or directory\n"
 "%s\n"
@@ -2487,6 +2507,7 @@ msgstr ""
 "existiert bereits."
 
 #: kio/kio_error.cc:52
+#, c-format
 msgid ""
 "%s\n"
 "Access denied"
@@ -2495,6 +2516,7 @@ msgstr ""
 "Zugriff verweigert"
 
 #: kio/kio_error.cc:55
+#, c-format
 msgid ""
 "Could not enter directory\n"
 "%s"
@@ -2503,6 +2525,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:58
+#, c-format
 msgid ""
 "The protocol %s\n"
 "does not implement a directory service"
@@ -2511,12 +2534,14 @@ msgstr ""
 "stellte keine Opterationen auf Verzeichnissen zur Verfügung."
 
 #: kio/kio_error.cc:61
+#, c-format
 msgid ""
 "Found a cyclic link in\n"
 "%s"
 msgstr "%sentält eine zyklische Verknüpfung"
 
 #: kio/kio_error.cc:64
+#, c-format
 msgid ""
 "Could not change permissions for\n"
 "%s"
@@ -2525,6 +2550,7 @@ msgstr ""
 "konnten die Rechte nicht geändert werden."
 
 #: kio/kio_error.cc:67
+#, c-format
 msgid ""
 "Access denied\n"
 "Could not write to\n"
@@ -2540,18 +2566,21 @@ msgstr ""
 "vom Benutzer abgebrochen."
 
 #: kio/kio_error.cc:73
+#, c-format
 msgid ""
 "Found a cyclic link while copying\n"
 "%s"
 msgstr "Beim Kopieren von%swurde eine zyklische Verknüfung gefunden."
 
 #: kio/kio_error.cc:76
+#, c-format
 msgid ""
 "Could not create socket for accessing\n"
 "%s"
 msgstr "Konnte Socket für den Zugriff auf%snicht erstellen."
 
 #: kio/kio_error.cc:79
+#, c-format
 msgid ""
 "Could not connect to host\n"
 "%s"
@@ -2560,6 +2589,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:82
+#, c-format
 msgid ""
 "Unknown host\n"
 "%s"
@@ -2568,6 +2598,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:85
+#, c-format
 msgid ""
 "Connection to host\n"
 "%s\n"
@@ -2578,6 +2609,7 @@ msgstr ""
 "ist unbrauchbar."
 
 #: kio/kio_error.cc:88
+#, c-format
 msgid ""
 "The protocol %s\n"
 "is not a filter protocol"
@@ -2586,6 +2618,7 @@ msgstr ""
 "ist kein Filterprotokoll."
 
 #: kio/kio_error.cc:91
+#, c-format
 msgid ""
 "%s\n"
 "is a file,\n"
@@ -2596,6 +2629,7 @@ msgstr ""
 "aber ein Verzeichnis wurde erwartet."
 
 #: kio/kio_error.cc:94
+#, c-format
 msgid ""
 "Could not mount device.\n"
 "The reported error was:\n"
@@ -2608,6 +2642,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:97
+#, c-format
 msgid ""
 "Could not unmount device.\n"
 "The reported error was:\n"
@@ -2620,6 +2655,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:100
+#, c-format
 msgid ""
 "The process for the\n"
 "%s protocol\n"
@@ -2630,6 +2666,7 @@ msgstr ""
 "wurde unerwartet beendet."
 
 #: kio/kio_error.cc:103
+#, c-format
 msgid ""
 "Could not access\n"
 "%s"
@@ -2638,6 +2675,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:106
+#, c-format
 msgid ""
 "Unknown error code %i\n"
 "%s\n"
@@ -2661,10 +2699,12 @@ msgid "Ok"
 msgstr "OK"
 
 #: kio/kio_job.cc:137
+#, c-format
 msgid "Mounting %s ..."
 msgstr "Einhängen von %s ..."
 
 #: kio/kio_job.cc:157
+#, c-format
 msgid "Unmounting %s ..."
 msgstr "Aushängen von %s ..."
 
@@ -2704,6 +2744,7 @@ msgid "You did not enter a filename"
 msgstr "Sie haben keine Dateinamen eingegeben."
 
 #: kio/kio_paste.cc:97
+#, c-format
 msgid "The file %s does already exist. Do you really want to overwrite it ?"
 msgstr "Ein Dokument %s existiert schon. Wollen Sie es überschreiben?"
 
@@ -2736,18 +2777,22 @@ msgid " Mb/s"
 msgstr " Mb/s"
 
 #: kio/kio_progress_dlg.cc:184
+#, c-format
 msgid "%i seconds"
 msgstr "%i seconds"
 
 #: kio/kio_progress_dlg.cc:190
+#, c-format
 msgid "%i:%i"
 msgstr "%i:%i"
 
 #: kio/kio_progress_dlg.cc:197
+#, c-format
 msgid "%i:%i:%i"
 msgstr "%i:%i:%i"
 
 #: kio/kio_progress_dlg.cc:201
+#, c-format
 msgid "%i%s  Remaining time: %s"
 msgstr "%i%s Verbleibende Zeit: %s"
 
@@ -2844,6 +2889,7 @@ msgid "does not conatain a MimeType=... entry"
 msgstr "enthält keinen Eintrag MimeType=..."
 
 #: kio/kmimetypes.cc:486
+#, c-format
 msgid ""
 "The kdelnk file\n"
 "%s\n"
@@ -2854,6 +2900,7 @@ msgstr ""
 "enhält keinen Eintrag Type=..."
 
 #: kio/kmimetypes.cc:504
+#, c-format
 msgid ""
 "The kdelnk type\n"
 "%s\n"
@@ -2864,6 +2911,7 @@ msgstr ""
 "ist unbekannt"
 
 #: kio/kmimetypes.cc:518 kio/kmimetypes.cc:598 kio/kmimetypes.cc:690
+#, c-format
 msgid ""
 "The kdelnk file\n"
 "%s\n"
@@ -2874,6 +2922,7 @@ msgstr ""
 "ist vom Typ FSDevice, hat aber keinen Eintrag Dev=..."
 
 #: kio/kmimetypes.cc:565
+#, c-format
 msgid ""
 "The kdelnk file\n"
 "%s\n"
@@ -2892,6 +2941,7 @@ msgid "Unmount"
 msgstr "Aushängen"
 
 #: kio/kmimetypes.cc:658
+#, c-format
 msgid ""
 "The kdelnk file\n"
 "%s\n"
@@ -2908,6 +2958,7 @@ msgid "The mime type _cfg file "
 msgstr "Die Mime-Typen _cfg Datei"
 
 #: kio/krun.cc:39
+#, c-format
 msgid ""
 "Can not enter\n"
 "%s\n"

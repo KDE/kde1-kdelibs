@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-12-01 01:01+0100\n"
+"POT-Creation-Date: 1998-12-03 01:01+0100\n"
 "PO-Revision-Date: 1998-11-17 01:00\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
@@ -751,6 +751,10 @@ msgstr "Trieu icona"
 msgid "Filter:"
 msgstr "Filtre:"
 
+#: kdeui/kkeydialog.cpp:219
+msgid "Configure key bindings"
+msgstr ""
+
 #: kdeui/kkeydialog.cpp:232 kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:205
 #: po/texts.cpp:45
 msgid "&Help"
@@ -768,6 +772,10 @@ msgstr "Tecla actual"
 msgid "&Action"
 msgstr "&Acció"
 
+#: kdeui/kkeydialog.cpp:365
+msgid "Choose a key for the selected action"
+msgstr ""
+
 #: kdeui/kkeydialog.cpp:392
 msgid "&No key"
 msgstr "&Cap tecla"
@@ -780,23 +788,99 @@ msgstr "Tecla per &omissió"
 msgid "&Custom key"
 msgstr "Tecla a &mida"
 
-#: kdeui/kmenubar.cpp:241 kdeui/ktoolbar.cpp:841
+#: kdeui/kkeydialog.cpp:471
+msgid "No keys defined"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:473
+msgid "Not configurable"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:528
+msgid "Global Keys"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:560
+msgid "Keys"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:635 kdeui/kkeydialog.cpp:968
+msgid "Attention : key already used"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:918
+msgid "Press the wanted key"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:941
+msgid "Undefined key"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:990
+msgid "Return to end edition"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:1000
+#, fuzzy
+msgid "Incorrect key"
+msgstr "Tecla actual"
+
+#: kdeui/kkeydialog.cpp:1026
+#, c-format
+msgid ""
+"The %s key combination has already been allocated\n"
+"to the global %s action.\n"
+"\n"
+"Please choose a unique key combination."
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:1030
+msgid "Global key conflict"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:1053
+#, c-format
+msgid ""
+"The %s key combination has already been allocated\n"
+"to the standard %s action.\n"
+"\n"
+"Please choose a unique key combination."
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:1057
+msgid "Standard key conflict"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:1077
+#, c-format
+msgid ""
+"The %s key combination has already been allocated\n"
+"to the %s action.\n"
+"\n"
+"Please choose a unique key combination."
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:1081
+msgid "Key conflict"
+msgstr ""
+
+#: kdeui/kmenubar.cpp:244 kdeui/ktoolbar.cpp:844
 msgid "Top"
 msgstr "Dalt"
 
-#: kdeui/kmenubar.cpp:242 kdeui/ktoolbar.cpp:843
+#: kdeui/kmenubar.cpp:245 kdeui/ktoolbar.cpp:846
 msgid "Bottom"
 msgstr "Baix"
 
-#: kdeui/kmenubar.cpp:243 kdeui/ktoolbar.cpp:844
+#: kdeui/kmenubar.cpp:246 kdeui/ktoolbar.cpp:847
 msgid "Floating"
 msgstr "Flotant"
 
-#: kdeui/kmenubar.cpp:393 kdeui/kmenubar.cpp:727 kdeui/ktoolbar.cpp:2155
+#: kdeui/kmenubar.cpp:396 kdeui/kmenubar.cpp:732 kdeui/ktoolbar.cpp:2158
 msgid "Float"
 msgstr "Surar"
 
-#: kdeui/kmenubar.cpp:696 kdeui/ktoolbar.cpp:2136
+#: kdeui/kmenubar.cpp:701 kdeui/ktoolbar.cpp:2139
 msgid "UnFloat"
 msgstr "No surar"
 
@@ -812,15 +896,15 @@ msgstr "&Omissió"
 msgid "Quickhelp"
 msgstr "Ajut ràpid"
 
-#: kdeui/ktoolbar.cpp:269 kdeui/ktoolbar.cpp:321
+#: kdeui/ktoolbar.cpp:272 kdeui/ktoolbar.cpp:324
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: el pixmap és buit, potser manca un fitxer"
 
-#: kdeui/ktoolbar.cpp:840
+#: kdeui/ktoolbar.cpp:843
 msgid "Left"
 msgstr "Esquerra"
 
-#: kdeui/ktoolbar.cpp:842
+#: kdeui/ktoolbar.cpp:845
 msgid "Right"
 msgstr "Dreta"
 
@@ -2855,7 +2939,7 @@ msgid "Unmount"
 msgstr "Desmunta"
 
 #: kio/kmimetypes.cc:658
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid ""
 "The kdelnk file\n"
 "%s\n"
