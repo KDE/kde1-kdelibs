@@ -98,4 +98,4 @@ merge:
 	done 
 
 clean:
-	rm *~ 
+	rm -f *~ 
