@@ -741,6 +741,10 @@ msgstr "Icon auswählen"
 msgid "Filter:"
 msgstr "Filter:"
 
+#: kdeui/kkeydialog.cpp:219
+msgid "Configure key bindings"
+msgstr "Tastenbelegungen konfigurieren"
+
 #: kdeui/kkeydialog.cpp:232 kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:205
 #: po/texts.cpp:45
 msgid "&Help"
@@ -758,6 +762,10 @@ msgstr "Aktuelle Taste"
 msgid "&Action"
 msgstr "&Aktion"
 
+#: kdeui/kkeydialog.cpp:365
+msgid "Choose a key for the selected action"
+msgstr "Tastenkombination für die ausgewählte Aktion"
+
 #: kdeui/kkeydialog.cpp:392
 msgid "&No key"
 msgstr "&Keine Taste"
@@ -769,6 +777,90 @@ msgstr "&Standard-Taste"
 #: kdeui/kkeydialog.cpp:408
 msgid "&Custom key"
 msgstr "&Benutzerdef. Tasten"
+
+#: kdeui/kkeydialog.cpp:471
+msgid "No keys defined"
+msgstr "Keine Tasten definiert"
+
+#: kdeui/kkeydialog.cpp:473
+msgid "Not configurable"
+msgstr "Nicht konfigurierbar"
+
+#: kdeui/kkeydialog.cpp:528
+msgid "Global Keys"
+msgstr "Globale Tastenbelegungen"
+
+#: kdeui/kkeydialog.cpp:560
+msgid "Keys"
+msgstr "Tastenbelegungen"
+
+#: kdeui/kkeydialog.cpp:635 kdeui/kkeydialog.cpp:968
+msgid "Attention : key already used"
+msgstr "Achtung: Tastenkombination wird schon verwendet"
+
+#: kdeui/kkeydialog.cpp:918
+msgid "Press the wanted key"
+msgstr "Drücken Sie die gewünschte Taste"
+
+#: kdeui/kkeydialog.cpp:941
+msgid "Undefined key"
+msgstr "Undefinierte Taste"
+
+#: kdeui/kkeydialog.cpp:990
+msgid "Return to end edition"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:1000
+msgid "Incorrect key"
+msgstr "Ungültige Taste"
+
+#: kdeui/kkeydialog.cpp:1026
+msgid ""
+"The %s key combination has already been allocated\n"
+"to the global %s action.\n"
+"\n"
+"Please choose a unique key combination."
+msgstr ""
+"Die Tastenkombination %s ist bereits der\n"
+"globalen Aktion %s zugeordnet.\n"
+"\n"
+"Bitte wählen Sie eine eindeutige Tastenkombination."
+
+#: kdeui/kkeydialog.cpp:1030
+msgid "Global key conflict"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:1053
+msgid ""
+"The %s key combination has already been allocated\n"
+"to the standard %s action.\n"
+"\n"
+"Please choose a unique key combination."
+msgstr ""
+"Die Tastenkombination %s ist bereits der\n"
+"Standardaktion %s zugeordnet.\n"
+"\n"
+"Bitte wählen Sie eine eindeutige Tastenkombination"
+
+#: kdeui/kkeydialog.cpp:1057
+msgid "Standard key conflict"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:1077
+msgid ""
+"The %s key combination has already been allocated\n"
+"to the %s action.\n"
+"\n"
+"Please choose a unique key combination."
+msgstr ""
+"Die Tastenkombination %s ist bereits der\n"
+"Aktion %s zugeordnet.\n"
+"\n"
+"Bitte wählen Sie eine eindeutige Tastenkombination"
+
+#: kdeui/kkeydialog.cpp:1081
+msgid "Key conflict"
+msgstr "Konflikt"
 
 #: kdeui/kmenubar.cpp:241 kdeui/ktoolbar.cpp:841
 msgid "Top"
@@ -818,7 +910,6 @@ msgstr "Rechts"
 
 # , c-format
 #: kdeui/kwizard.cpp:531 kdeui/kwizard.cpp:678
-#, c-format
 msgid "Page %d of %d"
 msgstr "Seite: %d von %d"
 
@@ -976,7 +1067,6 @@ msgstr "Dateien"
 
 # , c-format
 #: kfile/kfiledialog.cpp:1309
-#, c-format
 msgid "%d %s and %d %s"
 msgstr "%d %s und %d %s"
 
@@ -985,7 +1075,6 @@ msgid "one directory"
 msgstr "ein Verzeichnis"
 
 #: kfile/kfiledialog.cpp:1321
-#, c-format
 msgid "%d directories"
 msgstr "%d Verzeichnisse"
 
@@ -1147,7 +1236,6 @@ msgstr "Verzeichnis"
 
 # , c-format
 #: kfmlib/kfm.cpp:197
-#, c-format
 msgid ""
 "You dont have the file %s\n"
 "Could not do Authorization"
@@ -1163,7 +1251,6 @@ msgstr "KFM Fehler"
 
 # , c-format
 #: kfmlib/kfm.cpp:208
-#, c-format
 msgid ""
 "The file %s is corrupted\n"
 "Could not do Authorization"
@@ -2297,7 +2384,6 @@ msgid "Never"
 msgstr "Niemals"
 
 #: kio/kio_error.cc:16
-#, c-format
 msgid ""
 "Could not read\n"
 "%s"
@@ -2306,7 +2392,6 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:19
-#, c-format
 msgid ""
 "Could not write to\n"
 "%s"
@@ -2315,7 +2400,6 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:22
-#, c-format
 msgid ""
 "Could not start process\n"
 "%s"
@@ -2325,7 +2409,6 @@ msgstr ""
 "nicht starten."
 
 #: kio/kio_error.cc:25
-#, c-format
 msgid ""
 "Internal Error\n"
 "Please send a full bugreport to kde-bugs@kde.org\n"
@@ -2338,14 +2421,12 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:28
-#, c-format
 msgid ""
 "Malformed URL\n"
 "%s"
 msgstr "URL hat falsches Format"
 
 #: kio/kio_error.cc:31
-#, c-format
 msgid ""
 "The protocol %s\n"
 " is not supported"
@@ -2354,7 +2435,6 @@ msgstr ""
 "wird nicht unterstützt."
 
 #: kio/kio_error.cc:34
-#, c-format
 msgid ""
 "The protocol %s\n"
 "is only a filter protocol.\n"
@@ -2363,7 +2443,6 @@ msgstr ""
 "ist lediglich ein Filter-Protokoll.\n"
 
 #: kio/kio_error.cc:37
-#, c-format
 msgid ""
 "Unsupported action\n"
 "%s"
@@ -2372,7 +2451,6 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:40
-#, c-format
 msgid ""
 "The file or directory\n"
 "%s\n"
@@ -2383,7 +2461,6 @@ msgstr ""
 "existiert nicht."
 
 #: kio/kio_error.cc:43
-#, c-format
 msgid ""
 "%s\n"
 " is a directory,\n"
@@ -2394,14 +2471,12 @@ msgstr ""
 "Erwartet wird eine Datei."
 
 #: kio/kio_error.cc:46
-#, c-format
 msgid ""
 "Could not make directory\n"
 "%s"
 msgstr "Das Verzeichnis konnte nicht erstellt werden.%s"
 
 #: kio/kio_error.cc:49
-#, c-format
 msgid ""
 "The file or directory\n"
 "%s\n"
@@ -2412,7 +2487,6 @@ msgstr ""
 "existiert bereits."
 
 #: kio/kio_error.cc:52
-#, c-format
 msgid ""
 "%s\n"
 "Access denied"
@@ -2421,7 +2495,6 @@ msgstr ""
 "Zugriff verweigert"
 
 #: kio/kio_error.cc:55
-#, c-format
 msgid ""
 "Could not enter directory\n"
 "%s"
@@ -2430,7 +2503,6 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:58
-#, c-format
 msgid ""
 "The protocol %s\n"
 "does not implement a directory service"
@@ -2439,14 +2511,12 @@ msgstr ""
 "stellte keine Opterationen auf Verzeichnissen zur Verfügung."
 
 #: kio/kio_error.cc:61
-#, c-format
 msgid ""
 "Found a cyclic link in\n"
 "%s"
 msgstr "%sentält eine zyklische Verknüpfung"
 
 #: kio/kio_error.cc:64
-#, c-format
 msgid ""
 "Could not change permissions for\n"
 "%s"
@@ -2455,7 +2525,6 @@ msgstr ""
 "konnten die Rechte nicht geändert werden."
 
 #: kio/kio_error.cc:67
-#, c-format
 msgid ""
 "Access denied\n"
 "Could not write to\n"
@@ -2471,21 +2540,18 @@ msgstr ""
 "vom Benutzer abgebrochen."
 
 #: kio/kio_error.cc:73
-#, c-format
 msgid ""
 "Found a cyclic link while copying\n"
 "%s"
 msgstr "Beim Kopieren von%swurde eine zyklische Verknüfung gefunden."
 
 #: kio/kio_error.cc:76
-#, c-format
 msgid ""
 "Could not create socket for accessing\n"
 "%s"
 msgstr "Konnte Socket für den Zugriff auf%snicht erstellen."
 
 #: kio/kio_error.cc:79
-#, c-format
 msgid ""
 "Could not connect to host\n"
 "%s"
@@ -2494,7 +2560,6 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:82
-#, c-format
 msgid ""
 "Unknown host\n"
 "%s"
@@ -2503,7 +2568,6 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:85
-#, c-format
 msgid ""
 "Connection to host\n"
 "%s\n"
@@ -2514,7 +2578,6 @@ msgstr ""
 "ist unbrauchbar."
 
 #: kio/kio_error.cc:88
-#, c-format
 msgid ""
 "The protocol %s\n"
 "is not a filter protocol"
@@ -2523,7 +2586,6 @@ msgstr ""
 "ist kein Filterprotokoll."
 
 #: kio/kio_error.cc:91
-#, c-format
 msgid ""
 "%s\n"
 "is a file,\n"
@@ -2534,7 +2596,6 @@ msgstr ""
 "aber ein Verzeichnis wurde erwartet."
 
 #: kio/kio_error.cc:94
-#, c-format
 msgid ""
 "Could not mount device.\n"
 "The reported error was:\n"
@@ -2547,7 +2608,6 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:97
-#, c-format
 msgid ""
 "Could not unmount device.\n"
 "The reported error was:\n"
@@ -2560,7 +2620,6 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:100
-#, c-format
 msgid ""
 "The process for the\n"
 "%s protocol\n"
@@ -2571,7 +2630,6 @@ msgstr ""
 "wurde unerwartet beendet."
 
 #: kio/kio_error.cc:103
-#, c-format
 msgid ""
 "Could not access\n"
 "%s"
@@ -2580,7 +2638,6 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:106
-#, c-format
 msgid ""
 "Unknown error code %i\n"
 "%s\n"
@@ -2604,12 +2661,10 @@ msgid "Ok"
 msgstr "OK"
 
 #: kio/kio_job.cc:137
-#, c-format
 msgid "Mounting %s ..."
 msgstr "Einhängen von %s ..."
 
 #: kio/kio_job.cc:157
-#, c-format
 msgid "Unmounting %s ..."
 msgstr "Aushängen von %s ..."
 
@@ -2649,7 +2704,6 @@ msgid "You did not enter a filename"
 msgstr "Sie haben keine Dateinamen eingegeben."
 
 #: kio/kio_paste.cc:97
-#, c-format
 msgid "The file %s does already exist. Do you really want to overwrite it ?"
 msgstr "Ein Dokument %s existiert schon. Wollen Sie es überschreiben?"
 
@@ -2682,22 +2736,18 @@ msgid " Mb/s"
 msgstr " Mb/s"
 
 #: kio/kio_progress_dlg.cc:184
-#, c-format
 msgid "%i seconds"
 msgstr "%i seconds"
 
 #: kio/kio_progress_dlg.cc:190
-#, c-format
 msgid "%i:%i"
 msgstr "%i:%i"
 
 #: kio/kio_progress_dlg.cc:197
-#, c-format
 msgid "%i:%i:%i"
 msgstr "%i:%i:%i"
 
 #: kio/kio_progress_dlg.cc:201
-#, c-format
 msgid "%i%s  Remaining time: %s"
 msgstr "%i%s Verbleibende Zeit: %s"
 
@@ -2794,7 +2844,6 @@ msgid "does not conatain a MimeType=... entry"
 msgstr "enthält keinen Eintrag MimeType=..."
 
 #: kio/kmimetypes.cc:486
-#, c-format
 msgid ""
 "The kdelnk file\n"
 "%s\n"
@@ -2805,7 +2854,6 @@ msgstr ""
 "enhält keinen Eintrag Type=..."
 
 #: kio/kmimetypes.cc:504
-#, c-format
 msgid ""
 "The kdelnk type\n"
 "%s\n"
@@ -2816,7 +2864,6 @@ msgstr ""
 "ist unbekannt"
 
 #: kio/kmimetypes.cc:518 kio/kmimetypes.cc:598 kio/kmimetypes.cc:690
-#, c-format
 msgid ""
 "The kdelnk file\n"
 "%s\n"
@@ -2827,7 +2874,6 @@ msgstr ""
 "ist vom Typ FSDevice, hat aber keinen Eintrag Dev=..."
 
 #: kio/kmimetypes.cc:565
-#, c-format
 msgid ""
 "The kdelnk file\n"
 "%s\n"
@@ -2846,7 +2892,6 @@ msgid "Unmount"
 msgstr "Aushängen"
 
 #: kio/kmimetypes.cc:658
-#, c-format
 msgid ""
 "The kdelnk file\n"
 "%s\n"
@@ -2863,7 +2908,6 @@ msgid "The mime type _cfg file "
 msgstr "Die Mime-Typen _cfg Datei"
 
 #: kio/krun.cc:39
-#, c-format
 msgid ""
 "Can not enter\n"
 "%s\n"
