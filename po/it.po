@@ -1,31 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-01-25 13:21+0100\n"
-"PO-Revision-Date: 1998-01-22 17:20+0100\n"
-"Last-Translator: Andrea Rizzi <BILIBAO@ouverture.it>\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-01-03 22:39+0100\n"
+"PO-Revision-Date: 1998-02-03 16:00+0100n"
+"Last-Translator: Andrea Rizzi <Bilibao@ouverture.it>\n"
+"Language-Team: Italiano <it@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
 
-#: kdecore/kapp.cpp:419
+#: kdecore/kapp.cpp:410
 msgid "&Help..."
 msgstr "&Aiuto..."
 
-#: kdecore/kapp.cpp:424
+#: kdecore/kapp.cpp:415
 msgid "&About"
 msgstr "&Info"
 
-#: kdecore/kapp.cpp:428
+#: kdecore/kapp.cpp:419
 msgid "About &KDE..."
 msgstr "Info sul &KDE"
 
-#: kdecore/kapp.cpp:449
+#: kdecore/kapp.cpp:440
 msgid "About KDE"
 msgstr "Info sul KDE"
 
-#: kdecore/kapp.cpp:451
+#: kdecore/kapp.cpp:442
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
-"Please report bugs at http://buglist.kde.org.\n"
+"Please send bug reports to kde-bugs@kde.org.\n"
 "\n"
 "\n"
 "KDE was developed with Qt, a cross-platform GUI library.\n"
@@ -33,20 +42,19 @@ msgid ""
 "Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
 "Qt may be used freely to develop free software on the X Window System.\n"
 msgstr ""
-"Il KDE Desktop è stato scritto dal KDE team.\n"
+"Il KDE Desktop Environment è scritto dal KDE team.\n"
 "\n"
-"Per favore sganalo i bug a http://buglist.kde.org.\n"
+"Per favore segnala ogni bug  a kde-bugs@kde.org.\n"
 "\n"
 "\n"
-"KDE was developed with Qt, a cross-platform GUI library.\n"
+"KDE è sviluppato con QT una libreria GUI multi piattaforma.\n"
 "\n"
-"Qt è un prodotto della Troll Tech (http://www.troll.no, info@troll.no).\n"
-"Qt può essere usato liberamente per sviluppare free software per il sistema "
-"X Window .\n"
+"Qt è un prodotto Troll Tech (http://www.troll.no, info@troll.no).\n"
+"Qt può essere usato liberamente per sviluppare free software on the X Window System.\n"
 
 #: kdeui/kcolordlg.cpp:283
 msgid "Select Color"
-msgstr "Scelta Colore"
+msgstr "Scegli colore"
 
 #: kdeui/kcolordlg.cpp:295
 msgid "System Colors"
@@ -60,20 +68,20 @@ msgstr "Colori personalizzati"
 msgid "Add to Custom Colors"
 msgstr "Aggiungi ai colori personalizzati"
 
-#: kdeui/kcolordlg.cpp:461 kdeui/kfontdialog.cpp:322
+#: kdeui/kcolordlg.cpp:461 kdeui/kfontdialog.cpp:351
 #: kdeui/kiconloaderdialog.cpp:210 po/texts.cpp:37
 msgid "Ok"
 msgstr "Ok"
 
 #: kdeui/kcolordlg.cpp:464 kdeui/kcontrol.cpp:41 kdeui/keditcl1.cpp:397
-#: kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897 kdeui/kfontdialog.cpp:317
+#: kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897 kdeui/kfontdialog.cpp:346
 #: kdeui/kiconloaderdialog.cpp:211 kdeui/kmsgbox.cpp:509 po/texts.cpp:40
 msgid "Cancel"
-msgstr "Annulla"
+msgstr "Cancella"
 
 #: kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34 po/texts.cpp:45
 msgid "Help"
-msgstr "Aiuto"
+msgstr "?"
 
 #: kdeui/kcolordlg.cpp:786 kdeui/kcolordlg.cpp:838
 msgid "Custom..."
@@ -81,7 +89,7 @@ msgstr "Personalizza..."
 
 #: kdeui/kcontrol.cpp:39 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
-#: kdeui/keditcl1.cpp:1473 kdeui/keditcl1.cpp:1630 kdeui/kmsgbox.cpp:477
+#: kdeui/keditcl1.cpp:1472 kdeui/keditcl1.cpp:1629 kdeui/kmsgbox.cpp:477
 #: po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
@@ -91,7 +99,7 @@ msgid "Apply"
 msgstr "Applica"
 
 #: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
-#: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:87
+#: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1470 po/texts.cpp:87
 msgid "Sorry"
 msgstr "Mi dispiace"
 
@@ -100,7 +108,7 @@ msgid "The specified File does not exist"
 msgstr "Il file specificato non esiste"
 
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:494
-#: kdeui/keditcl1.cpp:1627
+#: kdeui/keditcl1.cpp:1626
 msgid "Sorry:"
 msgstr "Mi dispiace:"
 
@@ -120,7 +128,7 @@ msgstr "Un Errore si é verificato aprendo questo Documento"
 msgid "Select Document to Insert"
 msgstr "Seleziona il Documento da Inserire"
 
-#: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1570
+#: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1569
 msgid "Warning:"
 msgstr "Attenzione:"
 
@@ -133,7 +141,7 @@ msgstr ""
 "Vuoi salvarlo?"
 
 #: kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416 kdeui/keditcl1.cpp:477
-#: kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573 kdeui/keditcl2.cpp:108
+#: kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1572 kdeui/keditcl2.cpp:108
 #: kdeui/keditcl2.cpp:125 kdeui/keditcl2.cpp:365 kdeui/keditcl2.cpp:382
 #: kdeui/keditcl2.cpp:428 kdeui/keditcl2.cpp:458 kdeui/keditcl2.cpp:475
 #: kdeui/kmsgbox.cpp:492 kdeui/kmsgbox.cpp:507 po/texts.cpp:27
@@ -141,7 +149,7 @@ msgid "Yes"
 msgstr "Si"
 
 #: kdeui/keditcl1.cpp:396 kdeui/keditcl1.cpp:417 kdeui/keditcl1.cpp:478
-#: kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1574 kdeui/keditcl2.cpp:109
+#: kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1573 kdeui/keditcl2.cpp:109
 #: kdeui/keditcl2.cpp:126 kdeui/keditcl2.cpp:366 kdeui/keditcl2.cpp:383
 #: kdeui/keditcl2.cpp:429 kdeui/keditcl2.cpp:459 kdeui/keditcl2.cpp:476
 #: kdeui/kmsgbox.cpp:490 kdeui/kmsgbox.cpp:505 po/texts.cpp:28
@@ -172,15 +180,15 @@ msgstr ""
 msgid "Untitled"
 msgstr "Senza Titolo"
 
-#: kdeui/keditcl1.cpp:1472
+#: kdeui/keditcl1.cpp:1471
 msgid "Could not save the document\n"
 msgstr "Impossibile salvare il documento\n"
 
-#: kdeui/keditcl1.cpp:1542
+#: kdeui/keditcl1.cpp:1541
 msgid "Save Document As"
 msgstr "Salva il Documento come"
 
-#: kdeui/keditcl1.cpp:1571
+#: kdeui/keditcl1.cpp:1570
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
@@ -188,7 +196,7 @@ msgstr ""
 "Un Documento con questo nome esiste già\n"
 "Volete sovrascrivere il Documento?"
 
-#: kdeui/keditcl1.cpp:1628
+#: kdeui/keditcl1.cpp:1627
 msgid "You do not have write permission to this file.\n"
 msgstr "Non hai il permesso di scrittura per questo file.\n"
 
@@ -252,122 +260,122 @@ msgstr "Vai alla linea"
 msgid "Go"
 msgstr "Vai"
 
-#: kdeui/kfontdialog.cpp:132
+#: kdeui/kfontdialog.cpp:164
 msgid "Select Font"
-msgstr "Scelta Carattere"
+msgstr "Secgli carattere"
 
-#: kdeui/kfontdialog.cpp:136
+#: kdeui/kfontdialog.cpp:168
 msgid "Requested Font"
 msgstr "Carattere richiesto"
 
-#: kdeui/kfontdialog.cpp:141
+#: kdeui/kfontdialog.cpp:173
 msgid "Actual Font"
 msgstr "Carattere attuale"
 
-#: kdeui/kfontdialog.cpp:145 kdeui/kfontdialog.cpp:149
+#: kdeui/kfontdialog.cpp:177 kdeui/kfontdialog.cpp:181
 msgid "Family:"
 msgstr "Famiglia:"
 
-#: kdeui/kfontdialog.cpp:156 kdeui/kfontdialog.cpp:162 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:188 kdeui/kfontdialog.cpp:194 po/texts.cpp:26
 msgid "Charset:"
 msgstr "Set caratteri:"
 
-#: kdeui/kfontdialog.cpp:169 kdeui/kfontdialog.cpp:174
+#: kdeui/kfontdialog.cpp:201 kdeui/kfontdialog.cpp:206
 msgid "Size:"
 msgstr "Dimensione:"
 
-#: kdeui/kfontdialog.cpp:183 kdeui/kfontdialog.cpp:188
+#: kdeui/kfontdialog.cpp:215 kdeui/kfontdialog.cpp:220
 msgid "Weight:"
 msgstr "Altezza:"
 
-#: kdeui/kfontdialog.cpp:197 kdeui/kfontdialog.cpp:205
+#: kdeui/kfontdialog.cpp:229 kdeui/kfontdialog.cpp:237
 msgid "Style:"
 msgstr "Stile:"
 
-#: kdeui/kfontdialog.cpp:240
+#: kdeui/kfontdialog.cpp:272
 msgid "Charset"
 msgstr "Set caratteri"
 
-#: kdeui/kfontdialog.cpp:255
+#: kdeui/kfontdialog.cpp:284
 msgid "Size"
 msgstr "Dimensione"
 
-#: kdeui/kfontdialog.cpp:294
+#: kdeui/kfontdialog.cpp:323
 msgid "Weight"
 msgstr "Altezza"
 
-#: kdeui/kfontdialog.cpp:295 kdeui/kfontdialog.cpp:413
+#: kdeui/kfontdialog.cpp:324 kdeui/kfontdialog.cpp:433
 msgid "normal"
 msgstr "normale"
 
-#: kdeui/kfontdialog.cpp:296 kdeui/kfontdialog.cpp:415
+#: kdeui/kfontdialog.cpp:325 kdeui/kfontdialog.cpp:435
 msgid "bold"
 msgstr "bold"
 
-#: kdeui/kfontdialog.cpp:305
+#: kdeui/kfontdialog.cpp:334
 msgid "Style"
 msgstr "Stile"
 
-#: kdeui/kfontdialog.cpp:306 kdeui/kfontdialog.cpp:426
-#: kdeui/kfontdialog.cpp:455
+#: kdeui/kfontdialog.cpp:335 kdeui/kfontdialog.cpp:446
+#: kdeui/kfontdialog.cpp:476
 msgid "roman"
 msgstr "romano"
 
-#: kdeui/kfontdialog.cpp:307 kdeui/kfontdialog.cpp:428
-#: kdeui/kfontdialog.cpp:453
+#: kdeui/kfontdialog.cpp:336 kdeui/kfontdialog.cpp:448
+#: kdeui/kfontdialog.cpp:474
 msgid "italic"
 msgstr "italico"
 
-#: kdeui/kfontdialog.cpp:335
+#: kdeui/kfontdialog.cpp:364
 msgid "Dolor Ipse"
 msgstr "Dolor Ipse"
 
-#: kdeui/kfontdialog.cpp:448
+#: kdeui/kfontdialog.cpp:469
 msgid "Bold"
 msgstr "Bold"
 
-#: kdeui/kfontdialog.cpp:450
+#: kdeui/kfontdialog.cpp:471
 msgid "Normal"
 msgstr "Normale"
 
 #: kdeui/kiconloaderdialog.cpp:193
 msgid "Select Icon"
-msgstr "Scelta Icona"
+msgstr "Scegli Icona"
 
 #: kdeui/kiconloaderdialog.cpp:198
 msgid "Filter:"
 msgstr "Filtro:"
 
-#: kdeui/kmenubar.cpp:149 kdeui/ktoolbar.cpp:325
+#: kdeui/kmenubar.cpp:149 kdeui/ktoolbar.cpp:311
 msgid "Top"
 msgstr "In Alto"
 
-#: kdeui/kmenubar.cpp:150 kdeui/ktoolbar.cpp:327
+#: kdeui/kmenubar.cpp:150 kdeui/ktoolbar.cpp:313
 msgid "Bottom"
 msgstr "In Basso"
 
-#: kdeui/kmenubar.cpp:151 kdeui/ktoolbar.cpp:328
+#: kdeui/kmenubar.cpp:151 kdeui/ktoolbar.cpp:314
 msgid "Floating"
-msgstr "Floating"
+msgstr "Galleggiante"
 
-#: kdeui/kmenubar.cpp:191 kdeui/kmenubar.cpp:330 kdeui/ktoolbar.cpp:734
-#: kdeui/ktoolbar.cpp:1285
+#: kdeui/kmenubar.cpp:188 kdeui/kmenubar.cpp:327 kdeui/ktoolbar.cpp:831
+#: kdeui/ktoolbar.cpp:1373
 msgid "Float"
-msgstr "Float"
+msgstr "Galleggia"
 
-#: kdeui/kmenubar.cpp:319 kdeui/ktoolbar.cpp:1267
+#: kdeui/kmenubar.cpp:316 kdeui/ktoolbar.cpp:1363
 msgid "UnFloat"
-msgstr "UnFloat"
+msgstr "Non Galleggiante"
 
-#: kdeui/ktoolbar.cpp:120 kdeui/ktoolbar.cpp:185
+#: kdeui/ktoolbar.cpp:115 kdeui/ktoolbar.cpp:174
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: Pixmap vuota, è possibile che manchi il file"
 
-#: kdeui/ktoolbar.cpp:324
+#: kdeui/ktoolbar.cpp:310
 msgid "Left"
 msgstr "Sinistra"
 
-#: kdeui/ktoolbar.cpp:326
+#: kdeui/ktoolbar.cpp:312
 msgid "Right"
 msgstr "Destra"
 
@@ -521,7 +529,7 @@ msgstr "Apri"
 
 #: po/texts.cpp:70
 msgid "Open a file"
-msgstr "Apri un file"
+msgstr "Apre un file"
 
 #: po/texts.cpp:71
 msgid "Open..."
@@ -647,7 +655,3 @@ msgstr "Informazione"
 msgid "Browse..."
 msgstr "Sfoglia..."
 
-#: po/texts.cpp:104
-#, fuzzy
-msgid "(none)"
-msgstr "Fatto"
