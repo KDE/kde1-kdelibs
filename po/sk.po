@@ -1873,6 +1873,12 @@ msgid ""
 "All configuration values have been reset to\n"
 "its default settings."
 msgstr ""
+"Verzia kab ktorú ste pou¾ívali predtým mala\n"
+"chybu vz»ahujúcu sa na upgrade databázy pre\n"
+"nové verzie. Táto chyba bola zru¹ená a u¾ vás\n"
+"nezasiahne.\n"
+"V¹etky konfiguraèné mo¾nosti boli nastavené\n"
+"na ¹tandardné hodnoty."
 
 #: kab/widget.cc:243 kab/widget.cc:307 kab/widget.cc:315
 msgid "File handling error"
@@ -2025,7 +2031,7 @@ msgstr "Databáza úspe¹ne ulo¾ená."
 
 #: kab/widget.cc:860
 msgid "kab: File error"
-msgstr ""
+msgstr "kab: Chyba súboru"
 
 #: kab/widget.cc:860
 msgid "Could not save database."
