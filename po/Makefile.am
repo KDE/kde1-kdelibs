@@ -20,8 +20,8 @@ EXTRA_DIST = kde.pot kdelibs.pot $(CHARSETFILES) $(POFILES) $(GMOFILES) texts.cp
 # install this to make excluding of this messages possible
 include_HEADERS = kde.pot
 
-all: all-@USE_NLS@
-install-data-local: install-@USE_NLS@
+all: all-$(USE_NLS)
+install-data-local: install-$(USE_NLS)
 
 SUFFIXES = .po .gmo
 
