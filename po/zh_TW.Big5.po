@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-12-12 01:01+0100\n"
+"POT-Creation-Date: 1998-12-14 01:00+0100\n"
 "PO-Revision-Date: 1998-04-19 13:46+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -347,23 +347,23 @@ msgstr ""
 msgid "ALT"
 msgstr ""
 
-#: kdecore/kapp.cpp:589 po/texts.cpp:137
+#: kdecore/kapp.cpp:598 po/texts.cpp:137
 msgid "&Contents"
 msgstr "內容[&C]"
 
-#: kdecore/kapp.cpp:595
+#: kdecore/kapp.cpp:604
 msgid "&About"
 msgstr "有關[&A]"
 
-#: kdecore/kapp.cpp:602
+#: kdecore/kapp.cpp:611
 msgid "About &KDE..."
 msgstr "關於 &KDE..."
 
-#: kdecore/kapp.cpp:623
+#: kdecore/kapp.cpp:632
 msgid "About KDE"
 msgstr "關於 KDE"
 
-#: kdecore/kapp.cpp:625
+#: kdecore/kapp.cpp:634
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"

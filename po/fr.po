@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-12-12 01:01+0100\n"
+"POT-Creation-Date: 1998-12-14 01:00+0100\n"
 "PO-Revision-Date: 1998-12-10 11:00 CET\n"
 "Last-Translator: Francois-Xavier DURANCEAU "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
@@ -333,23 +333,23 @@ msgstr "CONTROL"
 msgid "ALT"
 msgstr "ALT"
 
-#: kdecore/kapp.cpp:589 po/texts.cpp:137
+#: kdecore/kapp.cpp:598 po/texts.cpp:137
 msgid "&Contents"
 msgstr "&Contenu"
 
-#: kdecore/kapp.cpp:595
+#: kdecore/kapp.cpp:604
 msgid "&About"
 msgstr "A &propos"
 
-#: kdecore/kapp.cpp:602
+#: kdecore/kapp.cpp:611
 msgid "About &KDE..."
 msgstr "A propos de &KDE..."
 
-#: kdecore/kapp.cpp:623
+#: kdecore/kapp.cpp:632
 msgid "About KDE"
 msgstr "A propos de KDE"
 
-#: kdecore/kapp.cpp:625
+#: kdecore/kapp.cpp:634
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"

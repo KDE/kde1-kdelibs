@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-12-12 01:01+0100\n"
+"POT-Creation-Date: 1998-12-14 01:00+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-10-01 16:40:07+0200\n"
 "From: root <flidr@CyberGate.zcu.cz>\n"
@@ -352,25 +352,25 @@ msgstr ""
 msgid "ALT"
 msgstr ""
 
-#: kdecore/kapp.cpp:589 po/texts.cpp:137
+#: kdecore/kapp.cpp:598 po/texts.cpp:137
 msgid "&Contents"
 msgstr "Inhoud"
 
-#: kdecore/kapp.cpp:595
+#: kdecore/kapp.cpp:604
 msgid "&About"
 msgstr "&Info"
 
 # , fuzzy
-#: kdecore/kapp.cpp:602
+#: kdecore/kapp.cpp:611
 msgid "About &KDE..."
 msgstr "Over Krn..."
 
 # , fuzzy
-#: kdecore/kapp.cpp:623
+#: kdecore/kapp.cpp:632
 msgid "About KDE"
 msgstr "Over "
 
-#: kdecore/kapp.cpp:625
+#: kdecore/kapp.cpp:634
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"

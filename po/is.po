@@ -3,7 +3,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-12-12 01:01+0100\n"
+"POT-Creation-Date: 1998-12-14 01:00+0100\n"
 "PO-Revision-Date: 1998-10-23 23:31+0200\n"
 "Last-Translator: Logi Ragnarsson <logir@imf.au.dk>\n"
 "Language-Team: is\n"
@@ -338,23 +338,23 @@ msgstr "STRL"
 msgid "ALT"
 msgstr "ALT"
 
-#: kdecore/kapp.cpp:589 po/texts.cpp:137
+#: kdecore/kapp.cpp:598 po/texts.cpp:137
 msgid "&Contents"
 msgstr "&Innihald"
 
-#: kdecore/kapp.cpp:595
+#: kdecore/kapp.cpp:604
 msgid "&About"
 msgstr "&Um"
 
-#: kdecore/kapp.cpp:602
+#: kdecore/kapp.cpp:611
 msgid "About &KDE..."
 msgstr "Um &KDE"
 
-#: kdecore/kapp.cpp:623
+#: kdecore/kapp.cpp:632
 msgid "About KDE"
 msgstr "Um KDE"
 
-#: kdecore/kapp.cpp:625
+#: kdecore/kapp.cpp:634
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
