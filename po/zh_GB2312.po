@@ -1,28 +1,28 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1998-06-14 22:28+0200\n"
+"POT-Creation-Date: 1998-06-15 14:46+0200\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 
-#: kdecore/kapp.cpp:497
+#: kdecore/kapp.cpp:487
 msgid "&Contents"
 msgstr "内容[&C]"
 
-#: kdecore/kapp.cpp:503
+#: kdecore/kapp.cpp:493
 msgid "&About"
 msgstr "有关[&A]"
 
-#: kdecore/kapp.cpp:510
+#: kdecore/kapp.cpp:500
 msgid "About &KDE..."
 msgstr "关于 &KDE..."
 
-#: kdecore/kapp.cpp:531
+#: kdecore/kapp.cpp:521
 msgid "About KDE"
 msgstr "关于 KDE"
 
-#: kdecore/kapp.cpp:533
+#: kdecore/kapp.cpp:523
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -62,7 +62,7 @@ msgstr "帮助"
 #: kdeui/keditcl1.cpp:397 kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897
 #: kdeui/kfontdialog.cpp:352 kdeui/kiconloaderdialog.cpp:255
 #: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:877
-#: kfile/kfiledialogconf.cpp:58 po/texts.cpp:40
+#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:406 po/texts.cpp:40
 msgid "Cancel"
 msgstr "取消"
 
@@ -83,7 +83,8 @@ msgid "Add to Custom Colors"
 msgstr "加在自定义颜色中"
 
 #: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:357
-#: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872 po/texts.cpp:37
+#: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872
+#: kfmlib/kfm.cpp:402 po/texts.cpp:37
 msgid "Ok"
 msgstr "确定"
 
@@ -825,6 +826,25 @@ msgstr "图片"
 #: kfile/kpreview.cpp:343
 msgid "folder"
 msgstr "文件夹"
+
+#: kfmlib/kfm.cpp:197
+#, c-format
+msgid ""
+"You dont have the file %s\n"
+"Could not do Authorization"
+msgstr ""
+
+#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:209
+#, fuzzy
+msgid "KFM Error"
+msgstr "错误"
+
+#: kfmlib/kfm.cpp:207
+#, c-format
+msgid ""
+"The file %s is corrupted\n"
+"Could not do Authorization"
+msgstr ""
 
 #: po/texts.cpp:24
 msgid "Error"

@@ -1,29 +1,29 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-06-14 22:28+0200\n"
+"POT-Creation-Date: 1998-06-15 14:46+0200\n"
 "Content-Type: text/plain; charset=koi8-r\n"
 "Date: 1997-11-20 18:24:38+0600\n"
 "From: Denis Y. Pershin <dyp@inetlab.com>\n"
 "Xgettext-Options: --default-domain=xquser --directory=../.. --add-comments "
 "--keyword=_ --keyword=N_ --files-from=../../po/POTFILES.in\n"
 
-#: kdecore/kapp.cpp:497
+#: kdecore/kapp.cpp:487
 msgid "&Contents"
 msgstr "Содержимое"
 
-#: kdecore/kapp.cpp:503
+#: kdecore/kapp.cpp:493
 msgid "&About"
 msgstr "&О программе"
 
-#: kdecore/kapp.cpp:510
+#: kdecore/kapp.cpp:500
 msgid "About &KDE..."
 msgstr "О &KDE"
 
-#: kdecore/kapp.cpp:531
+#: kdecore/kapp.cpp:521
 msgid "About KDE"
 msgstr "О KDE"
 
-#: kdecore/kapp.cpp:533
+#: kdecore/kapp.cpp:523
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -63,7 +63,7 @@ msgstr "Помощь"
 #: kdeui/keditcl1.cpp:397 kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897
 #: kdeui/kfontdialog.cpp:352 kdeui/kiconloaderdialog.cpp:255
 #: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:877
-#: kfile/kfiledialogconf.cpp:58 po/texts.cpp:40
+#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:406 po/texts.cpp:40
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -84,7 +84,8 @@ msgid "Add to Custom Colors"
 msgstr "Добавить собственный цвет"
 
 #: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:357
-#: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872 po/texts.cpp:37
+#: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872
+#: kfmlib/kfm.cpp:402 po/texts.cpp:37
 msgid "Ok"
 msgstr "Ок"
 
@@ -853,6 +854,25 @@ msgstr ""
 #, fuzzy
 msgid "folder"
 msgstr "Папка"
+
+#: kfmlib/kfm.cpp:197
+#, c-format
+msgid ""
+"You dont have the file %s\n"
+"Could not do Authorization"
+msgstr ""
+
+#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:209
+#, fuzzy
+msgid "KFM Error"
+msgstr "Ошибка"
+
+#: kfmlib/kfm.cpp:207
+#, c-format
+msgid ""
+"The file %s is corrupted\n"
+"Could not do Authorization"
+msgstr ""
 
 #: po/texts.cpp:24
 msgid "Error"

@@ -1,27 +1,27 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kuser 0.1\n"
-"POT-Creation-Date: 1998-06-14 22:28+0200\n"
+"POT-Creation-Date: 1998-06-15 14:46+0200\n"
 "PO-Revision-Date: 1998-01-24 16:50+0100\n"
 "Last-Translator: Oliver Hensel <oliver.hensel@gmx.de>\n"
 
-#: kdecore/kapp.cpp:497
+#: kdecore/kapp.cpp:487
 msgid "&Contents"
 msgstr "&Inhalt"
 
-#: kdecore/kapp.cpp:503
+#: kdecore/kapp.cpp:493
 msgid "&About"
 msgstr "&Über"
 
-#: kdecore/kapp.cpp:510
+#: kdecore/kapp.cpp:500
 msgid "About &KDE..."
 msgstr "Über &KDE..."
 
-#: kdecore/kapp.cpp:531
+#: kdecore/kapp.cpp:521
 msgid "About KDE"
 msgstr "Über KDE"
 
-#: kdecore/kapp.cpp:533
+#: kdecore/kapp.cpp:523
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -71,7 +71,7 @@ msgstr "Hilfe"
 #: kdeui/keditcl1.cpp:397 kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897
 #: kdeui/kfontdialog.cpp:352 kdeui/kiconloaderdialog.cpp:255
 #: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:877
-#: kfile/kfiledialogconf.cpp:58 po/texts.cpp:40
+#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:406 po/texts.cpp:40
 msgid "Cancel"
 msgstr "Abbrechen"
 
@@ -92,7 +92,8 @@ msgid "Add to Custom Colors"
 msgstr "Zu eigenen Farben hinzufügen"
 
 #: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:357
-#: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872 po/texts.cpp:37
+#: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872
+#: kfmlib/kfm.cpp:402 po/texts.cpp:37
 msgid "Ok"
 msgstr "Ok"
 
@@ -450,7 +451,8 @@ msgstr "Fest"
 
 #: kdeui/knotebook.cpp:145
 msgid "Trying to add page when no KWizards are added!"
-msgstr "Es wurde versucht, eine Seite einzufuegen, als kein KWizard eingefügt war!"
+msgstr ""
+"Es wurde versucht, eine Seite einzufuegen, als kein KWizard eingefügt war!"
 
 #: kdeui/knotebook.cpp:178 kdeui/kwizard.cpp:120 po/texts.cpp:41
 msgid "&Cancel"
@@ -482,6 +484,7 @@ msgid "Right"
 msgstr "Rechts"
 
 #: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
+#, c-format
 msgid "Page %d of %d"
 msgstr "Seite: %d von %d"
 
@@ -814,6 +817,25 @@ msgstr "Bild"
 #: kfile/kpreview.cpp:343
 msgid "folder"
 msgstr "Verzeichnis"
+
+#: kfmlib/kfm.cpp:197
+#, c-format
+msgid ""
+"You dont have the file %s\n"
+"Could not do Authorization"
+msgstr ""
+
+#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:209
+#, fuzzy
+msgid "KFM Error"
+msgstr "Fehler"
+
+#: kfmlib/kfm.cpp:207
+#, c-format
+msgid ""
+"The file %s is corrupted\n"
+"Could not do Authorization"
+msgstr ""
 
 #: po/texts.cpp:24
 msgid "Error"

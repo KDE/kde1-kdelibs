@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-06-14 22:28+0200\n"
+"POT-Creation-Date: 1998-06-15 14:46+0200\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-09 17:23:06+0200\n"
 "From: Steffen Hansen,Home,,66178676, <stefh@nostromo>\n"
@@ -8,27 +8,27 @@ msgstr ""
 "Files: chooser.cpp gif.cpp jpeg.cpp kdmconfig.cpp kdmdesktop.cpp "
 "kdmshutdown.cpp kdmview.cpp kfdialog.cpp kgreeter.cpp\n"
 
-#: kdecore/kapp.cpp:497
+#: kdecore/kapp.cpp:487
 #, fuzzy
 msgid "&Contents"
 msgstr "Indhold"
 
-#: kdecore/kapp.cpp:503
+#: kdecore/kapp.cpp:493
 #, fuzzy
 msgid "&About"
 msgstr "Om"
 
-#: kdecore/kapp.cpp:510
+#: kdecore/kapp.cpp:500
 #, fuzzy
 msgid "About &KDE..."
 msgstr "&Om"
 
-#: kdecore/kapp.cpp:531
+#: kdecore/kapp.cpp:521
 #, fuzzy
 msgid "About KDE"
 msgstr "Om "
 
-#: kdecore/kapp.cpp:533
+#: kdecore/kapp.cpp:523
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -68,7 +68,7 @@ msgstr "Hjælp"
 #: kdeui/keditcl1.cpp:397 kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897
 #: kdeui/kfontdialog.cpp:352 kdeui/kiconloaderdialog.cpp:255
 #: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:877
-#: kfile/kfiledialogconf.cpp:58 po/texts.cpp:40
+#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:406 po/texts.cpp:40
 msgid "Cancel"
 msgstr "Annuller"
 
@@ -89,7 +89,8 @@ msgid "Add to Custom Colors"
 msgstr "Tilføj til brugerdefinerede farver"
 
 #: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:357
-#: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872 po/texts.cpp:37
+#: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872
+#: kfmlib/kfm.cpp:402 po/texts.cpp:37
 msgid "Ok"
 msgstr "Ok"
 
@@ -862,6 +863,25 @@ msgstr ""
 #, fuzzy
 msgid "folder"
 msgstr "Folder"
+
+#: kfmlib/kfm.cpp:197
+#, c-format
+msgid ""
+"You dont have the file %s\n"
+"Could not do Authorization"
+msgstr ""
+
+#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:209
+#, fuzzy
+msgid "KFM Error"
+msgstr "Fejl"
+
+#: kfmlib/kfm.cpp:207
+#, c-format
+msgid ""
+"The file %s is corrupted\n"
+"Could not do Authorization"
+msgstr ""
 
 #: po/texts.cpp:24
 msgid "Error"
