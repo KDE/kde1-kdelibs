@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1998-04-17 23:25+0200\n"
-"PO-Revision-Date: 1998-04-18 13:36+0200\n"
+"PO-Revision-Date: 1998-04-21 18:39+0200\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
 #: kdecore/kapp.cpp:494
@@ -749,7 +749,7 @@ msgstr "&Archivo"
 
 #: po/texts.cpp:46
 msgid "&Help"
-msgstr "&Ayuda"
+msgstr "A&yuda"
 
 #: po/texts.cpp:47
 msgid "Edit"
