@@ -1,6 +1,6 @@
 
 GMOFILES = de.gmo fr.gmo sv.gmo cs.gmo es.gmo ru.gmo \
-	hu.gmo da.gmo it.gmo nl.gmo
+	hu.gmo da.gmo it.gmo nl.gmo pt.gmo
 POFILES = $(GMFILES:.gmo=.po) 
 
 localedir = $(prefix)/share/locale
