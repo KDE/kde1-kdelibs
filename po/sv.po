@@ -50,7 +50,7 @@ msgid "Ok"
 msgstr ""
 
 msgid "Cancel"
-msgstr "Ångra"
+msgstr "Avbryt"
 
 msgid "Apply"
 msgstr "Verkställ"
