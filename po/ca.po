@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1999-01-27 01:01+0100\n"
-"PO-Revision-Date: 1998-01-12 22:52\n"
+"PO-Revision-Date: 1998-01-29 22:00\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -1164,9 +1164,8 @@ msgid "Keep dirs first"
 msgstr "Mostra directoris a l'inici"
 
 #: kfile/kfilefilter.cpp:35
-#, fuzzy
 msgid "*|All Files"
-msgstr "Fitxers"
+msgstr "*|Tots els fitxers"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"
@@ -1274,78 +1273,71 @@ msgstr ""
 
 #: kspell/ksconfig.cpp:66
 msgid "Create Root/Affix combinations not in the dictionary"
-msgstr ""
+msgstr "Crea combinacions d'arrel i afix que no són al diccionari"
 
 #: kspell/ksconfig.cpp:75
 msgid "Consider run-together words as spelling errors"
-msgstr ""
+msgstr "Considera les paraules enganxades com errors d'ortografia"
 
 #: kspell/ksconfig.cpp:92
-#, fuzzy
 msgid "Dictionary"
-msgstr "directori"
+msgstr "Diccionari"
 
 #: kspell/ksconfig.cpp:140
 msgid "Encoding:"
-msgstr ""
+msgstr "Codificació:"
 
 #: kspell/ksconfig.cpp:147
-#, fuzzy
 msgid "Latin1"
-msgstr "&Posició:"
+msgstr "Latin1"
 
 #: kspell/ksconfig.cpp:148
 msgid "7-Bit/ASCII"
-msgstr ""
+msgstr "7-Bit/ASCII"
 
 #: kspell/ksconfig.cpp:292
 msgid "English"
-msgstr ""
+msgstr "Anglès"
 
 #: kspell/ksconfig.cpp:298
 msgid "Spanish"
-msgstr ""
+msgstr "Espanyol"
 
 #: kspell/ksconfig.cpp:304
-#, fuzzy
 msgid "German"
-msgstr "roman"
+msgstr "Alemany"
 
 #: kspell/ksconfig.cpp:311
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "Portuguès del Brasil"
 
 #: kio/kio_cache.cc:422 kspell/ksconfig.cpp:317
 msgid "Unknown"
 msgstr "Desconegut"
 
 #: kspell/ksconfig.cpp:348
-#, fuzzy
 msgid "ISpell Default"
-msgstr "Omissió"
+msgstr "ISpell per omissió"
 
 #: kspell/kspelldlg.cpp:58
 msgid "Misspelled Word:"
-msgstr ""
+msgstr "Paraula errònia:"
 
 #: kspell/kspelldlg.cpp:68
-#, fuzzy
 msgid "Replacement:"
-msgstr "Substitueix"
+msgstr "Substitució:"
 
 #: kspell/kspelldlg.cpp:77
 msgid "Suggestions:"
-msgstr ""
+msgstr "Suggerències:"
 
 #: kspell/kspelldlg.cpp:88
-#, fuzzy
 msgid "Ignore"
-msgstr "&Ignora-ho"
+msgstr "Ignora-ho"
 
 #: kspell/kspelldlg.cpp:99
-#, fuzzy
 msgid "Ignore All"
-msgstr "&Ignora-ho"
+msgstr "Ignora-ho tot"
 
 #: kspell/kspelldlg.cpp:120 po/texts.cpp:86
 msgid "Add"
@@ -1929,16 +1921,14 @@ msgid "Address:"
 msgstr "Adreça:"
 
 #: kab/editentry.cc:104
-#, fuzzy
 msgid "Town/City:"
-msgstr "Poble:"
+msgstr "Poble/Ciutat:"
 
 #: kab/editentry.cc:105
 msgid "State:"
 msgstr "Comarca:"
 
 #: kab/editentry.cc:106
-#, fuzzy
 msgid "Zip/Postal Code:"
 msgstr "Codi postal:"
 
@@ -1955,18 +1945,16 @@ msgid "Organization:"
 msgstr "Organització:"
 
 #: kab/editentry.cc:146
-#, fuzzy
 msgid "Department:"
-msgstr "Data:"
+msgstr "Departament:"
 
 #: kab/editentry.cc:147
 msgid "Sub-Department:"
-msgstr ""
+msgstr "Subdepartament:"
 
 #: kab/editentry.cc:148
-#, fuzzy
 msgid "Job/Role:"
-msgstr "Càrrec:"
+msgstr "Feina/Càrrec:"
 
 #: kab/editentry.cc:169
 msgid "&Organization"
@@ -2001,9 +1989,8 @@ msgid "&Contact"
 msgstr "&Contacte"
 
 #: kab/editentry.cc:239
-#, fuzzy
 msgid "Additional Comment:"
-msgstr "Nom addicional:"
+msgstr "Comentari addicional:"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
@@ -3066,12 +3053,3 @@ msgid ""
 msgstr ""
 "\n"
 "no conté una entrada Name=..."
-
-#~ msgid "Org Unit:"
-#~ msgstr "Unitat:"
-
-#~ msgid "Org Subunit:"
-#~ msgstr "Subunitat:"
-
-#~ msgid "Comment:"
-#~ msgstr "Comentari:"
