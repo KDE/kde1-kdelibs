@@ -2047,7 +2047,7 @@ msgstr "kab: Error de fitxer"
 
 #: kab/widget.cc:864
 msgid "Could not save database."
-msgstr "No s'ha pogut desar la base de dades\n"
+msgstr "No s'ha pogut desar la base de dades"
 
 #: kab/widget.cc:865
 msgid "&Retry"
@@ -2855,7 +2855,7 @@ msgid "Unmount"
 msgstr "Desmunta"
 
 #: kio/kmimetypes.cc:658
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "The kdelnk file\n"
 "%s\n"
