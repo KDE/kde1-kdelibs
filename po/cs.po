@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1998-12-23 01:01+0100\n"
-"PO-Revision-Date: 1998-12-23 14:25 CET\n"
+"PO-Revision-Date: 1998-12-26 17:58 CET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <flidr@kky.cu.cz>\n"
 "MIME-Version: 1.0\n"
@@ -492,31 +492,31 @@ msgstr "(neplatné)"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Sun"
-msgstr "Ned"
+msgstr "Ne"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Mon"
-msgstr "Pon"
+msgstr "Po "
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Tue"
-msgstr "Úte"
+msgstr "Út "
 
 #: kdeui/kdatetbl.cpp:50
 msgid "Wed"
-msgstr "Stø"
+msgstr "St "
 
 #: kdeui/kdatetbl.cpp:50
 msgid "Thu"
-msgstr "Ètv"
+msgstr "Èt "
 
 #: kdeui/kdatetbl.cpp:50
 msgid "Fri"
-msgstr "Pát"
+msgstr "Pá "
 
 #: kdeui/kdatetbl.cpp:51
 msgid "Sat"
-msgstr "Sob"
+msgstr "So "
 
 #: kab/kabapi.cc:139 kab/widget.cc:832 kab/widget.cc:852 kab/widget.cc:1916
 #: kdeui/keditcl1.cpp:139 kdeui/keditcl1.cpp:168 kdeui/keditcl1.cpp:189
