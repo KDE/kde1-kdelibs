@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-11-12 13:50+0100\n"
+"POT-Creation-Date: 1998-11-18 11:24+0100\n"
 "PO-Revision-Date: 1998-10-10 16:33+0200\n"
 "Last-Translator: Stephan Kulow <coolo@kde.org>\n"
 
@@ -44,7 +44,7 @@ msgstr "Email an die für die Applikation zuständige Person schreiben."
 #: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:370
 #: kdeui/kiconloaderdialog.cpp:254 kdeui/kmsgbox.cpp:277
 #: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:505
-#: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:400
+#: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:409
 #: po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
@@ -88,8 +88,8 @@ msgid ""
 "will not be closed.Use this to try different settings."
 msgstr ""
 "Sobald Sie Übernehmen klicken, werden die Einstellungen\n"
-"an das Programm übergeben, aber der Dialog wird nicht geschlossen."
-"Benutzen Sie diese Möglichkeit, um verschiedene Einstellungen auszuprobieren."
+"an das Programm übergeben, aber der Dialog wird nicht geschlossen.Benutzen "
+"Sie diese Möglichkeit, um verschiedene Einstellungen auszuprobieren."
 
 #: kab/DialogBase.cpp:44
 msgid ""
@@ -103,7 +103,6 @@ msgstr ""
 "zurückgenommen und der Dialog wird geschlossen.\n"
 "Das Programm bleibt in dem Zustand, in dem es sich\n"
 "vor dem Öffnen des Dialogs befand."
-
 
 #: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
 #: kdeui/kwizard.cpp:228 po/texts.cpp:36
@@ -404,7 +403,7 @@ msgstr "Nein"
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:365
 #: kdeui/kiconloaderdialog.cpp:255 kdeui/kmsgbox.cpp:312
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:892
-#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:404 kio/kio_job.cc:693
+#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:413 kio/kio_job.cc:693
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
 #: po/texts.cpp:39
@@ -456,7 +455,7 @@ msgstr "März"
 msgid "April"
 msgstr "April"
 
-#: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:224
+#: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:225
 msgid "May"
 msgstr "Mai"
 
@@ -771,23 +770,23 @@ msgstr "&Standard-Taste"
 msgid "&Custom key"
 msgstr "&Benutzerdef. Tasten"
 
-#: kdeui/kmenubar.cpp:203 kdeui/ktoolbar.cpp:828
+#: kdeui/kmenubar.cpp:206 kdeui/ktoolbar.cpp:831
 msgid "Top"
 msgstr "Oben"
 
-#: kdeui/kmenubar.cpp:204 kdeui/ktoolbar.cpp:830
+#: kdeui/kmenubar.cpp:207 kdeui/ktoolbar.cpp:833
 msgid "Bottom"
 msgstr "Unten"
 
-#: kdeui/kmenubar.cpp:205 kdeui/ktoolbar.cpp:831
+#: kdeui/kmenubar.cpp:208 kdeui/ktoolbar.cpp:834
 msgid "Floating"
 msgstr "Beweglich"
 
-#: kdeui/kmenubar.cpp:350 kdeui/kmenubar.cpp:605 kdeui/ktoolbar.cpp:2134
+#: kdeui/kmenubar.cpp:353 kdeui/kmenubar.cpp:608 kdeui/ktoolbar.cpp:2137
 msgid "Float"
 msgstr "Beweglich"
 
-#: kdeui/kmenubar.cpp:574 kdeui/ktoolbar.cpp:2115
+#: kdeui/kmenubar.cpp:577 kdeui/ktoolbar.cpp:2118
 msgid "UnFloat"
 msgstr "Fest"
 
@@ -804,16 +803,16 @@ msgstr "&Standard"
 msgid "Quickhelp"
 msgstr "Schnell-Hilfe"
 
-#: kdeui/ktoolbar.cpp:263 kdeui/ktoolbar.cpp:314
+#: kdeui/ktoolbar.cpp:266 kdeui/ktoolbar.cpp:317
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr ""
 "KToolBarButton: Ein Fehler ist aufgetreten, wahrscheinlich fehlt eine Datei"
 
-#: kdeui/ktoolbar.cpp:827
+#: kdeui/ktoolbar.cpp:830
 msgid "Left"
 msgstr "Links"
 
-#: kdeui/ktoolbar.cpp:829
+#: kdeui/ktoolbar.cpp:832
 msgid "Right"
 msgstr "Rechts"
 
@@ -1065,47 +1064,47 @@ msgstr "Beginne mit Verzeichnissen"
 msgid "unknown"
 msgstr "unbekannt"
 
-#: kfile/kfileinfo.cpp:220
+#: kfile/kfileinfo.cpp:221
 msgid "Jan"
 msgstr "Jan"
 
-#: kfile/kfileinfo.cpp:221
+#: kfile/kfileinfo.cpp:222
 msgid "Feb"
 msgstr "Feb"
 
-#: kfile/kfileinfo.cpp:222
+#: kfile/kfileinfo.cpp:223
 msgid "Mar"
 msgstr "Mär"
 
-#: kfile/kfileinfo.cpp:223
+#: kfile/kfileinfo.cpp:224
 msgid "Apr"
 msgstr "Apr"
 
-#: kfile/kfileinfo.cpp:225
+#: kfile/kfileinfo.cpp:226
 msgid "Jun"
 msgstr "Jul"
 
-#: kfile/kfileinfo.cpp:226
+#: kfile/kfileinfo.cpp:227
 msgid "Jul"
 msgstr "Jul"
 
-#: kfile/kfileinfo.cpp:227
+#: kfile/kfileinfo.cpp:228
 msgid "Aug"
 msgstr "Aug"
 
-#: kfile/kfileinfo.cpp:228
+#: kfile/kfileinfo.cpp:229
 msgid "Sep"
 msgstr "Spt"
 
-#: kfile/kfileinfo.cpp:229
+#: kfile/kfileinfo.cpp:230
 msgid "Oct"
 msgstr "Okt"
 
-#: kfile/kfileinfo.cpp:230
+#: kfile/kfileinfo.cpp:231
 msgid "Nov"
 msgstr "Nov"
 
-#: kfile/kfileinfo.cpp:231
+#: kfile/kfileinfo.cpp:232
 msgid "Dec"
 msgstr "Dez"
 
@@ -1881,12 +1880,11 @@ msgid ""
 "its default settings."
 msgstr ""
 "Die Version von Kab, die Sie zuvor benutzt haben\n"
-"hatte einen Fehler bezüglich der Aktualisierung\n "
-"der Datenbank für eine neue Version. Der Fehler wurde\n"
+"hatte einen Fehler bezüglich der Aktualisierung\n"
+" der Datenbank für eine neue Version. Der Fehler wurde\n"
 "behoben und verursacht keine weiteren Probleme mehr.\n"
 "Alle Konfigurations-Werte wurden auf die Voreinstellungen\n"
 "zurückgesetzt."
-
 
 #: kab/widget.cc:243 kab/widget.cc:307 kab/widget.cc:315
 msgid "File handling error"
@@ -2031,9 +2029,8 @@ msgid ""
 "locked by another application.\n"
 "kab cannot save it."
 msgstr ""
-"Die Adreßbuch-Datei wird zur Zeit"
-"von einer anderen Anwendung benutzt."
-"Kab kann sie nicht speichern."
+"Die Adreßbuch-Datei wird zur Zeitvon einer anderen Anwendung benutzt.Kab "
+"kann sie nicht speichern."
 
 #: kab/widget.cc:855
 msgid "Database saved successfully."
@@ -2275,8 +2272,8 @@ msgid ""
 "Use the icons for drag and drop actions, since they refer to the cache files "
 "on your hard disk, while you should use the textual links for browsing"
 msgstr ""
-"Benutzen Sie die Icons für Drag&Drop-Aktionen, da sie auf Cache-Dateien auf"
-"Ihrer Festplatte verweisen. Benutzen Sie zum Browsen die Text-Links."
+"Benutzen Sie die Icons für Drag&Drop-Aktionen, da sie auf Cache-Dateien "
+"aufIhrer Festplatte verweisen. Benutzen Sie zum Browsen die Text-Links."
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"
@@ -2396,9 +2393,7 @@ msgstr ""
 msgid ""
 "Could not make directory\n"
 "%s"
-msgstr ""
-"Das Verzeichnis konnte nicht erstellt werden."
-"%s"
+msgstr "Das Verzeichnis konnte nicht erstellt werden.%s"
 
 #: kio/kio_error.cc:49
 #, c-format
@@ -2443,9 +2438,7 @@ msgstr ""
 msgid ""
 "Found a cyclic link in\n"
 "%s"
-msgstr ""
-"%s"
-"entält eine zyklische Verknüpfung"
+msgstr "%sentält eine zyklische Verknüpfung"
 
 #: kio/kio_error.cc:64
 #, c-format
@@ -2462,10 +2455,7 @@ msgid ""
 "Access denied\n"
 "Could not write to\n"
 "%s"
-msgstr ""
-"Zugriff verweigert"
-"In %s"
-"konnte nicht geschrieben werden."
+msgstr "Zugriff verweigertIn %skonnte nicht geschrieben werden."
 
 #: kio/kio_error.cc:70
 msgid ""
@@ -2480,20 +2470,14 @@ msgstr ""
 msgid ""
 "Found a cyclic link while copying\n"
 "%s"
-msgstr ""
-"Beim Kopieren von"
-"%s"
-"wurde eine zyklische Verknüfung gefunden."
+msgstr "Beim Kopieren von%swurde eine zyklische Verknüfung gefunden."
 
 #: kio/kio_error.cc:76
 #, c-format
 msgid ""
 "Could not create socket for accessing\n"
 "%s"
-msgstr ""
-"Konnte Socket für den Zugriff auf"
-"%s"
-"nicht erstellen."
+msgstr "Konnte Socket für den Zugriff auf%snicht erstellen."
 
 #: kio/kio_error.cc:79
 #, c-format
@@ -2543,7 +2527,6 @@ msgstr ""
 "%s\n"
 "ist eine Datei,\n"
 "aber ein Verzeichnis wurde erwartet."
-
 
 #: kio/kio_error.cc:94
 #, c-format
@@ -2649,7 +2632,8 @@ msgstr "Die Zwischenablage ist leer."
 msgid ""
 "Pasting clipboard data is only supported on the local hard disk currently"
 msgstr ""
-"Einfügen aus der Zwischenablage wird derzeit nur auf der lokalen Festplatte unterstützt."
+"Einfügen aus der Zwischenablage wird derzeit nur auf der lokalen Festplatte "
+"unterstützt."
 
 #: kio/kio_paste.cc:80
 msgid "Filename for clipboard content:"
@@ -2662,8 +2646,7 @@ msgstr "Sie haben keine Dateinamen eingegeben."
 #: kio/kio_paste.cc:97
 #, c-format
 msgid "The file %s does already exist. Do you really want to overwrite it ?"
-msgstr ""
-"Ein Dokument %s existiert schon. Wollen Sie es überschreiben?"
+msgstr "Ein Dokument %s existiert schon. Wollen Sie es überschreiben?"
 
 #: kio/kio_progress_dlg.cc:92 kio/kio_progress_dlg.cc:108
 msgid " Bytes"
@@ -2896,4 +2879,3 @@ msgid ""
 msgstr ""
 "\n"
 "hat keinen Eintrag Name=..."
-

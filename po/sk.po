@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1998-11-18 11:04+0100\n"
+"POT-Creation-Date: 1998-11-18 11:24+0100\n"
 "PO-Revision-Date: 1998-03-20 12:20 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -2563,6 +2563,7 @@ msgstr ""
 "%sneoèakávane skonèil"
 
 #: kio/kio_error.cc:103
+#, c-format
 msgid ""
 "Could not access\n"
 "%s"
@@ -2571,6 +2572,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:106
+#, c-format
 msgid ""
 "Unknown error code %i\n"
 "%s\n"
