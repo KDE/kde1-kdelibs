@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-12-29 17:42+0100\n"
+"POT-Creation-Date: 1997-12-31 15:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,20 +14,20 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: kdecore/kapp.cpp:404 kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34
-#: po/texts.cpp:45
+#: kdecore/kapp.cpp:407 kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34
+#: po/texts.cpp:42
 msgid "Help"
 msgstr ""
 
-#: kdecore/kapp.cpp:409
+#: kdecore/kapp.cpp:412
 msgid "About "
 msgstr ""
 
-#: kdecore/kapp.cpp:413 kdecore/kapp.cpp:434
+#: kdecore/kapp.cpp:416 kdecore/kapp.cpp:437
 msgid "About KDE"
 msgstr ""
 
-#: kdecore/kapp.cpp:436
+#: kdecore/kapp.cpp:439
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
@@ -57,12 +57,12 @@ msgid "Add to Custom Colors"
 msgstr ""
 
 #: kdeui/kcolordlg.cpp:461 kdeui/kfontdialog.cpp:351
-#: kdeui/kiconloaderdialog.cpp:210 po/texts.cpp:41
+#: kdeui/kiconloaderdialog.cpp:210 po/texts.cpp:35
 msgid "Ok"
 msgstr ""
 
 #: kdeui/kcolordlg.cpp:464 kdeui/kcontrol.cpp:41 kdeui/kfontdialog.cpp:346
-#: kdeui/kiconloaderdialog.cpp:211 po/texts.cpp:42
+#: kdeui/kiconloaderdialog.cpp:211 po/texts.cpp:38
 msgid "Cancel"
 msgstr ""
 
@@ -70,11 +70,11 @@ msgstr ""
 msgid "Custom..."
 msgstr ""
 
-#: kdeui/kcontrol.cpp:39 po/texts.cpp:40
+#: kdeui/kcontrol.cpp:39 po/texts.cpp:34
 msgid "OK"
 msgstr ""
 
-#: kdeui/kcontrol.cpp:40 po/texts.cpp:43
+#: kdeui/kcontrol.cpp:40 po/texts.cpp:39
 msgid "Apply"
 msgstr ""
 
@@ -185,7 +185,7 @@ msgstr ""
 msgid "UnFloat"
 msgstr ""
 
-#: kdeui/kpopmenu.cpp:10 po/texts.cpp:39
+#: kdeui/kpopmenu.cpp:10 po/texts.cpp:33
 msgid "Untitled"
 msgstr ""
 
@@ -222,185 +222,213 @@ msgid "Warning"
 msgstr ""
 
 #: po/texts.cpp:30
-msgid "Open a file"
-msgstr ""
-
-#: po/texts.cpp:31
 msgid "Save a file"
 msgstr ""
 
-#: po/texts.cpp:32
+#: po/texts.cpp:31
 msgid "Contents"
 msgstr ""
 
-#: po/texts.cpp:33
+#: po/texts.cpp:32
 msgid "About"
 msgstr ""
 
-#: po/texts.cpp:34
-msgid "Open"
-msgstr ""
-
-#: po/texts.cpp:35
-msgid "Save"
-msgstr ""
-
 #: po/texts.cpp:36
-msgid "Save As"
-msgstr ""
-
-#: po/texts.cpp:37
-msgid "Close"
-msgstr ""
-
-#: po/texts.cpp:38
-msgid "Quit"
-msgstr ""
-
-#: po/texts.cpp:44
-msgid "File"
-msgstr ""
-
-#: po/texts.cpp:46
-msgid "Edit"
-msgstr ""
-
-#: po/texts.cpp:47
 msgid "On"
 msgstr ""
 
-#: po/texts.cpp:48
+#: po/texts.cpp:37
 msgid "Off"
 msgstr ""
 
-#: po/texts.cpp:49
+#: po/texts.cpp:40
+msgid "File"
+msgstr ""
+
+#: po/texts.cpp:41
 msgid "&File"
 msgstr ""
 
-#: po/texts.cpp:50
-msgid "&Options"
-msgstr ""
-
-#: po/texts.cpp:51
+#: po/texts.cpp:43
 msgid "&Help"
 msgstr ""
 
-#: po/texts.cpp:52
+#: po/texts.cpp:44
+msgid "Edit"
+msgstr ""
+
+#: po/texts.cpp:45
 msgid "&Edit"
 msgstr ""
 
-#: po/texts.cpp:53
-msgid "E&xit"
+#: po/texts.cpp:46
+msgid "&Options"
 msgstr ""
 
-#: po/texts.cpp:54
-msgid "&Quit"
-msgstr ""
-
-#: po/texts.cpp:55
-msgid "Reload"
-msgstr ""
-
-#: po/texts.cpp:56
-msgid "Back"
-msgstr ""
-
-#: po/texts.cpp:57
-msgid "Forward"
-msgstr ""
-
-#: po/texts.cpp:58
-msgid "Copy"
-msgstr ""
-
-#: po/texts.cpp:59
-msgid "Paste"
-msgstr ""
-
-#: po/texts.cpp:60
-msgid "Open..."
-msgstr ""
-
-#: po/texts.cpp:61
-msgid "Save as..."
-msgstr ""
-
-#: po/texts.cpp:62
-msgid "Cut"
-msgstr ""
-
-#: po/texts.cpp:63
-msgid "Font"
-msgstr ""
-
-#: po/texts.cpp:64
-msgid "&Foreground Color"
-msgstr ""
-
-#: po/texts.cpp:65
-msgid "&Background Color"
-msgstr ""
-
-#: po/texts.cpp:66
-msgid "&Save"
-msgstr ""
-
-#: po/texts.cpp:67
-msgid "S&ave as..."
-msgstr ""
-
-#: po/texts.cpp:68
-msgid "&Close"
-msgstr ""
-
-#: po/texts.cpp:69
-msgid "&Print..."
-msgstr ""
-
-#: po/texts.cpp:70
-msgid "&Copy"
-msgstr ""
-
-#: po/texts.cpp:71
-msgid "&Paste"
-msgstr ""
-
-#: po/texts.cpp:72
-msgid "C&ut"
-msgstr ""
-
-#: po/texts.cpp:73
-msgid "Done"
-msgstr ""
-
-#: po/texts.cpp:74
-msgid "Sorry"
-msgstr ""
-
-#: po/texts.cpp:75
-msgid "Options"
-msgstr ""
-
-#: po/texts.cpp:76
-msgid "Remove"
-msgstr ""
-
-#: po/texts.cpp:77
-msgid "Add"
-msgstr ""
-
-#: po/texts.cpp:78
+#: po/texts.cpp:47
 msgid "View"
 msgstr ""
 
-#: po/texts.cpp:79
-msgid "Change"
+#: po/texts.cpp:48
+msgid "&View"
 msgstr ""
 
-#: po/texts.cpp:80
+#: po/texts.cpp:49
+msgid "E&xit"
+msgstr ""
+
+#: po/texts.cpp:50
+msgid "Quit"
+msgstr ""
+
+#: po/texts.cpp:51
+msgid "&Quit"
+msgstr ""
+
+#: po/texts.cpp:52
+msgid "Reload"
+msgstr ""
+
+#: po/texts.cpp:53
+msgid "Back"
+msgstr ""
+
+#: po/texts.cpp:54
+msgid "Forward"
+msgstr ""
+
+#: po/texts.cpp:55
+msgid "Copy"
+msgstr ""
+
+#: po/texts.cpp:56
+msgid "&Copy"
+msgstr ""
+
+#: po/texts.cpp:57
+msgid "Paste"
+msgstr ""
+
+#: po/texts.cpp:58
+msgid "&Paste"
+msgstr ""
+
+#: po/texts.cpp:59
 msgid "New"
 msgstr ""
 
+#: po/texts.cpp:60
+msgid "&New"
+msgstr ""
+
+#: po/texts.cpp:61
+msgid "&New Window..."
+msgstr ""
+
+#: po/texts.cpp:62
+msgid "Open"
+msgstr ""
+
+#: po/texts.cpp:63
+msgid "Open a file"
+msgstr ""
+
+#: po/texts.cpp:64
+msgid "Open..."
+msgstr ""
+
+#: po/texts.cpp:65
+msgid "&Open..."
+msgstr ""
+
+#: po/texts.cpp:66
+msgid "Cut"
+msgstr ""
+
+#: po/texts.cpp:67
+msgid "C&ut"
+msgstr ""
+
+#: po/texts.cpp:68
+msgid "Font"
+msgstr ""
+
+#: po/texts.cpp:69
+msgid "&Foreground Color"
+msgstr ""
+
+#: po/texts.cpp:70
+msgid "&Background Color"
+msgstr ""
+
+#: po/texts.cpp:71
+msgid "Save"
+msgstr ""
+
+#: po/texts.cpp:72
+msgid "&Save"
+msgstr ""
+
+#: po/texts.cpp:73
+msgid "Save As"
+msgstr ""
+
+#: po/texts.cpp:74
+msgid "Save as..."
+msgstr ""
+
+#: po/texts.cpp:75
+msgid "S&ave as..."
+msgstr ""
+
+#: po/texts.cpp:76
+msgid "Close"
+msgstr ""
+
+#: po/texts.cpp:77
+msgid "&Close"
+msgstr ""
+
+#: po/texts.cpp:78
+msgid "&Print..."
+msgstr ""
+
+#: po/texts.cpp:79
+msgid "Done"
+msgstr ""
+
+#: po/texts.cpp:80
+msgid "Sorry"
+msgstr ""
+
 #: po/texts.cpp:81
+msgid "Options"
+msgstr ""
+
+#: po/texts.cpp:82
+msgid "Remove"
+msgstr ""
+
+#: po/texts.cpp:83
+msgid "Add"
+msgstr ""
+
+#: po/texts.cpp:84
+msgid "Change"
+msgstr ""
+
+#: po/texts.cpp:85
 msgid "Delete"
+msgstr ""
+
+#: po/texts.cpp:86
+msgid "Clear"
+msgstr ""
+
+#: po/texts.cpp:87
+msgid "Italic"
+msgstr ""
+
+#: po/texts.cpp:88
+msgid "Roman"
 msgstr ""

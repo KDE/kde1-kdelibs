@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-12-29 17:42+0100\n"
+"POT-Creation-Date: 1997-12-31 15:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,22 +14,22 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: kdecore/kapp.cpp:404 kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34
-#: po/texts.cpp:45
+#: kdecore/kapp.cpp:407 kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34
+#: po/texts.cpp:42
 msgid "Help"
 msgstr "Помощь"
 
-#: kdecore/kapp.cpp:409
+#: kdecore/kapp.cpp:412
 #, fuzzy
 msgid "About "
 msgstr "О программе"
 
-#: kdecore/kapp.cpp:413 kdecore/kapp.cpp:434
+#: kdecore/kapp.cpp:416 kdecore/kapp.cpp:437
 #, fuzzy
 msgid "About KDE"
 msgstr "О программе"
 
-#: kdecore/kapp.cpp:436
+#: kdecore/kapp.cpp:439
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
@@ -70,12 +70,12 @@ msgid "Add to Custom Colors"
 msgstr "Добавить собственный цвет"
 
 #: kdeui/kcolordlg.cpp:461 kdeui/kfontdialog.cpp:351
-#: kdeui/kiconloaderdialog.cpp:210 po/texts.cpp:41
+#: kdeui/kiconloaderdialog.cpp:210 po/texts.cpp:35
 msgid "Ok"
 msgstr "Ок"
 
 #: kdeui/kcolordlg.cpp:464 kdeui/kcontrol.cpp:41 kdeui/kfontdialog.cpp:346
-#: kdeui/kiconloaderdialog.cpp:211 po/texts.cpp:42
+#: kdeui/kiconloaderdialog.cpp:211 po/texts.cpp:38
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -83,11 +83,11 @@ msgstr "Отмена"
 msgid "Custom..."
 msgstr "Настройки"
 
-#: kdeui/kcontrol.cpp:39 po/texts.cpp:40
+#: kdeui/kcontrol.cpp:39 po/texts.cpp:34
 msgid "OK"
 msgstr "ОК"
 
-#: kdeui/kcontrol.cpp:40 po/texts.cpp:43
+#: kdeui/kcontrol.cpp:40 po/texts.cpp:39
 msgid "Apply"
 msgstr "Применить"
 
@@ -199,7 +199,7 @@ msgstr "Сделать плавающей"
 msgid "UnFloat"
 msgstr "Сделать неплавающей"
 
-#: kdeui/kpopmenu.cpp:10 po/texts.cpp:39
+#: kdeui/kpopmenu.cpp:10 po/texts.cpp:33
 msgid "Untitled"
 msgstr "Беззаголовка"
 
@@ -237,202 +237,235 @@ msgid "Warning"
 msgstr "Предупреждение"
 
 #: po/texts.cpp:30
-msgid "Open a file"
-msgstr "Открыть файл"
-
-#: po/texts.cpp:31
 msgid "Save a file"
 msgstr "Сохранить файл"
 
-#: po/texts.cpp:32
+#: po/texts.cpp:31
 msgid "Contents"
 msgstr "Содержимое"
 
-#: po/texts.cpp:33
+#: po/texts.cpp:32
 msgid "About"
 msgstr "О программе"
 
-#: po/texts.cpp:34
-msgid "Open"
-msgstr "Открыть"
-
-#: po/texts.cpp:35
-msgid "Save"
-msgstr "Сохранить"
-
 #: po/texts.cpp:36
-msgid "Save As"
-msgstr "Сохранить как"
-
-#: po/texts.cpp:37
-msgid "Close"
-msgstr "Закрыть"
-
-#: po/texts.cpp:38
-msgid "Quit"
-msgstr "Выход"
-
-#: po/texts.cpp:44
-msgid "File"
-msgstr "Файл"
-
-#: po/texts.cpp:46
-msgid "Edit"
-msgstr "Редактирование"
-
-#: po/texts.cpp:47
 #, fuzzy
 msgid "On"
 msgstr "Открыть"
 
-#: po/texts.cpp:48
+#: po/texts.cpp:37
 msgid "Off"
 msgstr ""
 
-#: po/texts.cpp:49
+#: po/texts.cpp:40
+msgid "File"
+msgstr "Файл"
+
+#: po/texts.cpp:41
 #, fuzzy
 msgid "&File"
 msgstr "Файл"
 
-#: po/texts.cpp:50
-msgid "&Options"
-msgstr ""
-
-#: po/texts.cpp:51
+#: po/texts.cpp:43
 #, fuzzy
 msgid "&Help"
 msgstr "Помощь"
 
-#: po/texts.cpp:52
+#: po/texts.cpp:44
+msgid "Edit"
+msgstr "Редактирование"
+
+#: po/texts.cpp:45
 #, fuzzy
 msgid "&Edit"
 msgstr "Редактирование"
 
-#: po/texts.cpp:53
+#: po/texts.cpp:46
+msgid "&Options"
+msgstr ""
+
+#: po/texts.cpp:47
+msgid "View"
+msgstr ""
+
+#: po/texts.cpp:48
+#, fuzzy
+msgid "&View"
+msgstr "Файл"
+
+#: po/texts.cpp:49
 #, fuzzy
 msgid "E&xit"
 msgstr "Редактирование"
 
-#: po/texts.cpp:54
+#: po/texts.cpp:50
+msgid "Quit"
+msgstr "Выход"
+
+#: po/texts.cpp:51
 #, fuzzy
 msgid "&Quit"
 msgstr "Выход"
 
-#: po/texts.cpp:55
+#: po/texts.cpp:52
 msgid "Reload"
 msgstr ""
 
-#: po/texts.cpp:56
+#: po/texts.cpp:53
 msgid "Back"
 msgstr ""
 
-#: po/texts.cpp:57
+#: po/texts.cpp:54
 msgid "Forward"
 msgstr ""
 
-#: po/texts.cpp:58
+#: po/texts.cpp:55
 msgid "Copy"
 msgstr ""
 
-#: po/texts.cpp:59
+#: po/texts.cpp:56
+msgid "&Copy"
+msgstr ""
+
+#: po/texts.cpp:57
 msgid "Paste"
 msgstr ""
 
+#: po/texts.cpp:58
+msgid "&Paste"
+msgstr ""
+
+#: po/texts.cpp:59
+msgid "New"
+msgstr ""
+
 #: po/texts.cpp:60
+msgid "&New"
+msgstr ""
+
+#: po/texts.cpp:61
+msgid "&New Window..."
+msgstr ""
+
+#: po/texts.cpp:62
+msgid "Open"
+msgstr "Открыть"
+
+#: po/texts.cpp:63
+msgid "Open a file"
+msgstr "Открыть файл"
+
+#: po/texts.cpp:64
 #, fuzzy
 msgid "Open..."
 msgstr "Открыть"
 
-#: po/texts.cpp:61
+#: po/texts.cpp:65
 #, fuzzy
-msgid "Save as..."
-msgstr "Сохранить как"
+msgid "&Open..."
+msgstr "Открыть"
 
-#: po/texts.cpp:62
+#: po/texts.cpp:66
 msgid "Cut"
 msgstr ""
 
-#: po/texts.cpp:63
-#, fuzzy
-msgid "Font"
-msgstr "Сделать плавающей"
-
-#: po/texts.cpp:64
-msgid "&Foreground Color"
-msgstr ""
-
-#: po/texts.cpp:65
-msgid "&Background Color"
-msgstr ""
-
-#: po/texts.cpp:66
-#, fuzzy
-msgid "&Save"
-msgstr "Сохранить"
-
 #: po/texts.cpp:67
-#, fuzzy
-msgid "S&ave as..."
-msgstr "Сохранить как"
-
-#: po/texts.cpp:68
-#, fuzzy
-msgid "&Close"
-msgstr "Закрыть"
-
-#: po/texts.cpp:69
-msgid "&Print..."
-msgstr ""
-
-#: po/texts.cpp:70
-msgid "&Copy"
-msgstr ""
-
-#: po/texts.cpp:71
-msgid "&Paste"
-msgstr ""
-
-#: po/texts.cpp:72
 #, fuzzy
 msgid "C&ut"
 msgstr "Выход"
 
-#: po/texts.cpp:73
-msgid "Done"
+#: po/texts.cpp:68
+#, fuzzy
+msgid "Font"
+msgstr "Сделать плавающей"
+
+#: po/texts.cpp:69
+msgid "&Foreground Color"
 msgstr ""
+
+#: po/texts.cpp:70
+msgid "&Background Color"
+msgstr ""
+
+#: po/texts.cpp:71
+msgid "Save"
+msgstr "Сохранить"
+
+#: po/texts.cpp:72
+#, fuzzy
+msgid "&Save"
+msgstr "Сохранить"
+
+#: po/texts.cpp:73
+msgid "Save As"
+msgstr "Сохранить как"
 
 #: po/texts.cpp:74
-msgid "Sorry"
-msgstr ""
+#, fuzzy
+msgid "Save as..."
+msgstr "Сохранить как"
 
 #: po/texts.cpp:75
-msgid "Options"
-msgstr ""
+#, fuzzy
+msgid "S&ave as..."
+msgstr "Сохранить как"
 
 #: po/texts.cpp:76
-msgid "Remove"
-msgstr ""
+msgid "Close"
+msgstr "Закрыть"
 
 #: po/texts.cpp:77
-msgid "Add"
-msgstr ""
+#, fuzzy
+msgid "&Close"
+msgstr "Закрыть"
 
 #: po/texts.cpp:78
-msgid "View"
+msgid "&Print..."
 msgstr ""
 
 #: po/texts.cpp:79
+msgid "Done"
+msgstr ""
+
+#: po/texts.cpp:80
+msgid "Sorry"
+msgstr ""
+
+#: po/texts.cpp:81
+msgid "Options"
+msgstr ""
+
+#: po/texts.cpp:82
+msgid "Remove"
+msgstr ""
+
+#: po/texts.cpp:83
+msgid "Add"
+msgstr ""
+
+#: po/texts.cpp:84
 #, fuzzy
 msgid "Change"
 msgstr "Отмена"
 
-#: po/texts.cpp:80
-msgid "New"
-msgstr ""
-
-#: po/texts.cpp:81
+#: po/texts.cpp:85
 msgid "Delete"
 msgstr ""
+
+#: po/texts.cpp:86
+#, fuzzy
+msgid "Clear"
+msgstr "Закрыть"
+
+#: po/texts.cpp:87
+#, fuzzy
+msgid "Italic"
+msgstr "наклонный"
+
+#: po/texts.cpp:88
+#, fuzzy
+msgid "Roman"
+msgstr "роман"
 
 #~ msgid "ERROR: couldn't find icon: %s"
 #~ msgstr "ОШИБКА: не могу найти пиктограмму: %s"
