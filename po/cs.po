@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kde\n"
-"POT-Creation-Date: 1998-04-14 21:36+0200\n"
+"POT-Creation-Date: 1998-04-17 23:25+0200\n"
 "PO-Revision-Date: 1998-04-17 16:23 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -69,18 +69,19 @@ msgid "Add to Custom Colors"
 msgstr "Pøidat k vlastním barvám"
 
 #: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:337
-#: kdeui/kiconloaderdialog.cpp:210 kfile/kfiledialog.cpp:886 po/texts.cpp:37
+#: kdeui/kiconloaderdialog.cpp:210 kfile/kfiledialog.cpp:898 po/texts.cpp:37
 msgid "Ok"
 msgstr "Ok"
 
 #: kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:41 kdeui/keditcl1.cpp:397
 #: kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897 kdeui/kfontdialog.cpp:332
 #: kdeui/kiconloaderdialog.cpp:211 kdeui/kmsgbox.cpp:505
-#: kfile/kfiledialog.cpp:288 kfile/kfiledialog.cpp:891 po/texts.cpp:40
+#: kfile/kfiledialog.cpp:286 kfile/kfiledialog.cpp:903
+#: kfile/kfiledialogconf.cpp:58 po/texts.cpp:40
 msgid "Cancel"
 msgstr "Zru¹it"
 
-#: kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34 kfile/kfiledialog.cpp:294
+#: kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34 kfile/kfiledialog.cpp:292
 #: po/texts.cpp:45
 msgid "Help"
 msgstr "Nápovìda"
@@ -92,11 +93,12 @@ msgstr "Vlastní..."
 #: kdeui/kcontrol.cpp:39 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
 #: kdeui/keditcl1.cpp:1473 kdeui/keditcl1.cpp:1630 kdeui/kmsgbox.cpp:473
-#: kfile/kfiledialog.cpp:282 kfile/kfiledialog.cpp:501 po/texts.cpp:35
+#: kfile/kfiledialog.cpp:280 kfile/kfiledialog.cpp:513
+#: kfile/kfiledialogconf.cpp:60 po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
 
-#: kdeui/kcontrol.cpp:40 po/texts.cpp:42
+#: kdeui/kcontrol.cpp:40 kfile/kfiledialogconf.cpp:59 po/texts.cpp:42
 msgid "Apply"
 msgstr "Pøevzít"
 
@@ -298,7 +300,7 @@ msgstr "Styl:"
 msgid "Charset"
 msgstr "Kódování"
 
-#: kdeui/kfontdialog.cpp:264 kfile/kfiledetaillist.cpp:35
+#: kdeui/kfontdialog.cpp:264 kfile/kfiledetaillist.cpp:38
 msgid "Size"
 msgstr "Velikost"
 
@@ -348,35 +350,35 @@ msgstr "Vyber ikonu"
 msgid "Filter:"
 msgstr "Filtr:"
 
-#: kdeui/kmenubar.cpp:154 kdeui/ktoolbar.cpp:431
+#: kdeui/kmenubar.cpp:154 kdeui/ktoolbar.cpp:435
 msgid "Top"
 msgstr "Nahoøe"
 
-#: kdeui/kmenubar.cpp:155 kdeui/ktoolbar.cpp:433
+#: kdeui/kmenubar.cpp:155 kdeui/ktoolbar.cpp:437
 msgid "Bottom"
 msgstr "Dole"
 
-#: kdeui/kmenubar.cpp:156 kdeui/ktoolbar.cpp:434
+#: kdeui/kmenubar.cpp:156 kdeui/ktoolbar.cpp:438
 msgid "Floating"
 msgstr "Plovoucí"
 
-#: kdeui/kmenubar.cpp:197 kdeui/kmenubar.cpp:337 kdeui/ktoolbar.cpp:1455
+#: kdeui/kmenubar.cpp:197 kdeui/kmenubar.cpp:337 kdeui/ktoolbar.cpp:1459
 msgid "Float"
 msgstr "Plovoucí"
 
-#: kdeui/kmenubar.cpp:326 kdeui/ktoolbar.cpp:1437
+#: kdeui/kmenubar.cpp:326 kdeui/ktoolbar.cpp:1441
 msgid "UnFloat"
 msgstr "Pøipevnit"
 
-#: kdeui/ktoolbar.cpp:149 kdeui/ktoolbar.cpp:273
+#: kdeui/ktoolbar.cpp:153 kdeui/ktoolbar.cpp:277
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: pixmapa je prázdná, pravdìpodovnì chybí nìjaký soubor"
 
-#: kdeui/ktoolbar.cpp:430
+#: kdeui/ktoolbar.cpp:434
 msgid "Left"
 msgstr "Vlevo"
 
-#: kdeui/ktoolbar.cpp:432
+#: kdeui/ktoolbar.cpp:436
 msgid "Right"
 msgstr "Vpravo"
 
@@ -392,63 +394,63 @@ msgstr "Adresáøe:"
 msgid "Contents:"
 msgstr "Obsah:"
 
-#: kfile/kfiledetaillist.cpp:34
+#: kfile/kfiledetaillist.cpp:36
 msgid "Name"
 msgstr "Jméno"
 
-#: kfile/kfiledetaillist.cpp:36
+#: kfile/kfiledetaillist.cpp:40
 msgid "Permissions"
 msgstr "Práva"
 
-#: kfile/kfiledetaillist.cpp:37
+#: kfile/kfiledetaillist.cpp:42
 msgid "Date"
 msgstr "Datum"
 
-#: kfile/kfiledetaillist.cpp:38
+#: kfile/kfiledetaillist.cpp:45
 msgid "Owner"
 msgstr "Vlastník"
 
-#: kfile/kfiledetaillist.cpp:39
+#: kfile/kfiledetaillist.cpp:47
 msgid "Group"
 msgstr "Skupina"
 
-#: kfile/kfiledialog.cpp:141 po/texts.cpp:56
+#: kfile/kfiledialog.cpp:144 po/texts.cpp:56
 msgid "Back"
 msgstr "Zpìt"
 
-#: kfile/kfiledialog.cpp:144 po/texts.cpp:57
+#: kfile/kfiledialog.cpp:147 po/texts.cpp:57
 msgid "Forward"
 msgstr "Dal¹í"
 
-#: kfile/kfiledialog.cpp:147
+#: kfile/kfiledialog.cpp:150
 msgid "Up to parent"
 msgstr "Nahoru k nadøazenému"
 
-#: kfile/kfiledialog.cpp:150
+#: kfile/kfiledialog.cpp:153
 msgid "Home"
 msgstr "Domù"
 
-#: kfile/kfiledialog.cpp:153 po/texts.cpp:55
+#: kfile/kfiledialog.cpp:156 po/texts.cpp:55
 msgid "Reload"
 msgstr "Obnovit"
 
-#: kfile/kfiledialog.cpp:169
+#: kfile/kfiledialog.cpp:172
 msgid "Bookmarks"
 msgstr "Zálo¾ky"
 
-#: kfile/kfiledialog.cpp:173
+#: kfile/kfiledialog.cpp:176
 msgid "Create new folder"
 msgstr "Vytvoøit nový adresáø"
 
-#: kfile/kfiledialog.cpp:176
+#: kfile/kfiledialog.cpp:179
 msgid "Search for a file"
 msgstr "Hledat soubor"
 
-#: kfile/kfiledialog.cpp:179
+#: kfile/kfiledialog.cpp:182
 msgid "Configure this dialog [development only]"
 msgstr "Nastavení totoho dialogu [zatím ve vývoji]"
 
-#: kfile/kfiledialog.cpp:187
+#: kfile/kfiledialog.cpp:190
 msgid "The path"
 msgstr "Cesta"
 
@@ -464,11 +466,11 @@ msgstr "&Filtr:"
 msgid "Show hidden"
 msgstr "Zobrazit skryté"
 
-#: kfile/kfiledialog.cpp:496
+#: kfile/kfiledialog.cpp:508
 msgid "Error: Not local file"
 msgstr "Chyba: Toto není lokální soubor"
 
-#: kfile/kfiledialog.cpp:497
+#: kfile/kfiledialog.cpp:509
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
@@ -476,11 +478,11 @@ msgstr ""
 "Specifikovaný adresáø není lokálním adresáøem.\n"
 "Aplikace akceptuje pouze lokální soubory."
 
-#: kfile/kfiledialog.cpp:511 kfile/kfiledialog.cpp:611
+#: kfile/kfiledialog.cpp:523 kfile/kfiledialog.cpp:623
 msgid "Error: Cannot Open Directory"
 msgstr "Chyba: Není mo¾né otevøít adresáø"
 
-#: kfile/kfiledialog.cpp:512
+#: kfile/kfiledialog.cpp:524
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
@@ -488,69 +490,69 @@ msgstr ""
 "Specifikovaný soubor neexistuje\n"
 "nebo jej nelze èíst."
 
-#: kfile/kfiledialog.cpp:514 kfile/kfiledialog.cpp:614
+#: kfile/kfiledialog.cpp:526 kfile/kfiledialog.cpp:626
 msgid "Dismiss"
 msgstr "Zamítnout"
 
-#: kfile/kfiledialog.cpp:550 kfile/kfiledialog.cpp:1154
-#: kfile/kfiledialog.cpp:1304 kfile/kfiledialog.cpp:1338 po/texts.cpp:69
+#: kfile/kfiledialog.cpp:562 kfile/kfiledialog.cpp:1156
+#: kfile/kfiledialog.cpp:1315 kfile/kfiledialog.cpp:1349 po/texts.cpp:69
 msgid "Open"
 msgstr "Otevøít"
 
-#: kfile/kfiledialog.cpp:565 kfile/kfiledialog.cpp:1319 po/texts.cpp:80
+#: kfile/kfiledialog.cpp:577 kfile/kfiledialog.cpp:1330 po/texts.cpp:80
 msgid "Save As"
 msgstr "Ulo¾it jako"
 
-#: kfile/kfiledialog.cpp:587
+#: kfile/kfiledialog.cpp:599
 msgid "Root Directory"
 msgstr "Koøenový adresáø"
 
-#: kfile/kfiledialog.cpp:612
+#: kfile/kfiledialog.cpp:624
 msgid "The specified directory does not exist or was not readable."
 msgstr "Specifikovaný soubor neexistuje nebo jej nelze èíst."
 
-#: kfile/kfiledialog.cpp:871
+#: kfile/kfiledialog.cpp:883
 msgid "Create new directory in: "
 msgstr "Vytvoøit nový adresá5 v:"
 
-#: kfile/kfiledialog.cpp:874
+#: kfile/kfiledialog.cpp:886
 msgid "New Directory"
 msgstr "Nový adresáø"
 
-#: kfile/kfiledialog.cpp:946
+#: kfile/kfiledialog.cpp:958
 msgid "Add to bookmarks"
 msgstr "Pøidat k zálo¾kám"
 
-#: kfile/kfiledialog.cpp:1188
+#: kfile/kfiledialog.cpp:1190
 msgid "Choose Directory"
 msgstr "Vyber adresáø"
 
-#: kfile/kfiledialog.cpp:1209 kfile/kfiledialog.cpp:1359 po/texts.cpp:78
+#: kfile/kfiledialog.cpp:1211 kfile/kfiledialog.cpp:1370 po/texts.cpp:78
 msgid "Save"
 msgstr "Ulo¾it"
 
-#: kfile/kfiledialog.cpp:1256
+#: kfile/kfiledialog.cpp:1258
 msgid "directory"
 msgstr "adresáø"
 
-#: kfile/kfiledialog.cpp:1258
+#: kfile/kfiledialog.cpp:1260
 msgid "directories"
 msgstr "adresáøe"
 
-#: kfile/kfiledialog.cpp:1260 kfile/kpreview.cpp:324
+#: kfile/kfiledialog.cpp:1262 kfile/kpreview.cpp:326
 msgid "file"
 msgstr "soubor"
 
-#: kfile/kfiledialog.cpp:1262
+#: kfile/kfiledialog.cpp:1264
 msgid "files"
 msgstr "soubory"
 
-#: kfile/kfiledialog.cpp:1264
+#: kfile/kfiledialog.cpp:1266
 #, c-format
 msgid "%d %s and %d %s"
 msgstr "%d %s a %d %s"
 
-#: kfile/kfiledialog.cpp:1274
+#: kfile/kfiledialog.cpp:1276
 msgid "one directory"
 msgstr "jeden adresáø"
 
@@ -558,69 +560,120 @@ msgstr "jeden adresáø"
 msgid "Look and Feel"
 msgstr "Vzhled"
 
-#: kfile/kfiledialogconf.cpp:47 po/texts.cpp:32
+#: kfile/kfiledialogconf.cpp:43
+msgid ""
+"KDE File Selector by:\n"
+"\n"
+"Richard Moore <rich@kde.org>\n"
+"Stephan Kulow <coolo@kde.org>\n"
+"and Daniel Grana <grana@ie.iwi.unibe.ch>\n"
+"\n"
+"with contributions by\n"
+"\n"
+"Mario Weilguni <mweilguni@sime.com>\n"
+"and Martin Jones <mjones@kde.org>"
+msgstr ""
+
+#: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
 msgid "About"
 msgstr "Informace"
 
-#: kfile/kfiledialogconf.cpp:66
-msgid "Width"
-msgstr "©íøka"
-
-#: kfile/kfiledialogconf.cpp:88
-msgid "Height"
-msgstr "Vý¹ka"
-
-#: kfile/kfiledialogconf.cpp:110
-msgid "Panner"
-msgstr "Rozdìlení"
-
-#: kfile/kfiledialogconf.cpp:140
+#: kfile/kfiledialogconf.cpp:70
 msgid "View style"
 msgstr "Styl zobrazení"
 
-#: kfile/kfiledialogconf.cpp:144
+#: kfile/kfiledialogconf.cpp:74
 msgid "Show Short View"
 msgstr "Struèné zobrazení"
 
-#: kfile/kfiledialogconf.cpp:150
+#: kfile/kfiledialogconf.cpp:80
 msgid "Show Detail View"
 msgstr "Detailní zobrazení"
 
-#: kfile/kfiledialogconf.cpp:162
+#: kfile/kfiledialogconf.cpp:89
 msgid "Misc"
 msgstr "Rùzné"
 
-#: kfile/kfiledialogconf.cpp:168
+#: kfile/kfiledialogconf.cpp:95
 msgid "Show Filter"
 msgstr "Zobrazovat filtry"
 
-#: kfile/kfiledialogconf.cpp:174
+#: kfile/kfiledialogconf.cpp:101
 msgid "Show List Labels"
 msgstr "Zobrazovat pojmenování výpisù"
 
-#: kfile/kfiledialogconf.cpp:180
+#: kfile/kfiledialogconf.cpp:107
 msgid "Show Hidden"
 msgstr "Zobrazovat skryté"
 
-#: kfile/kfiledialogconf.cpp:186
+#: kfile/kfiledialogconf.cpp:113
 msgid "Show Status Line"
 msgstr "Zobrazovat stavovou linku"
 
-#: kfile/kfiledialogconf.cpp:192
+#: kfile/kfiledialogconf.cpp:119
 msgid "Use single Click"
 msgstr "Pou¾ívat jedno kliknutí"
 
-#: kfile/kfiledialogconf.cpp:197
+#: kfile/kfiledialogconf.cpp:125
 msgid "Mix dirs and files"
 msgstr "Smíchat adresáøe a soubory"
 
-#: kfile/kfiledialogconf.cpp:202
+#: kfile/kfiledialogconf.cpp:131
 msgid "Keep dirs first"
 msgstr "Zobrazovat nejprve adresáøe"
 
-#: kfile/kfileinfo.cpp:94 kfile/kfileinfo.cpp:98
+#: kfile/kfileinfo.cpp:95 kfile/kfileinfo.cpp:99
 msgid "unknown"
 msgstr "neznámé"
+
+#: kfile/kfileinfo.cpp:217
+msgid "Jan"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:218
+msgid "Feb"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:219
+msgid "Mar"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:220
+msgid "Apr"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:221
+msgid "May"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:222
+msgid "Jun"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:223
+msgid "Jul"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:224
+msgid "Aug"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:225
+msgid "Sep"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:226
+msgid "Oct"
+msgstr ""
+
+#: kfile/kfileinfo.cpp:227
+#, fuzzy
+msgid "Nov"
+msgstr "Ne"
+
+#: kfile/kfileinfo.cpp:228
+msgid "Dec"
+msgstr ""
 
 #: kfile/kpreview.cpp:187
 msgid "Name:"
@@ -650,7 +703,7 @@ msgstr "zamknutý"
 msgid "picture"
 msgstr "obrázek"
 
-#: kfile/kpreview.cpp:339
+#: kfile/kpreview.cpp:343
 msgid "folder"
 msgstr "adresáø"
 
@@ -906,3 +959,12 @@ msgstr "Listuj ..."
 #: po/texts.cpp:104
 msgid "(none)"
 msgstr "(¾ádná)"
+
+#~ msgid "Width"
+#~ msgstr "©íøka"
+
+#~ msgid "Height"
+#~ msgstr "Vý¹ka"
+
+#~ msgid "Panner"
+#~ msgstr "Rozdìlení"
