@@ -911,7 +911,7 @@ msgstr "Afslut"
 # , fuzzy
 #: po/texts.cpp:54
 msgid "&Quit"
-msgstr "Afslut"
+msgstr "&Afslut"
 
 #: po/texts.cpp:58
 msgid "Copy"
@@ -1006,7 +1006,6 @@ msgstr "&Gem"
 msgid "Save as..."
 msgstr "Gem som..."
 
-# , fuzzy
 #: po/texts.cpp:84
 msgid "S&ave as..."
 msgstr "Gem s&om..."
@@ -1051,15 +1050,13 @@ msgstr "&Slet"
 msgid "Clear"
 msgstr "Ryd"
 
-# , fuzzy
 #: po/texts.cpp:97
 msgid "Italic"
-msgstr "kursiv"
+msgstr "Kursiv"
 
-# , fuzzy
 #: po/texts.cpp:98
 msgid "Roman"
-msgstr "roman"
+msgstr "Roman"
 
 #: po/texts.cpp:99
 msgid "Undo"
@@ -1077,7 +1074,6 @@ msgstr "Gendan"
 msgid "&Redo"
 msgstr "&Gendan"
 
-# , fuzzy
 #: po/texts.cpp:103
 msgid "&Game"
 msgstr "&Spil"
@@ -1087,7 +1083,6 @@ msgstr "&Spil"
 msgid "Information"
 msgstr ""
 
-# , fuzzy
 #: po/texts.cpp:105
 msgid "Browse..."
 msgstr "Gennemsøg..."
@@ -1104,12 +1099,10 @@ msgstr "Ingen"
 msgid "Stop"
 msgstr "Stop"
 
-# , fuzzy
 #: po/texts.cpp:109
 msgid "&Remove"
 msgstr "Fje&rn"
 
-# , fuzzy
 #: po/texts.cpp:110
 msgid "&Properties..."
 msgstr "&Indstillinger..."
@@ -1122,7 +1115,6 @@ msgstr "Indstillinger"
 msgid "&Start"
 msgstr "&Start"
 
-# , fuzzy
 #: po/texts.cpp:113
 msgid "St&op"
 msgstr "St&op"
@@ -1191,7 +1183,6 @@ msgstr "Udseende"
 msgid "Print"
 msgstr "Udskriv"
 
-# , fuzzy
 #: po/texts.cpp:130
 msgid "Monday"
 msgstr "Mandag"
@@ -1204,12 +1195,10 @@ msgstr "Tirsdag"
 msgid "Wednesday"
 msgstr "Onsdag"
 
-# , fuzzy
 #: po/texts.cpp:133
 msgid "Thursday"
 msgstr "Torsdag"
 
-# , fuzzy
 #: po/texts.cpp:134
 msgid "Friday"
 msgstr "Fredag"
@@ -1218,17 +1207,14 @@ msgstr "Fredag"
 msgid "Saturday"
 msgstr "Lørdag"
 
-# , fuzzy
 #: po/texts.cpp:136
 msgid "Sunday"
 msgstr "Søndag"
 
-# , fuzzy
 #: po/texts.cpp:137
 msgid "&Update"
 msgstr "&Opdatér"
 
-# , fuzzy
 #: po/texts.cpp:138
 msgid "Layout"
 msgstr "Typografi"
@@ -1237,21 +1223,18 @@ msgstr "Typografi"
 msgid "Highscore"
 msgstr ""
 
-# , fuzzy
 #: po/texts.cpp:140
 msgid "&New View"
-msgstr "Vis"
+msgstr "&Ny Vis"
 
 #: po/texts.cpp:141
 msgid "&Insert"
 msgstr "&Indsæt"
 
-# , fuzzy
 #: po/texts.cpp:144
 msgid "&Next >>"
 msgstr "&Næste >>"
 
-# , fuzzy
 #: po/texts.cpp:145
 msgid "<< &Previous"
 msgstr "<< &Forrige"
