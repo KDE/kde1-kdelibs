@@ -1,3 +1,4 @@
+# messages, that are often used 
 msgid "Error"
 msgstr "Λάθος"
 
