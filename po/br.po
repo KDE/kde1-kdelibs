@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs-1.1\n"
-"POT-Creation-Date: 1999-01-22 01:01+0100\n"
+"POT-Creation-Date: 1999-02-06 01:01+0100\n"
 "PO-Revision-Date: 1999-02-26 18:23+0100\n"
 "Last-Translator: Jañ-Mai Drapier <jdrapier@club-internet.fr>\n"
 "Language-Team: Brezhoneg <Suav.Icb@wanadoo.fr>\n"
@@ -256,95 +256,95 @@ msgstr "Gwerzhioù possubl :"
 msgid "Selected values:"
 msgstr "Gwerzhioù diuzet :"
 
-#: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1217
+#: kdecore/kaccel.cpp:223 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1217
 #: kfile/kfiledialog.cpp:1377 kfile/kfiledialog.cpp:1411 po/texts.cpp:65
 msgid "Open"
 msgstr "Digeriñ"
 
-#: kdecore/kaccel.cpp:235
+#: kdecore/kaccel.cpp:227
 msgid "New"
 msgstr "Nevez"
 
-#: kab/searchresults.cc:30 kdecore/kaccel.cpp:239 po/texts.cpp:80
+#: kab/searchresults.cc:30 kdecore/kaccel.cpp:231 po/texts.cpp:80
 msgid "Close"
 msgstr "Serriñ"
 
-#: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1272
+#: kdecore/kaccel.cpp:235 kfile/kfiledialog.cpp:1272
 #: kfile/kfiledialog.cpp:1432 po/texts.cpp:75
 msgid "Save"
 msgstr "Enrollañ"
 
-#: kdecore/kaccel.cpp:247 po/texts.cpp:115
+#: kdecore/kaccel.cpp:239 po/texts.cpp:115
 msgid "Print"
 msgstr "Moulañ"
 
-#: kdecore/kaccel.cpp:251 po/texts.cpp:52
+#: kdecore/kaccel.cpp:243 po/texts.cpp:52
 msgid "Quit"
 msgstr "Kuitaat"
 
-#: kdecore/kaccel.cpp:255 po/texts.cpp:69
+#: kdecore/kaccel.cpp:247 po/texts.cpp:69
 msgid "Cut"
 msgstr "Troc'hañ"
 
-#: kdecore/kaccel.cpp:259 po/texts.cpp:56
+#: kdecore/kaccel.cpp:251 po/texts.cpp:56
 msgid "Copy"
 msgstr "Eilañ"
 
-#: kdecore/kaccel.cpp:263 po/texts.cpp:58
+#: kdecore/kaccel.cpp:255 po/texts.cpp:58
 msgid "Paste"
 msgstr "Pegañ"
 
-#: kdecore/kaccel.cpp:267 po/texts.cpp:93
+#: kdecore/kaccel.cpp:259 po/texts.cpp:93
 msgid "Undo"
 msgstr "Dizober"
 
-#: kdecore/kaccel.cpp:271 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
+#: kdecore/kaccel.cpp:263 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
 #: kdeui/keditcl2.cpp:360 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:676
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786
 msgid "Find"
 msgstr "Kavout"
 
-#: kdecore/kaccel.cpp:275 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
+#: kdecore/kaccel.cpp:267 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
 #: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 kspell/kspelldlg.cpp:110
 #: po/texts.cpp:133
 msgid "Replace"
 msgstr "Erlec'hiañ"
 
-#: kdecore/kaccel.cpp:279 po/texts.cpp:134
+#: kdecore/kaccel.cpp:271 po/texts.cpp:134
 msgid "Insert"
 msgstr "Enlakaat"
 
-#: kdecore/kaccel.cpp:283 kfile/kfiledialog.cpp:131
+#: kdecore/kaccel.cpp:275 kfile/kfiledialog.cpp:131
 msgid "Home"
 msgstr "Du-mañ"
 
-#: kdecore/kaccel.cpp:287
+#: kdecore/kaccel.cpp:279
 msgid "End"
 msgstr "Dibenn"
 
-#: kdecore/kaccel.cpp:291
+#: kdecore/kaccel.cpp:283
 msgid "Prior"
 msgstr "Kent"
 
-#: kdecore/kaccel.cpp:295
+#: kdecore/kaccel.cpp:287
 msgid "Next"
 msgstr "A heul"
 
-#: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
+#: kdecore/kaccel.cpp:291 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
 #: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 kspell/ksconfig.cpp:212
 #: kspell/kspelldlg.cpp:131 po/texts.cpp:44
 msgid "Help"
 msgstr "Skoazell"
 
-#: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:661
+#: kdecore/kaccel.cpp:589 kdecore/kaccel.cpp:653
 msgid "SHIFT"
 msgstr "PENNLIZH"
 
-#: kdecore/kaccel.cpp:601 kdecore/kaccel.cpp:663
+#: kdecore/kaccel.cpp:593 kdecore/kaccel.cpp:655
 msgid "CTRL"
 msgstr ""
 
-#: kdecore/kaccel.cpp:605 kdecore/kaccel.cpp:665
+#: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:657
 msgid "ALT"
 msgstr ""
 
@@ -410,9 +410,9 @@ msgstr "Nann"
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:403
 #: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:321
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:906
-#: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:697
+#: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:773
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
-#: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
+#: kio/kio_progress_dlg.cc:64 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
 #: kspell/kspelldlg.cpp:143 po/texts.cpp:39
 msgid "Cancel"
 msgstr "Nullañ"
@@ -868,23 +868,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr "Enebiez stokelloù"
 
-#: kdeui/kmenubar.cpp:278 kdeui/ktoolbar.cpp:856
+#: kdeui/kmenubar.cpp:281 kdeui/ktoolbar.cpp:856
 msgid "Top"
 msgstr "Laez"
 
-#: kdeui/kmenubar.cpp:279 kdeui/ktoolbar.cpp:858
+#: kdeui/kmenubar.cpp:282 kdeui/ktoolbar.cpp:858
 msgid "Bottom"
 msgstr "Traoñ"
 
-#: kdeui/kmenubar.cpp:280 kdeui/ktoolbar.cpp:859
+#: kdeui/kmenubar.cpp:283 kdeui/ktoolbar.cpp:859
 msgid "Floating"
 msgstr "War-nij"
 
-#: kdeui/kmenubar.cpp:429 kdeui/kmenubar.cpp:771 kdeui/ktoolbar.cpp:2170
+#: kdeui/kmenubar.cpp:432 kdeui/kmenubar.cpp:774 kdeui/ktoolbar.cpp:2170
 msgid "Float"
 msgstr "Da nijal"
 
-#: kdeui/kmenubar.cpp:723 kdeui/ktoolbar.cpp:2151
+#: kdeui/kmenubar.cpp:726 kdeui/ktoolbar.cpp:2151
 msgid "UnFloat"
 msgstr "Stagañ"
 
@@ -1699,7 +1699,6 @@ msgstr ""
 "gant se e vank deoc'h ur renkell \".kde\" en ho\n"
 "renkell Er Gêr. Lañsit ur wech kfm, anezhañ ar merour\n"
 "restroù KDE evit he krouiñ ent-emgefreek."
-""
 
 #: kab/addressbook.cc:106
 msgid "The directory has been created.\n"
@@ -1711,7 +1710,8 @@ msgstr "Diaz karned chomlec'hioù ebet, o krouiñ unan nevez."
 
 #: kab/addressbook.cc:159
 msgid "Tried to load database for creating backup, but failed"
-msgstr "Klasket am eus kargañ an diaz evit krouiñ ar warezadur, hogen sac'het on bet"
+msgstr ""
+"Klasket am eus kargañ an diaz evit krouiñ ar warezadur, hogen sac'het on bet"
 
 #: kab/addressbook.cc:194
 msgid "Unable to save to backup file."
@@ -1750,8 +1750,10 @@ msgid "entry without name"
 msgstr "enmont dianav"
 
 #: kab/addressbook.cc:950
-msgid "Unable to create new database file (probably permission denied), exiting."
-msgstr "Divarrek da grouiñ ur rest diaz nevez (aotre nac'het moarvat), o kuitaat."
+msgid ""
+"Unable to create new database file (probably permission denied), exiting."
+msgstr ""
+"Divarrek da grouiñ ur rest diaz nevez (aotre nac'het moarvat), o kuitaat."
 
 #: kab/addressbook.cc:956
 msgid "Cannot create configuration section, exiting."
@@ -2432,9 +2434,10 @@ msgid ""
 "Use the icons for drag and drop actions, since they refer to the cache files "
 "on your hard disk, while you should use the textual links for browsing"
 msgstr ""
-"Implijit an arlunioù evit obererezhoù stlejañ ha leuskel, dre ma zaveont da restroù ar grubuilh\n"
-"war ho pladenn galet, tra ma vije gwell deoc'h ober gant ereoù mod testenn evit ar furchal"
-" "
+"Implijit an arlunioù evit obererezhoù stlejañ ha leuskel, dre ma zaveont da "
+"restroù ar grubuilh\n"
+"war ho pladenn galet, tra ma vije gwell deoc'h ober gant ereoù mod testenn "
+"evit ar furchal "
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"
@@ -2767,12 +2770,12 @@ msgstr ""
 msgid "Ok"
 msgstr "Mat eo"
 
-#: kio/kio_job.cc:138
+#: kio/kio_job.cc:184
 #, c-format
 msgid "Mounting %s ..."
 msgstr "O vountañ %s ..."
 
-#: kio/kio_job.cc:158
+#: kio/kio_job.cc:204
 #, c-format
 msgid "Unmounting %s ..."
 msgstr "O tivountañ %s ..."
@@ -2801,7 +2804,8 @@ msgstr "Goullo eo ar golver"
 msgid ""
 "Pasting clipboard data is only supported on the local hard disk currently"
 msgstr ""
-"Pegañ roadoù ar golver a zo gouzañvet war ar pladenn lec'hel hepken evit ar mare"
+"Pegañ roadoù ar golver a zo gouzañvet war ar pladenn lec'hel hepken evit ar "
+"mare"
 
 #: kio/kio_paste.cc:80
 msgid "Filename for clipboard content:"
@@ -2814,65 +2818,81 @@ msgstr "N'oc'h eus ket roet a anv restr"
 #: kio/kio_paste.cc:97
 #, c-format
 msgid "The file %s does already exist. Do you really want to overwrite it ?"
-msgstr "Ar restr %s a zo anezhañ c'hoazh. Ha fellout a ra deoc'h e rasklañ da vat ?"
+msgstr ""
+"Ar restr %s a zo anezhañ c'hoazh. Ha fellout a ra deoc'h e rasklañ da vat ?"
 
-#: kio/kio_progress_dlg.cc:92 kio/kio_progress_dlg.cc:108
-msgid " Bytes"
+#: kio/kio_progress_dlg.cc:108 kio/kio_progress_dlg.cc:124
+#, fuzzy
+msgid "Bytes"
 msgstr " Okted"
 
-#: kio/kio_progress_dlg.cc:97 kio/kio_progress_dlg.cc:113
-msgid " Kb"
+#: kio/kio_progress_dlg.cc:113 kio/kio_progress_dlg.cc:129
+#, fuzzy
+msgid "Kb"
 msgstr " Ko"
 
-#: kio/kio_progress_dlg.cc:102 kio/kio_progress_dlg.cc:118
-msgid " Mb"
+#: kio/kio_progress_dlg.cc:118 kio/kio_progress_dlg.cc:134
+#, fuzzy
+msgid "Mb"
 msgstr " Mo"
 
-#: kio/kio_progress_dlg.cc:151 kio/kio_progress_dlg.cc:177
+#: kio/kio_progress_dlg.cc:139 kio/kio_progress_dlg.cc:146
+msgid "of"
+msgstr ""
+
+#: kio/kio_progress_dlg.cc:171 kio/kio_progress_dlg.cc:197
 msgid "Stalled"
 msgstr "Stanket"
 
-#: kio/kio_progress_dlg.cc:159
+#: kio/kio_progress_dlg.cc:179
 msgid " Bytes/s"
 msgstr " Okted/e"
 
-#: kio/kio_progress_dlg.cc:164
+#: kio/kio_progress_dlg.cc:184
 msgid " Kb/s"
 msgstr " Ko/e"
 
-#: kio/kio_progress_dlg.cc:169
+#: kio/kio_progress_dlg.cc:189
 msgid " Mb/s"
 msgstr " Mo/e"
 
-#: kio/kio_progress_dlg.cc:184
+#: kio/kio_progress_dlg.cc:204
 #, c-format
 msgid "%i seconds"
 msgstr "%i eilenn"
 
-#: kio/kio_progress_dlg.cc:190
+#: kio/kio_progress_dlg.cc:210
 #, c-format
 msgid "%i:%i"
 msgstr ""
 
-#: kio/kio_progress_dlg.cc:197
+#: kio/kio_progress_dlg.cc:217
 #, c-format
 msgid "%i:%i:%i"
 msgstr ""
 
-#: kio/kio_progress_dlg.cc:201
+#: kio/kio_progress_dlg.cc:221
 #, c-format
 msgid "%i%s  Remaining time: %s"
 msgstr "%i%s Amzer o chom : %s"
 
-#: kio/kio_progress_dlg.cc:207
+#: kio/kio_progress_dlg.cc:227
 msgid "Scanning "
 msgstr "O dezrannañ"
 
-#: kio/kio_progress_dlg.cc:222
+#: kio/kio_progress_dlg.cc:234
+msgid "From : "
+msgstr ""
+
+#: kio/kio_progress_dlg.cc:238
+msgid "To: "
+msgstr ""
+
+#: kio/kio_progress_dlg.cc:245
 msgid "Creating dir "
 msgstr "O krouiñ renkell "
 
-#: kio/kio_progress_dlg.cc:229
+#: kio/kio_progress_dlg.cc:252
 msgid "Fetching file"
 msgstr "O tizhout restr"
 
