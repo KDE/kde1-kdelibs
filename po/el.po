@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-10 16:54+0200\n"
+"POT-Creation-Date: 1998-10-13 13:32+0200\n"
 "PO-Revision-Date: 1998-03-11 HO:MI+ZONE\n"
 "Last-Translator: Theodore J. Soldatos <theodore@eexi.gr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -297,23 +297,23 @@ msgid "ALT"
 msgstr ""
 
 # , fuzzy
-#: kdecore/kapp.cpp:545 po/texts.cpp:137
+#: kdecore/kapp.cpp:551 po/texts.cpp:137
 msgid "&Contents"
 msgstr "Περιεχόμενα"
 
-#: kdecore/kapp.cpp:551
+#: kdecore/kapp.cpp:557
 msgid "&About"
 msgstr "&Σχετικά"
 
-#: kdecore/kapp.cpp:558
+#: kdecore/kapp.cpp:564
 msgid "About &KDE..."
 msgstr "Σχετικά με το &KDE..."
 
-#: kdecore/kapp.cpp:579
+#: kdecore/kapp.cpp:585
 msgid "About KDE"
 msgstr "Σχετικά με το KDE"
 
-#: kdecore/kapp.cpp:581
+#: kdecore/kapp.cpp:587
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -751,23 +751,23 @@ msgstr "Προκαθορισμένα:"
 msgid "&Custom key"
 msgstr "Διαμόρφωση"
 
-#: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:726
+#: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:731
 msgid "Top"
 msgstr "Επάνω"
 
-#: kdeui/kmenubar.cpp:172 kdeui/ktoolbar.cpp:728
+#: kdeui/kmenubar.cpp:172 kdeui/ktoolbar.cpp:733
 msgid "Bottom"
 msgstr "Κάτω"
 
-#: kdeui/kmenubar.cpp:173 kdeui/ktoolbar.cpp:729
+#: kdeui/kmenubar.cpp:173 kdeui/ktoolbar.cpp:734
 msgid "Floating"
 msgstr "Επιπλέον"
 
-#: kdeui/kmenubar.cpp:302 kdeui/kmenubar.cpp:457 kdeui/ktoolbar.cpp:1941
+#: kdeui/kmenubar.cpp:302 kdeui/kmenubar.cpp:457 kdeui/ktoolbar.cpp:1946
 msgid "Float"
 msgstr "Επέπλευσε"
 
-#: kdeui/kmenubar.cpp:446 kdeui/ktoolbar.cpp:1923
+#: kdeui/kmenubar.cpp:446 kdeui/ktoolbar.cpp:1928
 msgid "UnFloat"
 msgstr "Βούλιαξε"
 
@@ -784,15 +784,15 @@ msgstr "Προκαθορισμένα:"
 msgid "Quickhelp"
 msgstr ""
 
-#: kdeui/ktoolbar.cpp:234 kdeui/ktoolbar.cpp:285
+#: kdeui/ktoolbar.cpp:237 kdeui/ktoolbar.cpp:288
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: το pixmap είναι άδειο, ίσως λοίπει κάποιο αρχείο"
 
-#: kdeui/ktoolbar.cpp:725
+#: kdeui/ktoolbar.cpp:730
 msgid "Left"
 msgstr "Αριστερά"
 
-#: kdeui/ktoolbar.cpp:727
+#: kdeui/ktoolbar.cpp:732
 msgid "Right"
 msgstr "Δεξιά"
 

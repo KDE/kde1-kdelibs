@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-10 16:54+0200\n"
+"POT-Creation-Date: 1998-10-13 13:32+0200\n"
 "PO-Revision-Date: 1998-10-03 24:24+0200\n"
 "Last-Translator: Logi Ragnarsson <logir@imf.au.dk>\n"
 "Language-Team: Icelandic (is_IS) <??????????????>\n"
@@ -288,23 +288,23 @@ msgstr "STRL"
 msgid "ALT"
 msgstr "ALT"
 
-#: kdecore/kapp.cpp:545 po/texts.cpp:137
+#: kdecore/kapp.cpp:551 po/texts.cpp:137
 msgid "&Contents"
 msgstr "&Innihald"
 
-#: kdecore/kapp.cpp:551
+#: kdecore/kapp.cpp:557
 msgid "&About"
 msgstr "&Um"
 
-#: kdecore/kapp.cpp:558
+#: kdecore/kapp.cpp:564
 msgid "About &KDE..."
 msgstr "Um &KDE"
 
-#: kdecore/kapp.cpp:579
+#: kdecore/kapp.cpp:585
 msgid "About KDE"
 msgstr "Um KDE"
 
-#: kdecore/kapp.cpp:581
+#: kdecore/kapp.cpp:587
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -711,23 +711,23 @@ msgstr "&Sjálfgefinn takki"
 msgid "&Custom key"
 msgstr "&Heimatilbúinn takki"
 
-#: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:726
+#: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:731
 msgid "Top"
 msgstr "Efst"
 
-#: kdeui/kmenubar.cpp:172 kdeui/ktoolbar.cpp:728
+#: kdeui/kmenubar.cpp:172 kdeui/ktoolbar.cpp:733
 msgid "Bottom"
 msgstr "Neðst"
 
-#: kdeui/kmenubar.cpp:173 kdeui/ktoolbar.cpp:729
+#: kdeui/kmenubar.cpp:173 kdeui/ktoolbar.cpp:734
 msgid "Floating"
 msgstr "Laust"
 
-#: kdeui/kmenubar.cpp:302 kdeui/kmenubar.cpp:457 kdeui/ktoolbar.cpp:1941
+#: kdeui/kmenubar.cpp:302 kdeui/kmenubar.cpp:457 kdeui/ktoolbar.cpp:1946
 msgid "Float"
 msgstr "Losa"
 
-#: kdeui/kmenubar.cpp:446 kdeui/ktoolbar.cpp:1923
+#: kdeui/kmenubar.cpp:446 kdeui/ktoolbar.cpp:1928
 msgid "UnFloat"
 msgstr "Festa"
 
@@ -743,15 +743,15 @@ msgstr "&Sjálfgefið"
 msgid "Quickhelp"
 msgstr "Hraðhjálp"
 
-#: kdeui/ktoolbar.cpp:234 kdeui/ktoolbar.cpp:285
+#: kdeui/ktoolbar.cpp:237 kdeui/ktoolbar.cpp:288
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: 'pixmap' er tómt. Hugsnalega vantar skrá"
 
-#: kdeui/ktoolbar.cpp:725
+#: kdeui/ktoolbar.cpp:730
 msgid "Left"
 msgstr "Vinstri"
 
-#: kdeui/ktoolbar.cpp:727
+#: kdeui/ktoolbar.cpp:732
 msgid "Right"
 msgstr "Hægri"
 

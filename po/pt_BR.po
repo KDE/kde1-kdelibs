@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kde\n"
-"POT-Creation-Date: 1998-10-10 16:54+0200\n"
+"POT-Creation-Date: 1998-10-13 13:32+0200\n"
 "PO-Revision-Date: 1998-06-23 09:00-0300\n"
 "Last-Translator:Elvis Pfützenreuter <epx@netville.com.br>\n"
 
@@ -277,23 +277,23 @@ msgstr "CTRL"
 msgid "ALT"
 msgstr "ALT"
 
-#: kdecore/kapp.cpp:545 po/texts.cpp:137
+#: kdecore/kapp.cpp:551 po/texts.cpp:137
 msgid "&Contents"
 msgstr "&Conteúdo"
 
-#: kdecore/kapp.cpp:551
+#: kdecore/kapp.cpp:557
 msgid "&About"
 msgstr "&Sobre"
 
-#: kdecore/kapp.cpp:558
+#: kdecore/kapp.cpp:564
 msgid "About &KDE..."
 msgstr "Sobre o &KDE..."
 
-#: kdecore/kapp.cpp:579
+#: kdecore/kapp.cpp:585
 msgid "About KDE"
 msgstr "Sobre o KDE"
 
-#: kdecore/kapp.cpp:581
+#: kdecore/kapp.cpp:587
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -705,23 +705,23 @@ msgstr "&Tecla padrão"
 msgid "&Custom key"
 msgstr "T&ecla personalizada"
 
-#: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:726
+#: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:731
 msgid "Top"
 msgstr "Topo"
 
-#: kdeui/kmenubar.cpp:172 kdeui/ktoolbar.cpp:728
+#: kdeui/kmenubar.cpp:172 kdeui/ktoolbar.cpp:733
 msgid "Bottom"
 msgstr "Fundo"
 
-#: kdeui/kmenubar.cpp:173 kdeui/ktoolbar.cpp:729
+#: kdeui/kmenubar.cpp:173 kdeui/ktoolbar.cpp:734
 msgid "Floating"
 msgstr "Flutuante"
 
-#: kdeui/kmenubar.cpp:302 kdeui/kmenubar.cpp:457 kdeui/ktoolbar.cpp:1941
+#: kdeui/kmenubar.cpp:302 kdeui/kmenubar.cpp:457 kdeui/ktoolbar.cpp:1946
 msgid "Float"
 msgstr "Flutuar"
 
-#: kdeui/kmenubar.cpp:446 kdeui/ktoolbar.cpp:1923
+#: kdeui/kmenubar.cpp:446 kdeui/ktoolbar.cpp:1928
 msgid "UnFloat"
 msgstr "Retirar Flutuação"
 
@@ -737,15 +737,15 @@ msgstr "&Padrão"
 msgid "Quickhelp"
 msgstr "Ajuda rápida"
 
-#: kdeui/ktoolbar.cpp:234 kdeui/ktoolbar.cpp:285
+#: kdeui/ktoolbar.cpp:237 kdeui/ktoolbar.cpp:288
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: imagem vazia, talvez falte um arquivo"
 
-#: kdeui/ktoolbar.cpp:725
+#: kdeui/ktoolbar.cpp:730
 msgid "Left"
 msgstr "Esquerda"
 
-#: kdeui/ktoolbar.cpp:727
+#: kdeui/ktoolbar.cpp:732
 msgid "Right"
 msgstr "Direita"
 
@@ -1431,10 +1431,12 @@ msgid "&About..."
 msgstr "So&bre..."
 
 #: kab/addressbook.cc:90
+#, fuzzy
 msgid ""
 "The directory where user specific data for the\n"
 "addressbook application is stored does not exist.\n"
 "The program will try to create\n"
+"         "
 msgstr ""
 "O diretório onde estão gravados os dados específicos do usuário da\n"
 "aplicação Livro de Endereços, não existe.\n"
@@ -1465,6 +1467,10 @@ msgstr "O diretório foi criado.\n"
 #: kab/addressbook.cc:148
 msgid "No addressbook database file, creating new one."
 msgstr "Nenhum arquivo de dados da Lista de Endereços, criando um novo."
+
+#: kab/addressbook.cc:169
+msgid "Tried to load database for creating backup, but failed"
+msgstr ""
 
 #: kab/addressbook.cc:208
 msgid "Unable to save to backup file."
@@ -1501,7 +1507,9 @@ msgstr "item sem nome"
 #: kab/addressbook.cc:1002
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
-msgstr "Impossível criar novo banco de dados (provavelmente, permissão negada), saindo"
+msgstr ""
+"Impossível criar novo banco de dados (provavelmente, permissão negada), "
+"saindo"
 
 #: kab/addressbook.cc:1010
 msgid "Cannot create configuration section, exiting."
@@ -1929,7 +1937,7 @@ msgid ""
 "Make sure you did setup your email command and parameter!"
 msgstr ""
 "Comando de e-mail falhou.\n"
-"Confirme se você configurou o comando de e-mail e os parâmetros." 
+"Confirme se você configurou o comando de e-mail e os parâmetros."
 
 #: kab/widget.cc:885
 msgid "Mail program started."
@@ -2131,8 +2139,7 @@ msgid ""
 "on your hard disk, while you should use the textual links for browsing"
 msgstr ""
 "Use os ícones para ações arrastar-e-soltar, pois eles referem-se aos "
-"arquivos de cache em seu disco rígido; use os links de texto para "
-"navegação"
+"arquivos de cache em seu disco rígido; use os links de texto para navegação"
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"
@@ -2155,21 +2162,26 @@ msgstr "Nunca"
 msgid ""
 "Could not read\n"
 "%s"
-msgstr "Não consegui ler de\n"
+msgstr ""
+"Não consegui ler de\n"
 "%s"
 
 #: kio/kio_error.cc:19
+#, c-format
 msgid ""
 "Could not write to\n"
 "%s"
-msgstr "Não consegui gravar para\n"
+msgstr ""
+"Não consegui gravar para\n"
 "%s"
 
 #: kio/kio_error.cc:22
+#, c-format
 msgid ""
 "Could not start process\n"
 "%s"
-msgstr "Não consegui iniciar processo\n"
+msgstr ""
+"Não consegui iniciar processo\n"
 "%s"
 
 #: kio/kio_error.cc:25
@@ -2186,10 +2198,12 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:28
+#, c-format
 msgid ""
 "Malformed URL\n"
 "%s"
-msgstr "URL inválida\n"
+msgstr ""
+"URL inválida\n"
 "%s"
 
 #: kio/kio_error.cc:31
@@ -2220,11 +2234,13 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:40
+#, c-format
 msgid ""
 "The file or directory\n"
 "%s\n"
 "does not exist"
-msgstr "O arquivo ou diretório\n"
+msgstr ""
+"O arquivo ou diretório\n"
 "%s\n"
 "não existe"
 
@@ -2240,10 +2256,12 @@ msgstr ""
 "mas era esperado um arquivo"
 
 #: kio/kio_error.cc:46
+#, c-format
 msgid ""
 "Could not make directory\n"
 "%s"
-msgstr "Impossível fazer diretório\n"
+msgstr ""
+"Impossível fazer diretório\n"
 "%s"
 
 #: kio/kio_error.cc:49
@@ -2267,10 +2285,12 @@ msgstr ""
 "Acesso negado"
 
 #: kio/kio_error.cc:55
+#, c-format
 msgid ""
 "Could not enter directory\n"
 "%s"
-msgstr "Impossível entrar no diretório\n"
+msgstr ""
+"Impossível entrar no diretório\n"
 "%s"
 
 #: kio/kio_error.cc:58
@@ -2292,10 +2312,12 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:64
+#, c-format
 msgid ""
 "Could not change permissions for\n"
 "%s"
-msgstr "Impossível mudar permissões de\n"
+msgstr ""
+"Impossível mudar permissões de\n"
 "%s"
 
 #: kio/kio_error.cc:67
@@ -2336,6 +2358,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:79
+#, c-format
 msgid ""
 "Could not connect to host\n"
 "%s"
@@ -2475,6 +2498,7 @@ msgid "You did not enter a filename"
 msgstr "Você não digitou um nome de arquivo"
 
 #: kio/kio_paste.cc:84
+#, c-format
 msgid "The file %s does already exist. Do you really want to overwrite it ?"
 msgstr "O arquivo %s já existe. Você realmente quer sobreescrevê-lo ?"
 

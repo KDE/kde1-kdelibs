@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-10 16:54+0200\n"
+"POT-Creation-Date: 1998-10-13 13:32+0200\n"
 "Content-Type: text/plain; charset=koi8-r\n"
 "Date: 1997-11-20 18:24:38+0600\n"
 "From: Denis Y. Pershin <dyp@inetlab.com>\n"
@@ -292,23 +292,23 @@ msgstr ""
 msgid "ALT"
 msgstr ""
 
-#: kdecore/kapp.cpp:545 po/texts.cpp:137
+#: kdecore/kapp.cpp:551 po/texts.cpp:137
 msgid "&Contents"
 msgstr "Содержимое"
 
-#: kdecore/kapp.cpp:551
+#: kdecore/kapp.cpp:557
 msgid "&About"
 msgstr "&О программе"
 
-#: kdecore/kapp.cpp:558
+#: kdecore/kapp.cpp:564
 msgid "About &KDE..."
 msgstr "О &KDE"
 
-#: kdecore/kapp.cpp:579
+#: kdecore/kapp.cpp:585
 msgid "About KDE"
 msgstr "О KDE"
 
-#: kdecore/kapp.cpp:581
+#: kdecore/kapp.cpp:587
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -731,23 +731,23 @@ msgstr "&По умолчанию:"
 msgid "&Custom key"
 msgstr "Настройки"
 
-#: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:726
+#: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:731
 msgid "Top"
 msgstr "Верх"
 
-#: kdeui/kmenubar.cpp:172 kdeui/ktoolbar.cpp:728
+#: kdeui/kmenubar.cpp:172 kdeui/ktoolbar.cpp:733
 msgid "Bottom"
 msgstr "Низ"
 
-#: kdeui/kmenubar.cpp:173 kdeui/ktoolbar.cpp:729
+#: kdeui/kmenubar.cpp:173 kdeui/ktoolbar.cpp:734
 msgid "Floating"
 msgstr "Плавающий"
 
-#: kdeui/kmenubar.cpp:302 kdeui/kmenubar.cpp:457 kdeui/ktoolbar.cpp:1941
+#: kdeui/kmenubar.cpp:302 kdeui/kmenubar.cpp:457 kdeui/ktoolbar.cpp:1946
 msgid "Float"
 msgstr "Сделать плавающей"
 
-#: kdeui/kmenubar.cpp:446 kdeui/ktoolbar.cpp:1923
+#: kdeui/kmenubar.cpp:446 kdeui/ktoolbar.cpp:1928
 msgid "UnFloat"
 msgstr "Сделать неплавающей"
 
@@ -764,15 +764,15 @@ msgstr "&По умолчанию:"
 msgid "Quickhelp"
 msgstr ""
 
-#: kdeui/ktoolbar.cpp:234 kdeui/ktoolbar.cpp:285
+#: kdeui/ktoolbar.cpp:237 kdeui/ktoolbar.cpp:288
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: пустая пиктограмма, возможно отсутствует файл"
 
-#: kdeui/ktoolbar.cpp:725
+#: kdeui/ktoolbar.cpp:730
 msgid "Left"
 msgstr "Слева"
 
-#: kdeui/ktoolbar.cpp:727
+#: kdeui/ktoolbar.cpp:732
 msgid "Right"
 msgstr "Справа"
 

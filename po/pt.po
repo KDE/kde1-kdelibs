@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klibs\n"
-"POT-Creation-Date: 1998-10-10 16:54+0200\n"
+"POT-Creation-Date: 1998-10-13 13:32+0200\n"
 "PO-Revision-Date: 1998-01-22 00:00+0100\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
@@ -287,23 +287,23 @@ msgstr ""
 msgid "ALT"
 msgstr ""
 
-#: kdecore/kapp.cpp:545 po/texts.cpp:137
+#: kdecore/kapp.cpp:551 po/texts.cpp:137
 msgid "&Contents"
 msgstr "&Conteúdo"
 
-#: kdecore/kapp.cpp:551
+#: kdecore/kapp.cpp:557
 msgid "&About"
 msgstr "&Acerca do"
 
-#: kdecore/kapp.cpp:558
+#: kdecore/kapp.cpp:564
 msgid "About &KDE..."
 msgstr "Acerca do &KDE..."
 
-#: kdecore/kapp.cpp:579
+#: kdecore/kapp.cpp:585
 msgid "About KDE"
 msgstr "Acerca do KDE"
 
-#: kdecore/kapp.cpp:581
+#: kdecore/kapp.cpp:587
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -719,23 +719,23 @@ msgstr "Valores por &omissão"
 msgid "&Custom key"
 msgstr "Personalizar..."
 
-#: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:726
+#: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:731
 msgid "Top"
 msgstr "Topo"
 
-#: kdeui/kmenubar.cpp:172 kdeui/ktoolbar.cpp:728
+#: kdeui/kmenubar.cpp:172 kdeui/ktoolbar.cpp:733
 msgid "Bottom"
 msgstr "Fundo"
 
-#: kdeui/kmenubar.cpp:173 kdeui/ktoolbar.cpp:729
+#: kdeui/kmenubar.cpp:173 kdeui/ktoolbar.cpp:734
 msgid "Floating"
 msgstr "Flutuante"
 
-#: kdeui/kmenubar.cpp:302 kdeui/kmenubar.cpp:457 kdeui/ktoolbar.cpp:1941
+#: kdeui/kmenubar.cpp:302 kdeui/kmenubar.cpp:457 kdeui/ktoolbar.cpp:1946
 msgid "Float"
 msgstr "Flutuar"
 
-#: kdeui/kmenubar.cpp:446 kdeui/ktoolbar.cpp:1923
+#: kdeui/kmenubar.cpp:446 kdeui/ktoolbar.cpp:1928
 msgid "UnFloat"
 msgstr "DesFlutuar"
 
@@ -751,15 +751,15 @@ msgstr "Valores por &omissão"
 msgid "Quickhelp"
 msgstr ""
 
-#: kdeui/ktoolbar.cpp:234 kdeui/ktoolbar.cpp:285
+#: kdeui/ktoolbar.cpp:237 kdeui/ktoolbar.cpp:288
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: imagem vazia, talvez falte um ficheiro"
 
-#: kdeui/ktoolbar.cpp:725
+#: kdeui/ktoolbar.cpp:730
 msgid "Left"
 msgstr "Esquerda"
 
-#: kdeui/ktoolbar.cpp:727
+#: kdeui/ktoolbar.cpp:732
 msgid "Right"
 msgstr "Direita"
 
