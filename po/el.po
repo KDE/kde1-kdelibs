@@ -1,27 +1,27 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-01-16 20:59+0100\n"
+"POT-Creation-Date: 1998-01-16 22:07+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Fotis Andritsopoulos <fandrit@duth.gr>\n"
 
-#: kdecore/kapp.cpp:410
+#: kdecore/kapp.cpp:413
 msgid "&Help..."
 msgstr "&Βοήθεια"
 
-#: kdecore/kapp.cpp:415
+#: kdecore/kapp.cpp:418
 msgid "&About"
 msgstr "&Σχετικά"
 
-#: kdecore/kapp.cpp:419
+#: kdecore/kapp.cpp:422
 msgid "About &KDE..."
 msgstr "Σχετικά με το &KDE..."
 
-#: kdecore/kapp.cpp:440
+#: kdecore/kapp.cpp:443
 msgid "About KDE"
 msgstr "Σχετικά με το KDE"
 
-#: kdecore/kapp.cpp:442
+#: kdecore/kapp.cpp:445
 #, fuzzy
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"

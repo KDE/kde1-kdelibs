@@ -1,28 +1,27 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-01-16 20:59+0100\n"
+"POT-Creation-Date: 1998-01-16 22:07+0100\n"
 "PO-Revision-Date: 1997-12-28 19:46+01\n"
 "Last-Translator: Stephan Kulow <coolo@kde.org>\n"
 
-#: kdecore/kapp.cpp:410
+#: kdecore/kapp.cpp:413
 msgid "&Help..."
 msgstr "&Hilfe..."
 
-#: kdecore/kapp.cpp:415
+#: kdecore/kapp.cpp:418
 msgid "&About"
 msgstr "&Über"
 
-#: kdecore/kapp.cpp:419
+#: kdecore/kapp.cpp:422
 msgid "About &KDE..."
 msgstr "Über &KDE..."
 
-#: kdecore/kapp.cpp:440
+#: kdecore/kapp.cpp:443
 msgid "About KDE"
 msgstr "Über KDE"
 
-#: kdecore/kapp.cpp:442
-#, fuzzy
+#: kdecore/kapp.cpp:445
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
@@ -36,8 +35,8 @@ msgid ""
 msgstr ""
 "Das KDE Desktop Environment wurde vom KDE-Team entwickelt.\n"
 "\n"
-"Wenn Sie Fehler finden, schicken Sie diese bitte (möglichst in englischer "
-"Sprache) an kde-bugs@kde.org.\n"
+"Wenn Sie Fehler finden, melden Sie diese bitte (möglichst in englischer "
+"Sprache) unter http://buglist.kde.org.\n"
 "\n"
 "\n"
 "KDE wurde mit Qt entwickelt.\n"

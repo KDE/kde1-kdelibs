@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdehelp 0.5.2\n"
-"POT-Creation-Date: 1998-01-16 20:59+0100\n"
+"POT-Creation-Date: 1998-01-16 22:07+0100\n"
 "PO-Revision-Date: 1997-09-21 19:39+MET\n"
 "Last-Translator: Balazs Nagy <julian7@kva.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -13,27 +13,27 @@ msgstr ""
 "Content-Type: text/plain; charset=Latin2\n"
 "Content-Transfer-Encoding: iso-8859-2\n"
 
-#: kdecore/kapp.cpp:410
+#: kdecore/kapp.cpp:413
 #, fuzzy
 msgid "&Help..."
 msgstr "Segítség"
 
-#: kdecore/kapp.cpp:415
+#: kdecore/kapp.cpp:418
 #, fuzzy
 msgid "&About"
 msgstr "Névjegy"
 
-#: kdecore/kapp.cpp:419
+#: kdecore/kapp.cpp:422
 #, fuzzy
 msgid "About &KDE..."
 msgstr "Névjegy"
 
-#: kdecore/kapp.cpp:440
+#: kdecore/kapp.cpp:443
 #, fuzzy
 msgid "About KDE"
 msgstr "Névjegy"
 
-#: kdecore/kapp.cpp:442
+#: kdecore/kapp.cpp:445
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
