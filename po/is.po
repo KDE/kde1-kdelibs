@@ -3,7 +3,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-01-27 01:01+0100\n"
+"POT-Creation-Date: 1999-01-22 01:01+0100\n"
 "PO-Revision-Date: 1998-10-23 23:31+0200\n"
 "Last-Translator: Logi Ragnarsson <logir@imf.au.dk>\n"
 "Language-Team: is\n"
@@ -121,11 +121,11 @@ msgstr "Texti í fyrirsögn:"
 
 #: kab/PrintDialog.cpp:27
 msgid "Right footer text:"
-msgstr "Texti í hægri fæti"
+msgstr "Hægri jafnaður texti í fæti"
 
 #: kab/PrintDialog.cpp:28
 msgid "Left footer text:"
-msgstr "Texti í vinstri fæti"
+msgstr "Vinstri jafnaður texti í fæti"
 
 #: kab/SearchDialog.cpp:47
 msgid "The title"
@@ -217,7 +217,7 @@ msgstr "fellur að"
 
 #: kab/SearchDialogMainWidget.cpp:23
 msgid "Use shell wildcard patterns here"
-msgstr "Nota "
+msgstr "Nota Altáknamunstur skeljar"
 
 #: kab/SearchDialogMainWidget.cpp:24
 msgid "Select field to match the pattern"
@@ -247,95 +247,95 @@ msgstr "Möguleg gildi"
 msgid "Selected values:"
 msgstr "Gildi valin"
 
-#: kdecore/kaccel.cpp:223 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1217
+#: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1217
 #: kfile/kfiledialog.cpp:1377 kfile/kfiledialog.cpp:1411 po/texts.cpp:65
 msgid "Open"
 msgstr "Opna"
 
-#: kdecore/kaccel.cpp:227
+#: kdecore/kaccel.cpp:235
 msgid "New"
 msgstr "Nýtt"
 
-#: kab/searchresults.cc:30 kdecore/kaccel.cpp:231 po/texts.cpp:80
+#: kab/searchresults.cc:30 kdecore/kaccel.cpp:239 po/texts.cpp:80
 msgid "Close"
 msgstr "Loka"
 
-#: kdecore/kaccel.cpp:235 kfile/kfiledialog.cpp:1272
+#: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1272
 #: kfile/kfiledialog.cpp:1432 po/texts.cpp:75
 msgid "Save"
 msgstr "Vista"
 
-#: kdecore/kaccel.cpp:239 po/texts.cpp:115
+#: kdecore/kaccel.cpp:247 po/texts.cpp:115
 msgid "Print"
 msgstr "Prenta"
 
-#: kdecore/kaccel.cpp:243 po/texts.cpp:52
+#: kdecore/kaccel.cpp:251 po/texts.cpp:52
 msgid "Quit"
 msgstr "Hætta"
 
-#: kdecore/kaccel.cpp:247 po/texts.cpp:69
+#: kdecore/kaccel.cpp:255 po/texts.cpp:69
 msgid "Cut"
 msgstr "Klippa"
 
-#: kdecore/kaccel.cpp:251 po/texts.cpp:56
+#: kdecore/kaccel.cpp:259 po/texts.cpp:56
 msgid "Copy"
 msgstr "Afrita"
 
-#: kdecore/kaccel.cpp:255 po/texts.cpp:58
+#: kdecore/kaccel.cpp:263 po/texts.cpp:58
 msgid "Paste"
 msgstr "Líma"
 
-#: kdecore/kaccel.cpp:259 po/texts.cpp:93
+#: kdecore/kaccel.cpp:267 po/texts.cpp:93
 msgid "Undo"
 msgstr "Hætta við"
 
-#: kdecore/kaccel.cpp:263 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
+#: kdecore/kaccel.cpp:271 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
 #: kdeui/keditcl2.cpp:360 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:676
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786
 msgid "Find"
 msgstr "Finna"
 
-#: kdecore/kaccel.cpp:267 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
+#: kdecore/kaccel.cpp:275 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
 #: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 kspell/kspelldlg.cpp:110
 #: po/texts.cpp:133
 msgid "Replace"
 msgstr "Skipta út"
 
-#: kdecore/kaccel.cpp:271 po/texts.cpp:134
+#: kdecore/kaccel.cpp:279 po/texts.cpp:134
 msgid "Insert"
 msgstr "Insert"
 
-#: kdecore/kaccel.cpp:275 kfile/kfiledialog.cpp:131
+#: kdecore/kaccel.cpp:283 kfile/kfiledialog.cpp:131
 msgid "Home"
 msgstr "Home"
 
-#: kdecore/kaccel.cpp:279
+#: kdecore/kaccel.cpp:287
 msgid "End"
 msgstr "End"
 
-#: kdecore/kaccel.cpp:283
+#: kdecore/kaccel.cpp:291
 msgid "Prior"
 msgstr "Fyrri"
 
-#: kdecore/kaccel.cpp:287
+#: kdecore/kaccel.cpp:295
 msgid "Next"
 msgstr "Næsti"
 
-#: kdecore/kaccel.cpp:291 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
+#: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
 #: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 kspell/ksconfig.cpp:212
 #: kspell/kspelldlg.cpp:131 po/texts.cpp:44
 msgid "Help"
 msgstr "Hjálp"
 
-#: kdecore/kaccel.cpp:589 kdecore/kaccel.cpp:653
+#: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:661
 msgid "SHIFT"
 msgstr "SHIFT"
 
-#: kdecore/kaccel.cpp:593 kdecore/kaccel.cpp:655
+#: kdecore/kaccel.cpp:601 kdecore/kaccel.cpp:663
 msgid "CTRL"
 msgstr "CTRL"
 
-#: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:657
+#: kdecore/kaccel.cpp:605 kdecore/kaccel.cpp:665
 msgid "ALT"
 msgstr "ALT"
 
@@ -784,7 +784,7 @@ msgstr "Ekki stillanlegt"
 
 #: kdeui/kkeydialog.cpp:530
 msgid "Global Keys"
-msgstr "Víðværir hnappar"
+msgstr "Altækir hnappar"
 
 #: kdeui/kkeydialog.cpp:562
 msgid "Keys"
@@ -819,13 +819,13 @@ msgid ""
 "Please choose a unique key combination."
 msgstr ""
 "Hnappasamstningin %s er nú þegar í notkun\n"
-"í víðværu stillingunni %s\n"
+"í altæku stillingunni %s\n"
 "\n"
 "Veldu ótvíræða samsetningu."
 
 #: kdeui/kkeydialog.cpp:1039
 msgid "Global key conflict"
-msgstr "Árekstur í víðværum hnöppum"
+msgstr "Árekstur í altækum hnöppum"
 
 #: kdeui/kkeydialog.cpp:1062
 #, c-format
@@ -1151,9 +1151,8 @@ msgid "Keep dirs first"
 msgstr "Möppur fremst"
 
 #: kfile/kfilefilter.cpp:35
-#, fuzzy
 msgid "*|All Files"
-msgstr "Skrár"
+msgstr "*| Allar skrár"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"
@@ -1262,77 +1261,72 @@ msgstr ""
 #: kspell/ksconfig.cpp:66
 msgid "Create Root/Affix combinations not in the dictionary"
 msgstr ""
+"Leyfa samsetningar orðstofna og endinga"
+"sem finnast ekki í orðalista."
 
 #: kspell/ksconfig.cpp:75
 msgid "Consider run-together words as spelling errors"
-msgstr ""
+msgstr "Leyfa ekki óþekkt samsett orð"
 
 #: kspell/ksconfig.cpp:92
-#, fuzzy
 msgid "Dictionary"
-msgstr "mappa"
+msgstr "Orðalisti"
 
 #: kspell/ksconfig.cpp:140
 msgid "Encoding:"
-msgstr ""
+msgstr "Stafatafla:"
 
 #: kspell/ksconfig.cpp:147
-#, fuzzy
 msgid "Latin1"
-msgstr "&Staðsetning:"
+msgstr "Latin1"
 
 #: kspell/ksconfig.cpp:148
 msgid "7-Bit/ASCII"
-msgstr ""
+msgstr "7-bita ASCII"
 
 #: kspell/ksconfig.cpp:292
 msgid "English"
-msgstr ""
+msgstr "Enska"
 
 #: kspell/ksconfig.cpp:298
 msgid "Spanish"
-msgstr ""
+msgstr "Spænska"
 
 #: kspell/ksconfig.cpp:304
-#, fuzzy
 msgid "German"
-msgstr "lóðletrað"
+msgstr "Þýska"
 
 #: kspell/ksconfig.cpp:311
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "Brasilísk portúgalska"
 
 #: kio/kio_cache.cc:422 kspell/ksconfig.cpp:317
 msgid "Unknown"
 msgstr "Óþekkt"
 
 #: kspell/ksconfig.cpp:348
-#, fuzzy
 msgid "ISpell Default"
-msgstr "Sjálfgefið"
+msgstr "Sjálfgefið í ISpell"
 
 #: kspell/kspelldlg.cpp:58
 msgid "Misspelled Word:"
-msgstr ""
+msgstr "Misritað orð:"
 
 #: kspell/kspelldlg.cpp:68
-#, fuzzy
 msgid "Replacement:"
-msgstr "Skipta út"
+msgstr "Leiðrétting:"
 
 #: kspell/kspelldlg.cpp:77
 msgid "Suggestions:"
-msgstr ""
+msgstr "Uppástungur:"
 
 #: kspell/kspelldlg.cpp:88
-#, fuzzy
 msgid "Ignore"
-msgstr "&Hundsa"
+msgstr "Hundsa"
 
 #: kspell/kspelldlg.cpp:99
-#, fuzzy
 msgid "Ignore All"
-msgstr "&Hundsa"
+msgstr "Hundsa allt"
 
 #: kspell/kspelldlg.cpp:120 po/texts.cpp:86
 msgid "Add"
@@ -1919,18 +1913,16 @@ msgid "Address:"
 msgstr "Heimilisfang:"
 
 #: kab/editentry.cc:104
-#, fuzzy
 msgid "Town/City:"
-msgstr "Bær"
+msgstr "Bær/Borg:"
 
 #: kab/editentry.cc:105
 msgid "State:"
-msgstr "Fylki"
+msgstr "Fylki:"
 
 #: kab/editentry.cc:106
-#, fuzzy
 msgid "Zip/Postal Code:"
-msgstr "Póstnúmer"
+msgstr "Póstnúmer:"
 
 #: kab/editentry.cc:107
 msgid "Country:"
@@ -1945,16 +1937,14 @@ msgid "Organization:"
 msgstr "Fyrirtæki:"
 
 #: kab/editentry.cc:146
-#, fuzzy
 msgid "Department:"
-msgstr "Skipta út"
+msgstr "Deild:"
 
 #: kab/editentry.cc:147
 msgid "Sub-Department:"
-msgstr ""
+msgstr "Undirdeild:"
 
 #: kab/editentry.cc:148
-#, fuzzy
 msgid "Job/Role:"
 msgstr "Hlutverk:"
 
@@ -1991,9 +1981,8 @@ msgid "&Contact"
 msgstr "Tengiliður"
 
 #: kab/editentry.cc:239
-#, fuzzy
 msgid "Additional Comment:"
-msgstr "Millinafn:"
+msgstr "Aðrar athugasemdir:"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
@@ -2296,7 +2285,7 @@ msgstr "Talforrit ræst."
 
 #: kab/widget.cc:1285
 msgid "Attention: printing is still experimental!"
-msgstr "Athugið: prenntun er enn á tilraunastigi!"
+msgstr "Athugið: prentun er enn á tilraunastigi!"
 
 #: kab/widget.cc:1381 kab/widget.cc:1423
 msgid "Page size problem"
@@ -2307,12 +2296,12 @@ msgid ""
 "The fields you requested to print do\n"
 "not fit into the page width."
 msgstr ""
-"Sviðin sem þú vilt láta prennta eru of\n"
+"Sviðin sem þú vilt láta prenta eru of\n"
 "breið fyrir blaðsíðuna."
 
 #: kab/widget.cc:1601 kab/widget.cc:2030
 msgid "Printing finished successfully."
-msgstr "Útprenntun lokið."
+msgstr "Prentun lokið."
 
 #: kab/widget.cc:1627
 msgid "kab: Email addresses"
@@ -2364,15 +2353,15 @@ msgstr "Ekki tókst að opna skrá til að búa til HTML töflu."
 
 #: kab/widget.cc:1973
 msgid "Printing cancelled."
-msgstr "Hætt við útprenntun."
+msgstr "Hætt við prentun."
 
 #: kab/widget.cc:1989
 msgid "kab: Select columns for printing"
-msgstr "kab: Veldu dálka til útprenntunar."
+msgstr "kab: Veldu dálka til að prenta"
 
 #: kab/widget.cc:2002
 msgid "Nothing to print."
-msgstr "Ekkert að prennta."
+msgstr "Ekkert til að prenta."
 
 #: kab/widget.cc:2014
 msgid "Page <p>"
@@ -2384,7 +2373,7 @@ msgstr "KDE - þar sem fagmennirnir versla."
 
 #: kab/widget.cc:2028
 msgid "Printing failed!"
-msgstr "Útprenntun mistókst!"
+msgstr "Prentun mistókst!"
 
 #: kab/widget.cc:2059
 msgid "Empty email address."
@@ -2992,6 +2981,9 @@ msgid ""
 "%s\n"
 "is of type Link but has no URL=... entry"
 msgstr ""
+"Kdelnk skráin\n"
+"%s\n"
+"er af taginu Tengill en hefur enga URL=... færslu"
 
 #: kio/kmimetypes.cc:609
 msgid "Mount"
@@ -3039,48 +3031,3 @@ msgid ""
 msgstr ""
 "\n"
 "inniheldur ekki Name=... færslu"
-
-#~ msgid "Org Unit:"
-#~ msgstr "Deild:"
-
-#~ msgid "Org Subunit:"
-#~ msgstr "Undirdeild:"
-
-#~ msgid "Comment:"
-#~ msgstr "Athugasemd:"
-
-#~ msgid "Search"
-#~ msgstr "Leita"
-
-#~ msgid "contains"
-#~ msgstr "inniheldur"
-
-#~ msgid "&New"
-#~ msgstr "&Nýtt"
-
-#~ msgid "&New..."
-#~ msgstr "&Nýtt..."
-
-#~ msgid "(none)"
-#~ msgstr "(ekkert)"
-
-#~ msgid "None"
-#~ msgstr "Ekkert"
-
-#~ msgid "Move"
-#~ msgstr "Færa"
-
-#~ msgid "Small"
-#~ msgstr "Lítið"
-
-#~ msgid "Medium"
-#~ msgstr "Miðlungs"
-
-#~ msgid "Large"
-#~ msgstr "Stórt"
-
-#~ msgid "&Previous"
-#~ msgstr "&Fyrra"
-
-#~ msgid "&Next"
-#~ msgstr "&Næsta"
