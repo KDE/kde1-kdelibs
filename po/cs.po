@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-02-06 01:01+0100\n"
-"PO-Revision-Date: 1999-01-22 23:56+01:00\n"
+"POT-Creation-Date: 1999-02-08 01:01+0100\n"
+"PO-Revision-Date: 1999-02-09 08:17+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <flidr@kky.cu.cz>\n"
 "MIME-Version: 1.0\n"
@@ -406,7 +406,7 @@ msgstr "Ne"
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:906
 #: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:773
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
-#: kio/kio_progress_dlg.cc:64 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
+#: kio/kio_progress_dlg.cc:64 kio/kio_rename_dlg.cc:36 kio/kio_skip_dlg.cc:20
 #: kspell/kspelldlg.cpp:143 po/texts.cpp:39
 msgid "Cancel"
 msgstr "Zru¹it"
@@ -1348,7 +1348,7 @@ msgstr "Stop"
 #: kab/widget.cc:1936 kab/widget.cc:2028 kab/widget.cc:2112 kab/widget.cc:2157
 #: kab/widget.cc:2168 kio/kio_error.cc:118 kio/kio_paste.cc:48
 #: kio/kio_paste.cc:60 kio/kio_paste.cc:75 kio/kio_paste.cc:87
-#: kio/kio_rename_dlg.cc:217 kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:488
+#: kio/kio_rename_dlg.cc:223 kio/kio_rename_dlg.cc:230 kio/kmimetypes.cc:488
 #: kio/kmimetypes.cc:506 kio/kmimetypes.cc:520 kio/kmimetypes.cc:567
 #: kio/kmimetypes.cc:600 kio/kmimetypes.cc:660 kio/kmimetypes.cc:692
 #: kio/krun.cc:40 kio/krun.cc:512 po/texts.cpp:24
@@ -1547,7 +1547,7 @@ msgstr "&Opakovat"
 msgid "&Game"
 msgstr "H&ra"
 
-#: kio/kio_rename_dlg.cc:28 kio/kio_skip_dlg.cc:18 po/texts.cpp:98
+#: kio/kio_rename_dlg.cc:34 kio/kio_skip_dlg.cc:18 po/texts.cpp:98
 msgid "Information"
 msgstr "Informace"
 
@@ -2760,8 +2760,8 @@ msgstr ""
 
 #: kio/kio_error.cc:118 kio/kio_linedit_dlg.cc:42 kio/kio_openwith.cc:260
 #: kio/kio_pass_dlg.cc:75 kio/kio_paste.cc:48 kio/kio_paste.cc:60
-#: kio/kio_paste.cc:76 kio/kio_paste.cc:87 kio/kio_rename_dlg.cc:217
-#: kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:62 kio/kmimetypes.cc:89
+#: kio/kio_paste.cc:76 kio/kio_paste.cc:87 kio/kio_rename_dlg.cc:223
+#: kio/kio_rename_dlg.cc:230 kio/kmimetypes.cc:62 kio/kmimetypes.cc:89
 #: kio/kmimetypes.cc:135 kio/kmimetypes.cc:488 kio/kmimetypes.cc:506
 #: kio/kmimetypes.cc:520 kio/kmimetypes.cc:567 kio/kmimetypes.cc:600
 #: kio/kmimetypes.cc:660 kio/kmimetypes.cc:692 kio/kregfactories.cc:75
@@ -2818,23 +2818,20 @@ msgid "The file %s does already exist. Do you really want to overwrite it ?"
 msgstr "Soubor %s ji¾ existuje. Opravdu si jej pøejete pøepsat?"
 
 #: kio/kio_progress_dlg.cc:108 kio/kio_progress_dlg.cc:124
-#, fuzzy
 msgid "Bytes"
 msgstr "Bajtù"
 
 #: kio/kio_progress_dlg.cc:113 kio/kio_progress_dlg.cc:129
-#, fuzzy
 msgid "Kb"
 msgstr "Kb"
 
 #: kio/kio_progress_dlg.cc:118 kio/kio_progress_dlg.cc:134
-#, fuzzy
 msgid "Mb"
 msgstr "Mb"
 
 #: kio/kio_progress_dlg.cc:139 kio/kio_progress_dlg.cc:146
 msgid "of"
-msgstr ""
+msgstr "z"
 
 #: kio/kio_progress_dlg.cc:171 kio/kio_progress_dlg.cc:197
 msgid "Stalled"
@@ -2878,11 +2875,11 @@ msgstr "Prohlí¾ení "
 
 #: kio/kio_progress_dlg.cc:234
 msgid "From : "
-msgstr ""
+msgstr "Z: "
 
 #: kio/kio_progress_dlg.cc:238
 msgid "To: "
-msgstr ""
+msgstr "Do: "
 
 #: kio/kio_progress_dlg.cc:245
 msgid "Creating dir "
@@ -2892,59 +2889,59 @@ msgstr "Vytvoøení adresáøe"
 msgid "Fetching file"
 msgstr "Pøená¹ím soubor"
 
-#: kio/kio_rename_dlg.cc:33
+#: kio/kio_rename_dlg.cc:39
 msgid "Rename"
 msgstr "Pøejmenovat"
 
-#: kio/kio_rename_dlg.cc:38 kio/kio_skip_dlg.cc:23
+#: kio/kio_rename_dlg.cc:44 kio/kio_skip_dlg.cc:23
 msgid "Skip"
 msgstr "Pøeskoèit"
 
-#: kio/kio_rename_dlg.cc:41 kio/kio_skip_dlg.cc:28
+#: kio/kio_rename_dlg.cc:47 kio/kio_skip_dlg.cc:28
 msgid "Auto Skip"
 msgstr "Automaticky pøeskoèit"
 
-#: kio/kio_rename_dlg.cc:47
+#: kio/kio_rename_dlg.cc:53
 msgid "Overwrite"
 msgstr "Pøepsat"
 
-#: kio/kio_rename_dlg.cc:52
+#: kio/kio_rename_dlg.cc:58
 msgid "Overwrite All"
 msgstr "Pøepsat v¹e"
 
-#: kio/kio_rename_dlg.cc:59
+#: kio/kio_rename_dlg.cc:65
 msgid "Resume"
 msgstr "Obnovit"
 
-#: kio/kio_rename_dlg.cc:64
+#: kio/kio_rename_dlg.cc:70
 msgid "Resume All"
 msgstr "Obnovit v¹e"
 
-#: kio/kio_rename_dlg.cc:75
+#: kio/kio_rename_dlg.cc:81
 msgid "You try to overwrite"
 msgstr "Pokou¹íte se pøespat"
 
-#: kio/kio_rename_dlg.cc:96
+#: kio/kio_rename_dlg.cc:102
 msgid "already exists. Overwrite with"
 msgstr "ji¾ existuje. Pøepsat s"
 
-#: kio/kio_rename_dlg.cc:108
+#: kio/kio_rename_dlg.cc:114
 msgid "Or rename to"
 msgstr "Nebo pøejmenovat na"
 
-#: kio/kio_rename_dlg.cc:119
+#: kio/kio_rename_dlg.cc:125
 msgid "already exists."
 msgstr "ji¾ existuje."
 
-#: kio/kio_rename_dlg.cc:124
+#: kio/kio_rename_dlg.cc:130
 msgid "Do you want to rename it ?"
 msgstr "Pøejete si ho pøejmenovat ?"
 
-#: kio/kio_rename_dlg.cc:215
+#: kio/kio_rename_dlg.cc:221
 msgid "Malformed URL\n"
 msgstr "URL má chybný formát\n"
 
-#: kio/kio_rename_dlg.cc:224
+#: kio/kio_rename_dlg.cc:230
 msgid "You must not change the protocol"
 msgstr "Není mo¾né zmìnit protokol"
 
