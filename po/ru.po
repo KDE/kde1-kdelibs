@@ -1385,7 +1385,7 @@ msgstr "&Редактирование"
 
 #: po/texts.cpp:48
 msgid "&Options"
-msgstr "Оп&ции"
+msgstr "Настройки"
 
 #: po/texts.cpp:49
 msgid "View"
@@ -1485,7 +1485,7 @@ msgstr "&Печать..."
 
 #: po/texts.cpp:84
 msgid "Options"
-msgstr "Установки"
+msgstr "Настройки"
 
 #: po/texts.cpp:85
 msgid "Remove"
