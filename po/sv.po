@@ -1,13 +1,18 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Magnus Reftel <d96reftl@dtek.chalmers.se>, 1997.
+# Anders Widell <d95-awi@nada.kth.se>, 1998.
+#
 msgid ""
 msgstr ""
+"Project-Id-Version: kdelibs 1.0pre\n"
 "POT-Creation-Date: 1998-06-21 18:14+0200\n"
-"Content-Type: text/plain; charset=\n"
-"Date: 1997-10-01 16:40:07+0200\n"
-"From: root <flidr@CyberGate.zcu.cz>\n"
-"Xgettext-Options: -s -C -ktranslate\n"
-"Files: kfarch.cpp kfdird.cpp kfind.cpp kfindtop.cpp kfoptions.cpp kfsave.cpp "
-"kftabdlg.cpp kftypes.cpp kfwin.cpp main.cpp mkfdird.cpp mkfind.cpp "
-"mkfindtop.cpp mkfoptions.cpp mkftabdlg.cpp mkfwin.cpp\n"
+"PO-Revision-Date: 1998-07-06 19:04 +0200\n"
+"Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
+"Language-Team: Swedish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8BIT\n"
 
 #: kdecore/kapp.cpp:494
 msgid "&Contents"
@@ -37,6 +42,15 @@ msgid ""
 "\n"
 "Please report bugs at http://buglist.kde.org.\n"
 msgstr ""
+"\n"
+"KDE Desktop Environment är utvecklat av the KDE-teamet,\n"
+"ett världsomspännande nätverk av programmerare engagerade\n"
+"i utveckling av fri mjukvara.\n"
+"\n"
+"Besök http://www.kde.org för mer information om KDE-projektet.\n"
+"Gå gärna med och stöd KDE.\n"
+"\n"
+"Rapportera fel till http://buglist.kde.org\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416
 #: kdeui/keditcl1.cpp:477 kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573
@@ -67,7 +81,7 @@ msgstr "Hjälp"
 #: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:877
 #: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:407 po/texts.cpp:40
 msgid "Cancel"
-msgstr "Peruuta"
+msgstr "Avbryt"
 
 #: kdeui/kcolordlg.cpp:285
 msgid "Select Color"
@@ -95,10 +109,9 @@ msgstr "Ok"
 msgid "Custom..."
 msgstr "Egna..."
 
-# , fuzzy
 #: kdeui/kcontrol.cpp:39
 msgid "Default"
-msgstr "Standard:"
+msgstr "Standardvärden"
 
 #: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
@@ -114,92 +127,83 @@ msgstr "Verkställ"
 
 #: kdeui/kdatepik.cpp:102
 msgid "January"
-msgstr ""
+msgstr "januari"
 
 #: kdeui/kdatepik.cpp:102
 msgid "February"
-msgstr ""
+msgstr "februari"
 
-# , fuzzy
 #: kdeui/kdatepik.cpp:103
 msgid "March"
-msgstr "&Sök"
+msgstr "mars"
 
-# , fuzzy
 #: kdeui/kdatepik.cpp:103
 msgid "April"
-msgstr "Verkställ"
+msgstr "april"
 
 #: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:222
 msgid "May"
-msgstr ""
+msgstr "maj"
 
 #: kdeui/kdatepik.cpp:104
 msgid "June"
-msgstr ""
+msgstr "juni"
 
 #: kdeui/kdatepik.cpp:105
 msgid "July"
-msgstr ""
+msgstr "juli"
 
 #: kdeui/kdatepik.cpp:105
 msgid "August"
-msgstr ""
+msgstr "augusti"
 
 #: kdeui/kdatepik.cpp:106
 msgid "September"
-msgstr ""
+msgstr "september"
 
-# , fuzzy
 #: kdeui/kdatepik.cpp:106
 msgid "October"
-msgstr "Andra"
+msgstr "oktober"
 
-# , fuzzy
 #: kdeui/kdatepik.cpp:107
 msgid "November"
-msgstr "Nummer"
+msgstr "november"
 
-# , fuzzy
 #: kdeui/kdatepik.cpp:107
 msgid "December"
-msgstr "Minska"
+msgstr "december"
 
 #: kdeui/kdatepik.cpp:248
 msgid "(invalid)"
-msgstr ""
+msgstr "(ogiltigt)"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:48
 msgid "Sun"
-msgstr "&Ljud"
+msgstr "sön"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:48
 msgid "Mon"
-msgstr "Montera"
+msgstr "mån"
 
 #: kdeui/kdatetbl.cpp:48
 msgid "Tue"
-msgstr ""
+msgstr "tis"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:49
 msgid "Wed"
-msgstr "Röd"
+msgstr "ons"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Thu"
-msgstr ""
+msgstr "tor"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Fri"
-msgstr ""
+msgstr "fre"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:50
 msgid "Sat"
-msgstr "Fladdermus"
+msgstr "lör"
 
 #: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
 #: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:89
@@ -285,7 +289,7 @@ msgstr ""
 
 #: kdeui/keditcl1.cpp:1628
 msgid "You do not have write permission to this file.\n"
-msgstr "Du har inte skrivrättigheter på den här filen.\n"
+msgstr "Du har inte skrivrättigheter till den här filen.\n"
 
 #: kdeui/keditcl2.cpp:105 kdeui/keditcl2.cpp:122 kdeui/keditcl2.cpp:362
 #: kdeui/keditcl2.cpp:379 kdeui/keditcl2.cpp:678 kdeui/keditcl2.cpp:687
@@ -308,7 +312,7 @@ msgid ""
 "Continue from the end?"
 msgstr ""
 "Början på dokumentet nådd.\n"
-"Vill du börja om frpn slutet?"
+"Vill du börja om från slutet?"
 
 #: kdeui/keditcl2.cpp:425 kdeui/keditcl2.cpp:455 kdeui/keditcl2.cpp:472
 #: kdeui/keditcl2.cpp:791
@@ -329,7 +333,7 @@ msgstr "Klar"
 
 #: kdeui/keditcl2.cpp:770
 msgid "Find:"
-msgstr "Sök:"
+msgstr "Sök efter:"
 
 #: kdeui/keditcl2.cpp:780
 msgid "Replace with:"
@@ -349,7 +353,7 @@ msgstr "Gå"
 
 #: kdeui/kfontdialog.cpp:171
 msgid "Select Font"
-msgstr "Välj tysnitt"
+msgstr "Välj typsnitt"
 
 #: kdeui/kfontdialog.cpp:175
 msgid "Requested Font"
@@ -357,7 +361,7 @@ msgstr "Valt typsnitt"
 
 #: kdeui/kfontdialog.cpp:180
 msgid "Actual Font"
-msgstr "Nuvarande tysnitt"
+msgstr "Nuvarande typsnitt"
 
 #: kdeui/kfontdialog.cpp:184 kdeui/kfontdialog.cpp:188
 msgid "Family:"
@@ -365,7 +369,7 @@ msgstr "Familj:"
 
 #: kdeui/kfontdialog.cpp:195 kdeui/kfontdialog.cpp:201 po/texts.cpp:26
 msgid "Charset:"
-msgstr "Teckenuppsättning:"
+msgstr "Kodning:"
 
 #: kdeui/kfontdialog.cpp:208 kdeui/kfontdialog.cpp:213 kfile/kpreview.cpp:196
 msgid "Size:"
@@ -381,7 +385,7 @@ msgstr "Stil:"
 
 #: kdeui/kfontdialog.cpp:276
 msgid "Charset"
-msgstr "Teckenuppsättning"
+msgstr "Kodning"
 
 #: kdeui/kfontdialog.cpp:287 kfile/kfiledetaillist.cpp:38
 msgid "Size"
@@ -413,10 +417,9 @@ msgstr "rak"
 msgid "italic"
 msgstr "kursiv"
 
-# , fuzzy
 #: kdeui/kfontdialog.cpp:373
 msgid "Dolor Ipse"
-msgstr "Färger"
+msgstr "Bröder, gutår!"
 
 #: kdeui/kfontdialog.cpp:505
 msgid "Bold"
@@ -462,23 +465,21 @@ msgstr ""
 msgid "&Cancel"
 msgstr "&Avbryt"
 
-# , fuzzy
 #: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:143
 msgid "&Default"
-msgstr "Standard:"
+msgstr "&Standardvärden"
 
 #: kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:166 po/texts.cpp:46
 msgid "&Help"
 msgstr "&Hjälp"
 
-# , fuzzy
 #: kdeui/knotebook.cpp:247 kdeui/kwizard.cpp:189
 msgid "&Ok"
-msgstr "Ok"
+msgstr "&Ok"
 
 #: kdeui/ktoolbar.cpp:178 kdeui/ktoolbar.cpp:297
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr "KToolBarButton: pixmapen är top, kanske saknas någon fil"
+msgstr "KToolBarButton: pixmapen är tom, kanske saknas någon fil"
 
 #: kdeui/ktoolbar.cpp:469
 msgid "Left"
@@ -488,49 +489,43 @@ msgstr "Vänster"
 msgid "Right"
 msgstr "Höger"
 
-# , fuzzy, c-format
+# , c-format
 #: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
 #, c-format
 msgid "Page %d of %d"
-msgstr "Rad: %d Kolumn: %d"
+msgstr "Sida: %d av %d"
 
 #: kfile/bookmark.cpp:246
 msgid "<!-- Do not edit this file -->"
-msgstr ""
+msgstr "<!-- Gör inga ändringar i den här filen -->"
 
-# , fuzzy
 #: kfile/kcombiview.cpp:80
 msgid "Folders:"
-msgstr "Folder"
+msgstr "Kataloger:"
 
-# , fuzzy
 #: kfile/kcombiview.cpp:81
 msgid "Contents:"
-msgstr "Innehåll"
+msgstr "Innehåll:"
 
-# , fuzzy
 #: kfile/kfiledetaillist.cpp:36
 msgid "Name"
-msgstr "Namn:"
+msgstr "Namn"
 
-# , fuzzy
 #: kfile/kfiledetaillist.cpp:40
 msgid "Permissions"
-msgstr "&Rättigheter"
+msgstr "Rättigheter"
 
-# , fuzzy
 #: kfile/kfiledetaillist.cpp:42
 msgid "Date"
-msgstr "Klistra in"
+msgstr "Datum"
 
-# , fuzzy
 #: kfile/kfiledetaillist.cpp:45
 msgid "Owner"
-msgstr "Ett"
+msgstr "Ägare"
 
 #: kfile/kfiledetaillist.cpp:47
 msgid "Group"
-msgstr ""
+msgstr "Grupp"
 
 #: kfile/kfiledialog.cpp:122 po/texts.cpp:56
 msgid "Back"
@@ -540,84 +535,77 @@ msgstr "Tillbaka"
 msgid "Forward"
 msgstr "Framåt"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:128
 msgid "Up to parent"
-msgstr "Gå till början"
+msgstr "Upp till förälder"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:131
 msgid "Home"
-msgstr "Mitt hem"
+msgstr "Gå till hemkatalogen"
 
 #: kfile/kfiledialog.cpp:134 po/texts.cpp:55
 msgid "Reload"
 msgstr "Uppdatera"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:150
 msgid "Bookmarks"
-msgstr "&Bokmärken"
+msgstr "Bokmärken"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:154
 msgid "Create new folder"
-msgstr "Kunde inte skapa folder"
+msgstr "Skapa ny katalog"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:157
 msgid "Search for a file"
-msgstr "Spara en fil"
+msgstr "Sök efter en fil"
 
 #: kfile/kfiledialog.cpp:160
 msgid "Configure this dialog [development only]"
-msgstr ""
+msgstr "Inställningar för denna dialog [endast utveckling]"
 
 #: kfile/kfiledialog.cpp:168
 msgid "The path"
 msgstr ""
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:193
 msgid "&Location:"
-msgstr "Plats"
+msgstr "&Plats:"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:206
 msgid "&Filter:"
-msgstr "Filter:"
+msgstr "&Filter:"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:220
 msgid "Show hidden"
-msgstr "Visa cache"
+msgstr "Visa gömda"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:487
 msgid "Error: Not local file"
-msgstr "Fel i info-fil"
+msgstr "Fel: filen ej lokal"
 
 #: kfile/kfiledialog.cpp:488
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
 msgstr ""
+"Den angivna katalogen är ej lokal, men programmet\n"
+"accepterar bara lokala filer."
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:502 kfile/kfiledialog.cpp:608
 msgid "Error: Cannot Open Directory"
-msgstr "Fel! Kan inte öppna katalog:"
+msgstr "Fel: Kan inte öppna katalogen"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:503
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
-msgstr "Den angivna filen finns inte"
+msgstr ""
+"Den angivna filen finns inte\n"
+"eller var oläsbar."
 
 #: kfile/kfiledialog.cpp:505 kfile/kfiledialog.cpp:611
 msgid "Dismiss"
-msgstr ""
+msgstr "Stäng"
 
 #: kfile/kfiledialog.cpp:542 kfile/kfiledialog.cpp:1179
 #: kfile/kfiledialog.cpp:1338 kfile/kfiledialog.cpp:1372 po/texts.cpp:70
@@ -628,74 +616,63 @@ msgstr "Öppna"
 msgid "Save As"
 msgstr "Spara som"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:580
 msgid "Root Directory"
-msgstr "Är en katalog"
+msgstr "Rotkatalogen"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:609
 msgid "The specified directory does not exist or was not readable."
-msgstr "Den angivna filen finns inte"
+msgstr "Den angivna katalogen finns inte eller var oläsbar"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:857
 msgid "Create new directory in: "
-msgstr "Skapar katalog:"
+msgstr "Skapa ny katalog i: "
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:860
 msgid "New Directory"
-msgstr "Är en katalog"
+msgstr "Ny katalog"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:932
 msgid "Add to bookmarks"
 msgstr "Lägg till som bokmärke"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1213
 msgid "Choose Directory"
-msgstr "Är en katalog"
+msgstr "Välj katalog"
 
 #: kfile/kfiledialog.cpp:1234 kfile/kfiledialog.cpp:1393 po/texts.cpp:80
 msgid "Save"
 msgstr "Spara"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1281
 msgid "directory"
-msgstr "Katalogen "
+msgstr "katalog"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1283
 msgid "directories"
-msgstr "Kataloger:"
+msgstr "kataloger"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1285 kfile/kpreview.cpp:326
 msgid "file"
-msgstr "Arkiv"
+msgstr "fil"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1287
 msgid "files"
-msgstr "Alla filer"
+msgstr "filer"
 
 # , c-format
 #: kfile/kfiledialog.cpp:1289
 #, c-format
 msgid "%d %s and %d %s"
-msgstr ""
+msgstr "%d %s och %d %s"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1299
 msgid "one directory"
-msgstr "Katalogen "
+msgstr "en katalog"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"
-msgstr ""
+msgstr "Utseende och känsla"
 
 #: kfile/kfiledialogconf.cpp:43
 msgid ""
@@ -710,152 +687,144 @@ msgid ""
 "Mario Weilguni <mweilguni@sime.com>\n"
 "and Martin Jones <mjones@kde.org>"
 msgstr ""
+"KDE:s filväljare är skriven av:\n"
+"\n"
+"Richard Moore <rich@kde.org>\n"
+"Stephan Kulow <coolo@kde.org>\n"
+"och Daniel Grana <grana@ie.iwi.unibe.ch>\n"
+"\n"
+"med bidrag från\n"
+"\n"
+"Mario Weilguni <mweilguni@sime.com>\n"
+"och Martin Jones <mjones@kde.org>"
 
 #: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
 msgid "About"
 msgstr "Om"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:70
 msgid "View style"
-msgstr "Samanställ stil:"
+msgstr "Listformat"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:74
 msgid "Show Short View"
-msgstr "Visa &punkt-filer"
+msgstr "kort"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:80
 msgid "Show Detail View"
-msgstr "Visa &punkt-filer"
+msgstr "detaljerat"
 
 #: kfile/kfiledialogconf.cpp:89
 msgid "Misc"
-msgstr ""
+msgstr "Diverse"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:95
 msgid "Show Filter"
-msgstr "Visa &punkt-filer"
+msgstr "Visa filter"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:101
 msgid "Show List Labels"
-msgstr "Visa panelen"
+msgstr "Visa kolumnrubriker"
 
 #: kfile/kfiledialogconf.cpp:107
 msgid "Show Hidden"
-msgstr ""
+msgstr "Visa gömda filer"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:113
 msgid "Show Status Line"
-msgstr "Visa &statusrad"
+msgstr "Visa statusrad"
 
 #: kfile/kfiledialogconf.cpp:119
 msgid "Use single Click"
-msgstr ""
+msgstr "Använd enkelklick"
 
 #: kfile/kfiledialogconf.cpp:125
 msgid "Mix dirs and files"
-msgstr ""
+msgstr "Blanda kataloger och filer"
 
 #: kfile/kfiledialogconf.cpp:131
 msgid "Keep dirs first"
-msgstr ""
+msgstr "Lista kataloger först"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:95 kfile/kfileinfo.cpp:99
 msgid "unknown"
-msgstr " okänd"
+msgstr "okänd"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:218
 msgid "Jan"
-msgstr "och"
+msgstr "jan"
 
 #: kfile/kfileinfo.cpp:219
 msgid "Feb"
-msgstr ""
+msgstr "feb"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:220
 msgid "Mar"
-msgstr "Matris"
+msgstr "mar"
 
 #: kfile/kfileinfo.cpp:221
 msgid "Apr"
-msgstr ""
+msgstr "apr"
 
 #: kfile/kfileinfo.cpp:223
 msgid "Jun"
-msgstr ""
+msgstr "jun"
 
 #: kfile/kfileinfo.cpp:224
 msgid "Jul"
-msgstr ""
+msgstr "jul"
 
 #: kfile/kfileinfo.cpp:225
 msgid "Aug"
-msgstr ""
+msgstr "aug"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:226
 msgid "Sep"
-msgstr "Inställningar"
+msgstr "sep"
 
 #: kfile/kfileinfo.cpp:227
 msgid "Oct"
-msgstr ""
+msgstr "okt"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:228
 msgid "Nov"
-msgstr "Nej"
+msgstr "nov"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:229
 msgid "Dec"
-msgstr "Enhet"
+msgstr "dec"
 
-# , fuzzy
 #: kfile/kpreview.cpp:187
 msgid "Name:"
 msgstr "Namn:"
 
-# , fuzzy
 #: kfile/kpreview.cpp:205
 msgid "Date:"
-msgstr "Databas:"
+msgstr "Datum:"
 
-# , fuzzy
 #: kfile/kpreview.cpp:214
 msgid "Owner:"
-msgstr "Ett"
+msgstr "Ägare:"
 
 #: kfile/kpreview.cpp:223
 msgid "Group:"
-msgstr ""
+msgstr "Grupp:"
 
-# , fuzzy
 #: kfile/kpreview.cpp:232
 msgid "Type:"
-msgstr "Typ"
+msgstr "Typ:"
 
-# , fuzzy
 #: kfile/kpreview.cpp:287
 msgid "locked"
-msgstr "Bumling"
+msgstr "låst"
 
 #: kfile/kpreview.cpp:311
 msgid "picture"
-msgstr ""
+msgstr "bild"
 
-# , fuzzy
 #: kfile/kpreview.cpp:343
 msgid "folder"
-msgstr "Folder"
+msgstr "katalog"
 
 # , c-format
 #: kfmlib/kfm.cpp:197
@@ -864,11 +833,12 @@ msgid ""
 "You dont have the file %s\n"
 "Could not do Authorization"
 msgstr ""
+"Du har inte filen %s\n"
+"Kunde ej kontrollera identitet"
 
-# , fuzzy
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
 msgid "KFM Error"
-msgstr "Virhe"
+msgstr "KFM-fel"
 
 # , c-format
 #: kfmlib/kfm.cpp:208
@@ -877,18 +847,20 @@ msgid ""
 "The file %s is corrupted\n"
 "Could not do Authorization"
 msgstr ""
+"Filen %s är trasig\n"
+"Kunde ej kontrollera identitet"
 
 #: po/texts.cpp:24
 msgid "Error"
-msgstr "Virhe"
+msgstr "Fel"
 
 #: po/texts.cpp:25
 msgid "Malformed URL"
-msgstr "Ogiltlig URL"
+msgstr "Ogiltig URL"
 
 #: po/texts.cpp:29
 msgid "Warning"
-msgstr "Varoitus"
+msgstr "Varning"
 
 #: po/texts.cpp:30
 msgid "Save a file"
@@ -952,11 +924,11 @@ msgstr "Avsluta"
 
 #: po/texts.cpp:54
 msgid "&Quit"
-msgstr "&Lopeta"
+msgstr "&Avsluta"
 
 #: po/texts.cpp:58
 msgid "Copy"
-msgstr "Kopioi"
+msgstr "Kopiera"
 
 #: po/texts.cpp:59
 msgid "&Copy"
@@ -972,7 +944,7 @@ msgstr "K&listra in"
 
 #: po/texts.cpp:62
 msgid "New"
-msgstr "Uusi"
+msgstr "Ny"
 
 #: po/texts.cpp:63
 msgid "&New"
@@ -988,7 +960,7 @@ msgstr "&Nytt fönster..."
 
 #: po/texts.cpp:66
 msgid "New &Window..."
-msgstr "Nytt &Fönster..."
+msgstr "Nytt &fönster..."
 
 #: po/texts.cpp:67
 msgid "&New Window"
@@ -1016,15 +988,15 @@ msgstr "&Öppna..."
 
 #: po/texts.cpp:74
 msgid "Cut"
-msgstr "Klipp ur"
+msgstr "Klipp ut"
 
 #: po/texts.cpp:75
 msgid "&Cut"
-msgstr "Klipp &ur"
+msgstr "Klipp &ut"
 
 #: po/texts.cpp:76
 msgid "C&ut"
-msgstr "Klipp &ur"
+msgstr "Klipp &ut"
 
 #: po/texts.cpp:77
 msgid "Font"
@@ -1068,11 +1040,11 @@ msgstr "Inställningar"
 
 #: po/texts.cpp:91
 msgid "Remove"
-msgstr "Poista"
+msgstr "Ta bort"
 
 #: po/texts.cpp:92
 msgid "Add"
-msgstr "Lisää"
+msgstr "Lägg till"
 
 #: po/texts.cpp:93
 msgid "Change"
@@ -1080,7 +1052,7 @@ msgstr "Ändra"
 
 #: po/texts.cpp:94
 msgid "Delete"
-msgstr "Tuhoa"
+msgstr "Radera"
 
 #: po/texts.cpp:95
 msgid "&Delete"
@@ -1124,7 +1096,7 @@ msgstr "Information"
 
 #: po/texts.cpp:105
 msgid "Browse..."
-msgstr "Selaa..."
+msgstr "Bläddra..."
 
 #: po/texts.cpp:106
 msgid "(none)"
@@ -1142,24 +1114,21 @@ msgstr "Avbryt"
 msgid "&Remove"
 msgstr "&Ta bort"
 
-# , fuzzy
 #: po/texts.cpp:110
 msgid "&Properties..."
-msgstr "&Egenskaper"
+msgstr "&Egenskaper..."
 
 #: po/texts.cpp:111
 msgid "Properties"
 msgstr "Egenskaper"
 
-# , fuzzy
 #: po/texts.cpp:112
 msgid "&Start"
-msgstr "Uppstartning"
+msgstr "&Starta"
 
-# , fuzzy
 #: po/texts.cpp:113
 msgid "St&op"
-msgstr "Avbryt"
+msgstr "St&oppa"
 
 #: po/texts.cpp:114
 msgid "Move"
@@ -1205,10 +1174,9 @@ msgstr "&Föregående"
 msgid "&Next"
 msgstr "&Nästa"
 
-# , fuzzy
 #: po/texts.cpp:125
 msgid "Files"
-msgstr "Arkiv"
+msgstr "Filer"
 
 #: po/texts.cpp:126
 msgid "Continue"
@@ -1216,7 +1184,7 @@ msgstr "Fortsätt"
 
 #: po/texts.cpp:127
 msgid "Restore"
-msgstr "Gjenopprett"
+msgstr "Återställ"
 
 #: po/texts.cpp:128
 msgid "Appearance"
@@ -1226,67 +1194,58 @@ msgstr "Utseende"
 msgid "Print"
 msgstr "Skriv ut"
 
-# , fuzzy
 #: po/texts.cpp:130
 msgid "Monday"
-msgstr "Sekundärt"
+msgstr "måndag"
 
 #: po/texts.cpp:131
 msgid "Tuesday"
-msgstr ""
+msgstr "tisdag"
 
 #: po/texts.cpp:132
 msgid "Wednesday"
-msgstr ""
+msgstr "onsdag"
 
-# , fuzzy
 #: po/texts.cpp:133
 msgid "Thursday"
-msgstr "Tredje"
+msgstr "torsdag"
 
-# , fuzzy
 #: po/texts.cpp:134
 msgid "Friday"
-msgstr "Primärt"
+msgstr "fredag"
 
 #: po/texts.cpp:135
 msgid "Saturday"
-msgstr ""
+msgstr "lördag"
 
-# , fuzzy
 #: po/texts.cpp:136
 msgid "Sunday"
-msgstr "&Ljud"
+msgstr "söndag"
 
-# , fuzzy
 #: po/texts.cpp:137
 msgid "&Update"
-msgstr "Uppdatera DVI"
+msgstr "&Uppdatera"
 
-# , fuzzy
 #: po/texts.cpp:138
 msgid "Layout"
-msgstr "Stil "
+msgstr ""
 
 #: po/texts.cpp:139
 msgid "Highscore"
 msgstr ""
 
-# , fuzzy
 #: po/texts.cpp:140
 msgid "&New View"
-msgstr "&Visa"
+msgstr "&Ny vy"
 
 #: po/texts.cpp:141
 msgid "&Insert"
-msgstr ""
+msgstr "Stoppa &in"
 
-# , fuzzy
 #: po/texts.cpp:144
 msgid "&Next >>"
-msgstr "&Nästa"
+msgstr "&Nästa >>"
 
-# , fuzzy
 #: po/texts.cpp:145
 msgid "<< &Previous"
-msgstr "&Föregående"
+msgstr "<< &Föregående"
