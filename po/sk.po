@@ -1099,7 +1099,7 @@ msgstr "(¾iadny)"
 
 #: po/texts.cpp:107
 msgid "None"
-msgstr "Nikomu"
+msgstr "®iadna"
 
 #: po/texts.cpp:108
 msgid "Stop"
