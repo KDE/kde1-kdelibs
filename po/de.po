@@ -45,10 +45,10 @@ msgid "Untitled"
 msgstr "Unbenannt"
 
 msgid "OK"
-msgstr "Ausführen"
+msgstr "OK"
 
 msgid "Ok"
-msgstr "Ausführen"
+msgstr "Ok"
 
 msgid "Cancel"
 msgstr "Abbrechen"
