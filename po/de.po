@@ -790,7 +790,7 @@ msgstr "Dez"
 
 #: kfile/kpreview.cpp:187
 msgid "Name:"
-msgstr "Names"
+msgstr "Name:"
 
 #: kfile/kpreview.cpp:205
 msgid "Date:"
