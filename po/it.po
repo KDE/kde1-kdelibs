@@ -1,29 +1,37 @@
+# KTranslator Generated File
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-10-13 13:32+0200\n"
 "Content-Type: text/plain; charset=\n"
-"Date: 1997-09-09 17:23:06+0200\n"
-"From: Steffen Hansen,Home,,66178676, <stefh@nostromo>\n"
-"Xgettext-Options: -s -C -ktranslate\n"
+"PO-Revision-Date: Sat Oct 24 1998 10:13:56+0200\n"
+"Last-Translator: Andrea Rizzi <rizzi@kde.org>\n"
+"Language-Team: Italiano <it@li.org>\n"
 "Files: chooser.cpp gif.cpp jpeg.cpp kdmconfig.cpp kdmdesktop.cpp "
 "kdmshutdown.cpp kdmview.cpp kfdialog.cpp kgreeter.cpp\n"
+""
+"X-Generator: KTranslator v 0.4.0"
 
 #: kab/AssertDialog.cpp:24
-#, fuzzy
+#
 msgid "(unknown file)"
-msgstr "sconosciuto"
+msgstr "(files conosciuto)"
 
 #: kab/AssertDialog.cpp:25
 msgid "(unknown line number)"
-msgstr ""
+msgstr "(numero linea sconosciuto)"
 
 #: kab/AssertDialog.cpp:26
 msgid "(unknown condition)"
-msgstr ""
+msgstr "(condizione sconosciuta)"
 
 #: kab/AssertDialog.cpp:34
 msgid "You have found a bug in "
-msgstr ""
+msgstr "Hai trovato un bug in"
 
 #: kab/AssertDialog.cpp:41
 msgid "Ignore the error, possibly causing much more damage"
@@ -2645,36 +2653,3 @@ msgid ""
 "\n"
 "does not conatain a Name=... entry"
 msgstr ""
-
-#~ msgid "&New"
-#~ msgstr "&Nuovo"
-
-#~ msgid "&New..."
-#~ msgstr "&Nuovo..."
-
-#~ msgid "Move"
-#~ msgstr "Muovi"
-
-#~ msgid "&Previous"
-#~ msgstr "&Precedente"
-
-#~ msgid "&Next"
-#~ msgstr "P&rossimo"
-
-#~ msgid "Small"
-#~ msgstr "Piccolo"
-
-#~ msgid "Medium"
-#~ msgstr "Medio"
-
-#~ msgid "Large"
-#~ msgstr "Grande"
-
-#~ msgid "(none)"
-#~ msgstr "(nessuno)"
-
-#~ msgid "None"
-#~ msgstr "Nessuno"
-
-#~ msgid "&Ok"
-#~ msgstr "&Ok"
