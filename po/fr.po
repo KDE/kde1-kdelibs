@@ -2,32 +2,28 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1998-01-03 22:39+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 1998-01-08 22:57 CET\n"
+"Last-Translator: Bertrand Leconte <B.Leconte@mail.dotcom.fr>\n"
+"Language-Team: Français <fr@kde.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Type: text/plain; charset=iso8859-1\n"
+"Content-Transfer-Encoding: 8bits\n"
 
 #: kdecore/kapp.cpp:410
-#, fuzzy
 msgid "&Help..."
-msgstr "Aide"
+msgstr "&Aide..."
 
 #: kdecore/kapp.cpp:415
-#, fuzzy
 msgid "&About"
-msgstr "A propos"
+msgstr "&A propos"
 
 #: kdecore/kapp.cpp:419
-#, fuzzy
 msgid "About &KDE..."
-msgstr "A propos de KDE"
+msgstr "A propos de &KDE..."
 
 #: kdecore/kapp.cpp:440
 msgid "About KDE"
@@ -45,9 +41,9 @@ msgid ""
 "Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
 "Qt may be used freely to develop free software on the X Window System.\n"
 msgstr ""
-"Le KDE Desktop Environment a été developpé par le team KDE.\n"
+"Le KDE Desktop Environment a été developpé par l'équipe KDE.\n"
 "\n"
-"Envoyez svp les rapports de bogues à kde-bugs@kde.org.\n"
+"Envoyez s'il-vous-plait les rapports de bogues à kde-bugs@kde.org.\n"
 "\n"
 "\n"
 "KDE a été developpé avec Qt, une bibliothèque GUI multi-plateformes.\n"
@@ -106,43 +102,44 @@ msgstr "Appliquer"
 #: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
 #: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1470 po/texts.cpp:87
 msgid "Sorry"
-msgstr ""
+msgstr "Désolé"
 
 #: kdeui/keditcl1.cpp:128
 msgid "The specified File does not exist"
-msgstr ""
+msgstr "Le fichier spécifié n'existe pas"
 
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:494
 #: kdeui/keditcl1.cpp:1626
 msgid "Sorry:"
-msgstr ""
+msgstr "Désolé :"
 
 #: kdeui/keditcl1.cpp:142
 msgid "You have specificated a directory"
-msgstr ""
+msgstr "Vous avez spécifié un répertoire"
 
 #: kdeui/keditcl1.cpp:157 kdeui/keditcl1.cpp:178
 msgid "You do not have read permission to this file."
-msgstr ""
+msgstr "Vous n'avez pas la permission de lire ce fichier"
 
 #: kdeui/keditcl1.cpp:191
 msgid "An Error occured while trying to open this Document"
-msgstr ""
+msgstr "Une erreur est survenue lors de l'ouverture de ce document"
 
 #: kdeui/keditcl1.cpp:356
 msgid "Select Document to Insert"
-msgstr ""
+msgstr "Sélectionnez le document à inclure"
 
 #: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1569
-#, fuzzy
 msgid "Warning:"
-msgstr "Attention"
+msgstr "Attention :"
 
 #: kdeui/keditcl1.cpp:393 kdeui/keditcl1.cpp:475
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
 msgstr ""
+"Le document courant a été modifié.\n"
+"Voulez-vous le sauvegarder ?"
 
 #: kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416 kdeui/keditcl1.cpp:477
 #: kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1572 kdeui/keditcl2.cpp:108
@@ -165,16 +162,20 @@ msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
+"Le document ne peut pas être sauvegardé.\n"
+"Ouvrir un nouveau document quand même ?"
 
 #: kdeui/keditcl1.cpp:445
 msgid "Select Document to Open"
-msgstr ""
+msgstr "Sélectionnez le document à ouvrir"
 
 #: kdeui/keditcl1.cpp:495
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
+"Le document ne peut pas être sauvegardé.\n"
+"Créer un nouveau document quand même ?"
 
 #: kdeui/keditcl1.cpp:530 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
 msgid "Untitled"
@@ -182,34 +183,37 @@ msgstr "Sans titre"
 
 #: kdeui/keditcl1.cpp:1471
 msgid "Could not save the document\n"
-msgstr ""
+msgstr "Le document ne peut pas être sauvegardé.\n"
 
 #: kdeui/keditcl1.cpp:1541
-#, fuzzy
 msgid "Save Document As"
-msgstr "Enregistrer sous"
+msgstr "Enregistrer le document sous"
 
 #: kdeui/keditcl1.cpp:1570
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
 msgstr ""
+"Un document avec ce nom existe déjà.\n"
+"Voulez-vous l'écraser ?"
 
 #: kdeui/keditcl1.cpp:1627
 msgid "You do not have write permission to this file.\n"
-msgstr ""
+msgstr "Vous n'avez pas la permission d'écrire dans ce fichier.\n"
 
 #: kdeui/keditcl2.cpp:105 kdeui/keditcl2.cpp:122 kdeui/keditcl2.cpp:362
 #: kdeui/keditcl2.cpp:379 kdeui/keditcl2.cpp:678 kdeui/keditcl2.cpp:687
 #: kdeui/keditcl2.cpp:788
 msgid "Find"
-msgstr ""
+msgstr "Trouver"
 
 #: kdeui/keditcl2.cpp:106 kdeui/keditcl2.cpp:363 kdeui/keditcl2.cpp:456
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
 msgstr ""
+"Fin du document atteinte.\n"
+"Continuer depuis le début ?"
 
 #: kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426
 #: kdeui/keditcl2.cpp:473
@@ -217,43 +221,45 @@ msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
 msgstr ""
+"Début du document atteint.\n"
+"Continuer depuis la fin ?"
 
 #: kdeui/keditcl2.cpp:425 kdeui/keditcl2.cpp:455 kdeui/keditcl2.cpp:472
 #: kdeui/keditcl2.cpp:791
 msgid "Replace"
-msgstr ""
+msgstr "Remplacer"
 
 #: kdeui/keditcl2.cpp:684 kdeui/keditcl2.cpp:782
 msgid "Case Sensitive"
-msgstr ""
+msgstr "Respecte la casse"
 
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:785
 msgid "Find Backwards"
-msgstr ""
+msgstr "Recherche en arrière"
 
 #: kdeui/keditcl2.cpp:690 kdeui/keditcl2.cpp:797 po/texts.cpp:86
 msgid "Done"
-msgstr ""
+msgstr "Fait"
 
 #: kdeui/keditcl2.cpp:770
 msgid "Find:"
-msgstr ""
+msgstr "Trouver :"
 
 #: kdeui/keditcl2.cpp:780
 msgid "Replace with:"
-msgstr ""
+msgstr "Remplacer avec :"
 
 #: kdeui/keditcl2.cpp:794
 msgid "Replace All"
-msgstr ""
+msgstr "Remplacer tout"
 
 #: kdeui/keditcl2.cpp:891
 msgid "Goto Line"
-msgstr ""
+msgstr "Aller à la ligne"
 
 #: kdeui/keditcl2.cpp:896
 msgid "Go"
-msgstr ""
+msgstr "Aller à"
 
 #: kdeui/kfontdialog.cpp:164
 msgid "Select Font"
@@ -269,27 +275,27 @@ msgstr "Police actuelle"
 
 #: kdeui/kfontdialog.cpp:177 kdeui/kfontdialog.cpp:181
 msgid "Family:"
-msgstr "Famille:"
+msgstr "Famille :"
 
 #: kdeui/kfontdialog.cpp:188 kdeui/kfontdialog.cpp:194 po/texts.cpp:26
 msgid "Charset:"
-msgstr ""
+msgstr "Jeu de caractères :"
 
 #: kdeui/kfontdialog.cpp:201 kdeui/kfontdialog.cpp:206
 msgid "Size:"
-msgstr "Taille:"
+msgstr "Taille :"
 
 #: kdeui/kfontdialog.cpp:215 kdeui/kfontdialog.cpp:220
 msgid "Weight:"
-msgstr "Poids:"
+msgstr "Poids :"
 
 #: kdeui/kfontdialog.cpp:229 kdeui/kfontdialog.cpp:237
 msgid "Style:"
-msgstr "Style:"
+msgstr "Style :"
 
 #: kdeui/kfontdialog.cpp:272
 msgid "Charset"
-msgstr ""
+msgstr "Jeu de caractères"
 
 #: kdeui/kfontdialog.cpp:284
 msgid "Size"
@@ -297,7 +303,7 @@ msgstr "Taille"
 
 #: kdeui/kfontdialog.cpp:323
 msgid "Weight"
-msgstr "Poids:"
+msgstr "Poids"
 
 #: kdeui/kfontdialog.cpp:324 kdeui/kfontdialog.cpp:433
 msgid "normal"
@@ -339,7 +345,7 @@ msgstr "Selectionner une icône"
 
 #: kdeui/kiconloaderdialog.cpp:198
 msgid "Filter:"
-msgstr "Filtre:"
+msgstr "Filtre :"
 
 #: kdeui/kmenubar.cpp:149 kdeui/ktoolbar.cpp:311
 msgid "Top"
@@ -364,7 +370,7 @@ msgstr "Rattacher"
 
 #: kdeui/ktoolbar.cpp:115 kdeui/ktoolbar.cpp:174
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr "KToolBarButton: pixmap vide, probablement un fichier manquant"
+msgstr "KToolBarButton: pixmap vide, il manque probablement un fichier"
 
 #: kdeui/ktoolbar.cpp:310
 msgid "Left"
@@ -399,137 +405,124 @@ msgid "About"
 msgstr "A propos"
 
 #: po/texts.cpp:33
-#, fuzzy
 msgid "A&bout..."
-msgstr "A propos"
+msgstr "&A propos..."
 
 #: po/texts.cpp:36
-#, fuzzy
 msgid "&OK"
-msgstr "OK"
+msgstr "&OK"
 
 #: po/texts.cpp:38
-#, fuzzy
 msgid "On"
-msgstr "Ouvrir"
+msgstr "Allumé"
 
 #: po/texts.cpp:39
 msgid "Off"
-msgstr ""
+msgstr "Eteint"
 
 #: po/texts.cpp:41
-#, fuzzy
 msgid "&Cancel"
-msgstr "Annuler"
+msgstr "&Annuler"
 
 #: po/texts.cpp:43
 msgid "File"
 msgstr "Fichier"
 
 #: po/texts.cpp:44
-#, fuzzy
 msgid "&File"
-msgstr "Fichier"
+msgstr "&Fichier"
 
 #: po/texts.cpp:46
-#, fuzzy
 msgid "&Help"
-msgstr "Aide"
+msgstr "&Aide"
 
 #: po/texts.cpp:47
 msgid "Edit"
-msgstr "Editer"
+msgstr "Edition"
 
 #: po/texts.cpp:48
-#, fuzzy
 msgid "&Edit"
-msgstr "Editer"
+msgstr "&Edition"
 
 #: po/texts.cpp:49
 msgid "&Options"
-msgstr ""
+msgstr "&Options"
 
 #: po/texts.cpp:50
 msgid "View"
-msgstr ""
+msgstr "Vue"
 
 #: po/texts.cpp:51
-#, fuzzy
 msgid "&View"
-msgstr "Fichier"
+msgstr "&Vue"
 
 #: po/texts.cpp:52
-#, fuzzy
 msgid "E&xit"
-msgstr "Editer"
+msgstr "&Sortir"
 
 #: po/texts.cpp:53
 msgid "Quit"
 msgstr "Quitter"
 
 #: po/texts.cpp:54
-#, fuzzy
 msgid "&Quit"
-msgstr "Quitter"
+msgstr "&Quitter"
 
 #: po/texts.cpp:55
 msgid "Reload"
-msgstr ""
+msgstr "Recharger"
 
 #: po/texts.cpp:56
 msgid "Back"
-msgstr ""
+msgstr "Retour"
 
 #: po/texts.cpp:57
 msgid "Forward"
-msgstr ""
+msgstr "Avance"
 
 #: po/texts.cpp:58
 msgid "Copy"
-msgstr ""
+msgstr "Copie"
 
 #: po/texts.cpp:59
 msgid "&Copy"
-msgstr ""
+msgstr "Copie"
 
 #: po/texts.cpp:60
 msgid "Paste"
-msgstr ""
+msgstr "Coller"
 
 #: po/texts.cpp:61
 msgid "&Paste"
-msgstr ""
+msgstr "C&oller"
 
 #: po/texts.cpp:62
 msgid "New"
-msgstr ""
+msgstr "Nouveau"
 
 #: po/texts.cpp:63
 msgid "&New"
-msgstr ""
+msgstr "&Nouveau"
 
 #: po/texts.cpp:64
-#, fuzzy
 msgid "&New..."
-msgstr "Ouvrir"
+msgstr "&Nouveau..."
 
 #: po/texts.cpp:65
 msgid "&New Window..."
-msgstr ""
+msgstr "&Nouvelle fenêtre..."
 
 #: po/texts.cpp:66
 msgid "New &Window..."
-msgstr ""
+msgstr "Nouvelle &fenêtre..."
 
 #: po/texts.cpp:67
-#, fuzzy
 msgid "New Game"
-msgstr "Enregistrer"
+msgstr "Nouveau jeu"
 
 #: po/texts.cpp:68
-#, fuzzy
 msgid "&New Game"
-msgstr "Enregistrer"
+msgstr "&Nouveau jeu"
 
 #: po/texts.cpp:69
 msgid "Open"
@@ -540,144 +533,125 @@ msgid "Open a file"
 msgstr "Ouvrir un fichier"
 
 #: po/texts.cpp:71
-#, fuzzy
 msgid "Open..."
-msgstr "Ouvrir"
+msgstr "Ouvrir..."
 
 #: po/texts.cpp:72
-#, fuzzy
 msgid "&Open..."
-msgstr "Ouvrir"
+msgstr "&Ouvrir..."
 
 #: po/texts.cpp:73
 msgid "Cut"
-msgstr ""
+msgstr "Couper"
 
 #: po/texts.cpp:74
-#, fuzzy
 msgid "C&ut"
-msgstr "Quitter"
+msgstr "C&ouper"
 
 #: po/texts.cpp:75
-#, fuzzy
 msgid "Font"
-msgstr "Flottant"
+msgstr "Police"
 
 #: po/texts.cpp:76
 msgid "&Foreground Color"
-msgstr ""
+msgstr "Couleur de &premier plan"
 
 #: po/texts.cpp:77
 msgid "&Background Color"
-msgstr ""
+msgstr "Couleur d'&arrière plan"
 
 #: po/texts.cpp:78
 msgid "Save"
 msgstr "Enregistrer"
 
 #: po/texts.cpp:79
-#, fuzzy
 msgid "&Save"
-msgstr "Enregistrer"
+msgstr "&Enregistrer"
 
 #: po/texts.cpp:80
 msgid "Save As"
 msgstr "Enregistrer sous"
 
 #: po/texts.cpp:81
-#, fuzzy
 msgid "Save as..."
-msgstr "Enregistrer sous"
+msgstr "Enregistrer sous..."
 
 #: po/texts.cpp:82
-#, fuzzy
 msgid "S&ave as..."
-msgstr "Enregistrer sous"
+msgstr "Enregistrer &sous..."
 
 #: po/texts.cpp:83
 msgid "Close"
 msgstr "Fermer"
 
 #: po/texts.cpp:84
-#, fuzzy
 msgid "&Close"
-msgstr "Fermer"
+msgstr "&Fermer"
 
 #: po/texts.cpp:85
 msgid "&Print..."
-msgstr ""
+msgstr "Im&primer..."
 
 #: po/texts.cpp:88
 msgid "Options"
-msgstr ""
+msgstr "Options"
 
 #: po/texts.cpp:89
 msgid "Remove"
-msgstr ""
+msgstr "Enlever"
 
 #: po/texts.cpp:90
 msgid "Add"
-msgstr ""
+msgstr "Ajouter"
 
 #: po/texts.cpp:91
-#, fuzzy
 msgid "Change"
-msgstr "Annuler"
+msgstr "Changer"
 
 #: po/texts.cpp:92
 msgid "Delete"
-msgstr ""
+msgstr "Supprimer"
 
 #: po/texts.cpp:93
 msgid "&Delete"
-msgstr ""
+msgstr "&Supprimer"
 
 #: po/texts.cpp:94
-#, fuzzy
 msgid "Clear"
-msgstr "Fermer"
+msgstr "Effacer"
 
 #: po/texts.cpp:95
-#, fuzzy
 msgid "Italic"
-msgstr "italique"
+msgstr "Italique"
 
 #: po/texts.cpp:96
-#, fuzzy
 msgid "Roman"
-msgstr "roman"
+msgstr "Roman"
 
 #: po/texts.cpp:97
 msgid "Undo"
-msgstr ""
+msgstr "Défaire"
 
 #: po/texts.cpp:98
 msgid "&Undo"
-msgstr ""
+msgstr "&Défaire"
 
 #: po/texts.cpp:99
 msgid "Redo"
-msgstr ""
+msgstr "Refaire"
 
 #: po/texts.cpp:100
 msgid "&Redo"
-msgstr ""
+msgstr "&Refaire"
 
 #: po/texts.cpp:101
-#, fuzzy
 msgid "&Game"
-msgstr "Enregistrer"
+msgstr "Jeu"
 
 #: po/texts.cpp:102
 msgid "Information"
-msgstr ""
+msgstr "Information"
 
 #: po/texts.cpp:103
 msgid "Browse..."
-msgstr ""
-
-#~ msgid "About "
-#~ msgstr "A propos"
-
-#~ msgid "ERROR: couldn't find icon: %s"
-#~ msgstr "ERREUR: Icône introuvable: %s"
+msgstr "Parcourir..."
