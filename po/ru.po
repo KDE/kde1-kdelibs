@@ -432,7 +432,7 @@ msgstr "Настройки"
 # 
 #: kdeui/kcontrol.cpp:41 kdeui/kcontrol.cpp:58 po/texts.cpp:135
 msgid "Default"
-msgstr "По умолчанию:"
+msgstr "Умолчания"
 
 #: kdeui/kcontrol.cpp:47 kdeui/kcontrol.cpp:53 kfile/kfiledialogconf.cpp:59
 #: po/texts.cpp:41
