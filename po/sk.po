@@ -572,6 +572,16 @@ msgid ""
 "Mario Weilguni <mweilguni@sime.com>\n"
 "and Martin Jones <mjones@kde.org>"
 msgstr ""
+"KDE Voliè súborov napísali:\n"
+"\n"
+"Richard Moore <rich@kde.org>,\n"
+"Stephan Kulow <coolo@kde.org>\n"
+"a Daniel Grana <grana@ie.iwi.unibe.ch>.\n"
+"\n"
+"s prispením \n"
+"\n"
+"Mario Weilguni <mweilguni@sime.com>\n"
+"a Martin Jones <mjones@kde.org>"
 
 #: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
 msgid "About"
@@ -627,52 +637,51 @@ msgstr "neznáme"
 
 #: kfile/kfileinfo.cpp:217
 msgid "Jan"
-msgstr ""
+msgstr "Jan"
 
 #: kfile/kfileinfo.cpp:218
 msgid "Feb"
-msgstr ""
+msgstr "Feb"
 
 #: kfile/kfileinfo.cpp:219
 msgid "Mar"
-msgstr ""
+msgstr "Mar"
 
 #: kfile/kfileinfo.cpp:220
 msgid "Apr"
-msgstr ""
+msgstr "Apr"
 
 #: kfile/kfileinfo.cpp:221
 msgid "May"
-msgstr ""
+msgstr "Máj"
 
 #: kfile/kfileinfo.cpp:222
 msgid "Jun"
-msgstr ""
+msgstr "Jún"
 
 #: kfile/kfileinfo.cpp:223
 msgid "Jul"
-msgstr ""
+msgstr "Júl"
 
 #: kfile/kfileinfo.cpp:224
 msgid "Aug"
-msgstr ""
+msgstr "Aug"
 
 #: kfile/kfileinfo.cpp:225
 msgid "Sep"
-msgstr ""
+msgstr "Sep"
 
 #: kfile/kfileinfo.cpp:226
 msgid "Oct"
-msgstr ""
+msgstr "Okt"
 
 #: kfile/kfileinfo.cpp:227
-#, fuzzy
 msgid "Nov"
-msgstr "Nie"
+msgstr "Nov"
 
 #: kfile/kfileinfo.cpp:228
 msgid "Dec"
-msgstr ""
+msgstr "Dec"
 
 #: kfile/kpreview.cpp:187
 msgid "Name:"
@@ -958,33 +967,3 @@ msgstr "Listova»..."
 #: po/texts.cpp:104
 msgid "(none)"
 msgstr "(¾iadny)"
-
-#~ msgid "Width"
-#~ msgstr "©írka"
-
-#~ msgid "Height"
-#~ msgstr "Vý¹ka"
-
-#~ msgid "Panner"
-#~ msgstr "Panner"
-
-#~ msgid ""
-#~ "The KDE Desktop Environment was written by the KDE team.\n"
-#~ "\n"
-#~ "Please report bugs at http://buglist.kde.org.\n"
-#~ "\n"
-#~ "\n"
-#~ "KDE was developed with Qt, a cross-platform GUI library.\n"
-#~ "\n"
-#~ "Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
-#~ "Qt may be used freely to develop free software on the X Window System.\n"
-#~ msgstr ""
-#~ "KDE Desktop Enviroment napísal KDE tým.\n"
-#~ "\n"
-#~ "Prosím nahláste prípadné chyby na http://buglist.kde.org.\n"
-#~ "\n"
-#~ "\n"
-#~ "KDE bolo vyvinuté pomocou viacplatformovej GUI kni¾nice Qt\n"
-#~ "\n"
-#~ "Qt je produktom Troll Techu (http://www.troll.no, info@troll.no).\n"
-#~ "Qt je mo¾né voµne pou¾íva» k vývoju voµného softvéru na sytéme X Window.\n"
