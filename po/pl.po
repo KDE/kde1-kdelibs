@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs \n"
 "POT-Creation-Date: 1999-01-27 01:01+0100\n"
-"PO-Revision-Date: 1998-12-26 14:54+0200\n"
+"PO-Revision-Date: 1999-01-27 23:31+0200\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
@@ -1153,9 +1153,8 @@ msgid "Keep dirs first"
 msgstr "Katalogi s± jako pierwsze"
 
 #: kfile/kfilefilter.cpp:35
-#, fuzzy
 msgid "*|All Files"
-msgstr "Pliki"
+msgstr "*|Wszystkie pliki"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"
@@ -1263,78 +1262,71 @@ msgstr ""
 
 #: kspell/ksconfig.cpp:66
 msgid "Create Root/Affix combinations not in the dictionary"
-msgstr ""
+msgstr "Utworzenie pary rdzeñ/przyrostek poza s³ownikiem"
 
 #: kspell/ksconfig.cpp:75
 msgid "Consider run-together words as spelling errors"
-msgstr ""
+msgstr "Potraktowanie z³±czonych s³ów jako b³±d"
 
 #: kspell/ksconfig.cpp:92
-#, fuzzy
 msgid "Dictionary"
-msgstr "katalog"
+msgstr "S³ownik"
 
 #: kspell/ksconfig.cpp:140
 msgid "Encoding:"
-msgstr ""
+msgstr "Kodowanie:"
 
 #: kspell/ksconfig.cpp:147
-#, fuzzy
 msgid "Latin1"
-msgstr "&Lokacja:"
+msgstr "Latin1"
 
 #: kspell/ksconfig.cpp:148
 msgid "7-Bit/ASCII"
-msgstr ""
+msgstr "7-Bit/ASCII"
 
 #: kspell/ksconfig.cpp:292
 msgid "English"
-msgstr ""
+msgstr "Angielski"
 
 #: kspell/ksconfig.cpp:298
 msgid "Spanish"
-msgstr ""
+msgstr "Hiszpañski"
 
 #: kspell/ksconfig.cpp:304
-#, fuzzy
 msgid "German"
-msgstr "roman"
+msgstr "Niemiecki"
 
 #: kspell/ksconfig.cpp:311
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "Brazylijski Portugalski"
 
 #: kio/kio_cache.cc:422 kspell/ksconfig.cpp:317
 msgid "Unknown"
-msgstr "Nieznana"
+msgstr "Nieznany"
 
 #: kspell/ksconfig.cpp:348
-#, fuzzy
 msgid "ISpell Default"
-msgstr "Domy¶lne"
+msgstr "Domy¶lny"
 
 #: kspell/kspelldlg.cpp:58
 msgid "Misspelled Word:"
-msgstr ""
+msgstr "Nieznane s³owo:"
 
 #: kspell/kspelldlg.cpp:68
-#, fuzzy
 msgid "Replacement:"
-msgstr "Zamieñ"
+msgstr "Zamiana:"
 
 #: kspell/kspelldlg.cpp:77
 msgid "Suggestions:"
-msgstr ""
+msgstr "Sugestia:"
 
 #: kspell/kspelldlg.cpp:88
-#, fuzzy
 msgid "Ignore"
-msgstr "&Ignoruj"
+msgstr "Ignoruj"
 
 #: kspell/kspelldlg.cpp:99
-#, fuzzy
 msgid "Ignore All"
-msgstr "&Ignoruj"
+msgstr "Ignoruj wszystkie"
 
 #: kspell/kspelldlg.cpp:120 po/texts.cpp:86
 msgid "Add"
@@ -1916,7 +1908,6 @@ msgid "Address:"
 msgstr "Adres:"
 
 #: kab/editentry.cc:104
-#, fuzzy
 msgid "Town/City:"
 msgstr "Miasto:"
 
@@ -1925,7 +1916,6 @@ msgid "State:"
 msgstr "Stan/województwo:"
 
 #: kab/editentry.cc:106
-#, fuzzy
 msgid "Zip/Postal Code:"
 msgstr "Kod pocztowy:"
 
@@ -1942,16 +1932,14 @@ msgid "Organization:"
 msgstr "Organizacja:"
 
 #: kab/editentry.cc:146
-#, fuzzy
 msgid "Department:"
-msgstr "Zamieñ"
+msgstr "Oddzia³:"
 
 #: kab/editentry.cc:147
 msgid "Sub-Department:"
-msgstr ""
+msgstr "Pododdzia³:"
 
 #: kab/editentry.cc:148
-#, fuzzy
 msgid "Job/Role:"
 msgstr "Stanowisko:"
 
@@ -1988,9 +1976,8 @@ msgid "&Contact"
 msgstr "&Kontakt"
 
 #: kab/editentry.cc:239
-#, fuzzy
 msgid "Additional Comment:"
-msgstr "Drugie imiê:"
+msgstr "Komentarz:"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
@@ -3050,12 +3037,3 @@ msgid ""
 msgstr ""
 "\n"
 "nie zawiera pozycji Name=..."
-
-#~ msgid "Org Unit:"
-#~ msgstr "Jedn. organizacyjna:"
-
-#~ msgid "Org Subunit:"
-#~ msgstr "Podjedn. organizacyjna:"
-
-#~ msgid "Comment:"
-#~ msgstr "Komentarz:"
