@@ -84,11 +84,20 @@ msgstr "Ajuda"
 msgid "Custom..."
 msgstr "Personalizar..."
 
+#<<<<<<< pt.po
+#: kdeui/kcontrol.cpp:39
+#, fuzzy
+msgid "Default"
+msgstr "Apagar"
+
+#: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
+#=======
 #: kdeui/kcontrol.cpp:39
 msgid "Default"
 msgstr "Por omissão"
 
 #: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
+#>>>>>>> 1.34
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
 #: kdeui/keditcl1.cpp:1473 kdeui/keditcl1.cpp:1630 kdeui/kmsgbox.cpp:473
 #: kfile/kfiledialog.cpp:282 kfile/kfiledialog.cpp:516
