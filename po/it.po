@@ -921,4 +921,3 @@ msgstr "Sfoglia..."
 #, fuzzy
 msgid "(none)"
 msgstr "(nessuno)"
-
