@@ -107,11 +107,11 @@ msgstr "Größe:"
 
 #: kfontdialog.cpp:133 kfontdialog.cpp:138
 msgid "Weight:"
-msgstr "Dicke:"
+msgstr "Stärke:"
 
 #: kfontdialog.cpp:147 kfontdialog.cpp:155
 msgid "Style:"
-msgstr "Stil:"
+msgstr "Schnitt:"
 
 #: kfontdialog.cpp:190
 msgid "Size"
@@ -119,7 +119,7 @@ msgstr "Größe:"
 
 #: kfontdialog.cpp:229
 msgid "Weight"
-msgstr "Dicke:"
+msgstr "Stärke"
 
 #: kfontdialog.cpp:230 kfontdialog.cpp:327
 msgid "normal"
@@ -131,7 +131,7 @@ msgstr "fett"
 
 #: kfontdialog.cpp:240
 msgid "Style"
-msgstr "Stil"
+msgstr "Schnitt"
 
 #: kfontdialog.cpp:241 kfontdialog.cpp:340 kfontdialog.cpp:369
 msgid "roman"
