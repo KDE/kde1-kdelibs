@@ -592,7 +592,7 @@ msgstr "นิรนาม"
 
 #: kdeui/keditcl1.cpp:1560
 msgid "Could not save the document\n"
-msgstr "ไม่สามารถบันทึกเอกสารได้"
+msgstr "ไม่สามารถบันทึกเอกสารได้\n"
 
 #: kdeui/keditcl1.cpp:1630
 msgid "Save Document As"
@@ -608,7 +608,7 @@ msgstr ""
 
 #: kdeui/keditcl1.cpp:1716
 msgid "You do not have write permission to this file.\n"
-msgstr "คุณไม่ได้รับอนุญาตในการเขียนไฟล์นี้"
+msgstr "คุณไม่ได้รับอนุญาตในการเขียนไฟล์นี้\n"
 
 #: kdeui/keditcl2.cpp:104 kdeui/keditcl2.cpp:361 kdeui/keditcl2.cpp:454
 msgid ""
@@ -1696,7 +1696,7 @@ msgstr ""
 
 #: kab/addressbook.cc:106
 msgid "The directory has been created.\n"
-msgstr "ไดเร็กทอรีถูกสร้างเรียบร้อยแล้ว"
+msgstr "ไดเร็กทอรีถูกสร้างเรียบร้อยแล้ว\n"
 
 #: kab/addressbook.cc:140
 msgid "No addressbook database file, creating new one."
@@ -2012,7 +2012,7 @@ msgid ""
 msgstr ""
 "โปรแกรม Kab ไม่สามรถเปลี่ยนฐานข้อมูล\n"
 "ให้อยู่ในรูปแบบของไฟล์ปัจจุบัน\n"
-"คุณสามารถใช้งานได้ แต่อาจไม่สนับสนุนคุณสมบัติทั้งหมด\n"
+"คุณสามารถใช้งานได้ แต่อาจไม่สนับสนุนคุณสมบัติทั้งหมด"
 
 #: kab/widget.cc:163
 msgid ""
@@ -2207,7 +2207,7 @@ msgstr "ไ&ม่สนใจ"
 
 #: kab/widget.cc:879
 msgid "Saving cancelled.\n"
-msgstr "ยกเลิกการบันทึกแล้ว"
+msgstr "ยกเลิกการบันทึกแล้ว\n"
 
 #: kab/widget.cc:945
 msgid "Entry changed."
