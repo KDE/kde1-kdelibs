@@ -1219,7 +1219,7 @@ msgstr "&Otevøít ..."
 
 #: po/texts.cpp:70
 msgid "&Cut"
-msgstr "&Vyjmout"
+msgstr "Vyjmou&t"
 
 #: po/texts.cpp:71
 msgid "C&ut"
