@@ -20,6 +20,9 @@
    Boston, MA 02111-1307, USA.
    
    $Log$
+   Revision 1.9  1998/03/08 18:50:23  wuebben
+   Bernd: fixed up the kiconloader class -- it was completely busted
+
 
 */
 
@@ -157,6 +160,10 @@ protected:
 private:
 
   void addPath(QString path);
+
+  // Disallow assignment and copy-construction
+  KIconLoader( const KIconLoader& ) {};
+  KIconLoader& operator= ( const KIconLoader& ) { return *this; }
 
 };
 
