@@ -2,7 +2,7 @@ msgid "Error"
 msgstr "Erreur"
 
 msgid "Malformed URL"
-msgstr "URL a mauvais format"
+msgstr "URL incorrecte"
 
 msgid "Yes"
 msgstr "Oui"
@@ -17,22 +17,22 @@ msgid "Open a file"
 msgstr "Ouvrir un fichier"
 
 msgid "Save a file"
-msgstr "Sauvegarder un fichier"
+msgstr "Enregistrer un fichier"
 
 msgid "Contents"
 msgstr "Contenu"
 
 msgid "About"
-msgstr "Au sujet de"
+msgstr "A propos"
 
 msgid "Open"
-msgstr "Ouvrir un fichier"
+msgstr "Ouvrir"
 
 msgid "Save"
-msgstr "Sauvegarder un fichier"
+msgstr "Enregistrer"
 
 msgid "Save As"
-msgstr "Sauvegarder en tant que"
+msgstr "Enregistrer sous"
 
 msgid "Close"
 msgstr "Fermer"
@@ -62,7 +62,7 @@ msgid "Help"
 msgstr "Aide"
 
 msgid "Edit"
-msgstr "Éditer"
+msgstr "Editer"
 
 # libkdeui messages
 #: kcolordlg.cpp:239
@@ -71,7 +71,7 @@ msgstr "Selection couleur"
 
 #: kcolordlg.cpp:244
 msgid "System Colors"
-msgstr "Couleurs de Systèmes"
+msgstr "Couleurs système"
 
 #: kcolordlg.cpp:269
 msgid "Custom Colors"
@@ -87,7 +87,7 @@ msgstr "Personnalisées..."
 
 #: kfontdialog.cpp:95
 msgid "Select Font"
-msgstr "Choisir police de charactère"
+msgstr "Choisir une police"
 
 #: kfontdialog.cpp:99
 msgid "Requested Font"
@@ -155,7 +155,7 @@ msgstr "Normal"
 
 #: kiconloader.cpp:176
 msgid "Select Icon"
-msgstr "Selectionner icône"
+msgstr "Selectionner une icône"
 
 #: kiconloader.cpp:182
 msgid "Filter:"
@@ -164,7 +164,7 @@ msgstr "Filtre:"
 #: kiconloader.cpp:337
 #, c-format
 msgid "ERROR: couldn't find icon: %s"
-msgstr "ERREURE: Icône introuvable: %s"
+msgstr "ERREUR: Icône introuvable: %s"
 
 #: kmenubar.cpp:106 ktoolbar.cpp:273
 msgid "Top"
@@ -188,8 +188,7 @@ msgstr "Rattacher"
 
 #: ktoolbar.cpp:87 ktoolbar.cpp:145
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr ""
-"KToolBarButton: Une erreure est survenue, probablement un fichier manquant"
+msgstr "KToolBarButton: pixmap vide, probablement un fichier manquant"
 
 #: ktoolbar.cpp:272
 msgid "Left"
@@ -201,11 +200,11 @@ msgstr "Droite"
 
 #: kapp.cpp:330
 msgid "About "
-msgstr ""
+msgstr "A propos"
 
 #: kapp.cpp:334 kapp.cpp:355
 msgid "About KDE"
-msgstr ""
+msgstr "A propos de KDE"
 
 #: kapp.cpp:357
 msgid ""
@@ -221,11 +220,12 @@ msgid ""
 msgstr ""
 "Le KDE Desktop Environment a été developpé par le team KDE.\n"
 "\n"
-"Please send bug reports to kde-bugs@kde.org.\n"
+"Envoyez svp les rapports de bogues à kde-bugs@kde.org.\n"
 "\n"
 "\n"
-"KDE a été developpé avec Qt, une bibliothèque GUI multi-plateforme.\n"
+"KDE a été developpé avec Qt, une bibliothèque GUI multi-plateformes.\n"
 "\n"
 "Qt est un produit de Troll Tech (http://www.troll.no, info@troll.no).\n"
-"Qt peut etre librement utilisé pour developper des logiciels libres pour le \"X Window System\".\n"
+"Qt peut être librement utilisé pour développer des logiciels libres \n"
+"pour le système X-Window.\n"
 

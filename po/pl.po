@@ -1,6 +1,10 @@
 # Polish translation of KDE kdelibs
-# Version 0.1.3
+# Version 0.1.4
 # (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
+
+
+msgid "ERROR: couldn't find mini icon: %s"
+msgstr "B£¡D: nie mogê znale¿æ mini ikony: %s"
 
 
 msgid "Error"
@@ -25,7 +29,7 @@ msgid "Save a file"
 msgstr "Zapisz plik"
 
 msgid "Contents"
-msgstr "Tre¶æ"
+msgstr "Spis tre¶ci"
 
 msgid "About"
 msgstr "Informacje"
@@ -226,12 +230,11 @@ msgstr ""
 "¦rodowisko Graficzne KDE zosta³o napisane przez KDE team.\n"
 "\n"
 "Informacje o b³êdach prosze przesy³aæ na kde-bugs@kde.org.\n"
+"Polska wersja (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>.\n"
 "\n"
 "\n"
 "KDE zosta³o wydane wraz z Qt, wieloplatformow± bibliotek± GUI.\n"
 "\n"
 "Qt jest produktem Troll Tech (http://www.troll.no, info@troll.no).\n"
-"Qt mo¿e byæ u¿yte bezp³atnie dla bezp³atnego oprogramowania pod X Window System.\n"
+"Qt mo¿e byæ u¿yte nieodp³atnie dla bezp³atnego oprogramowania pod X Window System.\n"
 
-msgid "ERROR: couldn't find mini icon: %s"
-msgstr "B£¡D: nie mogê znale¿æ mini ikony: %s"
