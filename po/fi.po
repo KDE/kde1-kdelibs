@@ -1855,7 +1855,7 @@ msgstr ""
 "tietokannan päivitykseen uudempaan versioon.\n"
 "Tämä virhe on poistettu eikä haittaa sinua\n"
 "enään.\n"
-"Kaikki asetukset on nyt asetettu oletusarvoihin.\n"
+"Kaikki asetukset on nyt asetettu oletusarvoihin."
 
 #: kab/widget.cc:243 kab/widget.cc:307 kab/widget.cc:315
 msgid "File handling error"
