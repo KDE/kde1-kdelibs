@@ -302,8 +302,7 @@ msgstr ""
 # , fuzzy
 #: kdeui/keditcl1.cpp:1628
 msgid "You do not have write permission to this file.\n"
-msgstr ""
-"Δεν έχετε δικαιώματα πρόσβασης στο αρχείο:\n"
+msgstr "Δεν έχετε δικαιώματα πρόσβασης στο αρχείο:\n"
 
 # , fuzzy
 #: kdeui/keditcl2.cpp:105 kdeui/keditcl2.cpp:122 kdeui/keditcl2.cpp:362
