@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1999-01-16 01:03+0100\n"
+"POT-Creation-Date: 1999-01-17 01:01+0100\n"
 "PO-Revision-Date: 1998-03-20 12:20 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -44,7 +44,7 @@ msgstr "Posla» správu správcovi aplikácie"
 #: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:397
 #: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:283
 #: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:509
-#: kfile/kfiledialog.cpp:890 kfile/kfiledialogconf.cpp:61 kfmlib/kfm.cpp:407
+#: kfile/kfiledialog.cpp:901 kfile/kfiledialogconf.cpp:61 kfmlib/kfm.cpp:407
 #: po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
@@ -251,8 +251,8 @@ msgstr "Mo¾né hodnoty:"
 msgid "Selected values:"
 msgstr "Zvolené hodnoty:"
 
-#: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1206
-#: kfile/kfiledialog.cpp:1366 kfile/kfiledialog.cpp:1400 po/texts.cpp:65
+#: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1217
+#: kfile/kfiledialog.cpp:1377 kfile/kfiledialog.cpp:1411 po/texts.cpp:65
 msgid "Open"
 msgstr "Otvori»"
 
@@ -264,8 +264,8 @@ msgstr "Nový"
 msgid "Close"
 msgstr "Zavrie»"
 
-#: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1261
-#: kfile/kfiledialog.cpp:1421 po/texts.cpp:75
+#: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1272
+#: kfile/kfiledialog.cpp:1432 po/texts.cpp:75
 msgid "Save"
 msgstr "Ulo¾i»"
 
@@ -401,7 +401,7 @@ msgstr "Nie"
 #: kdeui/kcontrol.cpp:48 kdeui/kcontrol.cpp:55 kdeui/keditcl1.cpp:414
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:400
 #: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:318
-#: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:895
+#: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:906
 #: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:697
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
@@ -1021,7 +1021,7 @@ msgstr ""
 msgid "Dismiss"
 msgstr "Zru¹i»"
 
-#: kfile/kfiledialog.cpp:573 kfile/kfiledialog.cpp:1381 po/texts.cpp:77
+#: kfile/kfiledialog.cpp:573 kfile/kfiledialog.cpp:1392 po/texts.cpp:77
 msgid "Save As"
 msgstr "Ulo¾i» ako"
 
@@ -1033,49 +1033,49 @@ msgstr "Koreòový prieèinok"
 msgid "The specified directory does not exist or was not readable."
 msgstr "©pecifikovaný prieèinok neexistuje alebo sa nedá preèíta»."
 
-#: kfile/kfiledialog.cpp:875
+#: kfile/kfiledialog.cpp:886
 msgid "Create new directory in: "
 msgstr "Vytvori» nový prieèinok v:"
 
-#: kfile/kfiledialog.cpp:878
+#: kfile/kfiledialog.cpp:889
 msgid "New Directory"
 msgstr "Nový prieèinok"
 
-#: kfile/kfiledialog.cpp:950
+#: kfile/kfiledialog.cpp:961
 msgid "Add to bookmarks"
 msgstr "Prida» k zálo¾kám"
 
-#: kfile/kfiledialog.cpp:1240
+#: kfile/kfiledialog.cpp:1251
 msgid "Choose Directory"
 msgstr "Vybra» prieèinok"
 
-#: kfile/kfiledialog.cpp:1308
+#: kfile/kfiledialog.cpp:1319
 msgid "directory"
 msgstr "prieèinok"
 
-#: kfile/kfiledialog.cpp:1310
+#: kfile/kfiledialog.cpp:1321
 msgid "directories"
 msgstr "prieèinky"
 
-#: kfile/kfiledialog.cpp:1312 kfile/kpreview.cpp:326
+#: kfile/kfiledialog.cpp:1323 kfile/kpreview.cpp:326
 msgid "file"
 msgstr "do súboru"
 
-#: kfile/kfiledialog.cpp:1314
+#: kfile/kfiledialog.cpp:1325
 msgid "files"
 msgstr "súbory"
 
 # , c-format
-#: kfile/kfiledialog.cpp:1316
+#: kfile/kfiledialog.cpp:1327
 #, c-format
 msgid "%d %s and %d %s"
 msgstr "%d %s a %d %s"
 
-#: kfile/kfiledialog.cpp:1326
+#: kfile/kfiledialog.cpp:1337
 msgid "one directory"
 msgstr "prieèinok"
 
-#: kfile/kfiledialog.cpp:1328
+#: kfile/kfiledialog.cpp:1339
 #, c-format
 msgid "%d directories"
 msgstr "%d prieèinkov"

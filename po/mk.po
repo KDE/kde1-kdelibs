@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdebase\n"
-"POT-Creation-Date: 1999-01-16 01:03+0100\n"
+"POT-Creation-Date: 1999-01-17 01:01+0100\n"
 "PO-Revision-Date: 1998-05-22 10:10+0000\n"
 "Last-Translator: Sasha Konecni <sasha@msi-uk.com>\n"
 "Language-Team: Macedonian\n"
@@ -45,7 +45,7 @@ msgstr ""
 #: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:397
 #: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:283
 #: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:509
-#: kfile/kfiledialog.cpp:890 kfile/kfiledialogconf.cpp:61 kfmlib/kfm.cpp:407
+#: kfile/kfiledialog.cpp:901 kfile/kfiledialogconf.cpp:61 kfmlib/kfm.cpp:407
 #: po/texts.cpp:35
 msgid "OK"
 msgstr "Vazhi"
@@ -249,8 +249,8 @@ msgstr ""
 msgid "Selected values:"
 msgstr ""
 
-#: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1206
-#: kfile/kfiledialog.cpp:1366 kfile/kfiledialog.cpp:1400 po/texts.cpp:65
+#: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1217
+#: kfile/kfiledialog.cpp:1377 kfile/kfiledialog.cpp:1411 po/texts.cpp:65
 msgid "Open"
 msgstr "Otvori"
 
@@ -262,8 +262,8 @@ msgstr "Nov"
 msgid "Close"
 msgstr "Zatvori"
 
-#: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1261
-#: kfile/kfiledialog.cpp:1421 po/texts.cpp:75
+#: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1272
+#: kfile/kfiledialog.cpp:1432 po/texts.cpp:75
 msgid "Save"
 msgstr "Zachuvaj"
 
@@ -394,7 +394,7 @@ msgstr "Ne"
 #: kdeui/kcontrol.cpp:48 kdeui/kcontrol.cpp:55 kdeui/keditcl1.cpp:414
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:400
 #: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:318
-#: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:895
+#: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:906
 #: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:697
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
@@ -1029,7 +1029,7 @@ msgstr "Opredelenoto Dosie ne postoi"
 msgid "Dismiss"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:573 kfile/kfiledialog.cpp:1381 po/texts.cpp:77
+#: kfile/kfiledialog.cpp:573 kfile/kfiledialog.cpp:1392 po/texts.cpp:77
 msgid "Save As"
 msgstr "&Zachuvaj Kako"
 
@@ -1044,58 +1044,58 @@ msgid "The specified directory does not exist or was not readable."
 msgstr "Opredelenoto Dosie ne postoi"
 
 # , fuzzy
-#: kfile/kfiledialog.cpp:875
+#: kfile/kfiledialog.cpp:886
 msgid "Create new directory in: "
 msgstr "Sozdavam direktorium:"
 
 # , fuzzy
-#: kfile/kfiledialog.cpp:878
+#: kfile/kfiledialog.cpp:889
 msgid "New Directory"
 msgstr "Ova e Direktorium"
 
 # , fuzzy
-#: kfile/kfiledialog.cpp:950
+#: kfile/kfiledialog.cpp:961
 msgid "Add to bookmarks"
 msgstr "Dodadi Bookmark"
 
 # , fuzzy
-#: kfile/kfiledialog.cpp:1240
+#: kfile/kfiledialog.cpp:1251
 msgid "Choose Directory"
 msgstr "Ova e Direktorium"
 
 # , fuzzy
-#: kfile/kfiledialog.cpp:1308
+#: kfile/kfiledialog.cpp:1319
 msgid "directory"
 msgstr "Direktorium "
 
 # , fuzzy
-#: kfile/kfiledialog.cpp:1310
+#: kfile/kfiledialog.cpp:1321
 msgid "directories"
 msgstr "Direktoriumi"
 
 # , fuzzy
-#: kfile/kfiledialog.cpp:1312 kfile/kpreview.cpp:326
+#: kfile/kfiledialog.cpp:1323 kfile/kpreview.cpp:326
 msgid "file"
 msgstr "Dosie"
 
 # , fuzzy
-#: kfile/kfiledialog.cpp:1314
+#: kfile/kfiledialog.cpp:1325
 msgid "files"
 msgstr "Si&te documenti"
 
 # , c-format
-#: kfile/kfiledialog.cpp:1316
+#: kfile/kfiledialog.cpp:1327
 #, c-format
 msgid "%d %s and %d %s"
 msgstr ""
 
 # , fuzzy
-#: kfile/kfiledialog.cpp:1326
+#: kfile/kfiledialog.cpp:1337
 msgid "one directory"
 msgstr "Direktorium "
 
 # , fuzzy
-#: kfile/kfiledialog.cpp:1328
+#: kfile/kfiledialog.cpp:1339
 #, fuzzy, c-format
 msgid "%d directories"
 msgstr "Direktoriumi"
