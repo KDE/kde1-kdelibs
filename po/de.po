@@ -1950,7 +1950,7 @@ msgstr "Land:"
 
 #: kab/editentry.cc:130
 msgid "&Address"
-msgstr "Adress:"
+msgstr "Adresse:"
 
 #: kab/editentry.cc:145
 msgid "Organization:"
