@@ -741,7 +741,7 @@ msgstr "Suodata:"
 
 #: kdeui/kkeydialog.cpp:219
 msgid "Configure key bindings"
-msgstr ""
+msgstr "Aseta näppäinsidoksia"
 
 #: kdeui/kkeydialog.cpp:232 kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:205
 #: po/texts.cpp:45
@@ -762,7 +762,7 @@ msgstr "&Toimenpide"
 
 #: kdeui/kkeydialog.cpp:366
 msgid "Choose a key for the selected action"
-msgstr ""
+msgstr "Valitse näppäin valitulle toiminnolle"
 
 #: kdeui/kkeydialog.cpp:393
 msgid "&No key"
@@ -778,40 +778,39 @@ msgstr "O&ma näppäin"
 
 #: kdeui/kkeydialog.cpp:472
 msgid "No keys defined"
-msgstr ""
+msgstr "Ei näppäimiä määritelty"
 
 #: kdeui/kkeydialog.cpp:474
 msgid "Not configurable"
-msgstr ""
+msgstr "Ei asetettavissa"
 
 #: kdeui/kkeydialog.cpp:530
 msgid "Global Keys"
-msgstr ""
+msgstr "Yleiset näppäimet"
 
 #: kdeui/kkeydialog.cpp:562
 msgid "Keys"
-msgstr ""
+msgstr "Näppäimet"
 
 #: kdeui/kkeydialog.cpp:637 kdeui/kkeydialog.cpp:976
 msgid "Attention : key already used"
-msgstr ""
+msgstr "Varoitus: näppäin on jo käytössä"
 
 #: kdeui/kkeydialog.cpp:926
 msgid "Press the wanted key"
-msgstr ""
+msgstr "Paina haluttua näppäintä"
 
 #: kdeui/kkeydialog.cpp:949
 msgid "Undefined key"
-msgstr ""
+msgstr "määrittelemätön näppäin"
 
 #: kdeui/kkeydialog.cpp:999
 msgid "Return to end edition"
-msgstr ""
+msgstr "Palaa loppuun"
 
 #: kdeui/kkeydialog.cpp:1009
-#, fuzzy
 msgid "Incorrect key"
-msgstr "Nykyinen näppäin"
+msgstr "Virheellinen näppäin"
 
 #: kdeui/kkeydialog.cpp:1035
 #, c-format
@@ -821,10 +820,14 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"Näppäinyhdistelmä %s on jo käytössä yleiselle toiminteelle \n"
+"%s.\n"
+"\n"
+"Valitse joku uniikki näppäinyhdistelmä."
 
 #: kdeui/kkeydialog.cpp:1039
 msgid "Global key conflict"
-msgstr ""
+msgstr "Yleisten näppäinten konflikti"
 
 #: kdeui/kkeydialog.cpp:1062
 #, c-format
@@ -834,10 +837,14 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"Näppäinyhdistelmä %s on jo käytössä yleiselle toiminteelle \n"
+"%s.\n"
+"\n"
+"Valitse joku uniikki näppäinyhdistelmä."
 
 #: kdeui/kkeydialog.cpp:1066
 msgid "Standard key conflict"
-msgstr ""
+msgstr "Perusnäppäimen konflikti"
 
 #: kdeui/kkeydialog.cpp:1086
 #, c-format
@@ -847,10 +854,14 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"Näppäinyhdistelmä %s on jo käytössä toiminteelle \n"
+"%s.\n"
+"\n"
+"Valitse joku uniikki näppäinyhdistelmä."
 
 #: kdeui/kkeydialog.cpp:1090
 msgid "Key conflict"
-msgstr ""
+msgstr "Näppäinkonflikti"
 
 #: kdeui/kmenubar.cpp:269 kdeui/ktoolbar.cpp:847
 msgid "Top"
@@ -1065,9 +1076,9 @@ msgid "one directory"
 msgstr "yksi hakemisto"
 
 #: kfile/kfiledialog.cpp:1324
-#, fuzzy, c-format
+#, c-format
 msgid "%d directories"
-msgstr "hakemistoa"
+msgstr "%d hakemistoa"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"
@@ -1909,7 +1920,7 @@ msgstr "Syntymäpäivä:"
 
 #: kab/editentry.cc:249
 msgid "Double click to set date"
-msgstr ""
+msgstr "Tuplaklikkaa asettaaksesi päivän"
 
 #: kab/editentry.cc:256
 msgid "O&thers"
