@@ -73,6 +73,9 @@ protected:
 class HTMLFrameSet : public QWidget
 {
     Q_OBJECT
+
+    // FIXME Implement the missing functions (Lars)
+    friend class KHTMLWidget;
 public:
     HTMLFrameSet( QWidget *_parent, const char *_src );
     ~HTMLFrameSet();
