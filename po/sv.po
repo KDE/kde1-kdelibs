@@ -31,7 +31,6 @@ msgid "About KDE"
 msgstr "Om KDE"
 
 #: kdecore/kapp.cpp:448
-#, fuzzy
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
@@ -45,11 +44,10 @@ msgid ""
 msgstr ""
 "KDE Desktop Environment skrevs av KDE-teamet.\n"
 "\n"
-"Vänligen, skicka bug-rapporter till kde-bugs@kde.org.\n"
+"Vänligen, rapportera buggar till http://buglist.kde.org.\n"
 "\n"
 "\n"
-"Det här programmet utvecklades med hjälp av Qt, ett tvärkompatibelt "
-"GUI-bibliotek.\n"
+"KDE utvecklades med hjälp av Qt, ett tvärkompatibelt GUI-bibliotek.\n"
 "\n"
 "Qt tillverkas av Troll Tech AS (http://www.troll.no, info@troll.no). Qt får "
 "användas fritt för att utveckla fri programvara på X Window System.\n"
@@ -261,7 +259,7 @@ msgstr "Gå till rad"
 
 #: kdeui/keditcl2.cpp:896
 msgid "Go"
-msgstr ""
+msgstr "Gå"
 
 #: kdeui/kfontdialog.cpp:164
 msgid "Select Font"
@@ -322,7 +320,7 @@ msgstr "Stil"
 #: kdeui/kfontdialog.cpp:335 kdeui/kfontdialog.cpp:446
 #: kdeui/kfontdialog.cpp:476
 msgid "roman"
-msgstr ""
+msgstr "rak"
 
 #: kdeui/kfontdialog.cpp:336 kdeui/kfontdialog.cpp:448
 #: kdeui/kfontdialog.cpp:474
@@ -452,11 +450,11 @@ msgstr "&Inställningar"
 
 #: po/texts.cpp:50
 msgid "View"
-msgstr "Vy"
+msgstr "Visa"
 
 #: po/texts.cpp:51
 msgid "&View"
-msgstr "&Vy"
+msgstr "&Visa"
 
 #: po/texts.cpp:52
 msgid "E&xit"
@@ -552,7 +550,7 @@ msgstr "Klipp &ur"
 
 #: po/texts.cpp:75
 msgid "Font"
-msgstr "SväTypsnitt"
+msgstr "Typsnitt"
 
 #: po/texts.cpp:76
 msgid "&Foreground Color"
@@ -628,7 +626,7 @@ msgstr "Kursiv"
 
 #: po/texts.cpp:96
 msgid "Roman"
-msgstr ""
+msgstr "Rak"
 
 #: po/texts.cpp:97
 msgid "Undo"
@@ -659,9 +657,5 @@ msgid "Browse..."
 msgstr "Bläddra..."
 
 #: po/texts.cpp:104
-#, fuzzy
 msgid "(none)"
-msgstr "Klar"
-
-#~ msgid "ERROR: couldn't find icon: %s"
-#~ msgstr "FEL: kunde inte hitta ikonen %s"
+msgstr "(ingen)"
