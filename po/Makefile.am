@@ -2,7 +2,7 @@
 GMOFILES = de.gmo fr.gmo sv.gmo cs.gmo es.gmo ru.gmo \
 	hu.gmo da.gmo it.gmo nl.gmo pt.gmo no.gmo pl.gmo \
 	el.gmo fi.gmo hr.gmo ro.gmo zh_TW_Big5.gmo zh_GB2312.gmo \
-	sk.gmo ca.gmo
+	sk.gmo ca.gmo sl.gmo
 
 POFILES = $(GMOFILES:.gmo=.po) 
 
