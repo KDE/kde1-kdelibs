@@ -567,6 +567,16 @@ msgid ""
 "Mario Weilguni <mweilguni@sime.com>\n"
 "and Martin Jones <mjones@kde.org>"
 msgstr ""
+"Selector de Ficheiros KDE por:\n"
+"\n"
+"Richard Moore <rich@kde.org>\n"
+"Stephan Kulow <coolo@kde.org>\n"
+"e Daniel Grana <grana@ie.iwi.unibe.ch>\n"
+"\n"
+"com contribuições de\n"
+"\n"
+"Mario Weilguni <mweilguni@sime.com>\n"
+"e Martin Jones <mjones@kde.org>"
 
 #: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
 msgid "About"
@@ -622,52 +632,51 @@ msgstr "desconhecido"
 
 #: kfile/kfileinfo.cpp:217
 msgid "Jan"
-msgstr ""
+msgstr "Jan"
 
 #: kfile/kfileinfo.cpp:218
 msgid "Feb"
-msgstr ""
+msgstr "Fev"
 
 #: kfile/kfileinfo.cpp:219
 msgid "Mar"
-msgstr ""
+msgstr "Mar"
 
 #: kfile/kfileinfo.cpp:220
 msgid "Apr"
-msgstr ""
+msgstr "Abr"
 
 #: kfile/kfileinfo.cpp:221
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 #: kfile/kfileinfo.cpp:222
 msgid "Jun"
-msgstr ""
+msgstr "Jun"
 
 #: kfile/kfileinfo.cpp:223
 msgid "Jul"
-msgstr ""
+msgstr "Jul"
 
 #: kfile/kfileinfo.cpp:224
 msgid "Aug"
-msgstr ""
+msgstr "Ago"
 
 #: kfile/kfileinfo.cpp:225
 msgid "Sep"
-msgstr ""
+msgstr "Set"
 
 #: kfile/kfileinfo.cpp:226
 msgid "Oct"
-msgstr ""
+msgstr "Out"
 
 #: kfile/kfileinfo.cpp:227
-#, fuzzy
 msgid "Nov"
-msgstr "Não"
+msgstr "Nov"
 
 #: kfile/kfileinfo.cpp:228
 msgid "Dec"
-msgstr ""
+msgstr "Dez"
 
 #: kfile/kpreview.cpp:187
 msgid "Name:"
@@ -953,12 +962,3 @@ msgstr "Explorar..."
 #: po/texts.cpp:104
 msgid "(none)"
 msgstr "(nenhum)"
-
-#~ msgid "Width"
-#~ msgstr "Largura"
-
-#~ msgid "Height"
-#~ msgstr "Altura"
-
-#~ msgid "Panner"
-#~ msgstr "Painel"
