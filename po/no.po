@@ -66,25 +66,24 @@ msgid ", line "
 msgstr ", linje "
 
 #: kab/AssertDialog.cpp:212 kab/AssertDialog.cpp:217
-#, fuzzy
 msgid "Error handling error"
-msgstr "Filbehandlingsfeil"
+msgstr "Feil i feilbehandler"
 
 #: kab/AssertDialog.cpp:213
-#, fuzzy
 msgid "Could not send message."
-msgstr "Kunne ikke lagre database."
+msgstr "Kunne ikke lsende melding."
 
 #: kab/AssertDialog.cpp:218
-#, fuzzy
 msgid "The author did not publish an email address."
-msgstr "Tredje epostadresse"
+msgstr "Forfatteren publiserte ikke en epostadresse."
 
 #: kab/DialogBase.cpp:36
 msgid ""
 "If you press the OK button, all changes\n"
 "you made will be used to proceed."
 msgstr ""
+"Hvis du trykker OK-kanppen vil alle endringer\n"
+"du gjode bli utført."
 
 #: kab/DialogBase.cpp:39
 msgid ""
@@ -92,6 +91,9 @@ msgid ""
 "handed over to the program, but the dialog\n"
 "will not be closed.Use this to try different settings."
 msgstr ""
+"Når du trykker Bruk vil innstillingene bli overrakt til\n"
+"programmet, men dialogen vil ikke bli lukket. Bruk denne\n"
+"for å prøve forskjellige innstillinger."
 
 #: kab/DialogBase.cpp:44
 msgid ""
@@ -101,6 +103,11 @@ msgid ""
 "The program will be in the state before\n"
 "opening the dialog."
 msgstr ""
+"Hvis du trykker Avbryt-knappen vil alle\n"
+"endringer du gjorde bli forlatt og dialogen\n"
+"vil bli lukket.\n"
+"Programmet være i samme forfatning som før\n"
+"du åpnet dialogen."
 
 #: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
 #: kdeui/kwizard.cpp:228 po/texts.cpp:36
@@ -108,9 +115,8 @@ msgid "&OK"
 msgstr "&OK"
 
 #: kab/DialogBase.cpp:58
-#, fuzzy
 msgid "&Apply"
-msgstr "Bruk"
+msgstr "&Bruk"
 
 #: kab/DialogBase.cpp:59 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
 #: kdeui/kwizard.cpp:159 po/texts.cpp:40
@@ -210,22 +216,20 @@ msgid "The comment"
 msgstr "Kommentar"
 
 #: kab/SearchDialog.cpp:74
-#, fuzzy
 msgid "kab: Search entries"
-msgstr "Søke gjennom oppføringer"
+msgstr "kab: Søke gjennom oppføringer"
 
 #: kab/SearchDialogMainWidget.cpp:22
 msgid "matches"
-msgstr ""
+msgstr "passer"
 
 #: kab/SearchDialogMainWidget.cpp:23
 msgid "Use shell wildcard patterns here"
-msgstr ""
+msgstr "Bruk skapp-masker her"
 
 #: kab/SearchDialogMainWidget.cpp:24
-#, fuzzy
 msgid "Select field to match the pattern"
-msgstr "kab: Velg felter for kopiering"
+msgstr "Velg felter for å passe maske"
 
 #: kab/StringListDialog.cpp:35 kab/datepickerdialog.cc:26 kab/kabapi.cc:38
 #: kab/widget.cc:1361 kab/widget.cc:1403 kdetest/klocaletest.cpp:103
@@ -1553,9 +1557,8 @@ msgid "Cannot find previously created section."
 msgstr "Kunne ikke finne forrige lagde seksjon."
 
 #: kab/addressbook.cc:696
-#, fuzzy
 msgid "Unable to create key-value-map for entry."
-msgstr "Kunne ikke lage sikkerhetskopifil"
+msgstr "Kunne ikke lage tast-verdi-mappe for oppføring."
 
 #: kab/addressbook.cc:925
 msgid "entry without name"
@@ -1804,7 +1807,7 @@ msgstr "Fødselsdag:"
 
 #: kab/editentry.cc:249
 msgid "Double click to set date"
-msgstr ""
+msgstr "Dobbelklikk for å sette dato"
 
 #: kab/editentry.cc:256
 msgid "O&thers"
@@ -1843,7 +1846,7 @@ msgstr ""
 
 #: kab/widget.cc:224
 msgid "kab: Removed bug warning"
-msgstr ""
+msgstr "kab: Fjernet feil-varsler"
 
 #: kab/widget.cc:225
 msgid ""
@@ -1854,6 +1857,12 @@ msgid ""
 "All configuration values have been reset to\n"
 "its default settings."
 msgstr ""
+"Den versjonen av kab du brukte før hadde en\n"
+"feil angående oppgradering av databasen\n"
+"til nyere versjoner. Denne feilen er nå rettet\n"
+"opp og vil ikke påvirke deg mer.\n"
+"Alle konfigurasjonsverdier har blitt nullstillt\n"
+"til dets standard innstillinger."
 
 #: kab/widget.cc:243 kab/widget.cc:307 kab/widget.cc:315
 msgid "File handling error"
@@ -2006,25 +2015,23 @@ msgstr "Database lagret med hell."
 
 #: kab/widget.cc:860
 msgid "kab: File error"
-msgstr ""
+msgstr "kab: Filfeil"
 
 #: kab/widget.cc:860
 msgid "Could not save database."
 msgstr "Kunne ikke lagre database."
 
 #: kab/widget.cc:861
-#, fuzzy
 msgid "&Retry"
-msgstr "Gjenopprett"
+msgstr "&Prøv igjen"
 
 #: kab/widget.cc:861
 msgid "&Ignore"
-msgstr ""
+msgstr "&Ignorer"
 
 #: kab/widget.cc:864
-#, fuzzy
 msgid "Saving cancelled.\n"
-msgstr "Utskrift avbrutt."
+msgstr "Lagring avbrutt.\n"
 
 #: kab/widget.cc:930
 msgid "Entry changed."
@@ -2132,9 +2139,8 @@ msgid "KDE addressbook overview"
 msgstr "KDE-adressebokoversikt"
 
 #: kab/widget.cc:1782
-#, fuzzy
 msgid "Name-Email-Link (!!)"
-msgstr "Navngi-epostleneke (anbefalt)"
+msgstr "Navngi-epostleneke (!!)"
 
 #: kab/widget.cc:1784
 msgid "Select table columns"
@@ -2189,18 +2195,16 @@ msgid "Empty email address."
 msgstr "Tom epostadresse."
 
 #: kab/widget.cc:2050
-#, fuzzy
 msgid "No email address."
-msgstr "Ingen talk-adresse."
+msgstr "Ingen epost-adresse."
 
 #: kab/widget.cc:2060
-#, fuzzy
 msgid "Error calling mailer."
-msgstr "Feil: Ikke lokal fil"
+msgstr "Feil under kalling av poster."
 
 #: kab/widget.cc:2062
 msgid "Mailer called."
-msgstr ""
+msgstr "Poster kallet."
 
 #: kab/widget.cc:2085
 msgid "The mail command must be configured before!"
