@@ -1431,7 +1431,6 @@ msgid "&About..."
 msgstr "So&bre..."
 
 #: kab/addressbook.cc:90
-#, fuzzy
 msgid ""
 "The directory where user specific data for the\n"
 "addressbook application is stored does not exist.\n"
@@ -1441,6 +1440,7 @@ msgstr ""
 "O diretório onde estão gravados os dados específicos do usuário da\n"
 "aplicação Livro de Endereços, não existe.\n"
 "O programa tentará criar\n"
+"         " 
 
 #: kab/addressbook.cc:95
 msgid "and store all local files in this directory."
@@ -1470,7 +1470,7 @@ msgstr "Nenhum arquivo de dados da Lista de Endereços, criando um novo."
 
 #: kab/addressbook.cc:169
 msgid "Tried to load database for creating backup, but failed"
-msgstr ""
+msgstr "Falha no carregamento do banco de dados a fim de criar cópia de segurança"
 
 #: kab/addressbook.cc:208
 msgid "Unable to save to backup file."
