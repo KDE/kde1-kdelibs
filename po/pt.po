@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: libs pt\n"
-"POT-Creation-Date: 1998-04-17 23:25+0200\n"
+"POT-Creation-Date: 1998-05-18 13:01+0200\n"
 "PO-Revision-Date: 1998-01-26 20:00+0000\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
@@ -63,19 +63,19 @@ msgid "Add to Custom Colors"
 msgstr "Adicionar a Cores Personalizadas"
 
 #: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:337
-#: kdeui/kiconloaderdialog.cpp:210 kfile/kfiledialog.cpp:898 po/texts.cpp:37
+#: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:889 po/texts.cpp:37
 msgid "Ok"
 msgstr "Ok"
 
-#: kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:41 kdeui/keditcl1.cpp:397
+#: kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:46 kdeui/keditcl1.cpp:397
 #: kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897 kdeui/kfontdialog.cpp:332
-#: kdeui/kiconloaderdialog.cpp:211 kdeui/kmsgbox.cpp:505
-#: kfile/kfiledialog.cpp:286 kfile/kfiledialog.cpp:903
+#: kdeui/kiconloaderdialog.cpp:255 kdeui/kmsgbox.cpp:505
+#: kfile/kfiledialog.cpp:288 kfile/kfiledialog.cpp:894
 #: kfile/kfiledialogconf.cpp:58 po/texts.cpp:40
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34 kfile/kfiledialog.cpp:292
+#: kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34 kfile/kfiledialog.cpp:294
 #: po/texts.cpp:45
 msgid "Help"
 msgstr "Ajuda"
@@ -84,15 +84,20 @@ msgstr "Ajuda"
 msgid "Custom..."
 msgstr "Personalizar..."
 
-#: kdeui/kcontrol.cpp:39 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
+#: kdeui/kcontrol.cpp:39
+#, fuzzy
+msgid "Default"
+msgstr "Apagar"
+
+#: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
 #: kdeui/keditcl1.cpp:1473 kdeui/keditcl1.cpp:1630 kdeui/kmsgbox.cpp:473
-#: kfile/kfiledialog.cpp:280 kfile/kfiledialog.cpp:513
+#: kfile/kfiledialog.cpp:282 kfile/kfiledialog.cpp:516
 #: kfile/kfiledialogconf.cpp:60 po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
 
-#: kdeui/kcontrol.cpp:40 kfile/kfiledialogconf.cpp:59 po/texts.cpp:42
+#: kdeui/kcontrol.cpp:45 kfile/kfiledialogconf.cpp:59 po/texts.cpp:42
 msgid "Apply"
 msgstr "Aplicar"
 
@@ -336,43 +341,43 @@ msgstr "Negrito"
 msgid "Normal"
 msgstr "Normal"
 
-#: kdeui/kiconloaderdialog.cpp:193
+#: kdeui/kiconloaderdialog.cpp:237
 msgid "Select Icon"
 msgstr "Escolher Ícone"
 
-#: kdeui/kiconloaderdialog.cpp:198
+#: kdeui/kiconloaderdialog.cpp:242
 msgid "Filter:"
 msgstr "Filtro:"
 
-#: kdeui/kmenubar.cpp:154 kdeui/ktoolbar.cpp:435
+#: kdeui/kmenubar.cpp:157 kdeui/ktoolbar.cpp:444
 msgid "Top"
 msgstr "Topo"
 
-#: kdeui/kmenubar.cpp:155 kdeui/ktoolbar.cpp:437
+#: kdeui/kmenubar.cpp:158 kdeui/ktoolbar.cpp:446
 msgid "Bottom"
 msgstr "Fundo"
 
-#: kdeui/kmenubar.cpp:156 kdeui/ktoolbar.cpp:438
+#: kdeui/kmenubar.cpp:159 kdeui/ktoolbar.cpp:447
 msgid "Floating"
 msgstr "Flutuante"
 
-#: kdeui/kmenubar.cpp:197 kdeui/kmenubar.cpp:337 kdeui/ktoolbar.cpp:1459
+#: kdeui/kmenubar.cpp:273 kdeui/kmenubar.cpp:413 kdeui/ktoolbar.cpp:1576
 msgid "Float"
 msgstr "Flutuar"
 
-#: kdeui/kmenubar.cpp:326 kdeui/ktoolbar.cpp:1441
+#: kdeui/kmenubar.cpp:402 kdeui/ktoolbar.cpp:1558
 msgid "UnFloat"
 msgstr "DesFlutuar"
 
-#: kdeui/ktoolbar.cpp:153 kdeui/ktoolbar.cpp:277
+#: kdeui/ktoolbar.cpp:161 kdeui/ktoolbar.cpp:280
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: imagem vazia, talvez falte um ficheiro"
 
-#: kdeui/ktoolbar.cpp:434
+#: kdeui/ktoolbar.cpp:443
 msgid "Left"
 msgstr "Esquerda"
 
-#: kdeui/ktoolbar.cpp:436
+#: kdeui/ktoolbar.cpp:445
 msgid "Right"
 msgstr "Direita"
 
@@ -408,63 +413,63 @@ msgstr "Dono"
 msgid "Group"
 msgstr "Grupo"
 
-#: kfile/kfiledialog.cpp:144 po/texts.cpp:56
+#: kfile/kfiledialog.cpp:146 po/texts.cpp:56
 msgid "Back"
 msgstr "Voltar"
 
-#: kfile/kfiledialog.cpp:147 po/texts.cpp:57
+#: kfile/kfiledialog.cpp:149 po/texts.cpp:57
 msgid "Forward"
 msgstr "Para a frente"
 
-#: kfile/kfiledialog.cpp:150
+#: kfile/kfiledialog.cpp:152
 msgid "Up to parent"
 msgstr "Subir para o pai"
 
-#: kfile/kfiledialog.cpp:153
+#: kfile/kfiledialog.cpp:155
 msgid "Home"
 msgstr "Casa"
 
-#: kfile/kfiledialog.cpp:156 po/texts.cpp:55
+#: kfile/kfiledialog.cpp:158 po/texts.cpp:55
 msgid "Reload"
 msgstr "Recarregar"
 
-#: kfile/kfiledialog.cpp:172
+#: kfile/kfiledialog.cpp:174
 msgid "Bookmarks"
 msgstr "Favoritos"
 
-#: kfile/kfiledialog.cpp:176
+#: kfile/kfiledialog.cpp:178
 msgid "Create new folder"
 msgstr "Criar nova pastar"
 
-#: kfile/kfiledialog.cpp:179
+#: kfile/kfiledialog.cpp:181
 msgid "Search for a file"
 msgstr "Procurar ficheiro"
 
-#: kfile/kfiledialog.cpp:182
+#: kfile/kfiledialog.cpp:184
 msgid "Configure this dialog [development only]"
 msgstr "Configurar este diálogo [desenvolvimento apenas]"
 
-#: kfile/kfiledialog.cpp:190
+#: kfile/kfiledialog.cpp:192
 msgid "The path"
 msgstr "O caminho"
 
-#: kfile/kfiledialog.cpp:215
+#: kfile/kfiledialog.cpp:217
 msgid "&Location:"
 msgstr "&Localização:"
 
-#: kfile/kfiledialog.cpp:227
+#: kfile/kfiledialog.cpp:229
 msgid "&Filter:"
 msgstr "&Filtro:"
 
-#: kfile/kfiledialog.cpp:260
+#: kfile/kfiledialog.cpp:262
 msgid "Show hidden"
 msgstr "Mostrar escondidos"
 
-#: kfile/kfiledialog.cpp:508
+#: kfile/kfiledialog.cpp:511
 msgid "Error: Not local file"
 msgstr "Erro: Não é um ficheiro local"
 
-#: kfile/kfiledialog.cpp:509
+#: kfile/kfiledialog.cpp:512
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
@@ -472,11 +477,11 @@ msgstr ""
 "A directoria especifica não é local\n"
 "mas a aplicação só aceita ficheiro locais."
 
-#: kfile/kfiledialog.cpp:523 kfile/kfiledialog.cpp:623
+#: kfile/kfiledialog.cpp:526 kfile/kfiledialog.cpp:628
 msgid "Error: Cannot Open Directory"
 msgstr "Erro: Não Consigo Abrir Directoria"
 
-#: kfile/kfiledialog.cpp:524
+#: kfile/kfiledialog.cpp:527
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
@@ -484,69 +489,69 @@ msgstr ""
 "O ficheiro especificado não existe\n"
 "ou não está acessível para leitura."
 
-#: kfile/kfiledialog.cpp:526 kfile/kfiledialog.cpp:626
+#: kfile/kfiledialog.cpp:529 kfile/kfiledialog.cpp:631
 msgid "Dismiss"
 msgstr "Fechar"
 
-#: kfile/kfiledialog.cpp:562 kfile/kfiledialog.cpp:1156
-#: kfile/kfiledialog.cpp:1315 kfile/kfiledialog.cpp:1349 po/texts.cpp:69
+#: kfile/kfiledialog.cpp:566 kfile/kfiledialog.cpp:1146
+#: kfile/kfiledialog.cpp:1305 kfile/kfiledialog.cpp:1339 po/texts.cpp:69
 msgid "Open"
 msgstr "Abrir"
 
-#: kfile/kfiledialog.cpp:577 kfile/kfiledialog.cpp:1330 po/texts.cpp:80
+#: kfile/kfiledialog.cpp:581 kfile/kfiledialog.cpp:1320 po/texts.cpp:80
 msgid "Save As"
 msgstr "Gravar Como"
 
-#: kfile/kfiledialog.cpp:599
+#: kfile/kfiledialog.cpp:604
 msgid "Root Directory"
 msgstr "Directoria Raiz"
 
-#: kfile/kfiledialog.cpp:624
+#: kfile/kfiledialog.cpp:629
 msgid "The specified directory does not exist or was not readable."
 msgstr "O ficheiro especificado não existe ou não está acessível para leitura."
 
-#: kfile/kfiledialog.cpp:883
+#: kfile/kfiledialog.cpp:874
 msgid "Create new directory in: "
 msgstr "Criar novo directoria em: "
 
-#: kfile/kfiledialog.cpp:886
+#: kfile/kfiledialog.cpp:877
 msgid "New Directory"
 msgstr "Novo Directoria"
 
-#: kfile/kfiledialog.cpp:958
+#: kfile/kfiledialog.cpp:949
 msgid "Add to bookmarks"
 msgstr "Adicionar aos favoritos"
 
-#: kfile/kfiledialog.cpp:1190
+#: kfile/kfiledialog.cpp:1180
 msgid "Choose Directory"
 msgstr "Escolha Directoria"
 
-#: kfile/kfiledialog.cpp:1211 kfile/kfiledialog.cpp:1370 po/texts.cpp:78
+#: kfile/kfiledialog.cpp:1201 kfile/kfiledialog.cpp:1360 po/texts.cpp:78
 msgid "Save"
 msgstr "Gravar"
 
-#: kfile/kfiledialog.cpp:1258
+#: kfile/kfiledialog.cpp:1248
 msgid "directory"
 msgstr "directoria"
 
-#: kfile/kfiledialog.cpp:1260
+#: kfile/kfiledialog.cpp:1250
 msgid "directories"
 msgstr "directorias"
 
-#: kfile/kfiledialog.cpp:1262 kfile/kpreview.cpp:326
+#: kfile/kfiledialog.cpp:1252 kfile/kpreview.cpp:326
 msgid "file"
 msgstr "ficheiro"
 
-#: kfile/kfiledialog.cpp:1264
+#: kfile/kfiledialog.cpp:1254
 msgid "files"
 msgstr "ficheiros"
 
-#: kfile/kfiledialog.cpp:1266
+#: kfile/kfiledialog.cpp:1256
 #, c-format
 msgid "%d %s and %d %s"
 msgstr "%d %s e %d %s"
 
-#: kfile/kfiledialog.cpp:1276
+#: kfile/kfiledialog.cpp:1266
 msgid "one directory"
 msgstr "uma directoria"
 
@@ -630,51 +635,51 @@ msgstr "Mostrar dirs primeiro"
 msgid "unknown"
 msgstr "desconhecido"
 
-#: kfile/kfileinfo.cpp:217
+#: kfile/kfileinfo.cpp:218
 msgid "Jan"
 msgstr "Jan"
 
-#: kfile/kfileinfo.cpp:218
+#: kfile/kfileinfo.cpp:219
 msgid "Feb"
 msgstr "Fev"
 
-#: kfile/kfileinfo.cpp:219
+#: kfile/kfileinfo.cpp:220
 msgid "Mar"
 msgstr "Mar"
 
-#: kfile/kfileinfo.cpp:220
+#: kfile/kfileinfo.cpp:221
 msgid "Apr"
 msgstr "Abr"
 
-#: kfile/kfileinfo.cpp:221
+#: kfile/kfileinfo.cpp:222
 msgid "May"
 msgstr "Mai"
 
-#: kfile/kfileinfo.cpp:222
+#: kfile/kfileinfo.cpp:223
 msgid "Jun"
 msgstr "Jun"
 
-#: kfile/kfileinfo.cpp:223
+#: kfile/kfileinfo.cpp:224
 msgid "Jul"
 msgstr "Jul"
 
-#: kfile/kfileinfo.cpp:224
+#: kfile/kfileinfo.cpp:225
 msgid "Aug"
 msgstr "Ago"
 
-#: kfile/kfileinfo.cpp:225
+#: kfile/kfileinfo.cpp:226
 msgid "Sep"
 msgstr "Set"
 
-#: kfile/kfileinfo.cpp:226
+#: kfile/kfileinfo.cpp:227
 msgid "Oct"
 msgstr "Out"
 
-#: kfile/kfileinfo.cpp:227
+#: kfile/kfileinfo.cpp:228
 msgid "Nov"
 msgstr "Nov"
 
-#: kfile/kfileinfo.cpp:228
+#: kfile/kfileinfo.cpp:229
 msgid "Dec"
 msgstr "Dez"
 
