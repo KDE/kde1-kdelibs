@@ -115,7 +115,7 @@ msgstr "Estilo"
 
 #: kfontdialog.cpp:190
 msgid "Size"
-msgstr ""
+msgstr "Tamaño"
 
 #: kfontdialog.cpp:229
 msgid "Weight"
