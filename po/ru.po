@@ -1671,7 +1671,7 @@ msgstr "Фамилия"
 
 #: kab/addressbook.cc:1060
 msgid "Name prefix"
-msgstr ""
+msgstr "Обращение"
 
 #: kab/addressbook.cc:1064
 msgid "Formatted name"
@@ -1708,7 +1708,7 @@ msgstr "День рождения"
 
 #: kab/addressbook.cc:1096
 msgid "Talk addresses"
-msgstr "Адреса"
+msgstr "Адреса Talk"
 
 #: kab/addressbook.cc:1100
 msgid "Delivery label"
@@ -1865,7 +1865,7 @@ msgstr "Редактировать E-mail адреса"
 
 #: kab/editentry.cc:206 kab/editentry.cc:398
 msgid "Edit talk addresses"
-msgstr "Редактировать адреса"
+msgstr "Редактировать адреса Talk"
 
 #: kab/editentry.cc:218
 msgid "&Contact"
@@ -1955,10 +1955,13 @@ msgid ""
 "the new style supporting unlimited numbers\n"
 "of email addresses per entry."
 msgstr ""
+"Kab преобразует все ваши E-mail адреса к\n"
+"новому типу, поддерживающему неограниченное\n"
+"число E-mail адресов на элемент."
 
 #: kab/widget.cc:286
 msgid "kab database update"
-msgstr ""
+msgstr "обновление базы данных kab"
 
 #: kab/widget.cc:287
 msgid ""
@@ -1971,6 +1974,13 @@ msgid ""
 "You will probably need to edit some of your\n"
 "entries to make use of it."
 msgstr ""
+"Имейте ввиду, что сейчас kab поддерживает несколько новых\n"
+"полей в базе данных. Эти новые поля:\n"
+"╟ Штат,\n"
+"╟ Страна и\n"
+"╟ Почтовый код.\n"
+"Возможно вам необходимо отредактировать некоторые\n"
+"элементы, добавив эти значения."
 
 #: kab/widget.cc:308
 msgid "Could not save database after update."
@@ -1978,7 +1988,7 @@ msgstr "Не могу записать базу данных после обновления."
 
 #: kab/widget.cc:316
 msgid "Unable to reopen database file r/o."
-msgstr ""
+msgstr "Ошибка открытия файла базы данных для чтения."
 
 #
 #: kab/widget.cc:477
@@ -1996,35 +2006,35 @@ msgstr "следующий элемент"
 
 #: kab/widget.cc:480
 msgid "last entry"
-msgstr ""
+msgstr "последний элемент"
 
 #: kab/widget.cc:481
 msgid "search entries"
-msgstr ""
+msgstr "искать элементы"
 
 #: kab/widget.cc:482
 msgid "add a new entry"
-msgstr ""
+msgstr "добавить новый элемент"
 
 #: kab/widget.cc:483
 msgid "change this entry"
-msgstr ""
+msgstr "изменить элемент"
 
 #: kab/widget.cc:484
 msgid "remove this entry"
-msgstr ""
+msgstr "удалить элемент"
 
 #: kab/widget.cc:523
 msgid "Switched to first entry."
-msgstr ""
+msgstr "На первом элементе"
 
 #: kab/widget.cc:555
 msgid "Switched to last entry."
-msgstr ""
+msgstr "На последнем элементе"
 
 #: kab/widget.cc:616 kab/widget.cc:670 kab/widget.cc:845 kab/widget.cc:907
 msgid "Sorry, file changed."
-msgstr ""
+msgstr "Извините, файл изменен."
 
 #
 #: kab/widget.cc:620 kab/widget.cc:674 kab/widget.cc:911
@@ -2037,32 +2047,32 @@ msgstr "Удалить элемент?"
 
 #: kab/widget.cc:632
 msgid "Really remove this entry?"
-msgstr ""
+msgstr "Действительно удалить элемент?"
 
 #: kab/widget.cc:650
 msgid "Entry deleted."
-msgstr ""
+msgstr "Элемент удален."
 
 #: kab/widget.cc:684
 msgid "Added a new entry."
-msgstr ""
+msgstr "Элемент добавлен."
 
 #: kab/widget.cc:806
 msgid "Opened browser window."
-msgstr ""
+msgstr "Окно просмотрщика открыто."
 
 #: kab/widget.cc:809
 msgid "No URL."
-msgstr ""
+msgstr "URL отсутствует."
 
 #: kab/widget.cc:813 kab/widget.cc:1153 kab/widget.cc:1766 kab/widget.cc:1944
 #: kab/widget.cc:2023
 msgid "No entries."
-msgstr ""
+msgstr "Элементов нет."
 
 #: kab/widget.cc:818
 msgid "The filemanager is busy, please try again."
-msgstr ""
+msgstr "Файлменеджер занят, попробуйте позже."
 
 #: kab/widget.cc:838
 msgid ""
@@ -2070,14 +2080,17 @@ msgid ""
 "locked by another application.\n"
 "kab cannot save it."
 msgstr ""
+"Файл адресной книги в данный момент\n"
+"используется другим приложением.\n"
+"kab не может его записать."
 
 #: kab/widget.cc:855
 msgid "Database saved successfully."
-msgstr ""
+msgstr "База данных записана."
 
 #: kab/widget.cc:860
 msgid "kab: File error"
-msgstr ""
+msgstr "kab: Файловая ошибка"
 
 #: kab/widget.cc:860
 msgid "Could not save database."
@@ -2089,7 +2102,7 @@ msgstr "Повторить"
 
 #: kab/widget.cc:861
 msgid "&Ignore"
-msgstr ""
+msgstr "Игнорировать"
 
 #: kab/widget.cc:864
 msgid "Saving cancelled.\n"
@@ -2097,43 +2110,43 @@ msgstr "Запись отменена.\n"
 
 #: kab/widget.cc:930
 msgid "Entry changed."
-msgstr ""
+msgstr "Элемент изменен."
 
 #: kab/widget.cc:1020
 msgid "Results"
-msgstr ""
+msgstr "Результаты"
 
 #: kab/widget.cc:1020
 msgid "No entry matches this."
-msgstr ""
+msgstr "Ничего не найдено."
 
 #: kab/widget.cc:1043
 msgid "Search results window closed."
-msgstr ""
+msgstr "Окно результатов поиска закрыто."
 
 #: kab/widget.cc:1142
 msgid "The talk command must be configured before!"
-msgstr ""
+msgstr "Команда talk должна быть настроена!"
 
 #: kab/widget.cc:1147
 msgid "Talk configuration"
-msgstr ""
+msgstr "Настроить Talk"
 
 #: kab/widget.cc:1148
 msgid "Please configure the parameters for the talk command."
-msgstr ""
+msgstr "Настройте команду talk."
 
 #: kab/widget.cc:1161
 msgid "No talk address."
-msgstr ""
+msgstr "Нет адреса для команды talk."
 
 #: kab/widget.cc:1169
 msgid "kab: Talk addresses"
-msgstr ""
+msgstr "kab: адреса Talk"
 
 #: kab/widget.cc:1170
 msgid "Available talk addresses:"
-msgstr ""
+msgstr "Известные адреса для программы talk:"
 
 #: kab/widget.cc:1176 kab/widget.cc:1904
 msgid "Cancelled."
@@ -2141,64 +2154,68 @@ msgstr "Отменена."
 
 #: kab/widget.cc:1199
 msgid "The talk command parameters are wrong."
-msgstr ""
+msgstr "Параметры команды talk неверны."
 
 #: kab/widget.cc:1211
 msgid ""
 "Talk command failed.\n"
 "Make sure you did setup your talk command and parameter!"
 msgstr ""
+"Ошибка запуска команды talk.\n"
+"Проверьте, что вы корректно установили параметры!"
 
 #: kab/widget.cc:1214
 msgid "Talk program started."
-msgstr ""
+msgstr "Программа talk запущена."
 
 #: kab/widget.cc:1262
 msgid "Attention: printing is still experimental!"
-msgstr ""
+msgstr "Предупреждение: печать все еще в процессе разработки!"
 
 #: kab/widget.cc:1358 kab/widget.cc:1400
 msgid "Page size problem"
-msgstr ""
+msgstr "Проблемы с размером страницы"
 
 #: kab/widget.cc:1359 kab/widget.cc:1401
 msgid ""
 "The fields you requested to print do\n"
 "not fit into the page width."
 msgstr ""
+"Поля, запрошенные для печати\n"
+"Не входят в ширину страницу."
 
 #: kab/widget.cc:1578 kab/widget.cc:2002
 msgid "Printing finished successfully."
-msgstr ""
+msgstr "Печать завершена."
 
 #: kab/widget.cc:1604
 msgid "kab: Email addresses"
-msgstr ""
+msgstr "kab: адреса E-mail"
 
 #: kab/widget.cc:1605
 msgid "Available email addresses:"
-msgstr ""
+msgstr "Известные адреса E-mail:"
 
 #: kab/widget.cc:1670
 msgid "kab: Select fields to copy"
-msgstr ""
+msgstr "kab: Выберите поля для копирования"
 
 #: kab/widget.cc:1673 kab/widget.cc:1808 kab/widget.cc:1971 kab/widget.cc:1993
 #: kab/widget.cc:2048
 msgid "Rejected."
-msgstr ""
+msgstr "Отказано."
 
 #: kab/widget.cc:1680
 msgid "Nothing selected."
-msgstr ""
+msgstr "Ничего не выбрано."
 
 #: kab/widget.cc:1738 kab/widget.cc:1987
 msgid "KDE addressbook overview"
-msgstr ""
+msgstr "Обзор адресной книги KDE"
 
 #: kab/widget.cc:1782
 msgid "Name-Email-Link (!!)"
-msgstr ""
+msgstr "Имя-Email-Связь (!!)"
 
 #: kab/widget.cc:1784
 msgid "Select table columns"
@@ -2206,112 +2223,116 @@ msgstr "Выберите колонку таблицы"
 
 #: kab/widget.cc:1789
 msgid "Nothing to export."
-msgstr ""
+msgstr "Нечего экспортировать."
 
 #: kab/widget.cc:1818
 msgid "Email link"
-msgstr ""
+msgstr "Звязь E-mail"
 
 #: kab/widget.cc:1893
 msgid "Could not find the users home directory."
-msgstr ""
+msgstr "Не могу найти домашний подкаталог пользователей."
 
 #: kab/widget.cc:1894
 msgid "Intern error!"
-msgstr ""
+msgstr "Внутренняя ошибка!"
 
 #: kab/widget.cc:1914
 msgid "Could not open the file to create the HTML table."
-msgstr ""
+msgstr "Ошибка открытия файла для создания HTML таблицы."
 
 #: kab/widget.cc:1949
 msgid "Printing cancelled."
-msgstr ""
+msgstr "Печать отменена."
 
 #: kab/widget.cc:1964
 msgid "kab: Select columns for printing"
-msgstr ""
+msgstr "kab: Выберите колонки для печати."
 
 #: kab/widget.cc:1977
 msgid "Nothing to print."
-msgstr ""
+msgstr "Нечего печетать."
 
 #: kab/widget.cc:1988
 msgid "Page <p>"
-msgstr ""
+msgstr "Страница <p>"
 
 #: kab/widget.cc:1989
 msgid "KDE - the professionals choice."
-msgstr ""
+msgstr "KDE - выбор профессионалов."
 
 #: kab/widget.cc:2000
 msgid "Printing failed!"
-msgstr ""
+msgstr "Ошибка печати!"
 
 #: kab/widget.cc:2031
 msgid "Empty email address."
-msgstr ""
+msgstr "Пустой адрес E-mail."
 
 #: kab/widget.cc:2050
 msgid "No email address."
-msgstr ""
+msgstr "Нет адреса E-mail."
 
 #
 #: kab/widget.cc:2060
 msgid "Error calling mailer."
-msgstr "Ошибка вызова постовой программы."
+msgstr "Ошибка вызова почтовой программы."
 
 #: kab/widget.cc:2062
 msgid "Mailer called."
-msgstr ""
+msgstr "Почтовая программа вызвана."
 
 #: kab/widget.cc:2085
 msgid "The mail command must be configured before!"
-msgstr ""
+msgstr "Необходимо настроить почтовую программу!"
 
 #: kab/widget.cc:2090
 msgid "Mail configuration"
-msgstr ""
+msgstr "Настройка почтовой программы"
 
 #: kab/widget.cc:2091
 msgid "Please configure the parameters for the email command."
-msgstr ""
+msgstr "Настройте параметры почтовой программы."
 
 #: kab/widget.cc:2129
 msgid "The email command parameters are wrong."
-msgstr ""
+msgstr "Параметры почтовой программы неверны."
 
 #: kab/widget.cc:2141
 msgid ""
 "Email command failed.\n"
 "Make sure you did setup your email command and parameter!"
 msgstr ""
+"Ошибка запуска почтовой программы.\n"
+"Убедитесь в правильности настроек почтовой программы!"
 
 #: kab/widget.cc:2145
 msgid "Mail program started."
-msgstr ""
+msgstr "Почтовая программа запущена."
 
 #: kio/kio_cache.cc:345
 msgid "KIO Cache"
-msgstr ""
+msgstr "Кэш KIO"
 
 #: kio/kio_cache.cc:347
 msgid "Contents of the cache"
-msgstr ""
+msgstr "Содержимое кэша"
 
 #: kio/kio_cache.cc:352
 msgid ""
 "Use the icons for drag and drop actions, since they refer to the cache files "
 "on your hard disk, while you should use the textual links for browsing"
 msgstr ""
+"Используйте пиктограммы для действий Тащить и Кидать, так как они относятся к "
+"кэш файлам на вашем жестком диске. Вы должны использовать текстовые ссылки для просмотра"
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"
-msgstr ""
+msgstr "Дата создания"
 
 #: kio/kio_cache.cc:357
 msgid "Expiration Date"
-msgstr ""
+msgstr "Дата удаления"
 
 #: kio/kio_cache.cc:422
 msgid "Unknown"
@@ -2327,13 +2348,15 @@ msgid ""
 "Could not read\n"
 "%s"
 msgstr ""
+"Ошибка чтения\n"
+"%s"
 
 #: kio/kio_error.cc:19
 #, c-format
 msgid ""
 "Could not write to\n"
 "%s"
-msgstr "Не могу писать в\n"
+msgstr "Ошибка записи в\n"
 "%s"
 
 #: kio/kio_error.cc:22
@@ -2352,6 +2375,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Внутренняя ошибка\n"
+"Пожайлуста отошлите полный отчет в kde-bugs@kde.org\n"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:28
 #, c-format
@@ -2367,6 +2394,8 @@ msgid ""
 "The protocol %s\n"
 " is not supported"
 msgstr ""
+"Протокол %s\n"
+"не поддерживается"
 
 #: kio/kio_error.cc:34
 #, c-format
@@ -2374,6 +2403,8 @@ msgid ""
 "The protocol %s\n"
 "is only a filter protocol.\n"
 msgstr ""
+"Протокол %s\n"
+"только фильтер-протокол.\n"
 
 #: kio/kio_error.cc:37
 #, c-format
@@ -2381,6 +2412,8 @@ msgid ""
 "Unsupported action\n"
 "%s"
 msgstr ""
+"Неподдерживаемое действие\n"
+"%s"
 
 #: kio/kio_error.cc:40
 #, c-format
@@ -2400,6 +2433,9 @@ msgid ""
 " is a directory,\n"
 "but a file was expected"
 msgstr ""
+"%s\n"
+"каталог,\n"
+"а ожидался файл"
 
 #
 #: kio/kio_error.cc:46
@@ -2418,6 +2454,9 @@ msgid ""
 "%s\n"
 "does already exist"
 msgstr ""
+"Файл или каталог\n"
+"%s\n"
+"уже существует"
 
 #: kio/kio_error.cc:52
 #, c-format
@@ -2425,6 +2464,8 @@ msgid ""
 "%s\n"
 "Access denied"
 msgstr ""
+"%s\n"
+"Доступ запрещен"
 
 #: kio/kio_error.cc:55
 #, c-format
@@ -2441,6 +2482,8 @@ msgid ""
 "The protocol %s\n"
 "does not implement a directory service"
 msgstr ""
+"Протокол %s\n"
+"не реализует каталог"
 
 #: kio/kio_error.cc:61
 #, c-format
@@ -2448,6 +2491,8 @@ msgid ""
 "Found a cyclic link in\n"
 "%s"
 msgstr ""
+"Найдена циклическая ссылка в\n"
+"%s"
 
 #: kio/kio_error.cc:64
 #, c-format
@@ -2465,12 +2510,17 @@ msgid ""
 "Could not write to\n"
 "%s"
 msgstr ""
+"Доступ запрещен\n"
+"Ошибка записи в\n"
+"%s"
 
 #: kio/kio_error.cc:70
 msgid ""
 "Action has been\n"
 "canceled by the user"
 msgstr ""
+"Действие отменено\n"
+"пользователем"
 
 #: kio/kio_error.cc:73
 #, c-format
@@ -2478,6 +2528,8 @@ msgid ""
 "Found a cyclic link while copying\n"
 "%s"
 msgstr ""
+"Во время копирования обнаружена циклическая ссылка\n"
+"%s"
 
 #: kio/kio_error.cc:76
 #, c-format
@@ -2485,6 +2537,8 @@ msgid ""
 "Could not create socket for accessing\n"
 "%s"
 msgstr ""
+"Ошибка создания сокета для доступа к\n"
+"%s"
 
 #: kio/kio_error.cc:79
 #, c-format
@@ -2501,6 +2555,8 @@ msgid ""
 "Unknown host\n"
 "%s"
 msgstr ""
+"Неизвестный сервер\n"
+"%s"
 
 #: kio/kio_error.cc:85
 #, c-format
@@ -2509,6 +2565,9 @@ msgid ""
 "%s\n"
 "is broken"
 msgstr ""
+"Связь с сервером\n"
+"%s\n"
+"прервана"
 
 #: kio/kio_error.cc:88
 #, c-format
@@ -2516,6 +2575,8 @@ msgid ""
 "The protocol %s\n"
 "is not a filter protocol"
 msgstr ""
+"Протокол %s -\n"
+"не протокол-фильтр"
 
 #: kio/kio_error.cc:91
 #, c-format
@@ -2524,6 +2585,9 @@ msgid ""
 "is a file,\n"
 "but a directory was expected"
 msgstr ""
+"%s\n"
+"это файл,\n"
+"ожидался каталог"
 
 #: kio/kio_error.cc:94
 #, c-format
@@ -2533,6 +2597,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Ошибка подключения устройства.\n"
+"Ошибка:\n"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:97
 #, c-format
@@ -2542,6 +2610,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Ошибка отключения устройства.\n"
+"Ошибка:\n"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:100
 #, c-format
@@ -2550,6 +2622,9 @@ msgid ""
 "%s protocol\n"
 "died unexpectedly"
 msgstr ""
+"Процесс протокола\n"
+"%s"
+"неожиданно умер"
 
 #: kio/kio_error.cc:111 kio/kio_linedit_dlg.cc:42 kio/kio_openwith.cc:260
 #: kio/kio_pass_dlg.cc:75 kio/kio_paste.cc:35 kio/kio_paste.cc:47
@@ -2565,16 +2640,16 @@ msgstr "Ок"
 #: kio/kio_job.cc:137
 #, c-format
 msgid "Mounting %s ..."
-msgstr ""
+msgstr "Подключаю %s ..."
 
 #: kio/kio_job.cc:157
 #, c-format
 msgid "Unmounting %s ..."
-msgstr ""
+msgstr "Отключаю %s ..."
 
 #: kio/kio_openwith.cc:133
 msgid "This group is empty!"
-msgstr ""
+msgstr "Эта группа пуста!"
 
 #: kio/kio_openwith.cc:264
 msgid "&Browser"
@@ -2596,14 +2671,15 @@ msgstr "Буфер обмена пуст"
 msgid ""
 "Pasting clipboard data is only supported on the local hard disk currently"
 msgstr ""
+"Копирование данных из буфера обмена поддерживается только на локальном диске"
 
 #: kio/kio_paste.cc:67
 msgid "Filename for clipboard content:"
-msgstr ""
+msgstr "Имя файла для содержимого буфера обмена:"
 
 #: kio/kio_paste.cc:74
 msgid "You did not enter a filename"
-msgstr ""
+msgstr "Вы не ввели имя файла"
 
 #: kio/kio_paste.cc:84
 #, c-format
@@ -2612,15 +2688,15 @@ msgstr "Документ с данным именем существует. Переписать?"
 
 #: kio/kio_progress_dlg.cc:92 kio/kio_progress_dlg.cc:108
 msgid " Bytes"
-msgstr ""
+msgstr " Байт"
 
 #: kio/kio_progress_dlg.cc:97 kio/kio_progress_dlg.cc:113
 msgid " Kb"
-msgstr ""
+msgstr " Кб"
 
 #: kio/kio_progress_dlg.cc:102 kio/kio_progress_dlg.cc:118
 msgid " Mb"
-msgstr ""
+msgstr " Мб"
 
 #: kio/kio_progress_dlg.cc:151 kio/kio_progress_dlg.cc:177
 msgid "Stalled"
@@ -2628,35 +2704,35 @@ msgstr "Замерло"
 
 #: kio/kio_progress_dlg.cc:159
 msgid " Bytes/s"
-msgstr ""
+msgstr " Байт/с"
 
 #: kio/kio_progress_dlg.cc:164
 msgid " Kb/s"
-msgstr ""
+msgstr " Кб/c"
 
 #: kio/kio_progress_dlg.cc:169
 msgid " Mb/s"
-msgstr ""
+msgstr " Мб/с"
 
 #: kio/kio_progress_dlg.cc:184
 #, c-format
 msgid "%i seconds"
-msgstr ""
+msgstr "%i секунд"
 
 #: kio/kio_progress_dlg.cc:190
 #, c-format
 msgid "%i:%i"
-msgstr ""
+msgstr "%i:%i"
 
 #: kio/kio_progress_dlg.cc:197
 #, c-format
 msgid "%i:%i:%i"
-msgstr ""
+msgstr "%i:%i:%i"
 
 #: kio/kio_progress_dlg.cc:201
 #, c-format
 msgid "%i%s  Remaining time: %s"
-msgstr ""
+msgstr "%i%s Осталось времени: %s"
 
 #: kio/kio_progress_dlg.cc:207
 msgid "Scanning "
@@ -2669,7 +2745,7 @@ msgstr "Создаю каталог "
 
 #: kio/kio_progress_dlg.cc:229
 msgid "Fetching file"
-msgstr ""
+msgstr "Выкачиваю файл"
 
 #: kio/kio_rename_dlg.cc:27
 msgid "Rename"
@@ -2677,39 +2753,39 @@ msgstr "Удалить"
 
 #: kio/kio_rename_dlg.cc:32 kio/kio_skip_dlg.cc:23
 msgid "Skip"
-msgstr ""
+msgstr "Пропустить"
 
 #: kio/kio_rename_dlg.cc:35 kio/kio_skip_dlg.cc:28
 msgid "Auto Skip"
-msgstr ""
+msgstr "Пропускать автоматически"
 
 #: kio/kio_rename_dlg.cc:41
 msgid "Overwrite"
-msgstr ""
+msgstr "Переписать"
 
 #: kio/kio_rename_dlg.cc:46
 msgid "Overwrite All"
-msgstr ""
+msgstr "Переписать все"
 
 #: kio/kio_rename_dlg.cc:57
 msgid "You try to overwrite"
-msgstr ""
+msgstr "Вы пытаетесь переписать"
 
 #: kio/kio_rename_dlg.cc:78
 msgid "already exists. Overwrite with"
-msgstr ""
+msgstr "уже существует. Переписать"
 
 #: kio/kio_rename_dlg.cc:90
 msgid "Or rename to"
-msgstr ""
+msgstr "Или переименовать в"
 
 #: kio/kio_rename_dlg.cc:101
 msgid "already exists."
-msgstr ""
+msgstr "уже существует."
 
 #: kio/kio_rename_dlg.cc:106
 msgid "Do you want to rename it ?"
-msgstr ""
+msgstr "Хотите переименовать ?"
 
 #: kio/kio_rename_dlg.cc:185
 msgid "Malformed URL\n"
@@ -2717,27 +2793,27 @@ msgstr "Неверный URL\n"
 
 #: kio/kio_rename_dlg.cc:194
 msgid "You must not change the protocol"
-msgstr ""
+msgstr "Вы не должны изменять протокол"
 
 #: kio/kio_skip_dlg.cc:35
 msgid "Can not overwrite"
-msgstr ""
+msgstr "Ошибка перезаписи"
 
 #: kio/kmimetypes.cc:61
 msgid "No mime types installed!"
-msgstr ""
+msgstr "MIME типы не установлены!"
 
 #: kio/kmimetypes.cc:85
 msgid "Could not find mime type\n"
-msgstr ""
+msgstr "Не могу найти MIME типы\n"
 
 #: kio/kmimetypes.cc:131
 msgid "The mime type config file "
-msgstr ""
+msgstr "Конфигурационный файл MIME типа "
 
 #: kio/kmimetypes.cc:133 kio/kregfactories.cc:74
 msgid "does not conatain a MimeType=... entry"
-msgstr ""
+msgstr "не содержит MimeType=..."
 
 #: kio/kmimetypes.cc:486
 #, c-format
@@ -2746,6 +2822,9 @@ msgid ""
 "%s\n"
 "has no Type=... entry"
 msgstr ""
+"Файл kdelnk\n"
+"%s\n"
+"не содержит Type=..."
 
 #: kio/kmimetypes.cc:504
 #, c-format
@@ -2754,6 +2833,9 @@ msgid ""
 "%s\n"
 "is unknown"
 msgstr ""
+"Тип kdelnk\n"
+"%s\n"
+"не известен Type=..."
 
 #: kio/kmimetypes.cc:518 kio/kmimetypes.cc:598 kio/kmimetypes.cc:690
 #, c-format
@@ -2762,6 +2844,9 @@ msgid ""
 "%s\n"
 "is of type FSDevice but has no Dev=... entry"
 msgstr ""
+"Файл kdelnk\n"
+"%s\n"
+"Типа FSDevice, но не содержит Dev=..."
 
 #: kio/kmimetypes.cc:565
 #, c-format
@@ -2770,11 +2855,14 @@ msgid ""
 "%s\n"
 "is of type Link but has no URL=... entry"
 msgstr ""
+"Файл kdelnk\n"
+"%s\n"
+"Типа Link, но не содержит URL=..."
 
 #
 #: kio/kmimetypes.cc:608
 msgid "Mount"
-msgstr "Подллючить"
+msgstr "Подключить"
 
 #: kio/kmimetypes.cc:615
 msgid "Unmount"
@@ -2788,10 +2876,14 @@ msgid ""
 " has an invalid menu entry\n"
 "%s"
 msgstr ""
+"Файл kdelnk\n"
+"%s\n"
+"Содержит неверный элемент меню\n"
+"%s"
 
 #: kio/kregfactories.cc:72
 msgid "The mime type _cfg file "
-msgstr ""
+msgstr "_cfg файл MIME типа "
 
 #: kio/krun.cc:39
 #, c-format
@@ -2800,14 +2892,18 @@ msgid ""
 "%s\n"
 "Access denied"
 msgstr ""
+"Ошибка входа в\n"
+"%s\n"
+"Доступ запрещен"
 
 #: kio/kservices.cc:111
 msgid "The application config file\n"
-msgstr ""
+msgstr "Файл настроек приложения\n"
 
 #: kio/kservices.cc:113
 msgid ""
 "\n"
 "does not conatain a Name=... entry"
 msgstr ""
-
+"\n"
+"не содержит Name=..."
