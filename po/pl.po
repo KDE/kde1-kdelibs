@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs \n"
 "POT-Creation-Date: 1999-04-18 01:01+0200\n"
-"PO-Revision-Date: 1999-01-27 23:31+0200\n"
+"PO-Revision-Date: 1999-04-18 15:37+0200\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
@@ -2707,15 +2707,12 @@ msgstr "Program poczty uruchomiony."
 #~ msgid "The file %s does already exist. Do you really want to overwrite it ?"
 #~ msgstr "Plik %s ju¿ istnieje. Czy skasowaæ poprzedni?"
 
-#, fuzzy
 #~ msgid "Bytes"
 #~ msgstr " bajtów"
 
-#, fuzzy
 #~ msgid "Kb"
 #~ msgstr " KB"
 
-#, fuzzy
 #~ msgid "Mb"
 #~ msgstr " MB"
 
