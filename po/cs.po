@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1999-01-22 01:01+0100\n"
-"PO-Revision-Date: 1999-01-18 08:05+01:00\n"
+"PO-Revision-Date: 1999-01-22 23:56+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <flidr@kky.cu.cz>\n"
 "MIME-Version: 1.0\n"
@@ -1274,7 +1274,7 @@ msgstr "Vytvoøit kombinace koøen/pøípona chybìjící ve slovníku"
 
 #: kspell/ksconfig.cpp:75
 msgid "Consider run-together words as spelling errors"
-msgstr ""
+msgstr "Uva¾ovat spojená slova jako chyby hláskování"
 
 #: kspell/ksconfig.cpp:92
 msgid "Dictionary"
@@ -1313,9 +1313,8 @@ msgid "Unknown"
 msgstr "Neznámý"
 
 #: kspell/ksconfig.cpp:348
-#, fuzzy
 msgid "ISpell Default"
-msgstr "Implicitní"
+msgstr "Implicitní pro ispell"
 
 #: kspell/kspelldlg.cpp:58
 msgid "Misspelled Word:"
@@ -1918,7 +1917,6 @@ msgid "Address:"
 msgstr "Adresa:"
 
 #: kab/editentry.cc:104
-#, fuzzy
 msgid "Town/City:"
 msgstr "Mìsto:"
 
@@ -1927,7 +1925,6 @@ msgid "State:"
 msgstr "Stát:"
 
 #: kab/editentry.cc:106
-#, fuzzy
 msgid "Zip/Postal Code:"
 msgstr "Po¹t. smìrovací èíslo:"
 
@@ -1944,18 +1941,16 @@ msgid "Organization:"
 msgstr "Organizace:"
 
 #: kab/editentry.cc:146
-#, fuzzy
 msgid "Department:"
-msgstr "Náhrada:"
+msgstr "Oddìlení:"
 
 #: kab/editentry.cc:147
 msgid "Sub-Department:"
-msgstr ""
+msgstr "Pododdìlení:"
 
 #: kab/editentry.cc:148
-#, fuzzy
 msgid "Job/Role:"
-msgstr "Funkce:"
+msgstr "Místo/funkce:"
 
 #: kab/editentry.cc:169
 msgid "&Organization"
@@ -1990,9 +1985,8 @@ msgid "&Contact"
 msgstr "&Kontakt"
 
 #: kab/editentry.cc:239
-#, fuzzy
 msgid "Additional Comment:"
-msgstr "Dal¹í jméno:"
+msgstr "Dal¹í poznámky:"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
@@ -3054,12 +3048,3 @@ msgid ""
 msgstr ""
 "\n"
 "neobsahuje polo¾ku Name=..."
-
-#~ msgid "Org Unit:"
-#~ msgstr "Org. jednotka:"
-
-#~ msgid "Org Subunit:"
-#~ msgstr "Org. podjednotka:"
-
-#~ msgid "Comment:"
-#~ msgstr "Komentáø:"
