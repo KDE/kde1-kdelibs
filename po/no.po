@@ -2862,7 +2862,7 @@ msgstr "Feilaktig URL\n"
 
 #: kio/kio_rename_dlg.cc:224
 msgid "You must not change the protocol"
-msgstr "Du må endre protokollen"
+msgstr "Du kan ikke endre protokollen"
 
 #: kio/kio_skip_dlg.cc:35
 msgid "Can not write"
@@ -2886,7 +2886,7 @@ msgstr "Mime-typekonfigurasjonsfilen "
 
 #: kio/kmimetypes.cc:134 kio/kregfactories.cc:74
 msgid "does not conatain a MimeType=... entry"
-msgstr "inneholder ikke en MimeType=... oppføring"
+msgstr "inneholder ikke en MimeType=...-oppføring"
 
 #: kio/kmimetypes.cc:487
 #, c-format
@@ -2955,7 +2955,7 @@ msgstr ""
 
 #: kio/kregfactories.cc:72
 msgid "The mime type _cfg file "
-msgstr "Mime-typekonfigfil "
+msgstr "Konfigurasjonsfilen til Mime-typen "
 
 #: kio/krun.cc:39
 #, c-format
@@ -2970,7 +2970,7 @@ msgstr ""
 
 #: kio/kservices.cc:111
 msgid "The application config file\n"
-msgstr "Applikasjonskonfigfil\n"
+msgstr "Konfigurasjonsfilen til applikasjonen\n"
 
 #: kio/kservices.cc:113
 msgid ""
@@ -2979,39 +2979,3 @@ msgid ""
 msgstr ""
 "\n"
 "inneholder ikke en Name=...-oppføring"
-
-#~ msgid "Search"
-#~ msgstr "Søk"
-
-#~ msgid "contains"
-#~ msgstr "inneholder"
-
-#~ msgid "&New"
-#~ msgstr "&Ny"
-
-#~ msgid "&New..."
-#~ msgstr "&Ny..."
-
-#~ msgid "Move"
-#~ msgstr "Flytt"
-
-#~ msgid "&Previous"
-#~ msgstr "&Forrige"
-
-#~ msgid "&Next"
-#~ msgstr "&Neste"
-
-#~ msgid "Small"
-#~ msgstr "Liten"
-
-#~ msgid "Medium"
-#~ msgstr "Medium"
-
-#~ msgid "Large"
-#~ msgstr "Stor"
-
-#~ msgid "(none)"
-#~ msgstr "(ingen)"
-
-#~ msgid "None"
-#~ msgstr "Ingen"
