@@ -15,7 +15,7 @@ msgstr "ukendt"
 
 #: kab/AssertDialog.cpp:25
 msgid "(unknown line number)"
-msgstr ""
+msgstr "(ukendt linie nummer)"
 
 #: kab/AssertDialog.cpp:26
 msgid "(unknown condition)"
@@ -23,19 +23,19 @@ msgstr ""
 
 #: kab/AssertDialog.cpp:34
 msgid "You have found a bug in "
-msgstr ""
+msgstr "Du har fundet en bug i "
 
 #: kab/AssertDialog.cpp:41
 msgid "Ignore the error, possibly causing much more damage"
-msgstr ""
+msgstr "Ignorer fejlen, hvilket kan resultere i større skade"
 
 #: kab/AssertDialog.cpp:43
 msgid "Kill the application, loosing all data"
-msgstr ""
+msgstr "Dø applikationen og mist alle data"
 
 #: kab/AssertDialog.cpp:45
 msgid "Send an email to the application maintainer"
-msgstr ""
+msgstr "Send en email til applikationens vedligeholder"
 
 #: kab/AssertDialog.cpp:47 kab/StringListDialog.cpp:40
 #: kab/StringListSelectAndReorderSet.cpp:572
@@ -58,33 +58,33 @@ msgstr ""
 #: kab/AssertDialog.cpp:135
 #, fuzzy
 msgid "In file "
-msgstr "fil"
+msgstr "I filen "
 
 #: kab/AssertDialog.cpp:135
 msgid ", line "
-msgstr ""
+msgstr ", linie "
 
 #: kab/PrintDialog.cpp:22
 msgid "Headline text:"
-msgstr ""
+msgstr "Overskrifts tekst:"
 
 #: kab/PrintDialog.cpp:23
 msgid "Right footer text:"
-msgstr ""
+msgstr "Højre fodnote tekst:"
 
 #: kab/PrintDialog.cpp:24
 msgid "Left footer text:"
-msgstr ""
+msgstr "Venstre fodnote tekst:"
 
 #: kab/SearchDialog.cpp:54
 #, fuzzy
 msgid "Search entries"
-msgstr "Søg efter en fil"
+msgstr "Søg efter"
 
 #: kab/SearchDialog.cpp:55
 #, fuzzy
 msgid "Search"
-msgstr "Marts"
+msgstr "Søg"
 
 #: kab/SearchDialog.cpp:56 kab/StringListDialog.cpp:41
 #: kab/StringListSelectAndReorderSet.cpp:573
@@ -105,97 +105,97 @@ msgstr "Annuller"
 #: kab/SearchDialog.cpp:57
 #, fuzzy
 msgid "contains"
-msgstr "Indhold"
+msgstr "indholder"
 
 #: kab/SearchDialog.cpp:60
 msgid "The title"
-msgstr ""
+msgstr "Titlen"
 
 #: kab/SearchDialog.cpp:61
 msgid "The first name"
-msgstr ""
+msgstr "Fornavn"
 
 #: kab/SearchDialog.cpp:62
 msgid "The additional name"
-msgstr ""
+msgstr "Yderligere navn"
 
 #: kab/SearchDialog.cpp:63
 msgid "The name prefix"
-msgstr ""
+msgstr "Navne præfikset"
 
 #: kab/SearchDialog.cpp:64
 #, fuzzy
 msgid "The name"
-msgstr "Stien"
+msgstr "Navnet"
 
 #: kab/SearchDialog.cpp:65
 msgid "The formatted name"
-msgstr ""
+msgstr "Det formatterede navn"
 
 #: kab/SearchDialog.cpp:66
 msgid "The address"
-msgstr ""
+msgstr "Adressen"
 
 #: kab/SearchDialog.cpp:67
 #, fuzzy
 msgid "The town"
-msgstr "Stien"
+msgstr "Byen"
 
 #: kab/SearchDialog.cpp:68
 msgid "The organization"
-msgstr ""
+msgstr "Organisationen"
 
 #: kab/SearchDialog.cpp:69
 msgid "The role"
-msgstr ""
+msgstr "Rollen"
 
 #: kab/SearchDialog.cpp:70
 msgid "The org unit"
-msgstr ""
+msgstr "Organisations enheden"
 
 #: kab/SearchDialog.cpp:71
 msgid "The org subunit"
-msgstr ""
+msgstr "Organisations underenheden"
 
 #: kab/SearchDialog.cpp:72
 msgid "The email address"
-msgstr ""
+msgstr "Email adressen"
 
 #: kab/SearchDialog.cpp:73
 msgid "The second email address"
-msgstr ""
+msgstr "Den sekundære email-adresse"
 
 #: kab/SearchDialog.cpp:74
 msgid "The third email address"
-msgstr ""
+msgstr "Den tertiære email-adresse"
 
 #: kab/SearchDialog.cpp:75
 msgid "The telephone number"
-msgstr ""
+msgstr "Telefon-nummeret"
 
 #: kab/SearchDialog.cpp:76
 msgid "The fax number"
-msgstr ""
+msgstr "Fax-nummeret"
 
 #: kab/SearchDialog.cpp:77
 msgid "The modem number"
-msgstr ""
+msgstr "Modem-nummeret"
 
 #: kab/SearchDialog.cpp:78
 msgid "The homepage URL"
-msgstr ""
+msgstr "Hjemmeside URL'en"
 
 #: kab/SearchDialog.cpp:79
 msgid "The comment"
-msgstr ""
+msgstr "Kommentaren"
 
 #: kab/StringListSelectAndReorderSet.cpp:43
 msgid "Possible values:"
-msgstr ""
+msgstr "Mulige værdier:"
 
 #: kab/StringListSelectAndReorderSet.cpp:44
 msgid "Selected values:"
-msgstr ""
+msgstr "Valgte værdier:"
 
 #: kdecore/kaccel.cpp:229 kfile/kfiledialog.cpp:549 kfile/kfiledialog.cpp:1191
 #: kfile/kfiledialog.cpp:1350 kfile/kfiledialog.cpp:1384 po/texts.cpp:68
@@ -253,7 +253,7 @@ msgstr "Udskift"
 #: kdecore/kaccel.cpp:277 po/texts.cpp:140
 #, fuzzy
 msgid "Insert"
-msgstr "&Indsæt"
+msgstr "Indsæt"
 
 #: kdecore/kaccel.cpp:281 kfile/kfiledialog.cpp:131
 msgid "Home"
@@ -261,17 +261,17 @@ msgstr "Hjem"
 
 #: kdecore/kaccel.cpp:285
 msgid "End"
-msgstr ""
+msgstr "Slut"
 
 #: kdecore/kaccel.cpp:289
 #, fuzzy
 msgid "Prior"
-msgstr "Fejl"
+msgstr "Forrige"
 
 #: kdecore/kaccel.cpp:293
 #, fuzzy
 msgid "Next"
-msgstr "&Næste"
+msgstr "Næste"
 
 #: kdecore/kaccel.cpp:297 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471
 #: kdeui/kcontrol.cpp:34 kfile/kfiledialog.cpp:240 po/texts.cpp:45
@@ -698,7 +698,7 @@ msgstr "&Annuller"
 
 #: kdeui/kkeydialog.cpp:320
 msgid "Current key"
-msgstr ""
+msgstr "Aktuel tast"
 
 #: kdeui/kkeydialog.cpp:331
 #, fuzzy
@@ -707,17 +707,17 @@ msgstr "&Placering:"
 
 #: kdeui/kkeydialog.cpp:392
 msgid "&No key"
-msgstr ""
+msgstr "&Ingen tast"
 
 #: kdeui/kkeydialog.cpp:400
 #, fuzzy
 msgid "&Default key"
-msgstr "&Standard"
+msgstr "&Standard tast"
 
 #: kdeui/kkeydialog.cpp:408
 #, fuzzy
 msgid "&Custom key"
-msgstr "Brugerdefineret..."
+msgstr "&Brugerdefineret tast"
 
 #: kdeui/kmenubar.cpp:167 kdeui/ktoolbar.cpp:711
 msgid "Top"
@@ -749,7 +749,7 @@ msgstr "&Standard"
 
 #: kdeui/kquickhelp.cpp:203
 msgid "Quickhelp"
-msgstr ""
+msgstr "KvikHjælp"
 
 #: kdeui/ktoolbar.cpp:227 kdeui/ktoolbar.cpp:278
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
@@ -831,7 +831,7 @@ msgstr "Søg efter en fil"
 
 #: kfile/kfiledialog.cpp:160
 msgid "Configure this dialog [development only]"
-msgstr ""
+msgstr "Konfigurer denne dialog [kun udvikling]"
 
 #: kfile/kfiledialog.cpp:168
 msgid "The path"
@@ -978,7 +978,7 @@ msgstr "Vis filter"
 # , fuzzy
 #: kfile/kfiledialogconf.cpp:101
 msgid "Show List Labels"
-msgstr ""
+msgstr "Vis overskrift"
 
 #: kfile/kfiledialogconf.cpp:107
 msgid "Show Hidden"
@@ -1023,15 +1023,15 @@ msgstr "Apr"
 
 #: kfile/kfileinfo.cpp:223
 msgid "Jun"
-msgstr ""
+msgstr "Jun"
 
 #: kfile/kfileinfo.cpp:224
 msgid "Jul"
-msgstr ""
+msgstr "Jul"
 
 #: kfile/kfileinfo.cpp:225
 msgid "Aug"
-msgstr ""
+msgstr "Aug"
 
 #: kfile/kfileinfo.cpp:226
 msgid "Sep"
@@ -1048,7 +1048,7 @@ msgstr "Nov"
 # , fuzzy
 #: kfile/kfileinfo.cpp:229
 msgid "Dec"
-msgstr ""
+msgstr "Dec"
 
 #: kab/editentry.cc:70 kfile/kpreview.cpp:187
 msgid "Name:"
@@ -1138,11 +1138,11 @@ msgstr "&Om..."
 # , fuzzy
 #: po/texts.cpp:38
 msgid "On"
-msgstr "Tænd"
+msgstr "Aktiveret"
 
 #: po/texts.cpp:39
 msgid "Off"
-msgstr "Sluk"
+msgstr "Deaktiveret"
 
 #: po/texts.cpp:43
 msgid "File"
@@ -1236,7 +1236,7 @@ msgstr "&Klip"
 # , fuzzy
 #: po/texts.cpp:74
 msgid "C&ut"
-msgstr "Klip"
+msgstr "Kl&ip"
 
 #: po/texts.cpp:75
 msgid "Font"
@@ -1325,7 +1325,7 @@ msgstr "&Spil"
 # , fuzzy
 #: kio/kio_rename_dlg.cc:22 kio/kio_skip_dlg.cc:18 po/texts.cpp:101
 msgid "Information"
-msgstr ""
+msgstr "Information"
 
 #: po/texts.cpp:102
 msgid "Browse..."
@@ -1556,239 +1556,239 @@ msgstr ""
 
 #: kab/addressbook.cc:1126
 msgid "First name"
-msgstr ""
+msgstr "Fornavn"
 
 #: kab/addressbook.cc:1130
 msgid "Additional name"
-msgstr ""
+msgstr "Mellemnavn"
 
 #: kab/addressbook.cc:1134
 msgid "Name prefix"
-msgstr ""
+msgstr "Navne præfix"
 
 #: kab/addressbook.cc:1138
 msgid "Formatted name"
-msgstr ""
+msgstr "Formateret navn"
 
 #: kab/addressbook.cc:1142
 #, fuzzy
 msgid "Comment"
-msgstr "Indhold"
+msgstr "Kommentar"
 
 #: kab/addressbook.cc:1146
 msgid "Organization"
-msgstr ""
+msgstr "Organisation"
 
 #: kab/addressbook.cc:1150
 #, fuzzy
 msgid "Unit"
-msgstr "Uden navn"
+msgstr "Enhed"
 
 #: kab/addressbook.cc:1154
 #, fuzzy
 msgid "Subunit"
-msgstr "Søn"
+msgstr "Underenhed"
 
 #: kab/addressbook.cc:1158
 #, fuzzy
 msgid "Title"
-msgstr "fil"
+msgstr "Titel"
 
 #: kab/addressbook.cc:1162
 #, fuzzy
 msgid "Role"
-msgstr "folder"
+msgstr "Rolle"
 
 #: kab/addressbook.cc:1166
 msgid "Birthday"
-msgstr ""
+msgstr "Fødselsdag"
 
 #: kab/addressbook.cc:1170
 msgid "Talk addresses"
-msgstr ""
+msgstr "Talk adresse"
 
 #: kab/addressbook.cc:1174
 msgid "Delivery label"
-msgstr ""
+msgstr "Afleverings mærkat"
 
 #: kab/addressbook.cc:1178
 msgid "Email address"
-msgstr ""
+msgstr "Email-adresse"
 
 #: kab/addressbook.cc:1182
 msgid "Second email address"
-msgstr ""
+msgstr "Sekundær email-adresse"
 
 #: kab/addressbook.cc:1186
 msgid "Third email address"
-msgstr ""
+msgstr "Tertiær email-adresse"
 
 #: kab/addressbook.cc:1190
 msgid "Email addresses"
-msgstr ""
+msgstr "Email-adresser"
 
 #: kab/addressbook.cc:1194
 #, fuzzy
 msgid "Address"
-msgstr "Tilføj"
+msgstr "Adresse"
 
 #: kab/addressbook.cc:1198
 msgid "City/Town"
-msgstr ""
+msgstr "By"
 
 #: kab/addressbook.cc:1202
 msgid "Telephone"
-msgstr ""
+msgstr "Telefon"
 
 #: kab/addressbook.cc:1206
 msgid "Fax number"
-msgstr ""
+msgstr "Fax"
 
 #: kab/addressbook.cc:1210
 #, fuzzy
 msgid "Modem number"
-msgstr "November"
+msgstr "Modem"
 
 #: kab/addressbook.cc:1214
 msgid "Homepage URL"
-msgstr ""
+msgstr "Hjemmeside URL"
 
 #: kab/addressbook.cc:1218
 msgid "Zip/postal code"
-msgstr ""
+msgstr "Postnummer"
 
 #: kab/addressbook.cc:1222
 msgid "State/province"
-msgstr ""
+msgstr "Stat/provins"
 
 #: kab/addressbook.cc:1226
 #, fuzzy
 msgid "Country"
-msgstr "Klip"
+msgstr "Land"
 
 #: kab/addressbook.cc:1406
 msgid "(unnamed entry)"
-msgstr ""
+msgstr "(unavngiven)"
 
 #: kab/datepickerdialog.cc:35
 #, fuzzy
 msgid "Select birthday"
-msgstr "Vælg skrifttype"
+msgstr "Vælg fødselsdag"
 
 #: kab/editentry.cc:41
 msgid "Edit the current entry"
-msgstr ""
+msgstr "Redigér aktuel"
 
 #: kab/editentry.cc:67
 #, fuzzy
 msgid "Title:"
-msgstr "Stil:"
+msgstr "Titel:"
 
 #: kab/editentry.cc:68
 msgid "First name:"
-msgstr ""
+msgstr "Fornavn:"
 
 #: kab/editentry.cc:69
 msgid "Additional Name:"
-msgstr ""
+msgstr "Mellemnavn"
 
 #: kab/editentry.cc:71
 msgid "Formatted Name:"
-msgstr ""
+msgstr "Formateret navn:"
 
 #: kab/editentry.cc:94
 #, fuzzy
 msgid "&Name"
-msgstr "Navn"
+msgstr "&Navn"
 
 #: kab/editentry.cc:114
 msgid "Address:"
-msgstr ""
+msgstr "Adresse:"
 
 #: kab/editentry.cc:115
 msgid "Zip/postal code:"
-msgstr ""
+msgstr "Postnummer:"
 
 #: kab/editentry.cc:116
 msgid "Town:"
-msgstr ""
+msgstr "By:"
 
 #: kab/editentry.cc:117
 #, fuzzy
 msgid "State:"
-msgstr "Dato:"
+msgstr "Stat:"
 
 #: kab/editentry.cc:118
 msgid "Country:"
-msgstr ""
+msgstr "Land"
 
 #: kab/editentry.cc:141
 msgid "&Address"
-msgstr ""
+msgstr "&Adresse"
 
 #: kab/editentry.cc:161
 msgid "Organization:"
-msgstr ""
+msgstr "Organisation:"
 
 #: kab/editentry.cc:162
 msgid "Org Unit:"
-msgstr ""
+msgstr "Org. enhed:"
 
 #: kab/editentry.cc:163
 msgid "Org Subunit:"
-msgstr ""
+msgstr "Org. underenhed:"
 
 #: kab/editentry.cc:164
 #, fuzzy
 msgid "Role:"
-msgstr "Foldere:"
+msgstr "Rolle:"
 
 #: kab/editentry.cc:185
 msgid "&Organization"
-msgstr ""
+msgstr "&Organisation"
 
 #: kab/editentry.cc:205
 msgid "Telephone:"
-msgstr ""
+msgstr "Telefon:"
 
 #: kab/editentry.cc:206
 msgid "Fax:"
-msgstr ""
+msgstr "Fax:"
 
 #: kab/editentry.cc:207
 #, fuzzy
 msgid "Modem:"
-msgstr "Flyt"
+msgstr "Modem:"
 
 #: kab/editentry.cc:208
 msgid "Homepage (URL):"
-msgstr ""
+msgstr "Hjemmeside (URL):"
 
 #: kab/editentry.cc:222 kab/editentry.cc:455
 msgid "Edit email addresses"
-msgstr ""
+msgstr "Rediger email-adresser"
 
 #: kab/editentry.cc:228 kab/editentry.cc:438
 msgid "Edit talk addresses"
-msgstr ""
+msgstr "Rediger talk-adresser"
 
 #: kab/editentry.cc:240
 #, fuzzy
 msgid "&Contact"
-msgstr "&Indhold"
+msgstr "&Kontakt"
 
 #: kab/editentry.cc:265
 #, fuzzy
 msgid "Comment:"
-msgstr "Indhold:"
+msgstr "Kommentar:"
 
 #: kab/editentry.cc:273
 msgid "Birthday:"
-msgstr ""
+msgstr "Fødselsdag:"
 
 #: kab/editentry.cc:283
 msgid "O&thers"
-msgstr ""
+msgstr "&Andre"
 
 #: kab/kabapi.cc:144
 msgid "Your new entry could not be added."
@@ -1796,11 +1796,11 @@ msgstr ""
 
 #: kab/searchresults.cc:38
 msgid "search results"
-msgstr ""
+msgstr "søge resultater"
 
 #: kab/widget.cc:153
 msgid "Conversion problem"
-msgstr ""
+msgstr "Konverterings problem"
 
 #: kab/widget.cc:154
 msgid ""
@@ -1818,7 +1818,7 @@ msgstr ""
 
 #: kab/widget.cc:236 kab/widget.cc:301 kab/widget.cc:309
 msgid "File handling error"
-msgstr ""
+msgstr "Filhåndterings fejl"
 
 #: kab/widget.cc:237
 msgid "Unable to open database file r/w."
@@ -1854,7 +1854,7 @@ msgstr ""
 #: kab/widget.cc:302
 #, fuzzy
 msgid "Could not save database after update."
-msgstr "Kunne ikke gemme dokumentet\n"
+msgstr "Kunne ikke gemme database efter opdatéring\n"
 
 #: kab/widget.cc:310
 msgid "Unable to reopen database file r/o."
@@ -1863,21 +1863,21 @@ msgstr ""
 #: kab/widget.cc:464
 #, fuzzy
 msgid "first entry"
-msgstr "folder"
+msgstr "første"
 
 #: kab/widget.cc:465
 #, fuzzy
 msgid "previous entry"
-msgstr "&Forrige"
+msgstr "forrige"
 
 #: kab/widget.cc:466
 #, fuzzy
 msgid "next entry"
-msgstr "en folder"
+msgstr "næste"
 
 #: kab/widget.cc:467
 msgid "last entry"
-msgstr ""
+msgstr "sidste"
 
 #: kab/widget.cc:468
 msgid "search entries"
