@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs 1.0pre2\n"
-"POT-Creation-Date: 1998-10-13 13:32+0200\n"
+"POT-Creation-Date: 1998-10-29 13:16+0100\n"
 "PO-Revision-Date: 1998-07-13 19:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -14,42 +14,40 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-3\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: kab/AssertDialog.cpp:24
+#: kab/AssertDialog.cpp:29
 #, fuzzy
 msgid "(unknown file)"
 msgstr "nekonata"
 
-#: kab/AssertDialog.cpp:25
+#: kab/AssertDialog.cpp:30
 msgid "(unknown line number)"
 msgstr ""
 
-#: kab/AssertDialog.cpp:26
+#: kab/AssertDialog.cpp:31
 msgid "(unknown condition)"
 msgstr ""
 
-#: kab/AssertDialog.cpp:34
+#: kab/AssertDialog.cpp:39
 msgid "You have found a bug in "
 msgstr ""
 
-#: kab/AssertDialog.cpp:41
+#: kab/AssertDialog.cpp:45
 msgid "Ignore the error, possibly causing much more damage"
 msgstr ""
 
-#: kab/AssertDialog.cpp:43
+#: kab/AssertDialog.cpp:47
 msgid "Kill the application, loosing all data"
 msgstr ""
 
-#: kab/AssertDialog.cpp:45
+#: kab/AssertDialog.cpp:49
 msgid "Send an email to the application maintainer"
 msgstr ""
 
-#: kab/AssertDialog.cpp:47 kab/StringListDialog.cpp:40
-#: kab/StringListSelectAndReorderSet.cpp:572
-#: kab/StringListSelectOneDialog.cpp:26 kab/StringListSelectSetDialog.cpp:24
-#: kab/datepickerdialog.cc:26 kab/kabapi.cc:35 kdeui/kcolordlg.cpp:463
-#: kdeui/kcontrol.cpp:46 kdeui/kcontrol.cpp:51 kdeui/keditcl1.cpp:130
-#: kdeui/keditcl1.cpp:144 kdeui/keditcl1.cpp:159 kdeui/keditcl1.cpp:180
-#: kdeui/keditcl1.cpp:193 kdeui/keditcl1.cpp:1535 kdeui/keditcl1.cpp:1692
+#: kab/AssertDialog.cpp:51 kab/StringListDialog.cpp:34
+#: kab/datepickerdialog.cc:25 kab/kabapi.cc:35 kdeui/kcolordlg.cpp:463
+#: kdeui/kcontrol.cpp:46 kdeui/kcontrol.cpp:51 kdeui/keditcl1.cpp:141
+#: kdeui/keditcl1.cpp:155 kdeui/keditcl1.cpp:170 kdeui/keditcl1.cpp:191
+#: kdeui/keditcl1.cpp:204 kdeui/keditcl1.cpp:1561 kdeui/keditcl1.cpp:1718
 #: kdeui/kfontdialog.cpp:370 kdeui/kiconloaderdialog.cpp:254
 #: kdeui/kmsgbox.cpp:277 kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:499
 #: kfile/kfiledialog.cpp:881 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:403
@@ -57,149 +55,198 @@ msgstr ""
 msgid "OK"
 msgstr "Konfirmu"
 
-#: kab/AssertDialog.cpp:134
+#: kab/AssertDialog.cpp:140
 msgid "The following condition failed:\n"
 msgstr ""
 
-#: kab/AssertDialog.cpp:135
+#: kab/AssertDialog.cpp:141
 #, fuzzy
 msgid "In file "
 msgstr "dosiero"
 
-#: kab/AssertDialog.cpp:135
+#: kab/AssertDialog.cpp:141
 msgid ", line "
 msgstr ""
 
-#: kab/PrintDialog.cpp:22
+#: kab/AssertDialog.cpp:212 kab/AssertDialog.cpp:217
+msgid "Error handling error"
+msgstr ""
+
+#: kab/AssertDialog.cpp:213
+#, fuzzy
+msgid "Could not send message."
+msgstr "Ne eblis savi la dokumenton\n"
+
+#: kab/AssertDialog.cpp:218
+msgid "The author did not publish an email address."
+msgstr ""
+
+#: kab/DialogBase.cpp:34
+msgid ""
+"If you press the OK button, all changes\n"
+"you made will be used to proceed."
+msgstr ""
+
+#: kab/DialogBase.cpp:37
+msgid ""
+"When clicking apply, the settings will be\n"
+"handed over to the program, but the dialog\n"
+"will not be closed.Use this to try different settings."
+msgstr ""
+
+#: kab/DialogBase.cpp:42
+msgid ""
+"If you press the Cancel button, all changes\n"
+"you made will be abandoned and the dialog\n"
+"will be closed.\n"
+"The program will be in the state before\n"
+"opening the dialog."
+msgstr ""
+
+#: kab/DialogBase.cpp:55 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
+#: kdeui/kwizard.cpp:228 po/texts.cpp:36
+msgid "&OK"
+msgstr "&Konfirmu"
+
+#: kab/DialogBase.cpp:56
+#, fuzzy
+msgid "&Apply"
+msgstr "Apliku"
+
+#: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
+#: kdeui/kwizard.cpp:159 po/texts.cpp:40
+msgid "&Cancel"
+msgstr "&Rezignu"
+
+#: kab/PrintDialog.cpp:26
 msgid "Headline text:"
 msgstr ""
 
-#: kab/PrintDialog.cpp:23
+#: kab/PrintDialog.cpp:27
 msgid "Right footer text:"
 msgstr ""
 
-#: kab/PrintDialog.cpp:24
+#: kab/PrintDialog.cpp:28
 msgid "Left footer text:"
+msgstr ""
+
+#: kab/SearchDialog.cpp:47
+msgid "The title"
+msgstr ""
+
+#: kab/SearchDialog.cpp:48
+msgid "The first name"
+msgstr ""
+
+#: kab/SearchDialog.cpp:49
+msgid "The additional name"
+msgstr ""
+
+#: kab/SearchDialog.cpp:50
+msgid "The name prefix"
+msgstr ""
+
+#: kab/SearchDialog.cpp:51
+#, fuzzy
+msgid "The name"
+msgstr "La pado"
+
+#: kab/SearchDialog.cpp:52
+msgid "The formatted name"
+msgstr ""
+
+#: kab/SearchDialog.cpp:53
+msgid "The address"
 msgstr ""
 
 #: kab/SearchDialog.cpp:54
 #, fuzzy
-msgid "Search entries"
-msgstr "Seræu dosieron"
+msgid "The town"
+msgstr "La pado"
 
 #: kab/SearchDialog.cpp:55
-#, fuzzy
-msgid "Search"
-msgstr "Marto"
+msgid "The organization"
+msgstr ""
 
-#: kab/SearchDialog.cpp:56 kab/StringListDialog.cpp:41
-#: kab/StringListSelectAndReorderSet.cpp:573
-#: kab/StringListSelectOneDialog.cpp:27 kab/StringListSelectSetDialog.cpp:25
-#: kab/datepickerdialog.cc:27 kab/kabapi.cc:38 kab/widget.cc:1508
-#: kab/widget.cc:1556 kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466
-#: kdeui/kcontrol.cpp:48 kdeui/kcontrol.cpp:55 kdeui/keditcl1.cpp:398
-#: kdeui/keditcl1.cpp:480 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:365
-#: kdeui/kiconloaderdialog.cpp:255 kdeui/kmsgbox.cpp:312
-#: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:886
-#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:407 kio/kio_job.cc:643
+#: kab/SearchDialog.cpp:56
+msgid "The role"
+msgstr ""
+
+#: kab/SearchDialog.cpp:57
+msgid "The org unit"
+msgstr ""
+
+#: kab/SearchDialog.cpp:58
+msgid "The org subunit"
+msgstr ""
+
+#: kab/SearchDialog.cpp:59
+msgid "The email address"
+msgstr ""
+
+#: kab/SearchDialog.cpp:60
+msgid "The second email address"
+msgstr ""
+
+#: kab/SearchDialog.cpp:61
+msgid "The third email address"
+msgstr ""
+
+#: kab/SearchDialog.cpp:62
+msgid "The telephone number"
+msgstr ""
+
+#: kab/SearchDialog.cpp:63
+msgid "The fax number"
+msgstr ""
+
+#: kab/SearchDialog.cpp:64
+msgid "The modem number"
+msgstr ""
+
+#: kab/SearchDialog.cpp:65
+msgid "The homepage URL"
+msgstr ""
+
+#: kab/SearchDialog.cpp:66
+msgid "The comment"
+msgstr ""
+
+#: kab/SearchDialog.cpp:74
+#, fuzzy
+msgid "kab: Search entries"
+msgstr "Seræu dosieron"
+
+#: kab/SearchDialogMainWidget.cpp:22
+msgid "matches"
+msgstr ""
+
+#: kab/SearchDialogMainWidget.cpp:23
+msgid "Use shell wildcard patterns here"
+msgstr ""
+
+#: kab/SearchDialogMainWidget.cpp:24
+msgid "Select field to match the pattern"
+msgstr ""
+
+#: kab/StringListDialog.cpp:35 kab/datepickerdialog.cc:26 kab/kabapi.cc:38
+#: kab/widget.cc:1361 kab/widget.cc:1403 kdetest/klocaletest.cpp:103
+#: kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:48 kdeui/kcontrol.cpp:55
+#: kdeui/keditcl1.cpp:414 kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895
+#: kdeui/kfontdialog.cpp:365 kdeui/kiconloaderdialog.cpp:255
+#: kdeui/kmsgbox.cpp:312 kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:886
+#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:407 kio/kio_job.cc:654
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:24 kio/kio_skip_dlg.cc:20
 #: po/texts.cpp:39
 msgid "Cancel"
 msgstr "Rezignu"
 
-#: kab/SearchDialog.cpp:57
-#, fuzzy
-msgid "contains"
-msgstr "Enhavo"
-
-#: kab/SearchDialog.cpp:60
-msgid "The title"
-msgstr ""
-
-#: kab/SearchDialog.cpp:61
-msgid "The first name"
-msgstr ""
-
-#: kab/SearchDialog.cpp:62
-msgid "The additional name"
-msgstr ""
-
-#: kab/SearchDialog.cpp:63
-msgid "The name prefix"
-msgstr ""
-
-#: kab/SearchDialog.cpp:64
-#, fuzzy
-msgid "The name"
-msgstr "La pado"
-
-#: kab/SearchDialog.cpp:65
-msgid "The formatted name"
-msgstr ""
-
-#: kab/SearchDialog.cpp:66
-msgid "The address"
-msgstr ""
-
-#: kab/SearchDialog.cpp:67
-#, fuzzy
-msgid "The town"
-msgstr "La pado"
-
-#: kab/SearchDialog.cpp:68
-msgid "The organization"
-msgstr ""
-
-#: kab/SearchDialog.cpp:69
-msgid "The role"
-msgstr ""
-
-#: kab/SearchDialog.cpp:70
-msgid "The org unit"
-msgstr ""
-
-#: kab/SearchDialog.cpp:71
-msgid "The org subunit"
-msgstr ""
-
-#: kab/SearchDialog.cpp:72
-msgid "The email address"
-msgstr ""
-
-#: kab/SearchDialog.cpp:73
-msgid "The second email address"
-msgstr ""
-
-#: kab/SearchDialog.cpp:74
-msgid "The third email address"
-msgstr ""
-
-#: kab/SearchDialog.cpp:75
-msgid "The telephone number"
-msgstr ""
-
-#: kab/SearchDialog.cpp:76
-msgid "The fax number"
-msgstr ""
-
-#: kab/SearchDialog.cpp:77
-msgid "The modem number"
-msgstr ""
-
-#: kab/SearchDialog.cpp:78
-msgid "The homepage URL"
-msgstr ""
-
-#: kab/SearchDialog.cpp:79
-msgid "The comment"
-msgstr ""
-
-#: kab/StringListSelectAndReorderSet.cpp:43
+#: kab/StringListSelectAndReorderSet.cpp:34
 msgid "Possible values:"
 msgstr ""
 
-#: kab/StringListSelectAndReorderSet.cpp:44
+#: kab/StringListSelectAndReorderSet.cpp:35
 msgid "Selected values:"
 msgstr ""
 
@@ -212,7 +259,7 @@ msgstr "Malfermu"
 msgid "New"
 msgstr "Nova"
 
-#: kab/searchresults.cc:33 kdecore/kaccel.cpp:239 po/texts.cpp:80
+#: kab/searchresults.cc:30 kdecore/kaccel.cpp:239 po/texts.cpp:80
 msgid "Close"
 msgstr "Fermu"
 
@@ -335,8 +382,8 @@ msgstr ""
 "\n"
 "Bonvolu raporti erarojn æe http://buglist.kde.org.\n"
 
-#: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:396 kdeui/keditcl1.cpp:417
-#: kdeui/keditcl1.cpp:478 kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1635
+#: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:412 kdeui/keditcl1.cpp:433
+#: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661
 #: kdeui/keditcl2.cpp:106 kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:363
 #: kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426 kdeui/keditcl2.cpp:456
 #: kdeui/keditcl2.cpp:473 kdeui/kmsgbox.cpp:294 kdeui/kmsgbox.cpp:310
@@ -344,8 +391,8 @@ msgstr ""
 msgid "Yes"
 msgstr "Jes"
 
-#: kdetest/klocaletest.cpp:101 kdeui/keditcl1.cpp:397 kdeui/keditcl1.cpp:418
-#: kdeui/keditcl1.cpp:479 kdeui/keditcl1.cpp:499 kdeui/keditcl1.cpp:1636
+#: kdetest/klocaletest.cpp:101 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:434
+#: kdeui/keditcl1.cpp:495 kdeui/keditcl1.cpp:515 kdeui/keditcl1.cpp:1662
 #: kdeui/keditcl2.cpp:107 kdeui/keditcl2.cpp:124 kdeui/keditcl2.cpp:364
 #: kdeui/keditcl2.cpp:381 kdeui/keditcl2.cpp:427 kdeui/keditcl2.cpp:457
 #: kdeui/keditcl2.cpp:474 kdeui/kmsgbox.cpp:292 kdeui/kmsgbox.cpp:308
@@ -462,42 +509,42 @@ msgstr "Ven"
 msgid "Sat"
 msgstr "Sab"
 
-#: kab/kabapi.cc:143 kab/widget.cc:920 kab/widget.cc:940 kab/widget.cc:2087
-#: kdeui/keditcl1.cpp:128 kdeui/keditcl1.cpp:157 kdeui/keditcl1.cpp:178
-#: kdeui/keditcl1.cpp:191 kdeui/keditcl1.cpp:1533 po/texts.cpp:83
+#: kab/kabapi.cc:134 kab/widget.cc:817 kab/widget.cc:837 kab/widget.cc:1893
+#: kdeui/keditcl1.cpp:139 kdeui/keditcl1.cpp:168 kdeui/keditcl1.cpp:189
+#: kdeui/keditcl1.cpp:202 kdeui/keditcl1.cpp:1559 po/texts.cpp:83
 msgid "Sorry"
 msgstr "Pardonu"
 
-#: kdeui/keditcl1.cpp:129
+#: kdeui/keditcl1.cpp:140
 msgid "The specified File does not exist"
 msgstr "La indikita dosiero ne ekzistas"
 
-#: kdeui/keditcl1.cpp:142 kdeui/keditcl1.cpp:414 kdeui/keditcl1.cpp:495
-#: kdeui/keditcl1.cpp:1689
+#: kdeui/keditcl1.cpp:153 kdeui/keditcl1.cpp:430 kdeui/keditcl1.cpp:511
+#: kdeui/keditcl1.cpp:1715
 msgid "Sorry:"
 msgstr "Pardonu:"
 
-#: kdeui/keditcl1.cpp:143
+#: kdeui/keditcl1.cpp:154
 msgid "You have specificated a directory"
 msgstr "Vi ne indikis dosierujon"
 
-#: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179
+#: kdeui/keditcl1.cpp:169 kdeui/keditcl1.cpp:190
 msgid "You do not have read permission to this file."
 msgstr "Vi ne havas legopermeson por tiu æi dosiero."
 
-#: kdeui/keditcl1.cpp:192
+#: kdeui/keditcl1.cpp:203
 msgid "An Error occured while trying to open this Document"
 msgstr "Okazis eraro dum malfermado de tiu æi dokumento"
 
-#: kdeui/keditcl1.cpp:357
+#: kdeui/keditcl1.cpp:373
 msgid "Select Document to Insert"
 msgstr "Elektu dokumenton por enmeto"
 
-#: kdeui/keditcl1.cpp:393 kdeui/keditcl1.cpp:475 kdeui/keditcl1.cpp:1632
+#: kdeui/keditcl1.cpp:409 kdeui/keditcl1.cpp:491 kdeui/keditcl1.cpp:1658
 msgid "Warning:"
 msgstr "Averto:"
 
-#: kdeui/keditcl1.cpp:394 kdeui/keditcl1.cpp:476
+#: kdeui/keditcl1.cpp:410 kdeui/keditcl1.cpp:492
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -505,7 +552,7 @@ msgstr ""
 "La aktuala dokumento estas þaøita.\n"
 "Æu vi volas savi øin?"
 
-#: kdeui/keditcl1.cpp:415
+#: kdeui/keditcl1.cpp:431
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -513,11 +560,11 @@ msgstr ""
 "Ne eblis savi la dokumenton.\n"
 "Æu tamen malfermi novan dokumenton?"
 
-#: kdeui/keditcl1.cpp:446
+#: kdeui/keditcl1.cpp:462
 msgid "Select Document to Open"
 msgstr "Elektu dokumenton malfermendan"
 
-#: kdeui/keditcl1.cpp:496
+#: kdeui/keditcl1.cpp:512
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
@@ -525,19 +572,19 @@ msgstr ""
 "Ne eblis savi la dokumenton.\n"
 "Æu tamen krei novan dokumenton?"
 
-#: kdeui/keditcl1.cpp:531 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
+#: kdeui/keditcl1.cpp:547 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
 msgid "Untitled"
 msgstr "Sentitola"
 
-#: kdeui/keditcl1.cpp:1534
+#: kdeui/keditcl1.cpp:1560
 msgid "Could not save the document\n"
 msgstr "Ne eblis savi la dokumenton\n"
 
-#: kdeui/keditcl1.cpp:1604
+#: kdeui/keditcl1.cpp:1630
 msgid "Save Document As"
 msgstr "Sekurigu la dokumenton kiel"
 
-#: kdeui/keditcl1.cpp:1633
+#: kdeui/keditcl1.cpp:1659
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
@@ -545,7 +592,7 @@ msgstr ""
 "Dokumento kun tiu nomo jam ekzistas\n"
 "Æu vi volas øin anstataýigi?"
 
-#: kdeui/keditcl1.cpp:1690
+#: kdeui/keditcl1.cpp:1716
 msgid "You do not have write permission to this file.\n"
 msgstr "Vi ne havas skribpermeson por tiu æi dosiero.\n"
 
@@ -694,16 +741,6 @@ msgstr "&Helpo"
 msgid "&Defaults"
 msgstr "&Implicita"
 
-#: kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247 kdeui/kwizard.cpp:228
-#: po/texts.cpp:36
-msgid "&OK"
-msgstr "&Konfirmu"
-
-#: kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178 kdeui/kwizard.cpp:159
-#: po/texts.cpp:40
-msgid "&Cancel"
-msgstr "&Rezignu"
-
 #: kdeui/kkeydialog.cpp:320
 msgid "Current key"
 msgstr ""
@@ -788,7 +825,7 @@ msgstr "Dosierujoj:"
 msgid "Contents:"
 msgstr "Enhavo:"
 
-#: kab/addressbook.cc:1120 kfile/kfiledetaillist.cpp:36
+#: kab/addressbook.cc:1047 kfile/kfiledetaillist.cpp:36
 msgid "Name"
 msgstr "Nomo"
 
@@ -1061,7 +1098,7 @@ msgstr "Nov"
 msgid "Dec"
 msgstr "Dec"
 
-#: kab/editentry.cc:70 kfile/kpreview.cpp:187
+#: kab/editentry.cc:63 kfile/kpreview.cpp:187
 msgid "Name:"
 msgstr "Nomo:"
 
@@ -1117,14 +1154,14 @@ msgstr ""
 "La dosiero %s estas difektita\n"
 "Ne eblis legitimig vin"
 
-#: kab/widget.cc:172 kab/widget.cc:798 kab/widget.cc:868 kab/widget.cc:880
-#: kab/widget.cc:958 kab/widget.cc:1260 kab/widget.cc:1330 kab/widget.cc:1342
-#: kab/widget.cc:2110 kab/widgets.cc:109 kio/kio_error.cc:111
-#: kio/kio_paste.cc:35 kio/kio_paste.cc:47 kio/kio_paste.cc:62
-#: kio/kio_paste.cc:74 kio/kio_rename_dlg.cc:187 kio/kio_rename_dlg.cc:194
-#: kio/kmimetypes.cc:487 kio/kmimetypes.cc:505 kio/kmimetypes.cc:519
-#: kio/kmimetypes.cc:566 kio/kmimetypes.cc:599 kio/kmimetypes.cc:659
-#: kio/kmimetypes.cc:691 kio/krun.cc:40 kio/krun.cc:512 po/texts.cpp:24
+#: kab/widget.cc:157 kab/widget.cc:1141 kab/widget.cc:1199 kab/widget.cc:1210
+#: kab/widget.cc:1913 kab/widget.cc:2000 kab/widget.cc:2084 kab/widget.cc:2129
+#: kab/widget.cc:2140 kio/kio_error.cc:111 kio/kio_paste.cc:35
+#: kio/kio_paste.cc:47 kio/kio_paste.cc:62 kio/kio_paste.cc:74
+#: kio/kio_rename_dlg.cc:187 kio/kio_rename_dlg.cc:194 kio/kmimetypes.cc:487
+#: kio/kmimetypes.cc:505 kio/kmimetypes.cc:519 kio/kmimetypes.cc:566
+#: kio/kmimetypes.cc:599 kio/kmimetypes.cc:659 kio/kmimetypes.cc:691
+#: kio/krun.cc:40 kio/krun.cc:512 po/texts.cpp:24
 msgid "Error"
 msgstr "Eraro"
 
@@ -1380,7 +1417,7 @@ msgstr "&Relegu"
 msgid "Files"
 msgstr "Dosieroj"
 
-#: kab/widget.cc:1507 kab/widget.cc:1555 po/texts.cpp:112
+#: kab/widget.cc:1361 kab/widget.cc:1403 po/texts.cpp:112
 msgid "Continue"
 msgstr "Daýrigu"
 
@@ -1453,7 +1490,7 @@ msgstr "<< &Antaýa"
 msgid "&About..."
 msgstr "&Pri..."
 
-#: kab/addressbook.cc:90
+#: kab/addressbook.cc:88
 msgid ""
 "The directory where user specific data for the\n"
 "addressbook application is stored does not exist.\n"
@@ -1461,11 +1498,11 @@ msgid ""
 "         "
 msgstr ""
 
-#: kab/addressbook.cc:95
+#: kab/addressbook.cc:92
 msgid "and store all local files in this directory."
 msgstr ""
 
-#: kab/addressbook.cc:100
+#: kab/addressbook.cc:96
 msgid ""
 "The directory could not be created.\n"
 "Probably you do not have used KDE before, so\n"
@@ -1474,324 +1511,328 @@ msgid ""
 "kfm once to automatically create it."
 msgstr ""
 
-#: kab/addressbook.cc:110
+#: kab/addressbook.cc:104
 msgid "The directory has been created.\n"
 msgstr ""
 
-#: kab/addressbook.cc:148
+#: kab/addressbook.cc:138
 msgid "No addressbook database file, creating new one."
 msgstr ""
 
-#: kab/addressbook.cc:169
+#: kab/addressbook.cc:157
 msgid "Tried to load database for creating backup, but failed"
 msgstr ""
 
-#: kab/addressbook.cc:208
+#: kab/addressbook.cc:191
 msgid "Unable to save to backup file."
 msgstr ""
 
-#: kab/addressbook.cc:215
+#: kab/addressbook.cc:197
 msgid "Unable to reset filename after creating backup."
 msgstr ""
 
-#: kab/addressbook.cc:221
+#: kab/addressbook.cc:202
 msgid "Unable to create backup file"
 msgstr ""
 
-#: kab/addressbook.cc:283
+#: kab/addressbook.cc:255
 msgid "Unable to insert \""
 msgstr ""
 
-#: kab/addressbook.cc:286
+#: kab/addressbook.cc:256
 msgid "\" into configuration section (ignored)."
 msgstr ""
 
-#: kab/addressbook.cc:704
+#: kab/addressbook.cc:658
 msgid "Unable to add a new entry with available key."
 msgstr ""
 
-#: kab/addressbook.cc:712
+#: kab/addressbook.cc:664
 msgid "Cannot find previously created section."
 msgstr ""
 
-#: kab/addressbook.cc:982
+#: kab/addressbook.cc:695
+msgid "Unable to create key-value-map for entry."
+msgstr ""
+
+#: kab/addressbook.cc:924
 msgid "entry without name"
 msgstr ""
 
-#: kab/addressbook.cc:1002
+#: kab/addressbook.cc:942
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
 msgstr ""
 
-#: kab/addressbook.cc:1010
+#: kab/addressbook.cc:948
 msgid "Cannot create configuration section, exiting."
 msgstr ""
 
-#: kab/addressbook.cc:1016
+#: kab/addressbook.cc:953
 msgid "Cannot create entries section, exiting."
 msgstr ""
 
-#: kab/addressbook.cc:1022
+#: kab/addressbook.cc:958
 msgid "Unable to find previously created section, exiting."
 msgstr ""
 
-#: kab/addressbook.cc:1031
+#: kab/addressbook.cc:966
 msgid "Cannot save newly created database."
 msgstr ""
 
-#: kab/addressbook.cc:1039
+#: kab/addressbook.cc:972
 msgid "Cannot erase database contents."
 msgstr ""
 
-#: kab/addressbook.cc:1124
+#: kab/addressbook.cc:1051
 msgid "First name"
 msgstr ""
 
-#: kab/addressbook.cc:1128
+#: kab/addressbook.cc:1055
 msgid "Additional name"
 msgstr ""
 
-#: kab/addressbook.cc:1132
+#: kab/addressbook.cc:1059
 msgid "Name prefix"
 msgstr ""
 
-#: kab/addressbook.cc:1136
+#: kab/addressbook.cc:1063
 msgid "Formatted name"
 msgstr ""
 
-#: kab/addressbook.cc:1140
+#: kab/addressbook.cc:1067
 #, fuzzy
 msgid "Comment"
 msgstr "Enhavo"
 
-#: kab/addressbook.cc:1144
+#: kab/addressbook.cc:1071
 msgid "Organization"
 msgstr ""
 
-#: kab/addressbook.cc:1148
+#: kab/addressbook.cc:1075
 #, fuzzy
 msgid "Unit"
 msgstr "Sentitola"
 
-#: kab/addressbook.cc:1152
+#: kab/addressbook.cc:1079
 #, fuzzy
 msgid "Subunit"
 msgstr "Dim"
 
-#: kab/addressbook.cc:1156
+#: kab/addressbook.cc:1083
 #, fuzzy
 msgid "Title"
 msgstr "dosiero"
 
-#: kab/addressbook.cc:1160
+#: kab/addressbook.cc:1087
 #, fuzzy
 msgid "Role"
 msgstr "dosierujo"
 
-#: kab/addressbook.cc:1164
+#: kab/addressbook.cc:1091
 msgid "Birthday"
 msgstr ""
 
-#: kab/addressbook.cc:1168
+#: kab/addressbook.cc:1095
 msgid "Talk addresses"
 msgstr ""
 
-#: kab/addressbook.cc:1172
+#: kab/addressbook.cc:1099
 msgid "Delivery label"
 msgstr ""
 
-#: kab/addressbook.cc:1176
+#: kab/addressbook.cc:1103
 msgid "Email address"
 msgstr ""
 
-#: kab/addressbook.cc:1180
+#: kab/addressbook.cc:1107
 msgid "Second email address"
 msgstr ""
 
-#: kab/addressbook.cc:1184
+#: kab/addressbook.cc:1111
 msgid "Third email address"
 msgstr ""
 
-#: kab/addressbook.cc:1188
+#: kab/addressbook.cc:1115
 msgid "Email addresses"
 msgstr ""
 
-#: kab/addressbook.cc:1192
+#: kab/addressbook.cc:1119
 #, fuzzy
 msgid "Address"
 msgstr "Aldonu"
 
-#: kab/addressbook.cc:1196
+#: kab/addressbook.cc:1123
 msgid "City/Town"
 msgstr ""
 
-#: kab/addressbook.cc:1200
+#: kab/addressbook.cc:1127
 msgid "Telephone"
 msgstr ""
 
-#: kab/addressbook.cc:1204
+#: kab/addressbook.cc:1131
 msgid "Fax number"
 msgstr ""
 
-#: kab/addressbook.cc:1208
+#: kab/addressbook.cc:1135
 #, fuzzy
 msgid "Modem number"
 msgstr "Novembro"
 
-#: kab/addressbook.cc:1212
+#: kab/addressbook.cc:1139
 msgid "Homepage URL"
 msgstr ""
 
-#: kab/addressbook.cc:1216
+#: kab/addressbook.cc:1143
 msgid "Zip/postal code"
 msgstr ""
 
-#: kab/addressbook.cc:1220
+#: kab/addressbook.cc:1147
 msgid "State/province"
 msgstr ""
 
-#: kab/addressbook.cc:1224
+#: kab/addressbook.cc:1151
 #, fuzzy
 msgid "Country"
 msgstr "Eltondu"
 
-#: kab/addressbook.cc:1404
+#: kab/addressbook.cc:1318
 msgid "(unnamed entry)"
 msgstr ""
 
-#: kab/datepickerdialog.cc:35
+#: kab/datepickerdialog.cc:34
 #, fuzzy
 msgid "Select birthday"
 msgstr "Elektu tiparon"
 
-#: kab/editentry.cc:41
+#: kab/editentry.cc:37
 msgid "Edit the current entry"
 msgstr ""
 
-#: kab/editentry.cc:67
+#: kab/editentry.cc:60
 #, fuzzy
 msgid "Title:"
 msgstr "Stilo:"
 
-#: kab/editentry.cc:68
+#: kab/editentry.cc:61
 msgid "First name:"
 msgstr ""
 
-#: kab/editentry.cc:69
+#: kab/editentry.cc:62
 msgid "Additional Name:"
 msgstr ""
 
-#: kab/editentry.cc:71
+#: kab/editentry.cc:64
 msgid "Formatted Name:"
 msgstr ""
 
-#: kab/editentry.cc:94
+#: kab/editentry.cc:87
 #, fuzzy
 msgid "&Name"
 msgstr "Nomo"
 
-#: kab/editentry.cc:114
+#: kab/editentry.cc:104
 msgid "Address:"
 msgstr ""
 
-#: kab/editentry.cc:115
+#: kab/editentry.cc:105
 msgid "Zip/postal code:"
 msgstr ""
 
-#: kab/editentry.cc:116
+#: kab/editentry.cc:106
 msgid "Town:"
 msgstr ""
 
-#: kab/editentry.cc:117
+#: kab/editentry.cc:107
 #, fuzzy
 msgid "State:"
 msgstr "Dato:"
 
-#: kab/editentry.cc:118
+#: kab/editentry.cc:108
 msgid "Country:"
 msgstr ""
 
-#: kab/editentry.cc:141
+#: kab/editentry.cc:131
 msgid "&Address"
 msgstr ""
 
-#: kab/editentry.cc:161
+#: kab/editentry.cc:148
 msgid "Organization:"
 msgstr ""
 
-#: kab/editentry.cc:162
+#: kab/editentry.cc:149
 msgid "Org Unit:"
 msgstr ""
 
-#: kab/editentry.cc:163
+#: kab/editentry.cc:150
 msgid "Org Subunit:"
 msgstr ""
 
-#: kab/editentry.cc:164
+#: kab/editentry.cc:151
 #, fuzzy
 msgid "Role:"
 msgstr "Dosierujoj:"
 
-#: kab/editentry.cc:185
+#: kab/editentry.cc:172
 msgid "&Organization"
 msgstr ""
 
-#: kab/editentry.cc:205
+#: kab/editentry.cc:189
 msgid "Telephone:"
 msgstr ""
 
-#: kab/editentry.cc:206
+#: kab/editentry.cc:190
 msgid "Fax:"
 msgstr ""
 
-#: kab/editentry.cc:207
+#: kab/editentry.cc:191
 #, fuzzy
 msgid "Modem:"
 msgstr "Movu"
 
-#: kab/editentry.cc:208
+#: kab/editentry.cc:192
 msgid "Homepage (URL):"
 msgstr ""
 
-#: kab/editentry.cc:222 kab/editentry.cc:455
+#: kab/editentry.cc:206 kab/editentry.cc:434
 msgid "Edit email addresses"
 msgstr ""
 
-#: kab/editentry.cc:228 kab/editentry.cc:438
+#: kab/editentry.cc:212 kab/editentry.cc:416
 msgid "Edit talk addresses"
 msgstr ""
 
-#: kab/editentry.cc:240
+#: kab/editentry.cc:224
 #, fuzzy
 msgid "&Contact"
 msgstr "&Enhavo"
 
-#: kab/editentry.cc:265
+#: kab/editentry.cc:247
 #, fuzzy
 msgid "Comment:"
 msgstr "Enhavo:"
 
-#: kab/editentry.cc:273
+#: kab/editentry.cc:254
 msgid "Birthday:"
 msgstr ""
 
-#: kab/editentry.cc:283
+#: kab/editentry.cc:264
 msgid "O&thers"
 msgstr ""
 
-#: kab/kabapi.cc:144
+#: kab/kabapi.cc:134
 msgid "Your new entry could not be added."
 msgstr ""
 
-#: kab/searchresults.cc:38
+#: kab/searchresults.cc:33
 msgid "search results"
 msgstr ""
 
-#: kab/widget.cc:153
+#: kab/widget.cc:139
 msgid "Conversion problem"
 msgstr ""
 
-#: kab/widget.cc:154
+#: kab/widget.cc:140
 msgid ""
 "Kab could not convert your database to the\n"
 "current file format.\n"
@@ -1799,36 +1840,50 @@ msgid ""
 "supported."
 msgstr ""
 
-#: kab/widget.cc:173
+#: kab/widget.cc:158
 msgid ""
 "The application saved the last current entry,\n"
 "but this entry does not exist anymore."
 msgstr ""
 
-#: kab/widget.cc:236 kab/widget.cc:301 kab/widget.cc:309
+#: kab/widget.cc:224
+msgid "kab: Removed bug warning"
+msgstr ""
+
+#: kab/widget.cc:225
+msgid ""
+"The version of kab you used before had an\n"
+"error regarding the upgrading of the database\n"
+"for new versions. This error has been removed\n"
+"now and will not affect you anymore.\n"
+"All configuration values have been reset to\n"
+"its default settings."
+msgstr ""
+
+#: kab/widget.cc:243 kab/widget.cc:307 kab/widget.cc:315
 msgid "File handling error"
 msgstr ""
 
-#: kab/widget.cc:237
+#: kab/widget.cc:244
 msgid "Unable to open database file r/w."
 msgstr ""
 
-#: kab/widget.cc:245
+#: kab/widget.cc:252
 msgid "Email storage conversion"
 msgstr ""
 
-#: kab/widget.cc:246
+#: kab/widget.cc:253
 msgid ""
 "Kab will move all your email addresses to\n"
 "the new style supporting unlimited numbers\n"
 "of email addresses per entry."
 msgstr ""
 
-#: kab/widget.cc:280
+#: kab/widget.cc:286
 msgid "kab database update"
 msgstr ""
 
-#: kab/widget.cc:281
+#: kab/widget.cc:287
 msgid ""
 "Please note that kab now supports some new\n"
 "fields in its addresses. These new fields\n"
@@ -1840,300 +1895,331 @@ msgid ""
 "entries to make use of it."
 msgstr ""
 
-#: kab/widget.cc:302
+#: kab/widget.cc:308
 #, fuzzy
 msgid "Could not save database after update."
 msgstr "Ne eblis savi la dokumenton\n"
 
-#: kab/widget.cc:310
+#: kab/widget.cc:316
 msgid "Unable to reopen database file r/o."
 msgstr ""
 
-#: kab/widget.cc:464
+#: kab/widget.cc:477
 #, fuzzy
 msgid "first entry"
 msgstr "dosierujo"
 
-#: kab/widget.cc:465
+#: kab/widget.cc:478
 #, fuzzy
 msgid "previous entry"
 msgstr "&Antaýa"
 
-#: kab/widget.cc:466
+#: kab/widget.cc:479
 #, fuzzy
 msgid "next entry"
 msgstr "unu dosierujo"
 
-#: kab/widget.cc:467
+#: kab/widget.cc:480
 msgid "last entry"
 msgstr ""
 
-#: kab/widget.cc:468
+#: kab/widget.cc:481
 msgid "search entries"
 msgstr ""
 
-#: kab/widget.cc:469
+#: kab/widget.cc:482
 msgid "add a new entry"
 msgstr ""
 
-#: kab/widget.cc:470
+#: kab/widget.cc:483
 msgid "change this entry"
 msgstr ""
 
-#: kab/widget.cc:471
+#: kab/widget.cc:484
 msgid "remove this entry"
 msgstr ""
 
-#: kab/widget.cc:513
+#: kab/widget.cc:523
 msgid "Switched to first entry."
 msgstr ""
 
-#: kab/widget.cc:545
+#: kab/widget.cc:555
 msgid "Switched to last entry."
 msgstr ""
 
-#: kab/widget.cc:607 kab/widget.cc:662 kab/widget.cc:948 kab/widget.cc:998
+#: kab/widget.cc:616 kab/widget.cc:670 kab/widget.cc:845 kab/widget.cc:907
 msgid "Sorry, file changed."
 msgstr ""
 
-#: kab/widget.cc:611 kab/widget.cc:666 kab/widget.cc:1002
+#: kab/widget.cc:620 kab/widget.cc:674 kab/widget.cc:911
 #, fuzzy
 msgid "Permission denied."
 msgstr "Permesoj"
 
-#: kab/widget.cc:622
+#: kab/widget.cc:631
 #, fuzzy
 msgid "Remove entry?"
 msgstr "Forigu"
 
-#: kab/widget.cc:623
+#: kab/widget.cc:632
 msgid "Really remove this entry?"
 msgstr ""
 
-#: kab/widget.cc:642
+#: kab/widget.cc:650
 msgid "Entry deleted."
 msgstr ""
 
-#: kab/widget.cc:676
+#: kab/widget.cc:684
 msgid "Added a new entry."
 msgstr ""
 
-#: kab/widget.cc:799
-msgid "The mail command must be configured before!"
-msgstr ""
-
-#: kab/widget.cc:803 kab/widget.cc:916 kab/widget.cc:1273 kab/widget.cc:1953
-#: kab/widgets.cc:47
-msgid "No entries."
-msgstr ""
-
-#: kab/widget.cc:822
-msgid "Empty email address."
-msgstr ""
-
-#: kab/widget.cc:832 kab/widget.cc:1860 kab/widget.cc:1996 kab/widgets.cc:75
-#: kab/widgets.cc:99
-msgid "Rejected."
-msgstr ""
-
-#: kab/widget.cc:842
-msgid "Mail configuration"
-msgstr ""
-
-#: kab/widget.cc:843
-msgid "Please configure the parameters for the email command."
-msgstr ""
-
-#: kab/widget.cc:869
-msgid "The email command parameters are wrong."
-msgstr ""
-
-#: kab/widget.cc:881
-msgid ""
-"Email command failed.\n"
-"Make sure you did setup your email command and parameter!"
-msgstr ""
-
-#: kab/widget.cc:885
-msgid "Mail program started."
-msgstr ""
-
-#: kab/widget.cc:909
+#: kab/widget.cc:806
 msgid "Opened browser window."
 msgstr ""
 
-#: kab/widget.cc:912
+#: kab/widget.cc:809
 msgid "No URL."
 msgstr ""
 
-#: kab/widget.cc:921
+#: kab/widget.cc:813 kab/widget.cc:1153 kab/widget.cc:1766 kab/widget.cc:1944
+#: kab/widget.cc:2023
+msgid "No entries."
+msgstr ""
+
+#: kab/widget.cc:818
 msgid "The filemanager is busy, please try again."
 msgstr ""
 
-#: kab/widget.cc:941
+#: kab/widget.cc:838
 msgid ""
 "The addressbook file is currently\n"
 "locked by another application.\n"
 "kab cannot save it."
 msgstr ""
 
-#: kab/widget.cc:959
+#: kab/widget.cc:855
+msgid "Database saved successfully."
+msgstr ""
+
+#: kab/widget.cc:860
+msgid "kab: File error"
+msgstr ""
+
+#: kab/widget.cc:860
 #, fuzzy
 msgid "Could not save database."
 msgstr "Ne eblis savi la dokumenton\n"
 
-#: kab/widget.cc:961
-msgid "Database saved successfully."
+#: kab/widget.cc:861
+#, fuzzy
+msgid "&Retry"
+msgstr "Restarigu"
+
+#: kab/widget.cc:861
+msgid "&Ignore"
 msgstr ""
 
-#: kab/widget.cc:1021
+#: kab/widget.cc:864
+#, fuzzy
+msgid "Saving cancelled.\n"
+msgstr "Rezignu"
+
+#: kab/widget.cc:930
 msgid "Entry changed."
 msgstr ""
 
-#: kab/widget.cc:1121
+#: kab/widget.cc:1020
 msgid "Results"
 msgstr ""
 
-#: kab/widget.cc:1122
+#: kab/widget.cc:1020
 msgid "No entry matches this."
 msgstr ""
 
-#: kab/widget.cc:1147
+#: kab/widget.cc:1043
 msgid "Search results window closed."
 msgstr ""
 
-#: kab/widget.cc:1261
+#: kab/widget.cc:1142
 msgid "The talk command must be configured before!"
 msgstr ""
 
-#: kab/widget.cc:1266
+#: kab/widget.cc:1147
 msgid "Talk configuration"
 msgstr ""
 
-#: kab/widget.cc:1267
+#: kab/widget.cc:1148
 msgid "Please configure the parameters for the talk command."
 msgstr ""
 
-#: kab/widget.cc:1282
+#: kab/widget.cc:1161
 msgid "No talk address."
 msgstr ""
 
-#: kab/widget.cc:1298
+#: kab/widget.cc:1169
 msgid "kab: Talk addresses"
 msgstr ""
 
-#: kab/widget.cc:1299
+#: kab/widget.cc:1170
 msgid "Available talk addresses:"
 msgstr ""
 
-#: kab/widget.cc:1305 kab/widget.cc:2101
+#: kab/widget.cc:1176 kab/widget.cc:1904
 #, fuzzy
 msgid "Cancelled."
 msgstr "Rezignu"
 
-#: kab/widget.cc:1331
+#: kab/widget.cc:1199
 msgid "The talk command parameters are wrong."
 msgstr ""
 
-#: kab/widget.cc:1343
+#: kab/widget.cc:1211
 msgid ""
 "Talk command failed.\n"
 "Make sure you did setup your talk command and parameter!"
 msgstr ""
 
-#: kab/widget.cc:1347
+#: kab/widget.cc:1214
 msgid "Talk program started."
 msgstr ""
 
-#: kab/widget.cc:1399
+#: kab/widget.cc:1262
 msgid "Attention: printing is still experimental!"
 msgstr ""
 
-#: kab/widget.cc:1504 kab/widget.cc:1552
+#: kab/widget.cc:1358 kab/widget.cc:1400
 msgid "Page size problem"
 msgstr ""
 
-#: kab/widget.cc:1505 kab/widget.cc:1553
+#: kab/widget.cc:1359 kab/widget.cc:1401
 msgid ""
 "The fields you requested to print do\n"
 "not fit into the page width."
 msgstr ""
 
-#: kab/widget.cc:1760 kab/widgets.cc:113
+#: kab/widget.cc:1578 kab/widget.cc:2002
 msgid "Printing finished successfully."
 msgstr ""
 
-#: kab/widget.cc:1791
+#: kab/widget.cc:1604
 msgid "kab: Email addresses"
 msgstr ""
 
-#: kab/widget.cc:1792
+#: kab/widget.cc:1605
 msgid "Available email addresses:"
 msgstr ""
 
-#: kab/widget.cc:1857
+#: kab/widget.cc:1670
 msgid "kab: Select fields to copy"
 msgstr ""
 
-#: kab/widget.cc:1867
+#: kab/widget.cc:1673 kab/widget.cc:1808 kab/widget.cc:1971 kab/widget.cc:1993
+#: kab/widget.cc:2048
+msgid "Rejected."
+msgstr ""
+
+#: kab/widget.cc:1680
 msgid "Nothing selected."
 msgstr ""
 
-#: kab/widget.cc:1925 kab/widgets.cc:92
+#: kab/widget.cc:1738 kab/widget.cc:1987
 msgid "KDE addressbook overview"
 msgstr ""
 
-#: kab/widget.cc:1970
-msgid "Name-Email-Link (recommended!)"
+#: kab/widget.cc:1782
+msgid "Name-Email-Link (!!)"
 msgstr ""
 
-#: kab/widget.cc:1972
+#: kab/widget.cc:1784
 #, fuzzy
 msgid "Select table columns"
 msgstr "Elektu piktogramon"
 
-#: kab/widget.cc:1977
+#: kab/widget.cc:1789
 msgid "Nothing to export."
 msgstr ""
 
-#: kab/widget.cc:2008
+#: kab/widget.cc:1818
 msgid "Email link"
 msgstr ""
 
-#: kab/widget.cc:2088
+#: kab/widget.cc:1893
 msgid "Could not find the users home directory."
 msgstr ""
 
-#: kab/widget.cc:2089
+#: kab/widget.cc:1894
 msgid "Intern error!"
 msgstr ""
 
-#: kab/widget.cc:2111
+#: kab/widget.cc:1914
 msgid "Could not open the file to create the HTML table."
 msgstr ""
 
-#: kab/widgets.cc:52
+#: kab/widget.cc:1949
 msgid "Printing cancelled."
 msgstr ""
 
-#: kab/widgets.cc:67
+#: kab/widget.cc:1964
 msgid "kab: Select columns for printing"
 msgstr ""
 
-#: kab/widgets.cc:81
+#: kab/widget.cc:1977
 msgid "Nothing to print."
 msgstr ""
 
-#: kab/widgets.cc:93
+#: kab/widget.cc:1988
 msgid "Page <p>"
 msgstr ""
 
-#: kab/widgets.cc:94
+#: kab/widget.cc:1989
 msgid "KDE - the professionals choice."
 msgstr ""
 
-#: kab/widgets.cc:110
+#: kab/widget.cc:2000
 msgid "Printing failed!"
+msgstr ""
+
+#: kab/widget.cc:2031
+msgid "Empty email address."
+msgstr ""
+
+#: kab/widget.cc:2050
+msgid "No email address."
+msgstr ""
+
+#: kab/widget.cc:2060
+#, fuzzy
+msgid "Error calling mailer."
+msgstr "Eraro: Ne estas loka dosiero"
+
+#: kab/widget.cc:2062
+msgid "Mailer called."
+msgstr ""
+
+#: kab/widget.cc:2085
+msgid "The mail command must be configured before!"
+msgstr ""
+
+#: kab/widget.cc:2090
+msgid "Mail configuration"
+msgstr ""
+
+#: kab/widget.cc:2091
+msgid "Please configure the parameters for the email command."
+msgstr ""
+
+#: kab/widget.cc:2129
+msgid "The email command parameters are wrong."
+msgstr ""
+
+#: kab/widget.cc:2141
+msgid ""
+"Email command failed.\n"
+"Make sure you did setup your email command and parameter!"
+msgstr ""
+
+#: kab/widget.cc:2145
+msgid "Mail program started."
 msgstr ""
 
 #: kio/kio_cache.cc:345
@@ -2649,6 +2735,14 @@ msgid ""
 "\n"
 "does not conatain a Name=... entry"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Search"
+#~ msgstr "Marto"
+
+#, fuzzy
+#~ msgid "contains"
+#~ msgstr "Enhavo"
 
 #~ msgid "&New"
 #~ msgstr "&Nova"
