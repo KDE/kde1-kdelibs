@@ -21,35 +21,20 @@ RU_GMFILES = ru_kde.gmo
 POFILES = $(DE_POFILES) $(FR_POFILES) $(SV_POFILES) $(CZ_POFILES) $(ES_POFILES) $(RU_POFILES)
 GMOFILES= $(DE_GMFILES) $(FR_GMFILES) $(SV_GMFILES) $(CZ_GMFILES) $(ES_GMFILES) $(RU_GMFILES)
 
-# more general options
-srcdir = @srcdir@
-top_srcdir = @top_srcdir@
-prefix = @prefix@
-exec_prefix = @exec_prefix@
 localedir = $(prefix)/share/locale
 
-INSTALL = @INSTALL@
-INSTALL_DATA = @INSTALL_DATA@
-MKINSTALLDIRS = $(SHELL) $(top_srcdir)/mkinstalldirs
-SHELL = /bin/sh
+MAINTAINERCLEANFILES = $(GMOFILES)
 
 GMSGFMT = @GMSGFMT@
 MSGFMT = @MSGFMT@
 XGETTEXT = @XGETTEXT@
 DISTFILES = Makefile.in $(POFILES) $(GMOFILES)
 
-# files:
-
-default: all
 
 all: all-@USE_NLS@
-install: install-@USE_NLS@
+install-data-local: install-@USE_NLS@
 
-Makefile: Makefile.in
-	cd .. && \
-	CONFIG_FILES=po/$@ CONFIG_HEADERS= $(SHELL) ./config.status
-
-.SUFFIXES: .po .gmo
+SUFFIXES = .po .gmo
 
 .po.mo:
 	$(MSGFMT) -o $@ $<
@@ -68,12 +53,14 @@ install-yes: all
 	lang=`echo $$cat | sed 's/_.*$$//'`; \
 	name=`echo $$cat | sed -e 's/^.._//' | sed -e 's/\.gmo/\.mo/'` \
 	dir=$$destdir/$$lang/LC_MESSAGES; \
-	$(MKINSTALLDIRS) $$dir; \
+	$(mkinstalldirs) $$dir; \
 	$(INSTALL_DATA) $$cat $$dir/$$name; \
 	  echo "installing $$cat as $$dir/$$name"; \
 	done
 
-uninstall:
+install-no:
+
+uninstall-local:
 	@catalogs='$(GMOFILES)'; \
 	for cat in $$catalogs; do \
 	destdir=$(localedir); \
@@ -84,21 +71,16 @@ uninstall:
 	echo "removing $$dir/$$name" ; \
 	done
 
-install-no:
-
-distclean:
-	rm -f *~ Makefile
-
 merge:
 	@catalogs='$(POFILES)'; \
 	for cat in $$catalogs; do \
-	msgmerge $$cat kde.po > $$cat.new ; \
-	if diff -q $$cat $$cat.new; then \
-		rm $$cat.new ;\
+	name=`echo $$cat | sed -e 's/^.._//' `; \
+	echo $$cat $$name; \
+	msgmerge $$cat $$name > $$cat.new ; \
+	if diff $$cat $$cat.new; then \
+		rm $$cat.new;  \
 	else  \
-		mv $$cat.new $$cat ;\
+		mv $$cat.new $$cat ; \
 	fi; \
-	done 
+	done
 
-clean:
-	rm -f *~ 
