@@ -11,7 +11,7 @@ msgstr "&Conteúdo"
 
 #: kdecore/kapp.cpp:500
 msgid "&About"
-msgstr "&Acerca"
+msgstr "&Acerca do"
 
 #: kdecore/kapp.cpp:507
 msgid "About &KDE..."
