@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kde\n"
-"POT-Creation-Date: 1998-12-16 01:00+0100\n"
+"POT-Creation-Date: 1998-12-17 01:00+0100\n"
 "PO-Revision-Date: 1998-06-23 09:00-0300\n"
 "Last-Translator:Elvis Pfützenreuter <epx@netville.com.br>\n"
 
@@ -864,23 +864,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr "Conflito de teclas"
 
-#: kdeui/kmenubar.cpp:256 kdeui/ktoolbar.cpp:847
+#: kdeui/kmenubar.cpp:269 kdeui/ktoolbar.cpp:847
 msgid "Top"
 msgstr "Topo"
 
-#: kdeui/kmenubar.cpp:257 kdeui/ktoolbar.cpp:849
+#: kdeui/kmenubar.cpp:270 kdeui/ktoolbar.cpp:849
 msgid "Bottom"
 msgstr "Fundo"
 
-#: kdeui/kmenubar.cpp:258 kdeui/ktoolbar.cpp:850
+#: kdeui/kmenubar.cpp:271 kdeui/ktoolbar.cpp:850
 msgid "Floating"
 msgstr "Flutuante"
 
-#: kdeui/kmenubar.cpp:408 kdeui/kmenubar.cpp:744 kdeui/ktoolbar.cpp:2161
+#: kdeui/kmenubar.cpp:420 kdeui/kmenubar.cpp:762 kdeui/ktoolbar.cpp:2161
 msgid "Float"
 msgstr "Flutuar"
 
-#: kdeui/kmenubar.cpp:713 kdeui/ktoolbar.cpp:2142
+#: kdeui/kmenubar.cpp:714 kdeui/ktoolbar.cpp:2142
 msgid "UnFloat"
 msgstr "Retirar Flutuação"
 

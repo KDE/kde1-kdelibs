@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs 1.1\n"
-"POT-Creation-Date: 1998-12-16 01:00+0100\n"
+"POT-Creation-Date: 1998-12-17 01:00+0100\n"
 "PO-Revision-Date: 1998-12-12 17:44+01:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
@@ -870,23 +870,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr "Tangentkonflikt"
 
-#: kdeui/kmenubar.cpp:256 kdeui/ktoolbar.cpp:847
+#: kdeui/kmenubar.cpp:269 kdeui/ktoolbar.cpp:847
 msgid "Top"
 msgstr "Överst"
 
-#: kdeui/kmenubar.cpp:257 kdeui/ktoolbar.cpp:849
+#: kdeui/kmenubar.cpp:270 kdeui/ktoolbar.cpp:849
 msgid "Bottom"
 msgstr "Underst"
 
-#: kdeui/kmenubar.cpp:258 kdeui/ktoolbar.cpp:850
+#: kdeui/kmenubar.cpp:271 kdeui/ktoolbar.cpp:850
 msgid "Floating"
 msgstr "Svävande"
 
-#: kdeui/kmenubar.cpp:408 kdeui/kmenubar.cpp:744 kdeui/ktoolbar.cpp:2161
+#: kdeui/kmenubar.cpp:420 kdeui/kmenubar.cpp:762 kdeui/ktoolbar.cpp:2161
 msgid "Float"
 msgstr "Sväva"
 
-#: kdeui/kmenubar.cpp:713 kdeui/ktoolbar.cpp:2142
+#: kdeui/kmenubar.cpp:714 kdeui/ktoolbar.cpp:2142
 msgid "UnFloat"
 msgstr "Landa"
 

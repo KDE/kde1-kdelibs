@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-12-15 01:01+0100\n"
+"POT-Creation-Date: 1998-12-17 01:00+0100\n"
 "PO-Revision-Date: 1998-12-15 23:30+0100\n"
 "Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
-"Translator: Francois-Xavier DURANCEAU <Francois-Xavier.Duranceau@loria.fr>\n"
 "Language-Team: Français <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
+"Translator: Francois-Xavier DURANCEAU <Francois-Xavier.Duranceau@loria.fr>\n"
 
 #: kab/AssertDialog.cpp:29
 msgid "(unknown file)"
@@ -785,27 +785,27 @@ msgstr "Touches globales"
 msgid "Keys"
 msgstr "Touches"
 
-#: kdeui/kkeydialog.cpp:637 kdeui/kkeydialog.cpp:970
+#: kdeui/kkeydialog.cpp:637 kdeui/kkeydialog.cpp:976
 msgid "Attention : key already used"
 msgstr "Attention : touche déjà utilisée"
 
-#: kdeui/kkeydialog.cpp:920
+#: kdeui/kkeydialog.cpp:926
 msgid "Press the wanted key"
 msgstr "Appuyer sur la touche souhaitée"
 
-#: kdeui/kkeydialog.cpp:943
+#: kdeui/kkeydialog.cpp:949
 msgid "Undefined key"
 msgstr "Touche non définie"
 
-#: kdeui/kkeydialog.cpp:992
+#: kdeui/kkeydialog.cpp:999
 msgid "Return to end edition"
 msgstr ""
 
-#: kdeui/kkeydialog.cpp:1002
+#: kdeui/kkeydialog.cpp:1009
 msgid "Incorrect key"
 msgstr "Touche incorrecte"
 
-#: kdeui/kkeydialog.cpp:1028
+#: kdeui/kkeydialog.cpp:1035
 #, c-format
 msgid ""
 "The %s key combination has already been allocated\n"
@@ -818,11 +818,11 @@ msgstr ""
 "\n"
 "Choisissez une combinaison de touches unique."
 
-#: kdeui/kkeydialog.cpp:1032
+#: kdeui/kkeydialog.cpp:1039
 msgid "Global key conflict"
 msgstr "Conflit de touche globale"
 
-#: kdeui/kkeydialog.cpp:1055
+#: kdeui/kkeydialog.cpp:1062
 #, c-format
 msgid ""
 "The %s key combination has already been allocated\n"
@@ -835,11 +835,11 @@ msgstr ""
 "\n"
 "Choisissez une combinaison de touches unique."
 
-#: kdeui/kkeydialog.cpp:1059
+#: kdeui/kkeydialog.cpp:1066
 msgid "Standard key conflict"
 msgstr "Conflit de touche standard"
 
-#: kdeui/kkeydialog.cpp:1079
+#: kdeui/kkeydialog.cpp:1086
 #, c-format
 msgid ""
 "The %s key combination has already been allocated\n"
@@ -852,33 +852,34 @@ msgstr ""
 "\n"
 "Choisissez une combinaison de touches unique."
 
-#: kdeui/kkeydialog.cpp:1083
+#: kdeui/kkeydialog.cpp:1090
 msgid "Key conflict"
 msgstr "Conflit de touche"
 
-#: kdeui/kmenubar.cpp:256 kdeui/ktoolbar.cpp:847
+#: kdeui/kmenubar.cpp:269 kdeui/ktoolbar.cpp:847
 msgid "Top"
 msgstr "Haut"
 
-#: kdeui/kmenubar.cpp:257 kdeui/ktoolbar.cpp:849
+#: kdeui/kmenubar.cpp:270 kdeui/ktoolbar.cpp:849
 msgid "Bottom"
 msgstr "Bas"
 
-#: kdeui/kmenubar.cpp:258 kdeui/ktoolbar.cpp:850
+#: kdeui/kmenubar.cpp:271 kdeui/ktoolbar.cpp:850
 msgid "Floating"
 msgstr "Flottant"
 
-#: kdeui/kmenubar.cpp:408 kdeui/kmenubar.cpp:744 kdeui/ktoolbar.cpp:2161
+#: kdeui/kmenubar.cpp:420 kdeui/kmenubar.cpp:762 kdeui/ktoolbar.cpp:2161
 msgid "Float"
 msgstr "Flottant"
 
-#: kdeui/kmenubar.cpp:713 kdeui/ktoolbar.cpp:2142
+#: kdeui/kmenubar.cpp:714 kdeui/ktoolbar.cpp:2142
 msgid "UnFloat"
 msgstr "Rattacher"
 
 #: kdeui/knotebook.cpp:145
 msgid "Trying to add page when no KWizards are added!"
-msgstr "Vous tentez d'ajouter une page sans avoir au préalable ajouté un KWizard !"
+msgstr ""
+"Vous tentez d'ajouter une page sans avoir au préalable ajouté un KWizard !"
 
 #: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:182
 msgid "&Default"
@@ -1936,7 +1937,7 @@ msgid ""
 "The application saved the last current entry,\n"
 "but this entry does not exist anymore."
 msgstr ""
-"L'application a enregistré la dernière entrée courante\n" 
+"L'application a enregistré la dernière entrée courante\n"
 "mais cette entrée n'existe plus."
 
 #: kab/widget.cc:226
@@ -2350,7 +2351,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:19
-#, format
+#, c-format
 msgid ""
 "Could not write to\n"
 "%s"
@@ -2673,7 +2674,8 @@ msgstr "Le presse-papiers est vide"
 msgid ""
 "Pasting clipboard data is only supported on the local hard disk currently"
 msgstr ""
-"Coller des données du presse-papiers est actuellement seulement supporté sur le disque dur local"
+"Coller des données du presse-papiers est actuellement seulement supporté sur "
+"le disque dur local"
 
 #: kio/kio_paste.cc:80
 msgid "Filename for clipboard content:"

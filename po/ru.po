@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-12-16 01:00+0100\n"
+"POT-Creation-Date: 1998-12-17 01:00+0100\n"
 "Content-Type: text/plain; charset=koi8-r\n"
 "Date: 1997-11-20 18:24:38+0600\n"
 "From: Denis Y. Pershin <dyp@inetlab.com>\n"
@@ -873,23 +873,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr "Конфликт клавиш"
 
-#: kdeui/kmenubar.cpp:256 kdeui/ktoolbar.cpp:847
+#: kdeui/kmenubar.cpp:269 kdeui/ktoolbar.cpp:847
 msgid "Top"
 msgstr "Верх"
 
-#: kdeui/kmenubar.cpp:257 kdeui/ktoolbar.cpp:849
+#: kdeui/kmenubar.cpp:270 kdeui/ktoolbar.cpp:849
 msgid "Bottom"
 msgstr "Низ"
 
-#: kdeui/kmenubar.cpp:258 kdeui/ktoolbar.cpp:850
+#: kdeui/kmenubar.cpp:271 kdeui/ktoolbar.cpp:850
 msgid "Floating"
 msgstr "Плавающий"
 
-#: kdeui/kmenubar.cpp:408 kdeui/kmenubar.cpp:744 kdeui/ktoolbar.cpp:2161
+#: kdeui/kmenubar.cpp:420 kdeui/kmenubar.cpp:762 kdeui/ktoolbar.cpp:2161
 msgid "Float"
 msgstr "Сделать плавающей"
 
-#: kdeui/kmenubar.cpp:713 kdeui/ktoolbar.cpp:2142
+#: kdeui/kmenubar.cpp:714 kdeui/ktoolbar.cpp:2142
 msgid "UnFloat"
 msgstr "Сделать неплавающей"
 
