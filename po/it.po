@@ -1,4 +1,5 @@
-
+#KDE Translation project
+#Italian Translation by Andrea Rizzzi <Bilibao@ouverture.it>
 # general messages, that are often used
 msgid "Error"
 msgstr "Errore"
@@ -167,7 +168,7 @@ msgstr "Filtro:"
 #: kiconloader.cpp:337
 #, c-format
 msgid "ERROR: couldn't find icon: %s"
-msgstr "ERORRE: non si trova l'icona: %s"
+msgstr "ERORRE: impossibile trovare l'icona: %s"
 
 #: kmenubar.cpp:106 ktoolbar.cpp:273
 msgid "Top"
@@ -179,19 +180,19 @@ msgstr "In Basso"
 
 #: kmenubar.cpp:108 ktoolbar.cpp:276
 msgid "Floating"
-msgstr "Fluttuante"
+msgstr "Galleggiante"
 
 #: kmenubar.cpp:182 kmenubar.cpp:223 ktoolbar.cpp:699 ktoolbar.cpp:1208
 msgid "Float"
-msgstr "Fluttua"
+msgstr "Galleggia"
 
 #: kmenubar.cpp:213 ktoolbar.cpp:1198
 msgid "UnFloat"
-msgstr "Non Fluttuante"
+msgstr "Non Galleggiante"
 
 #: ktoolbar.cpp:87 ktoolbar.cpp:145
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr "KToolBarButton: Pixmap vuota, possibile file mancante"
+msgstr "KToolBarButton: Pixmap vuota, è possibile che manchi il file"
 
 #: ktoolbar.cpp:272
 msgid "Left"
