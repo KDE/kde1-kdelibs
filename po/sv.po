@@ -1,51 +1,50 @@
-# general messages, that are often used
 msgid "Error"
-msgstr ""
+msgstr "Fel"
 
 msgid "Malformed URL"
-msgstr ""
+msgstr "Ogiltlig URL"
 
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 msgid "No"
-msgstr ""
+msgstr "Nej"
 
 msgid "Warning"
-msgstr ""
+msgstr "Varning"
 
 msgid "Open a file"
-msgstr ""
+msgstr "Öppna en fil"
 
 msgid "Save a file"
-msgstr ""
+msgstr "Spara en fil"
 
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 msgid "About"
-msgstr ""
+msgstr "Om"
 
 msgid "Open"
-msgstr ""
+msgstr "Öppna"
 
 msgid "Save"
-msgstr ""
+msgstr "Spara"
 
 msgid "Save As"
-msgstr ""
+msgstr "Spara som"
 
 msgid "Close"
-msgstr ""
+msgstr "Stäng"
 
 msgid "Quit"
-msgstr ""
+msgstr "Avsluta"
 
 msgid "Untitled"
-msgstr ""
+msgstr "Namnlös"
 
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 msgid "Ok"
 msgstr ""
@@ -200,12 +199,14 @@ msgid "Right"
 msgstr ""
 
 #: kapp.cpp:330
+#, fuzzy
 msgid "About "
-msgstr ""
+msgstr "Om"
 
 #: kapp.cpp:334 kapp.cpp:355
+#, fuzzy
 msgid "About KDE"
-msgstr ""
+msgstr "Om"
 
 #: kapp.cpp:357
 msgid ""

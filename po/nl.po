@@ -1,146 +1,151 @@
-# general messages, that are often used
+# Dutch translation of the general kde messages.
+# Copyright (C) 1997 Jeroen van der Most <jvdmost@wi.leidenuniv.nl>.
+#
 msgid "Error"
-msgstr ""
+msgstr "Fout"
 
 msgid "Malformed URL"
-msgstr ""
+msgstr "URL heeft een verkeerd formaat"
 
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 msgid "No"
-msgstr ""
+msgstr "Nee"
 
 msgid "Warning"
-msgstr ""
+msgstr "Waarschuwing"
 
 msgid "Open a file"
-msgstr ""
+msgstr "Open een bestand"
 
 msgid "Save a file"
-msgstr ""
+msgstr "Bewaar een bestand"
 
 msgid "Contents"
-msgstr ""
+msgstr "Inhoud"
 
 msgid "About"
-msgstr ""
+msgstr "Info"
 
 msgid "Open"
-msgstr ""
+msgstr "Openen"
 
 msgid "Save"
-msgstr ""
+msgstr "Opslaan"
 
 msgid "Save As"
-msgstr ""
+msgstr "Opslaan als"
 
 msgid "Close"
-msgstr ""
+msgstr "Sluiten"
 
 msgid "Quit"
-msgstr ""
+msgstr "Afsluiten"
 
 msgid "Untitled"
-msgstr ""
+msgstr "Naamloos"
 
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Annuleren"
 
 msgid "Apply"
-msgstr ""
+msgstr "Toepassen"
 
 msgid "File"
-msgstr ""
+msgstr "Bestand"
 
 msgid "Help"
-msgstr ""
+msgstr "Help"
 
 msgid "Edit"
-msgstr ""
+msgstr "Bewerken"
 
 # libkdeui messages
 #: kcolordlg.cpp:239
 msgid "Select Color"
-msgstr ""
+msgstr "Selecteer kleur"
 
 #: kcolordlg.cpp:244
 msgid "System Colors"
-msgstr ""
+msgstr "Systeem kleuren"
 
 #: kcolordlg.cpp:269
 msgid "Custom Colors"
-msgstr ""
+msgstr "Eigen kleuren"
 
 #: kcolordlg.cpp:345
 msgid "Add to Custom Colors"
-msgstr ""
+msgstr "Aan eigen kleuren toevoegen"
 
 #: kcolordlg.cpp:649 kcolordlg.cpp:699
 msgid "Custom..."
-msgstr ""
+msgstr "Eigen..."
 
 #: kfontdialog.cpp:95
 msgid "Select Font"
-msgstr ""
+msgstr "Selecteer lettertype"
 
 #: kfontdialog.cpp:99
 msgid "Requested Font"
-msgstr ""
+msgstr "Geselecteerd lettertype"
 
 #: kfontdialog.cpp:104
 msgid "Actual Font"
-msgstr ""
+msgstr "Werkelijk lettertype"
 
 #: kfontdialog.cpp:108 kfontdialog.cpp:112
 msgid "Family:"
-msgstr ""
+msgstr "Familie:"
 
 #: kfontdialog.cpp:119 kfontdialog.cpp:124
 msgid "Size:"
-msgstr ""
+msgstr "Grootte:"
 
+# FIXME
 #: kfontdialog.cpp:133 kfontdialog.cpp:138
 msgid "Weight:"
-msgstr ""
+msgstr "Gewicht"
 
 #: kfontdialog.cpp:147 kfontdialog.cpp:155
 msgid "Style:"
-msgstr ""
+msgstr "Stijl:"
 
 #: kfontdialog.cpp:190
 msgid "Size"
-msgstr ""
+msgstr "Grootte"
 
+# FIXME
 #: kfontdialog.cpp:229
 msgid "Weight"
-msgstr ""
+msgstr "Gewicht"
 
 #: kfontdialog.cpp:230 kfontdialog.cpp:327
 msgid "normal"
-msgstr ""
+msgstr "normaal"
 
 #: kfontdialog.cpp:231 kfontdialog.cpp:329
 msgid "bold"
-msgstr ""
+msgstr "vet"
 
 #: kfontdialog.cpp:240
 msgid "Style"
-msgstr ""
+msgstr "Stijl"
 
+# FIXME
 #: kfontdialog.cpp:241 kfontdialog.cpp:340 kfontdialog.cpp:369
 msgid "roman"
-msgstr ""
+msgstr "rechtop"
 
 #: kfontdialog.cpp:242 kfontdialog.cpp:342 kfontdialog.cpp:367
 msgid "italic"
-msgstr ""
+msgstr "cursief"
 
 #: kfontdialog.cpp:270
 msgid "Dolor Ipse"
@@ -148,15 +153,15 @@ msgstr ""
 
 #: kfontdialog.cpp:362
 msgid "Bold"
-msgstr ""
+msgstr "Vet"
 
 #: kfontdialog.cpp:364
 msgid "Normal"
-msgstr ""
+msgstr "Normaal"
 
 #: kiconloader.cpp:176
 msgid "Select Icon"
-msgstr ""
+msgstr "Selecteer pictogram"
 
 #: kiconloader.cpp:182
 msgid "Filter:"
@@ -165,39 +170,39 @@ msgstr ""
 #: kiconloader.cpp:337
 #, c-format
 msgid "ERROR: couldn't find icon: %s"
-msgstr ""
+msgstr "FOUT: kan pictogram %s niet vinden"
 
 #: kmenubar.cpp:106 ktoolbar.cpp:273
 msgid "Top"
-msgstr ""
+msgstr "Boven"
 
 #: kmenubar.cpp:107 ktoolbar.cpp:275
 msgid "Bottom"
-msgstr ""
+msgstr "Onder"
 
 #: kmenubar.cpp:108 ktoolbar.cpp:276
 msgid "Floating"
-msgstr ""
+msgstr "Zwevend"
 
 #: kmenubar.cpp:182 kmenubar.cpp:223 ktoolbar.cpp:699 ktoolbar.cpp:1208
 msgid "Float"
-msgstr ""
+msgstr "Zweven"
 
 #: kmenubar.cpp:213 ktoolbar.cpp:1198
 msgid "UnFloat"
-msgstr ""
+msgstr "Vast"
 
 #: ktoolbar.cpp:87 ktoolbar.cpp:145
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr ""
+msgstr "KToolBarButton: pixmap is leeg, mischien een missend bestand"
 
 #: ktoolbar.cpp:272
 msgid "Left"
-msgstr ""
+msgstr "Links"
 
 #: ktoolbar.cpp:274
 msgid "Right"
-msgstr ""
+msgstr "Rechts"
 
 #: kapp.cpp:330
 msgid "About "

@@ -57,9 +57,8 @@ uninstall-local:
 merge:
 	@catalogs='$(POFILES)'; \
 	for cat in $$catalogs; do \
-	name=`echo $$cat | sed -e 's/^.._//' `; \
 	echo $$cat $$name; \
-	msgmerge $$cat $$name > $$cat.new ; \
+	msgmerge $$cat kde.pot > $$cat.new ; \
 	if diff $$cat $$cat.new; then \
 		rm $$cat.new;  \
 	else  \

@@ -1,211 +1,213 @@
 # general messages, that are often used
 msgid "Error"
-msgstr ""
+msgstr "Erro"
 
 msgid "Malformed URL"
-msgstr ""
+msgstr "URL inválido"
 
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 msgid "Warning"
-msgstr ""
+msgstr "Aviso"
 
 msgid "Open a file"
-msgstr ""
+msgstr "Abrir um ficheiro"
 
 msgid "Save a file"
-msgstr ""
+msgstr "Gravar um ficheiro"
 
 msgid "Contents"
-msgstr ""
+msgstr "Conteúdo"
 
 msgid "About"
-msgstr ""
+msgstr "Acerca"
 
 msgid "Open"
-msgstr ""
+msgstr "Abrir"
 
 msgid "Save"
-msgstr ""
+msgstr "Gravar"
 
 msgid "Save As"
-msgstr ""
+msgstr "Gravar Como"
 
 msgid "Close"
-msgstr ""
+msgstr "Fechar"
 
 msgid "Quit"
-msgstr ""
+msgstr "Sair"
 
 msgid "Untitled"
-msgstr ""
+msgstr "Sem-titúlo"
 
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 msgid "Apply"
-msgstr ""
+msgstr "Aplicar"
 
 msgid "File"
-msgstr ""
+msgstr "Ficheiro"
 
 msgid "Help"
-msgstr ""
+msgstr "Ajuda"
 
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 # libkdeui messages
 #: kcolordlg.cpp:239
 msgid "Select Color"
-msgstr ""
+msgstr "Seleccionar uma Cor"
 
 #: kcolordlg.cpp:244
 msgid "System Colors"
-msgstr ""
+msgstr "Cores do Sistema"
 
 #: kcolordlg.cpp:269
 msgid "Custom Colors"
-msgstr ""
+msgstr "Cores Personalizadas"
 
 #: kcolordlg.cpp:345
 msgid "Add to Custom Colors"
-msgstr ""
+msgstr "Adicionar a Cores Personalizadas"
 
 #: kcolordlg.cpp:649 kcolordlg.cpp:699
 msgid "Custom..."
-msgstr ""
+msgstr "Personalizar..."
 
 #: kfontdialog.cpp:95
 msgid "Select Font"
-msgstr ""
+msgstr "Escolher uma Fonte"
 
 #: kfontdialog.cpp:99
 msgid "Requested Font"
-msgstr ""
+msgstr "Fonte Pedida"
 
 #: kfontdialog.cpp:104
 msgid "Actual Font"
-msgstr ""
+msgstr "Fonte Efectiva"
 
 #: kfontdialog.cpp:108 kfontdialog.cpp:112
 msgid "Family:"
-msgstr ""
+msgstr "Familia:"
 
 #: kfontdialog.cpp:119 kfontdialog.cpp:124
 msgid "Size:"
-msgstr ""
+msgstr "Tamanho:"
 
 #: kfontdialog.cpp:133 kfontdialog.cpp:138
 msgid "Weight:"
-msgstr ""
+msgstr "Peso:"
 
 #: kfontdialog.cpp:147 kfontdialog.cpp:155
 msgid "Style:"
-msgstr ""
+msgstr "Estilo:"
 
 #: kfontdialog.cpp:190
 msgid "Size"
-msgstr ""
+msgstr "Tamanho"
 
 #: kfontdialog.cpp:229
 msgid "Weight"
-msgstr ""
+msgstr "Peso"
 
 #: kfontdialog.cpp:230 kfontdialog.cpp:327
 msgid "normal"
-msgstr ""
+msgstr "normal"
 
 #: kfontdialog.cpp:231 kfontdialog.cpp:329
 msgid "bold"
-msgstr ""
+msgstr "negrito"
 
 #: kfontdialog.cpp:240
 msgid "Style"
-msgstr ""
+msgstr "Estilo"
 
 #: kfontdialog.cpp:241 kfontdialog.cpp:340 kfontdialog.cpp:369
 msgid "roman"
-msgstr ""
+msgstr "romano"
 
 #: kfontdialog.cpp:242 kfontdialog.cpp:342 kfontdialog.cpp:367
 msgid "italic"
-msgstr ""
+msgstr "italico"
 
 #: kfontdialog.cpp:270
 msgid "Dolor Ipse"
-msgstr ""
+msgstr "Dolor Ipse"
 
 #: kfontdialog.cpp:362
 msgid "Bold"
-msgstr ""
+msgstr "Negrito"
 
 #: kfontdialog.cpp:364
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: kiconloader.cpp:176
 msgid "Select Icon"
-msgstr ""
+msgstr "Escolher um Icon"
 
 #: kiconloader.cpp:182
 msgid "Filter:"
-msgstr ""
+msgstr "Filtro:"
 
 #: kiconloader.cpp:337
 #, c-format
 msgid "ERROR: couldn't find icon: %s"
-msgstr ""
+msgstr "Erro: não foi possivel econtrar icon: %s"
 
 #: kmenubar.cpp:106 ktoolbar.cpp:273
 msgid "Top"
-msgstr ""
+msgstr "Topo"
 
 #: kmenubar.cpp:107 ktoolbar.cpp:275
 msgid "Bottom"
-msgstr ""
+msgstr "Fundo"
 
 #: kmenubar.cpp:108 ktoolbar.cpp:276
 msgid "Floating"
-msgstr ""
+msgstr "Flutuante"
 
 #: kmenubar.cpp:182 kmenubar.cpp:223 ktoolbar.cpp:699 ktoolbar.cpp:1208
 msgid "Float"
-msgstr ""
+msgstr "Flutuar"
 
 #: kmenubar.cpp:213 ktoolbar.cpp:1198
 msgid "UnFloat"
-msgstr ""
+msgstr "Desflutuar"
 
 #: ktoolbar.cpp:87 ktoolbar.cpp:145
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr ""
+msgstr "KToolBarButton: pixmap vazio, possivelmente falta um ficheiro"
 
 #: ktoolbar.cpp:272
 msgid "Left"
-msgstr ""
+msgstr "Esquerda"
 
 #: ktoolbar.cpp:274
 msgid "Right"
-msgstr ""
+msgstr "Direita"
 
 #: kapp.cpp:330
+#, fuzzy
 msgid "About "
-msgstr ""
+msgstr "Acerca"
 
 #: kapp.cpp:334 kapp.cpp:355
+#, fuzzy
 msgid "About KDE"
-msgstr ""
+msgstr "Acerca"
 
 #: kapp.cpp:357
 msgid ""

@@ -1,146 +1,146 @@
-# general messages, that are often used
+# messages, that are often used 
 msgid "Error"
-msgstr ""
+msgstr "Λάθος"
 
 msgid "Malformed URL"
-msgstr ""
+msgstr "Κακοδιατυπωμένη URL"
 
 msgid "Yes"
-msgstr ""
+msgstr "Ναι"
 
 msgid "No"
-msgstr ""
+msgstr "Όχι"
 
 msgid "Warning"
-msgstr ""
+msgstr "Προειδοποίηση"
 
 msgid "Open a file"
-msgstr ""
+msgstr "¶νοιγμα αρχείου"
 
 msgid "Save a file"
-msgstr ""
+msgstr "Σώσιμο αρχείου"
 
 msgid "Contents"
-msgstr ""
+msgstr "Περιεχόμενα"
 
 msgid "About"
-msgstr ""
+msgstr "Σχετικά"
 
 msgid "Open"
-msgstr ""
+msgstr "¶νοιξε"
 
 msgid "Save"
-msgstr ""
+msgstr "Σώσε"
 
 msgid "Save As"
-msgstr ""
+msgstr "Σώσε ως"
 
 msgid "Close"
-msgstr ""
+msgstr "Κλείσε"
 
 msgid "Quit"
-msgstr ""
+msgstr "Εγκατάληψε"
 
 msgid "Untitled"
-msgstr ""
+msgstr "Χωρίς τίτλο"
 
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 msgid "Ok"
-msgstr ""
+msgstr "OK"
 
 msgid "Cancel"
-msgstr ""
+msgstr "Ακύρωση"
 
 msgid "Apply"
-msgstr ""
+msgstr "Ενεργοποίησε"
 
 msgid "File"
-msgstr ""
+msgstr "Αρχείο"
 
 msgid "Help"
-msgstr ""
+msgstr "Βοήθεια"
 
 msgid "Edit"
-msgstr ""
+msgstr "Διώρθωση"
 
 # libkdeui messages
 #: kcolordlg.cpp:239
 msgid "Select Color"
-msgstr ""
+msgstr "Επιλογή Χρώματος"
 
 #: kcolordlg.cpp:244
 msgid "System Colors"
-msgstr ""
+msgstr "Χρώματα Συστήματος"
 
 #: kcolordlg.cpp:269
 msgid "Custom Colors"
-msgstr ""
+msgstr "Διαμορφωμένα Χρώματα"
 
 #: kcolordlg.cpp:345
 msgid "Add to Custom Colors"
-msgstr ""
+msgstr "Προσθήκη Διαμορφωμένου Χρώματος"
 
 #: kcolordlg.cpp:649 kcolordlg.cpp:699
 msgid "Custom..."
-msgstr ""
+msgstr "Διαμόρφωση"
 
 #: kfontdialog.cpp:95
 msgid "Select Font"
-msgstr ""
+msgstr "Επιλογή Γραμματοσειράς"
 
 #: kfontdialog.cpp:99
 msgid "Requested Font"
-msgstr ""
+msgstr "Ζητούμενη Γραμματοσειρά"
 
 #: kfontdialog.cpp:104
 msgid "Actual Font"
-msgstr ""
+msgstr "Πραγματική Γραμματοσειρά"
 
 #: kfontdialog.cpp:108 kfontdialog.cpp:112
 msgid "Family:"
-msgstr ""
+msgstr "Οικογένεια:"
 
 #: kfontdialog.cpp:119 kfontdialog.cpp:124
 msgid "Size:"
-msgstr ""
+msgstr "Μέγεθος:"
 
 #: kfontdialog.cpp:133 kfontdialog.cpp:138
 msgid "Weight:"
-msgstr ""
+msgstr "Βάρος:"
 
 #: kfontdialog.cpp:147 kfontdialog.cpp:155
 msgid "Style:"
-msgstr ""
+msgstr "Στυλ"
 
 #: kfontdialog.cpp:190
 msgid "Size"
-msgstr ""
+msgstr "Μέγεθος"
 
 #: kfontdialog.cpp:229
 msgid "Weight"
-msgstr ""
+msgstr "Βάρος"
 
 #: kfontdialog.cpp:230 kfontdialog.cpp:327
 msgid "normal"
-msgstr ""
+msgstr "κανονικά"
 
 #: kfontdialog.cpp:231 kfontdialog.cpp:329
 msgid "bold"
-msgstr ""
+msgstr "έντονα"
 
 #: kfontdialog.cpp:240
 msgid "Style"
-msgstr ""
+msgstr "Στυλ"
 
 #: kfontdialog.cpp:241 kfontdialog.cpp:340 kfontdialog.cpp:369
 msgid "roman"
-msgstr ""
+msgstr "απλά"
 
 #: kfontdialog.cpp:242 kfontdialog.cpp:342 kfontdialog.cpp:367
 msgid "italic"
-msgstr ""
+msgstr "πλαγιαστά"
 
 #: kfontdialog.cpp:270
 msgid "Dolor Ipse"
@@ -148,64 +148,66 @@ msgstr ""
 
 #: kfontdialog.cpp:362
 msgid "Bold"
-msgstr ""
+msgstr "Έντονα"
 
 #: kfontdialog.cpp:364
 msgid "Normal"
-msgstr ""
+msgstr "Κανονικά"
 
 #: kiconloader.cpp:176
 msgid "Select Icon"
-msgstr ""
+msgstr "Επέλεξε Εικονίδιο"
 
 #: kiconloader.cpp:182
 msgid "Filter:"
-msgstr ""
+msgstr "Φίλτρο:"
 
 #: kiconloader.cpp:337
 #, c-format
 msgid "ERROR: couldn't find icon: %s"
-msgstr ""
+msgstr "ΛΑΘΟΣ: δεν μπορώ να βρώ το εικονίδιο: %s"
 
 #: kmenubar.cpp:106 ktoolbar.cpp:273
 msgid "Top"
-msgstr ""
+msgstr "Επάνω"
 
 #: kmenubar.cpp:107 ktoolbar.cpp:275
 msgid "Bottom"
-msgstr ""
+msgstr "Κάτω"
 
 #: kmenubar.cpp:108 ktoolbar.cpp:276
 msgid "Floating"
-msgstr ""
+msgstr "Επιπλέον"
 
 #: kmenubar.cpp:182 kmenubar.cpp:223 ktoolbar.cpp:699 ktoolbar.cpp:1208
 msgid "Float"
-msgstr ""
+msgstr "Επέπλευσε"
 
 #: kmenubar.cpp:213 ktoolbar.cpp:1198
 msgid "UnFloat"
-msgstr ""
+msgstr "Βούλιαξε"
 
 #: ktoolbar.cpp:87 ktoolbar.cpp:145
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr ""
+msgstr "KToolBarButton: το pixmap είναι άδειο, ίσως λοίπει κάποιο αρχείο"
 
 #: ktoolbar.cpp:272
 msgid "Left"
-msgstr ""
+msgstr "Αριστερά"
 
 #: ktoolbar.cpp:274
 msgid "Right"
-msgstr ""
+msgstr "Δεξιά"
 
 #: kapp.cpp:330
+#, fuzzy
 msgid "About "
-msgstr ""
+msgstr "Σχετικά"
 
 #: kapp.cpp:334 kapp.cpp:355
+#, fuzzy
 msgid "About KDE"
-msgstr ""
+msgstr "Σχετικά"
 
 #: kapp.cpp:357
 msgid ""
