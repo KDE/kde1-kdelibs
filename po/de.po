@@ -1852,11 +1852,11 @@ msgstr "Adresse:"
 
 #: kab/editentry.cc:104
 msgid "Zip/postal code:"
-msgstr ""
+msgstr "Postleitzahl:"
 
 #: kab/editentry.cc:105
 msgid "Town:"
-msgstr "PLZ & Stadt:"
+msgstr "Stadt:"
 
 #: kab/editentry.cc:106
 msgid "State:"
