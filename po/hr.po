@@ -2146,7 +2146,6 @@ msgid ""
 "Could not write to\n"
 msgstr ""
 "Ne mogu pisati u\n"
-"%s"
 
 #: kio/kio_error.cc:22
 #, c-format
