@@ -1,7 +1,5 @@
 # KTranslator Generated File
-
 # KTranslator Generated File
-
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.1pre2\n"
@@ -12,7 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-2\n"
 "Content-Transfer-Encoding: 8-bit\n"
-"X-Generator: KTranslator v 0.4.0"
+"X-Generator: KTranslator v 0.4.0\n"
 
 # , fuzzy
 #: kab/AssertDialog.cpp:29
@@ -34,7 +32,8 @@ msgstr "Talált egy hibát: "
 
 #: kab/AssertDialog.cpp:45
 msgid "Ignore the error, possibly causing much more damage"
-msgstr "Hagyja figyelmen kívül a hibát, de így lehet, hogy még több kárt fog okozni"
+msgstr ""
+"Hagyja figyelmen kívül a hibát, de így lehet, hogy még több kárt fog okozni"
 
 #: kab/AssertDialog.cpp:47
 msgid "Kill the application, loosing all data"
@@ -919,7 +918,8 @@ msgstr "Rögzítés"
 
 #: kdeui/knotebook.cpp:145
 msgid "Trying to add page when no KWizards are added!"
-msgstr "Megpróbált egy oldalt hozzáadni, amikor még nem volt KVarázsló hozzáadva!"
+msgstr ""
+"Megpróbált egy oldalt hozzáadni, amikor még nem volt KVarázsló hozzáadva!"
 
 # , fuzzy
 #: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:182
@@ -1814,7 +1814,6 @@ msgstr ""
 "ezért nincs helyi \".kde\" könyvtára a saját könyvrárában\n"
 "Futtassa a KDE fájlkezelõjét (kfm)-et egyszer,\n"
 "hogy autómatikusan létrejöjjön."
-""
 
 #: kab/addressbook.cc:106
 msgid "The directory has been created.\n"
@@ -1826,7 +1825,9 @@ msgstr "Nincs címjegyzék adatbázis fájl, csinálok egy újat."
 
 #: kab/addressbook.cc:159
 msgid "Tried to load database for creating backup, but failed"
-msgstr "Megpróbáltam betölteni az adatbázist, hogy másolatot készítsek, de nem sikerült"
+msgstr ""
+"Megpróbáltam betölteni az adatbázist, hogy másolatot készítsek, de nem "
+"sikerült"
 
 #: kab/addressbook.cc:194
 msgid "Unable to save to backup file."
@@ -2586,8 +2587,8 @@ msgid ""
 "Use the icons for drag and drop actions, since they refer to the cache files "
 "on your hard disk, while you should use the textual links for browsing"
 msgstr ""
-"Az ikonokat rádobhatja más alkalmazásokra, mert ezek a gyorstár fájlokra hivatkonak,"
-"a szöveges linkeket pedigböngészésre használhatja"
+"Az ikonokat rádobhatja más alkalmazásokra, mert ezek a gyorstár fájlokra "
+"hivatkonak,a szöveges linkeket pedigböngészésre használhatja"
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"
@@ -2955,7 +2956,8 @@ msgstr "A vágólap üres"
 msgid ""
 "Pasting clipboard data is only supported on the local hard disk currently"
 msgstr ""
-"Vágólap tartalmának beillesztése egyenlõre csak a helyi merevlemezen támogatott"
+"Vágólap tartalmának beillesztése egyenlõre csak a helyi merevlemezen "
+"támogatott"
 
 #: kio/kio_paste.cc:80
 msgid "Filename for clipboard content:"
