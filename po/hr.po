@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-01-11 01:01+0100\n"
+"POT-Creation-Date: 1999-01-12 09:46+0100\n"
 "PO-Revision-Date: 1998-03-15 20:00-0500\n"
 "Last-Translator:  Almir Uzunovic <auzunovi@sava.utic.net.ba> \n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -1134,6 +1134,11 @@ msgstr "Pomije¹aj direktorije i datoteke"
 #: kfile/kfiledialogconf.cpp:131
 msgid "Keep dirs first"
 msgstr "Direktorije prvo"
+
+#: kfile/kfilefilter.cpp:33
+#, fuzzy
+msgid "*|All Files"
+msgstr "Datoteke"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-11 01:01+0100\n"
+"POT-Creation-Date: 1999-01-12 09:46+0100\n"
 "PO-Revision-Date: 1998-03-11 HO:MI+ZONE\n"
 "Last-Translator: Theodore J. Soldatos <theodore@eexi.gr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1206,6 +1206,12 @@ msgstr ""
 #: kfile/kfiledialogconf.cpp:131
 msgid "Keep dirs first"
 msgstr ""
+
+# , fuzzy
+#: kfile/kfilefilter.cpp:33
+#, fuzzy
+msgid "*|All Files"
+msgstr "Αρχείο"
 
 # , fuzzy
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101

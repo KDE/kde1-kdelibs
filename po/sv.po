@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs 1.1\n"
-"POT-Creation-Date: 1999-01-11 01:01+0100\n"
+"POT-Creation-Date: 1999-01-12 09:46+0100\n"
 "PO-Revision-Date: 1998-12-12 17:44+01:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
@@ -1162,6 +1162,11 @@ msgstr "Blanda kataloger och filer"
 #: kfile/kfiledialogconf.cpp:131
 msgid "Keep dirs first"
 msgstr "Lista kataloger först"
+
+#: kfile/kfilefilter.cpp:33
+#, fuzzy
+msgid "*|All Files"
+msgstr "Filer"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"

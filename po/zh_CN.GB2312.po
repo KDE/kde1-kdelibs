@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1999-01-11 01:01+0100\n"
+"POT-Creation-Date: 1999-01-12 09:46+0100\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -1167,6 +1167,11 @@ msgstr "目录和文件混和显示"
 #: kfile/kfiledialogconf.cpp:131
 msgid "Keep dirs first"
 msgstr "先显示目录"
+
+#: kfile/kfilefilter.cpp:33
+#, fuzzy
+msgid "*|All Files"
+msgstr "文件"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"

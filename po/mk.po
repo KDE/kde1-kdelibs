@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdebase\n"
-"POT-Creation-Date: 1999-01-11 01:01+0100\n"
+"POT-Creation-Date: 1999-01-12 09:46+0100\n"
 "PO-Revision-Date: 1998-05-22 10:10+0000\n"
 "Last-Translator: Sasha Konecni <sasha@msi-uk.com>\n"
 "Language-Team: Macedonian\n"
@@ -1171,6 +1171,12 @@ msgstr ""
 #: kfile/kfiledialogconf.cpp:131
 msgid "Keep dirs first"
 msgstr ""
+
+# , fuzzy
+#: kfile/kfilefilter.cpp:33
+#, fuzzy
+msgid "*|All Files"
+msgstr "Dosie"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"

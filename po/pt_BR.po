@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kde\n"
-"POT-Creation-Date: 1999-01-11 01:01+0100\n"
+"POT-Creation-Date: 1999-01-12 09:46+0100\n"
 "PO-Revision-Date: 1998-06-23 09:00-0300\n"
 "Last-Translator:Elvis Pfützenreuter <epx@netville.com.br>\n"
 
@@ -1154,6 +1154,11 @@ msgstr "Misturar dirs e arquivos"
 #: kfile/kfiledialogconf.cpp:131
 msgid "Keep dirs first"
 msgstr "Mostrar dirs primeiro"
+
+#: kfile/kfilefilter.cpp:33
+#, fuzzy
+msgid "*|All Files"
+msgstr "Arquivos"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"

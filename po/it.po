@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-11 01:01+0100\n"
+"POT-Creation-Date: 1999-01-12 09:46+0100\n"
 "PO-Revision-Date: Sat Jen 2 1999 15:30:00+0200\n"
 "Last-Translator: Andrea Rizzi <rizzi@kde.org>\n"
 "Language-Team: Italiano <it@li.org>\n"
@@ -1171,6 +1171,11 @@ msgstr "Dir e File"
 #: kfile/kfiledialogconf.cpp:131
 msgid "Keep dirs first"
 msgstr "Metti prima le dir "
+
+#: kfile/kfilefilter.cpp:33
+#, fuzzy
+msgid "*|All Files"
+msgstr "File"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"

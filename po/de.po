@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-01-11 01:01+0100\n"
+"POT-Creation-Date: 1999-01-12 09:46+0100\n"
 "PO-Revision-Date: 1998-10-10 16:33+0200\n"
 "Last-Translator: Stephan Kulow <coolo@kde.org>\n"
 
@@ -1159,6 +1159,10 @@ msgstr "Mische Verzeichnisse und Dateien"
 #: kfile/kfiledialogconf.cpp:131
 msgid "Keep dirs first"
 msgstr "Beginne mit Verzeichnissen"
+
+#: kfile/kfilefilter.cpp:33
+msgid "*|All Files"
+msgstr "*|Alle Dateien"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"
