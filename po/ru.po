@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1999-01-19 01:03+0100\n"
-"PO-Revision-Date: 1999-01-18 02:00+0600\n"
+"PO-Revision-Date: 1999-01-21 02:00+0600\n"
 "Content-Type: text/plain; charset=koi8-r\n"
 "Date: 1997-11-20 18:24:38+0600\n"
 "From: Denis Y. Pershin <dyp@inetlab.com>\n"
@@ -1997,7 +1997,6 @@ msgid "Address:"
 msgstr "Адрес:"
 
 #: kab/editentry.cc:104
-#, fuzzy
 msgid "Town/City:"
 msgstr "Город:"
 
@@ -2006,7 +2005,6 @@ msgid "State:"
 msgstr "Штат:"
 
 #: kab/editentry.cc:106
-#, fuzzy
 msgid "Zip/Postal Code:"
 msgstr "Почтовый код:"
 
@@ -2023,18 +2021,16 @@ msgid "Organization:"
 msgstr "Организация:"
 
 #: kab/editentry.cc:146
-#, fuzzy
 msgid "Department:"
-msgstr "Замена:"
+msgstr "Отдел:"
 
 #: kab/editentry.cc:147
 msgid "Sub-Department:"
-msgstr ""
+msgstr "Подотдел"
 
 #: kab/editentry.cc:148
-#, fuzzy
 msgid "Job/Role:"
-msgstr "Роль:"
+msgstr "Работа/Роль:"
 
 #: kab/editentry.cc:169
 msgid "&Organization"
@@ -2069,9 +2065,8 @@ msgid "&Contact"
 msgstr "Контактая информация"
 
 #: kab/editentry.cc:239
-#, fuzzy
 msgid "Additional Comment:"
-msgstr "Фамилия"
+msgstr "Дополнительный комментарий:"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
