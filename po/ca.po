@@ -2,11 +2,15 @@
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Sebastià Pla <sastia@redestb.es>, 1998.
 #
+# KDE CATALAN TRANSLATION
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Sebastià Pla <sastia@redestb.es>, 1998.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-12-01 01:01+0100\n"
-"PO-Revision-Date: 1998-06-25 01:00\n"
+"POT-Creation-Date: 1998-11-16 01:02+0100\n"
+"PO-Revision-Date: 1998-11-17 01:00\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -14,39 +18,38 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 
 #: kab/AssertDialog.cpp:29
-#, fuzzy
 msgid "(unknown file)"
-msgstr "desconegut"
+msgstr "(fitxer desconegut)"
 
 #: kab/AssertDialog.cpp:30
 msgid "(unknown line number)"
-msgstr ""
+msgstr "(número de línia desconegut)"
 
 #: kab/AssertDialog.cpp:31
 msgid "(unknown condition)"
-msgstr ""
+msgstr "(condició desconeguda)"
 
 #: kab/AssertDialog.cpp:39
 msgid "You have found a bug in "
-msgstr ""
+msgstr "Heu trobat un error a "
 
 #: kab/AssertDialog.cpp:45
 msgid "Ignore the error, possibly causing much more damage"
-msgstr ""
+msgstr "Ignora l'error, amb la possibilitat de fer molt més mal"
 
 #: kab/AssertDialog.cpp:47
 msgid "Kill the application, loosing all data"
-msgstr ""
+msgstr "Mata l'aplicació, perdent totes les dades"
 
 #: kab/AssertDialog.cpp:49
 msgid "Send an email to the application maintainer"
-msgstr ""
+msgstr "Envia un correu al mantenidor de l'aplicació"
 
 #: kab/AssertDialog.cpp:51 kab/datepickerdialog.cc:25 kab/kabapi.cc:35
-#: kdeui/kcolordlg.cpp:467 kdeui/kcontrol.cpp:46 kdeui/kcontrol.cpp:51
+#: kdeui/kcolordlg.cpp:463 kdeui/kcontrol.cpp:46 kdeui/kcontrol.cpp:51
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:155 kdeui/keditcl1.cpp:170
 #: kdeui/keditcl1.cpp:191 kdeui/keditcl1.cpp:204 kdeui/keditcl1.cpp:1561
-#: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:391
+#: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:370
 #: kdeui/kiconloaderdialog.cpp:254 kdeui/kmsgbox.cpp:277
 #: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:505
 #: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:409
@@ -56,35 +59,35 @@ msgstr "Bé"
 
 #: kab/AssertDialog.cpp:140
 msgid "The following condition failed:\n"
-msgstr ""
+msgstr "La següent condició ha fallat:\n"
 
 #: kab/AssertDialog.cpp:141
-#, fuzzy
 msgid "In file "
-msgstr "fitxer"
+msgstr "Al fitxer "
 
 #: kab/AssertDialog.cpp:141
 msgid ", line "
-msgstr ""
+msgstr ", línia "
 
 #: kab/AssertDialog.cpp:212 kab/AssertDialog.cpp:217
 msgid "Error handling error"
-msgstr ""
+msgstr "Error en manegar l'error"
 
 #: kab/AssertDialog.cpp:213
-#, fuzzy
 msgid "Could not send message."
-msgstr "No s'ha pogut desar el document\n"
+msgstr "No s'ha pogut enviar el missatge."
 
 #: kab/AssertDialog.cpp:218
 msgid "The author did not publish an email address."
-msgstr ""
+msgstr "L'autor no ha fet pública una adreça de correu."
 
 #: kab/DialogBase.cpp:36
 msgid ""
 "If you press the OK button, all changes\n"
 "you made will be used to proceed."
 msgstr ""
+"Si premeu el botó Bé, tots els canvis\n"
+"que heu fet, es faran servir per continuar."
 
 #: kab/DialogBase.cpp:39
 msgid ""
@@ -92,6 +95,9 @@ msgid ""
 "handed over to the program, but the dialog\n"
 "will not be closed.Use this to try different settings."
 msgstr ""
+"Si cliqueu el botó Aplica, l'arranjament es passarà\n"
+"al programa, pero el diàleg no es tancarà\n"
+"Feu-ho servir per provar diferents arranjaments."
 
 #: kab/DialogBase.cpp:44
 msgid ""
@@ -101,6 +107,11 @@ msgid ""
 "The program will be in the state before\n"
 "opening the dialog."
 msgstr ""
+"Si premeu el botó Cancel·la, tots els canvis\n"
+"que heu fet es deixaran còrrer i el diàleg\n"
+"es tancarà.\n"
+"El programa estarà en el mateix estat\n"
+"d'abans d'obrir el diàleg."
 
 #: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
 #: kdeui/kwizard.cpp:228 po/texts.cpp:36
@@ -108,154 +119,150 @@ msgid "&OK"
 msgstr "&Bé"
 
 #: kab/DialogBase.cpp:58
-#, fuzzy
 msgid "&Apply"
-msgstr "Aplicar"
+msgstr "&Aplica"
 
 #: kab/DialogBase.cpp:59 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
 #: kdeui/kwizard.cpp:159 po/texts.cpp:40
 msgid "&Cancel"
-msgstr "&Cancel·lar"
+msgstr "&Cancel·la"
 
 #: kab/PrintDialog.cpp:26
 msgid "Headline text:"
-msgstr ""
+msgstr "Text de capçalera:"
 
 #: kab/PrintDialog.cpp:27
 msgid "Right footer text:"
-msgstr ""
+msgstr "Text de peu a la dreta:"
 
 #: kab/PrintDialog.cpp:28
 msgid "Left footer text:"
-msgstr ""
+msgstr "Text de peu a l'esquerra:"
 
 #: kab/SearchDialog.cpp:47
 msgid "The title"
-msgstr ""
+msgstr "El títol"
 
 #: kab/SearchDialog.cpp:48
 msgid "The first name"
-msgstr ""
+msgstr "El primer nom"
 
 #: kab/SearchDialog.cpp:49
 msgid "The additional name"
-msgstr ""
+msgstr "El nom adiccional"
 
 #: kab/SearchDialog.cpp:50
 msgid "The name prefix"
-msgstr ""
+msgstr "El prefix del nom"
 
 #: kab/SearchDialog.cpp:51
-#, fuzzy
 msgid "The name"
-msgstr "El camí"
+msgstr "El nom"
 
 #: kab/SearchDialog.cpp:52
 msgid "The formatted name"
-msgstr ""
+msgstr "El nom amb format"
 
 #: kab/SearchDialog.cpp:53
 msgid "The address"
-msgstr ""
+msgstr "L'adreça"
 
 #: kab/SearchDialog.cpp:54
-#, fuzzy
 msgid "The town"
-msgstr "El camí"
+msgstr "El poble"
 
 #: kab/SearchDialog.cpp:55
 msgid "The organization"
-msgstr ""
+msgstr "La organització"
 
 #: kab/SearchDialog.cpp:56
 msgid "The role"
-msgstr ""
+msgstr "El càrrec"
 
 #: kab/SearchDialog.cpp:57
 msgid "The org unit"
-msgstr ""
+msgstr "La unitat"
 
 #: kab/SearchDialog.cpp:58
 msgid "The org subunit"
-msgstr ""
+msgstr "La subunitat"
 
 #: kab/SearchDialog.cpp:59
 msgid "The email address"
-msgstr ""
+msgstr "L'adreça de correu"
 
 #: kab/SearchDialog.cpp:60
 msgid "The second email address"
-msgstr ""
+msgstr "La segona adreça de correu"
 
 #: kab/SearchDialog.cpp:61
 msgid "The third email address"
-msgstr ""
+msgstr "La tercera adreça de correu"
 
 #: kab/SearchDialog.cpp:62
 msgid "The telephone number"
-msgstr ""
+msgstr "El número de telèfon"
 
 #: kab/SearchDialog.cpp:63
 msgid "The fax number"
-msgstr ""
+msgstr "El número de fax"
 
 #: kab/SearchDialog.cpp:64
 msgid "The modem number"
-msgstr ""
+msgstr "El numero de modem"
 
 #: kab/SearchDialog.cpp:65
 msgid "The homepage URL"
-msgstr ""
+msgstr "La URL de la pàgina inicial"
 
 #: kab/SearchDialog.cpp:66
 msgid "The comment"
-msgstr ""
+msgstr "El comentari"
 
 #: kab/SearchDialog.cpp:74
-#, fuzzy
 msgid "kab: Search entries"
-msgstr "Cercar un fitxer"
+msgstr "kab: entrades de cerca"
 
 #: kab/SearchDialogMainWidget.cpp:22
 msgid "matches"
-msgstr ""
+msgstr "parelles"
 
 #: kab/SearchDialogMainWidget.cpp:23
 msgid "Use shell wildcard patterns here"
-msgstr ""
+msgstr "Aquí feu servir patrons amb comodins"
 
 #: kab/SearchDialogMainWidget.cpp:24
 msgid "Select field to match the pattern"
-msgstr ""
+msgstr "Seleccioneu un camp per aparellar el patró"
 
 #: kab/StringListEditWidget.cpp:30
 msgid "Add a new string"
-msgstr ""
+msgstr "Afegeix un text nou"
 
 #: kab/StringListEditWidget.cpp:31
 msgid "Move this string up"
-msgstr ""
+msgstr "Mou amunt aquest text"
 
 #: kab/StringListEditWidget.cpp:32
 msgid "Move this string down"
-msgstr ""
+msgstr "Mou avall aquest text"
 
 #: kab/StringListEditWidget.cpp:33
 msgid "Delete this string"
-msgstr ""
+msgstr "Esborra aquest text"
 
 #: kab/StringListSelectAndReorderSet.cpp:34
 msgid "Possible values:"
-msgstr ""
+msgstr "Valors possibles:"
 
 #: kab/StringListSelectAndReorderSet.cpp:35
 msgid "Selected values:"
-msgstr ""
+msgstr "Valors seleccionats:"
 
 #: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:555 kfile/kfiledialog.cpp:1199
 #: kfile/kfiledialog.cpp:1358 kfile/kfiledialog.cpp:1392 po/texts.cpp:65
 msgid "Open"
-msgstr "Obrir"
+msgstr "Obre"
 
 #: kdecore/kaccel.cpp:235
 msgid "New"
@@ -263,52 +270,51 @@ msgstr "Nou"
 
 #: kab/searchresults.cc:30 kdecore/kaccel.cpp:239 po/texts.cpp:80
 msgid "Close"
-msgstr "Tancar"
+msgstr "Tanca"
 
 #: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1254
 #: kfile/kfiledialog.cpp:1413 po/texts.cpp:75
 msgid "Save"
-msgstr "Desar"
+msgstr "Desa"
 
 #: kdecore/kaccel.cpp:247 po/texts.cpp:115
 msgid "Print"
-msgstr "Imprimir"
+msgstr "Imprimeix"
 
 #: kdecore/kaccel.cpp:251 po/texts.cpp:52
 msgid "Quit"
-msgstr "Sortir"
+msgstr "Surt"
 
 #: kdecore/kaccel.cpp:255 po/texts.cpp:69
 msgid "Cut"
-msgstr "Tallar"
+msgstr "Talla"
 
 #: kdecore/kaccel.cpp:259 po/texts.cpp:56
 msgid "Copy"
-msgstr "Copiar"
+msgstr "Copia"
 
 #: kdecore/kaccel.cpp:263 po/texts.cpp:58
 msgid "Paste"
-msgstr "Enganxar"
+msgstr "Enganxa"
 
 #: kdecore/kaccel.cpp:267 po/texts.cpp:93
 msgid "Undo"
-msgstr "Desfer"
+msgstr "Desfés"
 
 #: kdecore/kaccel.cpp:271 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
 #: kdeui/keditcl2.cpp:360 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:676
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786
 msgid "Find"
-msgstr "Buscar"
+msgstr "Busca"
 
 #: kdecore/kaccel.cpp:275 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
 #: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:133
 msgid "Replace"
-msgstr "Substituir"
+msgstr "Substitueix"
 
 #: kdecore/kaccel.cpp:279 po/texts.cpp:134
-#, fuzzy
 msgid "Insert"
-msgstr "&Insertar"
+msgstr "Inserta"
 
 #: kdecore/kaccel.cpp:283 kfile/kfiledialog.cpp:131
 msgid "Home"
@@ -316,34 +322,32 @@ msgstr "Llar"
 
 #: kdecore/kaccel.cpp:287
 msgid "End"
-msgstr ""
+msgstr "Final"
 
 #: kdecore/kaccel.cpp:291
-#, fuzzy
 msgid "Prior"
-msgstr "Error"
+msgstr "Anterior"
 
 #: kdecore/kaccel.cpp:295
-#, fuzzy
 msgid "Next"
-msgstr "&Següent"
+msgstr "Següent"
 
-#: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
+#: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471
 #: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 po/texts.cpp:44
 msgid "Help"
 msgstr "Ajut"
 
 #: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:661
 msgid "SHIFT"
-msgstr ""
+msgstr "Majús"
 
 #: kdecore/kaccel.cpp:601 kdecore/kaccel.cpp:663
 msgid "CTRL"
-msgstr ""
+msgstr "CTRL"
 
 #: kdecore/kaccel.cpp:605 kdecore/kaccel.cpp:665
 msgid "ALT"
-msgstr ""
+msgstr "ALT"
 
 #: kdecore/kapp.cpp:586 po/texts.cpp:137
 msgid "&Contents"
@@ -383,6 +387,7 @@ msgstr ""
 "d'afegir-vos i donar suport al projecte KDE.\n"
 "\n"
 "Si us plau, informeu dels errors a http://buglist.kde.org.\n"
+"Pels errors de traducció, envieu correu a sastia@redestb.es\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:412 kdeui/keditcl1.cpp:433
 #: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661
@@ -403,9 +408,9 @@ msgid "No"
 msgstr "No"
 
 #: kab/datepickerdialog.cc:26 kab/kabapi.cc:38 kab/widget.cc:1373
-#: kab/widget.cc:1415 kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:470
+#: kab/widget.cc:1415 kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466
 #: kdeui/kcontrol.cpp:48 kdeui/kcontrol.cpp:55 kdeui/keditcl1.cpp:414
-#: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:394
+#: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:365
 #: kdeui/kiconloaderdialog.cpp:255 kdeui/kmsgbox.cpp:312
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:892
 #: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:413 kio/kio_job.cc:693
@@ -413,7 +418,7 @@ msgstr "No"
 #: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
 #: po/texts.cpp:39
 msgid "Cancel"
-msgstr "Cancel·lar"
+msgstr "Cancel·la"
 
 #: kdeui/kcolordlg.cpp:285
 msgid "Select Color"
@@ -429,9 +434,9 @@ msgstr "Colors a mida"
 
 #: kdeui/kcolordlg.cpp:341
 msgid "Add to Custom Colors"
-msgstr "Afegir als colors a mida"
+msgstr "Afegeix als colors a mida"
 
-#: kdeui/kcolordlg.cpp:789 kdeui/kcolordlg.cpp:841
+#: kdeui/kcolordlg.cpp:788 kdeui/kcolordlg.cpp:840
 msgid "Custom..."
 msgstr "A mida..."
 
@@ -442,7 +447,7 @@ msgstr "Omissió"
 #: kdeui/kcontrol.cpp:47 kdeui/kcontrol.cpp:53 kfile/kfiledialogconf.cpp:59
 #: po/texts.cpp:41
 msgid "Apply"
-msgstr "Aplicar"
+msgstr "Aplica"
 
 #: kdeui/kdatepik.cpp:102
 msgid "January"
@@ -510,7 +515,7 @@ msgstr "Dim"
 
 #: kdeui/kdatetbl.cpp:50
 msgid "Wed"
-msgstr "Dmc"
+msgstr "Dic"
 
 #: kdeui/kdatetbl.cpp:50
 msgid "Thu"
@@ -557,7 +562,7 @@ msgstr "Seleccioneu el document a insertar"
 
 #: kdeui/keditcl1.cpp:409 kdeui/keditcl1.cpp:491 kdeui/keditcl1.cpp:1658
 msgid "Warning:"
-msgstr "Avís"
+msgstr "Avís:"
 
 #: kdeui/keditcl1.cpp:410 kdeui/keditcl1.cpp:492
 msgid ""
@@ -597,7 +602,7 @@ msgstr "No s'ha pogut desar el document\n"
 
 #: kdeui/keditcl1.cpp:1630
 msgid "Save Document As"
-msgstr "Desar el document com"
+msgstr "Desa el document com"
 
 #: kdeui/keditcl1.cpp:1659
 msgid ""
@@ -650,91 +655,91 @@ msgstr "Substituir amb:"
 
 #: kdeui/keditcl2.cpp:792
 msgid "Replace All"
-msgstr "Substituir tot"
+msgstr "Substitueix tot"
 
 #: kdeui/keditcl2.cpp:889
 msgid "Goto Line"
-msgstr "Anar a línia"
+msgstr "Ves a línia"
 
 #: kdeui/keditcl2.cpp:894
 msgid "Go"
-msgstr "Anar"
+msgstr "Ves-hi"
 
-#: kdeui/kfontdialog.cpp:168
+#: kdeui/kfontdialog.cpp:181
 msgid "Select Font"
 msgstr "Trieu font"
 
-#: kdeui/kfontdialog.cpp:172
+#: kdeui/kfontdialog.cpp:185
 msgid "Requested Font"
 msgstr "Font demanada"
 
-#: kdeui/kfontdialog.cpp:173
+#: kdeui/kfontdialog.cpp:190
 msgid "Actual Font"
 msgstr "Font actual"
 
-#: kdeui/kfontdialog.cpp:193 kdeui/kfontdialog.cpp:198
+#: kdeui/kfontdialog.cpp:194 kdeui/kfontdialog.cpp:198
 msgid "Family:"
 msgstr "Família:"
 
-#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:210 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:211 po/texts.cpp:26
 msgid "Charset:"
-msgstr "Joc"
+msgstr "Joc:"
 
 #: kdeui/kfontdialog.cpp:218 kdeui/kfontdialog.cpp:223 kfile/kpreview.cpp:196
 msgid "Size:"
-msgstr "Cos:"
+msgstr "Mida:"
 
 #: kdeui/kfontdialog.cpp:230 kdeui/kfontdialog.cpp:235
 msgid "Weight:"
 msgstr "Gruix:"
 
-#: kdeui/kfontdialog.cpp:242 kdeui/kfontdialog.cpp:247
+#: kdeui/kfontdialog.cpp:243 kdeui/kfontdialog.cpp:250
 msgid "Style:"
 msgstr "Estil:"
 
-#: kdeui/kfontdialog.cpp:275 kfile/kfiledetaillist.cpp:38
-msgid "Size"
-msgstr "Cos"
-
-#: kdeui/kfontdialog.cpp:313
-msgid "Weight"
-msgstr "Gruix"
-
-#: kdeui/kfontdialog.cpp:316 kdeui/kfontdialog.cpp:475
-msgid "normal"
-msgstr "normal"
-
-#: kdeui/kfontdialog.cpp:317 kdeui/kfontdialog.cpp:477
-msgid "bold"
-msgstr "negreta"
-
-#: kdeui/kfontdialog.cpp:327
-msgid "Style"
-msgstr "Estil"
-
-#: kdeui/kfontdialog.cpp:330 kdeui/kfontdialog.cpp:488
-#: kdeui/kfontdialog.cpp:517
-msgid "roman"
-msgstr "roman"
-
-#: kdeui/kfontdialog.cpp:331 kdeui/kfontdialog.cpp:490
-#: kdeui/kfontdialog.cpp:515
-msgid "italic"
-msgstr "cursiva"
-
-#: kdeui/kfontdialog.cpp:339
+#: kdeui/kfontdialog.cpp:286
 msgid "Charset"
 msgstr "Joc"
 
-#: kdeui/kfontdialog.cpp:358
+#: kdeui/kfontdialog.cpp:297 kfile/kfiledetaillist.cpp:38
+msgid "Size"
+msgstr "Grandària"
+
+#: kdeui/kfontdialog.cpp:338
+msgid "Weight"
+msgstr "Gruix"
+
+#: kdeui/kfontdialog.cpp:339 kdeui/kfontdialog.cpp:480
+msgid "normal"
+msgstr "normal"
+
+#: kdeui/kfontdialog.cpp:340 kdeui/kfontdialog.cpp:482
+msgid "bold"
+msgstr "negreta"
+
+#: kdeui/kfontdialog.cpp:351
+msgid "Style"
+msgstr "Estil"
+
+#: kdeui/kfontdialog.cpp:352 kdeui/kfontdialog.cpp:493
+#: kdeui/kfontdialog.cpp:522
+msgid "roman"
+msgstr "roman"
+
+#: kdeui/kfontdialog.cpp:353 kdeui/kfontdialog.cpp:495
+#: kdeui/kfontdialog.cpp:520
+msgid "italic"
+msgstr "cursiva"
+
+#: kdeui/kfontdialog.cpp:383
 msgid "Dolor Ipse"
 msgstr "Dolor Ipse"
 
-#: kdeui/kfontdialog.cpp:510
+#: kdeui/kfontdialog.cpp:515
 msgid "Bold"
 msgstr "Negreta"
 
-#: kdeui/kfontdialog.cpp:512
+#: kdeui/kfontdialog.cpp:517
 msgid "Normal"
 msgstr "Normal"
 
@@ -752,32 +757,28 @@ msgid "&Help"
 msgstr "&Ajut"
 
 #: kdeui/kkeydialog.cpp:236 po/texts.cpp:136
-#, fuzzy
 msgid "&Defaults"
 msgstr "&Omissió"
 
 #: kdeui/kkeydialog.cpp:320
 msgid "Current key"
-msgstr ""
+msgstr "Tecla actual"
 
 #: kdeui/kkeydialog.cpp:331
-#, fuzzy
 msgid "&Action"
-msgstr "&Posició:"
+msgstr "&Acció"
 
 #: kdeui/kkeydialog.cpp:392
 msgid "&No key"
-msgstr ""
+msgstr "&Cap tecla"
 
 #: kdeui/kkeydialog.cpp:400
-#, fuzzy
 msgid "&Default key"
-msgstr "&Omissió"
+msgstr "Tecla per &omissió"
 
 #: kdeui/kkeydialog.cpp:408
-#, fuzzy
 msgid "&Custom key"
-msgstr "A mida..."
+msgstr "Tecla a &mida"
 
 #: kdeui/kmenubar.cpp:241 kdeui/ktoolbar.cpp:841
 msgid "Top"
@@ -809,7 +810,7 @@ msgstr "&Omissió"
 
 #: kdeui/kquickhelp.cpp:203
 msgid "Quickhelp"
-msgstr ""
+msgstr "Ajut ràpid"
 
 #: kdeui/ktoolbar.cpp:269 kdeui/ktoolbar.cpp:321
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
@@ -882,15 +883,15 @@ msgstr "Punts"
 
 #: kfile/kfiledialog.cpp:160
 msgid "Create new folder"
-msgstr "Crear carpeta nova"
+msgstr "Crea carpeta nova"
 
 #: kfile/kfiledialog.cpp:163
 msgid "Search for a file"
-msgstr "Cercar un fitxer"
+msgstr "Cerca un fitxer"
 
 #: kfile/kfiledialog.cpp:166
 msgid "Configure this dialog [development only]"
-msgstr "Configurar aquest diàleg [només desenvolupament]"
+msgstr "Configura aquest diàleg [només desenvolupament]"
 
 #: kfile/kfiledialog.cpp:174
 msgid "The path"
@@ -906,7 +907,7 @@ msgstr "&Filtre:"
 
 #: kfile/kfiledialog.cpp:226
 msgid "Show hidden"
-msgstr "Mostrar ocults"
+msgstr "Mostra ocults"
 
 #: kfile/kfiledialog.cpp:500
 msgid "Error: Not local file"
@@ -934,11 +935,11 @@ msgstr ""
 
 #: kfile/kfiledialog.cpp:518 kfile/kfiledialog.cpp:624
 msgid "Dismiss"
-msgstr "Rebutjar"
+msgstr "Rebutja"
 
 #: kfile/kfiledialog.cpp:570 kfile/kfiledialog.cpp:1373 po/texts.cpp:77
 msgid "Save As"
-msgstr "Desar com"
+msgstr "Desa com"
 
 #: kfile/kfiledialog.cpp:593
 msgid "Root Directory"
@@ -950,7 +951,7 @@ msgstr "El directori especificat no existeix o no té permís de lectura."
 
 #: kfile/kfiledialog.cpp:872
 msgid "Create new directory in: "
-msgstr "Crear un directori nou a: "
+msgstr "Crea un directori nou a: "
 
 #: kfile/kfiledialog.cpp:875
 msgid "New Directory"
@@ -958,11 +959,11 @@ msgstr "Directori Nou"
 
 #: kfile/kfiledialog.cpp:947
 msgid "Add to bookmarks"
-msgstr "Afegir punt"
+msgstr "Afegeix punt"
 
 #: kfile/kfiledialog.cpp:1233
 msgid "Choose Directory"
-msgstr "Escollir Directori"
+msgstr "Escull Directori"
 
 #: kfile/kfiledialog.cpp:1301
 msgid "directory"
@@ -988,11 +989,6 @@ msgstr "%d %s i %d %s"
 #: kfile/kfiledialog.cpp:1319
 msgid "one directory"
 msgstr "un directori"
-
-#: kfile/kfiledialog.cpp:1321
-#, fuzzy, c-format
-msgid "%d directories"
-msgstr "directoris"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"
@@ -1032,11 +1028,11 @@ msgstr "Estil visual"
 
 #: kfile/kfiledialogconf.cpp:74
 msgid "Show Short View"
-msgstr "Mostrar Vista Breu"
+msgstr "Mostra Vista Breu"
 
 #: kfile/kfiledialogconf.cpp:80
 msgid "Show Detail View"
-msgstr "Mostrar Vista Detallada"
+msgstr "Mostra Vista Detallada"
 
 #: kfile/kfiledialogconf.cpp:89
 msgid "Misc"
@@ -1044,31 +1040,31 @@ msgstr "Misc"
 
 #: kfile/kfiledialogconf.cpp:95
 msgid "Show Filter"
-msgstr "Mostrar Filtre"
+msgstr "Mostra Filtre"
 
 #: kfile/kfiledialogconf.cpp:101
 msgid "Show List Labels"
-msgstr "Mostrar Etiquetes de Llista"
+msgstr "Mostra Etiquetes de Llista"
 
 #: kfile/kfiledialogconf.cpp:107
 msgid "Show Hidden"
-msgstr "Mostrar Ocults"
+msgstr "Mostra Ocults"
 
 #: kfile/kfiledialogconf.cpp:113
 msgid "Show Status Line"
-msgstr "Mostrar Línia d'Estat"
+msgstr "Mostra Línia d'Estat"
 
 #: kfile/kfiledialogconf.cpp:119
 msgid "Use single Click"
-msgstr "Usar clic simple"
+msgstr "Usa clic simple"
 
 #: kfile/kfiledialogconf.cpp:125
 msgid "Mix dirs and files"
-msgstr "Barrejar directoris i fitxers"
+msgstr "Barreja directoris i fitxers"
 
 #: kfile/kfiledialogconf.cpp:131
 msgid "Keep dirs first"
-msgstr "Mostrar directoris a l'inici"
+msgstr "Mostra directoris a l'inici"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"
@@ -1195,7 +1191,7 @@ msgstr "Avís"
 
 #: po/texts.cpp:30
 msgid "Save a file"
-msgstr "Desar un fitxer"
+msgstr "Desa un fitxer"
 
 #: po/texts.cpp:31
 msgid "Contents"
@@ -1215,19 +1211,19 @@ msgstr "No"
 
 #: po/texts.cpp:42
 msgid "File"
-msgstr "Arxivar"
+msgstr "Arxiva"
 
 #: po/texts.cpp:43
 msgid "&File"
-msgstr "Ar&xivar"
+msgstr "Ar&xiva"
 
 #: po/texts.cpp:46
 msgid "Edit"
-msgstr "Editar"
+msgstr "Edita"
 
 #: po/texts.cpp:47
 msgid "&Edit"
-msgstr "&Editar"
+msgstr "&Edita"
 
 #: po/texts.cpp:48
 msgid "&Options"
@@ -1235,27 +1231,27 @@ msgstr "&Opcions"
 
 #: po/texts.cpp:49
 msgid "View"
-msgstr "Veure"
+msgstr "Visualitza"
 
 #: po/texts.cpp:50
 msgid "&View"
-msgstr "&Veure"
+msgstr "&Visualitza"
 
 #: po/texts.cpp:51
 msgid "E&xit"
-msgstr "&Sortir"
+msgstr "&Surt"
 
 #: po/texts.cpp:53
 msgid "&Quit"
-msgstr "&Sortir"
+msgstr "&Abandona"
 
 #: po/texts.cpp:57
 msgid "&Copy"
-msgstr "&Copiar"
+msgstr "&Copia"
 
 #: po/texts.cpp:59
 msgid "&Paste"
-msgstr "&Enganxar"
+msgstr "&Enganxa"
 
 #: po/texts.cpp:60
 msgid "&New Window..."
@@ -1279,23 +1275,23 @@ msgstr "Joc &Nou"
 
 #: po/texts.cpp:66
 msgid "Open a file"
-msgstr "Obrir un fitxer"
+msgstr "Obre un fitxer"
 
 #: po/texts.cpp:67
 msgid "Open..."
-msgstr "Obrir..."
+msgstr "Obre..."
 
 #: po/texts.cpp:68
 msgid "&Open..."
-msgstr "&Obrir..."
+msgstr "&Obre..."
 
 #: po/texts.cpp:70
 msgid "&Cut"
-msgstr "&Tallar"
+msgstr "&Talla"
 
 #: po/texts.cpp:71
 msgid "C&ut"
-msgstr "Ta&llar"
+msgstr "Ta&lla"
 
 #: po/texts.cpp:72
 msgid "Font"
@@ -1311,23 +1307,23 @@ msgstr "Color de &Fons"
 
 #: po/texts.cpp:76
 msgid "&Save"
-msgstr "&Desar"
+msgstr "&Desa"
 
 #: po/texts.cpp:78
 msgid "Save as..."
-msgstr "Desar com..."
+msgstr "Desa com..."
 
 #: po/texts.cpp:79
 msgid "S&ave as..."
-msgstr "D&esar com..."
+msgstr "D&esa com..."
 
 #: po/texts.cpp:81
 msgid "&Close"
-msgstr "&Tancar"
+msgstr "&Tanca"
 
 #: po/texts.cpp:82
 msgid "&Print..."
-msgstr "&Imprimir..."
+msgstr "&Imprimeix..."
 
 #: po/texts.cpp:84
 msgid "Options"
@@ -1335,27 +1331,27 @@ msgstr "Opcions"
 
 #: po/texts.cpp:85
 msgid "Remove"
-msgstr "Retirar"
+msgstr "Elimina"
 
 #: po/texts.cpp:86
 msgid "Add"
-msgstr "Afegir"
+msgstr "Afegeix"
 
 #: po/texts.cpp:87
 msgid "Change"
-msgstr "Canviar"
+msgstr "Canvia"
 
 #: po/texts.cpp:88
 msgid "Delete"
-msgstr "Esborrar"
+msgstr "Esborra"
 
 #: po/texts.cpp:89
 msgid "&Delete"
-msgstr "Es&borrar"
+msgstr "Es&borra"
 
 #: kio/kio_linedit_dlg.cc:46 kio/kio_openwith.cc:268 po/texts.cpp:90
 msgid "Clear"
-msgstr "Netejar"
+msgstr "Neteja"
 
 #: po/texts.cpp:91
 msgid "Italic"
@@ -1367,15 +1363,15 @@ msgstr "Roman"
 
 #: po/texts.cpp:94
 msgid "&Undo"
-msgstr "&Desfer"
+msgstr "&Desfà"
 
 #: po/texts.cpp:95
 msgid "Redo"
-msgstr "Refer"
+msgstr "Refà"
 
 #: po/texts.cpp:96
 msgid "&Redo"
-msgstr "&Refer"
+msgstr "&Refà"
 
 #: po/texts.cpp:97
 msgid "&Game"
@@ -1387,15 +1383,15 @@ msgstr "Informació"
 
 #: po/texts.cpp:99
 msgid "Browse..."
-msgstr "Fullejar..."
+msgstr "Fulleja..."
 
 #: po/texts.cpp:100
 msgid "Stop"
-msgstr "Aturar"
+msgstr "Atura"
 
 #: po/texts.cpp:101
 msgid "&Remove"
-msgstr "&Eliminar"
+msgstr "&Elimina"
 
 #: po/texts.cpp:102
 msgid "&Properties..."
@@ -1407,11 +1403,11 @@ msgstr "Propietats"
 
 #: po/texts.cpp:104
 msgid "&Start"
-msgstr "E&ngegar"
+msgstr "E&ngega"
 
 #: po/texts.cpp:105
 msgid "St&op"
-msgstr "&Aturar"
+msgstr "&Atura"
 
 #: po/texts.cpp:106
 msgid "Miscellaneous"
@@ -1431,7 +1427,7 @@ msgstr "&Fonts"
 
 #: po/texts.cpp:110
 msgid "&Reload"
-msgstr "&Refrescar"
+msgstr "&Refresca"
 
 #: po/texts.cpp:111
 msgid "Files"
@@ -1439,11 +1435,11 @@ msgstr "Fitxers"
 
 #: kab/widget.cc:1373 kab/widget.cc:1415 po/texts.cpp:112
 msgid "Continue"
-msgstr "Continuar"
+msgstr "Continua"
 
 #: po/texts.cpp:113
 msgid "Restore"
-msgstr "Restaurar"
+msgstr "Restaura"
 
 #: po/texts.cpp:114
 msgid "Appearance"
@@ -1479,7 +1475,7 @@ msgstr "Diumenge"
 
 #: po/texts.cpp:123
 msgid "&Update"
-msgstr "&Actualitzar"
+msgstr "&Actualitza"
 
 #: po/texts.cpp:124
 msgid "Layout"
@@ -1495,7 +1491,7 @@ msgstr "Vista &Nova"
 
 #: po/texts.cpp:127
 msgid "&Insert"
-msgstr "&Insertar"
+msgstr "&Inserta"
 
 #: po/texts.cpp:130
 msgid "&Next >>"
@@ -1506,7 +1502,6 @@ msgid "<< &Previous"
 msgstr "<< &Previ"
 
 #: po/texts.cpp:138
-#, fuzzy
 msgid "&About..."
 msgstr "Q&uant a..."
 
@@ -1517,10 +1512,14 @@ msgid ""
 "The program will try to create\n"
 "         "
 msgstr ""
+"El directori on es guarden les dades específiques\n"
+"per l'aplicació del llibre d'adreces no existeix.\n"
+"El programa provarà de crear-lo\n"
+"         "
 
 #: kab/addressbook.cc:92
 msgid "and store all local files in this directory."
-msgstr ""
+msgstr "i guardar tots els fitxers locals en aquest directori."
 
 #: kab/addressbook.cc:96
 msgid ""
@@ -1530,331 +1529,321 @@ msgid ""
 "in your home directory. Run the KDE filemanager\n"
 "kfm once to automatically create it."
 msgstr ""
+"El directori no s'ha pogut crear.\n"
+"Probablement no heu emprat KDE abans, per tant\n"
+"no teniu un directori local \".kde\" al vostre\n"
+"directori llar. Engegueu un cop el gestor de fitxers\n"
+"del KDE per crear-lo automàticament." 
 
 #: kab/addressbook.cc:104
 msgid "The directory has been created.\n"
-msgstr ""
+msgstr "S'ha creat el directori.\n"
 
 #: kab/addressbook.cc:138
 msgid "No addressbook database file, creating new one."
-msgstr ""
+msgstr "No hi ha llibre d'adreces, se n'està creant un de nou."
 
 #: kab/addressbook.cc:157
 msgid "Tried to load database for creating backup, but failed"
-msgstr ""
+msgstr "Ha fallat la càrrega de la base de dades per crear una còpia."
 
 #: kab/addressbook.cc:192
 msgid "Unable to save to backup file."
-msgstr ""
+msgstr "No s'ha pogut desar al fitxer de còpia."
 
 #: kab/addressbook.cc:198
 msgid "Unable to reset filename after creating backup."
-msgstr ""
+msgstr "No s'ha pogut inicialitzar el nom del fitxer desprès de crear la còpia."
 
 #: kab/addressbook.cc:203
 msgid "Unable to create backup file"
-msgstr ""
+msgstr "No s'ha pogut crear el fitxer de còpia"
 
 #: kab/addressbook.cc:256
 msgid "Unable to insert \""
-msgstr ""
+msgstr "No s'ha pogut insertar \""
 
 #: kab/addressbook.cc:257
 msgid "\" into configuration section (ignored)."
-msgstr ""
+msgstr "\" a la secció de configuració (s'ignora)."
 
 #: kab/addressbook.cc:659
 msgid "Unable to add a new entry with available key."
-msgstr ""
+msgstr "No s'ha pogut afegir una nova entrada amb la clau disponible."
 
 #: kab/addressbook.cc:665
 msgid "Cannot find previously created section."
-msgstr ""
+msgstr "No s'ha pogut trobar la secció creada prèviament."
 
 #: kab/addressbook.cc:696
 msgid "Unable to create key-value-map for entry."
-msgstr ""
+msgstr "No s'ha pogut crear la parella clau-valor per l'entrada."
 
 #: kab/addressbook.cc:925
 msgid "entry without name"
-msgstr ""
+msgstr "entrada sense nom"
 
 #: kab/addressbook.cc:943
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
 msgstr ""
+"No s'ha pogut crear un nou fitxer (probablement s'ha denegat el permís), plego."
 
 #: kab/addressbook.cc:949
 msgid "Cannot create configuration section, exiting."
-msgstr ""
+msgstr "No s'ha pogut crear la secció de configuració, plego."
 
 #: kab/addressbook.cc:954
 msgid "Cannot create entries section, exiting."
-msgstr ""
+msgstr "No s'ha pogut crear la secció d'entrades, plego."
 
 #: kab/addressbook.cc:959
 msgid "Unable to find previously created section, exiting."
-msgstr ""
+msgstr "No s'ha pogut trobar la secció creada prèviament, plego."
 
 #: kab/addressbook.cc:967
 msgid "Cannot save newly created database."
-msgstr ""
+msgstr "No s'ha pogut desar la base de dades creada de nou."
 
 #: kab/addressbook.cc:973
 msgid "Cannot erase database contents."
-msgstr ""
+msgstr "No s'ha pogut esborrar el contingut de la base de dades."
 
 #: kab/addressbook.cc:1052
 msgid "First name"
-msgstr ""
+msgstr "Primer nom"
 
 #: kab/addressbook.cc:1056
 msgid "Additional name"
-msgstr ""
+msgstr "Nom adiccional"
 
 #: kab/addressbook.cc:1060
 msgid "Name prefix"
-msgstr ""
+msgstr "Prefix del nom"
 
 #: kab/addressbook.cc:1064
 msgid "Formatted name"
-msgstr ""
+msgstr "Nom amb format"
 
 #: kab/addressbook.cc:1068
-#, fuzzy
 msgid "Comment"
-msgstr "Contingut"
+msgstr "Comentari"
 
 #: kab/addressbook.cc:1072
 msgid "Organization"
-msgstr ""
+msgstr "Organització"
 
 #: kab/addressbook.cc:1076
-#, fuzzy
 msgid "Unit"
-msgstr "Sense títol"
+msgstr "Unitat"
 
 #: kab/addressbook.cc:1080
-#, fuzzy
 msgid "Subunit"
-msgstr "Diu"
+msgstr "Subunitat"
 
 #: kab/addressbook.cc:1084
-#, fuzzy
 msgid "Title"
-msgstr "fitxer"
+msgstr "Títol"
 
 #: kab/addressbook.cc:1088
-#, fuzzy
 msgid "Role"
-msgstr "carpeta"
+msgstr "Càrrec"
 
 #: kab/addressbook.cc:1092
 msgid "Birthday"
-msgstr ""
+msgstr "Aniversari"
 
 #: kab/addressbook.cc:1096
 msgid "Talk addresses"
-msgstr ""
+msgstr "Adreces de conversa"
 
 #: kab/addressbook.cc:1100
 msgid "Delivery label"
-msgstr ""
+msgstr "Etiqueta de lliurament"
 
 #: kab/addressbook.cc:1104
 msgid "Email address"
-msgstr ""
+msgstr "Adreça de correu"
 
 #: kab/addressbook.cc:1108
 msgid "Second email address"
-msgstr ""
+msgstr "Segona adreça de correu"
 
 #: kab/addressbook.cc:1112
 msgid "Third email address"
-msgstr ""
+msgstr "Tercera adreça de correu"
 
 #: kab/addressbook.cc:1116
 msgid "Email addresses"
-msgstr ""
+msgstr "Adreces de correu"
 
 #: kab/addressbook.cc:1120
-#, fuzzy
 msgid "Address"
-msgstr "Afegir"
+msgstr "Adreça"
 
 #: kab/addressbook.cc:1124
 msgid "City/Town"
-msgstr ""
+msgstr "Ciutat/Poble"
 
 #: kab/addressbook.cc:1128
 msgid "Telephone"
-msgstr ""
+msgstr "Telèfon"
 
 #: kab/addressbook.cc:1132
 msgid "Fax number"
-msgstr ""
+msgstr "Numero de fax"
 
 #: kab/addressbook.cc:1136
-#, fuzzy
 msgid "Modem number"
-msgstr "Novembre"
+msgstr "Numero de modem"
 
 #: kab/addressbook.cc:1140
 msgid "Homepage URL"
-msgstr ""
+msgstr "URL de la pàgina llar"
 
 #: kab/addressbook.cc:1144
 msgid "Zip/postal code"
-msgstr ""
+msgstr "Codi postal"
 
 #: kab/addressbook.cc:1148
 msgid "State/province"
-msgstr ""
+msgstr "Estat/provincia"
 
 #: kab/addressbook.cc:1152
-#, fuzzy
 msgid "Country"
-msgstr "Tallar"
+msgstr "País"
 
 #: kab/addressbook.cc:1319
 msgid "(unnamed entry)"
-msgstr ""
+msgstr "(entrada sense nom)"
 
 #: kab/datepickerdialog.cc:34
-#, fuzzy
 msgid "Select birthday"
-msgstr "Trieu font"
+msgstr "Trieu l'aniversari"
 
 #: kab/editentry.cc:38
 msgid "Edit the current entry"
-msgstr ""
+msgstr "Editeu l'entrada actual"
 
 #: kab/editentry.cc:61
-#, fuzzy
 msgid "Title:"
-msgstr "Estil:"
+msgstr "Títol:"
 
 #: kab/editentry.cc:62
 msgid "First name:"
-msgstr ""
+msgstr "Primer nom:"
 
 #: kab/editentry.cc:63
 msgid "Additional Name:"
-msgstr ""
+msgstr "Nom adiccional:"
 
 #: kab/editentry.cc:65
 msgid "Formatted Name:"
-msgstr ""
+msgstr "Nom amb format:"
 
 #: kab/editentry.cc:88
-#, fuzzy
 msgid "&Name"
-msgstr "Nom"
+msgstr "&Nom"
 
 #: kab/editentry.cc:103
 msgid "Address:"
-msgstr ""
+msgstr "Adreça:"
 
 #: kab/editentry.cc:104
 msgid "Zip/postal code:"
-msgstr ""
+msgstr "Codi postal:"
 
 #: kab/editentry.cc:105
 msgid "Town:"
-msgstr ""
+msgstr "Poble:"
 
 #: kab/editentry.cc:106
-#, fuzzy
 msgid "State:"
-msgstr "Data:"
+msgstr "Comarca:"
 
 #: kab/editentry.cc:107
 msgid "Country:"
-msgstr ""
+msgstr "País:"
 
 #: kab/editentry.cc:130
 msgid "&Address"
-msgstr ""
+msgstr "&Adreça"
 
 #: kab/editentry.cc:145
 msgid "Organization:"
-msgstr ""
+msgstr "Organització:"
 
 #: kab/editentry.cc:146
 msgid "Org Unit:"
-msgstr ""
+msgstr "Unitat:"
 
 #: kab/editentry.cc:147
 msgid "Org Subunit:"
-msgstr ""
+msgstr "Subunitat:"
 
 #: kab/editentry.cc:148
-#, fuzzy
 msgid "Role:"
-msgstr "Carpetes:"
+msgstr "Càrrec:"
 
 #: kab/editentry.cc:169
 msgid "&Organization"
-msgstr ""
+msgstr "&Organització"
 
 #: kab/editentry.cc:184
 msgid "Telephone:"
-msgstr ""
+msgstr "Telèfon:"
 
 #: kab/editentry.cc:185
 msgid "Fax:"
-msgstr ""
+msgstr "Fax:"
 
 #: kab/editentry.cc:186
-#, fuzzy
 msgid "Modem:"
-msgstr "Moure"
+msgstr "Modem:"
 
 #: kab/editentry.cc:187
 msgid "Homepage (URL):"
-msgstr ""
+msgstr "Pàgina llar (URL):"
 
 #: kab/editentry.cc:200 kab/editentry.cc:418
 msgid "Edit email addresses"
-msgstr ""
+msgstr "Edita l'adreça de correu"
 
 #: kab/editentry.cc:206 kab/editentry.cc:400
 msgid "Edit talk addresses"
-msgstr ""
+msgstr "Edita l'adreça de conversa"
 
 #: kab/editentry.cc:218
-#, fuzzy
 msgid "&Contact"
-msgstr "&Contingut"
+msgstr "&Contacte"
 
 #: kab/editentry.cc:239
-#, fuzzy
 msgid "Comment:"
-msgstr "Contingut:"
+msgstr "Comentari:"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
-msgstr ""
+msgstr "Aniversari:"
 
 #: kab/editentry.cc:249
 msgid "Double click to set date"
-msgstr ""
+msgstr "Cliqueu dos cops per establir la data"
 
 #: kab/editentry.cc:256
 msgid "O&thers"
-msgstr ""
+msgstr "Al&tres"
 
 #: kab/kabapi.cc:134
 msgid "Your new entry could not be added."
-msgstr ""
+msgstr "No s'ha pogut afegir la vostra nova entrada."
 
 #: kab/searchresults.cc:33
 msgid "search results"
-msgstr ""
+msgstr "resultats de la cerca"
 
 #: kab/widget.cc:141
 msgid "Conversion problem"
-msgstr ""
+msgstr "Problema de conversió"
 
 #: kab/widget.cc:142
 msgid ""
@@ -1863,16 +1852,22 @@ msgid ""
 "You can use it, but not all features will be\n"
 "supported."
 msgstr ""
+"Kab no ha pogut convertir la vostra base de dades\n"
+"al format de fitxer actual.\n"
+"Podeu fer-la servir, pero no hi haurà suport per\n"
+"totes les característiques."
 
 #: kab/widget.cc:160
 msgid ""
 "The application saved the last current entry,\n"
 "but this entry does not exist anymore."
 msgstr ""
+"L'aplicació ha desat la darrera entrada actual,\n"
+"pero l'entrada ja no hi és."
 
 #: kab/widget.cc:226
 msgid "kab: Removed bug warning"
-msgstr ""
+msgstr "kab: s'ha eliminat l'avís d'error"
 
 #: kab/widget.cc:227
 msgid ""
@@ -1883,18 +1878,24 @@ msgid ""
 "All configuration values have been reset to\n"
 "its default settings."
 msgstr ""
+"La versió de kab que havíeu emprat abans tenia\n"
+"un error en l'actualització de la base de dades\n"
+"a les noves versions. Aquest error s'ha eliminat\n"
+"i no us afectarà més. Tots els valors de\n"
+"configuració s'han inicialitzat a l'arranjament\n"
+"per omissió."
 
 #: kab/widget.cc:245 kab/widget.cc:309 kab/widget.cc:317
 msgid "File handling error"
-msgstr ""
+msgstr "Error de manegament de fitxer"
 
 #: kab/widget.cc:246
 msgid "Unable to open database file r/w."
-msgstr ""
+msgstr "No s'ha pogut obrir la base de dades."
 
 #: kab/widget.cc:254
 msgid "Email storage conversion"
-msgstr ""
+msgstr "Conversió del magatzem de correu"
 
 #: kab/widget.cc:255
 msgid ""
@@ -1902,10 +1903,13 @@ msgid ""
 "the new style supporting unlimited numbers\n"
 "of email addresses per entry."
 msgstr ""
+"Kab transformarà totes les adreces de correu\n"
+"a l'estil nou que admet un numero ilimitat\n"
+"d'adreces de correu per entrada."
 
 #: kab/widget.cc:288
 msgid "kab database update"
-msgstr ""
+msgstr "actualizació de la base de dades kab"
 
 #: kab/widget.cc:289
 msgid ""
@@ -1918,101 +1922,103 @@ msgid ""
 "You will probably need to edit some of your\n"
 "entries to make use of it."
 msgstr ""
+"Si us plau, tingueu present que ara kab té\n"
+"alguns camps nous a les adreces. Els camps nous\n"
+"són:\n"
+"° el camp de comarca,\n"
+"° el camp de país i\n"
+"° el camp de codi postal.\n"
+"Probablement haureu d'editar les vostres\n"
+"entrades per fer-los servir."
 
 #: kab/widget.cc:310
-#, fuzzy
 msgid "Could not save database after update."
-msgstr "No s'ha pogut desar el document\n"
+msgstr "No s'ha pogut desar la base de dades desprès de l'actualització."
 
 #: kab/widget.cc:318
 msgid "Unable to reopen database file r/o."
-msgstr ""
+msgstr "No s'ha pogut reobrir la base de dades."
 
 #: kab/widget.cc:479
-#, fuzzy
 msgid "first entry"
-msgstr "directori"
+msgstr "primera entrada"
 
 #: kab/widget.cc:480
-#, fuzzy
 msgid "previous entry"
-msgstr "&Previ"
+msgstr "entrada prèvia"
 
 #: kab/widget.cc:481
-#, fuzzy
 msgid "next entry"
-msgstr "un directori"
+msgstr "entrada següent"
 
 #: kab/widget.cc:482
 msgid "last entry"
-msgstr ""
+msgstr "darrera entrada"
 
 #: kab/widget.cc:483
 msgid "search entries"
-msgstr ""
+msgstr "cerca entrades"
 
 #: kab/widget.cc:484
 msgid "add a new entry"
-msgstr ""
+msgstr "afegeix una nova entrada"
 
 #: kab/widget.cc:485
 msgid "change this entry"
-msgstr ""
+msgstr "canvia aquesta entrada"
 
 #: kab/widget.cc:486
 msgid "remove this entry"
-msgstr ""
+msgstr "elimina aquesta entrada"
 
 #: kab/widget.cc:525
 msgid "Switched to first entry."
-msgstr ""
+msgstr "S'ha saltat a la primera entrada."
 
 #: kab/widget.cc:557
 msgid "Switched to last entry."
-msgstr ""
+msgstr "S'ha saltat a la darrera entrada."
 
 #: kab/widget.cc:618 kab/widget.cc:672 kab/widget.cc:849 kab/widget.cc:911
 msgid "Sorry, file changed."
-msgstr ""
+msgstr "Ho sento, el fitxer ha canviat."
 
 #: kab/widget.cc:622 kab/widget.cc:676 kab/widget.cc:915
-#, fuzzy
 msgid "Permission denied."
-msgstr "Permissos"
+msgstr "S'ha denegat el permís"
 
 #: kab/widget.cc:633
-#, fuzzy
 msgid "Remove entry?"
-msgstr "Retirar"
+msgstr "Elimino l'entrada?"
 
 #: kab/widget.cc:634
 msgid "Really remove this entry?"
-msgstr ""
+msgstr "De veres elimino l'entrada?"
 
 #: kab/widget.cc:652
 msgid "Entry deleted."
-msgstr ""
+msgstr "S'ha esborrat l'entrada."
 
 #: kab/widget.cc:686
 msgid "Added a new entry."
-msgstr ""
+msgstr "S'ha afegit una nova entrada."
 
 #: kab/widget.cc:810
 msgid "Opened browser window."
-msgstr ""
+msgstr "S'ha obert la finestra del fullejador."
 
 #: kab/widget.cc:813
 msgid "No URL."
-msgstr ""
+msgstr "Sense URL."
 
 #: kab/widget.cc:817 kab/widget.cc:986 kab/widget.cc:1165 kab/widget.cc:1778
 #: kab/widget.cc:1956 kab/widget.cc:2040
 msgid "No entries."
-msgstr ""
+msgstr "Sense entrades."
 
 #: kab/widget.cc:822
 msgid "The filemanager is busy, please try again."
-msgstr ""
+msgstr "El gestor de fitxers està ocupat, torneu a provar."
 
 #: kab/widget.cc:842
 msgid ""
@@ -2020,263 +2026,267 @@ msgid ""
 "locked by another application.\n"
 "kab cannot save it."
 msgstr ""
+"El fitxer del llibre d'adreces està\n"
+"bloquejat per una altra aplicació.\n"
+"kab no el pot desar."
 
 #: kab/widget.cc:859
 msgid "Database saved successfully."
-msgstr ""
+msgstr "La base de dades s'ha desat correctament."
 
 #: kab/widget.cc:864
 msgid "kab: File error"
-msgstr ""
+msgstr "kab: Error de fitxer"
 
 #: kab/widget.cc:864
-#, fuzzy
 msgid "Could not save database."
-msgstr "No s'ha pogut desar el document\n"
+msgstr "No s'ha pogut desar la base de dades\n"
 
 #: kab/widget.cc:865
-#, fuzzy
 msgid "&Retry"
-msgstr "Restaurar"
+msgstr "&Torna-hi"
 
 #: kab/widget.cc:865
 msgid "&Ignore"
-msgstr ""
+msgstr "&Ignora-ho"
 
 #: kab/widget.cc:868
-#, fuzzy
 msgid "Saving cancelled.\n"
-msgstr "Cancel·lar"
+msgstr "S'ha cancel·lat el desat.\n"
 
 #: kab/widget.cc:934
 msgid "Entry changed."
-msgstr ""
+msgstr "S'ha canviat l'entrada."
 
 #: kab/widget.cc:1030
 msgid "Results"
-msgstr ""
+msgstr "Resultats"
 
 #: kab/widget.cc:1030
 msgid "No entry matches this."
-msgstr ""
+msgstr "No casa cap entrada."
 
 #: kab/widget.cc:1039 kab/widget.cc:1685 kab/widget.cc:1820 kab/widget.cc:1985
 #: kab/widget.cc:2008 kab/widget.cc:2065
 msgid "Rejected."
-msgstr ""
+msgstr "Rebutjat."
 
 #: kab/widget.cc:1055
 msgid "Search results window closed."
-msgstr ""
+msgstr "S'ha tancat la finestra de cerca."
 
 #: kab/widget.cc:1154
 msgid "The talk command must be configured before!"
-msgstr ""
+msgstr "Abans heu de configurar la comanda de conversa!"
 
 #: kab/widget.cc:1159
 msgid "Talk configuration"
-msgstr ""
+msgstr "Configuració de conversa"
 
 #: kab/widget.cc:1160
 msgid "Please configure the parameters for the talk command."
-msgstr ""
+msgstr "Si us plau, configureu els paràmetres per la comanda de conversa."
 
 #: kab/widget.cc:1173
 msgid "No talk address."
-msgstr ""
+msgstr "Sense adreça de conversa."
 
 #: kab/widget.cc:1181
 msgid "kab: Talk addresses"
-msgstr ""
+msgstr "kab: Adreces de conversa"
 
 #: kab/widget.cc:1182
 msgid "Available talk addresses:"
-msgstr ""
+msgstr "Adreces de conversa disponibles:"
 
 #: kab/widget.cc:1188 kab/widget.cc:1916
-#, fuzzy
 msgid "Cancelled."
-msgstr "Cancel·lar"
+msgstr "Cancel·lat"
 
 #: kab/widget.cc:1211
 msgid "The talk command parameters are wrong."
-msgstr ""
+msgstr "Els paràmetres de la comanda de conversa són errònis."
 
 #: kab/widget.cc:1223
 msgid ""
 "Talk command failed.\n"
 "Make sure you did setup your talk command and parameter!"
 msgstr ""
+"Ha fallat la comanda de conversa.\n"
+"Assegureu-vos que heu arranjat la comanda de conversa i els paràmetres!"
 
 #: kab/widget.cc:1226
 msgid "Talk program started."
-msgstr ""
+msgstr "S'ha engegat el programa de conversa."
 
 #: kab/widget.cc:1274
 msgid "Attention: printing is still experimental!"
-msgstr ""
+msgstr "Atenció: la impressió encara és experimental!"
 
 #: kab/widget.cc:1370 kab/widget.cc:1412
 msgid "Page size problem"
-msgstr ""
+msgstr "Hi ha un problema amb la mida de pàgina"
 
 #: kab/widget.cc:1371 kab/widget.cc:1413
 msgid ""
 "The fields you requested to print do\n"
 "not fit into the page width."
 msgstr ""
+"Els camps que voleu imprimir no\n"
+"caben en l'ample de pàgina."
 
 #: kab/widget.cc:1590 kab/widget.cc:2019
 msgid "Printing finished successfully."
-msgstr ""
+msgstr "La impressió ha acabat correctament."
 
 #: kab/widget.cc:1616
 msgid "kab: Email addresses"
-msgstr ""
+msgstr "kab: Adreces de correu"
 
 #: kab/widget.cc:1617
 msgid "Available email addresses:"
-msgstr ""
+msgstr "Adreces de correu disponibles:"
 
 #: kab/widget.cc:1682
 msgid "kab: Select fields to copy"
-msgstr ""
+msgstr "kab: Trieu els camps per copiar"
 
 #: kab/widget.cc:1692
 msgid "Nothing selected."
-msgstr ""
+msgstr "No heu triat cap."
 
 #: kab/widget.cc:1750 kab/widget.cc:2002
 msgid "KDE addressbook overview"
-msgstr ""
+msgstr "Cop d'ull al llibre d'adreces KDE"
 
 #: kab/widget.cc:1794
 msgid "Name-Email-Link (!!)"
-msgstr ""
+msgstr "Enllaç nom-adreça (!!)"
 
 #: kab/widget.cc:1796
-#, fuzzy
 msgid "Select table columns"
-msgstr "Trieu icona"
+msgstr "Trieu les columnes de la taula"
 
 #: kab/widget.cc:1801
 msgid "Nothing to export."
-msgstr ""
+msgstr "No hi ha res per exportar."
 
 #: kab/widget.cc:1830
 msgid "Email link"
-msgstr ""
+msgstr "Enllaç de correu"
 
 #: kab/widget.cc:1905
 msgid "Could not find the users home directory."
-msgstr ""
+msgstr "No s'ha pogut trobar el directori llar dels usuaris."
 
 #: kab/widget.cc:1906
 msgid "Intern error!"
-msgstr ""
+msgstr "Error intern!"
 
 #: kab/widget.cc:1926
 msgid "Could not open the file to create the HTML table."
-msgstr ""
+msgstr "No s'ha pogut obrir el fitxer per crear la taula HTML."
 
 #: kab/widget.cc:1962
 msgid "Printing cancelled."
-msgstr ""
+msgstr "S'ha cancel·lat la impressió."
 
 #: kab/widget.cc:1978
 msgid "kab: Select columns for printing"
-msgstr ""
+msgstr "kab: Trieu les columnes per imprimir"
 
 #: kab/widget.cc:1991
 msgid "Nothing to print."
-msgstr ""
+msgstr "No hi ha res per imprimir."
 
 #: kab/widget.cc:2003
 msgid "Page <p>"
-msgstr ""
+msgstr "Pàg. <p>"
 
 #: kab/widget.cc:2004
 msgid "KDE - the professionals choice."
-msgstr ""
+msgstr "KDE - la tria professional."
 
 #: kab/widget.cc:2017
 msgid "Printing failed!"
-msgstr ""
+msgstr "Ha fallat la impressió!"
 
 #: kab/widget.cc:2048
 msgid "Empty email address."
-msgstr ""
+msgstr "Adreça de correu buida."
 
 #: kab/widget.cc:2067
 msgid "No email address."
-msgstr ""
+msgstr "Sense adreça de correu."
 
 #: kab/widget.cc:2077
-#, fuzzy
 msgid "Error calling mailer."
-msgstr "Error: No és un fitxer local"
+msgstr "Error en cridar al correu."
 
 #: kab/widget.cc:2079
 msgid "Mailer called."
-msgstr ""
+msgstr "S'ha cridat al correu."
 
 #: kab/widget.cc:2102
 msgid "The mail command must be configured before!"
-msgstr ""
+msgstr "Abans heu de configurar la comanda de correu!"
 
 #: kab/widget.cc:2107
 msgid "Mail configuration"
-msgstr ""
+msgstr "Configuració de correu."
 
 #: kab/widget.cc:2108
 msgid "Please configure the parameters for the email command."
-msgstr ""
+msgstr "Si us plau, configureu els paràmetres per la comanda de correu."
 
 #: kab/widget.cc:2146
 msgid "The email command parameters are wrong."
-msgstr ""
+msgstr "Els paràmetres de la comanda de correu són errònis."
 
 #: kab/widget.cc:2158
 msgid ""
 "Email command failed.\n"
 "Make sure you did setup your email command and parameter!"
 msgstr ""
+"Ha fallat la comanda de correu.\n"
+"Assegureu-vos que heu arranjat la comanda de correu i els paràmetres!"
 
 #: kab/widget.cc:2162
 msgid "Mail program started."
-msgstr ""
+msgstr "S'ha engegat el programa de correu."
 
 #: kio/kio_cache.cc:345
 msgid "KIO Cache"
-msgstr ""
+msgstr "Cau KIO"
 
 #: kio/kio_cache.cc:347
 msgid "Contents of the cache"
-msgstr ""
+msgstr "Contingut del cau"
 
 #: kio/kio_cache.cc:352
 msgid ""
 "Use the icons for drag and drop actions, since they refer to the cache files "
 "on your hard disk, while you should use the textual links for browsing"
 msgstr ""
+"Empreu les icones per les accions d'arrossegar i amollar, atès que fan "
+"referència als fitxers del cau, mentres que podeu emprar els enllaços "
+"textuals per fullejar"
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"
-msgstr ""
+msgstr "Data de creació"
 
 #: kio/kio_cache.cc:357
 msgid "Expiration Date"
-msgstr ""
+msgstr "Data d'expiració"
 
 #: kio/kio_cache.cc:422
-#, fuzzy
 msgid "Unknown"
-msgstr "desconegut"
+msgstr "Desconegut"
 
 #: kio/kio_cache.cc:428
-#, fuzzy
 msgid "Never"
-msgstr "Novembre"
+msgstr "Mai"
 
 #: kio/kio_error.cc:16
 #, c-format
@@ -2284,20 +2294,24 @@ msgid ""
 "Could not read\n"
 "%s"
 msgstr ""
+"No s'ha pogut llegir\n"
+"%s"
 
 #: kio/kio_error.cc:19
-#, fuzzy, c-format
 msgid ""
 "Could not write to\n"
 "%s"
-msgstr "No s'ha pogut desar el document\n"
+msgstr ""
+"No s'ha pogut escriure a\n"
+"%s"
 
 #: kio/kio_error.cc:22
-#, fuzzy, c-format
 msgid ""
 "Could not start process\n"
 "%s"
-msgstr "No s'ha pogut desar el document\n"
+msgstr ""
+"No s'ha pogut engegar el procés\n"
+"%s"
 
 #: kio/kio_error.cc:25
 #, c-format
@@ -2307,13 +2321,18 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Error intern\n"
+"Si us plau, envieu un informe d'error complet a kde-bugs@kde.org\n"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:28
-#, fuzzy, c-format
 msgid ""
 "Malformed URL\n"
 "%s"
-msgstr "URL errònia"
+msgstr ""
+"URL errònia\n"
+"%s"
 
 #: kio/kio_error.cc:31
 #, c-format
@@ -2321,6 +2340,8 @@ msgid ""
 "The protocol %s\n"
 " is not supported"
 msgstr ""
+"El protocol %s\n"
+" no està suportat"
 
 #: kio/kio_error.cc:34
 #, c-format
@@ -2328,6 +2349,8 @@ msgid ""
 "The protocol %s\n"
 "is only a filter protocol.\n"
 msgstr ""
+"El protocol %s\n"
+"és només un protocol de filtre.\n"
 
 #: kio/kio_error.cc:37
 #, c-format
@@ -2335,14 +2358,18 @@ msgid ""
 "Unsupported action\n"
 "%s"
 msgstr ""
+"Acció no suportada\n"
+"%s"
 
 #: kio/kio_error.cc:40
-#, fuzzy, c-format
 msgid ""
 "The file or directory\n"
 "%s\n"
 "does not exist"
-msgstr "El fitxer especificat no existeix"
+msgstr ""
+"El fitxer o directori\n"
+"%s\n"
+"no existeix"
 
 #: kio/kio_error.cc:43
 #, c-format
@@ -2351,13 +2378,17 @@ msgid ""
 " is a directory,\n"
 "but a file was expected"
 msgstr ""
+"%s\n"
+" és un directori,\n"
+"pero s'esperava un fitxer"
 
 #: kio/kio_error.cc:46
-#, fuzzy, c-format
 msgid ""
 "Could not make directory\n"
 "%s"
-msgstr "un directori"
+msgstr ""
+"No s'ha pogut crear el directori\n"
+"%s"
 
 #: kio/kio_error.cc:49
 #, c-format
@@ -2366,6 +2397,9 @@ msgid ""
 "%s\n"
 "does already exist"
 msgstr ""
+"El fitxer o directori\n"
+"%s\n"
+"ja existeix"
 
 #: kio/kio_error.cc:52
 #, c-format
@@ -2373,13 +2407,16 @@ msgid ""
 "%s\n"
 "Access denied"
 msgstr ""
+"%s\n"
+"S'ha denegat l'accés"
 
 #: kio/kio_error.cc:55
-#, fuzzy, c-format
 msgid ""
 "Could not enter directory\n"
 "%s"
-msgstr "No s'ha pogut desar el document\n"
+msgstr ""
+"No es pot entrar al directori\n"
+"%s"
 
 #: kio/kio_error.cc:58
 #, c-format
@@ -2387,6 +2424,8 @@ msgid ""
 "The protocol %s\n"
 "does not implement a directory service"
 msgstr ""
+"El protocol %s\n"
+"no implementa un servei de directori"
 
 #: kio/kio_error.cc:61
 #, c-format
@@ -2394,13 +2433,16 @@ msgid ""
 "Found a cyclic link in\n"
 "%s"
 msgstr ""
+"S'ha trobat un enllaç cíclic a\n"
+"%s"
 
 #: kio/kio_error.cc:64
-#, fuzzy, c-format
 msgid ""
 "Could not change permissions for\n"
 "%s"
-msgstr "No teniu permís d'escriptura per aquest fitxer.\n"
+msgstr ""
+"No s'han pogut canviar els permissos per\n"
+"%s"
 
 #: kio/kio_error.cc:67
 #, c-format
@@ -2409,12 +2451,17 @@ msgid ""
 "Could not write to\n"
 "%s"
 msgstr ""
+"S'ha denegat l'accés\n"
+"No s'ha pogut escriure a\n"
+"%s"
 
 #: kio/kio_error.cc:70
 msgid ""
 "Action has been\n"
 "canceled by the user"
 msgstr ""
+"L'acció ha estat\n"
+"cancel·lada per l'usuari"
 
 #: kio/kio_error.cc:73
 #, c-format
@@ -2422,6 +2469,8 @@ msgid ""
 "Found a cyclic link while copying\n"
 "%s"
 msgstr ""
+"S'ha trobat un enllaç cíclic en copiar\n"
+"%s"
 
 #: kio/kio_error.cc:76
 #, c-format
@@ -2429,13 +2478,16 @@ msgid ""
 "Could not create socket for accessing\n"
 "%s"
 msgstr ""
+"No s'ha pogut crear el socket per accedir\n"
+"%s"
 
 #: kio/kio_error.cc:79
-#, fuzzy, c-format
 msgid ""
 "Could not connect to host\n"
 "%s"
-msgstr "No s'ha pogut desar el document\n"
+msgstr ""
+"No s'ha pogut connectar al remot\n"
+"%s"
 
 #: kio/kio_error.cc:82
 #, c-format
@@ -2443,6 +2495,8 @@ msgid ""
 "Unknown host\n"
 "%s"
 msgstr ""
+"Remot desconegut\n"
+"%s"
 
 #: kio/kio_error.cc:85
 #, c-format
@@ -2451,6 +2505,9 @@ msgid ""
 "%s\n"
 "is broken"
 msgstr ""
+"La connexió al remot\n"
+"%s\n"
+"s'ha tallat"
 
 #: kio/kio_error.cc:88
 #, c-format
@@ -2458,6 +2515,8 @@ msgid ""
 "The protocol %s\n"
 "is not a filter protocol"
 msgstr ""
+"El protocol %s\n"
+"no és un protocol de filtre"
 
 #: kio/kio_error.cc:91
 #, c-format
@@ -2466,6 +2525,9 @@ msgid ""
 "is a file,\n"
 "but a directory was expected"
 msgstr ""
+"%s\n"
+"és un fitxer,\n"
+"pero s'esperava un directori"
 
 #: kio/kio_error.cc:94
 #, c-format
@@ -2475,6 +2537,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"No s'ha pogut muntar el dispositiu.\n"
+"L'error ha estat:\n"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:97
 #, c-format
@@ -2484,6 +2550,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"No s'ha pogut desmuntar el dispositiu.\n"
+"L'error ha estat:\n"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:100
 #, c-format
@@ -2492,13 +2562,17 @@ msgid ""
 "%s protocol\n"
 "died unexpectedly"
 msgstr ""
+"El procés pel\n"
+"protocol %s\n"
+"ha mort inesperadament"
 
 #: kio/kio_error.cc:103
-#, fuzzy, c-format
 msgid ""
 "Could not access\n"
 "%s"
-msgstr "No s'ha pogut desar el document\n"
+msgstr ""
+"No s'ha pogut accedir\n"
+"%s"
 
 #: kio/kio_error.cc:106
 #, c-format
@@ -2508,6 +2582,10 @@ msgid ""
 "\n"
 "Please send a full bugreport to kde-bugs@kde.org"
 msgstr ""
+"Codi d'error desconegut %i\n"
+"%s\n"
+"\n"
+"Si us plau, envieu un informe d'error complet a kde-bugs@kde.org"
 
 #: kio/kio_error.cc:118 kio/kio_linedit_dlg.cc:42 kio/kio_openwith.cc:260
 #: kio/kio_pass_dlg.cc:75 kio/kio_paste.cc:48 kio/kio_paste.cc:60
@@ -2523,202 +2601,190 @@ msgstr "Bé"
 #: kio/kio_job.cc:137
 #, c-format
 msgid "Mounting %s ..."
-msgstr ""
+msgstr "S'està muntant %s ..."
 
 #: kio/kio_job.cc:157
 #, c-format
 msgid "Unmounting %s ..."
-msgstr ""
+msgstr "S'està desmuntant %s ..."
 
 #: kio/kio_openwith.cc:133
 msgid "This group is empty!"
-msgstr ""
+msgstr "Aquest grup està buit!"
 
 #: kio/kio_openwith.cc:264
-#, fuzzy
 msgid "&Browser"
-msgstr "Fullejar..."
+msgstr "&Fullejar"
 
 #: kio/kio_pass_dlg.cc:33
 msgid "User"
-msgstr ""
+msgstr "Usuari"
 
 #: kio/kio_pass_dlg.cc:44 kio/kio_pass_dlg.cc:88
 msgid "Password"
-msgstr ""
+msgstr "Clau de pas"
 
 #: kio/kio_paste.cc:48 kio/kio_paste.cc:60
 msgid "The clipboard is empty"
-msgstr ""
+msgstr "La taula d'enganxar està buida"
 
 #: kio/kio_paste.cc:75
 msgid ""
 "Pasting clipboard data is only supported on the local hard disk currently"
 msgstr ""
+"Actualment només es poden enganxar dades al disc dur local"
 
 #: kio/kio_paste.cc:80
 msgid "Filename for clipboard content:"
-msgstr ""
+msgstr "Nom de fitxer pel contingut de la taula d'enganxar:"
 
 #: kio/kio_paste.cc:87
 msgid "You did not enter a filename"
-msgstr ""
+msgstr "No heu entrat un nom de fitxer"
 
 #: kio/kio_paste.cc:97
-#, fuzzy, c-format
 msgid "The file %s does already exist. Do you really want to overwrite it ?"
-msgstr ""
-"Hi ha un document amb aquest nom\n"
-"Voleu escriure a sobre ?"
+msgstr "El fitxer %s ja existeix. De veres voleu escriure-hi a sobre ?"
 
 #: kio/kio_progress_dlg.cc:92 kio/kio_progress_dlg.cc:108
 msgid " Bytes"
-msgstr ""
+msgstr " Bytes"
 
 #: kio/kio_progress_dlg.cc:97 kio/kio_progress_dlg.cc:113
 msgid " Kb"
-msgstr ""
+msgstr " Kb"
 
 #: kio/kio_progress_dlg.cc:102 kio/kio_progress_dlg.cc:118
 msgid " Mb"
-msgstr ""
+msgstr " Mb"
 
 #: kio/kio_progress_dlg.cc:151 kio/kio_progress_dlg.cc:177
-#, fuzzy
 msgid "Stalled"
-msgstr "Estil"
+msgstr "Aturat"
 
 #: kio/kio_progress_dlg.cc:159
 msgid " Bytes/s"
-msgstr ""
+msgstr " Bytes/s"
 
 #: kio/kio_progress_dlg.cc:164
 msgid " Kb/s"
-msgstr ""
+msgstr " Kb/s"
 
 #: kio/kio_progress_dlg.cc:169
 msgid " Mb/s"
-msgstr ""
+msgstr " Mb/s"
 
 #: kio/kio_progress_dlg.cc:184
 #, c-format
 msgid "%i seconds"
-msgstr ""
+msgstr "%i segons"
 
 #: kio/kio_progress_dlg.cc:190
 #, c-format
 msgid "%i:%i"
-msgstr ""
+msgstr "%i:%i"
 
 #: kio/kio_progress_dlg.cc:197
 #, c-format
 msgid "%i:%i:%i"
-msgstr ""
+msgstr "%i:%i:%i"
 
 #: kio/kio_progress_dlg.cc:201
 #, c-format
 msgid "%i%s  Remaining time: %s"
-msgstr ""
+msgstr "%i%s Temps pendent: %s"
 
 #: kio/kio_progress_dlg.cc:207
-#, fuzzy
 msgid "Scanning "
-msgstr "Avís"
+msgstr "S'està explorant "
 
 #: kio/kio_progress_dlg.cc:222
-#, fuzzy
 msgid "Creating dir "
-msgstr "Crear carpeta nova"
+msgstr "S'està creant el directori "
 
 #: kio/kio_progress_dlg.cc:229
 msgid "Fetching file"
-msgstr ""
+msgstr "S'està recuperant el fitxer"
 
 #: kio/kio_rename_dlg.cc:33
-#, fuzzy
 msgid "Rename"
-msgstr "Retirar"
+msgstr "Renombra"
 
 #: kio/kio_rename_dlg.cc:38 kio/kio_skip_dlg.cc:23
 msgid "Skip"
-msgstr ""
+msgstr "Salta"
 
 #: kio/kio_rename_dlg.cc:41 kio/kio_skip_dlg.cc:28
 msgid "Auto Skip"
-msgstr ""
+msgstr "Auto Salta"
 
 #: kio/kio_rename_dlg.cc:47
 msgid "Overwrite"
-msgstr ""
+msgstr "Sobreescriu"
 
 #: kio/kio_rename_dlg.cc:52
 msgid "Overwrite All"
-msgstr ""
+msgstr "Sobreescriu tots"
 
 #: kio/kio_rename_dlg.cc:59
-#, fuzzy
 msgid "Resume"
-msgstr "Retirar"
+msgstr "Continua"
 
 #: kio/kio_rename_dlg.cc:64
-#, fuzzy
 msgid "Resume All"
-msgstr "Substituir tot"
+msgstr "Continua tots"
 
 #: kio/kio_rename_dlg.cc:75
 msgid "You try to overwrite"
-msgstr ""
+msgstr "Heu provat de sobreescriure"
 
 #: kio/kio_rename_dlg.cc:96
 msgid "already exists. Overwrite with"
-msgstr ""
+msgstr "ja existeix. Sobreescriu amb"
 
 #: kio/kio_rename_dlg.cc:108
 msgid "Or rename to"
-msgstr ""
+msgstr "O renombra a"
 
 #: kio/kio_rename_dlg.cc:119
 msgid "already exists."
-msgstr ""
+msgstr "ja existeix."
 
 #: kio/kio_rename_dlg.cc:124
 msgid "Do you want to rename it ?"
-msgstr ""
+msgstr "Voleu renombrar a ?"
 
 #: kio/kio_rename_dlg.cc:215
-#, fuzzy
 msgid "Malformed URL\n"
-msgstr "URL errònia"
+msgstr "URL errònia\n"
 
 #: kio/kio_rename_dlg.cc:224
 msgid "You must not change the protocol"
-msgstr ""
+msgstr "No heu de canviar el protocol"
 
 #: kio/kio_skip_dlg.cc:35
-#, fuzzy
 msgid "Can not write"
-msgstr "No s'ha pogut desar el document\n"
+msgstr "No es pot escriure"
 
 #: kio/kio_skip_dlg.cc:46
-#, fuzzy
 msgid "Permission denied!"
-msgstr "Permissos"
+msgstr "Permís denegat!"
 
 #: kio/kmimetypes.cc:61
 msgid "No mime types installed!"
-msgstr ""
+msgstr "No hi ha tipus mime instal·lats!"
 
 #: kio/kmimetypes.cc:85
 msgid "Could not find mime type\n"
-msgstr ""
+msgstr "No s'ha pogut trobar el tipus mime\n"
 
 #: kio/kmimetypes.cc:131
 msgid "The mime type config file "
-msgstr ""
+msgstr "El fitxer de configuració tipus mime "
 
 #: kio/kmimetypes.cc:133 kio/kregfactories.cc:74
 msgid "does not conatain a MimeType=... entry"
-msgstr ""
+msgstr "no conté una entrada MimeType=..."
 
 #: kio/kmimetypes.cc:486
 #, c-format
@@ -2727,6 +2793,9 @@ msgid ""
 "%s\n"
 "has no Type=... entry"
 msgstr ""
+"El fitxer kdelnk\n"
+"%s\n"
+"no té cap entrada Type=..."
 
 #: kio/kmimetypes.cc:504
 #, c-format
@@ -2735,6 +2804,9 @@ msgid ""
 "%s\n"
 "is unknown"
 msgstr ""
+"El tipus kdelnk\n"
+"%s\n"
+"és desconegut"
 
 #: kio/kmimetypes.cc:518 kio/kmimetypes.cc:598 kio/kmimetypes.cc:690
 #, c-format
@@ -2743,6 +2815,9 @@ msgid ""
 "%s\n"
 "is of type FSDevice but has no Dev=... entry"
 msgstr ""
+"El fitxer kdelnk\n"
+"%s\n"
+"és de tipus FSDevice pero no té cap entrada Dev=..."
 
 #: kio/kmimetypes.cc:565
 #, c-format
@@ -2751,15 +2826,17 @@ msgid ""
 "%s\n"
 "is of type Link but has no URL=... entry"
 msgstr ""
+"El fitxer kdelnk\n"
+"%s\n"
+"és de tipus Link pero no té cap entrada URL=..."
 
 #: kio/kmimetypes.cc:608
-#, fuzzy
 msgid "Mount"
-msgstr "Dil"
+msgstr "Munta"
 
 #: kio/kmimetypes.cc:615
 msgid "Unmount"
-msgstr ""
+msgstr "Desmunta"
 
 #: kio/kmimetypes.cc:658
 #, c-format
@@ -2769,10 +2846,13 @@ msgid ""
 " has an invalid menu entry\n"
 "%s"
 msgstr ""
+"El fitxer kdelnk\n"
+"%s\n"
+" té una entrada de menú invàlida\n"
 
 #: kio/kregfactories.cc:72
 msgid "The mime type _cfg file "
-msgstr ""
+msgstr "El fitxer _cfg de tipus mime"
 
 #: kio/krun.cc:39
 #, c-format
@@ -2781,54 +2861,26 @@ msgid ""
 "%s\n"
 "Access denied"
 msgstr ""
+"No es pot entrar a\n"
+"%s\n"
+"S'ha denegat l'accés"
 
 #: kio/kservices.cc:111
 msgid "The application config file\n"
-msgstr ""
+msgstr "El fitxer de configuració de l'aplicació\n"
 
 #: kio/kservices.cc:113
 msgid ""
 "\n"
 "does not conatain a Name=... entry"
 msgstr ""
+"\n"
+"no conté una entrada Name=..."
 
-#, fuzzy
-#~ msgid "Search"
-#~ msgstr "Març"
 
-#, fuzzy
-#~ msgid "contains"
-#~ msgstr "Contingut"
 
-#~ msgid "&New"
-#~ msgstr "&Nou"
 
-#~ msgid "&New..."
-#~ msgstr "&Nou..."
 
-#~ msgid "Move"
-#~ msgstr "Moure"
 
-#~ msgid "&Previous"
-#~ msgstr "&Previ"
 
-#~ msgid "&Next"
-#~ msgstr "&Següent"
 
-#~ msgid "Small"
-#~ msgstr "Xicoteta"
-
-#~ msgid "Medium"
-#~ msgstr "Mitjana"
-
-#~ msgid "Large"
-#~ msgstr "Gran"
-
-#~ msgid "(none)"
-#~ msgstr "(cap)"
-
-#~ msgid "None"
-#~ msgstr "Cap"
-
-#~ msgid "&Ok"
-#~ msgstr "&Bé"
