@@ -887,7 +887,7 @@ msgid ""
 "You dont have the file %s\n"
 "Could not do Authorization"
 msgstr ""
-"У вас отсутствует файл %s\n""
+"У вас отсутствует файл %s\n"
 "Не могу произвести авторизацию"
 
 #
@@ -902,7 +902,7 @@ msgid ""
 "The file %s is corrupted\n"
 "Could not do Authorization"
 msgstr ""
-"Файл %s поврежден\n""
+"Файл %s поврежден\n"
 "Не могу произвести авторизацию"
 
 #: po/texts.cpp:24
