@@ -827,7 +827,7 @@ msgid ""
 "Could not do Authorization"
 msgstr ""
 "Non hai il file %s\n"
-"Impossibile fare l'autorizzazione"
+"Autorizzazione impossibile"
 
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
 msgid "KFM Error"
@@ -835,13 +835,13 @@ msgstr "Errore KFM"
 
 # , c-format
 #: kfmlib/kfm.cpp:208
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The file %s is corrupted\n"
 "Could not do Authorization"
 msgstr ""
 "Il file %s e' corrotto\n"
-"Impossibile fare l'autorizzazione"
+"Autorizzazione impossibile"
 
 #: po/texts.cpp:24
 msgid "Error"
