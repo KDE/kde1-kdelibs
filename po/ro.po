@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: kabalone\n"
+"Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1998-06-21 18:14+0200\n"
-"Last-Translator: Vatafu Valerica <wally@chuck.tlnet.de>\n"
+"Last-Translator: Paul Ionescu <omy@main.romsoft.ro>\n"
 
 #: kdecore/kapp.cpp:494
 msgid "&Contents"
@@ -33,11 +33,11 @@ msgid ""
 "Please report bugs at http://buglist.kde.org.\n"
 msgstr ""
 "\n"
-"KDE a fost scrisã de o echipã internaþionalã,\n"
-"de programatori ca ºi un proiect liber.\n"
+"KDE a fost creat de o echipã internaþionalã de programatori\n"
+"dedicaþi dezvoltãrii de software gratuit.\n"
 "\n"
-"Vizitaþi http://www.kde.org pentru informaþii suplimentare\n"
-"Vã rugãm sa încurajaþi ºi sa susþineþi acest proiect.\n"
+"Pentru informaþii suplimentare, vizitaþi http://www.kde.org.\n"
+"Vã rugãm sa încurajaþi ºi sã susþineþi acest proiect.\n"
 "\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416
@@ -97,10 +97,9 @@ msgstr "Ok"
 msgid "Custom..."
 msgstr "Configurabil..."
 
-# , fuzzy
 #: kdeui/kcontrol.cpp:39
 msgid "Default"
-msgstr "(Implicit)"
+msgstr "Implicit"
 
 #: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
@@ -114,97 +113,85 @@ msgstr "OK"
 msgid "Apply"
 msgstr "Seteazã"
 
-# , fuzzy
 #: kdeui/kdatepik.cpp:102
 msgid "January"
-msgstr "Ian"
+msgstr "Ianuarie"
 
 #: kdeui/kdatepik.cpp:102
 msgid "February"
-msgstr ""
+msgstr "Februarie"
 
-# , fuzzy
 #: kdeui/kdatepik.cpp:103
 msgid "March"
-msgstr "Mar"
+msgstr "Martie"
 
-# , fuzzy
 #: kdeui/kdatepik.cpp:103
 msgid "April"
-msgstr "Apr"
+msgstr "Aprilie"
 
 #: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:222
 msgid "May"
 msgstr "Mai"
 
-# , fuzzy
 #: kdeui/kdatepik.cpp:104
 msgid "June"
-msgstr "Iun"
+msgstr "Iunie"
 
-# , fuzzy
 #: kdeui/kdatepik.cpp:105
 msgid "July"
-msgstr "Iul"
+msgstr "Iulie"
 
-# , fuzzy
 #: kdeui/kdatepik.cpp:105
 msgid "August"
-msgstr "Aug"
+msgstr "August"
 
 #: kdeui/kdatepik.cpp:106
 msgid "September"
-msgstr ""
+msgstr "Septembrie"
 
-# , fuzzy
 #: kdeui/kdatepik.cpp:106
 msgid "October"
-msgstr "Alþii"
+msgstr "Octombrie"
 
 #: kdeui/kdatepik.cpp:107
 msgid "November"
-msgstr ""
+msgstr "Noiembrie"
 
 #: kdeui/kdatepik.cpp:107
 msgid "December"
-msgstr ""
+msgstr "Decembrie"
 
 #: kdeui/kdatepik.cpp:248
 msgid "(invalid)"
-msgstr ""
+msgstr "(defect)"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:48
 msgid "Sun"
-msgstr "&Sunet"
+msgstr "D"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:48
 msgid "Mon"
-msgstr "Monteazã"
+msgstr "L"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:48
 msgid "Tue"
-msgstr "Zece"
+msgstr "Ma"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:49
 msgid "Wed"
-msgstr "Roºu"
+msgstr "Mi"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Thu"
-msgstr ""
+msgstr "J"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Fri"
-msgstr ""
+msgstr "V"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:50
 msgid "Sat"
-msgstr "la"
+msgstr "S"
 
 #: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
 #: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:89
@@ -213,7 +200,7 @@ msgstr "Pardon ..."
 
 #: kdeui/keditcl1.cpp:128
 msgid "The specified File does not exist"
-msgstr "Fiºierul specificat nu exista"
+msgstr "Fiºierul specificat nu existã"
 
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:494
 #: kdeui/keditcl1.cpp:1627
@@ -226,15 +213,15 @@ msgstr "Ai specificat un director"
 
 #: kdeui/keditcl1.cpp:157 kdeui/keditcl1.cpp:178
 msgid "You do not have read permission to this file."
-msgstr "Nu ai voie sa citesti acest fiºier ;)"
+msgstr "Nu ai voie sã citeºti acest fiºier ;)"
 
 #: kdeui/keditcl1.cpp:191
 msgid "An Error occured while trying to open this Document"
-msgstr "A aparut o eroare la încercarea de deschidere a acestui document"
+msgstr "A apãrut o eroare la încercarea de deschidere a acestui document"
 
 #: kdeui/keditcl1.cpp:356
 msgid "Select Document to Insert"
-msgstr "Selecteaza Documentul de Inserat"
+msgstr "Selecteazã Documentul de Inserat"
 
 #: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1570
 msgid "Warning:"
@@ -322,7 +309,7 @@ msgstr "Înlocuieºte"
 
 #: kdeui/keditcl2.cpp:684 kdeui/keditcl2.cpp:782
 msgid "Case Sensitive"
-msgstr "Case Sensitive"
+msgstr "Sensibil la majuscule"
 
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:785
 msgid "Find Backwards"
@@ -460,16 +447,15 @@ msgstr "Lipeºte"
 
 #: kdeui/knotebook.cpp:145
 msgid "Trying to add page when no KWizards are added!"
-msgstr ""
+msgstr "Încerc sã adaug o paginã când nici un KWizard nu a fost adãugat!"
 
 #: kdeui/knotebook.cpp:178 kdeui/kwizard.cpp:120 po/texts.cpp:41
 msgid "&Cancel"
 msgstr "&Renunþã"
 
-# , fuzzy
 #: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:143
 msgid "&Default"
-msgstr "(Implicit)"
+msgstr "&Implicit"
 
 #: kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:166 po/texts.cpp:46
 msgid "&Help"
@@ -495,35 +481,31 @@ msgstr "Dreapta"
 #: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
 #, c-format
 msgid "Page %d of %d"
-msgstr ""
+msgstr "Pagina %d din %d"
 
 #: kfile/bookmark.cpp:246
 msgid "<!-- Do not edit this file -->"
 msgstr "<!-- Nu edita acest fiºier --!>"
 
-# , fuzzy
 #: kfile/kcombiview.cpp:80
 msgid "Folders:"
-msgstr "Fiºier"
+msgstr "Directoare:"
 
-# , fuzzy
 #: kfile/kcombiview.cpp:81
 msgid "Contents:"
-msgstr "Cuprins"
+msgstr "Cuprins:"
 
-# , fuzzy
 #: kfile/kfiledetaillist.cpp:36
 msgid "Name"
-msgstr "&Joc"
+msgstr "Nume"
 
 #: kfile/kfiledetaillist.cpp:40
 msgid "Permissions"
-msgstr "Permisiunea"
+msgstr "Permisiuni"
 
-# , fuzzy
 #: kfile/kfiledetaillist.cpp:42
 msgid "Date"
-msgstr "Data:"
+msgstr "Data"
 
 #: kfile/kfiledetaillist.cpp:45
 msgid "Owner"
@@ -551,41 +533,39 @@ msgstr "Acasã"
 
 #: kfile/kfiledialog.cpp:134 po/texts.cpp:55
 msgid "Reload"
-msgstr "Încarcã din nou"
+msgstr "ReÎncarcã"
 
 #: kfile/kfiledialog.cpp:150
 msgid "Bookmarks"
-msgstr "Bookmarks"
+msgstr "Semne"
 
 #: kfile/kfiledialog.cpp:154
 msgid "Create new folder"
 msgstr "Creazã un nou cuprins"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:157
 msgid "Search for a file"
-msgstr "Salveazã un fiºier"
+msgstr "Cautã un fiºier"
 
 #: kfile/kfiledialog.cpp:160
 msgid "Configure this dialog [development only]"
-msgstr "Configureazã acest dialog [in curs de dezvoltare]"
+msgstr "Configureazã acest dialog [în curs de dezvoltare]"
 
 #: kfile/kfiledialog.cpp:168
 msgid "The path"
-msgstr "Locaþia in System"
+msgstr "Calea"
 
 #: kfile/kfiledialog.cpp:193
 msgid "&Location:"
 msgstr "&Locaþia"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:206
 msgid "&Filter:"
 msgstr "Filtru:"
 
 #: kfile/kfiledialog.cpp:220
 msgid "Show hidden"
-msgstr "Aratã si pe cele ascunse"
+msgstr "Aratã ºi pe cele ascunse"
 
 #: kfile/kfiledialog.cpp:487
 msgid "Error: Not local file"
@@ -603,18 +583,17 @@ msgstr ""
 msgid "Error: Cannot Open Directory"
 msgstr "Eroare: Nu pot deschide directorul"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:503
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
 msgstr ""
-"Fiºierul specificat nu existã:\n"
-"%s"
+"Fiºierul specificat nu existã,\n"
+"sau nu este accesibil."
 
 #: kfile/kfiledialog.cpp:505 kfile/kfiledialog.cpp:611
 msgid "Dismiss"
-msgstr "Rupere"
+msgstr "Mersi"
 
 #: kfile/kfiledialog.cpp:542 kfile/kfiledialog.cpp:1179
 #: kfile/kfiledialog.cpp:1338 kfile/kfiledialog.cpp:1372 po/texts.cpp:70
@@ -627,12 +606,11 @@ msgstr "Salveazã în"
 
 #: kfile/kfiledialog.cpp:580
 msgid "Root Directory"
-msgstr "Directorul Root"
+msgstr "Directorul Rãdãcinã"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:609
 msgid "The specified directory does not exist or was not readable."
-msgstr "Fiºierul specificat nu exista"
+msgstr "Fiºierul specificat nu existã"
 
 #: kfile/kfiledialog.cpp:857
 msgid "Create new directory in: "
@@ -642,10 +620,9 @@ msgstr "Creazã dirctor nou în:"
 msgid "New Directory"
 msgstr "Director nou"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:932
 msgid "Add to bookmarks"
-msgstr "Adaugã la semne de carte"
+msgstr "Adaugã la semne"
 
 #: kfile/kfiledialog.cpp:1213
 msgid "Choose Directory"
@@ -663,15 +640,13 @@ msgstr "director"
 msgid "directories"
 msgstr "directorii"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1285 kfile/kpreview.cpp:326
 msgid "file"
-msgstr "Fiºier"
+msgstr "fiºier"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1287
 msgid "files"
-msgstr "Fiºier"
+msgstr "fiºiere"
 
 # , c-format
 #: kfile/kfiledialog.cpp:1289
@@ -713,11 +688,11 @@ msgstr ""
 
 #: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
 msgid "About"
-msgstr "Über"
+msgstr "Despre"
 
 #: kfile/kfiledialogconf.cpp:70
 msgid "View style"
-msgstr "Priveºte stilurile"
+msgstr "Afiºare"
 
 #: kfile/kfiledialogconf.cpp:74
 msgid "Show Short View"
@@ -729,12 +704,11 @@ msgstr "Aratã in detaliu"
 
 #: kfile/kfiledialogconf.cpp:89
 msgid "Misc"
-msgstr "Amestecate"
+msgstr "Diverse"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:95
 msgid "Show Filter"
-msgstr "Data"
+msgstr "Aratã filtru"
 
 #: kfile/kfiledialogconf.cpp:101
 msgid "Show List Labels"
@@ -742,23 +716,23 @@ msgstr "Aratã lista cu etichete"
 
 #: kfile/kfiledialogconf.cpp:107
 msgid "Show Hidden"
-msgstr "Aratã cele ascunse"
+msgstr "Afiºeazã fiºierele ascunse"
 
 #: kfile/kfiledialogconf.cpp:113
 msgid "Show Status Line"
-msgstr "Aratã Statul liniei"
+msgstr "Afiºeazã Linia de stare"
 
 #: kfile/kfiledialogconf.cpp:119
 msgid "Use single Click"
-msgstr "Utilizeazã single click"
+msgstr "Utilizeazã simplu click"
 
 #: kfile/kfiledialogconf.cpp:125
 msgid "Mix dirs and files"
-msgstr "Mix directrori si fiºiere"
+msgstr "Mixeazã directori si fiºiere"
 
 #: kfile/kfiledialogconf.cpp:131
 msgid "Keep dirs first"
-msgstr "Pune directorul întii"
+msgstr "Pune directoarele la început"
 
 #: kfile/kfileinfo.cpp:95 kfile/kfileinfo.cpp:99
 msgid "unknown"
@@ -800,19 +774,17 @@ msgstr "Sep"
 msgid "Oct"
 msgstr "Oct"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:228
 msgid "Nov"
-msgstr "Nu"
+msgstr "Nov"
 
 #: kfile/kfileinfo.cpp:229
 msgid "Dec"
 msgstr "Dec"
 
-# , fuzzy
 #: kfile/kpreview.cpp:187
 msgid "Name:"
-msgstr "Login Nume:"
+msgstr "Nume:"
 
 #: kfile/kpreview.cpp:205
 msgid "Date:"
@@ -832,15 +804,15 @@ msgstr "Tip:"
 
 #: kfile/kpreview.cpp:287
 msgid "locked"
-msgstr "închis"
+msgstr "încuiat"
 
 #: kfile/kpreview.cpp:311
 msgid "picture"
-msgstr "picturã"
+msgstr "pozã"
 
 #: kfile/kpreview.cpp:343
 msgid "folder"
-msgstr "cuprins"
+msgstr "director"
 
 # , c-format
 #: kfmlib/kfm.cpp:197
@@ -849,11 +821,12 @@ msgid ""
 "You dont have the file %s\n"
 "Could not do Authorization"
 msgstr ""
+"Nu deþii fiºierul %s\n"
+"Nu pot face autorizarea"
 
-# , fuzzy
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
 msgid "KFM Error"
-msgstr "Eroare"
+msgstr "Eroare KFM"
 
 # , c-format
 #: kfmlib/kfm.cpp:208
@@ -862,6 +835,8 @@ msgid ""
 "The file %s is corrupted\n"
 "Could not do Authorization"
 msgstr ""
+"Fiºierul %s este corupt\n"
+"Nu pot face autorizarea"
 
 #: po/texts.cpp:24
 msgid "Error"
@@ -949,11 +924,11 @@ msgstr "&Copiazã"
 
 #: po/texts.cpp:60
 msgid "Paste"
-msgstr "Peist"
+msgstr "Lipeºte"
 
 #: po/texts.cpp:61
 msgid "&Paste"
-msgstr "&Peist"
+msgstr "&Lipeºte"
 
 #: po/texts.cpp:62
 msgid "New"
@@ -965,7 +940,7 @@ msgstr "&Nou"
 
 #: po/texts.cpp:64
 msgid "&New..."
-msgstr "&New..."
+msgstr "&Nou..."
 
 #: po/texts.cpp:65
 msgid "&New Window..."
@@ -1003,7 +978,6 @@ msgstr "&Deschide..."
 msgid "Cut"
 msgstr "Taie"
 
-# , fuzzy
 #: po/texts.cpp:75
 msgid "&Cut"
 msgstr "Taie"
@@ -1112,10 +1086,9 @@ msgstr "Informaþie"
 msgid "Browse..."
 msgstr "Expandare..."
 
-# , fuzzy
 #: po/texts.cpp:106
 msgid "(none)"
-msgstr "(Nimic)"
+msgstr "(nimic)"
 
 #: po/texts.cpp:107
 msgid "None"
@@ -1129,7 +1102,6 @@ msgstr "Stop"
 msgid "&Remove"
 msgstr "&ªterge"
 
-# , fuzzy
 #: po/texts.cpp:110
 msgid "&Properties..."
 msgstr "Proprietãþi..."
@@ -1138,12 +1110,10 @@ msgstr "Proprietãþi..."
 msgid "Properties"
 msgstr "Proprietãþi"
 
-# , fuzzy
 #: po/texts.cpp:112
 msgid "&Start"
-msgstr "&Cautã"
+msgstr "&Porneºte"
 
-# , fuzzy
 #: po/texts.cpp:113
 msgid "St&op"
 msgstr "Stop"
@@ -1192,10 +1162,9 @@ msgstr "&Precedent"
 msgid "&Next"
 msgstr "&Urmãtor"
 
-# , fuzzy
 #: po/texts.cpp:125
 msgid "Files"
-msgstr "Fiºier"
+msgstr "Fiºiere"
 
 #: po/texts.cpp:126
 msgid "Continue"
@@ -1213,67 +1182,58 @@ msgstr "Aparenþã"
 msgid "Print"
 msgstr "Tipãreºte"
 
-# , fuzzy
 #: po/texts.cpp:130
 msgid "Monday"
-msgstr "Mai"
+msgstr "Luni"
 
 #: po/texts.cpp:131
 msgid "Tuesday"
-msgstr ""
+msgstr "Marti"
 
 #: po/texts.cpp:132
 msgid "Wednesday"
-msgstr ""
+msgstr "Miercuri"
 
-# , fuzzy
 #: po/texts.cpp:133
 msgid "Thursday"
-msgstr "Al treilea"
+msgstr "Joi"
 
-# , fuzzy
 #: po/texts.cpp:134
 msgid "Friday"
-msgstr "Gãseºte"
+msgstr "Vineri"
 
 #: po/texts.cpp:135
 msgid "Saturday"
-msgstr ""
+msgstr "Sâmbãtã"
 
-# , fuzzy
 #: po/texts.cpp:136
 msgid "Sunday"
-msgstr "&Sunet"
+msgstr "Duminicã"
 
-# , fuzzy
 #: po/texts.cpp:137
 msgid "&Update"
-msgstr "&Peist"
+msgstr "Apdeit"
 
-# , fuzzy
 #: po/texts.cpp:138
 msgid "Layout"
-msgstr "Ieºire"
+msgstr "Schemã"
 
 #: po/texts.cpp:139
 msgid "Highscore"
-msgstr ""
+msgstr "Cel mai mare scor"
 
-# , fuzzy
 #: po/texts.cpp:140
 msgid "&New View"
-msgstr "&Aratã"
+msgstr "Vedere &Nouã"
 
 #: po/texts.cpp:141
 msgid "&Insert"
-msgstr ""
+msgstr "&Insereazã"
 
-# , fuzzy
 #: po/texts.cpp:144
 msgid "&Next >>"
-msgstr "&Urmãtor"
+msgstr "&Urmãtor >>"
 
-# , fuzzy
 #: po/texts.cpp:145
 msgid "<< &Previous"
-msgstr "&Precedent"
+msgstr "<< &Precedent"
