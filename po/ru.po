@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE 0.2\n"
 "POT-Creation-Date: 1998-02-19 22:49+0100\n"
-"PO-Revision-Date: 1998-01-20 11:51+0600\n"
+"PO-Revision-Date: 1998-04-05 11:51+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 
 #: kdecore/kapp.cpp:439
-#, fuzzy
+#
 msgid "&Contents"
 msgstr "Содержимое"
 
