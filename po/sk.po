@@ -133,7 +133,7 @@ msgstr "¥avä päta:"
 
 #: kab/SearchDialog.cpp:47
 msgid "The title"
-msgstr "Titulok"
+msgstr "Titul"
 
 #: kab/SearchDialog.cpp:48
 msgid "The first name"
@@ -1738,7 +1738,7 @@ msgstr "Podzlo¾ka"
 
 #: kab/addressbook.cc:1088
 msgid "Title"
-msgstr "Titulok"
+msgstr "Titul"
 
 #: kab/addressbook.cc:1092
 msgid "Role"
@@ -1822,7 +1822,7 @@ msgstr "Editova» aktuálnu polo¾ku"
 
 #: kab/editentry.cc:61
 msgid "Title:"
-msgstr "Titulok:"
+msgstr "Titul:"
 
 #: kab/editentry.cc:62
 msgid "First name:"
