@@ -50,88 +50,88 @@ msgid "Ok"
 msgstr ""
 
 msgid "Cancel"
-msgstr ""
+msgstr "Ångra"
 
 msgid "Apply"
-msgstr ""
+msgstr "Verkställ"
 
 msgid "File"
-msgstr ""
+msgstr "Arkiv"
 
 msgid "Help"
-msgstr ""
+msgstr "Hjälp"
 
 msgid "Edit"
-msgstr ""
+msgstr "Redigera"
 
 # libkdeui messages
 #: kcolordlg.cpp:239
 msgid "Select Color"
-msgstr ""
+msgstr "Välj värg"
 
 #: kcolordlg.cpp:244
 msgid "System Colors"
-msgstr ""
+msgstr "Systemfärger"
 
 #: kcolordlg.cpp:269
 msgid "Custom Colors"
-msgstr ""
+msgstr "Egna färger"
 
 #: kcolordlg.cpp:345
 msgid "Add to Custom Colors"
-msgstr ""
+msgstr "Lägg till bland egna färger"
 
 #: kcolordlg.cpp:649 kcolordlg.cpp:699
 msgid "Custom..."
-msgstr ""
+msgstr "Egna..."
 
 #: kfontdialog.cpp:95
 msgid "Select Font"
-msgstr ""
+msgstr "Välj tysnitt"
 
 #: kfontdialog.cpp:99
 msgid "Requested Font"
-msgstr ""
+msgstr "Valt typsnitt"
 
 #: kfontdialog.cpp:104
 msgid "Actual Font"
-msgstr ""
+msgstr "Nuvarande tysnitt"
 
 #: kfontdialog.cpp:108 kfontdialog.cpp:112
 msgid "Family:"
-msgstr ""
+msgstr "Familj:"
 
 #: kfontdialog.cpp:119 kfontdialog.cpp:124
 msgid "Size:"
-msgstr ""
+msgstr "Storlek:"
 
 #: kfontdialog.cpp:133 kfontdialog.cpp:138
 msgid "Weight:"
-msgstr ""
+msgstr "Vikt:"
 
 #: kfontdialog.cpp:147 kfontdialog.cpp:155
 msgid "Style:"
-msgstr ""
+msgstr "Stil:"
 
 #: kfontdialog.cpp:190
 msgid "Size"
-msgstr ""
+msgstr "Storlek"
 
 #: kfontdialog.cpp:229
 msgid "Weight"
-msgstr ""
+msgstr "Vikt"
 
 #: kfontdialog.cpp:230 kfontdialog.cpp:327
 msgid "normal"
-msgstr ""
+msgstr "normal"
 
 #: kfontdialog.cpp:231 kfontdialog.cpp:329
 msgid "bold"
-msgstr ""
+msgstr "fet"
 
 #: kfontdialog.cpp:240
 msgid "Style"
-msgstr ""
+msgstr "Stil"
 
 #: kfontdialog.cpp:241 kfontdialog.cpp:340 kfontdialog.cpp:369
 msgid "roman"
@@ -139,7 +139,7 @@ msgstr ""
 
 #: kfontdialog.cpp:242 kfontdialog.cpp:342 kfontdialog.cpp:367
 msgid "italic"
-msgstr ""
+msgstr "kursiv"
 
 #: kfontdialog.cpp:270
 msgid "Dolor Ipse"
@@ -147,66 +147,66 @@ msgstr ""
 
 #: kfontdialog.cpp:362
 msgid "Bold"
-msgstr ""
+msgstr "Fet"
 
 #: kfontdialog.cpp:364
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: kiconloader.cpp:176
 msgid "Select Icon"
-msgstr ""
+msgstr "Välj ikon"
 
 #: kiconloader.cpp:182
 msgid "Filter:"
-msgstr ""
+msgstr "Filter:"
 
 #: kiconloader.cpp:337
 #, c-format
 msgid "ERROR: couldn't find icon: %s"
-msgstr ""
+msgstr "FEL: kunde inte hitta ikonen %s"
 
 #: kmenubar.cpp:106 ktoolbar.cpp:273
 msgid "Top"
-msgstr ""
+msgstr "Överst"
 
 #: kmenubar.cpp:107 ktoolbar.cpp:275
 msgid "Bottom"
-msgstr ""
+msgstr "Underst"
 
 #: kmenubar.cpp:108 ktoolbar.cpp:276
 msgid "Floating"
-msgstr ""
+msgstr "Svävande"
 
 #: kmenubar.cpp:182 kmenubar.cpp:223 ktoolbar.cpp:699 ktoolbar.cpp:1208
 msgid "Float"
-msgstr ""
+msgstr "Sväva"
 
 #: kmenubar.cpp:213 ktoolbar.cpp:1198
 msgid "UnFloat"
-msgstr ""
+msgstr "Landa"
 
 #: ktoolbar.cpp:87 ktoolbar.cpp:145
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr ""
+msgstr "KToolBarButton: pixmapen är top, kanske saknas någon fil"
 
 #: ktoolbar.cpp:272
 msgid "Left"
-msgstr ""
+msgstr "Vänster"
 
 #: ktoolbar.cpp:274
 msgid "Right"
-msgstr ""
+msgstr "Höger"
 
 #: kapp.cpp:330
 #, fuzzy
 msgid "About "
-msgstr "Om"
+msgstr "Om "
 
 #: kapp.cpp:334 kapp.cpp:355
 #, fuzzy
 msgid "About KDE"
-msgstr "Om"
+msgstr "Om KDE"
 
 #: kapp.cpp:357
 msgid ""
@@ -220,9 +220,9 @@ msgid ""
 "Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
 "Qt may be used freely to develop free software on the X Window System.\n"
 msgstr ""
-"The KDE Desktop Environment was written by the KDE team.\n"
+"KDE Desktop Environment skrevs av KDE-teamet.\n"
 "\n"
-"Please send bug reports to kde-bugs@kde.org.\n"
+"Vänligen, skicka bug-rapporter till kde-bugs@kde.org.\n"
 "\n"
 "\n"
 "Det här programmet utvecklades med hjälp av Qt, ett tvärkompatibelt GUI-bibliotek.\n"
