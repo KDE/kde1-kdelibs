@@ -166,7 +166,7 @@ msgstr "La organización"
 
 #: kab/SearchDialog.cpp:56
 msgid "The role"
-msgstr ""
+msgstr "El papel"
 
 #: kab/SearchDialog.cpp:57
 msgid "The org unit"
@@ -190,7 +190,7 @@ msgstr "La tercera dirección de email"
 
 #: kab/SearchDialog.cpp:62
 msgid "The telephone number"
-msgstr "El número telefónico"
+msgstr "El número de telefono"
 
 #: kab/SearchDialog.cpp:63
 msgid "The fax number"
@@ -214,7 +214,7 @@ msgstr "kab: Buscar entradas"
 
 #: kab/SearchDialogMainWidget.cpp:22
 msgid "matches"
-msgstr ""
+msgstr "coincidencias"
 
 #: kab/SearchDialogMainWidget.cpp:23
 msgid "Use shell wildcard patterns here"
@@ -753,7 +753,7 @@ msgstr "Opciones iniciales"
 
 #: kdeui/kkeydialog.cpp:320
 msgid "Current key"
-msgstr "Llave actual"
+msgstr "Tecla actual"
 
 #: kdeui/kkeydialog.cpp:332
 msgid "&Action"
@@ -761,7 +761,7 @@ msgstr "&Acción"
 
 #: kdeui/kkeydialog.cpp:366
 msgid "Choose a key for the selected action"
-msgstr ""
+msgstr "Elige una tecla para la acción seleccionada"
 
 #: kdeui/kkeydialog.cpp:393
 msgid "&No key"
@@ -773,7 +773,7 @@ msgstr "Tecla por &defecto"
 
 #: kdeui/kkeydialog.cpp:409
 msgid "&Custom key"
-msgstr "&Tecla propia"
+msgstr "&Tecla configurable"
 
 #: kdeui/kkeydialog.cpp:472
 msgid "No keys defined"
@@ -820,7 +820,9 @@ msgid ""
 "Please choose a unique key combination."
 msgstr ""
 "La combinación de teclas %s ya está en uso\n"
-"para la acción global %s."
+"para la acción global %s.\n"
+"\n"
+"Por favor elija una combinación de teclas única."
 
 #: kdeui/kkeydialog.cpp:1039
 msgid "Global key conflict"
@@ -835,7 +837,9 @@ msgid ""
 "Please choose a unique key combination."
 msgstr ""
 "La combinación de teclas %s ya está en uso\n"
-"para la acción estandar %s."
+"para la acción estandar %s.\n"
+"\n"
+"Por favor elija una combinación de teclas única."
 
 #: kdeui/kkeydialog.cpp:1066
 msgid "Standard key conflict"
@@ -850,7 +854,9 @@ msgid ""
 "Please choose a unique key combination."
 msgstr ""
 "La combinación de teclas %s ya está en uso\n"
-"para la acción %s."
+"para la acción %s.\n"
+"\n"
+"Por favor elija una combinación de teclas única."
 
 #: kdeui/kkeydialog.cpp:1090
 msgid "Key conflict"
