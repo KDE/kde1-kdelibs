@@ -4,6 +4,8 @@ GMOFILES = de.gmo fr.gmo sv.gmo cs.gmo es.gmo ru.gmo \
 	el.gmo fi.gmo hr.gmo ro.gmo
 POFILES = $(GMOFILES:.gmo=.po) 
 
+CHARSETFILES = de.charset cs.charset pl.charset ru.charset fr.charset
+
 localedir = $(kde_locale)
 
 MAINTAINERCLEANFILES = $(GMOFILES)
@@ -36,7 +38,17 @@ install-yes: all
 	$(mkinstalldirs) $$dir; \
 	$(INSTALL_DATA) $$cat $$dir/$$name; \
 	  echo "installing $$cat as $$dir/$$name"; \
-	done
+	done;\
+	charsets='$(CHARSETFILES)'; \
+	for chset in $$charsets; do \
+	destdir=$(localedir); \
+	lang=`echo $$chset | sed 's/\.charset//'`; \
+	name=charset ; \
+	dir=$$destdir/$$lang; \
+	$(mkinstalldirs) $$dir; \
+	$(INSTALL_DATA) $$chset $$dir/$$name; \
+	  echo "installing $$chset as $$dir/$$name"; \
+	done  
 
 install-no:
 
@@ -49,6 +61,15 @@ uninstall-local:
 	dir=$$destdir/$$lang/LC_MESSAGES; \
 	rm -f $$cat $$dir/$$name; \
 	echo "removing $$dir/$$name" ; \
+	done ;\
+	charsets='$(CHARSETFILES)'; \
+	for chset in $$charsets; do \
+	  destdir=$(localedir); \
+	  lang=`echo $$chset | sed 's/\.charset//'`; \
+	  name=charset; \
+	  dir=$$destdir/$$lang; \
+	  rm -f $$dir/$$name; \
+	  echo "removing $$dir/$$name" ; \
 	done
 
 merge:
