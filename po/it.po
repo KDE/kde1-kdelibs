@@ -1173,9 +1173,8 @@ msgid "Keep dirs first"
 msgstr "Metti prima le dir "
 
 #: kfile/kfilefilter.cpp:35
-#, fuzzy
 msgid "*|All Files"
-msgstr "File"
+msgstr "*|Tutti i File"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"
