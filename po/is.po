@@ -3,7 +3,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-01-13 01:01+0100\n"
+"POT-Creation-Date: 1998-12-23 01:01+0100\n"
 "PO-Revision-Date: 1998-10-23 23:31+0200\n"
 "Last-Translator: Logi Ragnarsson <logir@imf.au.dk>\n"
 "Language-Team: is\n"
@@ -22,11 +22,11 @@ msgstr "(óþekkt skilyrði)"
 
 #: kab/AssertDialog.cpp:39
 msgid "You have found a bug in "
-msgstr "(Þú hefur fundið villu í "
+msgstr "Þú hefur fundið villu í "
 
 #: kab/AssertDialog.cpp:45
 msgid "Ignore the error, possibly causing much more damage"
-msgstr "Leiða villuna hjá þér sem veldur hugsanlega mun meiri skaða"
+msgstr "Hundsa villuna, sem veldur hugsanlega mun meiri skaða"
 
 #: kab/AssertDialog.cpp:47
 msgid "Kill the application, loosing all data"
@@ -77,7 +77,7 @@ msgid ""
 "If you press the OK button, all changes\n"
 "you made will be used to proceed."
 msgstr ""
-"Ef þú ýtir á \"I lagi\" takkan verða breytingarnar\n"
+"Ef þú ýtir á \"Í lagi\" takkan verða breytingarnar\n"
 "sem þú gerðir notaðar í framhaldinu."
 
 #: kab/DialogBase.cpp:39
@@ -197,7 +197,7 @@ msgstr "Myndritinn"
 
 #: kab/SearchDialog.cpp:64
 msgid "The modem number"
-msgstr "Módemið"
+msgstr "Mótaldið"
 
 #: kab/SearchDialog.cpp:65
 msgid "The homepage URL"
@@ -217,7 +217,7 @@ msgstr "fellur að"
 
 #: kab/SearchDialogMainWidget.cpp:23
 msgid "Use shell wildcard patterns here"
-msgstr ""
+msgstr "Nota "
 
 #: kab/SearchDialogMainWidget.cpp:24
 msgid "Select field to match the pattern"
@@ -331,29 +331,29 @@ msgstr "SHIFT"
 
 #: kdecore/kaccel.cpp:601 kdecore/kaccel.cpp:663
 msgid "CTRL"
-msgstr "STRL"
+msgstr "CTRL"
 
 #: kdecore/kaccel.cpp:605 kdecore/kaccel.cpp:665
 msgid "ALT"
 msgstr "ALT"
 
-#: kdecore/kapp.cpp:601 po/texts.cpp:137
+#: kdecore/kapp.cpp:598 po/texts.cpp:137
 msgid "&Contents"
 msgstr "&Innihald"
 
-#: kdecore/kapp.cpp:607
+#: kdecore/kapp.cpp:604
 msgid "&About"
 msgstr "&Um"
 
-#: kdecore/kapp.cpp:614
+#: kdecore/kapp.cpp:611
 msgid "About &KDE..."
 msgstr "Um &KDE"
 
-#: kdecore/kapp.cpp:635
+#: kdecore/kapp.cpp:632
 msgid "About KDE"
 msgstr "Um KDE"
 
-#: kdecore/kapp.cpp:637
+#: kdecore/kapp.cpp:634
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -425,7 +425,7 @@ msgstr "Bæta við aukalit"
 
 #: kdeui/kcolordlg.cpp:789 kdeui/kcolordlg.cpp:841
 msgid "Custom..."
-msgstr "Heimasmíðað..."
+msgstr "Heimatilbúið..."
 
 #: kdeui/kcontrol.cpp:41 kdeui/kcontrol.cpp:58 po/texts.cpp:135
 msgid "Default"
@@ -454,35 +454,35 @@ msgstr "apríl"
 
 #: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:225
 msgid "May"
-msgstr "Maj"
+msgstr "maí"
 
 #: kdeui/kdatepik.cpp:104
 msgid "June"
-msgstr "Júní"
+msgstr "júní"
 
 #: kdeui/kdatepik.cpp:105
 msgid "July"
-msgstr "Júlí"
+msgstr "júlí"
 
 #: kdeui/kdatepik.cpp:105
 msgid "August"
-msgstr "Ágúst"
+msgstr "ágúst"
 
 #: kdeui/kdatepik.cpp:106
 msgid "September"
-msgstr "September"
+msgstr "september"
 
 #: kdeui/kdatepik.cpp:106
 msgid "October"
-msgstr "Október"
+msgstr "október"
 
 #: kdeui/kdatepik.cpp:107
 msgid "November"
-msgstr "Nóvember"
+msgstr "nóvember"
 
 #: kdeui/kdatepik.cpp:107
 msgid "December"
-msgstr "Desember"
+msgstr "desember"
 
 #: kdeui/kdatepik.cpp:247
 msgid "(invalid)"
@@ -490,31 +490,31 @@ msgstr "(ólöglegt)"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Sun"
-msgstr "Sun"
+msgstr "sun"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Mon"
-msgstr "Mán"
+msgstr "mán"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Tue"
-msgstr "Þri"
+msgstr "þri"
 
 #: kdeui/kdatetbl.cpp:50
 msgid "Wed"
-msgstr "Mið"
+msgstr "mið"
 
 #: kdeui/kdatetbl.cpp:50
 msgid "Thu"
-msgstr "Fim"
+msgstr "fim"
 
 #: kdeui/kdatetbl.cpp:50
 msgid "Fri"
-msgstr "Fös"
+msgstr "fös"
 
 #: kdeui/kdatetbl.cpp:51
 msgid "Sat"
-msgstr "Lau"
+msgstr "lau"
 
 #: kab/kabapi.cc:139 kab/widget.cc:832 kab/widget.cc:852 kab/widget.cc:1916
 #: kdeui/keditcl1.cpp:139 kdeui/keditcl1.cpp:168 kdeui/keditcl1.cpp:189
@@ -751,7 +751,7 @@ msgstr "&Sjálfgefin gildi"
 
 #: kdeui/kkeydialog.cpp:320
 msgid "Current key"
-msgstr "Núverandi takki"
+msgstr "Núverandi hnappur"
 
 #: kdeui/kkeydialog.cpp:332
 msgid "&Action"
@@ -763,15 +763,15 @@ msgstr "Veldu hnapp fyrir valda aðgerð"
 
 #: kdeui/kkeydialog.cpp:393
 msgid "&No key"
-msgstr "&Enginn taki"
+msgstr "&Enginn hnappur"
 
 #: kdeui/kkeydialog.cpp:401
 msgid "&Default key"
-msgstr "&Sjálfgefinn takki"
+msgstr "&Sjálfgefinn hnappur"
 
 #: kdeui/kkeydialog.cpp:409
 msgid "&Custom key"
-msgstr "&Heimatilbúinn takki"
+msgstr "&Heimatilbúinn hnappur"
 
 #: kdeui/kkeydialog.cpp:472
 msgid "No keys defined"
@@ -882,7 +882,7 @@ msgstr "Fast"
 
 #: kdeui/knotebook.cpp:145
 msgid "Trying to add page when no KWizards are added!"
-msgstr "//Trying to add page when no KWizards are added!"
+msgstr ""
 
 #: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:182
 msgid "&Default"
@@ -1029,7 +1029,7 @@ msgstr "Tiltekin mappa er ekki til eða er ekki læsileg."
 
 #: kfile/kfiledialog.cpp:873
 msgid "Create new directory in: "
-msgstr "Smíða möppu í:"
+msgstr "Bý til möppu í:"
 
 #: kfile/kfiledialog.cpp:876
 msgid "New Directory"
@@ -1149,11 +1149,6 @@ msgstr "Möppur og skrár saman"
 msgid "Keep dirs first"
 msgstr "Möppur fremst"
 
-#: kfile/kfilefilter.cpp:35
-#, fuzzy
-msgid "*|All Files"
-msgstr "Skrár"
-
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"
 msgstr "óþekkt"
@@ -1243,8 +1238,8 @@ msgstr ""
 "Þú ert ekki með skrána %s,\n"
 "svo það var ekki hægt að auðkenna"
 
-#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210 kio/kmimetypes.cc:62
-#: kio/kmimetypes.cc:89 kio/kmimetypes.cc:135 kio/kregfactories.cc:75
+#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210 kio/kmimetypes.cc:61
+#: kio/kmimetypes.cc:88 kio/kmimetypes.cc:134 kio/kregfactories.cc:75
 #: kio/krun.cc:105 kio/kservices.cc:114
 msgid "KFM Error"
 msgstr "KFM Villa"
@@ -1262,9 +1257,9 @@ msgstr ""
 #: kab/widget.cc:1936 kab/widget.cc:2028 kab/widget.cc:2112 kab/widget.cc:2157
 #: kab/widget.cc:2168 kio/kio_error.cc:118 kio/kio_paste.cc:48
 #: kio/kio_paste.cc:60 kio/kio_paste.cc:75 kio/kio_paste.cc:87
-#: kio/kio_rename_dlg.cc:217 kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:488
-#: kio/kmimetypes.cc:506 kio/kmimetypes.cc:520 kio/kmimetypes.cc:567
-#: kio/kmimetypes.cc:600 kio/kmimetypes.cc:660 kio/kmimetypes.cc:692
+#: kio/kio_rename_dlg.cc:217 kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:487
+#: kio/kmimetypes.cc:505 kio/kmimetypes.cc:519 kio/kmimetypes.cc:566
+#: kio/kmimetypes.cc:599 kio/kmimetypes.cc:659 kio/kmimetypes.cc:691
 #: kio/krun.cc:40 kio/krun.cc:512 po/texts.cpp:24
 msgid "Error"
 msgstr "Villa"
@@ -1319,7 +1314,7 @@ msgstr "S&tillingar"
 
 #: po/texts.cpp:49
 msgid "View"
-msgstr "View"
+msgstr "Skoða"
 
 #: po/texts.cpp:50
 msgid "&View"
@@ -1535,31 +1530,31 @@ msgstr "Útlit"
 
 #: po/texts.cpp:116
 msgid "Monday"
-msgstr "Mánudagur"
+msgstr "mánudagur"
 
 #: po/texts.cpp:117
 msgid "Tuesday"
-msgstr "Þriðjudagur"
+msgstr "þriðjudagur"
 
 #: po/texts.cpp:118
 msgid "Wednesday"
-msgstr "Miðvikudagur"
+msgstr "miðvikudagur"
 
 #: po/texts.cpp:119
 msgid "Thursday"
-msgstr "Fimmtufagur"
+msgstr "fimmtudagur"
 
 #: po/texts.cpp:120
 msgid "Friday"
-msgstr "Föstudagur"
+msgstr "föstudagur"
 
 #: po/texts.cpp:121
 msgid "Saturday"
-msgstr "Laugardagur"
+msgstr "laugardagur"
 
 #: po/texts.cpp:122
 msgid "Sunday"
-msgstr "Sunnudagur"
+msgstr "sunnudagur"
 
 #: po/texts.cpp:123
 msgid "&Update"
@@ -1652,11 +1647,11 @@ msgstr "Ekki tókst að setja \""
 
 #: kab/addressbook.cc:261
 msgid "\" into configuration section (ignored)."
-msgstr "\" inn í stillingahlutan."
+msgstr "\" inn í stillingahlutan (hundsað)."
 
 #: kab/addressbook.cc:663
 msgid "Unable to add a new entry with available key."
-msgstr "Ekki tókst að setja inn nýja færslu '//with available key'"
+msgstr "Ekki tókst að setja inn nýja færslu með tiltækum lykli"
 
 #: kab/addressbook.cc:669
 msgid "Cannot find previously created section."
@@ -1664,7 +1659,7 @@ msgstr "Finn ekki gamlan hluta."
 
 #: kab/addressbook.cc:700
 msgid "Unable to create key-value-map for entry."
-msgstr "Ekki tókst að búa til lykill-gildi tengingu fyrir förslu."
+msgstr "Ekki tókst að búa til lykill-gildi tengingu fyrir færslu."
 
 #: kab/addressbook.cc:929
 msgid "entry without name"
@@ -1752,7 +1747,7 @@ msgstr "Talföng"
 
 #: kab/addressbook.cc:1104
 msgid "Delivery label"
-msgstr "//Delivery label"
+msgstr ""
 
 #: kab/addressbook.cc:1108
 msgid "Email address"
@@ -1788,7 +1783,7 @@ msgstr "Myndriti"
 
 #: kab/addressbook.cc:1140
 msgid "Modem number"
-msgstr "Módem"
+msgstr "Mótald"
 
 #: kab/addressbook.cc:1144
 msgid "Homepage URL"
@@ -1864,7 +1859,7 @@ msgstr "&Heimilisfang"
 
 #: kab/editentry.cc:145
 msgid "Organization:"
-msgstr "Ryrirtæki:"
+msgstr "Fyrirtæki:"
 
 #: kab/editentry.cc:146
 msgid "Org Unit:"
@@ -1892,7 +1887,7 @@ msgstr "Myndriti:"
 
 #: kab/editentry.cc:186
 msgid "Modem:"
-msgstr "Módem"
+msgstr "Mótald:"
 
 #: kab/editentry.cc:187
 msgid "Homepage (URL):"
@@ -1908,7 +1903,7 @@ msgstr "Breyta talföngum"
 
 #: kab/editentry.cc:218
 msgid "&Contact"
-msgstr "//Contact"
+msgstr "Tengiliður"
 
 #: kab/editentry.cc:239
 msgid "Comment:"
@@ -1959,7 +1954,7 @@ msgstr ""
 
 #: kab/widget.cc:229
 msgid "kab: Removed bug warning"
-msgstr "kab: aðvörun um fjarlægðan bögg"
+msgstr "kab: aðvörun um fjarlægða lús"
 
 #: kab/widget.cc:230
 msgid ""
@@ -1971,9 +1966,9 @@ msgid ""
 "its default settings."
 msgstr ""
 "Í útgáfunni af \"kab\" sem þú varst með áður var\n"
-"böggur í því hvernig gagnagrunnurinn var uppfærður\n"
-"fyrir nýjar útgáfur. Þessi böggur hefur verið\n"
-"fjarlægður og ætti ekki að bíta þig framar.\n"
+"lús í því hvernig gagnagrunnurinn var uppfærður\n"
+"fyrir nýjar útgáfur. Þessi lús hefur verið\n"
+"fjarlægð og ætti ekki að bíta þig framar.\n"
 "\n"
 "Hinsvegar verður að færa allar stillingar aftur á\n"
 "upphafsgildi"
@@ -1986,7 +1981,7 @@ msgstr "Skráarvilla"
 msgid "Unable to open database file r/w."
 msgstr ""
 "Ekki tókst að opna gagnagrunninn\n"
-"í les/skrif ham."
+"til lestrar og skriftar."
 
 #: kab/widget.cc:257
 msgid "Email storage conversion"
@@ -2030,7 +2025,9 @@ msgstr "Ekki tókst að vista gagnagrunn eftir breytingu."
 
 #: kab/widget.cc:321
 msgid "Unable to reopen database file r/o."
-msgstr "Ekki tókst að enduropna gagnagrunn í lesham."
+msgstr ""
+"Ekki tókst að enduropna gagnagrunn\n"
+"til lestrar."
 
 #: kab/widget.cc:482
 msgid "first entry"
@@ -2074,7 +2071,7 @@ msgstr "Skiti á síðustu færslu"
 
 #: kab/widget.cc:621 kab/widget.cc:678 kab/widget.cc:860 kab/widget.cc:922
 msgid "Sorry, file changed."
-msgstr "Því miður hefur skráin breyts."
+msgstr "Því miður hefur skráin breyst."
 
 #: kab/widget.cc:625 kab/widget.cc:682 kab/widget.cc:926
 msgid "Permission denied."
@@ -2094,7 +2091,7 @@ msgstr "Færslu eytt."
 
 #: kab/widget.cc:694
 msgid "Added a new entry."
-msgstr "Bætti nýtti færslu við."
+msgstr "Bætti nýrri færslu við."
 
 #: kab/widget.cc:821
 msgid "Opened browser window."
@@ -2333,7 +2330,7 @@ msgstr "Stilltu viðföng við póstskipunina."
 
 #: kab/widget.cc:2157
 msgid "The email command parameters are wrong."
-msgstr "Vipföngin við póstskipunina eru ekki rétt."
+msgstr "Viðföngin við póstskipunina eru ekki rétt."
 
 #: kab/widget.cc:2169
 msgid ""
@@ -2361,11 +2358,11 @@ msgid ""
 "on your hard disk, while you should use the textual links for browsing"
 msgstr ""
 "Notaðu táknmyndirnar til að draga og sleppa, því þær tákna skrár "
-"íflýtiminninu á diskinum. Notaðu hinsvergar textatengingarnar til að flakka"
+"í flýtiminninu á diskinum. Notaðu hinsvergar textatengingarnar til að flakka"
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"
-msgstr "Smíðidagur"
+msgstr "Dagur búið til"
 
 #: kio/kio_cache.cc:357
 msgid "Expiration Date"
@@ -2415,7 +2412,7 @@ msgid ""
 "%s"
 msgstr ""
 "Innri villa\n"
-"Vinsamlegast sendu villuskyti til kde-bugs@kde.org\n"
+"Vinsamlegast sendu villuskeyti til kde-bugs@kde.org\n"
 "\n"
 "%s"
 
@@ -2548,7 +2545,7 @@ msgstr ""
 msgid ""
 "Action has been\n"
 "canceled by the user"
-msgstr "Notandi hæti við aðgerð."
+msgstr "Notandi hætti við aðgerð."
 
 #: kio/kio_error.cc:73
 #, c-format
@@ -2671,15 +2668,15 @@ msgstr ""
 "Óþekkt villunúmer %i\n"
 "%s\n"
 "\n"
-"Vinsamlegast sendu villuskyti til kde-bugs@kde.org"
+"Vinsamlegast sendu villuskeyti til kde-bugs@kde.org"
 
 #: kio/kio_error.cc:118 kio/kio_linedit_dlg.cc:42 kio/kio_openwith.cc:260
 #: kio/kio_pass_dlg.cc:75 kio/kio_paste.cc:48 kio/kio_paste.cc:60
 #: kio/kio_paste.cc:76 kio/kio_paste.cc:87 kio/kio_rename_dlg.cc:217
-#: kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:62 kio/kmimetypes.cc:89
-#: kio/kmimetypes.cc:135 kio/kmimetypes.cc:488 kio/kmimetypes.cc:506
-#: kio/kmimetypes.cc:520 kio/kmimetypes.cc:567 kio/kmimetypes.cc:600
-#: kio/kmimetypes.cc:660 kio/kmimetypes.cc:692 kio/kregfactories.cc:75
+#: kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:61 kio/kmimetypes.cc:88
+#: kio/kmimetypes.cc:134 kio/kmimetypes.cc:487 kio/kmimetypes.cc:505
+#: kio/kmimetypes.cc:519 kio/kmimetypes.cc:566 kio/kmimetypes.cc:599
+#: kio/kmimetypes.cc:659 kio/kmimetypes.cc:691 kio/kregfactories.cc:75
 #: kio/krun.cc:40 kio/krun.cc:105 kio/krun.cc:512 kio/kservices.cc:114
 msgid "Ok"
 msgstr "Í lagi"
@@ -2696,7 +2693,7 @@ msgstr "Aftengi %s frá skrárkerfinu..."
 
 #: kio/kio_openwith.cc:133
 msgid "This group is empty!"
-msgstr "Þessi flokkur er tómur!"
+msgstr "Þessi hópur er tómur!"
 
 #: kio/kio_openwith.cc:264
 msgid "&Browser"
@@ -2786,7 +2783,7 @@ msgstr "Skoða"
 
 #: kio/kio_progress_dlg.cc:222
 msgid "Creating dir "
-msgstr "Smíða möppu"
+msgstr "Bý til möppu "
 
 #: kio/kio_progress_dlg.cc:229
 msgid "Fetching file"
@@ -2856,23 +2853,23 @@ msgstr "Ekki tókst að skrifa"
 msgid "Permission denied!"
 msgstr "Leyfi ekki veitt!"
 
-#: kio/kmimetypes.cc:62
+#: kio/kmimetypes.cc:61
 msgid "No mime types installed!"
-msgstr "Engin mime tög sett inn!"
+msgstr "Engin MIME tög sett inn!"
 
-#: kio/kmimetypes.cc:86
+#: kio/kmimetypes.cc:85
 msgid "Could not find mime type\n"
-msgstr "Ekki tókst að finna mime tag\n"
+msgstr "Ekki tókst að finna MIME tag\n"
 
-#: kio/kmimetypes.cc:132
+#: kio/kmimetypes.cc:131
 msgid "The mime type config file "
-msgstr "Stillingaskráin fyrir mime tög"
+msgstr "Stillingaskráin fyrir MIME tög"
 
-#: kio/kmimetypes.cc:134 kio/kregfactories.cc:74
+#: kio/kmimetypes.cc:133 kio/kregfactories.cc:74
 msgid "does not conatain a MimeType=... entry"
 msgstr "inniheldur ekki MimeType=... færslu"
 
-#: kio/kmimetypes.cc:487
+#: kio/kmimetypes.cc:486
 #, c-format
 msgid ""
 "The kdelnk file\n"
@@ -2883,7 +2880,7 @@ msgstr ""
 "%s\n"
 "inniheldur ekki Type=... færslu"
 
-#: kio/kmimetypes.cc:505
+#: kio/kmimetypes.cc:504
 #, c-format
 msgid ""
 "The kdelnk type\n"
@@ -2894,7 +2891,7 @@ msgstr ""
 "%s\n"
 "er ekki þekkt"
 
-#: kio/kmimetypes.cc:519 kio/kmimetypes.cc:599 kio/kmimetypes.cc:691
+#: kio/kmimetypes.cc:518 kio/kmimetypes.cc:598 kio/kmimetypes.cc:690
 #, c-format
 msgid ""
 "The kdelnk file\n"
@@ -2906,7 +2903,7 @@ msgstr ""
 "er af FSDevice tagi, en inniheldur\n"
 "ekki Dev=... færslu."
 
-#: kio/kmimetypes.cc:566
+#: kio/kmimetypes.cc:565
 #, c-format
 msgid ""
 "The kdelnk file\n"
@@ -2914,15 +2911,15 @@ msgid ""
 "is of type Link but has no URL=... entry"
 msgstr ""
 
-#: kio/kmimetypes.cc:609
+#: kio/kmimetypes.cc:608
 msgid "Mount"
 msgstr "Tengja inn"
 
-#: kio/kmimetypes.cc:616
+#: kio/kmimetypes.cc:615
 msgid "Unmount"
 msgstr "Tengja frá"
 
-#: kio/kmimetypes.cc:659
+#: kio/kmimetypes.cc:658
 #, c-format
 msgid ""
 "The kdelnk file\n"
@@ -2937,7 +2934,7 @@ msgstr ""
 
 #: kio/kregfactories.cc:72
 msgid "The mime type _cfg file "
-msgstr "_cfg skráin fyrir mime tög "
+msgstr "_cfg skráin fyrir MIME tög "
 
 #: kio/krun.cc:39
 #, c-format
