@@ -1,3 +1,4 @@
+ done.
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -5,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-10-29 14:16+0100\n"
+"POT-Creation-Date: 1998-10-30 11:43+0100\n"
 "PO-Revision-Date: 1998-10-10 16:33+0200\n"
 "Last-Translator: Stephan Kulow <coolo@kde.org>\n"
 

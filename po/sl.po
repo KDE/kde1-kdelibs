@@ -1,3 +1,4 @@
+ done.
 # KDELIBS translation to Slovene language
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Bla¾ Zupanèiè <blazzupancic@hotmail.com>, 1998.
@@ -6,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-10-29 14:16+0100\n"
+"POT-Creation-Date: 1998-10-30 11:43+0100\n"
 "PO-Revision-Date: 1998-09-22 16:18+0100\n"
 "Last-Translator: Bla¾ Zupanèiè <blazzupancic@hotmail.com>\n"
 "Language-Team: Slovenian\n"

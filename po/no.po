@@ -1,3 +1,4 @@
+ done.
 # Norwegian translations for KDE Libs
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Hans Petter Bieker <zerium@webindex.no>, 1998.
@@ -5,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE LIBS\n"
-"POT-Creation-Date: 1998-10-29 14:16+0100\n"
+"POT-Creation-Date: 1998-10-30 11:43+0100\n"
 "PO-Revision-Date: 1998-04-20 18:55+0100\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"

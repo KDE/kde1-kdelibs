@@ -1,7 +1,8 @@
+ done.
 msgid ""
 msgstr ""
 "Project-Id-Version: klibs\n"
-"POT-Creation-Date: 1998-10-29 14:16+0100\n"
+"POT-Creation-Date: 1998-10-30 11:43+0100\n"
 "PO-Revision-Date: 1998-01-22 00:00+0100\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
