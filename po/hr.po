@@ -2144,8 +2144,10 @@ msgstr ""
 #, c-format
 msgid ""
 "Could not write to\n"
+"%s"
 msgstr ""
 "Ne mogu pisati u\n"
+"%s"
 
 #: kio/kio_error.cc:22
 #, c-format
