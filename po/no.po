@@ -7,13 +7,71 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE LIBS\n"
-"POT-Creation-Date: 1998-09-29 23:17+0200\n"
+"POT-Creation-Date: 1998-09-30 23:21+0200\n"
 "PO-Revision-Date: 1998-04-20 18:55+0100\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: kab/AssertDialog.cpp:24
+#, fuzzy
+msgid "(unknown file)"
+msgstr "ukjent"
+
+#: kab/AssertDialog.cpp:25
+msgid "(unknown line number)"
+msgstr ""
+
+#: kab/AssertDialog.cpp:26
+msgid "(unknown condition)"
+msgstr ""
+
+#: kab/AssertDialog.cpp:34
+msgid "You have found a bug in "
+msgstr ""
+
+#: kab/AssertDialog.cpp:41
+msgid "Ignore the error, possibly causing much more damage"
+msgstr ""
+
+#: kab/AssertDialog.cpp:43
+#, fuzzy
+msgid "Kill the application, loosing all data"
+msgstr "Applikasjonskonfigfil\n"
+
+#: kab/AssertDialog.cpp:45
+msgid "Send an email to the application maintainer"
+msgstr ""
+
+#: kab/AssertDialog.cpp:47 kab/StringListDialog.cpp:40
+#: kab/StringListSelectAndReorderSet.cpp:572
+#: kab/StringListSelectOneDialog.cpp:26 kab/StringListSelectSetDialog.cpp:24
+#: kab/datepickerdialog.cc:26 kab/kabapi.cc:35 kdeui/kcolordlg.cpp:463
+#: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:130 kdeui/keditcl1.cpp:144
+#: kdeui/keditcl1.cpp:159 kdeui/keditcl1.cpp:180 kdeui/keditcl1.cpp:193
+#: kdeui/keditcl1.cpp:1535 kdeui/keditcl1.cpp:1692 kdeui/kfontdialog.cpp:370
+#: kdeui/kiconloaderdialog.cpp:254 kdeui/kmsgbox.cpp:277
+#: kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:499
+#: kfile/kfiledialog.cpp:879 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:403
+#: po/texts.cpp:35 po/texts.cpp:37
+msgid "OK"
+msgstr "OK"
+
+#: kab/AssertDialog.cpp:134
+#, fuzzy
+msgid "The following condition failed:\n"
+msgstr "Applikasjonskonfigfil\n"
+
+#: kab/AssertDialog.cpp:135
+#, fuzzy
+msgid "In file "
+msgstr "fil"
+
+#: kab/AssertDialog.cpp:135
+msgid ", line "
+msgstr ""
 
 #: kab/PrintDialog.cpp:22
 msgid "Headline text:"
@@ -135,19 +193,6 @@ msgstr "Hjemmeside-URL"
 msgid "The comment"
 msgstr "Kommentar"
 
-#: kab/StringListDialog.cpp:40 kab/StringListSelectAndReorderSet.cpp:572
-#: kab/StringListSelectOneDialog.cpp:26 kab/StringListSelectSetDialog.cpp:24
-#: kab/datepickerdialog.cc:26 kab/kabapi.cc:35 kdeui/kcolordlg.cpp:463
-#: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:130 kdeui/keditcl1.cpp:144
-#: kdeui/keditcl1.cpp:159 kdeui/keditcl1.cpp:180 kdeui/keditcl1.cpp:193
-#: kdeui/keditcl1.cpp:1535 kdeui/keditcl1.cpp:1692 kdeui/kfontdialog.cpp:370
-#: kdeui/kiconloaderdialog.cpp:254 kdeui/kmsgbox.cpp:277
-#: kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:499
-#: kfile/kfiledialog.cpp:879 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:403
-#: po/texts.cpp:35 po/texts.cpp:37
-msgid "OK"
-msgstr "OK"
-
 #: kab/StringListSelectAndReorderSet.cpp:43
 msgid "Possible values:"
 msgstr "Mulige verdier:"
@@ -200,16 +245,16 @@ msgstr "Angre"
 
 #: kdecore/kaccel.cpp:269 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
 #: kdeui/keditcl2.cpp:360 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:676
-#: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786
+#: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786 po/texts.cpp:147
 msgid "Find"
 msgstr "Finn"
 
 #: kdecore/kaccel.cpp:273 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
-#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789
+#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:148
 msgid "Replace"
 msgstr "Erstatt"
 
-#: kdecore/kaccel.cpp:277
+#: kdecore/kaccel.cpp:277 po/texts.cpp:149
 msgid "Insert"
 msgstr "Sett inn"
 
@@ -221,11 +266,11 @@ msgstr "Hjem"
 msgid "End"
 msgstr "Slutt"
 
-#: kdecore/kaccel.cpp:289
+#: kdecore/kaccel.cpp:289 po/texts.cpp:151
 msgid "Prior"
 msgstr "Forrige"
 
-#: kdecore/kaccel.cpp:293
+#: kdecore/kaccel.cpp:293 po/texts.cpp:150
 msgid "Next"
 msgstr "Neste"
 
@@ -322,7 +367,7 @@ msgstr "Tilføy til brukerdefinerte farger"
 msgid "Custom..."
 msgstr "Brukerdefinert..."
 
-#: kdeui/kcontrol.cpp:39
+#: kdeui/kcontrol.cpp:39 po/texts.cpp:152
 msgid "Default"
 msgstr "Standard"
 
@@ -637,7 +682,7 @@ msgstr "Filter:"
 msgid "&Help"
 msgstr "&Hjelp"
 
-#: kdeui/kkeydialog.cpp:236
+#: kdeui/kkeydialog.cpp:236 po/texts.cpp:153
 msgid "&Defaults"
 msgstr "&Standarder"
 
@@ -1463,8 +1508,7 @@ msgstr ""
 "Katalogen kan ikke bli laget.\n"
 "Trolig har du ikke brukt KDE før, så\n"
 "du har ikke en lokal \".kde\"-mappe\n"
-"i hjemmemappen. Kjør KDE-filbehandleren"
-"kfm en gang for å lage den."
+"i hjemmemappen. Kjør KDE-filbehandlerenkfm en gang for å lage den."
 
 #: kab/addressbook.cc:112
 msgid "The directory has been created.\n"
@@ -1513,8 +1557,7 @@ msgstr "oppføring uten navn"
 #: kab/addressbook.cc:1004
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
-msgstr ""
-"Kunne ikke lage ny databasefil (trolig ingen tilgang), avslutter."
+msgstr "Kunne ikke lage ny databasefil (trolig ingen tilgang), avslutter."
 
 #: kab/addressbook.cc:1012
 msgid "Cannot create configuration section, exiting."
@@ -2143,8 +2186,8 @@ msgid ""
 "on your hard disk, while you should use the textual links for browsing"
 msgstr ""
 "Bruk ikoner for dra og slipp-hendelser, siden de refererer til "
-"mellomlagerfilene på platelageret ditt, mens du bør bruke tekst-lenker "
-"for nettlesing"
+"mellomlagerfilene på platelageret ditt, mens du bør bruke tekst-lenker for "
+"nettlesing"
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"

@@ -14,7 +14,8 @@ localedir = $(kde_locale)
 
 MAINTAINERCLEANFILES = $(GMOFILES)
 
-EXTRA_DIST = kde.pot $(CHARSETFILES) $(POFILES) $(GMOFILES) texts.cpp
+EXTRA_DIST = kde.pot kdelibs.pot $(CHARSETFILES) $(POFILES) $(GMOFILES) 
+	texts.cpp
 # install this to make excluding of this messages possible
 include_HEADERS = kde.pot
 
@@ -81,7 +82,7 @@ merge:
 	@catalogs='$(POFILES)'; \
 	for cat in $$catalogs; do \
 	echo $$cat $$name; \
-	msgmerge $$cat kde.pot > $$cat.new ; \
+	msgmerge $$cat kdelibs.pot > $$cat.new ; \
 	if diff $$cat $$cat.new; then \
 		rm $$cat.new;  \
 	else  \
