@@ -819,7 +819,7 @@ msgid ""
 msgstr ""
 "Hnappasamstningin %s er nú þegar í notkun\n"
 "í víðværu stillingunni %s\n"
- "\n"
+"\n"
 "Veldu ótvíræða samsetningu."
 
 #: kdeui/kkeydialog.cpp:1039
@@ -836,7 +836,7 @@ msgid ""
 msgstr ""
 "Hnappasamstningin %s er nú þegar í notkun\n"
 "í staðalstillingunni %s\n"
- "\n"
+"\n"
 "Veldu ótvíræða samsetningu."
 
 #: kdeui/kkeydialog.cpp:1066
@@ -853,7 +853,7 @@ msgid ""
 msgstr ""
 "Hnappasamstningin %s er nú þegar í notkun\n"
 "í aðgerðarstillingunni %s\n"
- "\n"
+"\n"
 "Veldu ótvíræða samsetningu."
 
 #: kdeui/kkeydialog.cpp:1090
@@ -1069,6 +1069,7 @@ msgid "one directory"
 msgstr "ein mappa"
 
 #: kfile/kfiledialog.cpp:1324
+#, c-format
 msgid "%d directories"
 msgstr "%d möppur"
 
@@ -2401,6 +2402,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:25
+#, c-format
 msgid ""
 "Internal Error\n"
 "Please send a full bugreport to kde-bugs@kde.org\n"
@@ -2645,6 +2647,7 @@ msgstr ""
 "%s lauk skyndilega"
 
 #: kio/kio_error.cc:103
+#, c-format
 msgid ""
 "Could not access\n"
 "%s"
@@ -2653,6 +2656,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:106
+#, c-format
 msgid ""
 "Unknown error code %i\n"
 "%s\n"
