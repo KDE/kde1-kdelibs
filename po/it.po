@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-06-18 22:45+0200\n"
+"POT-Creation-Date: 1998-06-21 18:14+0200\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-09 17:23:06+0200\n"
 "From: Steffen Hansen,Home,,66178676, <stefh@nostromo>\n"
@@ -8,23 +8,23 @@ msgstr ""
 "Files: chooser.cpp gif.cpp jpeg.cpp kdmconfig.cpp kdmdesktop.cpp "
 "kdmshutdown.cpp kdmview.cpp kfdialog.cpp kgreeter.cpp\n"
 
-#: kdecore/kapp.cpp:490
+#: kdecore/kapp.cpp:494
 msgid "&Contents"
 msgstr "&Contenuti"
 
-#: kdecore/kapp.cpp:496
+#: kdecore/kapp.cpp:500
 msgid "&About"
 msgstr "&Info"
 
-#: kdecore/kapp.cpp:503
+#: kdecore/kapp.cpp:507
 msgid "About &KDE..."
 msgstr "Info sul &KDE..."
 
-#: kdecore/kapp.cpp:524
+#: kdecore/kapp.cpp:528
 msgid "About KDE"
 msgstr "Info sul KDE"
 
-#: kdecore/kapp.cpp:526
+#: kdecore/kapp.cpp:530
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"

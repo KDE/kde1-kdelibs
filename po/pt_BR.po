@@ -1,27 +1,27 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1998-06-18 22:45+0200\n"
+"POT-Creation-Date: 1998-06-21 18:14+0200\n"
 "PO-Revision-Date: 1998-03-23 00:00+0100\n"
 "Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
 
-#: kdecore/kapp.cpp:490
+#: kdecore/kapp.cpp:494
 msgid "&Contents"
 msgstr "&Conteúdo"
 
-#: kdecore/kapp.cpp:496
+#: kdecore/kapp.cpp:500
 msgid "&About"
 msgstr "&Sobre"
 
-#: kdecore/kapp.cpp:503
+#: kdecore/kapp.cpp:507
 msgid "About &KDE..."
 msgstr "Sobre o &KDE..."
 
-#: kdecore/kapp.cpp:524
+#: kdecore/kapp.cpp:528
 msgid "About KDE"
 msgstr "Sobre o KDE"
 
-#: kdecore/kapp.cpp:526
+#: kdecore/kapp.cpp:530
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-18 22:45+0200\n"
+"POT-Creation-Date: 1998-06-21 18:14+0200\n"
 "PO-Revision-Date: 1998-03-15 20:00-0500\n"
 "Last-Translator:  Almir Uzunovic <auzunovi@sava.utic.net.ba> \n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -9,23 +9,23 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: kdecore/kapp.cpp:490
+#: kdecore/kapp.cpp:494
 msgid "&Contents"
 msgstr "&Sadr¾aj"
 
-#: kdecore/kapp.cpp:496
+#: kdecore/kapp.cpp:500
 msgid "&About"
 msgstr "&O programu"
 
-#: kdecore/kapp.cpp:503
+#: kdecore/kapp.cpp:507
 msgid "About &KDE..."
 msgstr "O &KDE..."
 
-#: kdecore/kapp.cpp:524
+#: kdecore/kapp.cpp:528
 msgid "About KDE"
 msgstr "O KDE"
 
-#: kdecore/kapp.cpp:526
+#: kdecore/kapp.cpp:530
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
