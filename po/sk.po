@@ -443,7 +443,7 @@ msgstr "Zálo¾ky"
 
 #: kfile/kfiledialog.cpp:178
 msgid "Create new folder"
-msgstr "Vytvori» nový adresár"
+msgstr "Vytvori» nový prieèinok"
 
 #: kfile/kfiledialog.cpp:181
 msgid "Search for a file"

@@ -111,9 +111,8 @@ msgstr "Birane..."
 
 # po/texts.cpp:92
 #: kdeui/kcontrol.cpp:39
-#, fuzzy
 msgid "Default"
-msgstr "Obri¹i"
+msgstr "Podrazumijevano"
 
 # kdeui/kcontrol.cpp:39 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 # kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
