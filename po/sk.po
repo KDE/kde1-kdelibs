@@ -939,7 +939,7 @@ msgstr "V&lo¾i»"
 
 #: po/texts.cpp:62
 msgid "New"
-msgstr "Nová"
+msgstr "Nový"
 
 #: po/texts.cpp:63
 msgid "&New"
