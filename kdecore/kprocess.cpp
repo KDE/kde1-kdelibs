@@ -21,6 +21,9 @@
    Boston, MA 02111-1307, USA.
    
    $Log$
+   Revision 1.19  1998/03/08 17:21:40  wuebben
+   Bernd: Fixed the segfault problem in 'KShellProcess::start()'.
+
 
 */
 
@@ -519,6 +522,10 @@ KShellProcess::KShellProcess(const char *shellname):
 }
 
 
+KShellProcess::~KShellProcess() {
+  if(shell)
+    free(shell);
+}
 
 bool KShellProcess::start(RunMode runmode, Communication comm)
 {
