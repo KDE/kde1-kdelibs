@@ -1137,9 +1137,8 @@ msgid "Keep dirs first"
 msgstr "Direktorije prvo"
 
 #: kfile/kfilefilter.cpp:35
-#, fuzzy
 msgid "*|All Files"
-msgstr "Datoteke"
+msgstr "*|Sve datoteke"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"
@@ -1254,71 +1253,64 @@ msgid "Consider run-together words as spelling errors"
 msgstr ""
 
 #: kspell/ksconfig.cpp:92
-#, fuzzy
 msgid "Dictionary"
-msgstr "direktorij"
+msgstr "Rjeènik"
 
 #: kspell/ksconfig.cpp:140
 msgid "Encoding:"
-msgstr ""
+msgstr "Kodiranje:"
 
 #: kspell/ksconfig.cpp:147
-#, fuzzy
 msgid "Latin1"
-msgstr "&Lokacija:"
+msgstr "Latin1"
 
 #: kspell/ksconfig.cpp:148
 msgid "7-Bit/ASCII"
-msgstr ""
+msgstr "7-Bit/ASCII"
 
 #: kspell/ksconfig.cpp:292
 msgid "English"
-msgstr ""
+msgstr "Engleski"
 
 #: kspell/ksconfig.cpp:298
 msgid "Spanish"
-msgstr ""
+msgstr "©panjolski"
 
 #: kspell/ksconfig.cpp:304
-#, fuzzy
 msgid "German"
-msgstr "rimski"
+msgstr "Njemaèki"
 
 #: kspell/ksconfig.cpp:311
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "Brazilski portugalski"
 
 #: kio/kio_cache.cc:422 kspell/ksconfig.cpp:317
 msgid "Unknown"
 msgstr "Nepoznat"
 
 #: kspell/ksconfig.cpp:348
-#, fuzzy
 msgid "ISpell Default"
-msgstr "Uobièajeno"
+msgstr "ISpell Uobièajeno"
 
 #: kspell/kspelldlg.cpp:58
 msgid "Misspelled Word:"
-msgstr ""
+msgstr "Pogre¹no napisana rijeè:"
 
 #: kspell/kspelldlg.cpp:68
-#, fuzzy
 msgid "Replacement:"
-msgstr "Zamijeni"
+msgstr "Zamijena:"
 
 #: kspell/kspelldlg.cpp:77
 msgid "Suggestions:"
-msgstr ""
+msgstr "Prijedlog:"
 
 #: kspell/kspelldlg.cpp:88
-#, fuzzy
 msgid "Ignore"
-msgstr "&Ignoriraj"
+msgstr "Ignoriraj"
 
 #: kspell/kspelldlg.cpp:99
-#, fuzzy
 msgid "Ignore All"
-msgstr "&Ignoriraj"
+msgstr "Ignoriraj svaki put"
 
 #: kspell/kspelldlg.cpp:120 po/texts.cpp:86
 msgid "Add"
@@ -1678,11 +1670,11 @@ msgstr ""
 
 #: kab/addressbook.cc:106
 msgid "The directory has been created.\n"
-msgstr ""
+msgstr "Direktorije je stvoren.\n"
 
 #: kab/addressbook.cc:140
 msgid "No addressbook database file, creating new one."
-msgstr ""
+msgstr "Ne postoji adresna baza, stvaram novu."
 
 #: kab/addressbook.cc:159
 msgid "Tried to load database for creating backup, but failed"
@@ -1690,7 +1682,7 @@ msgstr ""
 
 #: kab/addressbook.cc:194
 msgid "Unable to save to backup file."
-msgstr ""
+msgstr "Ne mogu spremiti sigurnosnu kopiju."
 
 #: kab/addressbook.cc:200
 msgid "Unable to reset filename after creating backup."
@@ -1698,15 +1690,15 @@ msgstr ""
 
 #: kab/addressbook.cc:205
 msgid "Unable to create backup file"
-msgstr ""
+msgstr "Ne mogu stvoriti sigurnosnu kopiju"
 
 #: kab/addressbook.cc:263
 msgid "Unable to insert \""
-msgstr ""
+msgstr "Ne mogu umetnuti \""
 
 #: kab/addressbook.cc:264
 msgid "\" into configuration section (ignored)."
-msgstr ""
+msgstr "\" u postavke (ignorirano)"
 
 #: kab/addressbook.cc:666
 msgid "Unable to add a new entry with available key."
@@ -1743,7 +1735,7 @@ msgstr ""
 
 #: kab/addressbook.cc:974
 msgid "Cannot save newly created database."
-msgstr ""
+msgstr "Ne mogu spremiti novostvorenu bazu"
 
 #: kab/addressbook.cc:980
 msgid "Cannot erase database contents."
@@ -1799,7 +1791,7 @@ msgstr "Adresa za talk"
 
 #: kab/addressbook.cc:1107
 msgid "Delivery label"
-msgstr ""
+msgstr "Dostavna oznaka"
 
 #: kab/addressbook.cc:1111
 msgid "Email address"
@@ -1843,11 +1835,11 @@ msgstr "URL web stranice"
 
 #: kab/addressbook.cc:1151
 msgid "Zip/postal code"
-msgstr ""
+msgstr "Po¹tanski broj"
 
 #: kab/addressbook.cc:1155
 msgid "State/province"
-msgstr ""
+msgstr "®upanija"
 
 #: kab/addressbook.cc:1159
 msgid "Country"
@@ -1890,7 +1882,6 @@ msgid "Address:"
 msgstr "Adresa:"
 
 #: kab/editentry.cc:104
-#, fuzzy
 msgid "Town/City:"
 msgstr "Grad:"
 
@@ -1900,7 +1891,7 @@ msgstr "®upanija:"
 
 #: kab/editentry.cc:106
 msgid "Zip/Postal Code:"
-msgstr ""
+msgstr "Po¹tanski broj:"
 
 #: kab/editentry.cc:107
 msgid "Country:"
@@ -1915,18 +1906,16 @@ msgid "Organization:"
 msgstr "Organizacija:"
 
 #: kab/editentry.cc:146
-#, fuzzy
 msgid "Department:"
-msgstr "Datum:"
+msgstr "Odjel:"
 
 #: kab/editentry.cc:147
 msgid "Sub-Department:"
-msgstr ""
+msgstr "Pod-odjel:"
 
 #: kab/editentry.cc:148
-#, fuzzy
 msgid "Job/Role:"
-msgstr "Uloga"
+msgstr "Posao/uloga"
 
 #: kab/editentry.cc:169
 msgid "&Organization"
@@ -1961,17 +1950,16 @@ msgid "&Contact"
 msgstr "&Kontakt"
 
 #: kab/editentry.cc:239
-#, fuzzy
 msgid "Additional Comment:"
-msgstr "Dodatno ime:"
+msgstr "Dodatno komentar:"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
-msgstr ""
+msgstr "Roðendan:"
 
 #: kab/editentry.cc:249
 msgid "Double click to set date"
-msgstr ""
+msgstr "Dvostruki klik postavlja datum"
 
 #: kab/editentry.cc:256
 msgid "O&thers"
@@ -1979,7 +1967,7 @@ msgstr "D&rugi"
 
 #: kab/kabapi.cc:138
 msgid "Your new entry could not be added."
-msgstr ""
+msgstr "Ne mogu dodati va¹ novi zapis."
 
 #: kab/searchresults.cc:33
 msgid "search results"
@@ -1987,7 +1975,7 @@ msgstr "rezultati pretrage"
 
 #: kab/widget.cc:144
 msgid "Conversion problem"
-msgstr ""
+msgstr "Problem kod preinake"
 
 #: kab/widget.cc:145
 msgid ""
@@ -2023,11 +2011,11 @@ msgstr ""
 
 #: kab/widget.cc:249
 msgid "Unable to open database file r/w."
-msgstr ""
+msgstr "Ne mogu otvoriti datoteku sa bazom za è/p"
 
 #: kab/widget.cc:257
 msgid "Email storage conversion"
-msgstr ""
+msgstr "Preinaka spremi¹ta za e-mail"
 
 #: kab/widget.cc:258
 msgid ""
@@ -2968,6 +2956,3 @@ msgid ""
 msgstr ""
 "\n"
 "ne sadr¾i Name=... unos"
-
-#~ msgid "Comment:"
-#~ msgstr "Komentar:"
