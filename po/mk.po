@@ -22,7 +22,7 @@ msgstr "&Objasnuvanje"
 
 #: kdecore/kapp.cpp:448
 msgid "About &KDE..."
-msgstr "Objansuvanje za &KDE"
+msgstr "Objasnuvanje za &KDE"
 
 #: kdecore/kapp.cpp:469
 msgid "About KDE"
