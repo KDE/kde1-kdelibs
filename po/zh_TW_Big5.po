@@ -484,8 +484,7 @@ msgstr "錯誤: 無法開啟目錄"
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
-msgstr ""
-"指定的目錄不存在或是不可讀取"
+msgstr "指定的目錄不存在或是不可讀取"
 
 #: kfile/kfiledialog.cpp:526 kfile/kfiledialog.cpp:626
 msgid "Dismiss"
@@ -961,4 +960,3 @@ msgstr "瀏覽..."
 #: po/texts.cpp:104
 msgid "(none)"
 msgstr "(無)"
-

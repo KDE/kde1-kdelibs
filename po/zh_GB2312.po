@@ -1,25 +1,26 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: kdelibs\n"
+"Project-Id-Version: kcmkpanel\n"
 "POT-Creation-Date: 1998-04-17 23:25+0200\n"
-"PO-Revision-Date: 1998-04-18 13:36+0200\n"
-"Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
+"PO-Revision-Date: 1998-02-21 05:04+0800\n"
+"Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
+"Language-Team: zh_CN ( gb2312 )\n"
 
 #: kdecore/kapp.cpp:494
 msgid "&Contents"
-msgstr "&Contenido"
+msgstr "ÄÚÈÝ[&C]"
 
 #: kdecore/kapp.cpp:500
 msgid "&About"
-msgstr "&Acerca de"
+msgstr "ÓÐ¹Ø[&A]"
 
 #: kdecore/kapp.cpp:507
 msgid "About &KDE..."
-msgstr "Acerca de &KDE..."
+msgstr "¹ØÓÚ &KDE..."
 
 #: kdecore/kapp.cpp:528
 msgid "About KDE"
-msgstr "Acerca de KDE"
+msgstr "¹ØÓÚ KDE"
 
 #: kdecore/kapp.cpp:530
 msgid ""
@@ -33,37 +34,27 @@ msgid ""
 "\n"
 "Please report bugs at http://buglist.kde.org.\n"
 msgstr ""
-"\n"
-"El K Desktop Environment fue escrito por el grupo KDE,\n"
-"un grupo de programadores de todo el mundo dedicados\n"
-"a la creación de software libre.\n"
-"\n"
-"Visite http://www.kde.org para mayor información acerca del\n"
-"projecto KDE. Por favor considere ser parte y contribuir a KDE.\n"
-"\n"
-"Por favor reporte errores a través de http://buglist.kde.org.\n"
 
-# libkdeui messages
 #: kdeui/kcolordlg.cpp:285
 msgid "Select Color"
-msgstr "Elija un color"
+msgstr "Ñ¡ÔñÑÕÉ«"
 
 #: kdeui/kcolordlg.cpp:297
 msgid "System Colors"
-msgstr "Colores del sistema"
+msgstr "ÏµÍ³ÑÕÉ«"
 
 #: kdeui/kcolordlg.cpp:328
 msgid "Custom Colors"
-msgstr "Colores personales"
+msgstr "×Ô¶¨ÒåÑÕÉ«"
 
 #: kdeui/kcolordlg.cpp:341
 msgid "Add to Custom Colors"
-msgstr "Añadir a colores personales"
+msgstr "¼ÓÔÚ×Ô¶¨ÒåÑÕÉ«ÖÐ"
 
 #: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:337
 #: kdeui/kiconloaderdialog.cpp:210 kfile/kfiledialog.cpp:898 po/texts.cpp:37
 msgid "Ok"
-msgstr "Ok"
+msgstr "È·¶¨"
 
 #: kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:41 kdeui/keditcl1.cpp:397
 #: kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897 kdeui/kfontdialog.cpp:332
@@ -71,16 +62,16 @@ msgstr "Ok"
 #: kfile/kfiledialog.cpp:286 kfile/kfiledialog.cpp:903
 #: kfile/kfiledialogconf.cpp:58 po/texts.cpp:40
 msgid "Cancel"
-msgstr "Cancelar"
+msgstr "È¡Ïû"
 
 #: kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34 kfile/kfiledialog.cpp:292
 #: po/texts.cpp:45
 msgid "Help"
-msgstr "Ayuda"
+msgstr "°ïÖú"
 
 #: kdeui/kcolordlg.cpp:788 kdeui/kcolordlg.cpp:840
 msgid "Custom..."
-msgstr "Personal..."
+msgstr "×Ô¶¨Òå..."
 
 #: kdeui/kcontrol.cpp:39 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
@@ -88,53 +79,53 @@ msgstr "Personal..."
 #: kfile/kfiledialog.cpp:280 kfile/kfiledialog.cpp:513
 #: kfile/kfiledialogconf.cpp:60 po/texts.cpp:35
 msgid "OK"
-msgstr "OK"
+msgstr "È·¶¨"
 
 #: kdeui/kcontrol.cpp:40 kfile/kfiledialogconf.cpp:59 po/texts.cpp:42
 msgid "Apply"
-msgstr "Aplicar"
+msgstr "Ó¦ÓÃ"
 
 #: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
 #: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:87
 msgid "Sorry"
-msgstr "Perdón"
+msgstr "±§Ç¸"
 
 #: kdeui/keditcl1.cpp:128
 msgid "The specified File does not exist"
-msgstr "El archivo especificado no existe"
+msgstr "Ö¸¶¨µÄÎÄ¼þ²»´æÔÚ"
 
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:494
 #: kdeui/keditcl1.cpp:1627
 msgid "Sorry:"
-msgstr "Perdón:"
+msgstr "±§Ç¸:"
 
 #: kdeui/keditcl1.cpp:142
 msgid "You have specificated a directory"
-msgstr "Especificó un directorio"
+msgstr "±ØÐëÖ¸¶¨Ò»¸öÄ¿Â¼"
 
 #: kdeui/keditcl1.cpp:157 kdeui/keditcl1.cpp:178
 msgid "You do not have read permission to this file."
-msgstr "No tiene derechos de lectura sobre este archivo."
+msgstr "Ã»ÓÐÈ¨ÏÞ¶ÁÈ¡Õâ¸öÎÄ¼þ"
 
 #: kdeui/keditcl1.cpp:191
 msgid "An Error occured while trying to open this Document"
-msgstr "Hubo un error al intentar abrir este documento"
+msgstr "´ò¿ªÎÄ¼þµÄÊ±ºò·¢Éú´íÎó"
 
 #: kdeui/keditcl1.cpp:356
 msgid "Select Document to Insert"
-msgstr "Seleccione documento a insertar"
+msgstr "Ñ¡ÔñÒª²åÈëµÄÎÄ¼þ"
 
 #: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1570
 msgid "Warning:"
-msgstr "Advertencia:"
+msgstr "¾¯¸æ:"
 
 #: kdeui/keditcl1.cpp:393 kdeui/keditcl1.cpp:475
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
 msgstr ""
-"Este documento ha sido modificado.\n"
-"Desea guardarlo?"
+"µ±Ç°µÄÎÄ¼þÒÑ¾­±»ÐÞ¸Ä.\n"
+"Òª±£´æÂð?"
 
 #: kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416 kdeui/keditcl1.cpp:477
 #: kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573 kdeui/keditcl2.cpp:108
@@ -142,7 +133,7 @@ msgstr ""
 #: kdeui/keditcl2.cpp:428 kdeui/keditcl2.cpp:458 kdeui/keditcl2.cpp:475
 #: kdeui/kmsgbox.cpp:488 kdeui/kmsgbox.cpp:503 po/texts.cpp:27
 msgid "Yes"
-msgstr "Sí"
+msgstr "ÊÇ"
 
 #: kdeui/keditcl1.cpp:396 kdeui/keditcl1.cpp:417 kdeui/keditcl1.cpp:478
 #: kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1574 kdeui/keditcl2.cpp:109
@@ -150,65 +141,65 @@ msgstr "Sí"
 #: kdeui/keditcl2.cpp:429 kdeui/keditcl2.cpp:459 kdeui/keditcl2.cpp:476
 #: kdeui/kmsgbox.cpp:486 kdeui/kmsgbox.cpp:501 po/texts.cpp:28
 msgid "No"
-msgstr "No"
+msgstr "·ñ"
 
 #: kdeui/keditcl1.cpp:414
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
-"No se pudo guardar el documento.\n"
-"Abrir uno nuevo de todos modos?"
+"²»ÄÜ±£´æÕâ·ÝÎÄ¼þ.\n"
+"Ö±½Ó´ò¿ªÒ»¸öÐÂÎÄ¼þÂð?"
 
 #: kdeui/keditcl1.cpp:445
 msgid "Select Document to Open"
-msgstr "Seleccione documento a abrir"
+msgstr "Ñ¡ÔñÒª´ò¿ªµÄÎÄ¼þ"
 
 #: kdeui/keditcl1.cpp:495
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
-"No se pudo guardar el documento.\n"
-"Crear uno nuevo de todos modos?"
+"²»ÄÜ±£´æÕâ·ÝÎÄ¼þ.\n"
+"Ö±½Ó½¨Á¢Ò»·ÝÐÂÎÄ¼þÂð?"
 
 #: kdeui/keditcl1.cpp:530 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
 msgid "Untitled"
-msgstr "Sin título"
+msgstr "ÉÐÎ´ÃüÃû"
 
 #: kdeui/keditcl1.cpp:1472
 msgid "Could not save the document\n"
-msgstr "No se pudo guardar el documento\n"
+msgstr "ÎÞ·¨±£´æÕâ·ÝÎÄ¼þ.\n"
 
 #: kdeui/keditcl1.cpp:1542
 msgid "Save Document As"
-msgstr "Guardar como"
+msgstr "Áí´æÐÂÎÄ¼þ"
 
 #: kdeui/keditcl1.cpp:1571
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
 msgstr ""
-"Ya existe un documento con este nombre\n"
-"Quiere sobreescribirlo ?"
+"´æÔÚÏàÍ¬Ãû×ÖµÄÎÄ¼þ\n"
+"Òª¸²¸ÇÂð ?"
 
 #: kdeui/keditcl1.cpp:1628
 msgid "You do not have write permission to this file.\n"
-msgstr "No tiene derechos de escritura sobre este archivo.\n"
+msgstr "Ã»ÓÐÈ¨ÏÞÐ´ÈëÕâ¸öÎÄ¼þ\n"
 
 #: kdeui/keditcl2.cpp:105 kdeui/keditcl2.cpp:122 kdeui/keditcl2.cpp:362
 #: kdeui/keditcl2.cpp:379 kdeui/keditcl2.cpp:678 kdeui/keditcl2.cpp:687
 #: kdeui/keditcl2.cpp:788
 msgid "Find"
-msgstr "Encontrar"
+msgstr "Ñ°ÕÒ"
 
 #: kdeui/keditcl2.cpp:106 kdeui/keditcl2.cpp:363 kdeui/keditcl2.cpp:456
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
 msgstr ""
-"Final del documento alcanzado.\n"
-"Continuar desde el principio?"
+"ÖÁÎÄ¼þ½áÎ².\n"
+"ÓÉ¿ªÍ·¼ÌÐø?"
 
 #: kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426
 #: kdeui/keditcl2.cpp:473
@@ -216,341 +207,347 @@ msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
 msgstr ""
-"Principio del documento alcanzado.\n"
-"Continuar desde el final?"
+"ÒÑµ½ÎÄµµ¿ªÍ·.\n"
+"ÓÉ½áÎ²¼ÌÐø?"
 
 #: kdeui/keditcl2.cpp:425 kdeui/keditcl2.cpp:455 kdeui/keditcl2.cpp:472
 #: kdeui/keditcl2.cpp:791
 msgid "Replace"
-msgstr "Reemplazar"
+msgstr "Ìæ»»"
 
 #: kdeui/keditcl2.cpp:684 kdeui/keditcl2.cpp:782
 msgid "Case Sensitive"
-msgstr "Distinguir mayúsculas"
+msgstr "Çø·Ö´óÐ¡Ð´"
 
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:785
 msgid "Find Backwards"
-msgstr "Encontrar hacia arriba"
+msgstr "ÏòºóÑ°ÕÒ"
 
 #: kdeui/keditcl2.cpp:690 kdeui/keditcl2.cpp:797 po/texts.cpp:86
 msgid "Done"
-msgstr "Listo"
+msgstr "Íê³É"
 
 #: kdeui/keditcl2.cpp:770
 msgid "Find:"
-msgstr "Encontrar:"
+msgstr "Ñ°ÕÒ:"
 
 #: kdeui/keditcl2.cpp:780
 msgid "Replace with:"
-msgstr "Reemplazar con:"
+msgstr "ÓÃ...Ìæ»»:"
 
 #: kdeui/keditcl2.cpp:794
 msgid "Replace All"
-msgstr "Reemplazar todos"
+msgstr "È«²¿Ìæ»»"
 
 #: kdeui/keditcl2.cpp:891
 msgid "Goto Line"
-msgstr "Ir a línea"
+msgstr "ÌøÖÁÐÐÊý"
 
 #: kdeui/keditcl2.cpp:896
 msgid "Go"
-msgstr "Iniciar"
+msgstr "Ìø"
 
 #: kdeui/kfontdialog.cpp:145
 msgid "Select Font"
-msgstr "Elija una fuente"
+msgstr "Ñ¡Ôñ×ÖÌå"
 
 #: kdeui/kfontdialog.cpp:149
 msgid "Requested Font"
-msgstr "Fuente requerida"
+msgstr "ÒªÇóµÄ×ÖÌå"
 
 #: kdeui/kfontdialog.cpp:154
 msgid "Actual Font"
-msgstr "Fuente efectiva"
+msgstr "Êµ¼Ê×ÖÌå"
 
 #: kdeui/kfontdialog.cpp:158 kdeui/kfontdialog.cpp:162
 msgid "Family:"
-msgstr "Familia:"
+msgstr "×åÀà:"
 
 #: kdeui/kfontdialog.cpp:169 kdeui/kfontdialog.cpp:175 po/texts.cpp:26
 msgid "Charset:"
-msgstr "Código:"
+msgstr "×Ö·û¼¯:"
 
 #: kdeui/kfontdialog.cpp:182 kdeui/kfontdialog.cpp:187 kfile/kpreview.cpp:196
 msgid "Size:"
-msgstr "Tamaño:"
+msgstr "´óÐ¡"
 
 #: kdeui/kfontdialog.cpp:195 kdeui/kfontdialog.cpp:200
 msgid "Weight:"
-msgstr "Peso:"
+msgstr "ºñ¶È:"
 
 #: kdeui/kfontdialog.cpp:209 kdeui/kfontdialog.cpp:216
 msgid "Style:"
-msgstr "Estilo:"
+msgstr "·ç¸ñ:"
 
 #: kdeui/kfontdialog.cpp:253
 msgid "Charset"
-msgstr "Código"
+msgstr "×Ö·û¼¯"
 
 #: kdeui/kfontdialog.cpp:264 kfile/kfiledetaillist.cpp:38
 msgid "Size"
-msgstr "Tamaño"
+msgstr "´óÐ¡"
 
 #: kdeui/kfontdialog.cpp:305
 msgid "Weight"
-msgstr "Peso"
+msgstr "ºñ¶È"
 
 #: kdeui/kfontdialog.cpp:306 kdeui/kfontdialog.cpp:433
 msgid "normal"
-msgstr "normal"
+msgstr "Õý³£"
 
 #: kdeui/kfontdialog.cpp:307 kdeui/kfontdialog.cpp:435
 msgid "bold"
-msgstr "negrita"
+msgstr "´ÖÌå"
 
 #: kdeui/kfontdialog.cpp:318
 msgid "Style"
-msgstr "Estilo"
+msgstr "·ç¸ñ"
 
 #: kdeui/kfontdialog.cpp:319 kdeui/kfontdialog.cpp:446
 #: kdeui/kfontdialog.cpp:475
 msgid "roman"
-msgstr "roman"
+msgstr "ÕýÌå"
 
 #: kdeui/kfontdialog.cpp:320 kdeui/kfontdialog.cpp:448
 #: kdeui/kfontdialog.cpp:473
 msgid "italic"
-msgstr "cursiva"
+msgstr "Ð±Ìå"
 
 #: kdeui/kfontdialog.cpp:350
 msgid "Dolor Ipse"
-msgstr "Dolor Ipse"
+msgstr ""
 
 #: kdeui/kfontdialog.cpp:468
 msgid "Bold"
-msgstr "Negrita"
+msgstr "´ÖÌå"
 
 #: kdeui/kfontdialog.cpp:470
 msgid "Normal"
-msgstr "Normal"
+msgstr "Õý³£"
 
 #: kdeui/kiconloaderdialog.cpp:193
 msgid "Select Icon"
-msgstr "Elija un ícono"
+msgstr "Ñ¡ÔñÍ¼±ê"
 
 #: kdeui/kiconloaderdialog.cpp:198
 msgid "Filter:"
-msgstr "Filtro:"
+msgstr "¹ýÂË:"
 
 #: kdeui/kmenubar.cpp:154 kdeui/ktoolbar.cpp:435
 msgid "Top"
-msgstr "Arriba"
+msgstr "¶¥¶Ë"
 
 #: kdeui/kmenubar.cpp:155 kdeui/ktoolbar.cpp:437
 msgid "Bottom"
-msgstr "Abajo"
+msgstr "µ×¶Ë"
 
 #: kdeui/kmenubar.cpp:156 kdeui/ktoolbar.cpp:438
 msgid "Floating"
-msgstr "Flotante"
+msgstr "¸¡¶¯"
 
 #: kdeui/kmenubar.cpp:197 kdeui/kmenubar.cpp:337 kdeui/ktoolbar.cpp:1459
 msgid "Float"
-msgstr "Flotar"
+msgstr "¸¡¶¯"
 
 #: kdeui/kmenubar.cpp:326 kdeui/ktoolbar.cpp:1441
 msgid "UnFloat"
-msgstr "No Flotante"
+msgstr "¹Ì¶¨"
 
 #: kdeui/ktoolbar.cpp:153 kdeui/ktoolbar.cpp:277
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr "KToolBarButton: pixmap vacio, probablemente falta un archivo"
+msgstr "KToolBarButton: ¿ÕµÄÍ¼±ê, Ò²ÐíÈ±ÉÙÄ³Ð©ÎÄ¼þ"
 
 #: kdeui/ktoolbar.cpp:434
 msgid "Left"
-msgstr "Izquierda"
+msgstr "×ó"
 
 #: kdeui/ktoolbar.cpp:436
 msgid "Right"
-msgstr "Derecha"
+msgstr "ÓÒ"
 
 #: kfile/bookmark.cpp:246
 msgid "<!-- Do not edit this file -->"
-msgstr "<!-- No modifique este archivo -->"
+msgstr "<!-- ÇëÎð±à¼­´ËÎÄ¼þ -->"
 
 #: kfile/kcombiview.cpp:80
+#, fuzzy
 msgid "Folders:"
-msgstr "Carpetas:"
+msgstr "¹ýÂË:"
 
 #: kfile/kcombiview.cpp:81
+#, fuzzy
 msgid "Contents:"
-msgstr "Contenido:"
+msgstr "ÄÚÈÝ"
 
 #: kfile/kfiledetaillist.cpp:36
 msgid "Name"
-msgstr "Nombre"
+msgstr "Ãû³Æ"
 
 #: kfile/kfiledetaillist.cpp:40
 msgid "Permissions"
-msgstr "Derechos"
+msgstr ""
 
 #: kfile/kfiledetaillist.cpp:42
+#, fuzzy
 msgid "Date"
-msgstr "Fecha"
+msgstr "Õ³Ìù"
 
 #: kfile/kfiledetaillist.cpp:45
 msgid "Owner"
-msgstr "Propietario"
+msgstr "ËùÓÐÕß"
 
 #: kfile/kfiledetaillist.cpp:47
 msgid "Group"
-msgstr "Grupo"
+msgstr "ÓÃ»§×é"
 
 #: kfile/kfiledialog.cpp:144 po/texts.cpp:56
 msgid "Back"
-msgstr "Atrás"
+msgstr "·µ»Ø"
 
 #: kfile/kfiledialog.cpp:147 po/texts.cpp:57
 msgid "Forward"
-msgstr "Adelante"
+msgstr "ÍùÇ°"
 
 #: kfile/kfiledialog.cpp:150
 msgid "Up to parent"
-msgstr "Arriba al pariente"
+msgstr ""
 
 #: kfile/kfiledialog.cpp:153
 msgid "Home"
-msgstr "Propio"
+msgstr "»Øµ½Æðµã"
 
 #: kfile/kfiledialog.cpp:156 po/texts.cpp:55
 msgid "Reload"
-msgstr "Actualizar"
+msgstr "ÖØÐÂÔØÈë"
 
 #: kfile/kfiledialog.cpp:172
 msgid "Bookmarks"
-msgstr "Favoritos"
+msgstr ""
 
 #: kfile/kfiledialog.cpp:176
 msgid "Create new folder"
-msgstr "Crear carpeta nueva"
+msgstr ""
 
 #: kfile/kfiledialog.cpp:179
+#, fuzzy
 msgid "Search for a file"
-msgstr "Buscar un archivo"
+msgstr "´æ³ÉÎÄ¼þ"
 
 #: kfile/kfiledialog.cpp:182
 msgid "Configure this dialog [development only]"
-msgstr "Configurar este diálogo [sólo programadores]"
+msgstr ""
 
 #: kfile/kfiledialog.cpp:190
 msgid "The path"
-msgstr "La ruta"
+msgstr ""
 
 #: kfile/kfiledialog.cpp:215
 msgid "&Location:"
-msgstr "Dirección"
+msgstr ""
 
 #: kfile/kfiledialog.cpp:227
+#, fuzzy
 msgid "&Filter:"
-msgstr "&Filtro:"
+msgstr "¹ýÂË:"
 
 #: kfile/kfiledialog.cpp:260
 msgid "Show hidden"
-msgstr "Mostrar escondidos"
+msgstr ""
 
 #: kfile/kfiledialog.cpp:508
 msgid "Error: Not local file"
-msgstr "Error: archivo no local"
+msgstr ""
 
 #: kfile/kfiledialog.cpp:509
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
 msgstr ""
-"El directorio especificado no es local\n"
-"pero la aplicación sólo acepta archivos locales."
 
 #: kfile/kfiledialog.cpp:523 kfile/kfiledialog.cpp:623
 msgid "Error: Cannot Open Directory"
-msgstr "Error: no se pudo abrir el directorio"
+msgstr ""
 
 #: kfile/kfiledialog.cpp:524
+#, fuzzy
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
-msgstr ""
-"El directorio especificado no existe\n"
-"o no puede ser leído."
+msgstr "Ö¸¶¨µÄÎÄ¼þ²»´æÔÚ"
 
 #: kfile/kfiledialog.cpp:526 kfile/kfiledialog.cpp:626
 msgid "Dismiss"
-msgstr "Aceptar"
+msgstr "È¡Ïû"
 
 #: kfile/kfiledialog.cpp:562 kfile/kfiledialog.cpp:1156
 #: kfile/kfiledialog.cpp:1315 kfile/kfiledialog.cpp:1349 po/texts.cpp:69
 msgid "Open"
-msgstr "Abrir"
+msgstr "´ò¿ª"
 
 #: kfile/kfiledialog.cpp:577 kfile/kfiledialog.cpp:1330 po/texts.cpp:80
 msgid "Save As"
-msgstr "Guardar como"
+msgstr "Áí´æÐÂÎÄ¼þ"
 
 #: kfile/kfiledialog.cpp:599
 msgid "Root Directory"
-msgstr "Directorio raíz"
+msgstr ""
 
 #: kfile/kfiledialog.cpp:624
+#, fuzzy
 msgid "The specified directory does not exist or was not readable."
-msgstr "El directorio especificado no existe o no puede ser leído."
+msgstr "Ö¸¶¨µÄÎÄ¼þ²»´æÔÚ"
 
 #: kfile/kfiledialog.cpp:883
 msgid "Create new directory in: "
-msgstr "Crear directorio nuevo en: "
+msgstr ""
 
 #: kfile/kfiledialog.cpp:886
 msgid "New Directory"
-msgstr "Nuevo directorio"
+msgstr ""
 
 #: kfile/kfiledialog.cpp:958
+#, fuzzy
 msgid "Add to bookmarks"
-msgstr "Agregar a favoritos"
+msgstr "¼ÓÔÚ×Ô¶¨ÒåÑÕÉ«ÖÐ"
 
 #: kfile/kfiledialog.cpp:1190
 msgid "Choose Directory"
-msgstr "Seleccionar directorio"
+msgstr ""
 
 #: kfile/kfiledialog.cpp:1211 kfile/kfiledialog.cpp:1370 po/texts.cpp:78
 msgid "Save"
-msgstr "Guardar"
+msgstr "±£´æ"
 
 #: kfile/kfiledialog.cpp:1258
 msgid "directory"
-msgstr "directorio"
+msgstr ""
 
 #: kfile/kfiledialog.cpp:1260
 msgid "directories"
-msgstr "directorios"
+msgstr ""
 
 #: kfile/kfiledialog.cpp:1262 kfile/kpreview.cpp:326
+#, fuzzy
 msgid "file"
-msgstr "archivo"
+msgstr "ÎÄ¼þ"
 
 #: kfile/kfiledialog.cpp:1264
+#, fuzzy
 msgid "files"
-msgstr "archivos"
+msgstr "ÎÄ¼þ"
 
 #: kfile/kfiledialog.cpp:1266
 #, c-format
 msgid "%d %s and %d %s"
-msgstr "%d %s y %d %s"
+msgstr ""
 
 #: kfile/kfiledialog.cpp:1276
 msgid "one directory"
-msgstr "un directorio"
+msgstr ""
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"
-msgstr "Ver y sentir"
+msgstr ""
 
 #: kfile/kfiledialogconf.cpp:43
 msgid ""
@@ -568,55 +565,56 @@ msgstr ""
 
 #: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
 msgid "About"
-msgstr "Acerca de"
+msgstr "¹ØÓÚ"
 
 #: kfile/kfiledialogconf.cpp:70
 msgid "View style"
-msgstr "Ver estilo"
+msgstr ""
 
 #: kfile/kfiledialogconf.cpp:74
 msgid "Show Short View"
-msgstr "Mostrar vista corta"
+msgstr ""
 
 #: kfile/kfiledialogconf.cpp:80
 msgid "Show Detail View"
-msgstr "Mostrar vista detallada"
+msgstr ""
 
 #: kfile/kfiledialogconf.cpp:89
 msgid "Misc"
-msgstr "Misceláneo"
+msgstr ""
 
 #: kfile/kfiledialogconf.cpp:95
+#, fuzzy
 msgid "Show Filter"
-msgstr "Mostrar filtro"
+msgstr "¹ýÂË:"
 
 #: kfile/kfiledialogconf.cpp:101
 msgid "Show List Labels"
-msgstr "Mostrar letreros de la lista"
+msgstr ""
 
 #: kfile/kfiledialogconf.cpp:107
 msgid "Show Hidden"
-msgstr "Mostrar escondidos"
+msgstr ""
 
 #: kfile/kfiledialogconf.cpp:113
 msgid "Show Status Line"
-msgstr "Mostrar barra de estado"
+msgstr ""
 
 #: kfile/kfiledialogconf.cpp:119
 msgid "Use single Click"
-msgstr "Usar click único"
+msgstr ""
 
 #: kfile/kfiledialogconf.cpp:125
 msgid "Mix dirs and files"
-msgstr "Mezclar diectorios y archivos"
+msgstr ""
 
 #: kfile/kfiledialogconf.cpp:131
 msgid "Keep dirs first"
-msgstr "Directorios primero"
+msgstr ""
 
 #: kfile/kfileinfo.cpp:95 kfile/kfileinfo.cpp:99
 msgid "unknown"
-msgstr "desconocido"
+msgstr ""
 
 #: kfile/kfileinfo.cpp:217
 msgid "Jan"
@@ -661,7 +659,7 @@ msgstr ""
 #: kfile/kfileinfo.cpp:227
 #, fuzzy
 msgid "Nov"
-msgstr "No"
+msgstr "·ñ"
 
 #: kfile/kfileinfo.cpp:228
 msgid "Dec"
@@ -669,290 +667,287 @@ msgstr ""
 
 #: kfile/kpreview.cpp:187
 msgid "Name:"
-msgstr "Nombre:"
+msgstr "Ãû³Æ:"
 
 #: kfile/kpreview.cpp:205
 msgid "Date:"
-msgstr "Fecha:"
+msgstr ""
 
 #: kfile/kpreview.cpp:214
+#, fuzzy
 msgid "Owner:"
-msgstr "Propietario:"
+msgstr "ËùÓÐÕß"
 
 #: kfile/kpreview.cpp:223
+#, fuzzy
 msgid "Group:"
-msgstr "Grupo:"
+msgstr "ÓÃ»§×é"
 
 #: kfile/kpreview.cpp:232
 msgid "Type:"
-msgstr "Tipo:"
+msgstr "ÀàÐÍ:"
 
 #: kfile/kpreview.cpp:287
 msgid "locked"
-msgstr "bloqueado"
+msgstr ""
 
 #: kfile/kpreview.cpp:311
 msgid "picture"
-msgstr "imágen"
+msgstr ""
 
 #: kfile/kpreview.cpp:343
 msgid "folder"
-msgstr "carpeta"
+msgstr ""
 
 #: po/texts.cpp:24
 msgid "Error"
-msgstr "Error"
+msgstr "´íÎó"
 
 #: po/texts.cpp:25
 msgid "Malformed URL"
-msgstr "URL mal formada"
+msgstr "²»ÕýÈ·µÄ URL"
 
 #: po/texts.cpp:29
 msgid "Warning"
-msgstr "Advertencia"
+msgstr "¾¯¸æ"
 
 #: po/texts.cpp:30
 msgid "Save a file"
-msgstr "Guardar un archivo"
+msgstr "´æ³ÉÎÄ¼þ"
 
 #: po/texts.cpp:31
 msgid "Contents"
-msgstr "Contenido"
+msgstr "ÄÚÈÝ"
 
 #: po/texts.cpp:33
 msgid "A&bout..."
-msgstr "Acerca de..."
+msgstr "¹ØÓÚ[&A]..."
 
 #: po/texts.cpp:36
 msgid "&OK"
-msgstr "&OK"
+msgstr "È·¶¨[&O]"
 
 #: po/texts.cpp:38
+#, fuzzy
 msgid "On"
-msgstr "Prendido"
+msgstr "´ò¿ª"
 
 #: po/texts.cpp:39
 msgid "Off"
-msgstr "Apagado"
+msgstr ""
 
 #: po/texts.cpp:41
 msgid "&Cancel"
-msgstr "&Cancelar"
+msgstr "È¡Ïû[&C]"
 
 #: po/texts.cpp:43
 msgid "File"
-msgstr "Archivo"
+msgstr "ÎÄ¼þ"
 
 #: po/texts.cpp:44
 msgid "&File"
-msgstr "&Archivo"
+msgstr "ÎÄ¼þ[&F]"
 
 #: po/texts.cpp:46
 msgid "&Help"
-msgstr "&Ayuda"
+msgstr "°ïÖú[&H]"
 
 #: po/texts.cpp:47
 msgid "Edit"
-msgstr "Editar"
+msgstr "±à¼­"
 
 #: po/texts.cpp:48
 msgid "&Edit"
-msgstr "&Editar"
+msgstr "±à¼­[&E]"
 
 #: po/texts.cpp:49
 msgid "&Options"
-msgstr "&Opciones"
+msgstr "Ñ¡Ïî[&O]"
 
 #: po/texts.cpp:50
 msgid "View"
-msgstr "Ver"
+msgstr "ÊÓÍ¼"
 
 #: po/texts.cpp:51
 msgid "&View"
-msgstr "&Ver"
+msgstr "ÊÓÍ¼[&V]"
 
 #: po/texts.cpp:52
 msgid "E&xit"
-msgstr "&Salir"
+msgstr "ÍË³ö[&X]"
 
 #: po/texts.cpp:53
 msgid "Quit"
-msgstr "Salir"
+msgstr "Àë¿ª"
 
 #: po/texts.cpp:54
 msgid "&Quit"
-msgstr "&Salir"
+msgstr "Àë¿ª[&Q]"
 
 #: po/texts.cpp:58
 msgid "Copy"
-msgstr "Copiar"
+msgstr "¿½±´"
 
 #: po/texts.cpp:59
 msgid "&Copy"
-msgstr "&Copiar"
+msgstr "¿½±´[&C]"
 
 #: po/texts.cpp:60
 msgid "Paste"
-msgstr "Pegar"
+msgstr "Õ³Ìù"
 
 #: po/texts.cpp:61
 msgid "&Paste"
-msgstr "&Pegar"
+msgstr "Õ³Ìù[&P]"
 
 #: po/texts.cpp:62
 msgid "New"
-msgstr "Nuevo"
+msgstr "ÐÂµÄ"
 
 #: po/texts.cpp:63
 msgid "&New"
-msgstr "&Nuevo"
+msgstr "ÐÂ½¨[&N]"
 
 #: po/texts.cpp:64
 msgid "&New..."
-msgstr "&nuevo..."
+msgstr "ÐÂµÄ[&N]..."
 
 #: po/texts.cpp:65
 msgid "&New Window..."
-msgstr "&Nueva ventana..."
+msgstr "ÐÂ´°¿Ú[&N]..."
 
 #: po/texts.cpp:66
 msgid "New &Window..."
-msgstr "Nueva &Ventana..."
+msgstr "ÐÂ´°¿Ú[&W]..."
 
 #: po/texts.cpp:67
 msgid "New Game"
-msgstr "Nuevo juego"
+msgstr "¿ªÊ¼ÐÂÓÎÏ·"
 
 #: po/texts.cpp:68
 msgid "&New Game"
-msgstr "&Nuevo juego"
+msgstr "¿ªÊ¼ÐÂÓÎÏ·[&N]"
 
 #: po/texts.cpp:70
 msgid "Open a file"
-msgstr "Abrir un archivo"
+msgstr "´ò¿ªÎÄ¼þ"
 
 #: po/texts.cpp:71
 msgid "Open..."
-msgstr "Abrir..."
+msgstr "´ò¿ª..."
 
 #: po/texts.cpp:72
 msgid "&Open..."
-msgstr "&Abrir..."
+msgstr "´ò¿ª[&O]..."
 
 #: po/texts.cpp:73
 msgid "Cut"
-msgstr "Recortar"
+msgstr "¼ôÏÂ"
 
 #: po/texts.cpp:74
 msgid "C&ut"
-msgstr "&Recortar"
+msgstr "¼ôÏÂ[&C]"
 
 #: po/texts.cpp:75
 msgid "Font"
-msgstr "Fuente"
+msgstr "×ÖÌå"
 
 #: po/texts.cpp:76
 msgid "&Foreground Color"
-msgstr "Color del &texto"
+msgstr "Ç°¾°ÑÕÉ«[&F]"
 
 #: po/texts.cpp:77
 msgid "&Background Color"
-msgstr "Color del &fondo"
+msgstr "±³¾°ÑÕÉ«[&B]"
 
 #: po/texts.cpp:79
 msgid "&Save"
-msgstr "&Guardar"
+msgstr "±£´æ[&S]"
 
 #: po/texts.cpp:81
 msgid "Save as..."
-msgstr "Guardar como..."
+msgstr "Áí´æÐÂÎÄ¼þ..."
 
 #: po/texts.cpp:82
 msgid "S&ave as..."
-msgstr "G&uardar como..."
+msgstr "Áí´æÐÂÎÄ¼þ[&A]..."
 
 #: po/texts.cpp:83
 msgid "Close"
-msgstr "Cerrar"
+msgstr "¹Ø±Õ"
 
 #: po/texts.cpp:84
 msgid "&Close"
-msgstr "&Cerrar"
+msgstr "¹Ø±Õ[&C]"
 
 #: po/texts.cpp:85
 msgid "&Print..."
-msgstr "&Imprimir..."
+msgstr "´òÓ¡[&P]..."
 
 #: po/texts.cpp:88
 msgid "Options"
-msgstr "Opciones"
+msgstr "Ñ¡Ïî"
 
 #: po/texts.cpp:89
 msgid "Remove"
-msgstr "Remover"
+msgstr "È¥³ý"
 
 #: po/texts.cpp:90
 msgid "Add"
-msgstr "Añadir"
+msgstr "¼ÓÈë"
 
 #: po/texts.cpp:91
 msgid "Change"
-msgstr "Cambiar"
+msgstr "¸Ä±ä"
 
 #: po/texts.cpp:92
 msgid "Delete"
-msgstr "Suprimir"
+msgstr "É¾³ý"
 
 #: po/texts.cpp:93
 msgid "&Delete"
-msgstr "&Suprimir"
+msgstr "É¾³ý[&D]"
 
 #: po/texts.cpp:94
 msgid "Clear"
-msgstr "Limpiar"
+msgstr "Çå³ý"
 
 #: po/texts.cpp:95
 msgid "Italic"
-msgstr "Cursiva"
+msgstr "Ð±Ìå"
 
 #: po/texts.cpp:96
 msgid "Roman"
-msgstr "Roman"
+msgstr "ÕýÌå"
 
 #: po/texts.cpp:97
 msgid "Undo"
-msgstr "Deshacer"
+msgstr "»¹Ô­"
 
 #: po/texts.cpp:98
 msgid "&Undo"
-msgstr "&Deshacer"
+msgstr "»¹Ô­[&U]"
 
 #: po/texts.cpp:99
 msgid "Redo"
-msgstr "Rehacer"
+msgstr "ÖØ¸´²Ù×÷"
 
 #: po/texts.cpp:100
 msgid "&Redo"
-msgstr "&Rehacer"
+msgstr "ÖØ¸´²Ù×÷[R]"
 
 #: po/texts.cpp:101
 msgid "&Game"
-msgstr "&Juego"
+msgstr "ÓÎÏ·[&G]"
 
 #: po/texts.cpp:102
 msgid "Information"
-msgstr "Información"
+msgstr "ÐÅÏ¢"
 
 #: po/texts.cpp:103
 msgid "Browse..."
-msgstr "Examinar..."
+msgstr "ä¯ÀÀ..."
 
 #: po/texts.cpp:104
 msgid "(none)"
-msgstr "(ninguno)"
-
-#~ msgid "Width"
-#~ msgstr "Ancho"
-
-#~ msgid "Height"
-#~ msgstr "Alto"
+msgstr "(ÎÞ)"
