@@ -34,7 +34,7 @@ translate( "A&bout...");
 translate( "Untitled");
 translate( "OK");
 translate( "&OK");
-translate( "Ok");
+translate( "OK");
 translate( "On");
 translate( "Off");
 translate( "Cancel");
