@@ -1,7 +1,8 @@
 # Polish translation of KDE kdelibs
 # Version 0.1.3
 # (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
-# general messages, that are often used
+
+
 msgid "Error"
 msgstr "B³±d"
 
@@ -203,12 +204,10 @@ msgid "Right"
 msgstr "Prawo"
 
 #: kapp.cpp:330
-#, fuzzy
 msgid "About "
 msgstr "Informacje"
 
 #: kapp.cpp:334 kapp.cpp:355
-#, fuzzy
 msgid "About KDE"
 msgstr "Informacje"
 
@@ -224,6 +223,15 @@ msgid ""
 "Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
 "Qt may be used freely to develop free software on the X Window System.\n"
 msgstr ""
+"¦rodowisko Graficzne KDE zosta³o napisane przez KDE team.\n"
+"\n"
+"Informacje o b³êdach prosze przesy³aæ na kde-bugs@kde.org.\n"
+"\n"
+"\n"
+"KDE zosta³o wydane wraz z Qt, wieloplatformow± bibliotek± GUI.\n"
+"\n"
+"Qt jest produktem Troll Tech (http://www.troll.no, info@troll.no).\n"
+"Qt mo¿e byæ u¿yte bezp³atnie dla bezp³atnego oprogramowania pod X Window System.\n"
 
-#~ msgid "ERROR: couldn't find mini icon: %s"
-#~ msgstr "B£¡D: nie mogê znale¿æ mini ikony: %s"
+msgid "ERROR: couldn't find mini icon: %s"
+msgstr "B£¡D: nie mogê znale¿æ mini ikony: %s"
