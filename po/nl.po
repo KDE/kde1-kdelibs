@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-02-06 01:01+0100\n"
+"POT-Creation-Date: 1999-03-04 01:00+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-10-01 16:40:07+0200\n"
 "From: root <flidr@CyberGate.zcu.cz>\n"
@@ -46,7 +46,7 @@ msgstr ""
 #: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:400
 #: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:286
 #: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:509
-#: kfile/kfiledialog.cpp:901 kfile/kfiledialogconf.cpp:61 kfmlib/kfm.cpp:407
+#: kfile/kfiledialog.cpp:901 kfile/kfiledialogconf.cpp:61 kfmlib/kfm.cpp:411
 #: po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
@@ -409,7 +409,7 @@ msgstr "Nee"
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:403
 #: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:321
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:906
-#: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:773
+#: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:415 kio/kio_job.cc:773
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:64 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
 #: kspell/kspelldlg.cpp:143 po/texts.cpp:39
