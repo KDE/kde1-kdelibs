@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-06-21 18:14+0200\n"
+"POT-Creation-Date: 1998-11-12 13:50+0100\n"
 "PO-Revision-Date: 1998-06-25 01:00\n"
 "Last-Translator: LinuxKorea Co. <kde@linuxkorea.co.kr>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
@@ -13,23 +13,352 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: kdecore/kapp.cpp:494
+#: kab/AssertDialog.cpp:29
+#, fuzzy
+msgid "(unknown file)"
+msgstr "알 수 없는 포맷"
+
+#: kab/AssertDialog.cpp:30
+msgid "(unknown line number)"
+msgstr ""
+
+#: kab/AssertDialog.cpp:31
+msgid "(unknown condition)"
+msgstr ""
+
+#: kab/AssertDialog.cpp:39
+msgid "You have found a bug in "
+msgstr ""
+
+#: kab/AssertDialog.cpp:45
+msgid "Ignore the error, possibly causing much more damage"
+msgstr ""
+
+#: kab/AssertDialog.cpp:47
+msgid "Kill the application, loosing all data"
+msgstr ""
+
+#: kab/AssertDialog.cpp:49
+msgid "Send an email to the application maintainer"
+msgstr ""
+
+#: kab/AssertDialog.cpp:51 kab/datepickerdialog.cc:25 kab/kabapi.cc:35
+#: kdeui/kcolordlg.cpp:463 kdeui/kcontrol.cpp:46 kdeui/kcontrol.cpp:51
+#: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:155 kdeui/keditcl1.cpp:170
+#: kdeui/keditcl1.cpp:191 kdeui/keditcl1.cpp:204 kdeui/keditcl1.cpp:1561
+#: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:370
+#: kdeui/kiconloaderdialog.cpp:254 kdeui/kmsgbox.cpp:277
+#: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:505
+#: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:400
+#: po/texts.cpp:35
+msgid "OK"
+msgstr "예"
+
+#: kab/AssertDialog.cpp:140
+msgid "The following condition failed:\n"
+msgstr ""
+
+#: kab/AssertDialog.cpp:141
+#, fuzzy
+msgid "In file "
+msgstr "파일"
+
+#: kab/AssertDialog.cpp:141
+msgid ", line "
+msgstr ""
+
+#: kab/AssertDialog.cpp:212 kab/AssertDialog.cpp:217
+msgid "Error handling error"
+msgstr ""
+
+#: kab/AssertDialog.cpp:213
+msgid "Could not send message."
+msgstr ""
+
+#: kab/AssertDialog.cpp:218
+msgid "The author did not publish an email address."
+msgstr ""
+
+#: kab/DialogBase.cpp:36
+msgid ""
+"If you press the OK button, all changes\n"
+"you made will be used to proceed."
+msgstr ""
+
+#: kab/DialogBase.cpp:39
+msgid ""
+"When clicking apply, the settings will be\n"
+"handed over to the program, but the dialog\n"
+"will not be closed.Use this to try different settings."
+msgstr ""
+
+#: kab/DialogBase.cpp:44
+msgid ""
+"If you press the Cancel button, all changes\n"
+"you made will be abandoned and the dialog\n"
+"will be closed.\n"
+"The program will be in the state before\n"
+"opening the dialog."
+msgstr ""
+
+#: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
+#: kdeui/kwizard.cpp:228 po/texts.cpp:36
+msgid "&OK"
+msgstr "예(&O)"
+
+#: kab/DialogBase.cpp:58
+#, fuzzy
+msgid "&Apply"
+msgstr "적용"
+
+#: kab/DialogBase.cpp:59 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
+#: kdeui/kwizard.cpp:159 po/texts.cpp:40
+msgid "&Cancel"
+msgstr "취소(&C)"
+
+#: kab/PrintDialog.cpp:26
+msgid "Headline text:"
+msgstr ""
+
+#: kab/PrintDialog.cpp:27
+msgid "Right footer text:"
+msgstr ""
+
+#: kab/PrintDialog.cpp:28
+msgid "Left footer text:"
+msgstr ""
+
+#: kab/SearchDialog.cpp:47
+msgid "The title"
+msgstr ""
+
+#: kab/SearchDialog.cpp:48
+msgid "The first name"
+msgstr ""
+
+#: kab/SearchDialog.cpp:49
+msgid "The additional name"
+msgstr ""
+
+#: kab/SearchDialog.cpp:50
+msgid "The name prefix"
+msgstr ""
+
+#: kab/SearchDialog.cpp:51
+#, fuzzy
+msgid "The name"
+msgstr "경로"
+
+#: kab/SearchDialog.cpp:52
+msgid "The formatted name"
+msgstr ""
+
+#: kab/SearchDialog.cpp:53
+msgid "The address"
+msgstr ""
+
+#: kab/SearchDialog.cpp:54
+#, fuzzy
+msgid "The town"
+msgstr "경로"
+
+#: kab/SearchDialog.cpp:55
+msgid "The organization"
+msgstr ""
+
+#: kab/SearchDialog.cpp:56
+msgid "The role"
+msgstr ""
+
+#: kab/SearchDialog.cpp:57
+msgid "The org unit"
+msgstr ""
+
+#: kab/SearchDialog.cpp:58
+msgid "The org subunit"
+msgstr ""
+
+#: kab/SearchDialog.cpp:59
+msgid "The email address"
+msgstr ""
+
+#: kab/SearchDialog.cpp:60
+msgid "The second email address"
+msgstr ""
+
+#: kab/SearchDialog.cpp:61
+msgid "The third email address"
+msgstr ""
+
+#: kab/SearchDialog.cpp:62
+msgid "The telephone number"
+msgstr ""
+
+#: kab/SearchDialog.cpp:63
+msgid "The fax number"
+msgstr ""
+
+#: kab/SearchDialog.cpp:64
+msgid "The modem number"
+msgstr ""
+
+#: kab/SearchDialog.cpp:65
+msgid "The homepage URL"
+msgstr ""
+
+#: kab/SearchDialog.cpp:66
+msgid "The comment"
+msgstr ""
+
+#: kab/SearchDialog.cpp:74
+msgid "kab: Search entries"
+msgstr ""
+
+#: kab/SearchDialogMainWidget.cpp:22
+msgid "matches"
+msgstr ""
+
+#: kab/SearchDialogMainWidget.cpp:23
+msgid "Use shell wildcard patterns here"
+msgstr ""
+
+#: kab/SearchDialogMainWidget.cpp:24
+msgid "Select field to match the pattern"
+msgstr ""
+
+#: kab/StringListEditWidget.cpp:30
+msgid "Add a new string"
+msgstr ""
+
+#: kab/StringListEditWidget.cpp:31
+msgid "Move this string up"
+msgstr ""
+
+#: kab/StringListEditWidget.cpp:32
+msgid "Move this string down"
+msgstr ""
+
+#: kab/StringListEditWidget.cpp:33
+msgid "Delete this string"
+msgstr ""
+
+#: kab/StringListSelectAndReorderSet.cpp:34
+msgid "Possible values:"
+msgstr ""
+
+#: kab/StringListSelectAndReorderSet.cpp:35
+msgid "Selected values:"
+msgstr ""
+
+#: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:555 kfile/kfiledialog.cpp:1199
+#: kfile/kfiledialog.cpp:1358 kfile/kfiledialog.cpp:1392 po/texts.cpp:65
+msgid "Open"
+msgstr "열기"
+
+#: kdecore/kaccel.cpp:235
+msgid "New"
+msgstr "새 윈도우"
+
+#: kab/searchresults.cc:30 kdecore/kaccel.cpp:239 po/texts.cpp:80
+msgid "Close"
+msgstr "닫기"
+
+#: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1254
+#: kfile/kfiledialog.cpp:1413 po/texts.cpp:75
+msgid "Save"
+msgstr "저장"
+
+#: kdecore/kaccel.cpp:247 po/texts.cpp:115
+msgid "Print"
+msgstr "인쇄"
+
+#: kdecore/kaccel.cpp:251 po/texts.cpp:52
+msgid "Quit"
+msgstr "끝내기"
+
+#: kdecore/kaccel.cpp:255 po/texts.cpp:69
+msgid "Cut"
+msgstr "자르기"
+
+#: kdecore/kaccel.cpp:259 po/texts.cpp:56
+msgid "Copy"
+msgstr "복사"
+
+#: kdecore/kaccel.cpp:263 po/texts.cpp:58
+msgid "Paste"
+msgstr "붙여넣기"
+
+#: kdecore/kaccel.cpp:267 po/texts.cpp:93
+msgid "Undo"
+msgstr "실행취소"
+
+#: kdecore/kaccel.cpp:271 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
+#: kdeui/keditcl2.cpp:360 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:676
+#: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786
+msgid "Find"
+msgstr "찾기"
+
+#: kdecore/kaccel.cpp:275 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
+#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:133
+msgid "Replace"
+msgstr "바꾸기"
+
+#: kdecore/kaccel.cpp:279 po/texts.cpp:134
+#, fuzzy
+msgid "Insert"
+msgstr "삽입(&I)"
+
+#: kdecore/kaccel.cpp:283 kfile/kfiledialog.cpp:131
+msgid "Home"
+msgstr "홈디렉토리"
+
+#: kdecore/kaccel.cpp:287
+msgid "End"
+msgstr ""
+
+#: kdecore/kaccel.cpp:291
+msgid "Prior"
+msgstr ""
+
+#: kdecore/kaccel.cpp:295
+#, fuzzy
+msgid "Next"
+msgstr "다음(&N)"
+
+#: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471
+#: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 po/texts.cpp:44
+msgid "Help"
+msgstr "도움말"
+
+#: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:661
+msgid "SHIFT"
+msgstr ""
+
+#: kdecore/kaccel.cpp:601 kdecore/kaccel.cpp:663
+msgid "CTRL"
+msgstr ""
+
+#: kdecore/kaccel.cpp:605 kdecore/kaccel.cpp:665
+msgid "ALT"
+msgstr ""
+
+#: kdecore/kapp.cpp:586 po/texts.cpp:137
 msgid "&Contents"
 msgstr "내용(&C)"
 
-#: kdecore/kapp.cpp:500
+#: kdecore/kapp.cpp:592
 msgid "&About"
 msgstr "정보(&A)"
 
-#: kdecore/kapp.cpp:507
+#: kdecore/kapp.cpp:599
 msgid "About &KDE..."
 msgstr "KDE 정보(&K)..."
 
-#: kdecore/kapp.cpp:528
+#: kdecore/kapp.cpp:620
 msgid "About KDE"
 msgstr "KDE 정보"
 
-#: kdecore/kapp.cpp:530
+#: kdecore/kapp.cpp:622
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -51,34 +380,34 @@ msgstr ""
 "\n"
 "버그 리포트는 http://buglist.kde.org로 해주길 바랍니다.\n"
 
-#: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416
-#: kdeui/keditcl1.cpp:477 kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573
-#: kdeui/keditcl2.cpp:108 kdeui/keditcl2.cpp:125 kdeui/keditcl2.cpp:365
-#: kdeui/keditcl2.cpp:382 kdeui/keditcl2.cpp:428 kdeui/keditcl2.cpp:458
-#: kdeui/keditcl2.cpp:475 kdeui/kmsgbox.cpp:488 kdeui/kmsgbox.cpp:503
-#: po/texts.cpp:27
+#: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:412 kdeui/keditcl1.cpp:433
+#: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661
+#: kdeui/keditcl2.cpp:106 kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:363
+#: kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426 kdeui/keditcl2.cpp:456
+#: kdeui/keditcl2.cpp:473 kdeui/kmsgbox.cpp:294 kdeui/kmsgbox.cpp:310
+#: kio/kio_paste.cc:98 po/texts.cpp:27
 msgid "Yes"
-msgstr "예" 
+msgstr "예"
 
-#: kdetest/klocaletest.cpp:101 kdeui/keditcl1.cpp:396 kdeui/keditcl1.cpp:417
-#: kdeui/keditcl1.cpp:478 kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1574
-#: kdeui/keditcl2.cpp:109 kdeui/keditcl2.cpp:126 kdeui/keditcl2.cpp:366
-#: kdeui/keditcl2.cpp:383 kdeui/keditcl2.cpp:429 kdeui/keditcl2.cpp:459
-#: kdeui/keditcl2.cpp:476 kdeui/kmsgbox.cpp:486 kdeui/kmsgbox.cpp:501
-#: po/texts.cpp:28
+#: kdetest/klocaletest.cpp:101 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:434
+#: kdeui/keditcl1.cpp:495 kdeui/keditcl1.cpp:515 kdeui/keditcl1.cpp:1662
+#: kdeui/keditcl2.cpp:107 kdeui/keditcl2.cpp:124 kdeui/keditcl2.cpp:364
+#: kdeui/keditcl2.cpp:381 kdeui/keditcl2.cpp:427 kdeui/keditcl2.cpp:457
+#: kdeui/keditcl2.cpp:474 kdeui/kmsgbox.cpp:292 kdeui/kmsgbox.cpp:308
+#: kio/kio_paste.cc:98 po/texts.cpp:28
 msgid "No"
 msgstr "아니오"
 
-#: kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34
-#: kfile/kfiledialog.cpp:240 po/texts.cpp:45
-msgid "Help"
-msgstr "도움말"
-
-#: kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:46
-#: kdeui/keditcl1.cpp:397 kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897
-#: kdeui/kfontdialog.cpp:355 kdeui/kiconloaderdialog.cpp:255
-#: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:877
-#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:407 po/texts.cpp:40
+#: kab/datepickerdialog.cc:26 kab/kabapi.cc:38 kab/widget.cc:1369
+#: kab/widget.cc:1411 kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466
+#: kdeui/kcontrol.cpp:48 kdeui/kcontrol.cpp:55 kdeui/keditcl1.cpp:414
+#: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:365
+#: kdeui/kiconloaderdialog.cpp:255 kdeui/kmsgbox.cpp:312
+#: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:892
+#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:404 kio/kio_job.cc:693
+#: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
+#: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
+#: po/texts.cpp:39
 msgid "Cancel"
 msgstr "취소"
 
@@ -98,29 +427,16 @@ msgstr "사용자 색 정의"
 msgid "Add to Custom Colors"
 msgstr "색 정의에 추가"
 
-#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:360
-#: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872
-#: kfmlib/kfm.cpp:403 po/texts.cpp:37
-msgid "Ok"
-msgstr "예"
-
 #: kdeui/kcolordlg.cpp:788 kdeui/kcolordlg.cpp:840
 msgid "Custom..."
 msgstr "정의..."
 
-#: kdeui/kcontrol.cpp:39
+#: kdeui/kcontrol.cpp:41 kdeui/kcontrol.cpp:58 po/texts.cpp:135
 msgid "Default"
 msgstr "기본설정"
 
-#: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
-#: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
-#: kdeui/keditcl1.cpp:1473 kdeui/keditcl1.cpp:1630 kdeui/kmsgbox.cpp:473
-#: kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:492
-#: kfile/kfiledialogconf.cpp:60 po/texts.cpp:35
-msgid "OK"
-msgstr "예"
-
-#: kdeui/kcontrol.cpp:45 kfile/kfiledialogconf.cpp:59 po/texts.cpp:42
+#: kdeui/kcontrol.cpp:47 kdeui/kcontrol.cpp:53 kfile/kfiledialogconf.cpp:59
+#: po/texts.cpp:41
 msgid "Apply"
 msgstr "적용"
 
@@ -140,7 +456,7 @@ msgstr "3월"
 msgid "April"
 msgstr "4월"
 
-#: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:222
+#: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:224
 msgid "May"
 msgstr "5월"
 
@@ -172,73 +488,74 @@ msgstr "11월"
 msgid "December"
 msgstr "12월"
 
-#: kdeui/kdatepik.cpp:248
+#: kdeui/kdatepik.cpp:247
 msgid "(invalid)"
 msgstr "(적당하지 않음)"
 
-#: kdeui/kdatetbl.cpp:48
+#: kdeui/kdatetbl.cpp:49
 msgid "Sun"
 msgstr "일요일"
 
-#: kdeui/kdatetbl.cpp:48
+#: kdeui/kdatetbl.cpp:49
 msgid "Mon"
 msgstr "월요일"
 
-#: kdeui/kdatetbl.cpp:48
+#: kdeui/kdatetbl.cpp:49
 msgid "Tue"
 msgstr "화요일"
 
-#: kdeui/kdatetbl.cpp:49
+#: kdeui/kdatetbl.cpp:50
 msgid "Wed"
 msgstr "수요일"
 
-#: kdeui/kdatetbl.cpp:49
+#: kdeui/kdatetbl.cpp:50
 msgid "Thu"
 msgstr "목요일"
 
-#: kdeui/kdatetbl.cpp:49
+#: kdeui/kdatetbl.cpp:50
 msgid "Fri"
 msgstr "금요일"
 
-#: kdeui/kdatetbl.cpp:50
+#: kdeui/kdatetbl.cpp:51
 msgid "Sat"
 msgstr "토요일"
 
-#: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
-#: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:89
+#: kab/kabapi.cc:134 kab/widget.cc:817 kab/widget.cc:837 kab/widget.cc:1901
+#: kdeui/keditcl1.cpp:139 kdeui/keditcl1.cpp:168 kdeui/keditcl1.cpp:189
+#: kdeui/keditcl1.cpp:202 kdeui/keditcl1.cpp:1559 po/texts.cpp:83
 msgid "Sorry"
 msgstr "죄송합니다"
 
-#: kdeui/keditcl1.cpp:128
+#: kdeui/keditcl1.cpp:140
 msgid "The specified File does not exist"
 msgstr "지정한 파일이 존재하지 않습니다"
 
-#: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:494
-#: kdeui/keditcl1.cpp:1627
+#: kdeui/keditcl1.cpp:153 kdeui/keditcl1.cpp:430 kdeui/keditcl1.cpp:511
+#: kdeui/keditcl1.cpp:1715
 msgid "Sorry:"
 msgstr "죄송합니다:"
 
-#: kdeui/keditcl1.cpp:142
+#: kdeui/keditcl1.cpp:154
 msgid "You have specificated a directory"
 msgstr "디렉토리를 지정하셨읍니다"
 
-#: kdeui/keditcl1.cpp:157 kdeui/keditcl1.cpp:178
+#: kdeui/keditcl1.cpp:169 kdeui/keditcl1.cpp:190
 msgid "You do not have read permission to this file."
 msgstr "귀하는 이 화일에 대한 읽기 허가권이 없읍니다."
 
-#: kdeui/keditcl1.cpp:191
+#: kdeui/keditcl1.cpp:203
 msgid "An Error occured while trying to open this Document"
 msgstr "문서 열기에 오류가 발생했읍니다"
 
-#: kdeui/keditcl1.cpp:356
+#: kdeui/keditcl1.cpp:373
 msgid "Select Document to Insert"
 msgstr "삽입할 문서를 선택하십시오"
 
-#: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1570
+#: kdeui/keditcl1.cpp:409 kdeui/keditcl1.cpp:491 kdeui/keditcl1.cpp:1658
 msgid "Warning:"
 msgstr "주의:"
 
-#: kdeui/keditcl1.cpp:393 kdeui/keditcl1.cpp:475
+#: kdeui/keditcl1.cpp:410 kdeui/keditcl1.cpp:492
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
@@ -246,7 +563,7 @@ msgstr ""
 "문서가 수정되었읍니다.\n"
 "저장하시겠읍니까?"
 
-#: kdeui/keditcl1.cpp:414
+#: kdeui/keditcl1.cpp:431
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
@@ -254,11 +571,11 @@ msgstr ""
 "문서를 저장할 수 없읍니다.\n"
 "새로운 문서를 여시겠습니까?"
 
-#: kdeui/keditcl1.cpp:445
+#: kdeui/keditcl1.cpp:462
 msgid "Select Document to Open"
 msgstr "열고자 하는 문서를 선택하십시오"
 
-#: kdeui/keditcl1.cpp:495
+#: kdeui/keditcl1.cpp:512
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
@@ -266,19 +583,19 @@ msgstr ""
 "문서를 저장할 수 없읍니다.\n"
 "새 문서를 만드시겠습니까?"
 
-#: kdeui/keditcl1.cpp:530 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
+#: kdeui/keditcl1.cpp:547 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
 msgid "Untitled"
 msgstr "제목없음"
 
-#: kdeui/keditcl1.cpp:1472
+#: kdeui/keditcl1.cpp:1560
 msgid "Could not save the document\n"
 msgstr "문서를 저장할 수 없읍니다\n"
 
-#: kdeui/keditcl1.cpp:1542
+#: kdeui/keditcl1.cpp:1630
 msgid "Save Document As"
 msgstr "문서를 다른 이름으로 저장"
 
-#: kdeui/keditcl1.cpp:1571
+#: kdeui/keditcl1.cpp:1659
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
@@ -286,17 +603,11 @@ msgstr ""
 "같은 이름의 파일이 이미 존재합니다\n"
 "덮어 쓰겠읍니까?"
 
-#: kdeui/keditcl1.cpp:1628
+#: kdeui/keditcl1.cpp:1716
 msgid "You do not have write permission to this file.\n"
 msgstr "귀하는 이 파일에 대해 쓰기 권한이 없읍니다.\n"
 
-#: kdeui/keditcl2.cpp:105 kdeui/keditcl2.cpp:122 kdeui/keditcl2.cpp:362
-#: kdeui/keditcl2.cpp:379 kdeui/keditcl2.cpp:678 kdeui/keditcl2.cpp:687
-#: kdeui/keditcl2.cpp:788
-msgid "Find"
-msgstr "찾기"
-
-#: kdeui/keditcl2.cpp:106 kdeui/keditcl2.cpp:363 kdeui/keditcl2.cpp:456
+#: kdeui/keditcl2.cpp:104 kdeui/keditcl2.cpp:361 kdeui/keditcl2.cpp:454
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
@@ -304,8 +615,8 @@ msgstr ""
 "문서의 끝입니다.\n"
 "처음부터 계속 하시겠읍니까?"
 
-#: kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426
-#: kdeui/keditcl2.cpp:473
+#: kdeui/keditcl2.cpp:121 kdeui/keditcl2.cpp:378 kdeui/keditcl2.cpp:424
+#: kdeui/keditcl2.cpp:471
 msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
@@ -313,118 +624,113 @@ msgstr ""
 "문서의 처음입니다.\n"
 "끝에서부터 계속 하시겠습니까?"
 
-#: kdeui/keditcl2.cpp:425 kdeui/keditcl2.cpp:455 kdeui/keditcl2.cpp:472
-#: kdeui/keditcl2.cpp:791
-msgid "Replace"
-msgstr "바꾸기"
-
-#: kdeui/keditcl2.cpp:684 kdeui/keditcl2.cpp:782
+#: kdeui/keditcl2.cpp:682 kdeui/keditcl2.cpp:780
 msgid "Case Sensitive"
 msgstr "대소문자 구별"
 
-#: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:785
+#: kdeui/keditcl2.cpp:683 kdeui/keditcl2.cpp:783
 msgid "Find Backwards"
 msgstr "뒷쪽으로 찾기"
 
-#: kdeui/keditcl2.cpp:690 kdeui/keditcl2.cpp:797 po/texts.cpp:88
+#: kdeui/keditcl2.cpp:688 kdeui/keditcl2.cpp:795
 msgid "Done"
 msgstr "완료"
 
-#: kdeui/keditcl2.cpp:770
+#: kdeui/keditcl2.cpp:768
 msgid "Find:"
 msgstr "찾기:"
 
-#: kdeui/keditcl2.cpp:780
+#: kdeui/keditcl2.cpp:778
 msgid "Replace with:"
 msgstr "바꾸기:"
 
-#: kdeui/keditcl2.cpp:794
+#: kdeui/keditcl2.cpp:792
 msgid "Replace All"
 msgstr "모두 바꾸기"
 
-#: kdeui/keditcl2.cpp:891
+#: kdeui/keditcl2.cpp:889
 msgid "Goto Line"
 msgstr "행 찾아가기"
 
-#: kdeui/keditcl2.cpp:896
+#: kdeui/keditcl2.cpp:894
 msgid "Go"
 msgstr "가기"
 
-#: kdeui/kfontdialog.cpp:171
+#: kdeui/kfontdialog.cpp:181
 msgid "Select Font"
 msgstr "글꼴 선택"
 
-#: kdeui/kfontdialog.cpp:175
+#: kdeui/kfontdialog.cpp:185
 msgid "Requested Font"
 msgstr "요청 글꼴"
 
-#: kdeui/kfontdialog.cpp:180
+#: kdeui/kfontdialog.cpp:190
 msgid "Actual Font"
 msgstr "실제 글꼴"
 
-#: kdeui/kfontdialog.cpp:184 kdeui/kfontdialog.cpp:188
+#: kdeui/kfontdialog.cpp:194 kdeui/kfontdialog.cpp:198
 msgid "Family:"
 msgstr "패밀리:"
 
-#: kdeui/kfontdialog.cpp:195 kdeui/kfontdialog.cpp:201 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:211 po/texts.cpp:26
 msgid "Charset:"
 msgstr "글자표"
 
-#: kdeui/kfontdialog.cpp:208 kdeui/kfontdialog.cpp:213 kfile/kpreview.cpp:196
+#: kdeui/kfontdialog.cpp:218 kdeui/kfontdialog.cpp:223 kfile/kpreview.cpp:196
 msgid "Size:"
 msgstr "크기:"
 
-#: kdeui/kfontdialog.cpp:220 kdeui/kfontdialog.cpp:225
+#: kdeui/kfontdialog.cpp:230 kdeui/kfontdialog.cpp:235
 msgid "Weight:"
 msgstr "웨이트:"
 
-#: kdeui/kfontdialog.cpp:233 kdeui/kfontdialog.cpp:240
+#: kdeui/kfontdialog.cpp:243 kdeui/kfontdialog.cpp:250
 msgid "Style:"
 msgstr "스타일:"
 
-#: kdeui/kfontdialog.cpp:276
+#: kdeui/kfontdialog.cpp:286
 msgid "Charset"
 msgstr "글자표"
 
-#: kdeui/kfontdialog.cpp:287 kfile/kfiledetaillist.cpp:38
+#: kdeui/kfontdialog.cpp:297 kfile/kfiledetaillist.cpp:38
 msgid "Size"
 msgstr "크기"
 
-#: kdeui/kfontdialog.cpp:328
+#: kdeui/kfontdialog.cpp:338
 msgid "Weight"
 msgstr "웨이트"
 
-#: kdeui/kfontdialog.cpp:329 kdeui/kfontdialog.cpp:470
+#: kdeui/kfontdialog.cpp:339 kdeui/kfontdialog.cpp:480
 msgid "normal"
 msgstr "보통"
 
-#: kdeui/kfontdialog.cpp:330 kdeui/kfontdialog.cpp:472
+#: kdeui/kfontdialog.cpp:340 kdeui/kfontdialog.cpp:482
 msgid "bold"
 msgstr "굵게"
 
-#: kdeui/kfontdialog.cpp:341
+#: kdeui/kfontdialog.cpp:351
 msgid "Style"
 msgstr "스타일"
 
-#: kdeui/kfontdialog.cpp:342 kdeui/kfontdialog.cpp:483
-#: kdeui/kfontdialog.cpp:512
+#: kdeui/kfontdialog.cpp:352 kdeui/kfontdialog.cpp:493
+#: kdeui/kfontdialog.cpp:522
 msgid "roman"
 msgstr "로마체"
 
-#: kdeui/kfontdialog.cpp:343 kdeui/kfontdialog.cpp:485
-#: kdeui/kfontdialog.cpp:510
+#: kdeui/kfontdialog.cpp:353 kdeui/kfontdialog.cpp:495
+#: kdeui/kfontdialog.cpp:520
 msgid "italic"
 msgstr "이탤릭체"
 
-#: kdeui/kfontdialog.cpp:373
+#: kdeui/kfontdialog.cpp:383
 msgid "Dolor Ipse"
 msgstr "Dolor Ipse"
 
-#: kdeui/kfontdialog.cpp:505
+#: kdeui/kfontdialog.cpp:515
 msgid "Bold"
 msgstr "굵게"
 
-#: kdeui/kfontdialog.cpp:507
+#: kdeui/kfontdialog.cpp:517
 msgid "Normal"
 msgstr "보통"
 
@@ -436,23 +742,55 @@ msgstr "아이콘 선택"
 msgid "Filter:"
 msgstr "필터:"
 
-#: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:470
+#: kdeui/kkeydialog.cpp:232 kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:205
+#: po/texts.cpp:45
+msgid "&Help"
+msgstr "도움말(&H)"
+
+#: kdeui/kkeydialog.cpp:236 po/texts.cpp:136
+#, fuzzy
+msgid "&Defaults"
+msgstr "기본값(&D)"
+
+#: kdeui/kkeydialog.cpp:320
+msgid "Current key"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:331
+#, fuzzy
+msgid "&Action"
+msgstr "위치(&L)"
+
+#: kdeui/kkeydialog.cpp:392
+msgid "&No key"
+msgstr ""
+
+#: kdeui/kkeydialog.cpp:400
+#, fuzzy
+msgid "&Default key"
+msgstr "기본값(&D)"
+
+#: kdeui/kkeydialog.cpp:408
+msgid "&Custom key"
+msgstr ""
+
+#: kdeui/kmenubar.cpp:203 kdeui/ktoolbar.cpp:828
 msgid "Top"
 msgstr "맨위"
 
-#: kdeui/kmenubar.cpp:172 kdeui/ktoolbar.cpp:472
+#: kdeui/kmenubar.cpp:204 kdeui/ktoolbar.cpp:830
 msgid "Bottom"
 msgstr "맨아래"
 
-#: kdeui/kmenubar.cpp:173 kdeui/ktoolbar.cpp:473
+#: kdeui/kmenubar.cpp:205 kdeui/ktoolbar.cpp:831
 msgid "Floating"
 msgstr ""
 
-#: kdeui/kmenubar.cpp:287 kdeui/kmenubar.cpp:437 kdeui/ktoolbar.cpp:1605
+#: kdeui/kmenubar.cpp:350 kdeui/kmenubar.cpp:605 kdeui/ktoolbar.cpp:2134
 msgid "Float"
 msgstr ""
 
-#: kdeui/kmenubar.cpp:426 kdeui/ktoolbar.cpp:1587
+#: kdeui/kmenubar.cpp:574 kdeui/ktoolbar.cpp:2115
 msgid "UnFloat"
 msgstr ""
 
@@ -460,35 +798,27 @@ msgstr ""
 msgid "Trying to add page when no KWizards are added!"
 msgstr "!"
 
-#: kdeui/knotebook.cpp:178 kdeui/kwizard.cpp:120 po/texts.cpp:41
-msgid "&Cancel"
-msgstr "취소(&C)"
-
-#: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:143
+#: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:182
 msgid "&Default"
 msgstr "기본값(&D)"
 
-#: kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:166 po/texts.cpp:46
-msgid "&Help"
-msgstr "도움말(&H)"
+#: kdeui/kquickhelp.cpp:203
+msgid "Quickhelp"
+msgstr ""
 
-#: kdeui/knotebook.cpp:247 kdeui/kwizard.cpp:189
-msgid "&Ok"
-msgstr "예(&O)"
-
-#: kdeui/ktoolbar.cpp:178 kdeui/ktoolbar.cpp:297
+#: kdeui/ktoolbar.cpp:263 kdeui/ktoolbar.cpp:314
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBar"
 
-#: kdeui/ktoolbar.cpp:469
+#: kdeui/ktoolbar.cpp:827
 msgid "Left"
 msgstr "왼쪽"
 
-#: kdeui/ktoolbar.cpp:471
+#: kdeui/ktoolbar.cpp:829
 msgid "Right"
 msgstr "오른쪽"
 
-#: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
+#: kdeui/kwizard.cpp:531 kdeui/kwizard.cpp:678
 #, c-format
 msgid "Page %d of %d"
 msgstr "페이지 %d of %d"
@@ -505,7 +835,7 @@ msgstr "폴더:"
 msgid "Contents:"
 msgstr "내용:"
 
-#: kfile/kfiledetaillist.cpp:36
+#: kab/addressbook.cc:1048 kfile/kfiledetaillist.cpp:36
 msgid "Name"
 msgstr "이름"
 
@@ -525,11 +855,11 @@ msgstr "소유자"
 msgid "Group"
 msgstr "그룹"
 
-#: kfile/kfiledialog.cpp:122 po/texts.cpp:56
+#: kfile/kfiledialog.cpp:122 po/texts.cpp:55
 msgid "Back"
 msgstr "뒤로"
 
-#: kfile/kfiledialog.cpp:125 po/texts.cpp:57
+#: kfile/kfiledialog.cpp:125
 msgid "Forward"
 msgstr "앞으로"
 
@@ -537,51 +867,47 @@ msgstr "앞으로"
 msgid "Up to parent"
 msgstr "상위 디렉토리로"
 
-#: kfile/kfiledialog.cpp:131
-msgid "Home"
-msgstr "홈디렉토리"
-
-#: kfile/kfiledialog.cpp:134 po/texts.cpp:55
+#: kfile/kfiledialog.cpp:134 po/texts.cpp:54
 msgid "Reload"
 msgstr "다시 불러오기"
 
-#: kfile/kfiledialog.cpp:150
+#: kfile/kfiledialog.cpp:156
 msgid "Bookmarks"
 msgstr "즐겨찾기"
 
-#: kfile/kfiledialog.cpp:154
+#: kfile/kfiledialog.cpp:160
 msgid "Create new folder"
 msgstr "새 폴더 만들기"
 
-#: kfile/kfiledialog.cpp:157
+#: kfile/kfiledialog.cpp:163
 msgid "Search for a file"
 msgstr "파일 찾기"
 
-#: kfile/kfiledialog.cpp:160
+#: kfile/kfiledialog.cpp:166
 msgid "Configure this dialog [development only]"
 msgstr "대화창 설정[개발을 위한]"
 
-#: kfile/kfiledialog.cpp:168
+#: kfile/kfiledialog.cpp:174
 msgid "The path"
 msgstr "경로"
 
-#: kfile/kfiledialog.cpp:193
+#: kfile/kfiledialog.cpp:199
 msgid "&Location:"
 msgstr "위치(&L)"
 
-#: kfile/kfiledialog.cpp:206
+#: kfile/kfiledialog.cpp:212
 msgid "&Filter:"
 msgstr "필터(&F)"
 
-#: kfile/kfiledialog.cpp:220
+#: kfile/kfiledialog.cpp:226
 msgid "Show hidden"
 msgstr "히든 파일 보기"
 
-#: kfile/kfiledialog.cpp:487
+#: kfile/kfiledialog.cpp:500
 msgid "Error: Not local file"
 msgstr "오류: 로컬 파일이 아님"
 
-#: kfile/kfiledialog.cpp:488
+#: kfile/kfiledialog.cpp:501
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
@@ -589,11 +915,11 @@ msgstr ""
 "지정하신 디렉토리는 로컬 디렉토리가 아닙니다\n"
 "응용 프로그램은 로컬 파일만 이용합니다."
 
-#: kfile/kfiledialog.cpp:502 kfile/kfiledialog.cpp:608
+#: kfile/kfiledialog.cpp:515 kfile/kfiledialog.cpp:621
 msgid "Error: Cannot Open Directory"
 msgstr "오류: 디렉토리를 열 수 없음"
 
-#: kfile/kfiledialog.cpp:503
+#: kfile/kfiledialog.cpp:516
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
@@ -601,69 +927,60 @@ msgstr ""
 "지정하신 디렉토리가 존재하지 않거나\n"
 "읽을 수 없습니다."
 
-#: kfile/kfiledialog.cpp:505 kfile/kfiledialog.cpp:611
+#: kfile/kfiledialog.cpp:518 kfile/kfiledialog.cpp:624
 msgid "Dismiss"
 msgstr "무시"
 
-#: kfile/kfiledialog.cpp:542 kfile/kfiledialog.cpp:1179
-#: kfile/kfiledialog.cpp:1338 kfile/kfiledialog.cpp:1372 po/texts.cpp:70
-msgid "Open"
-msgstr "열기"
-
-#: kfile/kfiledialog.cpp:557 kfile/kfiledialog.cpp:1353 po/texts.cpp:82
+#: kfile/kfiledialog.cpp:570 kfile/kfiledialog.cpp:1373 po/texts.cpp:77
 msgid "Save As"
 msgstr "다른 이름으로 저장"
 
-#: kfile/kfiledialog.cpp:580
+#: kfile/kfiledialog.cpp:593
 msgid "Root Directory"
 msgstr "루트 디렉토리"
 
-#: kfile/kfiledialog.cpp:609
+#: kfile/kfiledialog.cpp:622
 msgid "The specified directory does not exist or was not readable."
 msgstr "지정하신 디렉토리가 없거나 읽을 수 없읍니다"
 
-#: kfile/kfiledialog.cpp:857
+#: kfile/kfiledialog.cpp:872
 msgid "Create new directory in: "
 msgstr "새 디렉토리 만들 장소: "
 
-#: kfile/kfiledialog.cpp:860
+#: kfile/kfiledialog.cpp:875
 msgid "New Directory"
 msgstr "새 디렉토리"
 
-#: kfile/kfiledialog.cpp:932
+#: kfile/kfiledialog.cpp:947
 msgid "Add to bookmarks"
 msgstr "즐겨찾기에 추가"
 
-#: kfile/kfiledialog.cpp:1213
+#: kfile/kfiledialog.cpp:1233
 msgid "Choose Directory"
 msgstr "디렉토리 선택"
 
-#: kfile/kfiledialog.cpp:1234 kfile/kfiledialog.cpp:1393 po/texts.cpp:80
-msgid "Save"
-msgstr "저장"
-
-#: kfile/kfiledialog.cpp:1281
+#: kfile/kfiledialog.cpp:1301
 msgid "directory"
 msgstr "디렉토리"
 
-#: kfile/kfiledialog.cpp:1283
+#: kfile/kfiledialog.cpp:1303
 msgid "directories"
 msgstr "디렉토리"
 
-#: kfile/kfiledialog.cpp:1285 kfile/kpreview.cpp:326
+#: kfile/kfiledialog.cpp:1305 kfile/kpreview.cpp:326
 msgid "file"
 msgstr "파일"
 
-#: kfile/kfiledialog.cpp:1287
+#: kfile/kfiledialog.cpp:1307
 msgid "files"
 msgstr "파일"
 
-#: kfile/kfiledialog.cpp:1289
+#: kfile/kfiledialog.cpp:1309
 #, c-format
 msgid "%d %s and %d %s"
 msgstr "%d %s 와 %d %s"
 
-#: kfile/kfiledialog.cpp:1299
+#: kfile/kfiledialog.cpp:1319
 msgid "one directory"
 msgstr "한개의 디렉토리"
 
@@ -743,55 +1060,55 @@ msgstr "디렉토리와 파일 혼합"
 msgid "Keep dirs first"
 msgstr "디렉토리 우선"
 
-#: kfile/kfileinfo.cpp:95 kfile/kfileinfo.cpp:99
+#: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"
 msgstr "알 수 없는 포맷"
 
-#: kfile/kfileinfo.cpp:218
+#: kfile/kfileinfo.cpp:220
 msgid "Jan"
 msgstr "1월"
 
-#: kfile/kfileinfo.cpp:219
+#: kfile/kfileinfo.cpp:221
 msgid "Feb"
 msgstr "2월"
 
-#: kfile/kfileinfo.cpp:220
+#: kfile/kfileinfo.cpp:222
 msgid "Mar"
 msgstr "3월"
 
-#: kfile/kfileinfo.cpp:221
+#: kfile/kfileinfo.cpp:223
 msgid "Apr"
 msgstr "4월"
 
-#: kfile/kfileinfo.cpp:223
+#: kfile/kfileinfo.cpp:225
 msgid "Jun"
 msgstr "6월"
 
-#: kfile/kfileinfo.cpp:224
+#: kfile/kfileinfo.cpp:226
 msgid "Jul"
 msgstr "7월"
 
-#: kfile/kfileinfo.cpp:225
+#: kfile/kfileinfo.cpp:227
 msgid "Aug"
 msgstr "8월"
 
-#: kfile/kfileinfo.cpp:226
+#: kfile/kfileinfo.cpp:228
 msgid "Sep"
 msgstr "9월"
 
-#: kfile/kfileinfo.cpp:227
+#: kfile/kfileinfo.cpp:229
 msgid "Oct"
 msgstr "10월"
 
-#: kfile/kfileinfo.cpp:228
+#: kfile/kfileinfo.cpp:230
 msgid "Nov"
 msgstr "11월"
 
-#: kfile/kfileinfo.cpp:229
+#: kfile/kfileinfo.cpp:231
 msgid "Dec"
 msgstr "12월"
 
-#: kfile/kpreview.cpp:187
+#: kab/editentry.cc:64 kfile/kpreview.cpp:187
 msgid "Name:"
 msgstr "이름:"
 
@@ -832,7 +1149,9 @@ msgstr ""
 "%s 파일이 없습니다\n"
 "접근이 허용되지 않음"
 
-#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
+#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210 kio/kmimetypes.cc:61
+#: kio/kmimetypes.cc:88 kio/kmimetypes.cc:134 kio/kregfactories.cc:75
+#: kio/krun.cc:105 kio/kservices.cc:114
 msgid "KFM Error"
 msgstr "KFM 오류"
 
@@ -845,15 +1164,22 @@ msgstr ""
 "%s 파일이 손상되었습니다\n"
 "접근이 허용되지 않음"
 
-#: po/texts.cpp:24
+#: kab/widget.cc:157 kab/widget.cc:1149 kab/widget.cc:1207 kab/widget.cc:1218
+#: kab/widget.cc:1921 kab/widget.cc:2013 kab/widget.cc:2097 kab/widget.cc:2142
+#: kab/widget.cc:2153 kio/kio_error.cc:118 kio/kio_paste.cc:48
+#: kio/kio_paste.cc:60 kio/kio_paste.cc:75 kio/kio_paste.cc:87
+#: kio/kio_rename_dlg.cc:217 kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:487
+#: kio/kmimetypes.cc:505 kio/kmimetypes.cc:519 kio/kmimetypes.cc:566
+#: kio/kmimetypes.cc:599 kio/kmimetypes.cc:659 kio/kmimetypes.cc:691
+#: kio/krun.cc:40 kio/krun.cc:512 po/texts.cpp:24
 msgid "Error"
 msgstr "오류"
 
-#: po/texts.cpp:25
+#: kio/krun.cc:102 kio/krun.cc:509 po/texts.cpp:25
 msgid "Malformed URL"
 msgstr "형식에 어긋난 URL"
 
-#: po/texts.cpp:29
+#: kio/kio_paste.cc:98 po/texts.cpp:29
 msgid "Warning"
 msgstr "경고"
 
@@ -869,378 +1195,1606 @@ msgstr "내용"
 msgid "A&bout..."
 msgstr "정보(&b)..."
 
-#: po/texts.cpp:36
-msgid "&OK"
-msgstr "예(&O)"
-
-#: po/texts.cpp:38
+#: po/texts.cpp:37
 msgid "On"
 msgstr "켬"
 
-#: po/texts.cpp:39
+#: po/texts.cpp:38
 msgid "Off"
 msgstr "끔"
 
-#: po/texts.cpp:43
+#: po/texts.cpp:42
 msgid "File"
 msgstr "파일"
 
-#: po/texts.cpp:44
+#: po/texts.cpp:43
 msgid "&File"
 msgstr "파일"
 
-#: po/texts.cpp:47
+#: po/texts.cpp:46
 msgid "Edit"
 msgstr "편집"
 
-#: po/texts.cpp:48
+#: po/texts.cpp:47
 msgid "&Edit"
 msgstr "편집"
 
-#: po/texts.cpp:49
+#: po/texts.cpp:48
 msgid "&Options"
 msgstr "옵션(&O)"
 
-#: po/texts.cpp:50
+#: po/texts.cpp:49
 msgid "View"
 msgstr "보기"
 
-#: po/texts.cpp:51
+#: po/texts.cpp:50
 msgid "&View"
 msgstr "보기(&V)"
 
-#: po/texts.cpp:52
+#: po/texts.cpp:51
 msgid "E&xit"
 msgstr "나가기(&x)"
 
 #: po/texts.cpp:53
-msgid "Quit"
-msgstr "끝내기"
-
-#: po/texts.cpp:54
 msgid "&Quit"
 msgstr "끝내기(&Q)"
 
-#: po/texts.cpp:58
-msgid "Copy"
-msgstr "복사"
-
-#: po/texts.cpp:59
+#: po/texts.cpp:57
 msgid "&Copy"
 msgstr "복사(&C)"
 
-#: po/texts.cpp:60
-msgid "Paste"
-msgstr "붙여넣기"
-
-#: po/texts.cpp:61
+#: po/texts.cpp:59
 msgid "&Paste"
 msgstr "붙여넣기(&P)"
 
-#: po/texts.cpp:62
-msgid "New"
-msgstr "새 윈도우"
-
-#: po/texts.cpp:63
-msgid "&New"
-msgstr "새 윈도우(&N)"
-
-#: po/texts.cpp:64
-msgid "&New..."
-msgstr "새로운(&N)..."
-
-#: po/texts.cpp:65
+#: po/texts.cpp:60
 msgid "&New Window..."
 msgstr "새 윈도우(&N)..."
 
-#: po/texts.cpp:66
+#: po/texts.cpp:61
 msgid "New &Window..."
 msgstr "새 윈도우(&W)..."
 
-#: po/texts.cpp:67
+#: po/texts.cpp:62
 msgid "&New Window"
 msgstr "새 윈도우(&N)"
 
-#: po/texts.cpp:68
+#: po/texts.cpp:63
 msgid "New Game"
 msgstr "새 게임"
 
-#: po/texts.cpp:69
+#: po/texts.cpp:64
 msgid "&New Game"
 msgstr "새 게임(&N)"
 
-#: po/texts.cpp:71
+#: po/texts.cpp:66
 msgid "Open a file"
 msgstr "파일 열기"
 
-#: po/texts.cpp:72
+#: po/texts.cpp:67
 msgid "Open..."
 msgstr "열기..."
 
-#: po/texts.cpp:73
+#: po/texts.cpp:68
 msgid "&Open..."
 msgstr "열기(&O)..."
 
-#: po/texts.cpp:74
-msgid "Cut"
-msgstr "자르기"
-
-#: po/texts.cpp:75
+#: po/texts.cpp:70
 msgid "&Cut"
 msgstr "자르기(&C)"
 
-#: po/texts.cpp:76
+#: po/texts.cpp:71
 msgid "C&ut"
 msgstr "자르기(&u)"
 
-#: po/texts.cpp:77
+#: po/texts.cpp:72
 msgid "Font"
 msgstr "글꼴"
 
-#: po/texts.cpp:78
+#: po/texts.cpp:73
 msgid "&Foreground Color"
 msgstr "전면색(&F)"
 
-#: po/texts.cpp:79
+#: po/texts.cpp:74
 msgid "&Background Color"
 msgstr "배경색(&B)"
 
-#: po/texts.cpp:81
+#: po/texts.cpp:76
 msgid "&Save"
 msgstr "저장(&S)"
 
-#: po/texts.cpp:83
+#: po/texts.cpp:78
 msgid "Save as..."
 msgstr "다른 이름으로 저장..."
 
-#: po/texts.cpp:84
+#: po/texts.cpp:79
 msgid "S&ave as..."
 msgstr "다른 이름으로 저장(&S)..."
 
-#: po/texts.cpp:85
-msgid "Close"
-msgstr "닫기"
-
-#: po/texts.cpp:86
+#: po/texts.cpp:81
 msgid "&Close"
 msgstr "닫기(&C)"
 
-#: po/texts.cpp:87
+#: po/texts.cpp:82
 msgid "&Print..."
 msgstr "인쇄(&P)..."
 
-#: po/texts.cpp:90
+#: po/texts.cpp:84
 msgid "Options"
 msgstr "옵션"
 
-#: po/texts.cpp:91
+#: po/texts.cpp:85
 msgid "Remove"
 msgstr "제거"
 
-#: po/texts.cpp:92
+#: po/texts.cpp:86
 msgid "Add"
 msgstr "추가"
 
-#: po/texts.cpp:93
+#: po/texts.cpp:87
 msgid "Change"
 msgstr "변경"
 
-#: po/texts.cpp:94
+#: po/texts.cpp:88
 msgid "Delete"
 msgstr "삭제"
 
-#: po/texts.cpp:95
+#: po/texts.cpp:89
 msgid "&Delete"
 msgstr "삭제(&D)"
 
-#: po/texts.cpp:96
+#: kio/kio_linedit_dlg.cc:46 kio/kio_openwith.cc:268 po/texts.cpp:90
 msgid "Clear"
 msgstr "지움"
 
-#: po/texts.cpp:97
+#: po/texts.cpp:91
 msgid "Italic"
 msgstr "이탤릭체"
 
-#: po/texts.cpp:98
+#: po/texts.cpp:92
 msgid "Roman"
 msgstr "로마체"
 
-#: po/texts.cpp:99
-msgid "Undo"
-msgstr "실행취소"
-
-#: po/texts.cpp:100
+#: po/texts.cpp:94
 msgid "&Undo"
 msgstr "실행취소(&U)"
 
-#: po/texts.cpp:101
+#: po/texts.cpp:95
 msgid "Redo"
 msgstr "재실행"
 
-#: po/texts.cpp:102
+#: po/texts.cpp:96
 msgid "&Redo"
 msgstr "재실행(&R)"
 
-#: po/texts.cpp:103
+#: po/texts.cpp:97
 msgid "&Game"
 msgstr "게임(&G)"
 
-#: po/texts.cpp:104
+#: kio/kio_rename_dlg.cc:28 kio/kio_skip_dlg.cc:18 po/texts.cpp:98
 msgid "Information"
 msgstr "정보"
 
-#: po/texts.cpp:105
+#: po/texts.cpp:99
 msgid "Browse..."
 msgstr "찾아보기"
 
-#: po/texts.cpp:106
-msgid "(none)"
-msgstr "(없음)"
-
-#: po/texts.cpp:107
-msgid "None"
-msgstr "없음"
-
-#: po/texts.cpp:108
+#: po/texts.cpp:100
 msgid "Stop"
 msgstr "멈춤"
 
-#: po/texts.cpp:109
+#: po/texts.cpp:101
 msgid "&Remove"
 msgstr "지우기(&R)"
 
-#: po/texts.cpp:110
+#: po/texts.cpp:102
 msgid "&Properties..."
 msgstr "등록정보(&P)..."
 
-#: po/texts.cpp:111
+#: po/texts.cpp:103
 msgid "Properties"
 msgstr "등록정보"
 
-#: po/texts.cpp:112
+#: po/texts.cpp:104
 msgid "&Start"
 msgstr "시작(&S)"
 
-#: po/texts.cpp:113
+#: po/texts.cpp:105
 msgid "St&op"
 msgstr "멈춤(&o)"
 
-#: po/texts.cpp:114
-msgid "Move"
-msgstr "이동"
-
-#: po/texts.cpp:115
+#: po/texts.cpp:106
 msgid "Miscellaneous"
 msgstr "기타여러가지"
 
-#: po/texts.cpp:116
+#: po/texts.cpp:107
 msgid "Font Size"
 msgstr "글꼴 크기"
 
-#: po/texts.cpp:117
-msgid "Small"
-msgstr "작게"
-
-#: po/texts.cpp:118
-msgid "Medium"
-msgstr "보통"
-
-#: po/texts.cpp:119
-msgid "Large"
-msgstr "크게"
-
-#: po/texts.cpp:120
+#: po/texts.cpp:108
 msgid "Fonts"
 msgstr "글꼴"
 
-#: po/texts.cpp:121
+#: po/texts.cpp:109
 msgid "&Fonts"
 msgstr "글꼴(&F)"
 
-#: po/texts.cpp:122
+#: po/texts.cpp:110
 msgid "&Reload"
 msgstr "다시불러오기(&R)"
 
-#: po/texts.cpp:123
-msgid "&Previous"
-msgstr "이전(&P)"
-
-#: po/texts.cpp:124
-msgid "&Next"
-msgstr "다음(&N)"
-
-#: po/texts.cpp:125
+#: po/texts.cpp:111
 msgid "Files"
 msgstr "파일"
 
-#: po/texts.cpp:126
+#: kab/widget.cc:1369 kab/widget.cc:1411 po/texts.cpp:112
 msgid "Continue"
 msgstr "계속"
 
-#: po/texts.cpp:127
+#: po/texts.cpp:113
 msgid "Restore"
 msgstr "복원"
 
-#: po/texts.cpp:128
+#: po/texts.cpp:114
 msgid "Appearance"
 msgstr "모양"
 
-#: po/texts.cpp:129
-msgid "Print"
-msgstr "인쇄"
-
-#: po/texts.cpp:130
+#: po/texts.cpp:116
 msgid "Monday"
 msgstr "월요일"
 
-#: po/texts.cpp:131
+#: po/texts.cpp:117
 msgid "Tuesday"
 msgstr "화요일"
 
-#: po/texts.cpp:132
+#: po/texts.cpp:118
 msgid "Wednesday"
 msgstr "수요일"
 
-#: po/texts.cpp:133
+#: po/texts.cpp:119
 msgid "Thursday"
 msgstr "목요일"
 
-#: po/texts.cpp:134
+#: po/texts.cpp:120
 msgid "Friday"
 msgstr "금요일"
 
-#: po/texts.cpp:135
+#: po/texts.cpp:121
 msgid "Saturday"
 msgstr "토요일"
 
-#: po/texts.cpp:136
+#: po/texts.cpp:122
 msgid "Sunday"
 msgstr "일요일"
 
-#: po/texts.cpp:137
+#: po/texts.cpp:123
 msgid "&Update"
 msgstr "갱신(&U)"
 
-#: po/texts.cpp:138
+#: po/texts.cpp:124
 msgid "Layout"
 msgstr "배치"
 
-#: po/texts.cpp:139
+#: po/texts.cpp:125
 msgid "Highscore"
 msgstr "하이스코어"
 
-#: po/texts.cpp:140
+#: po/texts.cpp:126
 msgid "&New View"
 msgstr "새로 보기(&N)"
 
-#: po/texts.cpp:141
+#: po/texts.cpp:127
 msgid "&Insert"
 msgstr "삽입(&I)"
 
-#: po/texts.cpp:144
+#: po/texts.cpp:130
 msgid "&Next >>"
 msgstr "다음으로(&N) >>"
 
-#: po/texts.cpp:145
+#: po/texts.cpp:131
 msgid "<< &Previous"
 msgstr "<< 이전으로(&P)"
+
+#: po/texts.cpp:138
+#, fuzzy
+msgid "&About..."
+msgstr "정보(&b)..."
+
+#: kab/addressbook.cc:88
+msgid ""
+"The directory where user specific data for the\n"
+"addressbook application is stored does not exist.\n"
+"The program will try to create\n"
+"         "
+msgstr ""
+
+#: kab/addressbook.cc:92
+msgid "and store all local files in this directory."
+msgstr ""
+
+#: kab/addressbook.cc:96
+msgid ""
+"The directory could not be created.\n"
+"Probably you do not have used KDE before, so\n"
+"you do not have a local \".kde\" directory\n"
+"in your home directory. Run the KDE filemanager\n"
+"kfm once to automatically create it."
+msgstr ""
+
+#: kab/addressbook.cc:104
+msgid "The directory has been created.\n"
+msgstr ""
+
+#: kab/addressbook.cc:138
+msgid "No addressbook database file, creating new one."
+msgstr ""
+
+#: kab/addressbook.cc:157
+msgid "Tried to load database for creating backup, but failed"
+msgstr ""
+
+#: kab/addressbook.cc:192
+msgid "Unable to save to backup file."
+msgstr ""
+
+#: kab/addressbook.cc:198
+msgid "Unable to reset filename after creating backup."
+msgstr ""
+
+#: kab/addressbook.cc:203
+msgid "Unable to create backup file"
+msgstr ""
+
+#: kab/addressbook.cc:256
+msgid "Unable to insert \""
+msgstr ""
+
+#: kab/addressbook.cc:257
+msgid "\" into configuration section (ignored)."
+msgstr ""
+
+#: kab/addressbook.cc:659
+msgid "Unable to add a new entry with available key."
+msgstr ""
+
+#: kab/addressbook.cc:665
+msgid "Cannot find previously created section."
+msgstr ""
+
+#: kab/addressbook.cc:696
+msgid "Unable to create key-value-map for entry."
+msgstr ""
+
+#: kab/addressbook.cc:925
+msgid "entry without name"
+msgstr ""
+
+#: kab/addressbook.cc:943
+msgid ""
+"Unable to create new database file (probably permission denied), exiting."
+msgstr ""
+
+#: kab/addressbook.cc:949
+msgid "Cannot create configuration section, exiting."
+msgstr ""
+
+#: kab/addressbook.cc:954
+msgid "Cannot create entries section, exiting."
+msgstr ""
+
+#: kab/addressbook.cc:959
+msgid "Unable to find previously created section, exiting."
+msgstr ""
+
+#: kab/addressbook.cc:967
+msgid "Cannot save newly created database."
+msgstr ""
+
+#: kab/addressbook.cc:973
+msgid "Cannot erase database contents."
+msgstr ""
+
+#: kab/addressbook.cc:1052
+msgid "First name"
+msgstr ""
+
+#: kab/addressbook.cc:1056
+msgid "Additional name"
+msgstr ""
+
+#: kab/addressbook.cc:1060
+msgid "Name prefix"
+msgstr ""
+
+#: kab/addressbook.cc:1064
+msgid "Formatted name"
+msgstr ""
+
+#: kab/addressbook.cc:1068
+#, fuzzy
+msgid "Comment"
+msgstr "내용"
+
+#: kab/addressbook.cc:1072
+msgid "Organization"
+msgstr ""
+
+#: kab/addressbook.cc:1076
+#, fuzzy
+msgid "Unit"
+msgstr "제목없음"
+
+#: kab/addressbook.cc:1080
+msgid "Subunit"
+msgstr ""
+
+#: kab/addressbook.cc:1084
+#, fuzzy
+msgid "Title"
+msgstr "파일"
+
+#: kab/addressbook.cc:1088
+msgid "Role"
+msgstr ""
+
+#: kab/addressbook.cc:1092
+msgid "Birthday"
+msgstr ""
+
+#: kab/addressbook.cc:1096
+msgid "Talk addresses"
+msgstr ""
+
+#: kab/addressbook.cc:1100
+msgid "Delivery label"
+msgstr ""
+
+#: kab/addressbook.cc:1104
+msgid "Email address"
+msgstr ""
+
+#: kab/addressbook.cc:1108
+msgid "Second email address"
+msgstr ""
+
+#: kab/addressbook.cc:1112
+msgid "Third email address"
+msgstr ""
+
+#: kab/addressbook.cc:1116
+msgid "Email addresses"
+msgstr ""
+
+#: kab/addressbook.cc:1120
+msgid "Address"
+msgstr ""
+
+#: kab/addressbook.cc:1124
+msgid "City/Town"
+msgstr ""
+
+#: kab/addressbook.cc:1128
+msgid "Telephone"
+msgstr ""
+
+#: kab/addressbook.cc:1132
+msgid "Fax number"
+msgstr ""
+
+#: kab/addressbook.cc:1136
+msgid "Modem number"
+msgstr ""
+
+#: kab/addressbook.cc:1140
+msgid "Homepage URL"
+msgstr ""
+
+#: kab/addressbook.cc:1144
+msgid "Zip/postal code"
+msgstr ""
+
+#: kab/addressbook.cc:1148
+msgid "State/province"
+msgstr ""
+
+#: kab/addressbook.cc:1152
+msgid "Country"
+msgstr ""
+
+#: kab/addressbook.cc:1319
+msgid "(unnamed entry)"
+msgstr ""
+
+#: kab/datepickerdialog.cc:34
+#, fuzzy
+msgid "Select birthday"
+msgstr "글꼴 선택"
+
+#: kab/editentry.cc:38
+msgid "Edit the current entry"
+msgstr ""
+
+#: kab/editentry.cc:61
+#, fuzzy
+msgid "Title:"
+msgstr "스타일:"
+
+#: kab/editentry.cc:62
+msgid "First name:"
+msgstr ""
+
+#: kab/editentry.cc:63
+msgid "Additional Name:"
+msgstr ""
+
+#: kab/editentry.cc:65
+msgid "Formatted Name:"
+msgstr ""
+
+#: kab/editentry.cc:88
+#, fuzzy
+msgid "&Name"
+msgstr "이름"
+
+#: kab/editentry.cc:103
+msgid "Address:"
+msgstr ""
+
+#: kab/editentry.cc:104
+msgid "Zip/postal code:"
+msgstr ""
+
+#: kab/editentry.cc:105
+msgid "Town:"
+msgstr ""
+
+#: kab/editentry.cc:106
+#, fuzzy
+msgid "State:"
+msgstr "날짜:"
+
+#: kab/editentry.cc:107
+msgid "Country:"
+msgstr ""
+
+#: kab/editentry.cc:130
+msgid "&Address"
+msgstr ""
+
+#: kab/editentry.cc:145
+msgid "Organization:"
+msgstr ""
+
+#: kab/editentry.cc:146
+msgid "Org Unit:"
+msgstr ""
+
+#: kab/editentry.cc:147
+msgid "Org Subunit:"
+msgstr ""
+
+#: kab/editentry.cc:148
+#, fuzzy
+msgid "Role:"
+msgstr "폴더:"
+
+#: kab/editentry.cc:169
+msgid "&Organization"
+msgstr ""
+
+#: kab/editentry.cc:184
+msgid "Telephone:"
+msgstr ""
+
+#: kab/editentry.cc:185
+msgid "Fax:"
+msgstr ""
+
+#: kab/editentry.cc:186
+msgid "Modem:"
+msgstr ""
+
+#: kab/editentry.cc:187
+msgid "Homepage (URL):"
+msgstr ""
+
+#: kab/editentry.cc:200 kab/editentry.cc:418
+msgid "Edit email addresses"
+msgstr ""
+
+#: kab/editentry.cc:206 kab/editentry.cc:400
+msgid "Edit talk addresses"
+msgstr ""
+
+#: kab/editentry.cc:218
+#, fuzzy
+msgid "&Contact"
+msgstr "내용(&C)"
+
+#: kab/editentry.cc:239
+#, fuzzy
+msgid "Comment:"
+msgstr "내용:"
+
+#: kab/editentry.cc:246
+msgid "Birthday:"
+msgstr ""
+
+#: kab/editentry.cc:249
+msgid "Double click to set date"
+msgstr ""
+
+#: kab/editentry.cc:256
+msgid "O&thers"
+msgstr ""
+
+#: kab/kabapi.cc:134
+msgid "Your new entry could not be added."
+msgstr ""
+
+#: kab/searchresults.cc:33
+msgid "search results"
+msgstr ""
+
+#: kab/widget.cc:139
+msgid "Conversion problem"
+msgstr ""
+
+#: kab/widget.cc:140
+msgid ""
+"Kab could not convert your database to the\n"
+"current file format.\n"
+"You can use it, but not all features will be\n"
+"supported."
+msgstr ""
+
+#: kab/widget.cc:158
+msgid ""
+"The application saved the last current entry,\n"
+"but this entry does not exist anymore."
+msgstr ""
+
+#: kab/widget.cc:224
+msgid "kab: Removed bug warning"
+msgstr ""
+
+#: kab/widget.cc:225
+msgid ""
+"The version of kab you used before had an\n"
+"error regarding the upgrading of the database\n"
+"for new versions. This error has been removed\n"
+"now and will not affect you anymore.\n"
+"All configuration values have been reset to\n"
+"its default settings."
+msgstr ""
+
+#: kab/widget.cc:243 kab/widget.cc:307 kab/widget.cc:315
+msgid "File handling error"
+msgstr ""
+
+#: kab/widget.cc:244
+msgid "Unable to open database file r/w."
+msgstr ""
+
+#: kab/widget.cc:252
+msgid "Email storage conversion"
+msgstr ""
+
+#: kab/widget.cc:253
+msgid ""
+"Kab will move all your email addresses to\n"
+"the new style supporting unlimited numbers\n"
+"of email addresses per entry."
+msgstr ""
+
+#: kab/widget.cc:286
+msgid "kab database update"
+msgstr ""
+
+#: kab/widget.cc:287
+msgid ""
+"Please note that kab now supports some new\n"
+"fields in its addresses. These new fields\n"
+"are:\n"
+"� the state field,\n"
+"� the country field and\n"
+"� the postal code field.\n"
+"You will probably need to edit some of your\n"
+"entries to make use of it."
+msgstr ""
+
+#: kab/widget.cc:308
+#, fuzzy
+msgid "Could not save database after update."
+msgstr "문서를 저장할 수 없읍니다\n"
+
+#: kab/widget.cc:316
+msgid "Unable to reopen database file r/o."
+msgstr ""
+
+#: kab/widget.cc:477
+msgid "first entry"
+msgstr ""
+
+#: kab/widget.cc:478
+#, fuzzy
+msgid "previous entry"
+msgstr "이전(&P)"
+
+#: kab/widget.cc:479
+#, fuzzy
+msgid "next entry"
+msgstr "한개의 디렉토리"
+
+#: kab/widget.cc:480
+msgid "last entry"
+msgstr ""
+
+#: kab/widget.cc:481
+msgid "search entries"
+msgstr ""
+
+#: kab/widget.cc:482
+msgid "add a new entry"
+msgstr ""
+
+#: kab/widget.cc:483
+msgid "change this entry"
+msgstr ""
+
+#: kab/widget.cc:484
+msgid "remove this entry"
+msgstr ""
+
+#: kab/widget.cc:523
+msgid "Switched to first entry."
+msgstr ""
+
+#: kab/widget.cc:555
+msgid "Switched to last entry."
+msgstr ""
+
+#: kab/widget.cc:616 kab/widget.cc:670 kab/widget.cc:845 kab/widget.cc:907
+msgid "Sorry, file changed."
+msgstr ""
+
+#: kab/widget.cc:620 kab/widget.cc:674 kab/widget.cc:911
+#, fuzzy
+msgid "Permission denied."
+msgstr "권한"
+
+#: kab/widget.cc:631
+#, fuzzy
+msgid "Remove entry?"
+msgstr "제거"
+
+#: kab/widget.cc:632
+msgid "Really remove this entry?"
+msgstr ""
+
+#: kab/widget.cc:650
+msgid "Entry deleted."
+msgstr ""
+
+#: kab/widget.cc:684
+msgid "Added a new entry."
+msgstr ""
+
+#: kab/widget.cc:806
+msgid "Opened browser window."
+msgstr ""
+
+#: kab/widget.cc:809
+msgid "No URL."
+msgstr ""
+
+#: kab/widget.cc:813 kab/widget.cc:982 kab/widget.cc:1161 kab/widget.cc:1774
+#: kab/widget.cc:1952 kab/widget.cc:2036
+msgid "No entries."
+msgstr ""
+
+#: kab/widget.cc:818
+msgid "The filemanager is busy, please try again."
+msgstr ""
+
+#: kab/widget.cc:838
+msgid ""
+"The addressbook file is currently\n"
+"locked by another application.\n"
+"kab cannot save it."
+msgstr ""
+
+#: kab/widget.cc:855
+msgid "Database saved successfully."
+msgstr ""
+
+#: kab/widget.cc:860
+msgid "kab: File error"
+msgstr ""
+
+#: kab/widget.cc:860
+#, fuzzy
+msgid "Could not save database."
+msgstr "문서를 저장할 수 없읍니다\n"
+
+#: kab/widget.cc:861
+#, fuzzy
+msgid "&Retry"
+msgstr "복원"
+
+#: kab/widget.cc:861
+msgid "&Ignore"
+msgstr ""
+
+#: kab/widget.cc:864
+msgid "Saving cancelled.\n"
+msgstr ""
+
+#: kab/widget.cc:930
+msgid "Entry changed."
+msgstr ""
+
+#: kab/widget.cc:1026
+msgid "Results"
+msgstr ""
+
+#: kab/widget.cc:1026
+msgid "No entry matches this."
+msgstr ""
+
+#: kab/widget.cc:1035 kab/widget.cc:1681 kab/widget.cc:1816 kab/widget.cc:1981
+#: kab/widget.cc:2004 kab/widget.cc:2061
+msgid "Rejected."
+msgstr ""
+
+#: kab/widget.cc:1051
+msgid "Search results window closed."
+msgstr ""
+
+#: kab/widget.cc:1150
+msgid "The talk command must be configured before!"
+msgstr ""
+
+#: kab/widget.cc:1155
+msgid "Talk configuration"
+msgstr ""
+
+#: kab/widget.cc:1156
+msgid "Please configure the parameters for the talk command."
+msgstr ""
+
+#: kab/widget.cc:1169
+msgid "No talk address."
+msgstr ""
+
+#: kab/widget.cc:1177
+msgid "kab: Talk addresses"
+msgstr ""
+
+#: kab/widget.cc:1178
+msgid "Available talk addresses:"
+msgstr ""
+
+#: kab/widget.cc:1184 kab/widget.cc:1912
+#, fuzzy
+msgid "Cancelled."
+msgstr "취소"
+
+#: kab/widget.cc:1207
+msgid "The talk command parameters are wrong."
+msgstr ""
+
+#: kab/widget.cc:1219
+msgid ""
+"Talk command failed.\n"
+"Make sure you did setup your talk command and parameter!"
+msgstr ""
+
+#: kab/widget.cc:1222
+msgid "Talk program started."
+msgstr ""
+
+#: kab/widget.cc:1270
+msgid "Attention: printing is still experimental!"
+msgstr ""
+
+#: kab/widget.cc:1366 kab/widget.cc:1408
+msgid "Page size problem"
+msgstr ""
+
+#: kab/widget.cc:1367 kab/widget.cc:1409
+msgid ""
+"The fields you requested to print do\n"
+"not fit into the page width."
+msgstr ""
+
+#: kab/widget.cc:1586 kab/widget.cc:2015
+msgid "Printing finished successfully."
+msgstr ""
+
+#: kab/widget.cc:1612
+msgid "kab: Email addresses"
+msgstr ""
+
+#: kab/widget.cc:1613
+msgid "Available email addresses:"
+msgstr ""
+
+#: kab/widget.cc:1678
+msgid "kab: Select fields to copy"
+msgstr ""
+
+#: kab/widget.cc:1688
+msgid "Nothing selected."
+msgstr ""
+
+#: kab/widget.cc:1746 kab/widget.cc:1998
+msgid "KDE addressbook overview"
+msgstr ""
+
+#: kab/widget.cc:1790
+msgid "Name-Email-Link (!!)"
+msgstr ""
+
+#: kab/widget.cc:1792
+#, fuzzy
+msgid "Select table columns"
+msgstr "아이콘 선택"
+
+#: kab/widget.cc:1797
+msgid "Nothing to export."
+msgstr ""
+
+#: kab/widget.cc:1826
+msgid "Email link"
+msgstr ""
+
+#: kab/widget.cc:1901
+msgid "Could not find the users home directory."
+msgstr ""
+
+#: kab/widget.cc:1902
+msgid "Intern error!"
+msgstr ""
+
+#: kab/widget.cc:1922
+msgid "Could not open the file to create the HTML table."
+msgstr ""
+
+#: kab/widget.cc:1958
+msgid "Printing cancelled."
+msgstr ""
+
+#: kab/widget.cc:1974
+msgid "kab: Select columns for printing"
+msgstr ""
+
+#: kab/widget.cc:1987
+msgid "Nothing to print."
+msgstr ""
+
+#: kab/widget.cc:1999
+msgid "Page <p>"
+msgstr ""
+
+#: kab/widget.cc:2000
+msgid "KDE - the professionals choice."
+msgstr ""
+
+#: kab/widget.cc:2013
+msgid "Printing failed!"
+msgstr ""
+
+#: kab/widget.cc:2044
+msgid "Empty email address."
+msgstr ""
+
+#: kab/widget.cc:2063
+msgid "No email address."
+msgstr ""
+
+#: kab/widget.cc:2073
+#, fuzzy
+msgid "Error calling mailer."
+msgstr "오류: 로컬 파일이 아님"
+
+#: kab/widget.cc:2075
+msgid "Mailer called."
+msgstr ""
+
+#: kab/widget.cc:2098
+msgid "The mail command must be configured before!"
+msgstr ""
+
+#: kab/widget.cc:2103
+msgid "Mail configuration"
+msgstr ""
+
+#: kab/widget.cc:2104
+msgid "Please configure the parameters for the email command."
+msgstr ""
+
+#: kab/widget.cc:2142
+msgid "The email command parameters are wrong."
+msgstr ""
+
+#: kab/widget.cc:2154
+msgid ""
+"Email command failed.\n"
+"Make sure you did setup your email command and parameter!"
+msgstr ""
+
+#: kab/widget.cc:2158
+msgid "Mail program started."
+msgstr ""
+
+#: kio/kio_cache.cc:345
+msgid "KIO Cache"
+msgstr ""
+
+#: kio/kio_cache.cc:347
+msgid "Contents of the cache"
+msgstr ""
+
+#: kio/kio_cache.cc:352
+msgid ""
+"Use the icons for drag and drop actions, since they refer to the cache files "
+"on your hard disk, while you should use the textual links for browsing"
+msgstr ""
+
+#: kio/kio_cache.cc:355
+msgid "Creation Date"
+msgstr ""
+
+#: kio/kio_cache.cc:357
+msgid "Expiration Date"
+msgstr ""
+
+#: kio/kio_cache.cc:422
+#, fuzzy
+msgid "Unknown"
+msgstr "알 수 없는 포맷"
+
+#: kio/kio_cache.cc:428
+#, fuzzy
+msgid "Never"
+msgstr "11월"
+
+#: kio/kio_error.cc:16
+#, c-format
+msgid ""
+"Could not read\n"
+"%s"
+msgstr ""
+
+#: kio/kio_error.cc:19
+#, fuzzy, c-format
+msgid ""
+"Could not write to\n"
+"%s"
+msgstr "문서를 저장할 수 없읍니다\n"
+
+#: kio/kio_error.cc:22
+#, fuzzy, c-format
+msgid ""
+"Could not start process\n"
+"%s"
+msgstr "문서를 저장할 수 없읍니다\n"
+
+#: kio/kio_error.cc:25
+#, c-format
+msgid ""
+"Internal Error\n"
+"Please send a full bugreport to kde-bugs@kde.org\n"
+"\n"
+"%s"
+msgstr ""
+
+#: kio/kio_error.cc:28
+#, fuzzy, c-format
+msgid ""
+"Malformed URL\n"
+"%s"
+msgstr "형식에 어긋난 URL"
+
+#: kio/kio_error.cc:31
+#, c-format
+msgid ""
+"The protocol %s\n"
+" is not supported"
+msgstr ""
+
+#: kio/kio_error.cc:34
+#, c-format
+msgid ""
+"The protocol %s\n"
+"is only a filter protocol.\n"
+msgstr ""
+
+#: kio/kio_error.cc:37
+#, c-format
+msgid ""
+"Unsupported action\n"
+"%s"
+msgstr ""
+
+#: kio/kio_error.cc:40
+#, fuzzy, c-format
+msgid ""
+"The file or directory\n"
+"%s\n"
+"does not exist"
+msgstr "지정한 파일이 존재하지 않습니다"
+
+#: kio/kio_error.cc:43
+#, c-format
+msgid ""
+"%s\n"
+" is a directory,\n"
+"but a file was expected"
+msgstr ""
+
+#: kio/kio_error.cc:46
+#, fuzzy, c-format
+msgid ""
+"Could not make directory\n"
+"%s"
+msgstr "한개의 디렉토리"
+
+#: kio/kio_error.cc:49
+#, c-format
+msgid ""
+"The file or directory\n"
+"%s\n"
+"does already exist"
+msgstr ""
+
+#: kio/kio_error.cc:52
+#, c-format
+msgid ""
+"%s\n"
+"Access denied"
+msgstr ""
+
+#: kio/kio_error.cc:55
+#, fuzzy, c-format
+msgid ""
+"Could not enter directory\n"
+"%s"
+msgstr "문서를 저장할 수 없읍니다\n"
+
+#: kio/kio_error.cc:58
+#, c-format
+msgid ""
+"The protocol %s\n"
+"does not implement a directory service"
+msgstr ""
+
+#: kio/kio_error.cc:61
+#, c-format
+msgid ""
+"Found a cyclic link in\n"
+"%s"
+msgstr ""
+
+#: kio/kio_error.cc:64
+#, fuzzy, c-format
+msgid ""
+"Could not change permissions for\n"
+"%s"
+msgstr "귀하는 이 파일에 대해 쓰기 권한이 없읍니다.\n"
+
+#: kio/kio_error.cc:67
+#, c-format
+msgid ""
+"Access denied\n"
+"Could not write to\n"
+"%s"
+msgstr ""
+
+#: kio/kio_error.cc:70
+msgid ""
+"Action has been\n"
+"canceled by the user"
+msgstr ""
+
+#: kio/kio_error.cc:73
+#, c-format
+msgid ""
+"Found a cyclic link while copying\n"
+"%s"
+msgstr ""
+
+#: kio/kio_error.cc:76
+#, c-format
+msgid ""
+"Could not create socket for accessing\n"
+"%s"
+msgstr ""
+
+#: kio/kio_error.cc:79
+#, fuzzy, c-format
+msgid ""
+"Could not connect to host\n"
+"%s"
+msgstr "문서를 저장할 수 없읍니다\n"
+
+#: kio/kio_error.cc:82
+#, c-format
+msgid ""
+"Unknown host\n"
+"%s"
+msgstr ""
+
+#: kio/kio_error.cc:85
+#, c-format
+msgid ""
+"Connection to host\n"
+"%s\n"
+"is broken"
+msgstr ""
+
+#: kio/kio_error.cc:88
+#, c-format
+msgid ""
+"The protocol %s\n"
+"is not a filter protocol"
+msgstr ""
+
+#: kio/kio_error.cc:91
+#, c-format
+msgid ""
+"%s\n"
+"is a file,\n"
+"but a directory was expected"
+msgstr ""
+
+#: kio/kio_error.cc:94
+#, c-format
+msgid ""
+"Could not mount device.\n"
+"The reported error was:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: kio/kio_error.cc:97
+#, c-format
+msgid ""
+"Could not unmount device.\n"
+"The reported error was:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: kio/kio_error.cc:100
+#, c-format
+msgid ""
+"The process for the\n"
+"%s protocol\n"
+"died unexpectedly"
+msgstr ""
+
+#: kio/kio_error.cc:103
+#, c-format
+msgid ""
+"Could not access\n"
+"%s"
+msgstr ""
+
+#: kio/kio_error.cc:106
+#, c-format
+msgid ""
+"Unknown error code %i\n"
+"%s\n"
+"\n"
+"Please send a full bugreport to kde-bugs@kde.org"
+msgstr ""
+
+#: kio/kio_error.cc:118 kio/kio_linedit_dlg.cc:42 kio/kio_openwith.cc:260
+#: kio/kio_pass_dlg.cc:75 kio/kio_paste.cc:48 kio/kio_paste.cc:60
+#: kio/kio_paste.cc:76 kio/kio_paste.cc:87 kio/kio_rename_dlg.cc:217
+#: kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:61 kio/kmimetypes.cc:88
+#: kio/kmimetypes.cc:134 kio/kmimetypes.cc:487 kio/kmimetypes.cc:505
+#: kio/kmimetypes.cc:519 kio/kmimetypes.cc:566 kio/kmimetypes.cc:599
+#: kio/kmimetypes.cc:659 kio/kmimetypes.cc:691 kio/kregfactories.cc:75
+#: kio/krun.cc:40 kio/krun.cc:105 kio/krun.cc:512 kio/kservices.cc:114
+msgid "Ok"
+msgstr "예"
+
+#: kio/kio_job.cc:137
+#, c-format
+msgid "Mounting %s ..."
+msgstr ""
+
+#: kio/kio_job.cc:157
+#, c-format
+msgid "Unmounting %s ..."
+msgstr ""
+
+#: kio/kio_openwith.cc:133
+msgid "This group is empty!"
+msgstr ""
+
+#: kio/kio_openwith.cc:264
+#, fuzzy
+msgid "&Browser"
+msgstr "찾아보기"
+
+#: kio/kio_pass_dlg.cc:33
+msgid "User"
+msgstr ""
+
+#: kio/kio_pass_dlg.cc:44 kio/kio_pass_dlg.cc:88
+msgid "Password"
+msgstr ""
+
+#: kio/kio_paste.cc:48 kio/kio_paste.cc:60
+msgid "The clipboard is empty"
+msgstr ""
+
+#: kio/kio_paste.cc:75
+msgid ""
+"Pasting clipboard data is only supported on the local hard disk currently"
+msgstr ""
+
+#: kio/kio_paste.cc:80
+msgid "Filename for clipboard content:"
+msgstr ""
+
+#: kio/kio_paste.cc:87
+msgid "You did not enter a filename"
+msgstr ""
+
+#: kio/kio_paste.cc:97
+#, fuzzy, c-format
+msgid "The file %s does already exist. Do you really want to overwrite it ?"
+msgstr ""
+"같은 이름의 파일이 이미 존재합니다\n"
+"덮어 쓰겠읍니까?"
+
+#: kio/kio_progress_dlg.cc:92 kio/kio_progress_dlg.cc:108
+msgid " Bytes"
+msgstr ""
+
+#: kio/kio_progress_dlg.cc:97 kio/kio_progress_dlg.cc:113
+msgid " Kb"
+msgstr ""
+
+#: kio/kio_progress_dlg.cc:102 kio/kio_progress_dlg.cc:118
+msgid " Mb"
+msgstr ""
+
+#: kio/kio_progress_dlg.cc:151 kio/kio_progress_dlg.cc:177
+#, fuzzy
+msgid "Stalled"
+msgstr "스타일"
+
+#: kio/kio_progress_dlg.cc:159
+msgid " Bytes/s"
+msgstr ""
+
+#: kio/kio_progress_dlg.cc:164
+msgid " Kb/s"
+msgstr ""
+
+#: kio/kio_progress_dlg.cc:169
+msgid " Mb/s"
+msgstr ""
+
+#: kio/kio_progress_dlg.cc:184
+#, c-format
+msgid "%i seconds"
+msgstr ""
+
+#: kio/kio_progress_dlg.cc:190
+#, c-format
+msgid "%i:%i"
+msgstr ""
+
+#: kio/kio_progress_dlg.cc:197
+#, c-format
+msgid "%i:%i:%i"
+msgstr ""
+
+#: kio/kio_progress_dlg.cc:201
+#, c-format
+msgid "%i%s  Remaining time: %s"
+msgstr ""
+
+#: kio/kio_progress_dlg.cc:207
+#, fuzzy
+msgid "Scanning "
+msgstr "경고"
+
+#: kio/kio_progress_dlg.cc:222
+msgid "Creating dir "
+msgstr ""
+
+#: kio/kio_progress_dlg.cc:229
+msgid "Fetching file"
+msgstr ""
+
+#: kio/kio_rename_dlg.cc:33
+#, fuzzy
+msgid "Rename"
+msgstr "제거"
+
+#: kio/kio_rename_dlg.cc:38 kio/kio_skip_dlg.cc:23
+msgid "Skip"
+msgstr ""
+
+#: kio/kio_rename_dlg.cc:41 kio/kio_skip_dlg.cc:28
+msgid "Auto Skip"
+msgstr ""
+
+#: kio/kio_rename_dlg.cc:47
+msgid "Overwrite"
+msgstr ""
+
+#: kio/kio_rename_dlg.cc:52
+msgid "Overwrite All"
+msgstr ""
+
+#: kio/kio_rename_dlg.cc:59
+#, fuzzy
+msgid "Resume"
+msgstr "제거"
+
+#: kio/kio_rename_dlg.cc:64
+#, fuzzy
+msgid "Resume All"
+msgstr "모두 바꾸기"
+
+#: kio/kio_rename_dlg.cc:75
+msgid "You try to overwrite"
+msgstr ""
+
+#: kio/kio_rename_dlg.cc:96
+msgid "already exists. Overwrite with"
+msgstr ""
+
+#: kio/kio_rename_dlg.cc:108
+msgid "Or rename to"
+msgstr ""
+
+#: kio/kio_rename_dlg.cc:119
+msgid "already exists."
+msgstr ""
+
+#: kio/kio_rename_dlg.cc:124
+msgid "Do you want to rename it ?"
+msgstr ""
+
+#: kio/kio_rename_dlg.cc:215
+#, fuzzy
+msgid "Malformed URL\n"
+msgstr "형식에 어긋난 URL"
+
+#: kio/kio_rename_dlg.cc:224
+msgid "You must not change the protocol"
+msgstr ""
+
+#: kio/kio_skip_dlg.cc:35
+msgid "Can not write"
+msgstr ""
+
+#: kio/kio_skip_dlg.cc:46
+#, fuzzy
+msgid "Permission denied!"
+msgstr "권한"
+
+#: kio/kmimetypes.cc:61
+msgid "No mime types installed!"
+msgstr ""
+
+#: kio/kmimetypes.cc:85
+msgid "Could not find mime type\n"
+msgstr ""
+
+#: kio/kmimetypes.cc:131
+msgid "The mime type config file "
+msgstr ""
+
+#: kio/kmimetypes.cc:133 kio/kregfactories.cc:74
+msgid "does not conatain a MimeType=... entry"
+msgstr ""
+
+#: kio/kmimetypes.cc:486
+#, c-format
+msgid ""
+"The kdelnk file\n"
+"%s\n"
+"has no Type=... entry"
+msgstr ""
+
+#: kio/kmimetypes.cc:504
+#, c-format
+msgid ""
+"The kdelnk type\n"
+"%s\n"
+"is unknown"
+msgstr ""
+
+#: kio/kmimetypes.cc:518 kio/kmimetypes.cc:598 kio/kmimetypes.cc:690
+#, c-format
+msgid ""
+"The kdelnk file\n"
+"%s\n"
+"is of type FSDevice but has no Dev=... entry"
+msgstr ""
+
+#: kio/kmimetypes.cc:565
+#, c-format
+msgid ""
+"The kdelnk file\n"
+"%s\n"
+"is of type Link but has no URL=... entry"
+msgstr ""
+
+#: kio/kmimetypes.cc:608
+#, fuzzy
+msgid "Mount"
+msgstr "월요일"
+
+#: kio/kmimetypes.cc:615
+msgid "Unmount"
+msgstr ""
+
+#: kio/kmimetypes.cc:658
+#, c-format
+msgid ""
+"The kdelnk file\n"
+"%s\n"
+" has an invalid menu entry\n"
+"%s"
+msgstr ""
+
+#: kio/kregfactories.cc:72
+msgid "The mime type _cfg file "
+msgstr ""
+
+#: kio/krun.cc:39
+#, c-format
+msgid ""
+"Can not enter\n"
+"%s\n"
+"Access denied"
+msgstr ""
+
+#: kio/kservices.cc:111
+msgid "The application config file\n"
+msgstr ""
+
+#: kio/kservices.cc:113
+msgid ""
+"\n"
+"does not conatain a Name=... entry"
+msgstr ""
+
+#~ msgid "&Ok"
+#~ msgstr "예(&O)"
+
+#~ msgid "&New"
+#~ msgstr "새 윈도우(&N)"
+
+#~ msgid "&New..."
+#~ msgstr "새로운(&N)..."
+
+#~ msgid "(none)"
+#~ msgstr "(없음)"
+
+#~ msgid "None"
+#~ msgstr "없음"
+
+#~ msgid "Move"
+#~ msgstr "이동"
+
+#~ msgid "Small"
+#~ msgstr "작게"
+
+#~ msgid "Medium"
+#~ msgstr "보통"
+
+#~ msgid "Large"
+#~ msgstr "크게"
