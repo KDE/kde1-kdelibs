@@ -2116,9 +2116,8 @@ msgid "kab: File error"
 msgstr ""
 
 #: kab/widget.cc:864
-#
 msgid "Could not save database."
-msgstr "Impossibile salvare il database\n"
+msgstr "Impossibile salvare il database"
 
 #: kab/widget.cc:865
 #
