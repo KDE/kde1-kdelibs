@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Juha Tuomala <EMAIL@ADDRESS>, 1997.
 #
 #, fuzzy
 msgid ""
@@ -50,7 +50,7 @@ msgstr ""
 "Tämä ohjelma on kehitetty Qt:lla. Qt on monen eri ympäristön GUI-kirjasto.\n"
 "\n"
 "Qt on Troll Techin (http://www.troll.no, info@troll.no) kehittämä tuote. \n"
-"Qt on rajoituksetta käytettävissä X Window-järjestelmässä toimivien vapaiden "
+"Qt on rajoituksetta käytettävissä X Window -järjestelmässä toimivien vapaiden "
 "ohjelmien kehitykseen.\n"
 
 # libkdeui messages
@@ -381,12 +381,6 @@ msgstr "Vasemmalla"
 msgid "Right"
 msgstr "Oikealla"
 
-#
-#	Version 0.3.1
-#
-#	Muutettu 11.10.1997 / Juha Tuomala
-#
-# general messages, that are often used
 #: po/texts.cpp:24
 msgid "Error"
 msgstr "Virhe"
