@@ -1705,7 +1705,8 @@ msgstr "Adressebogsdatabasefil oprettes da den ikke findes."
 
 #: kab/addressbook.cc:159
 msgid "Tried to load database for creating backup, but failed"
-msgstr "Sikkerhedskopiering af database mislykkedes, da\n"
+msgstr ""
+"Sikkerhedskopiering af database mislykkedes, da\n"
 "databasen ikke kunne indlæses."
 
 #: kab/addressbook.cc:194
@@ -1747,7 +1748,9 @@ msgstr "element uden navn"
 #: kab/addressbook.cc:1007
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
-msgstr "Kunne ikke oprette ny databasefil (formodentlig tilladelse nægtet), afslutter."
+msgstr ""
+"Kunne ikke oprette ny databasefil (formodentlig tilladelse nægtet), "
+"afslutter."
 
 #: kab/addressbook.cc:1013
 msgid "Cannot create configuration section, exiting."
