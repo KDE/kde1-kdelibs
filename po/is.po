@@ -3,7 +3,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-01-22 01:01+0100\n"
+"POT-Creation-Date: 1999-01-27 01:01+0100\n"
 "PO-Revision-Date: 1998-10-23 23:31+0200\n"
 "Last-Translator: Logi Ragnarsson <logir@imf.au.dk>\n"
 "Language-Team: is\n"
@@ -247,95 +247,95 @@ msgstr "Möguleg gildi"
 msgid "Selected values:"
 msgstr "Gildi valin"
 
-#: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1217
+#: kdecore/kaccel.cpp:223 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1217
 #: kfile/kfiledialog.cpp:1377 kfile/kfiledialog.cpp:1411 po/texts.cpp:65
 msgid "Open"
 msgstr "Opna"
 
-#: kdecore/kaccel.cpp:235
+#: kdecore/kaccel.cpp:227
 msgid "New"
 msgstr "Nýtt"
 
-#: kab/searchresults.cc:30 kdecore/kaccel.cpp:239 po/texts.cpp:80
+#: kab/searchresults.cc:30 kdecore/kaccel.cpp:231 po/texts.cpp:80
 msgid "Close"
 msgstr "Loka"
 
-#: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1272
+#: kdecore/kaccel.cpp:235 kfile/kfiledialog.cpp:1272
 #: kfile/kfiledialog.cpp:1432 po/texts.cpp:75
 msgid "Save"
 msgstr "Vista"
 
-#: kdecore/kaccel.cpp:247 po/texts.cpp:115
+#: kdecore/kaccel.cpp:239 po/texts.cpp:115
 msgid "Print"
 msgstr "Prenta"
 
-#: kdecore/kaccel.cpp:251 po/texts.cpp:52
+#: kdecore/kaccel.cpp:243 po/texts.cpp:52
 msgid "Quit"
 msgstr "Hætta"
 
-#: kdecore/kaccel.cpp:255 po/texts.cpp:69
+#: kdecore/kaccel.cpp:247 po/texts.cpp:69
 msgid "Cut"
 msgstr "Klippa"
 
-#: kdecore/kaccel.cpp:259 po/texts.cpp:56
+#: kdecore/kaccel.cpp:251 po/texts.cpp:56
 msgid "Copy"
 msgstr "Afrita"
 
-#: kdecore/kaccel.cpp:263 po/texts.cpp:58
+#: kdecore/kaccel.cpp:255 po/texts.cpp:58
 msgid "Paste"
 msgstr "Líma"
 
-#: kdecore/kaccel.cpp:267 po/texts.cpp:93
+#: kdecore/kaccel.cpp:259 po/texts.cpp:93
 msgid "Undo"
 msgstr "Hætta við"
 
-#: kdecore/kaccel.cpp:271 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
+#: kdecore/kaccel.cpp:263 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
 #: kdeui/keditcl2.cpp:360 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:676
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786
 msgid "Find"
 msgstr "Finna"
 
-#: kdecore/kaccel.cpp:275 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
+#: kdecore/kaccel.cpp:267 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
 #: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 kspell/kspelldlg.cpp:110
 #: po/texts.cpp:133
 msgid "Replace"
 msgstr "Skipta út"
 
-#: kdecore/kaccel.cpp:279 po/texts.cpp:134
+#: kdecore/kaccel.cpp:271 po/texts.cpp:134
 msgid "Insert"
 msgstr "Insert"
 
-#: kdecore/kaccel.cpp:283 kfile/kfiledialog.cpp:131
+#: kdecore/kaccel.cpp:275 kfile/kfiledialog.cpp:131
 msgid "Home"
 msgstr "Home"
 
-#: kdecore/kaccel.cpp:287
+#: kdecore/kaccel.cpp:279
 msgid "End"
 msgstr "End"
 
-#: kdecore/kaccel.cpp:291
+#: kdecore/kaccel.cpp:283
 msgid "Prior"
 msgstr "Fyrri"
 
-#: kdecore/kaccel.cpp:295
+#: kdecore/kaccel.cpp:287
 msgid "Next"
 msgstr "Næsti"
 
-#: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
+#: kdecore/kaccel.cpp:291 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
 #: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 kspell/ksconfig.cpp:212
 #: kspell/kspelldlg.cpp:131 po/texts.cpp:44
 msgid "Help"
 msgstr "Hjálp"
 
-#: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:661
+#: kdecore/kaccel.cpp:589 kdecore/kaccel.cpp:653
 msgid "SHIFT"
 msgstr "SHIFT"
 
-#: kdecore/kaccel.cpp:601 kdecore/kaccel.cpp:663
+#: kdecore/kaccel.cpp:593 kdecore/kaccel.cpp:655
 msgid "CTRL"
 msgstr "CTRL"
 
-#: kdecore/kaccel.cpp:605 kdecore/kaccel.cpp:665
+#: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:657
 msgid "ALT"
 msgstr "ALT"
 
