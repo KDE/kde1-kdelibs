@@ -1458,9 +1458,8 @@ msgid "<< &Previous"
 msgstr "<< &Forrige"
 
 #: po/texts.cpp:144
-#, fuzzy
 msgid "&About..."
-msgstr "&Om"
+msgstr "&Om..."
 
 #: kab/addressbook.cc:92
 msgid ""
