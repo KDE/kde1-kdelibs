@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-12-31 15:24+0100\n"
+"POT-Creation-Date: 1998-01-02 15:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: kdecore/kapp.cpp:407 kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34
-#: po/texts.cpp:42
+#: po/texts.cpp:43
 msgid "Help"
 msgstr "Hjelp"
 
@@ -68,12 +68,12 @@ msgid "Add to Custom Colors"
 msgstr "Legg til egendefinerte farger"
 
 #: kdeui/kcolordlg.cpp:461 kdeui/kfontdialog.cpp:351
-#: kdeui/kiconloaderdialog.cpp:210 po/texts.cpp:35
+#: kdeui/kiconloaderdialog.cpp:210 po/texts.cpp:36
 msgid "Ok"
 msgstr "Ok"
 
 #: kdeui/kcolordlg.cpp:464 kdeui/kcontrol.cpp:41 kdeui/kfontdialog.cpp:346
-#: kdeui/kiconloaderdialog.cpp:211 po/texts.cpp:38
+#: kdeui/kiconloaderdialog.cpp:211 po/texts.cpp:39
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -81,11 +81,11 @@ msgstr "Avbryt"
 msgid "Custom..."
 msgstr ""
 
-#: kdeui/kcontrol.cpp:39 po/texts.cpp:34
+#: kdeui/kcontrol.cpp:39 po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
 
-#: kdeui/kcontrol.cpp:40 po/texts.cpp:39
+#: kdeui/kcontrol.cpp:40 po/texts.cpp:40
 msgid "Apply"
 msgstr "Bruk"
 
@@ -196,7 +196,7 @@ msgstr "Flyt"
 msgid "UnFloat"
 msgstr ""
 
-#: kdeui/kpopmenu.cpp:10 po/texts.cpp:33
+#: kdeui/kpopmenu.cpp:10 po/texts.cpp:34
 msgid "Untitled"
 msgstr "Uten tittel"
 
@@ -247,224 +247,264 @@ msgstr "Innhold"
 msgid "About"
 msgstr "Om"
 
-#: po/texts.cpp:36
+#: po/texts.cpp:33
+#, fuzzy
+msgid "A&bout..."
+msgstr "Om"
+
+#: po/texts.cpp:37
 #, fuzzy
 msgid "On"
 msgstr "Åpne"
 
-#: po/texts.cpp:37
+#: po/texts.cpp:38
 msgid "Off"
 msgstr ""
 
-#: po/texts.cpp:40
+#: po/texts.cpp:41
 msgid "File"
 msgstr "Fil"
 
-#: po/texts.cpp:41
+#: po/texts.cpp:42
 #, fuzzy
 msgid "&File"
 msgstr "Fil"
 
-#: po/texts.cpp:43
+#: po/texts.cpp:44
 #, fuzzy
 msgid "&Help"
 msgstr "Hjelp"
 
-#: po/texts.cpp:44
+#: po/texts.cpp:45
 msgid "Edit"
 msgstr "Editer"
 
-#: po/texts.cpp:45
+#: po/texts.cpp:46
 #, fuzzy
 msgid "&Edit"
 msgstr "Editer"
 
-#: po/texts.cpp:46
+#: po/texts.cpp:47
 msgid "&Options"
 msgstr ""
 
-#: po/texts.cpp:47
+#: po/texts.cpp:48
 msgid "View"
 msgstr ""
 
-#: po/texts.cpp:48
+#: po/texts.cpp:49
 #, fuzzy
 msgid "&View"
 msgstr "Fil"
 
-#: po/texts.cpp:49
+#: po/texts.cpp:50
 #, fuzzy
 msgid "E&xit"
 msgstr "Editer"
 
-#: po/texts.cpp:50
+#: po/texts.cpp:51
 msgid "Quit"
 msgstr "Avslutt"
 
-#: po/texts.cpp:51
+#: po/texts.cpp:52
 #, fuzzy
 msgid "&Quit"
 msgstr "Avslutt"
 
-#: po/texts.cpp:52
+#: po/texts.cpp:53
 msgid "Reload"
 msgstr ""
 
-#: po/texts.cpp:53
+#: po/texts.cpp:54
 msgid "Back"
 msgstr ""
 
-#: po/texts.cpp:54
+#: po/texts.cpp:55
 msgid "Forward"
 msgstr ""
 
-#: po/texts.cpp:55
+#: po/texts.cpp:56
 msgid "Copy"
 msgstr ""
 
-#: po/texts.cpp:56
+#: po/texts.cpp:57
 msgid "&Copy"
 msgstr ""
 
-#: po/texts.cpp:57
+#: po/texts.cpp:58
 msgid "Paste"
 msgstr ""
 
-#: po/texts.cpp:58
+#: po/texts.cpp:59
 msgid "&Paste"
 msgstr ""
 
-#: po/texts.cpp:59
+#: po/texts.cpp:60
 msgid "New"
 msgstr ""
 
-#: po/texts.cpp:60
+#: po/texts.cpp:61
 msgid "&New"
 msgstr ""
 
-#: po/texts.cpp:61
+#: po/texts.cpp:62
 msgid "&New Window..."
 msgstr ""
 
-#: po/texts.cpp:62
+#: po/texts.cpp:63
+#, fuzzy
+msgid "New Game"
+msgstr "Lagre"
+
+#: po/texts.cpp:64
+#, fuzzy
+msgid "&New Game"
+msgstr "Lagre"
+
+#: po/texts.cpp:65
 msgid "Open"
 msgstr "Åpne"
 
-#: po/texts.cpp:63
+#: po/texts.cpp:66
 msgid "Open a file"
 msgstr "Åpne en fil"
 
-#: po/texts.cpp:64
+#: po/texts.cpp:67
 #, fuzzy
 msgid "Open..."
 msgstr "Åpne"
 
-#: po/texts.cpp:65
+#: po/texts.cpp:68
 #, fuzzy
 msgid "&Open..."
 msgstr "Åpne"
 
-#: po/texts.cpp:66
+#: po/texts.cpp:69
 msgid "Cut"
 msgstr ""
 
-#: po/texts.cpp:67
+#: po/texts.cpp:70
 #, fuzzy
 msgid "C&ut"
 msgstr "Avslutt"
 
-#: po/texts.cpp:68
+#: po/texts.cpp:71
 #, fuzzy
 msgid "Font"
 msgstr "Flyt"
 
-#: po/texts.cpp:69
+#: po/texts.cpp:72
 msgid "&Foreground Color"
 msgstr ""
 
-#: po/texts.cpp:70
+#: po/texts.cpp:73
 msgid "&Background Color"
 msgstr ""
 
-#: po/texts.cpp:71
+#: po/texts.cpp:74
 msgid "Save"
 msgstr "Lagre"
 
-#: po/texts.cpp:72
+#: po/texts.cpp:75
 #, fuzzy
 msgid "&Save"
 msgstr "Lagre"
 
-#: po/texts.cpp:73
+#: po/texts.cpp:76
 msgid "Save As"
 msgstr "Lagre som"
 
-#: po/texts.cpp:74
+#: po/texts.cpp:77
 #, fuzzy
 msgid "Save as..."
 msgstr "Lagre som"
 
-#: po/texts.cpp:75
+#: po/texts.cpp:78
 #, fuzzy
 msgid "S&ave as..."
 msgstr "Lagre som"
 
-#: po/texts.cpp:76
+#: po/texts.cpp:79
 msgid "Close"
 msgstr "Lukk"
 
-#: po/texts.cpp:77
+#: po/texts.cpp:80
 #, fuzzy
 msgid "&Close"
 msgstr "Lukk"
 
-#: po/texts.cpp:78
+#: po/texts.cpp:81
 msgid "&Print..."
 msgstr ""
 
-#: po/texts.cpp:79
+#: po/texts.cpp:82
 msgid "Done"
 msgstr ""
 
-#: po/texts.cpp:80
+#: po/texts.cpp:83
 msgid "Sorry"
 msgstr ""
 
-#: po/texts.cpp:81
+#: po/texts.cpp:84
 msgid "Options"
 msgstr ""
 
-#: po/texts.cpp:82
+#: po/texts.cpp:85
 msgid "Remove"
 msgstr ""
 
-#: po/texts.cpp:83
+#: po/texts.cpp:86
 msgid "Add"
 msgstr ""
 
-#: po/texts.cpp:84
+#: po/texts.cpp:87
 #, fuzzy
 msgid "Change"
 msgstr "Avbryt"
 
-#: po/texts.cpp:85
+#: po/texts.cpp:88
 msgid "Delete"
 msgstr ""
 
-#: po/texts.cpp:86
+#: po/texts.cpp:89
 #, fuzzy
 msgid "Clear"
 msgstr "Lukk"
 
-#: po/texts.cpp:87
+#: po/texts.cpp:90
 #, fuzzy
 msgid "Italic"
 msgstr "kursiv"
 
-#: po/texts.cpp:88
+#: po/texts.cpp:91
 #, fuzzy
 msgid "Roman"
 msgstr "roman"
+
+#: po/texts.cpp:92
+msgid "Undo"
+msgstr ""
+
+#: po/texts.cpp:93
+msgid "&Undo"
+msgstr ""
+
+#: po/texts.cpp:94
+msgid "Redo"
+msgstr ""
+
+#: po/texts.cpp:95
+msgid "&Redo"
+msgstr ""
+
+#: po/texts.cpp:96
+#, fuzzy
+msgid "&Game"
+msgstr "Lagre"
+
+#: po/texts.cpp:97
+msgid "Information"
+msgstr ""
 
 #~ msgid "ERROR: couldn't find icon: %s"
 #~ msgstr "FEIL: kunne ikke finne ikon: %s"
