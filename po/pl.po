@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs \n"
-"POT-Creation-Date: 1999-03-04 01:00+0100\n"
+"POT-Creation-Date: 1999-03-04 17:57+0100\n"
 "PO-Revision-Date: 1999-01-27 23:31+0200\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -889,7 +889,7 @@ msgstr "Próbujesz dodaæ stronê choæ KWizards s± nie do³±czone!"
 msgid "&Default"
 msgstr "&Domy¶lne"
 
-#: kdeui/kquickhelp.cpp:203
+#: kdeui/kquickhelp.cpp:204
 msgid "Quickhelp"
 msgstr "Podpowied¼"
 

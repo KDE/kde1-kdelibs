@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE LIBS\n"
-"POT-Creation-Date: 1999-03-04 01:00+0100\n"
+"POT-Creation-Date: 1999-03-04 17:50+0100\n"
 "PO-Revision-Date: 1999-02-16 18:55-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
@@ -897,7 +897,7 @@ msgstr "Prøver at tilføje side når der ikke er tilføjet nogen KWizards"
 msgid "&Default"
 msgstr "&Standard"
 
-#: kdeui/kquickhelp.cpp:203
+#: kdeui/kquickhelp.cpp:204
 msgid "Quickhelp"
 msgstr "KvikHjælp"
 
@@ -2439,8 +2439,8 @@ msgid ""
 "Use the icons for drag and drop actions, since they refer to the cache files "
 "on your hard disk, while you should use the textual links for browsing"
 msgstr ""
-"Brug ikonerne til træk og slip handlinger da de refererer til cache filer på"
-"din harddisk, men brug tekst links til netsøgning"
+"Brug ikonerne til træk og slip handlinger da de refererer til cache filer "
+"pådin harddisk, men brug tekst links til netsøgning"
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"

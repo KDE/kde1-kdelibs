@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-22 01:01+0100\n"
+"POT-Creation-Date: 1999-03-04 17:57+0100\n"
 "PO-Revision-Date: 1999-02-05 19:46+0200\n"
 "Last-Translator: Hasso C. Tepper <heathcliff@iname.com>\n"
 "Language-Team: Estonian <heathcliff@iname.com>\n"
@@ -48,7 +48,7 @@ msgstr "Saada e-mail rakenduse autorile"
 #: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:400
 #: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:286
 #: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:509
-#: kfile/kfiledialog.cpp:901 kfile/kfiledialogconf.cpp:61 kfmlib/kfm.cpp:407
+#: kfile/kfiledialog.cpp:901 kfile/kfiledialogconf.cpp:61 kfmlib/kfm.cpp:411
 #: po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
@@ -255,95 +255,95 @@ msgstr "Võimalikud väärtused:"
 msgid "Selected values:"
 msgstr "Valitud väärtused:"
 
-#: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1217
+#: kdecore/kaccel.cpp:223 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1217
 #: kfile/kfiledialog.cpp:1377 kfile/kfiledialog.cpp:1411 po/texts.cpp:65
 msgid "Open"
 msgstr "Ava"
 
-#: kdecore/kaccel.cpp:235
+#: kdecore/kaccel.cpp:227
 msgid "New"
 msgstr "Uus"
 
-#: kab/searchresults.cc:30 kdecore/kaccel.cpp:239 po/texts.cpp:80
+#: kab/searchresults.cc:30 kdecore/kaccel.cpp:231 po/texts.cpp:80
 msgid "Close"
 msgstr "Sulge"
 
-#: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1272
+#: kdecore/kaccel.cpp:235 kfile/kfiledialog.cpp:1272
 #: kfile/kfiledialog.cpp:1432 po/texts.cpp:75
 msgid "Save"
 msgstr "Salvesta"
 
-#: kdecore/kaccel.cpp:247 po/texts.cpp:115
+#: kdecore/kaccel.cpp:239 po/texts.cpp:115
 msgid "Print"
 msgstr "Trüki"
 
-#: kdecore/kaccel.cpp:251 po/texts.cpp:52
+#: kdecore/kaccel.cpp:243 po/texts.cpp:52
 msgid "Quit"
 msgstr "Välju"
 
-#: kdecore/kaccel.cpp:255 po/texts.cpp:69
+#: kdecore/kaccel.cpp:247 po/texts.cpp:69
 msgid "Cut"
 msgstr "Lõika"
 
-#: kdecore/kaccel.cpp:259 po/texts.cpp:56
+#: kdecore/kaccel.cpp:251 po/texts.cpp:56
 msgid "Copy"
 msgstr "Kopeeri"
 
-#: kdecore/kaccel.cpp:263 po/texts.cpp:58
+#: kdecore/kaccel.cpp:255 po/texts.cpp:58
 msgid "Paste"
 msgstr "Aseta"
 
-#: kdecore/kaccel.cpp:267 po/texts.cpp:93
+#: kdecore/kaccel.cpp:259 po/texts.cpp:93
 msgid "Undo"
 msgstr "Tühista"
 
-#: kdecore/kaccel.cpp:271 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
+#: kdecore/kaccel.cpp:263 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
 #: kdeui/keditcl2.cpp:360 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:676
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786
 msgid "Find"
 msgstr "Leia"
 
-#: kdecore/kaccel.cpp:275 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
+#: kdecore/kaccel.cpp:267 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
 #: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 kspell/kspelldlg.cpp:110
 #: po/texts.cpp:133
 msgid "Replace"
 msgstr "Asenda"
 
-#: kdecore/kaccel.cpp:279 po/texts.cpp:134
+#: kdecore/kaccel.cpp:271 po/texts.cpp:134
 msgid "Insert"
 msgstr "Lisa"
 
-#: kdecore/kaccel.cpp:283 kfile/kfiledialog.cpp:131
+#: kdecore/kaccel.cpp:275 kfile/kfiledialog.cpp:131
 msgid "Home"
 msgstr "Kodu"
 
-#: kdecore/kaccel.cpp:287
+#: kdecore/kaccel.cpp:279
 msgid "End"
 msgstr "Lõpp"
 
-#: kdecore/kaccel.cpp:291
+#: kdecore/kaccel.cpp:283
 msgid "Prior"
 msgstr "Eelmine"
 
-#: kdecore/kaccel.cpp:295
+#: kdecore/kaccel.cpp:287
 msgid "Next"
 msgstr "Järgmine"
 
-#: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
+#: kdecore/kaccel.cpp:291 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
 #: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 kspell/ksconfig.cpp:212
 #: kspell/kspelldlg.cpp:131 po/texts.cpp:44
 msgid "Help"
 msgstr "Abi"
 
-#: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:661
+#: kdecore/kaccel.cpp:589 kdecore/kaccel.cpp:653
 msgid "SHIFT"
 msgstr "SHIFT"
 
-#: kdecore/kaccel.cpp:601 kdecore/kaccel.cpp:663
+#: kdecore/kaccel.cpp:593 kdecore/kaccel.cpp:655
 msgid "CTRL"
 msgstr "CTRL"
 
-#: kdecore/kaccel.cpp:605 kdecore/kaccel.cpp:665
+#: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:657
 msgid "ALT"
 msgstr "ALT"
 
@@ -410,9 +410,9 @@ msgstr "Ei"
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:403
 #: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:321
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:906
-#: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:697
+#: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:415 kio/kio_job.cc:773
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
-#: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
+#: kio/kio_progress_dlg.cc:64 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
 #: kspell/kspelldlg.cpp:143 po/texts.cpp:39
 msgid "Cancel"
 msgstr "Katkesta"
@@ -871,23 +871,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr "Konflikt klahviga"
 
-#: kdeui/kmenubar.cpp:278 kdeui/ktoolbar.cpp:856
+#: kdeui/kmenubar.cpp:281 kdeui/ktoolbar.cpp:856
 msgid "Top"
 msgstr "Üleval"
 
-#: kdeui/kmenubar.cpp:279 kdeui/ktoolbar.cpp:858
+#: kdeui/kmenubar.cpp:282 kdeui/ktoolbar.cpp:858
 msgid "Bottom"
 msgstr "All"
 
-#: kdeui/kmenubar.cpp:280 kdeui/ktoolbar.cpp:859
+#: kdeui/kmenubar.cpp:283 kdeui/ktoolbar.cpp:859
 msgid "Floating"
 msgstr "Ujuv"
 
-#: kdeui/kmenubar.cpp:429 kdeui/kmenubar.cpp:771 kdeui/ktoolbar.cpp:2170
+#: kdeui/kmenubar.cpp:432 kdeui/kmenubar.cpp:774 kdeui/ktoolbar.cpp:2170
 msgid "Float"
 msgstr "Liikuv"
 
-#: kdeui/kmenubar.cpp:723 kdeui/ktoolbar.cpp:2151
+#: kdeui/kmenubar.cpp:726 kdeui/ktoolbar.cpp:2151
 msgid "UnFloat"
 msgstr "Liikumatu"
 
@@ -899,7 +899,7 @@ msgstr "Üritatud lisada lehekülge samal ajal kui KWizard'it ei ole lisatud!"
 msgid "&Default"
 msgstr "&Vaikimisi"
 
-#: kdeui/kquickhelp.cpp:203
+#: kdeui/kquickhelp.cpp:204
 msgid "Quickhelp"
 msgstr "Kiirabi"
 
@@ -1279,8 +1279,8 @@ msgstr "Loo juure ja lisandi kombinatsioonid, mida ei leidu sõnaraamatus"
 msgid "Consider run-together words as spelling errors"
 msgstr "Tõlgenda kokkujooksnud sõnu vigadena"
 
-#: kspell/ksconfig.cpp:92
 #
+#: kspell/ksconfig.cpp:92
 msgid "Dictionary"
 msgstr "Sõnaraamat"
 
@@ -1288,8 +1288,8 @@ msgstr "Sõnaraamat"
 msgid "Encoding:"
 msgstr "Kodeering:"
 
-#: kspell/ksconfig.cpp:147
 #
+#: kspell/ksconfig.cpp:147
 msgid "Latin1"
 msgstr "Latin1"
 
@@ -1305,8 +1305,8 @@ msgstr "Inglise"
 msgid "Spanish"
 msgstr "Hispaania"
 
-#: kspell/ksconfig.cpp:304
 #
+#: kspell/ksconfig.cpp:304
 msgid "German"
 msgstr "Saksa"
 
@@ -1318,8 +1318,8 @@ msgstr "Brasiilia portugali"
 msgid "Unknown"
 msgstr "Tundmatu"
 
-#: kspell/ksconfig.cpp:348
 #
+#: kspell/ksconfig.cpp:348
 msgid "ISpell Default"
 msgstr "ISpell'i vaikeväärtused"
 
@@ -1327,8 +1327,8 @@ msgstr "ISpell'i vaikeväärtused"
 msgid "Misspelled Word:"
 msgstr "Valesti kirjutatud sõna:"
 
-#: kspell/kspelldlg.cpp:68
 #
+#: kspell/kspelldlg.cpp:68
 msgid "Replacement:"
 msgstr "Asendus:"
 
@@ -1336,13 +1336,13 @@ msgstr "Asendus:"
 msgid "Suggestions:"
 msgstr "Soovitused:"
 
-#: kspell/kspelldlg.cpp:88
 #
+#: kspell/kspelldlg.cpp:88
 msgid "Ignore"
 msgstr "Ignoreeri"
 
-#: kspell/kspelldlg.cpp:99
 #
+#: kspell/kspelldlg.cpp:99
 msgid "Ignore All"
 msgstr "Ignoreeri kõiki"
 
@@ -1926,8 +1926,8 @@ msgstr "&Nimi"
 msgid "Address:"
 msgstr "Aadress:"
 
-#: kab/editentry.cc:104
 #
+#: kab/editentry.cc:104
 msgid "Town/City:"
 msgstr "Linn:"
 
@@ -1935,8 +1935,8 @@ msgstr "Linn:"
 msgid "State:"
 msgstr "Osariik:"
 
-#: kab/editentry.cc:106
 #
+#: kab/editentry.cc:106
 msgid "Zip/Postal Code:"
 msgstr "Postiindeks:"
 
@@ -1952,8 +1952,8 @@ msgstr "&Aadress"
 msgid "Organization:"
 msgstr "Organisatsioon:"
 
-#: kab/editentry.cc:146
 #
+#: kab/editentry.cc:146
 msgid "Department:"
 msgstr "Osakond:"
 
@@ -1961,8 +1961,8 @@ msgstr "Osakond:"
 msgid "Sub-Department:"
 msgstr "Alam-osakond:"
 
-#: kab/editentry.cc:148
 #
+#: kab/editentry.cc:148
 msgid "Job/Role:"
 msgstr "Amet:"
 
@@ -1998,8 +1998,8 @@ msgstr "Redigeeri kõneaadresseid"
 msgid "&Contact"
 msgstr "&Kontakt"
 
-#: kab/editentry.cc:239
 #
+#: kab/editentry.cc:239
 msgid "Additional Comment:"
 msgstr "Täiendav kommentaar:"
 
@@ -2782,12 +2782,12 @@ msgstr ""
 msgid "Ok"
 msgstr "Ok"
 
-#: kio/kio_job.cc:138
+#: kio/kio_job.cc:184
 #, c-format
 msgid "Mounting %s ..."
 msgstr "%s ühendamine ..."
 
-#: kio/kio_job.cc:158
+#: kio/kio_job.cc:204
 #, c-format
 msgid "Unmounting %s ..."
 msgstr "%s lahti ühendamine ..."
@@ -2831,63 +2831,78 @@ msgstr "Sa ei sisestanud faili nime"
 msgid "The file %s does already exist. Do you really want to overwrite it ?"
 msgstr "Fail nimega %s eksisteerib juba. Soovid sa tõesti selle üle kirjutada?"
 
-#: kio/kio_progress_dlg.cc:92 kio/kio_progress_dlg.cc:108
-msgid " Bytes"
+#: kio/kio_progress_dlg.cc:108 kio/kio_progress_dlg.cc:124
+#, fuzzy
+msgid "Bytes"
 msgstr " Baiti"
 
-#: kio/kio_progress_dlg.cc:97 kio/kio_progress_dlg.cc:113
-msgid " Kb"
+#: kio/kio_progress_dlg.cc:113 kio/kio_progress_dlg.cc:129
+#, fuzzy
+msgid "Kb"
 msgstr " Kb"
 
-#: kio/kio_progress_dlg.cc:102 kio/kio_progress_dlg.cc:118
-msgid " Mb"
+#: kio/kio_progress_dlg.cc:118 kio/kio_progress_dlg.cc:134
+#, fuzzy
+msgid "Mb"
 msgstr " Mb"
 
-#: kio/kio_progress_dlg.cc:151 kio/kio_progress_dlg.cc:177
+#: kio/kio_progress_dlg.cc:139 kio/kio_progress_dlg.cc:146
+msgid "of"
+msgstr ""
+
+#: kio/kio_progress_dlg.cc:171 kio/kio_progress_dlg.cc:197
 msgid "Stalled"
 msgstr "Peatunud"
 
-#: kio/kio_progress_dlg.cc:159
+#: kio/kio_progress_dlg.cc:179
 msgid " Bytes/s"
 msgstr " Baiti/s"
 
-#: kio/kio_progress_dlg.cc:164
+#: kio/kio_progress_dlg.cc:184
 msgid " Kb/s"
 msgstr " Kb/s"
 
-#: kio/kio_progress_dlg.cc:169
+#: kio/kio_progress_dlg.cc:189
 msgid " Mb/s"
 msgstr " Mb/s"
 
-#: kio/kio_progress_dlg.cc:184
+#: kio/kio_progress_dlg.cc:204
 #, c-format
 msgid "%i seconds"
 msgstr "%i sekundit"
 
-#: kio/kio_progress_dlg.cc:190
+#: kio/kio_progress_dlg.cc:210
 #, c-format
 msgid "%i:%i"
 msgstr "%i:%i"
 
-#: kio/kio_progress_dlg.cc:197
+#: kio/kio_progress_dlg.cc:217
 #, c-format
 msgid "%i:%i:%i"
 msgstr "%i:%i:%i"
 
-#: kio/kio_progress_dlg.cc:201
+#: kio/kio_progress_dlg.cc:221
 #, c-format
 msgid "%i%s  Remaining time: %s"
 msgstr "%i%s  Järelejäänud aeg: %s"
 
-#: kio/kio_progress_dlg.cc:207
+#: kio/kio_progress_dlg.cc:227
 msgid "Scanning "
 msgstr "Läbivaatus "
 
-#: kio/kio_progress_dlg.cc:222
+#: kio/kio_progress_dlg.cc:234
+msgid "From : "
+msgstr ""
+
+#: kio/kio_progress_dlg.cc:238
+msgid "To: "
+msgstr ""
+
+#: kio/kio_progress_dlg.cc:245
 msgid "Creating dir "
 msgstr "Kataloogi loomine "
 
-#: kio/kio_progress_dlg.cc:229
+#: kio/kio_progress_dlg.cc:252
 msgid "Fetching file"
 msgstr "Faili võtmine"
 
@@ -3069,4 +3084,4 @@ msgstr ""
 #~ msgstr "Filiaal:"
 
 #~ msgid "Comment:"
-#~ msgstr "Kommentaar:"ÿ
+#~ msgstr "Kommentaar:"

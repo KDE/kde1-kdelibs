@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs 1.1\n"
-"POT-Creation-Date: 1999-03-04 01:00+0100\n"
+"POT-Creation-Date: 1999-03-04 17:57+0100\n"
 "PO-Revision-Date: 1999-02-05 21:40+01:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
@@ -899,7 +899,7 @@ msgstr "Försöker lägga till sida när inga KWizards har lagts till!"
 msgid "&Default"
 msgstr "&Standard"
 
-#: kdeui/kquickhelp.cpp:203
+#: kdeui/kquickhelp.cpp:204
 msgid "Quickhelp"
 msgstr "Snabbhjälp"
 

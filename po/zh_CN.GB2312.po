@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1999-03-04 01:00+0100\n"
+"POT-Creation-Date: 1999-03-04 17:57+0100\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -901,7 +901,7 @@ msgstr "试图在没有 KWizards 的情况下添加页 !"
 msgid "&Default"
 msgstr "默认[&D]"
 
-#: kdeui/kquickhelp.cpp:203
+#: kdeui/kquickhelp.cpp:204
 msgid "Quickhelp"
 msgstr ""
 

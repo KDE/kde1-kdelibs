@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-03-04 01:00+0100\n"
+"POT-Creation-Date: 1999-03-04 17:50+0100\n"
 "PO-Revision-Date: 1999-02-05 22:51\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
@@ -900,7 +900,7 @@ msgstr "S'està provant d'afegir pàgina quan no s'han afegit KWizards!"
 msgid "&Default"
 msgstr "&Omissió"
 
-#: kdeui/kquickhelp.cpp:203
+#: kdeui/kquickhelp.cpp:204
 msgid "Quickhelp"
 msgstr "Ajuda ràpida"
 

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs-1.1\n"
-"POT-Creation-Date: 1999-03-04 01:00+0100\n"
+"POT-Creation-Date: 1999-03-04 17:50+0100\n"
 "PO-Revision-Date: 1999-02-26 18:23+0100\n"
 "Last-Translator: Jañ-Mai Drapier <jdrapier@club-internet.fr>\n"
 "Language-Team: Brezhoneg <Suav.Icb@wanadoo.fr>\n"
@@ -896,7 +896,7 @@ msgstr "O klask ouzhpennañ ur bajenn pa n'eus KWizard ouzhpennet ebet !"
 msgid "&Default"
 msgstr "&Dre ziouer"
 
-#: kdeui/kquickhelp.cpp:203
+#: kdeui/kquickhelp.cpp:204
 msgid "Quickhelp"
 msgstr "SkoazellADizh"
 

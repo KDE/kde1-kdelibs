@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-03-04 01:00+0100\n"
+"POT-Creation-Date: 1999-03-04 17:57+0100\n"
 "PO-Revision-Date: Sat Jen 2 1999 15:30:00+0200\n"
 "Last-Translator: Andrea Rizzi <rizzi@kde.org>\n"
 "Language-Team: Italiano <it@li.org>\n"
@@ -909,7 +909,7 @@ msgstr "Tentativo di aggiungere una pagina quando non ci sono KWizard!"
 msgid "&Default"
 msgstr "&Predefinito"
 
-#: kdeui/kquickhelp.cpp:203
+#: kdeui/kquickhelp.cpp:204
 msgid "Quickhelp"
 msgstr "Aiuto rapido"
 

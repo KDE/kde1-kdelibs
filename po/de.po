@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-03-04 01:00+0100\n"
+"POT-Creation-Date: 1999-03-04 17:50+0100\n"
 "PO-Revision-Date: 1999-02-05 09:30+MET\n"
 "Last-Translator:Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: de (de@li.org)\n"
@@ -896,7 +896,7 @@ msgstr ""
 msgid "&Default"
 msgstr "&Standard"
 
-#: kdeui/kquickhelp.cpp:203
+#: kdeui/kquickhelp.cpp:204
 msgid "Quickhelp"
 msgstr "Schnell-Hilfe"
 

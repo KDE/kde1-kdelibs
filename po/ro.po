@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-03-04 01:00+0100\n"
+"POT-Creation-Date: 1999-03-04 17:57+0100\n"
 "Last-Translator: Paul Ionescu <omy@main.romsoft.ro>\n"
 
 #: kab/AssertDialog.cpp:29
@@ -879,7 +879,7 @@ msgstr "Încerc sã adaug o paginã când nici un KWizard nu a fost adãugat!"
 msgid "&Default"
 msgstr "&Implicit"
 
-#: kdeui/kquickhelp.cpp:203
+#: kdeui/kquickhelp.cpp:204
 msgid "Quickhelp"
 msgstr ""
 
