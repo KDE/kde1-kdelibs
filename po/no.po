@@ -959,7 +959,7 @@ msgstr "Nytt Vin&du..."
 
 #: po/texts.cpp:67
 msgid "&New Window"
-msgstr "&Nytt indu"
+msgstr "&Nytt vindu"
 
 #: po/texts.cpp:68
 msgid "New Game"
