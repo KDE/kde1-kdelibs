@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-15 01:01+0100\n"
+"POT-Creation-Date: 1999-01-16 01:03+0100\n"
 "PO-Revision-Date: 1998-12-01 HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: hebrew <he@li.org>\n"
@@ -46,8 +46,8 @@ msgstr ""
 #: kdeui/kcolordlg.cpp:467 kdeui/kcontrol.cpp:46 kdeui/kcontrol.cpp:51
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:155 kdeui/keditcl1.cpp:170
 #: kdeui/keditcl1.cpp:191 kdeui/keditcl1.cpp:204 kdeui/keditcl1.cpp:1561
-#: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:391
-#: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:277
+#: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:397
+#: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:283
 #: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:509
 #: kfile/kfiledialog.cpp:890 kfile/kfiledialogconf.cpp:61 kfmlib/kfm.cpp:407
 #: po/texts.cpp:35
@@ -340,24 +340,24 @@ msgstr ""
 msgid "ALT"
 msgstr ""
 
-#: kdecore/kapp.cpp:601 po/texts.cpp:137
+#: kdecore/kapp.cpp:605 po/texts.cpp:137
 #, fuzzy
 msgid "&Contents"
 msgstr "ןכות"
 
-#: kdecore/kapp.cpp:607
+#: kdecore/kapp.cpp:611
 msgid "&About"
 msgstr "תודו&א"
 
-#: kdecore/kapp.cpp:614
+#: kdecore/kapp.cpp:618
 msgid "About &KDE..."
 msgstr "...&KDE  תודוא"
 
-#: kdecore/kapp.cpp:635
+#: kdecore/kapp.cpp:639
 msgid "About KDE"
 msgstr "KDE  תודוא"
 
-#: kdecore/kapp.cpp:637
+#: kdecore/kapp.cpp:641
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -374,7 +374,7 @@ msgstr ""
 #: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661
 #: kdeui/keditcl2.cpp:106 kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:363
 #: kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426 kdeui/keditcl2.cpp:456
-#: kdeui/keditcl2.cpp:473 kdeui/kmsgbox.cpp:294 kdeui/kmsgbox.cpp:310
+#: kdeui/keditcl2.cpp:473 kdeui/kmsgbox.cpp:300 kdeui/kmsgbox.cpp:316
 #: kio/kio_paste.cc:98 po/texts.cpp:27
 msgid "Yes"
 msgstr "ןכ"
@@ -383,7 +383,7 @@ msgstr "ןכ"
 #: kdeui/keditcl1.cpp:495 kdeui/keditcl1.cpp:515 kdeui/keditcl1.cpp:1662
 #: kdeui/keditcl2.cpp:107 kdeui/keditcl2.cpp:124 kdeui/keditcl2.cpp:364
 #: kdeui/keditcl2.cpp:381 kdeui/keditcl2.cpp:427 kdeui/keditcl2.cpp:457
-#: kdeui/keditcl2.cpp:474 kdeui/kmsgbox.cpp:292 kdeui/kmsgbox.cpp:308
+#: kdeui/keditcl2.cpp:474 kdeui/kmsgbox.cpp:298 kdeui/kmsgbox.cpp:314
 #: kio/kio_paste.cc:98 po/texts.cpp:28
 msgid "No"
 msgstr "אל"
@@ -391,8 +391,8 @@ msgstr "אל"
 #: kab/datepickerdialog.cc:26 kab/kabapi.cc:38 kab/widget.cc:1384
 #: kab/widget.cc:1426 kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:470
 #: kdeui/kcontrol.cpp:48 kdeui/kcontrol.cpp:55 kdeui/keditcl1.cpp:414
-#: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:394
-#: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:312
+#: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:400
+#: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:318
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:895
 #: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:697
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
@@ -644,81 +644,81 @@ msgstr "הרושל רובע"
 msgid "Go"
 msgstr "לחתה"
 
-#: kdeui/kfontdialog.cpp:168
+#: kdeui/kfontdialog.cpp:174
 msgid "Select Font"
 msgstr "ןפוג רחב"
 
-#: kdeui/kfontdialog.cpp:172
+#: kdeui/kfontdialog.cpp:178
 msgid "Requested Font"
 msgstr "שקובמ ןפוג"
 
-#: kdeui/kfontdialog.cpp:173
+#: kdeui/kfontdialog.cpp:179
 msgid "Actual Font"
 msgstr "ןימז ןפוג"
 
-#: kdeui/kfontdialog.cpp:193 kdeui/kfontdialog.cpp:198
+#: kdeui/kfontdialog.cpp:199 kdeui/kfontdialog.cpp:204
 msgid "Family:"
 msgstr "החפשמ:"
 
-#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:210 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:211 kdeui/kfontdialog.cpp:216 po/texts.cpp:26
 msgid "Charset:"
 msgstr "דודיק:"
 
-#: kdeui/kfontdialog.cpp:218 kdeui/kfontdialog.cpp:223 kfile/kpreview.cpp:196
+#: kdeui/kfontdialog.cpp:224 kdeui/kfontdialog.cpp:229 kfile/kpreview.cpp:196
 msgid "Size:"
 msgstr "לדוג:"
 
-#: kdeui/kfontdialog.cpp:230 kdeui/kfontdialog.cpp:235
+#: kdeui/kfontdialog.cpp:236 kdeui/kfontdialog.cpp:241
 msgid "Weight:"
 msgstr "השגדה:"
 
-#: kdeui/kfontdialog.cpp:242 kdeui/kfontdialog.cpp:247
+#: kdeui/kfontdialog.cpp:248 kdeui/kfontdialog.cpp:253
 msgid "Style:"
 msgstr "ןונגס:"
 
-#: kdeui/kfontdialog.cpp:275 kfile/kfiledetaillist.cpp:38
+#: kdeui/kfontdialog.cpp:281 kfile/kfiledetaillist.cpp:38
 msgid "Size"
 msgstr "לדוג"
 
-#: kdeui/kfontdialog.cpp:313
+#: kdeui/kfontdialog.cpp:319
 msgid "Weight"
 msgstr "השגדה"
 
-#: kdeui/kfontdialog.cpp:316 kdeui/kfontdialog.cpp:475
+#: kdeui/kfontdialog.cpp:322 kdeui/kfontdialog.cpp:481
 msgid "normal"
 msgstr "ליגר"
 
-#: kdeui/kfontdialog.cpp:317 kdeui/kfontdialog.cpp:477
+#: kdeui/kfontdialog.cpp:323 kdeui/kfontdialog.cpp:483
 msgid "bold"
 msgstr "שגדומ"
 
-#: kdeui/kfontdialog.cpp:327
+#: kdeui/kfontdialog.cpp:333
 msgid "Style"
 msgstr "ןונגס"
 
-#: kdeui/kfontdialog.cpp:330 kdeui/kfontdialog.cpp:488
-#: kdeui/kfontdialog.cpp:517
+#: kdeui/kfontdialog.cpp:336 kdeui/kfontdialog.cpp:494
+#: kdeui/kfontdialog.cpp:523
 msgid "roman"
 msgstr "ףוקז"
 
-#: kdeui/kfontdialog.cpp:331 kdeui/kfontdialog.cpp:490
-#: kdeui/kfontdialog.cpp:515
+#: kdeui/kfontdialog.cpp:337 kdeui/kfontdialog.cpp:496
+#: kdeui/kfontdialog.cpp:521
 msgid "italic"
 msgstr "יוטנ"
 
-#: kdeui/kfontdialog.cpp:339
+#: kdeui/kfontdialog.cpp:345
 msgid "Charset"
 msgstr "דודיק"
 
-#: kdeui/kfontdialog.cpp:358
+#: kdeui/kfontdialog.cpp:364
 msgid "Dolor Ipse"
 msgstr "Abcd דגבא"
 
-#: kdeui/kfontdialog.cpp:510
+#: kdeui/kfontdialog.cpp:516
 msgid "Bold"
 msgstr "שגדומ"
 
-#: kdeui/kfontdialog.cpp:512
+#: kdeui/kfontdialog.cpp:518
 msgid "Normal"
 msgstr "ליגר"
 
@@ -845,23 +845,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr ""
 
-#: kdeui/kmenubar.cpp:269 kdeui/ktoolbar.cpp:847
+#: kdeui/kmenubar.cpp:275 kdeui/ktoolbar.cpp:853
 msgid "Top"
 msgstr "ןוילע"
 
-#: kdeui/kmenubar.cpp:270 kdeui/ktoolbar.cpp:849
+#: kdeui/kmenubar.cpp:276 kdeui/ktoolbar.cpp:855
 msgid "Bottom"
 msgstr "ןותחת"
 
-#: kdeui/kmenubar.cpp:271 kdeui/ktoolbar.cpp:850
+#: kdeui/kmenubar.cpp:277 kdeui/ktoolbar.cpp:856
 msgid "Floating"
 msgstr "ףחרמ"
 
-#: kdeui/kmenubar.cpp:420 kdeui/kmenubar.cpp:762 kdeui/ktoolbar.cpp:2161
+#: kdeui/kmenubar.cpp:426 kdeui/kmenubar.cpp:768 kdeui/ktoolbar.cpp:2167
 msgid "Float"
 msgstr "ףחר"
 
-#: kdeui/kmenubar.cpp:714 kdeui/ktoolbar.cpp:2142
+#: kdeui/kmenubar.cpp:720 kdeui/ktoolbar.cpp:2148
 msgid "UnFloat"
 msgstr "עבק"
 
@@ -878,15 +878,15 @@ msgstr "קח&מ"
 msgid "Quickhelp"
 msgstr ""
 
-#: kdeui/ktoolbar.cpp:275 kdeui/ktoolbar.cpp:327
+#: kdeui/ktoolbar.cpp:281 kdeui/ktoolbar.cpp:333
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "ץבוק רסחו ןכתי ,הקיר הנומת :םילכ לגרס"
 
-#: kdeui/ktoolbar.cpp:846
+#: kdeui/ktoolbar.cpp:852
 msgid "Left"
 msgstr "לאמש"
 
-#: kdeui/ktoolbar.cpp:848
+#: kdeui/ktoolbar.cpp:854
 msgid "Right"
 msgstr "ןימי"
 

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1999-01-15 01:01+0100\n"
+"POT-Creation-Date: 1999-01-16 01:03+0100\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -39,8 +39,8 @@ msgstr ""
 #: kdeui/kcolordlg.cpp:467 kdeui/kcontrol.cpp:46 kdeui/kcontrol.cpp:51
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:155 kdeui/keditcl1.cpp:170
 #: kdeui/keditcl1.cpp:191 kdeui/keditcl1.cpp:204 kdeui/keditcl1.cpp:1561
-#: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:391
-#: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:277
+#: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:397
+#: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:283
 #: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:509
 #: kfile/kfiledialog.cpp:890 kfile/kfiledialogconf.cpp:61 kfmlib/kfm.cpp:407
 #: po/texts.cpp:35
@@ -338,23 +338,23 @@ msgstr ""
 msgid "ALT"
 msgstr ""
 
-#: kdecore/kapp.cpp:601 po/texts.cpp:137
+#: kdecore/kapp.cpp:605 po/texts.cpp:137
 msgid "&Contents"
 msgstr "内容[&C]"
 
-#: kdecore/kapp.cpp:607
+#: kdecore/kapp.cpp:611
 msgid "&About"
 msgstr "有关[&A]"
 
-#: kdecore/kapp.cpp:614
+#: kdecore/kapp.cpp:618
 msgid "About &KDE..."
 msgstr "关于 &KDE..."
 
-#: kdecore/kapp.cpp:635
+#: kdecore/kapp.cpp:639
 msgid "About KDE"
 msgstr "关于 KDE"
 
-#: kdecore/kapp.cpp:637
+#: kdecore/kapp.cpp:641
 #, fuzzy
 msgid ""
 "\n"
@@ -380,7 +380,7 @@ msgstr ""
 #: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661
 #: kdeui/keditcl2.cpp:106 kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:363
 #: kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426 kdeui/keditcl2.cpp:456
-#: kdeui/keditcl2.cpp:473 kdeui/kmsgbox.cpp:294 kdeui/kmsgbox.cpp:310
+#: kdeui/keditcl2.cpp:473 kdeui/kmsgbox.cpp:300 kdeui/kmsgbox.cpp:316
 #: kio/kio_paste.cc:98 po/texts.cpp:27
 msgid "Yes"
 msgstr "是"
@@ -389,7 +389,7 @@ msgstr "是"
 #: kdeui/keditcl1.cpp:495 kdeui/keditcl1.cpp:515 kdeui/keditcl1.cpp:1662
 #: kdeui/keditcl2.cpp:107 kdeui/keditcl2.cpp:124 kdeui/keditcl2.cpp:364
 #: kdeui/keditcl2.cpp:381 kdeui/keditcl2.cpp:427 kdeui/keditcl2.cpp:457
-#: kdeui/keditcl2.cpp:474 kdeui/kmsgbox.cpp:292 kdeui/kmsgbox.cpp:308
+#: kdeui/keditcl2.cpp:474 kdeui/kmsgbox.cpp:298 kdeui/kmsgbox.cpp:314
 #: kio/kio_paste.cc:98 po/texts.cpp:28
 msgid "No"
 msgstr "否"
@@ -397,8 +397,8 @@ msgstr "否"
 #: kab/datepickerdialog.cc:26 kab/kabapi.cc:38 kab/widget.cc:1384
 #: kab/widget.cc:1426 kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:470
 #: kdeui/kcontrol.cpp:48 kdeui/kcontrol.cpp:55 kdeui/keditcl1.cpp:414
-#: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:394
-#: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:312
+#: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:400
+#: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:318
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:895
 #: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:697
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
@@ -665,82 +665,82 @@ msgstr "跳至行数"
 msgid "Go"
 msgstr "跳"
 
-#: kdeui/kfontdialog.cpp:168
+#: kdeui/kfontdialog.cpp:174
 msgid "Select Font"
 msgstr "选择字体"
 
-#: kdeui/kfontdialog.cpp:172
+#: kdeui/kfontdialog.cpp:178
 msgid "Requested Font"
 msgstr "要求的字体"
 
-#: kdeui/kfontdialog.cpp:173
+#: kdeui/kfontdialog.cpp:179
 msgid "Actual Font"
 msgstr "实际字体"
 
-#: kdeui/kfontdialog.cpp:193 kdeui/kfontdialog.cpp:198
+#: kdeui/kfontdialog.cpp:199 kdeui/kfontdialog.cpp:204
 msgid "Family:"
 msgstr "族类:"
 
-#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:210 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:211 kdeui/kfontdialog.cpp:216 po/texts.cpp:26
 msgid "Charset:"
 msgstr "字符集:"
 
-#: kdeui/kfontdialog.cpp:218 kdeui/kfontdialog.cpp:223 kfile/kpreview.cpp:196
+#: kdeui/kfontdialog.cpp:224 kdeui/kfontdialog.cpp:229 kfile/kpreview.cpp:196
 msgid "Size:"
 msgstr "大小"
 
-#: kdeui/kfontdialog.cpp:230 kdeui/kfontdialog.cpp:235
+#: kdeui/kfontdialog.cpp:236 kdeui/kfontdialog.cpp:241
 msgid "Weight:"
 msgstr "厚度:"
 
-#: kdeui/kfontdialog.cpp:242 kdeui/kfontdialog.cpp:247
+#: kdeui/kfontdialog.cpp:248 kdeui/kfontdialog.cpp:253
 msgid "Style:"
 msgstr "风格:"
 
-#: kdeui/kfontdialog.cpp:275 kfile/kfiledetaillist.cpp:38
+#: kdeui/kfontdialog.cpp:281 kfile/kfiledetaillist.cpp:38
 msgid "Size"
 msgstr "大小"
 
-#: kdeui/kfontdialog.cpp:313
+#: kdeui/kfontdialog.cpp:319
 msgid "Weight"
 msgstr "笔划轻重"
 
-#: kdeui/kfontdialog.cpp:316 kdeui/kfontdialog.cpp:475
+#: kdeui/kfontdialog.cpp:322 kdeui/kfontdialog.cpp:481
 msgid "normal"
 msgstr "正常"
 
-#: kdeui/kfontdialog.cpp:317 kdeui/kfontdialog.cpp:477
+#: kdeui/kfontdialog.cpp:323 kdeui/kfontdialog.cpp:483
 msgid "bold"
 msgstr "粗体"
 
-#: kdeui/kfontdialog.cpp:327
+#: kdeui/kfontdialog.cpp:333
 msgid "Style"
 msgstr "风格"
 
-#: kdeui/kfontdialog.cpp:330 kdeui/kfontdialog.cpp:488
-#: kdeui/kfontdialog.cpp:517
+#: kdeui/kfontdialog.cpp:336 kdeui/kfontdialog.cpp:494
+#: kdeui/kfontdialog.cpp:523
 msgid "roman"
 msgstr "正体"
 
-#: kdeui/kfontdialog.cpp:331 kdeui/kfontdialog.cpp:490
-#: kdeui/kfontdialog.cpp:515
+#: kdeui/kfontdialog.cpp:337 kdeui/kfontdialog.cpp:496
+#: kdeui/kfontdialog.cpp:521
 msgid "italic"
 msgstr "斜体"
 
-#: kdeui/kfontdialog.cpp:339
+#: kdeui/kfontdialog.cpp:345
 msgid "Charset"
 msgstr "字符集"
 
 #
-#: kdeui/kfontdialog.cpp:358
+#: kdeui/kfontdialog.cpp:364
 msgid "Dolor Ipse"
 msgstr "Dolor Ipse"
 
-#: kdeui/kfontdialog.cpp:510
+#: kdeui/kfontdialog.cpp:516
 msgid "Bold"
 msgstr "粗体"
 
-#: kdeui/kfontdialog.cpp:512
+#: kdeui/kfontdialog.cpp:518
 msgid "Normal"
 msgstr "正常"
 
@@ -870,23 +870,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr ""
 
-#: kdeui/kmenubar.cpp:269 kdeui/ktoolbar.cpp:847
+#: kdeui/kmenubar.cpp:275 kdeui/ktoolbar.cpp:853
 msgid "Top"
 msgstr "顶端"
 
-#: kdeui/kmenubar.cpp:270 kdeui/ktoolbar.cpp:849
+#: kdeui/kmenubar.cpp:276 kdeui/ktoolbar.cpp:855
 msgid "Bottom"
 msgstr "底端"
 
-#: kdeui/kmenubar.cpp:271 kdeui/ktoolbar.cpp:850
+#: kdeui/kmenubar.cpp:277 kdeui/ktoolbar.cpp:856
 msgid "Floating"
 msgstr "浮动"
 
-#: kdeui/kmenubar.cpp:420 kdeui/kmenubar.cpp:762 kdeui/ktoolbar.cpp:2161
+#: kdeui/kmenubar.cpp:426 kdeui/kmenubar.cpp:768 kdeui/ktoolbar.cpp:2167
 msgid "Float"
 msgstr "浮动"
 
-#: kdeui/kmenubar.cpp:714 kdeui/ktoolbar.cpp:2142
+#: kdeui/kmenubar.cpp:720 kdeui/ktoolbar.cpp:2148
 msgid "UnFloat"
 msgstr "固定"
 
@@ -903,15 +903,15 @@ msgstr "默认[&D]"
 msgid "Quickhelp"
 msgstr ""
 
-#: kdeui/ktoolbar.cpp:275 kdeui/ktoolbar.cpp:327
+#: kdeui/ktoolbar.cpp:281 kdeui/ktoolbar.cpp:333
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: 空的图标, 也许缺少某些文件"
 
-#: kdeui/ktoolbar.cpp:846
+#: kdeui/ktoolbar.cpp:852
 msgid "Left"
 msgstr "左"
 
-#: kdeui/ktoolbar.cpp:848
+#: kdeui/ktoolbar.cpp:854
 msgid "Right"
 msgstr "右"
 
