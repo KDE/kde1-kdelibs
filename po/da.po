@@ -22,17 +22,17 @@ msgstr "Hjælp"
 #: kdecore/kapp.cpp:424
 #, fuzzy
 msgid "&About"
-msgstr "Omkring"
+msgstr "Om"
 
 #: kdecore/kapp.cpp:428
 #, fuzzy
 msgid "About &KDE..."
-msgstr "Omkring"
+msgstr "Om &KDE"
 
 #: kdecore/kapp.cpp:449
 #, fuzzy
 msgid "About KDE"
-msgstr "Omkring"
+msgstr "Om KDE"
 
 #: kdecore/kapp.cpp:451
 #, fuzzy
@@ -47,9 +47,9 @@ msgid ""
 "Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
 "Qt may be used freely to develop free software on the X Window System.\n"
 msgstr ""
-"KDE Desktop Environment er udviklet fra KDE teamen.\n"
+"KDE Desktop Environment er udviklet af KDE teamet.\n"
 "\n"
-"Please send bug reports to kde-bugs@kde.org.\n"
+"Send bug rapporter til kde-bugs@kde.org.\n"
 "\n"
 "\n"
 "Dette program er udviklet med Qt - et tværplatforms-GUI-bibliotek.\n"
@@ -83,7 +83,7 @@ msgstr "Ok"
 #: kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897 kdeui/kfontdialog.cpp:317
 #: kdeui/kiconloaderdialog.cpp:211 kdeui/kmsgbox.cpp:509 po/texts.cpp:40
 msgid "Cancel"
-msgstr "Annuler"
+msgstr "Annuller"
 
 #: kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34 po/texts.cpp:45
 msgid "Help"
@@ -107,32 +107,32 @@ msgstr "Anvend"
 #: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
 #: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:87
 msgid "Sorry"
-msgstr ""
+msgstr "Desværre"
 
 #: kdeui/keditcl1.cpp:128
 msgid "The specified File does not exist"
-msgstr ""
+msgstr "Den valgte fil eksisterer ikke"
 
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:494
 #: kdeui/keditcl1.cpp:1627
 msgid "Sorry:"
-msgstr ""
+msgstr "Desværre:"
 
 #: kdeui/keditcl1.cpp:142
 msgid "You have specificated a directory"
-msgstr ""
+msgstr "Du har valgt en folder"
 
 #: kdeui/keditcl1.cpp:157 kdeui/keditcl1.cpp:178
 msgid "You do not have read permission to this file."
-msgstr ""
+msgstr "Du har ikke læse tilladelse til denne fil"
 
 #: kdeui/keditcl1.cpp:191
 msgid "An Error occured while trying to open this Document"
-msgstr ""
+msgstr "Der opstod en fejl ved indlæsningen af dette dokument"
 
 #: kdeui/keditcl1.cpp:356
 msgid "Select Document to Insert"
-msgstr ""
+msgstr "Vælg dolument til at indsætte"
 
 #: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1570
 #, fuzzy
@@ -144,6 +144,8 @@ msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
 msgstr ""
+"Det aktuelle dokument er ændret.\n"
+"Vil du gemme det?"
 
 #: kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416 kdeui/keditcl1.cpp:477
 #: kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573 kdeui/keditcl2.cpp:108
@@ -166,16 +168,20 @@ msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
+"Kunne ikke gemme det aktuelle dokument.\n"
+"Vil du åbne et nyt alligevel?"
 
 #: kdeui/keditcl1.cpp:445
 msgid "Select Document to Open"
-msgstr ""
+msgstr "Vælg et dokument at åbne"
 
 #: kdeui/keditcl1.cpp:495
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
+"Kunne ikke gemme det aktuelle dokument.\n"
+"Vil du oprette et ny alligevel?"
 
 #: kdeui/keditcl1.cpp:530 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
 msgid "Untitled"
@@ -183,7 +189,7 @@ msgstr "Uden navn"
 
 #: kdeui/keditcl1.cpp:1472
 msgid "Could not save the document\n"
-msgstr ""
+msgstr "Kunne ikke gemme dokumentet\n"
 
 #: kdeui/keditcl1.cpp:1542
 #, fuzzy
@@ -195,10 +201,12 @@ msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
 msgstr ""
+"Et dokument med dette navn eksisterer allerede.\n"
+"Vil du overskrive det?"
 
 #: kdeui/keditcl1.cpp:1628
 msgid "You do not have write permission to this file.\n"
-msgstr ""
+msgstr "Du har ikke skriveadgang til dette dokument.\n"
 
 #: kdeui/keditcl2.cpp:105 kdeui/keditcl2.cpp:122 kdeui/keditcl2.cpp:362
 #: kdeui/keditcl2.cpp:379 kdeui/keditcl2.cpp:678 kdeui/keditcl2.cpp:687
@@ -211,6 +219,8 @@ msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
 msgstr ""
+"Slutningen på dokumentet er nået.\n"
+"Fortsæt fra starten?"
 
 #: kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426
 #: kdeui/keditcl2.cpp:473
@@ -218,23 +228,25 @@ msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
 msgstr ""
+"Begyndelsen på dokumentet er nået.\n"
+"Fortsæt fra slutningen?"
 
 #: kdeui/keditcl2.cpp:425 kdeui/keditcl2.cpp:455 kdeui/keditcl2.cpp:472
 #: kdeui/keditcl2.cpp:791
 msgid "Replace"
-msgstr ""
+msgstr "Udskift"
 
 #: kdeui/keditcl2.cpp:684 kdeui/keditcl2.cpp:782
 msgid "Case Sensitive"
-msgstr ""
+msgstr "Store/små bogstaver"
 
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:785
 msgid "Find Backwards"
-msgstr ""
+msgstr "Find bagfra"
 
 #: kdeui/keditcl2.cpp:690 kdeui/keditcl2.cpp:797 po/texts.cpp:86
 msgid "Done"
-msgstr ""
+msgstr "Klar"
 
 #: kdeui/keditcl2.cpp:770
 msgid "Find:"
@@ -242,19 +254,19 @@ msgstr ""
 
 #: kdeui/keditcl2.cpp:780
 msgid "Replace with:"
-msgstr ""
+msgstr "Udskift med:"
 
 #: kdeui/keditcl2.cpp:794
 msgid "Replace All"
-msgstr ""
+msgstr "Udskift alle"
 
 #: kdeui/keditcl2.cpp:891
 msgid "Goto Line"
-msgstr ""
+msgstr "Gå til linie"
 
 #: kdeui/keditcl2.cpp:896
 msgid "Go"
-msgstr ""
+msgstr "Start"
 
 #: kdeui/kfontdialog.cpp:132
 msgid "Select Font"
@@ -274,7 +286,7 @@ msgstr "Familie:"
 
 #: kdeui/kfontdialog.cpp:156 kdeui/kfontdialog.cpp:162 po/texts.cpp:26
 msgid "Charset:"
-msgstr ""
+msgstr "Karakter sæt:"
 
 #: kdeui/kfontdialog.cpp:169 kdeui/kfontdialog.cpp:174
 msgid "Size:"
@@ -290,7 +302,7 @@ msgstr "Stil:"
 
 #: kdeui/kfontdialog.cpp:240
 msgid "Charset"
-msgstr ""
+msgstr "Karakter sæt"
 
 #: kdeui/kfontdialog.cpp:255
 msgid "Size"
@@ -352,16 +364,16 @@ msgstr "Bund"
 
 #: kdeui/kmenubar.cpp:151 kdeui/ktoolbar.cpp:328
 msgid "Floating"
-msgstr "Svævende"
+msgstr "Flydende"
 
 #: kdeui/kmenubar.cpp:191 kdeui/kmenubar.cpp:330 kdeui/ktoolbar.cpp:734
 #: kdeui/ktoolbar.cpp:1285
 msgid "Float"
-msgstr ""
+msgstr "Flyd"
 
 #: kdeui/kmenubar.cpp:319 kdeui/ktoolbar.cpp:1267
 msgid "UnFloat"
-msgstr ""
+msgstr "På plads"
 
 #: kdeui/ktoolbar.cpp:120 kdeui/ktoolbar.cpp:185
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
@@ -398,31 +410,30 @@ msgstr "Indhold"
 
 #: po/texts.cpp:32
 msgid "About"
-msgstr "Omkring"
+msgstr "Om"
 
 #: po/texts.cpp:33
 #, fuzzy
 msgid "A&bout..."
-msgstr "Omkring"
+msgstr "&Om"
 
 #: po/texts.cpp:36
-#, fuzzy
 msgid "&OK"
-msgstr "OK"
+msgstr ""
 
 #: po/texts.cpp:38
 #, fuzzy
 msgid "On"
-msgstr "Åbn"
+msgstr "Tænd"
 
 #: po/texts.cpp:39
 msgid "Off"
-msgstr ""
+msgstr "Sluk"
 
 #: po/texts.cpp:41
 #, fuzzy
 msgid "&Cancel"
-msgstr "Annuler"
+msgstr "&Annuller"
 
 #: po/texts.cpp:43
 msgid "File"
@@ -431,12 +442,12 @@ msgstr "Fil"
 #: po/texts.cpp:44
 #, fuzzy
 msgid "&File"
-msgstr "Fil"
+msgstr "&Fil"
 
 #: po/texts.cpp:46
 #, fuzzy
 msgid "&Help"
-msgstr "Hjælp"
+msgstr "&Hjælp"
 
 #: po/texts.cpp:47
 msgid "Edit"
@@ -445,25 +456,25 @@ msgstr "Rediger"
 #: po/texts.cpp:48
 #, fuzzy
 msgid "&Edit"
-msgstr "Rediger"
+msgstr "R&ediger"
 
 #: po/texts.cpp:49
 msgid "&Options"
-msgstr ""
+msgstr "&Indstillinger"
 
 #: po/texts.cpp:50
 msgid "View"
-msgstr ""
+msgstr "Vis"
 
 #: po/texts.cpp:51
 #, fuzzy
 msgid "&View"
-msgstr "Fil"
+msgstr "Vi&s"
 
 #: po/texts.cpp:52
 #, fuzzy
 msgid "E&xit"
-msgstr "Rediger"
+msgstr "&Afslut"
 
 #: po/texts.cpp:53
 msgid "Quit"
@@ -472,66 +483,66 @@ msgstr "Afslut"
 #: po/texts.cpp:54
 #, fuzzy
 msgid "&Quit"
-msgstr "Afslut"
+msgstr "&Afslut"
 
 #: po/texts.cpp:55
 msgid "Reload"
-msgstr ""
+msgstr "Genindlæs"
 
 #: po/texts.cpp:56
 msgid "Back"
-msgstr ""
+msgstr "Tilbage"
 
 #: po/texts.cpp:57
 msgid "Forward"
-msgstr ""
+msgstr "Frem"
 
 #: po/texts.cpp:58
 msgid "Copy"
-msgstr ""
+msgstr "Kopier"
 
 #: po/texts.cpp:59
 msgid "&Copy"
-msgstr ""
+msgstr "&Kopier"
 
 #: po/texts.cpp:60
 msgid "Paste"
-msgstr ""
+msgstr "Indsæt"
 
 #: po/texts.cpp:61
 msgid "&Paste"
-msgstr ""
+msgstr "&Indsæt"
 
 #: po/texts.cpp:62
 msgid "New"
-msgstr ""
+msgstr "Ny"
 
 #: po/texts.cpp:63
 msgid "&New"
-msgstr ""
+msgstr "&Ny"
 
 #: po/texts.cpp:64
 #, fuzzy
 msgid "&New..."
-msgstr "Åbn"
+msgstr "&Ny..."
 
 #: po/texts.cpp:65
 msgid "&New Window..."
-msgstr ""
+msgstr "&Nyt vindue..."
 
 #: po/texts.cpp:66
 msgid "New &Window..."
-msgstr ""
+msgstr "Nyt &Vindue..."
 
 #: po/texts.cpp:67
 #, fuzzy
 msgid "New Game"
-msgstr "Gen"
+msgstr "Nyt spil"
 
 #: po/texts.cpp:68
 #, fuzzy
 msgid "&New Game"
-msgstr "Gen"
+msgstr "&Nyt spil"
 
 #: po/texts.cpp:69
 msgid "Open"
@@ -544,42 +555,42 @@ msgstr "Åbn en fil"
 #: po/texts.cpp:71
 #, fuzzy
 msgid "Open..."
-msgstr "Åbn"
+msgstr "Åbn..."
 
 #: po/texts.cpp:72
 #, fuzzy
 msgid "&Open..."
-msgstr "Åbn"
+msgstr "&Åbn..."
 
 #: po/texts.cpp:73
 msgid "Cut"
-msgstr ""
+msgstr "Klip"
 
 #: po/texts.cpp:74
 #, fuzzy
 msgid "C&ut"
-msgstr "Afslut"
+msgstr "&Klip"
 
 #: po/texts.cpp:75
 msgid "Font"
-msgstr ""
+msgstr "Skriftsnit"
 
 #: po/texts.cpp:76
 msgid "&Foreground Color"
-msgstr ""
+msgstr "&Forgrunds farve"
 
 #: po/texts.cpp:77
 msgid "&Background Color"
-msgstr ""
+msgstr "&Baggrunds farve"
 
 #: po/texts.cpp:78
 msgid "Save"
-msgstr "Gen"
+msgstr "Gem"
 
 #: po/texts.cpp:79
 #, fuzzy
 msgid "&Save"
-msgstr "Gen"
+msgstr "&Gem"
 
 #: po/texts.cpp:80
 msgid "Save As"
@@ -588,12 +599,12 @@ msgstr "Gem som"
 #: po/texts.cpp:81
 #, fuzzy
 msgid "Save as..."
-msgstr "Gem som"
+msgstr "Gem som..."
 
 #: po/texts.cpp:82
 #, fuzzy
 msgid "S&ave as..."
-msgstr "Gem som"
+msgstr "&Gem som..."
 
 #: po/texts.cpp:83
 msgid "Close"
@@ -602,41 +613,41 @@ msgstr "Luk"
 #: po/texts.cpp:84
 #, fuzzy
 msgid "&Close"
-msgstr "Luk"
+msgstr "&Luk"
 
 #: po/texts.cpp:85
 msgid "&Print..."
-msgstr ""
+msgstr "&Udskriv..."
 
 #: po/texts.cpp:88
 msgid "Options"
-msgstr ""
+msgstr "Indstillinger"
 
 #: po/texts.cpp:89
 msgid "Remove"
-msgstr ""
+msgstr "Fjern"
 
 #: po/texts.cpp:90
 msgid "Add"
-msgstr ""
+msgstr "Tilføj"
 
 #: po/texts.cpp:91
 #, fuzzy
 msgid "Change"
-msgstr "Annuler"
+msgstr "Ændr"
 
 #: po/texts.cpp:92
 msgid "Delete"
-msgstr ""
+msgstr "Slet"
 
 #: po/texts.cpp:93
 msgid "&Delete"
-msgstr ""
+msgstr "&Slet"
 
 #: po/texts.cpp:94
 #, fuzzy
 msgid "Clear"
-msgstr "Luk"
+msgstr "Ryd"
 
 #: po/texts.cpp:95
 #, fuzzy
@@ -650,24 +661,24 @@ msgstr "roman"
 
 #: po/texts.cpp:97
 msgid "Undo"
-msgstr ""
+msgstr "Fortryd"
 
 #: po/texts.cpp:98
 msgid "&Undo"
-msgstr ""
+msgstr "&Fortryd"
 
 #: po/texts.cpp:99
 msgid "Redo"
-msgstr ""
+msgstr "Gendan"
 
 #: po/texts.cpp:100
 msgid "&Redo"
-msgstr ""
+msgstr "&Gendan"
 
 #: po/texts.cpp:101
 #, fuzzy
 msgid "&Game"
-msgstr "Gen"
+msgstr "&Spil"
 
 #: po/texts.cpp:102
 msgid "Information"
@@ -679,11 +690,11 @@ msgstr ""
 
 #: po/texts.cpp:104
 msgid "(none)"
-msgstr ""
+msgstr "(ingen)"
 
 #, fuzzy
 #~ msgid "About "
-#~ msgstr "Omkring"
+#~ msgstr "Om "
 
 #~ msgid "ERROR: couldn't find icon: %s"
-#~ msgstr "Fejl: Kunne ikke finde ikon: %s"
+#~ msgstr "FEJL: Kunne ikke finde ikon: %s"
