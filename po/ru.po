@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-02-06 01:01+0100\n"
-"PO-Revision-Date: 1999-01-21 02:00+0600\n"
+"POT-Creation-Date: 1999-02-08 01:01+0100\n"
+"PO-Revision-Date: 1999-02-09 02:00+0600\n"
 "Content-Type: text/plain; charset=koi8-r\n"
 "Date: 1997-11-20 18:24:38+0600\n"
 "From: Denis Y. Pershin <dyp@inetlab.com>\n"
@@ -407,7 +407,7 @@ msgstr "Нет"
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:906
 #: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:773
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
-#: kio/kio_progress_dlg.cc:64 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
+#: kio/kio_progress_dlg.cc:64 kio/kio_rename_dlg.cc:36 kio/kio_skip_dlg.cc:20
 #: kspell/kspelldlg.cpp:143 po/texts.cpp:39
 msgid "Cancel"
 msgstr "Отмена"
@@ -1416,7 +1416,7 @@ msgstr "Стоп"
 #: kab/widget.cc:1936 kab/widget.cc:2028 kab/widget.cc:2112 kab/widget.cc:2157
 #: kab/widget.cc:2168 kio/kio_error.cc:118 kio/kio_paste.cc:48
 #: kio/kio_paste.cc:60 kio/kio_paste.cc:75 kio/kio_paste.cc:87
-#: kio/kio_rename_dlg.cc:217 kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:488
+#: kio/kio_rename_dlg.cc:223 kio/kio_rename_dlg.cc:230 kio/kmimetypes.cc:488
 #: kio/kmimetypes.cc:506 kio/kmimetypes.cc:520 kio/kmimetypes.cc:567
 #: kio/kmimetypes.cc:600 kio/kmimetypes.cc:660 kio/kmimetypes.cc:692
 #: kio/krun.cc:40 kio/krun.cc:512 po/texts.cpp:24
@@ -1615,7 +1615,7 @@ msgstr "Откат &назад"
 msgid "&Game"
 msgstr "&Игра"
 
-#: kio/kio_rename_dlg.cc:28 kio/kio_skip_dlg.cc:18 po/texts.cpp:98
+#: kio/kio_rename_dlg.cc:34 kio/kio_skip_dlg.cc:18 po/texts.cpp:98
 msgid "Information"
 msgstr "Информация"
 
@@ -2842,8 +2842,8 @@ msgstr ""
 
 #: kio/kio_error.cc:118 kio/kio_linedit_dlg.cc:42 kio/kio_openwith.cc:260
 #: kio/kio_pass_dlg.cc:75 kio/kio_paste.cc:48 kio/kio_paste.cc:60
-#: kio/kio_paste.cc:76 kio/kio_paste.cc:87 kio/kio_rename_dlg.cc:217
-#: kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:62 kio/kmimetypes.cc:89
+#: kio/kio_paste.cc:76 kio/kio_paste.cc:87 kio/kio_rename_dlg.cc:223
+#: kio/kio_rename_dlg.cc:230 kio/kmimetypes.cc:62 kio/kmimetypes.cc:89
 #: kio/kmimetypes.cc:135 kio/kmimetypes.cc:488 kio/kmimetypes.cc:506
 #: kio/kmimetypes.cc:520 kio/kmimetypes.cc:567 kio/kmimetypes.cc:600
 #: kio/kmimetypes.cc:660 kio/kmimetypes.cc:692 kio/kregfactories.cc:75
@@ -2901,23 +2901,20 @@ msgid "The file %s does already exist. Do you really want to overwrite it ?"
 msgstr "Документ с данным именем существует. Переписать?"
 
 #: kio/kio_progress_dlg.cc:108 kio/kio_progress_dlg.cc:124
-#, fuzzy
 msgid "Bytes"
-msgstr " Байт"
+msgstr "Байт"
 
 #: kio/kio_progress_dlg.cc:113 kio/kio_progress_dlg.cc:129
-#, fuzzy
 msgid "Kb"
-msgstr " Кб"
+msgstr "Кб"
 
 #: kio/kio_progress_dlg.cc:118 kio/kio_progress_dlg.cc:134
-#, fuzzy
 msgid "Mb"
-msgstr " Мб"
+msgstr "Мб"
 
 #: kio/kio_progress_dlg.cc:139 kio/kio_progress_dlg.cc:146
 msgid "of"
-msgstr ""
+msgstr "из"
 
 #: kio/kio_progress_dlg.cc:171 kio/kio_progress_dlg.cc:197
 msgid "Stalled"
@@ -2961,11 +2958,11 @@ msgstr "Сканирую "
 
 #: kio/kio_progress_dlg.cc:234
 msgid "From : "
-msgstr ""
+msgstr "Из: "
 
 #: kio/kio_progress_dlg.cc:238
 msgid "To: "
-msgstr ""
+msgstr "В: "
 
 #
 #: kio/kio_progress_dlg.cc:245
@@ -2976,59 +2973,59 @@ msgstr "Создаю каталог "
 msgid "Fetching file"
 msgstr "Выкачиваю файл"
 
-#: kio/kio_rename_dlg.cc:33
+#: kio/kio_rename_dlg.cc:39
 msgid "Rename"
 msgstr "Удалить"
 
-#: kio/kio_rename_dlg.cc:38 kio/kio_skip_dlg.cc:23
+#: kio/kio_rename_dlg.cc:44 kio/kio_skip_dlg.cc:23
 msgid "Skip"
 msgstr "Пропустить"
 
-#: kio/kio_rename_dlg.cc:41 kio/kio_skip_dlg.cc:28
+#: kio/kio_rename_dlg.cc:47 kio/kio_skip_dlg.cc:28
 msgid "Auto Skip"
 msgstr "Пропускать автоматически"
 
-#: kio/kio_rename_dlg.cc:47
+#: kio/kio_rename_dlg.cc:53
 msgid "Overwrite"
 msgstr "Переписать"
 
-#: kio/kio_rename_dlg.cc:52
+#: kio/kio_rename_dlg.cc:58
 msgid "Overwrite All"
 msgstr "Переписать все"
 
-#: kio/kio_rename_dlg.cc:59
+#: kio/kio_rename_dlg.cc:65
 msgid "Resume"
 msgstr "Восстановить"
 
-#: kio/kio_rename_dlg.cc:64
+#: kio/kio_rename_dlg.cc:70
 msgid "Resume All"
 msgstr "Восстановить все"
 
-#: kio/kio_rename_dlg.cc:75
+#: kio/kio_rename_dlg.cc:81
 msgid "You try to overwrite"
 msgstr "Вы пытаетесь переписать"
 
-#: kio/kio_rename_dlg.cc:96
+#: kio/kio_rename_dlg.cc:102
 msgid "already exists. Overwrite with"
 msgstr "уже существует. Переписать"
 
-#: kio/kio_rename_dlg.cc:108
+#: kio/kio_rename_dlg.cc:114
 msgid "Or rename to"
 msgstr "Или переименовать в"
 
-#: kio/kio_rename_dlg.cc:119
+#: kio/kio_rename_dlg.cc:125
 msgid "already exists."
 msgstr "уже существует."
 
-#: kio/kio_rename_dlg.cc:124
+#: kio/kio_rename_dlg.cc:130
 msgid "Do you want to rename it ?"
 msgstr "Хотите переименовать ?"
 
-#: kio/kio_rename_dlg.cc:215
+#: kio/kio_rename_dlg.cc:221
 msgid "Malformed URL\n"
 msgstr "Неверный URL\n"
 
-#: kio/kio_rename_dlg.cc:224
+#: kio/kio_rename_dlg.cc:230
 msgid "You must not change the protocol"
 msgstr "Вы не должны изменять протокол"
 
