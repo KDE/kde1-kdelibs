@@ -935,7 +935,7 @@ msgstr "Co&lar"
 
 #: po/texts.cpp:62
 msgid "New"
-msgstr "Nova"
+msgstr "Novo"
 
 #: po/texts.cpp:63
 msgid "&New"
