@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1998-06-15 18:34+0200\n"
-"PO-Revision-Date: 1998-06-15 18:40+0200\n"
+"PO-Revision-Date: 1998-06-17 20:52+0200\n"
 "Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
 #: kdecore/kapp.cpp:490
@@ -821,11 +821,12 @@ msgid ""
 "You dont have the file %s\n"
 "Could not do Authorization"
 msgstr ""
+"No tiene el archivo %s\n"
+"La autorización falló"
 
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
-#, fuzzy
 msgid "KFM Error"
-msgstr "Error"
+msgstr "Error de KFM"
 
 #: kfmlib/kfm.cpp:208
 #, c-format
@@ -833,6 +834,8 @@ msgid ""
 "The file %s is corrupted\n"
 "Could not do Authorization"
 msgstr ""
+"El archivo %s fue corrompido\n"
+"La autorización falló"
 
 #: po/texts.cpp:24
 msgid "Error"
@@ -1219,20 +1222,17 @@ msgid "Highscore"
 msgstr "Puntaje máximo"
 
 #: po/texts.cpp:140
-#, fuzzy
 msgid "&New View"
-msgstr "&Ver"
+msgstr "&Nueva Vista"
 
 #: po/texts.cpp:141
 msgid "&Insert"
-msgstr ""
+msgstr "&Insertar"
 
 #: po/texts.cpp:144
-#, fuzzy
 msgid "&Next >>"
-msgstr "&Siguiente"
+msgstr "&Siguiente >>"
 
 #: po/texts.cpp:145
-#, fuzzy
 msgid "<< &Previous"
-msgstr "A&nterior"
+msgstr "<< A&nterior"
