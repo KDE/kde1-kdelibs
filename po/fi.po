@@ -934,7 +934,7 @@ msgstr "Liitä"
 
 #: po/texts.cpp:61
 msgid "&Paste"
-msgstr "&Liitä"
+msgstr "L&iitä"
 
 #: po/texts.cpp:62
 msgid "New"
