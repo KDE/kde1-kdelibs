@@ -1,7 +1,7 @@
 
 GMOFILES = de.gmo fr.gmo sv.gmo cs.gmo es.gmo ru.gmo \
 	hu.gmo da.gmo it.gmo nl.gmo pt.gmo no.gmo pl.gmo \
-	el.gmo fi.gmo hr.gmo ro.gmo
+	el.gmo fi.gmo hr.gmo ro.gmo zh.gmo 
 POFILES = $(GMOFILES:.gmo=.po) 
 
 CHARSETFILES = de.charset cs.charset pl.charset ru.charset fr.charset \
