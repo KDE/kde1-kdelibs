@@ -474,6 +474,9 @@ msgstr ""
 "\n"
 "Villur í KDE má tilkynna á http://buglist.kde.org.\n"
 "\n"
+"Upplýsingar um KDE á íslensku og íslenskun á KDE fást á\n"
+"http://thori.home.mindspring.com/kde/\n"
+"\n"
 
 # kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:412 kdeui/keditcl1.cpp:433
 # kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661
