@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-02-06 01:01+0100\n"
+"POT-Creation-Date: 1999-02-05 01:01+0100\n"
 "PO-Revision-Date: 1998-12-22 20:00-0500\n"
 "Last-Translator:  Vladimir Vuksan <vuksan@veus.hr> \n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -107,7 +107,7 @@ msgstr "&Primjeni"
 #: kab/DialogBase.cpp:59 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
 #: kdeui/kwizard.cpp:159 po/texts.cpp:40
 msgid "&Cancel"
-msgstr "Pre&kini"
+msgstr "Odus&tani"
 
 #: kab/PrintDialog.cpp:26
 msgid "Headline text:"
@@ -395,12 +395,12 @@ msgstr "Ne"
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:403
 #: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:321
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:906
-#: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:773
+#: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:751
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:64 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
 #: kspell/kspelldlg.cpp:143 po/texts.cpp:39
 msgid "Cancel"
-msgstr "Poni¹ti"
+msgstr "Odustani"
 
 #: kdeui/kcolordlg.cpp:285
 msgid "Select Color"
@@ -816,7 +816,7 @@ msgstr ""
 
 #: kdeui/kkeydialog.cpp:1039
 msgid "Global key conflict"
-msgstr ""
+msgstr "Konflikt s globalnom tipkom"
 
 #: kdeui/kkeydialog.cpp:1062
 #, c-format
@@ -829,7 +829,7 @@ msgstr ""
 
 #: kdeui/kkeydialog.cpp:1066
 msgid "Standard key conflict"
-msgstr ""
+msgstr "Konflikt s standardnom tipkom"
 
 #: kdeui/kkeydialog.cpp:1086
 #, c-format
@@ -844,23 +844,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr ""
 
-#: kdeui/kmenubar.cpp:281 kdeui/ktoolbar.cpp:856
+#: kdeui/kmenubar.cpp:278 kdeui/ktoolbar.cpp:856
 msgid "Top"
 msgstr "Vrh"
 
-#: kdeui/kmenubar.cpp:282 kdeui/ktoolbar.cpp:858
+#: kdeui/kmenubar.cpp:279 kdeui/ktoolbar.cpp:858
 msgid "Bottom"
 msgstr "Dno"
 
-#: kdeui/kmenubar.cpp:283 kdeui/ktoolbar.cpp:859
+#: kdeui/kmenubar.cpp:280 kdeui/ktoolbar.cpp:859
 msgid "Floating"
 msgstr "Plutajuæi"
 
-#: kdeui/kmenubar.cpp:432 kdeui/kmenubar.cpp:774 kdeui/ktoolbar.cpp:2170
+#: kdeui/kmenubar.cpp:429 kdeui/kmenubar.cpp:771 kdeui/ktoolbar.cpp:2170
 msgid "Float"
 msgstr "Plutaj"
 
-#: kdeui/kmenubar.cpp:726 kdeui/ktoolbar.cpp:2151
+#: kdeui/kmenubar.cpp:723 kdeui/ktoolbar.cpp:2151
 msgid "UnFloat"
 msgstr "Pristani"
 
@@ -1720,14 +1720,15 @@ msgstr "bezimeni zapis"
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
 msgstr ""
+"Ne mogu stvoriti novu bazu (vjerojatno su privilegije nedostatne), izlazim."
 
 #: kab/addressbook.cc:956
 msgid "Cannot create configuration section, exiting."
-msgstr ""
+msgstr "Ne mogu stvoriti odjel s postavkama, izlazim."
 
 #: kab/addressbook.cc:961
 msgid "Cannot create entries section, exiting."
-msgstr ""
+msgstr "Ne mogu stvoriti odjel sa zapisima, izlazim."
 
 #: kab/addressbook.cc:966
 msgid "Unable to find previously created section, exiting."
@@ -2114,7 +2115,7 @@ msgstr "Dodan novi zapis."
 
 #: kab/widget.cc:821
 msgid "Opened browser window."
-msgstr ""
+msgstr "Otvorio prozor preglednika."
 
 #: kab/widget.cc:824
 msgid "No URL."
@@ -2123,11 +2124,11 @@ msgstr "Nema URLa."
 #: kab/widget.cc:828 kab/widget.cc:997 kab/widget.cc:1176 kab/widget.cc:1789
 #: kab/widget.cc:1967 kab/widget.cc:2051
 msgid "No entries."
-msgstr ""
+msgstr "Nema zapisa."
 
 #: kab/widget.cc:833
 msgid "The filemanager is busy, please try again."
-msgstr ""
+msgstr "Upravitelj datotekama je zauzet, molim poku¹ajte ponovo."
 
 #: kab/widget.cc:853
 msgid ""
@@ -2135,14 +2136,17 @@ msgid ""
 "locked by another application.\n"
 "kab cannot save it."
 msgstr ""
+"Baza adresare je trenutno zakljuèana\n"
+"od strane nekog drugo programa.\n"
+"kab ju ne mo¾e pospremiti." 
 
 #: kab/widget.cc:870
 msgid "Database saved successfully."
-msgstr ""
+msgstr "Baza je pospremljena uspje¹no."
 
 #: kab/widget.cc:875
 msgid "kab: File error"
-msgstr ""
+msgstr "kab: Gre¹ka na datoteci"
 
 #: kab/widget.cc:875
 msgid "Could not save database."
@@ -2179,31 +2183,31 @@ msgstr "Odbijen."
 
 #: kab/widget.cc:1066
 msgid "Search results window closed."
-msgstr ""
+msgstr "Prozor sa rezultatima pretrage je zatvoren."
 
 #: kab/widget.cc:1165
 msgid "The talk command must be configured before!"
-msgstr ""
+msgstr "Talk naredba mora prvo biti pode¹ena!"
 
 #: kab/widget.cc:1170
 msgid "Talk configuration"
-msgstr ""
+msgstr "Talk postavke"
 
 #: kab/widget.cc:1171
 msgid "Please configure the parameters for the talk command."
-msgstr ""
+msgstr "Molim podesite parametre za talk naredbu."
 
 #: kab/widget.cc:1184
 msgid "No talk address."
-msgstr ""
+msgstr "Nema talk adresa."
 
 #: kab/widget.cc:1192
 msgid "kab: Talk addresses"
-msgstr ""
+msgstr "kab: Talk adrese."
 
 #: kab/widget.cc:1193
 msgid "Available talk addresses:"
-msgstr ""
+msgstr "Dostupne talk adrese:"
 
 #: kab/widget.cc:1199 kab/widget.cc:1927
 msgid "Cancelled."
@@ -2211,25 +2215,27 @@ msgstr "Poni¹teno."
 
 #: kab/widget.cc:1222
 msgid "The talk command parameters are wrong."
-msgstr ""
+msgstr "Parametri talk naredbe su pogre¹ni."
 
 #: kab/widget.cc:1234
 msgid ""
 "Talk command failed.\n"
 "Make sure you did setup your talk command and parameter!"
 msgstr ""
+"Talk naredba nije uspjela.\n"
+"Provjerite da ste ispravno podesili talk naredbu i parametre!"
 
 #: kab/widget.cc:1237
 msgid "Talk program started."
-msgstr ""
+msgstr "Talk program je pokrenut."
 
 #: kab/widget.cc:1285
 msgid "Attention: printing is still experimental!"
-msgstr ""
+msgstr "Upozorenje: Ispis je i dalje u probnoj fazi!"
 
 #: kab/widget.cc:1381 kab/widget.cc:1423
 msgid "Page size problem"
-msgstr ""
+msgstr "Problem sa velièinom stranice"
 
 #: kab/widget.cc:1382 kab/widget.cc:1424
 msgid ""
@@ -2255,15 +2261,15 @@ msgstr ""
 
 #: kab/widget.cc:1703
 msgid "Nothing selected."
-msgstr ""
+msgstr "Ni¹ta nije izabrano."
 
 #: kab/widget.cc:1761 kab/widget.cc:2013
 msgid "KDE addressbook overview"
-msgstr ""
+msgstr "Pregled KDE adresara"
 
 #: kab/widget.cc:1805
 msgid "Name-Email-Link (!!)"
-msgstr ""
+msgstr "Ime-Email-Veza (!!)"
 
 #: kab/widget.cc:1807
 msgid "Select table columns"
@@ -2271,23 +2277,23 @@ msgstr "Izaberi stupce tabele"
 
 #: kab/widget.cc:1812
 msgid "Nothing to export."
-msgstr ""
+msgstr "Nema ni¹ta za izvesti."
 
 #: kab/widget.cc:1841
 msgid "Email link"
-msgstr ""
+msgstr "Email veza"
 
 #: kab/widget.cc:1916
 msgid "Could not find the users home directory."
-msgstr ""
+msgstr "Ne mogu pronaæi korisnikov poèetni direktorij."
 
 #: kab/widget.cc:1917
 msgid "Intern error!"
-msgstr ""
+msgstr "Gre¹ka!"
 
 #: kab/widget.cc:1937
 msgid "Could not open the file to create the HTML table."
-msgstr ""
+msgstr "Ne mogu otvoriti datoteku kako bih napravio HTML tabelu."
 
 #: kab/widget.cc:1973
 msgid "Printing cancelled."
@@ -2295,7 +2301,7 @@ msgstr "Ispis prekinut"
 
 #: kab/widget.cc:1989
 msgid "kab: Select columns for printing"
-msgstr ""
+msgstr "kab: Izaberi stupce za ispis"
 
 #: kab/widget.cc:2002
 msgid "Nothing to print."
@@ -2323,7 +2329,7 @@ msgstr "Nema e-mail adrese"
 
 #: kab/widget.cc:2088
 msgid "Error calling mailer."
-msgstr ""
+msgstr "Gre¹ka prilikom zvanja email programa."
 
 #: kab/widget.cc:2090
 msgid "Mailer called."
@@ -2331,7 +2337,7 @@ msgstr ""
 
 #: kab/widget.cc:2113
 msgid "The mail command must be configured before!"
-msgstr ""
+msgstr "Prvo namjesti naredbu za e-mail!"
 
 #: kab/widget.cc:2118
 msgid "Mail configuration"
@@ -2339,11 +2345,11 @@ msgstr "Postavke za e-mail"
 
 #: kab/widget.cc:2119
 msgid "Please configure the parameters for the email command."
-msgstr ""
+msgstr "Molim podesite parametre za email naredbu."
 
 #: kab/widget.cc:2157
 msgid "The email command parameters are wrong."
-msgstr ""
+msgstr "Parametri email naredbu su pogre¹ni."
 
 #: kab/widget.cc:2169
 msgid ""
@@ -2353,7 +2359,7 @@ msgstr ""
 
 #: kab/widget.cc:2173
 msgid "Mail program started."
-msgstr ""
+msgstr "Mail program je pokrenut."
 
 #: kio/kio_cache.cc:345
 msgid "KIO Cache"
@@ -2473,6 +2479,9 @@ msgid ""
 " is a directory,\n"
 "but a file was expected"
 msgstr ""
+"%s\n"
+" je direktorij,\n"
+"meðutim oèekivao sam datoteku"
 
 #: kio/kio_error.cc:46
 #, c-format
@@ -2490,6 +2499,9 @@ msgid ""
 "%s\n"
 "does already exist"
 msgstr ""
+"Datoteka ili direktorij\n"
+"%s\n"
+"veæ postoji"
 
 #: kio/kio_error.cc:52
 #, c-format
@@ -2522,6 +2534,8 @@ msgid ""
 "Found a cyclic link in\n"
 "%s"
 msgstr ""
+"Prona¹ao sam kru¾nu vezu na\n"
+"%s"
 
 #: kio/kio_error.cc:64
 #, c-format
@@ -2548,6 +2562,8 @@ msgid ""
 "Action has been\n"
 "canceled by the user"
 msgstr ""
+"Operacija je poni¹tena\n"
+"od strane korisnika"
 
 #: kio/kio_error.cc:73
 #, c-format
@@ -2555,6 +2571,8 @@ msgid ""
 "Found a cyclic link while copying\n"
 "%s"
 msgstr ""
+"Na¹ao sam kru¾nu vezu prilikom kopiranja\n"
+"%s"
 
 #: kio/kio_error.cc:76
 #, c-format
@@ -2562,6 +2580,8 @@ msgid ""
 "Could not create socket for accessing\n"
 "%s"
 msgstr ""
+"Ne mogu napraviti socket za pristup\n"
+"%s"
 
 #: kio/kio_error.cc:79
 #, c-format
@@ -2588,6 +2608,9 @@ msgid ""
 "%s\n"
 "is broken"
 msgstr ""
+"Veza s raèunalom\n"
+"%s\n"
+"je prekinuta"
 
 #: kio/kio_error.cc:88
 #, c-format
@@ -2726,23 +2749,20 @@ msgid "The file %s does already exist. Do you really want to overwrite it ?"
 msgstr "Dokument %s veæ postoji. ®elite li spremiti preko njega ?"
 
 #: kio/kio_progress_dlg.cc:108 kio/kio_progress_dlg.cc:124
-#, fuzzy
 msgid "Bytes"
 msgstr " bajtova"
 
 #: kio/kio_progress_dlg.cc:113 kio/kio_progress_dlg.cc:129
-#, fuzzy
 msgid "Kb"
-msgstr " Kb"
+msgstr "Kb"
 
 #: kio/kio_progress_dlg.cc:118 kio/kio_progress_dlg.cc:134
-#, fuzzy
 msgid "Mb"
-msgstr " Mb"
+msgstr "Mb"
 
 #: kio/kio_progress_dlg.cc:139 kio/kio_progress_dlg.cc:146
 msgid "of"
-msgstr ""
+msgstr "od"
 
 #: kio/kio_progress_dlg.cc:171 kio/kio_progress_dlg.cc:197
 msgid "Stalled"
@@ -2786,11 +2806,11 @@ msgstr "Ispitujem "
 
 #: kio/kio_progress_dlg.cc:234
 msgid "From : "
-msgstr ""
+msgstr "Od : "
 
 #: kio/kio_progress_dlg.cc:238
 msgid "To: "
-msgstr ""
+msgstr "Za: "
 
 #: kio/kio_progress_dlg.cc:245
 msgid "Creating dir "
