@@ -1,5 +1,5 @@
 # Polish translation of KDE kdelibs
-# Version 0.1.4
+# Version 0.1.5
 # (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
 
 
@@ -26,7 +26,7 @@ msgid "Open a file"
 msgstr "Otwórz plik"
 
 msgid "Save a file"
-msgstr "Zapisz plik"
+msgstr "Zachowaj plik"
 
 msgid "Contents"
 msgstr "Spis tre¶ci"
@@ -152,7 +152,7 @@ msgstr "italic"
 
 #: kfontdialog.cpp:270
 msgid "Dolor Ipse"
-msgstr "Dolor Ipse"
+msgstr "G¿eg¿ó³ka"
 
 #: kfontdialog.cpp:362
 msgid "Bold"
@@ -209,11 +209,11 @@ msgstr "Prawo"
 
 #: kapp.cpp:330
 msgid "About "
-msgstr "Informacje"
+msgstr "Informacje o "
 
 #: kapp.cpp:334 kapp.cpp:355
 msgid "About KDE"
-msgstr "Informacje"
+msgstr "Informacje o KDE"
 
 #: kapp.cpp:357
 msgid ""
