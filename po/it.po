@@ -1,14 +1,9 @@
 # KTranslator Generated File
-# KTranslator Generated File
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1998-12-23 01:01+0100\n"
-"PO-Revision-Date: Mon Dec 7 1998 17:48:09+0200\n"
+"PO-Revision-Date: Sat Jen 2 1999 15:30:00+0200\n"
 "Last-Translator: Andrea Rizzi <rizzi@kde.org>\n"
 "Language-Team: Italiano <it@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -796,7 +791,7 @@ msgstr "&Tasto di Default"
 #
 #: kdeui/kkeydialog.cpp:409
 msgid "&Custom key"
-msgstr "Tasto &ersonalizzato"
+msgstr "Tasto &personalizzato"
 
 #: kdeui/kkeydialog.cpp:472
 msgid "No keys defined"
@@ -808,7 +803,7 @@ msgstr "Non configurabile"
 
 #: kdeui/kkeydialog.cpp:530
 msgid "Global Keys"
-msgstr "Tasti globali"
+msgstr "Tasti Globali"
 
 #: kdeui/kkeydialog.cpp:562
 msgid "Keys"
