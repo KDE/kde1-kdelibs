@@ -819,11 +819,11 @@ msgstr "Vlo¾i»"
 
 #: po/texts.cpp:61
 msgid "&Paste"
-msgstr "&Vlo¾i»"
+msgstr "Vlo¾i»"
 
 #: po/texts.cpp:62
 msgid "New"
-msgstr "Nový"
+msgstr "Vytvori»"
 
 #: po/texts.cpp:63
 msgid "&New"
