@@ -1,3 +1,4 @@
+
 msgid "Error"
 msgstr "Fehler"
 
@@ -20,16 +21,16 @@ msgid "Save a file"
 msgstr "Datei speichern"
 
 msgid "Contents"
-msgstr "Hilfe"
+msgstr "Inhalt"
 
 msgid "About"
 msgstr "Über..."
 
 msgid "Open"
-msgstr "Datei öffnen"
+msgstr "Öffnen"
 
 msgid "Save"
-msgstr "Datei speichern"
+msgstr "Speichern"
 
 msgid "Save As"
 msgstr "Speichern unter"
@@ -41,13 +42,13 @@ msgid "Quit"
 msgstr "Beenden"
 
 msgid "Untitled"
-msgstr "Ohne Titel"
+msgstr "Unbenannt"
 
 msgid "OK"
-msgstr "OK"
+msgstr "Ausführen"
 
 msgid "Ok"
-msgstr "Ok"
+msgstr "Ausführen"
 
 msgid "Cancel"
 msgstr "Abbrechen"
@@ -83,19 +84,19 @@ msgstr "Zu eigenen Farben hinzufügen"
 
 #: kcolordlg.cpp:649 kcolordlg.cpp:699
 msgid "Custom..."
-msgstr ""
+msgstr "Eigene ..."
 
 #: kfontdialog.cpp:95
 msgid "Select Font"
-msgstr "Auswahl des Zeichensatzes"
+msgstr "Auswahl der Schrift"
 
 #: kfontdialog.cpp:99
 msgid "Requested Font"
-msgstr "Gewünschter Zeichensatz"
+msgstr "Gewünschte Schrift"
 
 #: kfontdialog.cpp:104
 msgid "Actual Font"
-msgstr "Benutzter Zeichensatz"
+msgstr "Benutzte Schrift"
 
 #: kfontdialog.cpp:108 kfontdialog.cpp:112
 msgid "Family:"
@@ -135,11 +136,11 @@ msgstr "Schnitt"
 
 #: kfontdialog.cpp:241 kfontdialog.cpp:340 kfontdialog.cpp:369
 msgid "roman"
-msgstr "roman"
+msgstr "gerade"
 
 #: kfontdialog.cpp:242 kfontdialog.cpp:342 kfontdialog.cpp:367
 msgid "italic"
-msgstr "italic"
+msgstr "kursiv"
 
 #: kfontdialog.cpp:270
 msgid "Dolor Ipse"
@@ -164,7 +165,7 @@ msgstr "Filter:"
 #: kiconloader.cpp:337
 #, c-format
 msgid "ERROR: couldn't find icon: %s"
-msgstr "Fehler: Kann icon %s nicht finden"
+msgstr "Fehler: kann Icon %s nicht finden"
 
 #: kmenubar.cpp:106 ktoolbar.cpp:273
 msgid "Top"
@@ -176,11 +177,11 @@ msgstr "Unten"
 
 #: kmenubar.cpp:108 ktoolbar.cpp:276
 msgid "Floating"
-msgstr "Schwebend"
+msgstr "Beweglich"
 
 #: kmenubar.cpp:182 kmenubar.cpp:223 ktoolbar.cpp:699 ktoolbar.cpp:1208
 msgid "Float"
-msgstr "Schwebend"
+msgstr "Beweglich"
 
 #: kmenubar.cpp:213 ktoolbar.cpp:1198
 msgid "UnFloat"
@@ -198,3 +199,4 @@ msgstr "Links"
 #: ktoolbar.cpp:274
 msgid "Right"
 msgstr "Rechts"
+
