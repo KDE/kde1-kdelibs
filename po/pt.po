@@ -19,7 +19,7 @@ msgstr "Acerca do &KDE..."
 
 #: kdecore/kapp.cpp:449
 msgid "About KDE"
-msgstr "Acerca do &KDE"
+msgstr "Acerca do KDE"
 
 #: kdecore/kapp.cpp:451
 msgid ""
@@ -38,12 +38,10 @@ msgstr ""
 "Por favor mande relatórios de bugs para kde-bugs@kde.org.\n"
 "\n"
 "\n"
-"Este programa foi desenvolvido com Qt, uma biblioteca GUI de plataforma "
-"cruzada.\n"
+"Este programa foi desenvolvido com Qt, uma biblioteca GUI multiplataforma.\n"
 "\n"
-"Qt é um produto da Troll Tech AS (http://www.troll.no, info@troll.no). Qt "
-"pode ser usada gratuito para desenvolver software livre no Sistema X "
-"Window.\n"
+"Qt é um produto da Troll Tech AS (http://www.troll.no, info@troll.no).\n"
+"Qt pode ser usada livremente para desenvolver software livre no Sistema X Window.\n"
 
 # libkdeui messages
 #: kdeui/kcolordlg.cpp:283
@@ -116,11 +114,11 @@ msgstr "Não tem permissões de leitura neste ficheiro"
 
 #: kdeui/keditcl1.cpp:191
 msgid "An Error occured while trying to open this Document"
-msgstr "Um Erro ocurreu enquanto tentava abrir este Documento"
+msgstr "Um Erro ocorreu enquanto tentava abrir este Documento"
 
 #: kdeui/keditcl1.cpp:356
 msgid "Select Document to Insert"
-msgstr "Seleccione Documente para Inserir"
+msgstr "Seleccione Documento para Inserir"
 
 #: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1570
 msgid "Warning:"
@@ -188,11 +186,11 @@ msgid ""
 "Do you want to overwrite it ?"
 msgstr ""
 "Um Documento com este Nome já existe\n"
-"Quer escrever sobre ele?"
+"Quer escrever sobre ele ?"
 
 #: kdeui/keditcl1.cpp:1628
 msgid "You do not have write permission to this file.\n"
-msgstr "Não tem permissões de escrita neste ficheiro\n"
+msgstr "Não tem permissões de escrita neste ficheiro.\n"
 
 #: kdeui/keditcl2.cpp:105 kdeui/keditcl2.cpp:122 kdeui/keditcl2.cpp:362
 #: kdeui/keditcl2.cpp:379 kdeui/keditcl2.cpp:678 kdeui/keditcl2.cpp:687
@@ -268,7 +266,7 @@ msgstr "Fonte Efectiva"
 
 #: kdeui/kfontdialog.cpp:145 kdeui/kfontdialog.cpp:149
 msgid "Family:"
-msgstr "Familia:"
+msgstr "Família:"
 
 #: kdeui/kfontdialog.cpp:156 kdeui/kfontdialog.cpp:162 po/texts.cpp:26
 msgid "Charset:"
@@ -318,7 +316,7 @@ msgstr "romano"
 #: kdeui/kfontdialog.cpp:307 kdeui/kfontdialog.cpp:428
 #: kdeui/kfontdialog.cpp:453
 msgid "italic"
-msgstr "italico"
+msgstr "itálico"
 
 #: kdeui/kfontdialog.cpp:335
 msgid "Dolor Ipse"
@@ -334,7 +332,7 @@ msgstr "Normal"
 
 #: kdeui/kiconloaderdialog.cpp:193
 msgid "Select Icon"
-msgstr "Escolher um Icon"
+msgstr "Escolher Ícone"
 
 #: kdeui/kiconloaderdialog.cpp:198
 msgid "Filter:"
@@ -359,11 +357,11 @@ msgstr "Flutuar"
 
 #: kdeui/kmenubar.cpp:319 kdeui/ktoolbar.cpp:1267
 msgid "UnFloat"
-msgstr "Desflutuar"
+msgstr "DesFlutuar"
 
 #: kdeui/ktoolbar.cpp:120 kdeui/ktoolbar.cpp:185
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr "KToolBarButton: pixmap vazio, possivelmente falta um ficheiro"
+msgstr "KToolBarButton: imagem vazia, talvez falte um ficheiro"
 
 #: kdeui/ktoolbar.cpp:324
 msgid "Left"
