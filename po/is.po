@@ -741,7 +741,8 @@ msgstr ""
 "Viltu samt búa til nýtt?"
 
 # kdeui/keditcl1.cpp:547 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
-#: kdeui/keditcl1.cpp:547 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
+#: kdeui/keditcl1.cpp:547 kdeui/keditcl1.cpp:1700 kdeui/kpopmenu.cpp:10
+#: po/texts.cpp:34
 msgid "Untitled"
 msgstr "Nafnlaust"
 
@@ -2084,7 +2085,6 @@ msgid ""
 "addressbook application is stored does not exist.\n"
 "The program will try to create\n"
 "         "
-
 msgstr ""
 "Mappan þar sem upplýsingar háðar notanda eru geymdar\n"
 "er ekki til. Nú verður reynt að búa til\n"
@@ -3001,4 +3001,3 @@ msgstr ""
 #: kab/widget.cc:2210
 msgid "Mail program started."
 msgstr "Póstforrit ræst."
-
