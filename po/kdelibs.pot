@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-04-14 01:01+0200\n"
+"POT-Creation-Date: 1999-04-18 01:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,8 +48,8 @@ msgstr ""
 #: kdeui/keditcl1.cpp:191 kdeui/keditcl1.cpp:204 kdeui/keditcl1.cpp:1561
 #: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:400
 #: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:286
-#: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:509
-#: kfile/kfiledialog.cpp:901 kfile/kfiledialogconf.cpp:61 kfmlib/kfm.cpp:411
+#: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:510
+#: kfile/kfiledialog.cpp:902 kfile/kfiledialogconf.cpp:61 kfmlib/kfm.cpp:411
 #: po/texts.cpp:35
 msgid "OK"
 msgstr ""
@@ -246,8 +246,8 @@ msgstr ""
 msgid "Selected values:"
 msgstr ""
 
-#: kdecore/kaccel.cpp:223 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1217
-#: kfile/kfiledialog.cpp:1377 kfile/kfiledialog.cpp:1411 po/texts.cpp:65
+#: kdecore/kaccel.cpp:223 kfile/kfiledialog.cpp:559 kfile/kfiledialog.cpp:1219
+#: kfile/kfiledialog.cpp:1379 kfile/kfiledialog.cpp:1413 po/texts.cpp:65
 msgid "Open"
 msgstr ""
 
@@ -259,8 +259,8 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: kdecore/kaccel.cpp:235 kfile/kfiledialog.cpp:1272
-#: kfile/kfiledialog.cpp:1432 po/texts.cpp:75
+#: kdecore/kaccel.cpp:235 kfile/kfiledialog.cpp:1274
+#: kfile/kfiledialog.cpp:1434 po/texts.cpp:75
 msgid "Save"
 msgstr ""
 
@@ -390,7 +390,7 @@ msgstr ""
 #: kdeui/kcontrol.cpp:48 kdeui/kcontrol.cpp:55 kdeui/keditcl1.cpp:414
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:403
 #: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:321
-#: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:906
+#: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:907
 #: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:415 kspell/kspelldlg.cpp:143
 #: po/texts.cpp:39
 msgid "Cancel"
@@ -956,84 +956,84 @@ msgstr ""
 msgid "Show hidden"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:504
+#: kfile/kfiledialog.cpp:505
 msgid "Error: Not local file"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:505
+#: kfile/kfiledialog.cpp:506
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
 msgstr ""
 
-#: kfile/kfiledialog.cpp:519 kfile/kfiledialog.cpp:624
+#: kfile/kfiledialog.cpp:520 kfile/kfiledialog.cpp:625
 msgid "Error: Cannot Open Directory"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:520
+#: kfile/kfiledialog.cpp:521
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
 msgstr ""
 
-#: kfile/kfiledialog.cpp:522 kfile/kfiledialog.cpp:627
+#: kfile/kfiledialog.cpp:523 kfile/kfiledialog.cpp:628
 msgid "Dismiss"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:573 kfile/kfiledialog.cpp:1392 po/texts.cpp:77
+#: kfile/kfiledialog.cpp:574 kfile/kfiledialog.cpp:1394 po/texts.cpp:77
 msgid "Save As"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:596
+#: kfile/kfiledialog.cpp:597
 msgid "Root Directory"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:625
+#: kfile/kfiledialog.cpp:626
 msgid "The specified directory does not exist or was not readable."
 msgstr ""
 
-#: kfile/kfiledialog.cpp:886
+#: kfile/kfiledialog.cpp:887
 msgid "Create new directory in: "
 msgstr ""
 
-#: kfile/kfiledialog.cpp:889
+#: kfile/kfiledialog.cpp:890
 msgid "New Directory"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:961
+#: kfile/kfiledialog.cpp:962
 msgid "Add to bookmarks"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1251
+#: kfile/kfiledialog.cpp:1253
 msgid "Choose Directory"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1319
+#: kfile/kfiledialog.cpp:1321
 msgid "directory"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1321
+#: kfile/kfiledialog.cpp:1323
 msgid "directories"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1323 kfile/kpreview.cpp:326
+#: kfile/kfiledialog.cpp:1325 kfile/kpreview.cpp:326
 msgid "file"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1325
+#: kfile/kfiledialog.cpp:1327
 msgid "files"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1327
+#: kfile/kfiledialog.cpp:1329
 #, c-format
 msgid "%d %s and %d %s"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1337
+#: kfile/kfiledialog.cpp:1339
 msgid "one directory"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1339
+#: kfile/kfiledialog.cpp:1341
 #, c-format
 msgid "%d directories"
 msgstr ""
