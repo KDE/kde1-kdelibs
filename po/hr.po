@@ -48,11 +48,11 @@ msgid ""
 msgstr ""
 "\n"
 "KDE Desktop Environment napisan je od strane KDE Tima,\n"
-"svjetskoj mre¾i programera koji rade na razvoju\n"
+"svjetske mre¾e programera koji rade na razvoju\n"
 "besplatnog softvera.\n"
 "\n"
 "Posjetite http://www.kde.org za dodatne informacije o KDE\n"
-"Projektu. Razmislite o pristupanju ili podr¹ci KDEu.\n"
+"Projektu. Takoðjer razmislite o pristupanju ili podr¹ci KDEu.\n"
 "\n"
 "Molim prijavite bugove na http://buglist.kde.org.\n"
 
@@ -177,7 +177,7 @@ msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
 msgstr ""
-"Trenutni dokument mijenjan.\n"
+"Trenutni dokument je mijenjan.\n"
 "®elite li ga spremiti?"
 
 # kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416 kdeui/keditcl1.cpp:477
@@ -251,7 +251,7 @@ msgid ""
 "Do you want to overwrite it ?"
 msgstr ""
 "Dokument sa ovim imenom veæ postoji\n"
-"®elite li zbilja spremiti preko njega ?"
+"®elite li spremiti preko njega ?"
 
 # kdeui/keditcl1.cpp:1628
 #: kdeui/keditcl1.cpp:1628
@@ -285,7 +285,7 @@ msgid ""
 "Continue from the end?"
 msgstr ""
 "Do¹ao sam do poèetka dokumenta.\n"
-"Da poènem sa kraja?"
+"Da poènem s kraja?"
 
 # kdeui/keditcl2.cpp:425 kdeui/keditcl2.cpp:455 kdeui/keditcl2.cpp:472
 # kdeui/keditcl2.cpp:791
@@ -777,7 +777,7 @@ msgstr "Prika¾i Liniju sa Statusom"
 # kfile/kfiledialogconf.cpp:119
 #: kfile/kfiledialogconf.cpp:119
 msgid "Use single Click"
-msgstr ""
+msgstr "Koristi jednostruki klik"
 
 # kfile/kfiledialogconf.cpp:125
 #: kfile/kfiledialogconf.cpp:125
