@@ -8,7 +8,7 @@ POFILES = $(GMOFILES:.gmo=.po)
 
 CHARSETFILES = de.charset cs.charset pl.charset ru.charset fr.charset \
                hu.charset ro.charset fi.charset da.charset pt.charset \
-               sk.charset
+               sk.charset es.charset
 
 localedir = $(kde_locale)
 
