@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE LIBS\n"
 "POT-Creation-Date: 1999-02-06 01:01+0100\n"
-"PO-Revision-Date: 1999-01-27 18:55-0500\n"
+"PO-Revision-Date: 1999-02-16 18:55-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr "(ukendt fil)"
 
 #: kab/AssertDialog.cpp:30
 msgid "(unknown line number)"
-msgstr "(ukendt linie nummer)"
+msgstr "(ukendt linienummer)"
 
 #: kab/AssertDialog.cpp:31
 msgid "(unknown condition)"
@@ -67,7 +67,7 @@ msgstr ", linie "
 
 #: kab/AssertDialog.cpp:212 kab/AssertDialog.cpp:217
 msgid "Error handling error"
-msgstr "Filhåndterings fejl"
+msgstr "Filhåndteringsfejl"
 
 #: kab/AssertDialog.cpp:213
 msgid "Could not send message."
@@ -176,11 +176,11 @@ msgstr "Rollen"
 
 #: kab/SearchDialog.cpp:57
 msgid "The org unit"
-msgstr "Organisations enheden"
+msgstr "Organisationsenheden"
 
 #: kab/SearchDialog.cpp:58
 msgid "The org subunit"
-msgstr "Organisations underenheden"
+msgstr "Organisationsunderenheden"
 
 #: kab/SearchDialog.cpp:59
 msgid "The email address"
@@ -224,7 +224,7 @@ msgstr "# der passer"
 
 #: kab/SearchDialogMainWidget.cpp:23
 msgid "Use shell wildcard patterns here"
-msgstr "Brug skald vildkort mønster her"
+msgstr "Brug skald vildkortmønstre her"
 
 #: kab/SearchDialogMainWidget.cpp:24
 msgid "Select field to match the pattern"
@@ -376,8 +376,8 @@ msgid ""
 msgstr ""
 "\n"
 "KDE Desktop Miljøet er skrevet af KDE Holdet,\n"
-"et verdensdækkende netværk af software udviklere dedikeret til\n"
-"fri software udvikling.\n"
+"et verdensdækkende netværk af programvareudviklere dedikerede til\n"
+"fri programvareudvikling.\n"
 "\n"
 "Besøg http://www.kde.org for mere information om KDE\n"
 "Projektet. Overvej at være med til at støtte KDE.\n"
@@ -421,7 +421,7 @@ msgstr "Vælg farve"
 
 #: kdeui/kcolordlg.cpp:297
 msgid "System Colors"
-msgstr "System farver"
+msgstr "Systemfarver"
 
 #: kdeui/kcolordlg.cpp:328
 msgid "Custom Colors"
@@ -629,7 +629,7 @@ msgstr ""
 
 #: kdeui/keditcl2.cpp:682 kdeui/keditcl2.cpp:780
 msgid "Case Sensitive"
-msgstr "Store/små bogstaver"
+msgstr "Afhængig af store/små bogstaver"
 
 #: kdeui/keditcl2.cpp:683 kdeui/keditcl2.cpp:783
 msgid "Find Backwards"
@@ -1009,7 +1009,7 @@ msgid ""
 "But the application accepts just local files."
 msgstr ""
 "Den angivne folder er ikke lokal\n"
-"men applikationen accepterer kun lokale filer."
+"men anvendelsen accepterer kun lokale filer."
 
 #: kfile/kfiledialog.cpp:519 kfile/kfiledialog.cpp:624
 msgid "Error: Cannot Open Directory"
@@ -1269,7 +1269,7 @@ msgid ""
 "The file %s is corrupted\n"
 "Could not do Authorization"
 msgstr ""
-"Filen %s er korumperet\n"
+"Filen %s er korrumperet\n"
 "Kunne ikke autorisere"
 
 #: kspell/ksconfig.cpp:66
@@ -1702,7 +1702,7 @@ msgstr ""
 "Kunne ikke lave folderen.\n"
 "Måske har du ikke brugt KDE før, så du ikke\n"
 "har en lokal \".kde\"-folder i din hjemme-\n"
-"folder. Kør KDE filemanager kfm een gang for\n"
+"folder. Kør KDE filmanager kfm een gang for\n"
 "at lave den automatisk."
 
 #: kab/addressbook.cc:106
@@ -1741,7 +1741,7 @@ msgstr "\" i indstillings sektionen (ignoreret)."
 
 #: kab/addressbook.cc:666
 msgid "Unable to add a new entry with available key."
-msgstr "Kunne ikke tilføje indgang med tilgængelig taste."
+msgstr "Kunne ikke tilføje indgang med tilgængelig tast."
 
 #: kab/addressbook.cc:672
 msgid "Cannot find previously created section."
@@ -2067,7 +2067,7 @@ msgstr "Ikke i stand til at åbne databasefilen l/s."
 
 #: kab/widget.cc:257
 msgid "Email storage conversion"
-msgstr "E-post opbevarings ændring"
+msgstr "E-post opbevaringsændring"
 
 #: kab/widget.cc:258
 msgid ""
@@ -2336,7 +2336,7 @@ msgstr "Navn-Epost-link (!!)"
 
 #: kab/widget.cc:1807
 msgid "Select table columns"
-msgstr "Vælg tabel søjler"
+msgstr "Vælg tabelsøjler"
 
 #: kab/widget.cc:1812
 msgid "Nothing to export."
@@ -2439,7 +2439,7 @@ msgid ""
 "Use the icons for drag and drop actions, since they refer to the cache files "
 "on your hard disk, while you should use the textual links for browsing"
 msgstr ""
-"Brug ikonerne til træk og slip handlinger da de refererer til cache filerpå "
+"Brug ikonerne til træk og slip handlinger da de refererer til cache filer på"
 "din harddisk, men brug tekst links til netsøgning"
 
 #: kio/kio_cache.cc:355
@@ -2631,7 +2631,7 @@ msgid ""
 "Action has been\n"
 "canceled by the user"
 msgstr ""
-"Aktionen er blevet\n"
+"Handlingen er blevet\n"
 "annulleret af brugeren"
 
 #: kio/kio_error.cc:73
@@ -2813,7 +2813,7 @@ msgstr "Filnavn for klippebordsindhold:"
 
 #: kio/kio_paste.cc:87
 msgid "You did not enter a filename"
-msgstr "Du indgav ikk et filnavn"
+msgstr "Du indtastede ikke et filnavn"
 
 #: kio/kio_paste.cc:97
 #, c-format
@@ -2960,11 +2960,11 @@ msgstr "Tilladelse nægtet!"
 
 #: kio/kmimetypes.cc:62
 msgid "No mime types installed!"
-msgstr "Ingen mime typer installeret!"
+msgstr "Ingen mimetyper installeret!"
 
 #: kio/kmimetypes.cc:86
 msgid "Could not find mime type\n"
-msgstr "Kunne ikke finde mime type\n"
+msgstr "Kunne ikke finde mimetype\n"
 
 #: kio/kmimetypes.cc:132
 msgid "The mime type config file "
