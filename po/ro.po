@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-12-08 01:01+0100\n"
+"POT-Creation-Date: 1998-12-10 01:01+0100\n"
 "Last-Translator: Paul Ionescu <omy@main.romsoft.ro>\n"
 
 #: kab/AssertDialog.cpp:29
@@ -850,23 +850,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr ""
 
-#: kdeui/kmenubar.cpp:253 kdeui/ktoolbar.cpp:844
+#: kdeui/kmenubar.cpp:256 kdeui/ktoolbar.cpp:847
 msgid "Top"
 msgstr "Sus"
 
-#: kdeui/kmenubar.cpp:254 kdeui/ktoolbar.cpp:846
+#: kdeui/kmenubar.cpp:257 kdeui/ktoolbar.cpp:849
 msgid "Bottom"
 msgstr "Jos"
 
-#: kdeui/kmenubar.cpp:255 kdeui/ktoolbar.cpp:847
+#: kdeui/kmenubar.cpp:258 kdeui/ktoolbar.cpp:850
 msgid "Floating"
 msgstr "Flotant"
 
-#: kdeui/kmenubar.cpp:405 kdeui/kmenubar.cpp:741 kdeui/ktoolbar.cpp:2158
+#: kdeui/kmenubar.cpp:408 kdeui/kmenubar.cpp:744 kdeui/ktoolbar.cpp:2161
 msgid "Float"
 msgstr "Flotare"
 
-#: kdeui/kmenubar.cpp:710 kdeui/ktoolbar.cpp:2139
+#: kdeui/kmenubar.cpp:713 kdeui/ktoolbar.cpp:2142
 msgid "UnFloat"
 msgstr "Lipeºte"
 
@@ -882,15 +882,15 @@ msgstr "&Implicit"
 msgid "Quickhelp"
 msgstr ""
 
-#: kdeui/ktoolbar.cpp:272 kdeui/ktoolbar.cpp:324
+#: kdeui/ktoolbar.cpp:275 kdeui/ktoolbar.cpp:327
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: pixmap-ul este gol, poate lipsesc niºte fiºiere "
 
-#: kdeui/ktoolbar.cpp:843
+#: kdeui/ktoolbar.cpp:846
 msgid "Left"
 msgstr "Stânga"
 
-#: kdeui/ktoolbar.cpp:845
+#: kdeui/ktoolbar.cpp:848
 msgid "Right"
 msgstr "Dreapta"
 
