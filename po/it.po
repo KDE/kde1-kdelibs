@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-06-15 18:34+0200\n"
+"POT-Creation-Date: 1998-06-18 22:45+0200\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-09 17:23:06+0200\n"
 "From: Steffen Hansen,Home,,66178676, <stefh@nostromo>\n"
@@ -65,14 +65,14 @@ msgid "No"
 msgstr "No"
 
 #: kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34
-#: kfile/kfiledialog.cpp:252 po/texts.cpp:45
+#: kfile/kfiledialog.cpp:240 po/texts.cpp:45
 msgid "Help"
 msgstr "Aiuto"
 
 #: kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:46
 #: kdeui/keditcl1.cpp:397 kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897
 #: kdeui/kfontdialog.cpp:355 kdeui/kiconloaderdialog.cpp:255
-#: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:877
+#: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:877
 #: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:407 po/texts.cpp:40
 msgid "Cancel"
 msgstr "Annulla"
@@ -111,7 +111,7 @@ msgstr "Default:"
 #: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
 #: kdeui/keditcl1.cpp:1473 kdeui/keditcl1.cpp:1630 kdeui/kmsgbox.cpp:473
-#: kfile/kfiledialog.cpp:240 kfile/kfiledialog.cpp:492
+#: kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:492
 #: kfile/kfiledialogconf.cpp:60 po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
@@ -437,23 +437,23 @@ msgstr "Scegli Icona"
 msgid "Filter:"
 msgstr "Filtro:"
 
-#: kdeui/kmenubar.cpp:168 kdeui/ktoolbar.cpp:453
+#: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:470
 msgid "Top"
 msgstr "In Alto"
 
-#: kdeui/kmenubar.cpp:169 kdeui/ktoolbar.cpp:455
+#: kdeui/kmenubar.cpp:172 kdeui/ktoolbar.cpp:472
 msgid "Bottom"
 msgstr "In Basso"
 
-#: kdeui/kmenubar.cpp:170 kdeui/ktoolbar.cpp:456
+#: kdeui/kmenubar.cpp:173 kdeui/ktoolbar.cpp:473
 msgid "Floating"
 msgstr "Galleggiante"
 
-#: kdeui/kmenubar.cpp:284 kdeui/kmenubar.cpp:434 kdeui/ktoolbar.cpp:1588
+#: kdeui/kmenubar.cpp:287 kdeui/kmenubar.cpp:437 kdeui/ktoolbar.cpp:1605
 msgid "Float"
 msgstr "Galleggia"
 
-#: kdeui/kmenubar.cpp:423 kdeui/ktoolbar.cpp:1570
+#: kdeui/kmenubar.cpp:426 kdeui/ktoolbar.cpp:1587
 msgid "UnFloat"
 msgstr "Non Galleggiante"
 
@@ -478,15 +478,15 @@ msgstr "&Aiuto"
 msgid "&Ok"
 msgstr "&Ok"
 
-#: kdeui/ktoolbar.cpp:164 kdeui/ktoolbar.cpp:283
+#: kdeui/ktoolbar.cpp:178 kdeui/ktoolbar.cpp:297
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: Pixmap vuota, è possibile che manchi il file"
 
-#: kdeui/ktoolbar.cpp:452
+#: kdeui/ktoolbar.cpp:469
 msgid "Left"
 msgstr "Sinistra"
 
-#: kdeui/ktoolbar.cpp:454
+#: kdeui/ktoolbar.cpp:471
 msgid "Right"
 msgstr "Destra"
 
