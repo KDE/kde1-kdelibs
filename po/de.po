@@ -2,13 +2,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1999-02-05 01:01+0100\n"
-"PO-Revision-Date: 1999-02-03 12:50+MET\n"
+"PO-Revision-Date: 1999-02-05 09:30+MET\n"
+"Translator: Stephan Kulow <coolo@kde.org>\n"
 "Last-Translator:Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: de (de@li.org)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8-bit\n"
-"Translator: Stephan Kulow <coolo@kde.org>\n"
 
 #: kab/AssertDialog.cpp:29
 msgid "(unknown file)"
@@ -36,7 +36,7 @@ msgstr "Die Anwendung beenden unter Verlust aller Daten."
 
 #: kab/AssertDialog.cpp:49
 msgid "Send an email to the application maintainer"
-msgstr "Email an die für die Anwendung zuständige Person schreiben."
+msgstr "Email an die Person, die für die Anwendung zuständig ist"
 
 #: kab/AssertDialog.cpp:51 kab/datepickerdialog.cc:25 kab/kabapi.cc:34
 #: kdeui/kcolordlg.cpp:467 kdeui/kcontrol.cpp:46 kdeui/kcontrol.cpp:51
@@ -72,7 +72,7 @@ msgstr "Konnte die Nachricht nicht senden."
 
 #: kab/AssertDialog.cpp:218
 msgid "The author did not publish an email address."
-msgstr "Der Autor hat keine Email-Adresse angegeben."
+msgstr "Autor hat keine Email-Adresse angegeben."
 
 #: kab/DialogBase.cpp:36
 msgid ""
@@ -754,7 +754,7 @@ msgstr "&Hilfe"
 
 #: kdeui/kkeydialog.cpp:236 po/texts.cpp:136
 msgid "&Defaults"
-msgstr "&Voreinstellungen"
+msgstr "&Standards"
 
 #: kdeui/kkeydialog.cpp:320
 msgid "Current key"
@@ -894,7 +894,7 @@ msgstr ""
 
 #: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:182
 msgid "&Default"
-msgstr "&Voreinstellung"
+msgstr "&Standard"
 
 #: kdeui/kquickhelp.cpp:203
 msgid "Quickhelp"
@@ -1008,7 +1008,7 @@ msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
 msgstr ""
-"Das angegebene Verzeichnis ist kein lokales Verzeichnis,\n"
+"Das angegebene Verzeichnis ist nicht lokal,\n"
 "aber die Anwendung akzeptiert nur lokale Dateien."
 
 #: kfile/kfiledialog.cpp:519 kfile/kfiledialog.cpp:624
@@ -2203,8 +2203,8 @@ msgid ""
 "locked by another application.\n"
 "kab cannot save it."
 msgstr ""
-"Die Adreßbuch-Datei wird zur Zeitvon einer anderen Anwendung benutzt.Kab "
-"kann sie nicht speichern."
+"Die Adreßbuch-Datei wird zur Zeit von einer anderen Anwendung benutzt. "
+"Kab kann sie nicht speichern."
 
 #: kab/widget.cc:870
 msgid "Database saved successfully."
@@ -2447,7 +2447,7 @@ msgid ""
 "on your hard disk, while you should use the textual links for browsing"
 msgstr ""
 "Benutzen Sie die Icons für Drag&Drop-Aktionen, da sie auf Cache-Dateien "
-"aufIhrer Festplatte verweisen. Benutzen Sie zum Browsen die Text-Links."
+"auf Ihrer Festplatte verweisen. Benutzen Sie zum Browsen die Text-Links."
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"
@@ -2485,7 +2485,7 @@ msgid ""
 "Could not start process\n"
 "%s"
 msgstr ""
-"Konnte den Prozess\n"
+"Konnte den Prozeß\n"
 "%s\n"
 "nicht starten."
 
@@ -2618,7 +2618,7 @@ msgid ""
 "Could not change permissions for\n"
 "%s"
 msgstr ""
-"Konnte Zugriffs-Rechte nicht ändern für\n"
+"Konnte Zugriffsrechte nicht ändern für\n"
 "%s"
 
 #: kio/kio_error.cc:67
@@ -2729,7 +2729,7 @@ msgid ""
 "%s"
 msgstr ""
 "Unmounten des Gerät nicht möglich.\n"
-"Folgender Fehler liegt wurde gemeldet:\n"
+"Folgender Fehler wurde gemeldet:\n"
 "\n"
 "%s"
 
@@ -2828,27 +2828,24 @@ msgid "The file %s does already exist. Do you really want to overwrite it ?"
 msgstr "Ein Dokument %s existiert schon. Wollen Sie es überschreiben?"
 
 #: kio/kio_progress_dlg.cc:108 kio/kio_progress_dlg.cc:124
-#, fuzzy
 msgid "Bytes"
-msgstr " Bytes"
+msgstr "Bytes"
 
 #: kio/kio_progress_dlg.cc:113 kio/kio_progress_dlg.cc:129
-#, fuzzy
 msgid "Kb"
 msgstr "KB"
 
 #: kio/kio_progress_dlg.cc:118 kio/kio_progress_dlg.cc:134
-#, fuzzy
 msgid "Mb"
 msgstr "MB"
 
 #: kio/kio_progress_dlg.cc:139 kio/kio_progress_dlg.cc:146
 msgid "of"
-msgstr ""
+msgstr "von"
 
 #: kio/kio_progress_dlg.cc:171 kio/kio_progress_dlg.cc:197
 msgid "Stalled"
-msgstr "Verzögerung!"
+msgstr "Verzögert"
 
 #: kio/kio_progress_dlg.cc:179
 msgid " Bytes/s"
@@ -2888,11 +2885,11 @@ msgstr "Scanne "
 
 #: kio/kio_progress_dlg.cc:234
 msgid "From : "
-msgstr ""
+msgstr "Von: "
 
 #: kio/kio_progress_dlg.cc:238
 msgid "To: "
-msgstr ""
+msgstr "An: "
 
 #: kio/kio_progress_dlg.cc:245
 msgid "Creating dir "
