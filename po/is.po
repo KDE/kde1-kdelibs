@@ -1,11 +1,10 @@
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Logi Ragnarsson <logir@imf.au.dk>, 1998.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-09-30 23:21+0200\n"
-"PO-Revision-Date: 1998-10-03 24:24+0200\n"
+"PO-Revision-Date: 1998-10-23 23:31+0200\n"
 "Last-Translator: Logi Ragnarsson <logir@imf.au.dk>\n"
 "Language-Team: is\n"
 
@@ -310,9 +309,9 @@ msgid ""
 "Please report bugs at http://buglist.kde.org.\n"
 msgstr ""
 "\n"
-"Meðlimir KDE Hópsins sem skrifaði KDE Skjáumhverfið eru\n"
+"Meðlimir KDE Hópsins sem skrifuðu KDE Skjáumhverfið eru\n"
 "forritarar allsstaðar að úr heiminum sem styðja hugmyndina um\n"
-"Frjálsan Hugbúnað.\n"
+"frjálsan hugbúnað.\n"
 "\n"
 "Nánari upplýsingar um KDE verkefnið fást á http://www.kde.org\n"
 "Þar má líka sjá hvernig má hjálpa til við þróun KDE.\n"
