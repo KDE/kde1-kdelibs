@@ -632,9 +632,8 @@ msgid "&Help"
 msgstr "&Hjelp"
 
 #: kdeui/kkeydialog.cpp:236
-#, fuzzy
 msgid "&Defaults"
-msgstr "&Standard"
+msgstr "&Standarder"
 
 #: kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247 kdeui/kwizard.cpp:228
 #: po/texts.cpp:36
@@ -1548,27 +1547,24 @@ msgid "Formatted name"
 msgstr ""
 
 #: kab/addressbook.cc:1142
-#, fuzzy
 msgid "Comment"
-msgstr "Innhold"
+msgstr "Kommentar"
 
 #: kab/addressbook.cc:1146
 msgid "Organization"
-msgstr ""
+msgstr "Organisasjon"
 
 #: kab/addressbook.cc:1150
-#, fuzzy
 msgid "Unit"
-msgstr "Uten tittel"
+msgstr "Enhet"
 
 #: kab/addressbook.cc:1154
 msgid "Subunit"
-msgstr ""
+msgstr "Underenhet"
 
 #: kab/addressbook.cc:1158
-#, fuzzy
 msgid "Title"
-msgstr "fil"
+msgstr "Tittel"
 
 #: kab/addressbook.cc:1162
 msgid "Role"
@@ -1576,7 +1572,7 @@ msgstr ""
 
 #: kab/addressbook.cc:1166
 msgid "Birthday"
-msgstr ""
+msgstr "Fødselsdag"
 
 #: kab/addressbook.cc:1170
 msgid "Talk addresses"
@@ -1588,186 +1584,179 @@ msgstr ""
 
 #: kab/addressbook.cc:1178
 msgid "Email address"
-msgstr ""
+msgstr "Epostadresse"
 
 #: kab/addressbook.cc:1182
 msgid "Second email address"
-msgstr ""
+msgstr "Andre epostadresse"
 
 #: kab/addressbook.cc:1186
 msgid "Third email address"
-msgstr ""
+msgstr "Tredje epostadresse"
 
 #: kab/addressbook.cc:1190
 msgid "Email addresses"
-msgstr ""
+msgstr "Epostadresse"
 
 #: kab/addressbook.cc:1194
 msgid "Address"
-msgstr ""
+msgstr "Adresse"
 
 #: kab/addressbook.cc:1198
 msgid "City/Town"
-msgstr ""
+msgstr "By"
 
 #: kab/addressbook.cc:1202
 msgid "Telephone"
-msgstr ""
+msgstr "Telefon"
 
 #: kab/addressbook.cc:1206
 msgid "Fax number"
-msgstr ""
+msgstr "Faksnummer"
 
 #: kab/addressbook.cc:1210
 msgid "Modem number"
-msgstr ""
+msgstr "Modemnummer"
 
 #: kab/addressbook.cc:1214
 msgid "Homepage URL"
-msgstr ""
+msgstr "Hjemmeside-URL"
 
 #: kab/addressbook.cc:1218
 msgid "Zip/postal code"
-msgstr ""
+msgstr "Postnummer"
 
 #: kab/addressbook.cc:1222
 msgid "State/province"
-msgstr ""
+msgstr "Poststed"
 
 #: kab/addressbook.cc:1226
 msgid "Country"
-msgstr ""
+msgstr "Land"
 
 #: kab/addressbook.cc:1406
 msgid "(unnamed entry)"
-msgstr ""
+msgstr "(uten navn)"
 
 #: kab/datepickerdialog.cc:35
-#, fuzzy
 msgid "Select birthday"
-msgstr "Velg skrifttype"
+msgstr "Velg fødselsdag"
 
 #: kab/editentry.cc:41
 msgid "Edit the current entry"
-msgstr ""
+msgstr "Endre gjeldende oppføring"
 
 #: kab/editentry.cc:67
-#, fuzzy
 msgid "Title:"
-msgstr "Stil:"
+msgstr "Tittel:"
 
 #: kab/editentry.cc:68
 msgid "First name:"
-msgstr ""
+msgstr "Fornavn:"
 
 #: kab/editentry.cc:69
 msgid "Additional Name:"
-msgstr ""
+msgstr "Mellomnavn:"
 
 #: kab/editentry.cc:71
 msgid "Formatted Name:"
 msgstr ""
 
 #: kab/editentry.cc:94
-#, fuzzy
 msgid "&Name"
-msgstr "Navn"
+msgstr "&Navn"
 
 #: kab/editentry.cc:114
 msgid "Address:"
-msgstr ""
+msgstr "Adresse:"
 
 #: kab/editentry.cc:115
 msgid "Zip/postal code:"
-msgstr ""
+msgstr "Postnummer:"
 
 #: kab/editentry.cc:116
 msgid "Town:"
-msgstr ""
+msgstr "By:"
 
 #: kab/editentry.cc:117
-#, fuzzy
 msgid "State:"
-msgstr "Dato:"
+msgstr "Stilling:"
 
 #: kab/editentry.cc:118
 msgid "Country:"
-msgstr ""
+msgstr "Land:"
 
 #: kab/editentry.cc:141
 msgid "&Address"
-msgstr ""
+msgstr "&Adresse"
 
 #: kab/editentry.cc:161
 msgid "Organization:"
-msgstr ""
+msgstr "Organisasjon:"
 
 #: kab/editentry.cc:162
 msgid "Org Unit:"
-msgstr ""
+msgstr "Organisasjonsenhet:"
 
 #: kab/editentry.cc:163
 msgid "Org Subunit:"
-msgstr ""
+msgstr "Organisasjonsunderenhet:"
 
 #: kab/editentry.cc:164
-#, fuzzy
 msgid "Role:"
-msgstr "Mapper:"
+msgstr "Rolle:"
 
 #: kab/editentry.cc:185
 msgid "&Organization"
-msgstr ""
+msgstr "&Organisasjon"
 
 #: kab/editentry.cc:205
 msgid "Telephone:"
-msgstr ""
+msgstr "Telefon:"
 
 #: kab/editentry.cc:206
 msgid "Fax:"
-msgstr ""
+msgstr "Faks:"
 
 #: kab/editentry.cc:207
 msgid "Modem:"
-msgstr ""
+msgstr "Modem:"
 
 #: kab/editentry.cc:208
 msgid "Homepage (URL):"
-msgstr ""
+msgstr "Hjemmeside (URL):"
 
 #: kab/editentry.cc:222 kab/editentry.cc:455
 msgid "Edit email addresses"
-msgstr ""
+msgstr "Rediger epostadresse"
 
 #: kab/editentry.cc:228 kab/editentry.cc:438
 msgid "Edit talk addresses"
-msgstr ""
+msgstr "Rediger snakkeadresse"
 
 #: kab/editentry.cc:240
-#, fuzzy
 msgid "&Contact"
-msgstr "&Innhold"
+msgstr "&Kontakt"
 
 #: kab/editentry.cc:265
-#, fuzzy
 msgid "Comment:"
-msgstr "Innhold:"
+msgstr "Kommentar:"
 
 #: kab/editentry.cc:273
 msgid "Birthday:"
-msgstr ""
+msgstr "Fødselsdag:"
 
 #: kab/editentry.cc:283
 msgid "O&thers"
-msgstr ""
+msgstr "&Andre"
 
 #: kab/kabapi.cc:144
 msgid "Your new entry could not be added."
-msgstr ""
+msgstr "Din nye oppføring kunne ikke bli lagt til."
 
 #: kab/searchresults.cc:38
 msgid "search results"
-msgstr ""
+msgstr "søkeresultater"
 
 #: kab/widget.cc:153
 msgid "Conversion problem"
@@ -1789,11 +1778,11 @@ msgstr ""
 
 #: kab/widget.cc:236 kab/widget.cc:301 kab/widget.cc:309
 msgid "File handling error"
-msgstr ""
+msgstr "Filbehandlingsfeil"
 
 #: kab/widget.cc:237
 msgid "Unable to open database file r/w."
-msgstr ""
+msgstr "Umulig å åpne databasefil i skrive- og lesemodus."
 
 #: kab/widget.cc:245
 msgid "Email storage conversion"
@@ -1808,7 +1797,7 @@ msgstr ""
 
 #: kab/widget.cc:280
 msgid "kab database update"
-msgstr ""
+msgstr "kab-database oppdatert"
 
 #: kab/widget.cc:281
 msgid ""
@@ -1823,133 +1812,130 @@ msgid ""
 msgstr ""
 
 #: kab/widget.cc:302
-#, fuzzy
 msgid "Could not save database after update."
-msgstr "Kunne ikke lagre dokumentet\n"
+msgstr "Kunne ikke lagre database etter oppdatering."
 
 #: kab/widget.cc:310
 msgid "Unable to reopen database file r/o."
-msgstr ""
+msgstr "Kunne ikke gjenåpne databasefilen i kunlesemodus."
 
 #: kab/widget.cc:464
 msgid "first entry"
-msgstr ""
+msgstr "første oppføring"
 
 #: kab/widget.cc:465
-#, fuzzy
 msgid "previous entry"
-msgstr "&Forrige"
+msgstr "forrige oppføring"
 
 #: kab/widget.cc:466
-#, fuzzy
 msgid "next entry"
-msgstr "en katalog"
+msgstr "neste oppføring"
 
 #: kab/widget.cc:467
 msgid "last entry"
-msgstr ""
+msgstr "siste oppføring"
 
 #: kab/widget.cc:468
 msgid "search entries"
-msgstr ""
+msgstr "søk i oppføringer"
 
 #: kab/widget.cc:469
 msgid "add a new entry"
-msgstr ""
+msgstr "legg til ny oppføring"
 
 #: kab/widget.cc:470
 msgid "change this entry"
-msgstr ""
+msgstr "endret denne oppføring"
 
 #: kab/widget.cc:471
 msgid "remove this entry"
-msgstr ""
+msgstr "fjernet denne oppføring"
 
 #: kab/widget.cc:513
 msgid "Switched to first entry."
-msgstr ""
+msgstr "Byttet til første oppføring."
 
 #: kab/widget.cc:545
 msgid "Switched to last entry."
-msgstr ""
+msgstr "Byttet til siste oppføring."
 
 #: kab/widget.cc:607 kab/widget.cc:662 kab/widget.cc:948 kab/widget.cc:998
 msgid "Sorry, file changed."
-msgstr ""
+msgstr "Beklager, fil endret."
 
 #: kab/widget.cc:611 kab/widget.cc:666 kab/widget.cc:1002
-#, fuzzy
 msgid "Permission denied."
-msgstr "Rettigheter"
+msgstr "Rettigheter nektet."
 
 #: kab/widget.cc:622
-#, fuzzy
 msgid "Remove entry?"
-msgstr "Fjern"
+msgstr "Fjern oppføring?"
 
 #: kab/widget.cc:623
 msgid "Really remove this entry?"
-msgstr ""
+msgstr "Ønsker du virkelig å slette oppføringen?"
 
 #: kab/widget.cc:642
 msgid "Entry deleted."
-msgstr ""
+msgstr "Oppføring slettet."
 
 #: kab/widget.cc:676
 msgid "Added a new entry."
-msgstr ""
+msgstr "Legg til ny oppføring."
 
 #: kab/widget.cc:799
 msgid "The mail command must be configured before!"
-msgstr ""
+msgstr "Epostkommandoen må være konfigurert først!"
 
 #: kab/widget.cc:803 kab/widget.cc:916 kab/widget.cc:1273 kab/widget.cc:1953
 #: kab/widgets.cc:47
 msgid "No entries."
-msgstr ""
+msgstr "Ingen oppføringer."
 
 #: kab/widget.cc:822
 msgid "Empty email address."
-msgstr ""
+msgstr "Tom epostadresse."
 
 #: kab/widget.cc:832 kab/widget.cc:1860 kab/widget.cc:1996 kab/widgets.cc:75
 #: kab/widgets.cc:99
 msgid "Rejected."
-msgstr ""
+msgstr "Forkastet."
 
 #: kab/widget.cc:842
 msgid "Mail configuration"
-msgstr ""
+msgstr "Epost-konfigurasjon"
 
 #: kab/widget.cc:843
 msgid "Please configure the parameters for the email command."
-msgstr ""
+msgstr "Vennligst konfigurer parameterne for epostkommandoen."
 
 #: kab/widget.cc:869
 msgid "The email command parameters are wrong."
-msgstr ""
+msgstr "Epost-kommandoparameterne er feil."
 
 #: kab/widget.cc:881
 msgid ""
 "Email command failed.\n"
 "Make sure you did setup your email command and parameter!"
 msgstr ""
+"Epostkommando mislyktes.\n"
+"Forviss deg om at du satt opp epostkommando og parameter!"
 
 #: kab/widget.cc:885
 msgid "Mail program started."
-msgstr ""
+msgstr "Epostprogram startet."
 
 #: kab/widget.cc:909
 msgid "Opened browser window."
-msgstr ""
+msgstr "Åpnet filbehandlervindu."
 
 #: kab/widget.cc:912
 msgid "No URL."
-msgstr ""
+msgstr "Ingen URL."
 
 #: kab/widget.cc:921
 msgid "The filemanager is busy, please try again."
-msgstr ""
+msgstr "Filbehandleren er opptatt, vennligst prøv igjen."
 
 #: kab/widget.cc:941
 msgid ""
@@ -1957,197 +1943,202 @@ msgid ""
 "locked by another application.\n"
 "kab cannot save it."
 msgstr ""
+"addressbook-filen er midlertidig\n"
+"låst av en annen applikasjon.\n"
+"kab kan ikke lagre den."
 
 #: kab/widget.cc:959
-#, fuzzy
 msgid "Could not save database."
-msgstr "Kunne ikke lagre dokumentet\n"
+msgstr "Kunne ikke lagre database."
 
 #: kab/widget.cc:961
 msgid "Database saved successfully."
-msgstr ""
+msgstr "Database lagret med hell."
 
 #: kab/widget.cc:1021
 msgid "Entry changed."
-msgstr ""
+msgstr "Oppføring endret."
 
 #: kab/widget.cc:1121
 msgid "Results"
-msgstr ""
+msgstr "Resultater"
 
 #: kab/widget.cc:1122
 msgid "No entry matches this."
-msgstr ""
+msgstr "Ingen passende oppføringer."
 
 #: kab/widget.cc:1147
 msgid "Search results window closed."
-msgstr ""
+msgstr "Søkeresultatvindu lukket."
 
 #: kab/widget.cc:1261
 msgid "The talk command must be configured before!"
-msgstr ""
+msgstr "talk-kommandoen må bli konfigurert først!"
 
 #: kab/widget.cc:1266
 msgid "Talk configuration"
-msgstr ""
+msgstr "Talk-konfigurasjon"
 
 #: kab/widget.cc:1267
 msgid "Please configure the parameters for the talk command."
-msgstr ""
+msgstr "Vennligst konfigurer parametere for talk-kommanoen."
 
 #: kab/widget.cc:1282
 msgid "No talk address."
-msgstr ""
+msgstr "Ingen talk-adresse."
 
 #: kab/widget.cc:1298
 msgid "kab: Talk addresses"
-msgstr ""
+msgstr "kab: talk-adresser"
 
 #: kab/widget.cc:1299
 msgid "Available talk addresses:"
-msgstr ""
+msgstr "Tilgjengelig talk-adresse"
 
 #: kab/widget.cc:1305 kab/widget.cc:2101
-#, fuzzy
 msgid "Cancelled."
-msgstr "Avbryt"
+msgstr "Avbrutt."
 
 #: kab/widget.cc:1331
 msgid "The talk command parameters are wrong."
-msgstr ""
+msgstr "Talk-kommandoparameterne er gale."
 
 #: kab/widget.cc:1343
 msgid ""
 "Talk command failed.\n"
 "Make sure you did setup your talk command and parameter!"
 msgstr ""
+"Talk-kommandoen mislyktes.\n"
+"Forviss deg om at du satt opp talk-kommando og parameter!"
 
 #: kab/widget.cc:1347
 msgid "Talk program started."
-msgstr ""
+msgstr "Talk-program startet."
 
 #: kab/widget.cc:1399
 msgid "Attention: printing is still experimental!"
-msgstr ""
+msgstr "Hør etter: utskrift er fortsatt eksperimentell!"
 
 #: kab/widget.cc:1504 kab/widget.cc:1552
 msgid "Page size problem"
-msgstr ""
+msgstr "Sidestørrelseproblem"
 
 #: kab/widget.cc:1505 kab/widget.cc:1553
 msgid ""
 "The fields you requested to print do\n"
 "not fit into the page width."
 msgstr ""
+"Feltet du ba om å skrive ut passer\n"
+"ikke innenfor sidebredden."
 
 #: kab/widget.cc:1760 kab/widgets.cc:113
 msgid "Printing finished successfully."
-msgstr ""
+msgstr "Utskrift fullført med hell."
 
 #: kab/widget.cc:1791
 msgid "kab: Email addresses"
-msgstr ""
+msgstr "kab: Epostadresser"
 
 #: kab/widget.cc:1792
 msgid "Available email addresses:"
-msgstr ""
+msgstr "Tilgjenglige epostadresser:"
 
 #: kab/widget.cc:1857
 msgid "kab: Select fields to copy"
-msgstr ""
+msgstr "kab: Velg felter for kopiering"
 
 #: kab/widget.cc:1867
 msgid "Nothing selected."
-msgstr ""
+msgstr "Ingenting valgt."
 
 #: kab/widget.cc:1925 kab/widgets.cc:92
 msgid "KDE addressbook overview"
-msgstr ""
+msgstr "KDE-adressebokoversikt"
 
 #: kab/widget.cc:1970
 msgid "Name-Email-Link (recommended!)"
-msgstr ""
+msgstr "Navngi-epostleneke (anbefalt)"
 
 #: kab/widget.cc:1972
-#, fuzzy
 msgid "Select table columns"
-msgstr "Velg ikon"
+msgstr "Velg tabellkolonner"
 
 #: kab/widget.cc:1977
 msgid "Nothing to export."
-msgstr ""
+msgstr "Ingenting å eksportere."
 
 #: kab/widget.cc:2008
 msgid "Email link"
-msgstr ""
+msgstr "Epostlenke"
 
 #: kab/widget.cc:2088
 msgid "Could not find the users home directory."
-msgstr ""
+msgstr "Kunne ikke finne brukerens hjemmeområde."
 
 #: kab/widget.cc:2089
 msgid "Intern error!"
-msgstr ""
+msgstr "Intern feil!"
 
 #: kab/widget.cc:2111
 msgid "Could not open the file to create the HTML table."
-msgstr ""
+msgstr "Kunne ikke åpne filen for å opprette HTML-tabell."
 
 #: kab/widgets.cc:52
 msgid "Printing cancelled."
-msgstr ""
+msgstr "Utskrift avbrutt."
 
 #: kab/widgets.cc:67
 msgid "kab: Select columns for printing"
-msgstr ""
+msgstr "kab: velgt kolonner for utskrift"
 
 #: kab/widgets.cc:81
 msgid "Nothing to print."
-msgstr ""
+msgstr "Ingenting å skrive ut."
 
 #: kab/widgets.cc:93
 msgid "Page <p>"
-msgstr ""
+msgstr "Side <p>"
 
 #: kab/widgets.cc:94
 msgid "KDE - the professionals choice."
-msgstr ""
+msgstr "KDE - the profesjonelle valget."
 
 #: kab/widgets.cc:110
 msgid "Printing failed!"
-msgstr ""
+msgstr "Utskrift mislyktes!"
 
 #: kio/kio_cache.cc:345
 msgid "KIO Cache"
-msgstr ""
+msgstr "KIO Mellomlager"
 
 #: kio/kio_cache.cc:347
 msgid "Contents of the cache"
-msgstr ""
+msgstr "Innehold i mellomlageret"
 
 #: kio/kio_cache.cc:352
 msgid ""
 "Use the icons for drag and drop actions, since they refer to the cache files "
 "on your hard disk, while you should use the textual links for browsing"
 msgstr ""
+"Bruk ikoner for dra og slipp-hendelser, siden de refererer til "
+"mellomlagerfilene på platelageret ditt, mens du bør bruke tekst-lenker "
+"for nettlesing"
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"
-msgstr ""
+msgstr "Opprettelsesdato"
 
 #: kio/kio_cache.cc:357
 msgid "Expiration Date"
-msgstr ""
+msgstr "Utgåelsesdato"
 
 #: kio/kio_cache.cc:422
-#, fuzzy
 msgid "Unknown"
-msgstr "ukjent"
+msgstr "Ukjent"
 
 #: kio/kio_cache.cc:428
-#, fuzzy
 msgid "Never"
-msgstr "November"
+msgstr "Aldri"
 
 #: kio/kio_error.cc:16
 #, c-format
@@ -2155,13 +2146,17 @@ msgid ""
 "Could not read\n"
 "%s"
 msgstr ""
+"Kunne ikke lese\n"
+"%s"
 
 #: kio/kio_error.cc:19
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not write to\n"
 "%s"
-msgstr "Kunne ikke lagre dokumentet\n"
+msgstr ""
+"Kunne ikke skrive til\n"
+"%s"
 
 #: kio/kio_error.cc:22
 #, c-format
@@ -2222,7 +2217,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:40
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The file or directory\n"
 "%s\n"
@@ -2458,7 +2453,7 @@ msgstr "Denne gruppen er tom!"
 
 #: kio/kio_openwith.cc:264
 msgid "&Browser"
-msgstr "&Bla igjennom"
+msgstr "Gjennom&blaer"
 
 #: kio/kio_pass_dlg.cc:33
 msgid "User"
@@ -2628,7 +2623,7 @@ msgid ""
 msgstr ""
 "kdelnk-filen\n"
 "%s\n"
-"har ingen Type=... oppføring"
+"har ingen Type=...-oppføring"
 
 #: kio/kmimetypes.cc:504
 #, c-format
