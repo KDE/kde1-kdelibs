@@ -2,24 +2,21 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs \n"
 "POT-Creation-Date: 1998-01-03 22:39+0100\n"
-"PO-Revision-Date: 1998-01-03 14:46+0100\n"
+"PO-Revision-Date: 1998-01-05 17:17+0100\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
 #: kdecore/kapp.cpp:410
-#, fuzzy
 msgid "&Help..."
-msgstr "Pomo&c"
+msgstr "Pomo&c..."
 
 #: kdecore/kapp.cpp:415
-#, fuzzy
 msgid "&About"
-msgstr "Informacje"
+msgstr "&Informacje"
 
 #: kdecore/kapp.cpp:419
-#, fuzzy
 msgid "About &KDE..."
-msgstr "Informacje o KDE"
+msgstr "Informacje o &KDE..."
 
 #: kdecore/kapp.cpp:440
 msgid "About KDE"
@@ -103,40 +100,40 @@ msgstr "Niestety"
 
 #: kdeui/keditcl1.cpp:128
 msgid "The specified File does not exist"
-msgstr ""
+msgstr "Wybrany plik nie istnieje"
 
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:494
 #: kdeui/keditcl1.cpp:1626
-#, fuzzy
 msgid "Sorry:"
-msgstr "Niestety"
+msgstr "Niestety:"
 
 #: kdeui/keditcl1.cpp:142
 msgid "You have specificated a directory"
-msgstr ""
+msgstr "Wybrany zosta³ katalog"
 
 #: kdeui/keditcl1.cpp:157 kdeui/keditcl1.cpp:178
 msgid "You do not have read permission to this file."
-msgstr ""
+msgstr "Brak praw do odczytu tego pliku."
 
 #: kdeui/keditcl1.cpp:191
 msgid "An Error occured while trying to open this Document"
-msgstr ""
+msgstr "Wyst±pi³ b³±d podczas odczytu tego pliku"
 
 #: kdeui/keditcl1.cpp:356
 msgid "Select Document to Insert"
-msgstr ""
+msgstr "Wybierz dokument do wstawienia"
 
 #: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1569
-#, fuzzy
 msgid "Warning:"
-msgstr "Ostrze¿enie"
+msgstr "Ostrze¿enie:"
 
 #: kdeui/keditcl1.cpp:393 kdeui/keditcl1.cpp:475
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
 msgstr ""
+"Bierz±cy dokument zosta³ zmieniony.\n"
+"Czy chcesz go zachowaæ?"
 
 #: kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416 kdeui/keditcl1.cpp:477
 #: kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1572 kdeui/keditcl2.cpp:108
@@ -159,16 +156,20 @@ msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
+"Nie mo¿na zachowaæ dokumentu.\n"
+"Czy pomimo tego otworzyæ nowy?"
 
 #: kdeui/keditcl1.cpp:445
 msgid "Select Document to Open"
-msgstr ""
+msgstr "Wybierz dokument do otwarcia"
 
 #: kdeui/keditcl1.cpp:495
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
+"Nie mo¿na zachowaæ dokumentu.\n"
+"Czy pomimo tego utworzyæ nowy?"
 
 #: kdeui/keditcl1.cpp:530 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
 msgid "Untitled"
@@ -176,34 +177,37 @@ msgstr "Nienazwany"
 
 #: kdeui/keditcl1.cpp:1471
 msgid "Could not save the document\n"
-msgstr ""
+msgstr "Nie mo¿na zachowaæ dokumentu\n"
 
 #: kdeui/keditcl1.cpp:1541
-#, fuzzy
 msgid "Save Document As"
-msgstr "Zachowaj jako"
+msgstr "Zachowaj dokument jako"
 
 #: kdeui/keditcl1.cpp:1570
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
 msgstr ""
+"Dokument o tej nazwie ju¿ istnieje\n"
+"Czy skasowaæ poprzedni?"
 
 #: kdeui/keditcl1.cpp:1627
 msgid "You do not have write permission to this file.\n"
-msgstr ""
+msgstr "Brak praw do zapisu tego pliku.\n"
 
 #: kdeui/keditcl2.cpp:105 kdeui/keditcl2.cpp:122 kdeui/keditcl2.cpp:362
 #: kdeui/keditcl2.cpp:379 kdeui/keditcl2.cpp:678 kdeui/keditcl2.cpp:687
 #: kdeui/keditcl2.cpp:788
 msgid "Find"
-msgstr ""
+msgstr "Znajd¼"
 
 #: kdeui/keditcl2.cpp:106 kdeui/keditcl2.cpp:363 kdeui/keditcl2.cpp:456
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
 msgstr ""
+"Osi±gniêto koniec dokumentu.\n"
+"Rozpocz±æ od nowa?"
 
 #: kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426
 #: kdeui/keditcl2.cpp:473
@@ -211,20 +215,21 @@ msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
 msgstr ""
+"Osi±gniêto pocz±tek dokumentu.\n"
+"Rozpocz±æ od koñca?"
 
 #: kdeui/keditcl2.cpp:425 kdeui/keditcl2.cpp:455 kdeui/keditcl2.cpp:472
 #: kdeui/keditcl2.cpp:791
-#, fuzzy
 msgid "Replace"
-msgstr "Prze³aduj"
+msgstr "Zamieñ"
 
 #: kdeui/keditcl2.cpp:684 kdeui/keditcl2.cpp:782
 msgid "Case Sensitive"
-msgstr ""
+msgstr "Ma³e/wielkie litery"
 
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:785
 msgid "Find Backwards"
-msgstr ""
+msgstr "Szukaj do ty³u"
 
 #: kdeui/keditcl2.cpp:690 kdeui/keditcl2.cpp:797 po/texts.cpp:86
 msgid "Done"
@@ -232,23 +237,23 @@ msgstr "OK"
 
 #: kdeui/keditcl2.cpp:770
 msgid "Find:"
-msgstr ""
+msgstr "Znajd¼:"
 
 #: kdeui/keditcl2.cpp:780
 msgid "Replace with:"
-msgstr ""
+msgstr "Zamieñ z:"
 
 #: kdeui/keditcl2.cpp:794
 msgid "Replace All"
-msgstr ""
+msgstr "Zamieñ wszysko"
 
 #: kdeui/keditcl2.cpp:891
 msgid "Goto Line"
-msgstr ""
+msgstr "Id¼ do linii"
 
 #: kdeui/keditcl2.cpp:896
 msgid "Go"
-msgstr ""
+msgstr "Id¼"
 
 #: kdeui/kfontdialog.cpp:164
 msgid "Select Font"
@@ -394,27 +399,24 @@ msgid "About"
 msgstr "Informacje"
 
 #: po/texts.cpp:33
-#, fuzzy
 msgid "A&bout..."
-msgstr "Informacje"
+msgstr "&Informacje..."
 
 #: po/texts.cpp:36
-#, fuzzy
 msgid "&OK"
-msgstr "OK"
+msgstr "O&K"
 
 #: po/texts.cpp:38
 msgid "On"
-msgstr "W³"
+msgstr "W³±cz"
 
 #: po/texts.cpp:39
 msgid "Off"
 msgstr "Wy³±cz"
 
 #: po/texts.cpp:41
-#, fuzzy
 msgid "&Cancel"
-msgstr "Anuluj"
+msgstr "A&nuluj"
 
 #: po/texts.cpp:43
 msgid "File"
@@ -647,6 +649,3 @@ msgstr "Informacja"
 #: po/texts.cpp:103
 msgid "Browse..."
 msgstr "Przegl±daj..."
-
-#~ msgid "About "
-#~ msgstr "Informacje o "
