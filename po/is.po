@@ -883,7 +883,7 @@ msgstr "Fast"
 
 #: kdeui/knotebook.cpp:145
 msgid "Trying to add page when no KWizards are added!"
-msgstr ""
+msgstr "Reyni að setja inn síðu þegar engir KWizard hlutir eru fyrir!"
 
 #: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:182
 msgid "&Default"
