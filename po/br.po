@@ -1,13 +1,13 @@
 # KDE breton translation
 # Copyright (C) YEAR Free Software Foundation, Inc.
-# Jañ-Mai Drapier <jdrapier@club-internet.de>, 1998
+# Jañ-Mai Drapier <jan-mai.drapier@mail.dotcom.fr>, 1998
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs-1.1\n"
-"POT-Creation-Date: 1999-04-18 01:01+0200\n"
-"PO-Revision-Date: 1999-02-26 18:23+0100\n"
-"Last-Translator: Jañ-Mai Drapier <jdrapier@club-internet.fr>\n"
+"POT-Creation-Date: 1999-04-14 01:01+0200\n"
+"PO-Revision-Date: 1999-04-20 17:15+0200\n"
+"Last-Translator: Jañ-Mai Drapier <jan-mai.drapier@mail.dotcom.fr>\n"
 "Language-Team: Brezhoneg <Suav.Icb@wanadoo.fr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso8859-1\n"
@@ -47,8 +47,8 @@ msgstr "Kas ur bostel da ratreer an arload"
 #: kdeui/keditcl1.cpp:191 kdeui/keditcl1.cpp:204 kdeui/keditcl1.cpp:1561
 #: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:400
 #: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:286
-#: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:510
-#: kfile/kfiledialog.cpp:902 kfile/kfiledialogconf.cpp:61 kfmlib/kfm.cpp:411
+#: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:509
+#: kfile/kfiledialog.cpp:901 kfile/kfiledialogconf.cpp:61 kfmlib/kfm.cpp:411
 #: po/texts.cpp:35
 msgid "OK"
 msgstr "Mat eo"
@@ -255,8 +255,8 @@ msgstr "Gwerzhioù possubl :"
 msgid "Selected values:"
 msgstr "Gwerzhioù diuzet :"
 
-#: kdecore/kaccel.cpp:223 kfile/kfiledialog.cpp:559 kfile/kfiledialog.cpp:1219
-#: kfile/kfiledialog.cpp:1379 kfile/kfiledialog.cpp:1413 po/texts.cpp:65
+#: kdecore/kaccel.cpp:223 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1217
+#: kfile/kfiledialog.cpp:1377 kfile/kfiledialog.cpp:1411 po/texts.cpp:65
 msgid "Open"
 msgstr "Digeriñ"
 
@@ -268,8 +268,8 @@ msgstr "Nevez"
 msgid "Close"
 msgstr "Serriñ"
 
-#: kdecore/kaccel.cpp:235 kfile/kfiledialog.cpp:1274
-#: kfile/kfiledialog.cpp:1434 po/texts.cpp:75
+#: kdecore/kaccel.cpp:235 kfile/kfiledialog.cpp:1272
+#: kfile/kfiledialog.cpp:1432 po/texts.cpp:75
 msgid "Save"
 msgstr "Enrollañ"
 
@@ -408,7 +408,7 @@ msgstr "Nann"
 #: kdeui/kcontrol.cpp:48 kdeui/kcontrol.cpp:55 kdeui/keditcl1.cpp:414
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:403
 #: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:321
-#: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:907
+#: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:906
 #: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:415 kspell/kspelldlg.cpp:143
 #: po/texts.cpp:39
 msgid "Cancel"
@@ -842,7 +842,7 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
-"Ar blokad stokelloù %s zo bet derannet c'hoazh\n"
+"Ar blokad stokelloù % zo bet derannet c'hoazh\n"
 "d'an obererezh standard %s.\n"
 "Diuzit mar plij ur blokad stokelloù dieil."
 
@@ -858,7 +858,7 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
-"Ar blokad stokelloù %s zo bet derannet c'hoazh\n"
+"Ar blokad stokelloù % zo bet derannet c'hoazh\n"
 "d'an obererezh %s.\n"
 "Diuzit mar plij ur blokad stokelloù dieil."
 
@@ -995,11 +995,11 @@ msgstr "&Sil :"
 msgid "Show hidden"
 msgstr "Diskouez ar re guzh"
 
-#: kfile/kfiledialog.cpp:505
+#: kfile/kfiledialog.cpp:504
 msgid "Error: Not local file"
 msgstr "Beiad : ket ur restr lec'hel"
 
-#: kfile/kfiledialog.cpp:506
+#: kfile/kfiledialog.cpp:505
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
@@ -1007,11 +1007,11 @@ msgstr ""
 "Ar renkell resisaet n'eo ket ur renkell lec'hel\n"
 "Hogen an arload a gemer e kont ar restroù lec'hel hepken."
 
-#: kfile/kfiledialog.cpp:520 kfile/kfiledialog.cpp:625
+#: kfile/kfiledialog.cpp:519 kfile/kfiledialog.cpp:624
 msgid "Error: Cannot Open Directory"
 msgstr "Kammad : n'hell ket digeriñ ar renkell"
 
-#: kfile/kfiledialog.cpp:521
+#: kfile/kfiledialog.cpp:520
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
@@ -1019,64 +1019,64 @@ msgstr ""
 "Ar renkell resisaet n'eus ket anezhi\n"
 "pe a oa anlennadus."
 
-#: kfile/kfiledialog.cpp:523 kfile/kfiledialog.cpp:628
+#: kfile/kfiledialog.cpp:522 kfile/kfiledialog.cpp:627
 msgid "Dismiss"
 msgstr "Dilezel"
 
-#: kfile/kfiledialog.cpp:574 kfile/kfiledialog.cpp:1394 po/texts.cpp:77
+#: kfile/kfiledialog.cpp:573 kfile/kfiledialog.cpp:1392 po/texts.cpp:77
 msgid "Save As"
 msgstr "Enrollañ e"
 
-#: kfile/kfiledialog.cpp:597
+#: kfile/kfiledialog.cpp:596
 msgid "Root Directory"
 msgstr "Renkell gwrizienn"
 
-#: kfile/kfiledialog.cpp:626
+#: kfile/kfiledialog.cpp:625
 msgid "The specified directory does not exist or was not readable."
 msgstr "Ar renkell resisaet n'eus ket anezhi pe a oa anlennadus."
 
-#: kfile/kfiledialog.cpp:887
+#: kfile/kfiledialog.cpp:886
 msgid "Create new directory in: "
 msgstr "Krouiñ ur renkell nevez e :"
 
-#: kfile/kfiledialog.cpp:890
+#: kfile/kfiledialog.cpp:889
 msgid "New Directory"
 msgstr "Renkell nevez"
 
-#: kfile/kfiledialog.cpp:962
+#: kfile/kfiledialog.cpp:961
 msgid "Add to bookmarks"
 msgstr "Ouzhpennañ d'ar sinedoù"
 
-#: kfile/kfiledialog.cpp:1253
+#: kfile/kfiledialog.cpp:1251
 msgid "Choose Directory"
 msgstr "Diuzit ar renkell"
 
-#: kfile/kfiledialog.cpp:1321
+#: kfile/kfiledialog.cpp:1319
 msgid "directory"
 msgstr "renkell"
 
-#: kfile/kfiledialog.cpp:1323
+#: kfile/kfiledialog.cpp:1321
 msgid "directories"
 msgstr "renkell"
 
-#: kfile/kfiledialog.cpp:1325 kfile/kpreview.cpp:326
+#: kfile/kfiledialog.cpp:1323 kfile/kpreview.cpp:326
 msgid "file"
 msgstr "restr"
 
-#: kfile/kfiledialog.cpp:1327
+#: kfile/kfiledialog.cpp:1325
 msgid "files"
 msgstr "restr"
 
-#: kfile/kfiledialog.cpp:1329
+#: kfile/kfiledialog.cpp:1327
 #, c-format
 msgid "%d %s and %d %s"
 msgstr "%d %s ha %d %s"
 
-#: kfile/kfiledialog.cpp:1339
+#: kfile/kfiledialog.cpp:1337
 msgid "one directory"
 msgstr "ur renkell"
 
-#: kfile/kfiledialog.cpp:1341
+#: kfile/kfiledialog.cpp:1339
 #, c-format
 msgid "%d directories"
 msgstr "%d renkell"
@@ -2411,488 +2411,3 @@ msgstr ""
 #: kab/widget.cc:2210
 msgid "Mail program started."
 msgstr "Goulev postel loc'het"
-
-#~ msgid "KIO Cache"
-#~ msgstr "Krubuilh KIO"
-
-#~ msgid "Contents of the cache"
-#~ msgstr "Endalc'had ar grubuilh"
-
-#~ msgid ""
-#~ "Use the icons for drag and drop actions, since they refer to the cache files "
-#~ "on your hard disk, while you should use the textual links for browsing"
-#~ msgstr ""
-#~ "Implijit an arlunioù evit obererezhoù stlejañ ha leuskel, dre ma zaveont da "
-#~ "restroù ar grubuilh\n"
-#~ "war ho pladenn galet, tra ma vije gwell deoc'h ober gant ereoù mod testenn "
-#~ "evit ar furchal "
-
-#~ msgid "Creation Date"
-#~ msgstr "Deizad krouiñ"
-
-#~ msgid "Expiration Date"
-#~ msgstr "Deiziad termen"
-
-#~ msgid "Never"
-#~ msgstr "Morse"
-
-#~ msgid ""
-#~ "Could not read\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Ne m'eus ket gallet lenn\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Could not write to\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Ne m'eus ket gallet skrivañ da\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Could not start process\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Ne m'eus ket gallet loc'hañ argerzh\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Internal Error\n"
-#~ "Please send a full bugreport to kde-bugs@kde.org\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Fazi diabarzh\n"
-#~ "Kasit mar plij un danevell draen da kde-bugs@kde.org\n"
-#~ "\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Malformed URL\n"
-#~ "%s"
-#~ msgstr ""
-#~ "URL siek\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "The protocol %s\n"
-#~ " is not supported"
-#~ msgstr ""
-#~ "Ar c'homenad %s\n"
-#~ "n'eo ket gouzañvet"
-
-#~ msgid ""
-#~ "The protocol %s\n"
-#~ "is only a filter protocol.\n"
-#~ msgstr ""
-#~ "Ar c'homenad %s\n"
-#~ "a zo ur c'homenad sil hepken.\n"
-
-#~ msgid ""
-#~ "Unsupported action\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Obererezh angouzañvet\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "The file or directory\n"
-#~ "%s\n"
-#~ "does not exist"
-#~ msgstr ""
-#~ "Ar restr pe renkell\n"
-#~ "%s\n"
-#~ "n'eus ket anezhañ"
-
-#~ msgid ""
-#~ "%s\n"
-#~ " is a directory,\n"
-#~ "but a file was expected"
-#~ msgstr ""
-#~ "%s\n"
-#~ "zo ur renkell,\n"
-#~ "tra ma oa gortozet ur restr"
-
-#~ msgid ""
-#~ "Could not make directory\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Ne m'eus ket gallet oberiañ ar renkell\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "The file or directory\n"
-#~ "%s\n"
-#~ "does already exist"
-#~ msgstr ""
-#~ "Ar restr pe renkell\n"
-#~ "%s\n"
-#~ "a zo anezhañ c'hoazh"
-
-#~ msgid ""
-#~ "%s\n"
-#~ "Access denied"
-#~ msgstr ""
-#~ "%s\n"
-#~ "Moned nac'het"
-
-#~ msgid ""
-#~ "Could not enter directory\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Ne m'eus ket gallet mont tre renkell\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "The protocol %s\n"
-#~ "does not implement a directory service"
-#~ msgstr ""
-#~ "Ar c'homenad %s\n"
-#~ "n'eus ket ennañ ur servij renkell"
-
-#~ msgid ""
-#~ "Found a cyclic link in\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Kavet un ere kelc'hiel e\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Could not change permissions for\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Ne m'eus ket gallet kemmañ aotreoù evit\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Access denied\n"
-#~ "Could not write to\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Moned nac'het\n"
-#~ "Ne m'eus ket gallet skrivañ e\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Action has been\n"
-#~ "canceled by the user"
-#~ msgstr ""
-#~ "An obererezh zo bet\n"
-#~ "nullaet gant an arveriad"
-
-#~ msgid ""
-#~ "Found a cyclic link while copying\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Kavet un ere kelc'hiel en ur eilañ\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Could not create socket for accessing\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Ne m'eus ket gallet krouiñ ul lugell evit tizhout\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Could not connect to host\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Ne m'eus ket gallet kevreañ ouzh an ostiz\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Unknown host\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Ostiz dianav\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Connection to host\n"
-#~ "%s\n"
-#~ "is broken"
-#~ msgstr ""
-#~ "Kevreadur ouzh an ostiz\n"
-#~ "%s\n"
-#~ "a zo torret"
-
-#~ msgid ""
-#~ "The protocol %s\n"
-#~ "is not a filter protocol"
-#~ msgstr ""
-#~ "Ar c'homenad %s\n"
-#~ "n'eo ket ur c'homenad sil"
-
-#~ msgid ""
-#~ "%s\n"
-#~ "is a file,\n"
-#~ "but a directory was expected"
-#~ msgstr ""
-#~ "%s\n"
-#~ "zo ur restr,\n"
-#~ "tra ma oa gortozet ur renkell"
-
-#~ msgid ""
-#~ "Could not mount device.\n"
-#~ "The reported error was:\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Ne m'eus ket gallet mountañ an trobarzhell.\n"
-#~ "Ar fazi kemennet a oa :\n"
-#~ "\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Could not unmount device.\n"
-#~ "The reported error was:\n"
-#~ "\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Ne m'eus ket gallet divountañ trobarzhell.\n"
-#~ "Ar fazi kemennet a oa :\n"
-#~ "\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "The process for the\n"
-#~ "%s protocol\n"
-#~ "died unexpectedly"
-#~ msgstr ""
-#~ "An argerzh evit ar c'homenad\n"
-#~ "%s zo marvet\n"
-#~ "a-greiz-holl"
-
-#~ msgid ""
-#~ "Could not access\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Ne m'eus ket gallet tizhout\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "Unknown error code %i\n"
-#~ "%s\n"
-#~ "\n"
-#~ "Please send a full bugreport to kde-bugs@kde.org"
-#~ msgstr ""
-#~ "Kod fazi dianav %i\n"
-#~ "%s\n"
-#~ "\n"
-#~ "Kasit mar plij un danevell draen da kde-bugs@kde.org"
-
-#~ msgid "Ok"
-#~ msgstr "Mat eo"
-
-#~ msgid "Mounting %s ..."
-#~ msgstr "O vountañ %s ..."
-
-#~ msgid "Unmounting %s ..."
-#~ msgstr "O tivountañ %s ..."
-
-#~ msgid "This group is empty!"
-#~ msgstr "Goullo eo ar strollad-se !"
-
-#~ msgid "&Browser"
-#~ msgstr "&Furcher"
-
-#~ msgid "User"
-#~ msgstr "Arveriad"
-
-#~ msgid "Password"
-#~ msgstr "Tremenger"
-
-#~ msgid "The clipboard is empty"
-#~ msgstr "Goullo eo ar golver"
-
-#~ msgid ""
-#~ "Pasting clipboard data is only supported on the local hard disk currently"
-#~ msgstr ""
-#~ "Pegañ roadoù ar golver a zo gouzañvet war ar pladenn lec'hel hepken evit ar "
-#~ "mare"
-
-#~ msgid "Filename for clipboard content:"
-#~ msgstr "Anv restr evit endalc'had ar golver :"
-
-#~ msgid "You did not enter a filename"
-#~ msgstr "N'oc'h eus ket roet a anv restr"
-
-#~ msgid "The file %s does already exist. Do you really want to overwrite it ?"
-#~ msgstr ""
-#~ "Ar restr %s a zo anezhañ c'hoazh. Ha fellout a ra deoc'h e rasklañ da vat ?"
-
-#, fuzzy
-#~ msgid "Bytes"
-#~ msgstr " Okted"
-
-#, fuzzy
-#~ msgid "Kb"
-#~ msgstr " Ko"
-
-#, fuzzy
-#~ msgid "Mb"
-#~ msgstr " Mo"
-
-#~ msgid "Stalled"
-#~ msgstr "Stanket"
-
-#~ msgid " Bytes/s"
-#~ msgstr " Okted/e"
-
-#~ msgid " Kb/s"
-#~ msgstr " Ko/e"
-
-#~ msgid " Mb/s"
-#~ msgstr " Mo/e"
-
-#~ msgid "%i seconds"
-#~ msgstr "%i eilenn"
-
-#~ msgid "%i%s  Remaining time: %s"
-#~ msgstr "%i%s Amzer o chom : %s"
-
-#~ msgid "Scanning "
-#~ msgstr "O dezrannañ"
-
-#~ msgid "Creating dir "
-#~ msgstr "O krouiñ renkell "
-
-#~ msgid "Fetching file"
-#~ msgstr "O tizhout restr"
-
-#~ msgid "Rename"
-#~ msgstr "Adenvel"
-
-#~ msgid "Skip"
-#~ msgstr "Piklammat"
-
-#~ msgid "Auto Skip"
-#~ msgstr "Piklammat emgefreek"
-
-#~ msgid "Overwrite"
-#~ msgstr "Rasklañ"
-
-#~ msgid "Overwrite All"
-#~ msgstr "Rasklañ pep tra"
-
-#~ msgid "Resume"
-#~ msgstr "Adkregiñ"
-
-#~ msgid "Resume All"
-#~ msgstr "Adkregiñ pep tra"
-
-#~ msgid "You try to overwrite"
-#~ msgstr "Klas a rit rasklañ"
-
-#~ msgid "already exists. Overwrite with"
-#~ msgstr "a zo endeo. Rasklañ gant"
-
-#~ msgid "Or rename to"
-#~ msgstr "Pe adenvel da"
-
-#~ msgid "already exists."
-#~ msgstr "a zo endeo."
-
-#~ msgid "Do you want to rename it ?"
-#~ msgstr "Ha fellout a ra deoc'h e adenvel ?"
-
-#~ msgid "Malformed URL\n"
-#~ msgstr "URL siek\n"
-
-#~ msgid "You must not change the protocol"
-#~ msgstr "Arabat deoc'h kemmañ ar c'homenad"
-
-#~ msgid "Can not write"
-#~ msgstr "N'hellan ket skrivañ"
-
-#~ msgid "Permission denied!"
-#~ msgstr "Aotre nac'het !"
-
-#~ msgid "No mime types installed!"
-#~ msgstr "Seurt mime ebet staliaet !"
-
-#~ msgid "Could not find mime type\n"
-#~ msgstr "Ne m'eus ket gallet kavout ar rizh mime\n"
-
-#~ msgid "The mime type config file "
-#~ msgstr "Restr kefluniañ ar seurt"
-
-#~ msgid "does not conatain a MimeType=... entry"
-#~ msgstr "n'eus ket ennañ a enmont MimeType=..."
-
-#~ msgid ""
-#~ "The kdelnk file\n"
-#~ "%s\n"
-#~ "has no Type=... entry"
-#~ msgstr ""
-#~ "Ar restr kdelnk\n"
-#~ "%s\n"
-#~ "n'eus ket a enmont Type=..."
-
-#~ msgid ""
-#~ "The kdelnk type\n"
-#~ "%s\n"
-#~ "is unknown"
-#~ msgstr ""
-#~ "Dianav eo\n"
-#~ "ar seurt kdelnk\n"
-#~ "%s"
-
-#~ msgid ""
-#~ "The kdelnk file\n"
-#~ "%s\n"
-#~ "is of type FSDevice but has no Dev=... entry"
-#~ msgstr ""
-#~ "Ar restr kdelnk\n"
-#~ "%s\n"
-#~ "a zo eus ar seurt FSDevice met n'eus ket a enmont Dev=..."
-
-#~ msgid ""
-#~ "The kdelnk file\n"
-#~ "%s\n"
-#~ "is of type Link but has no URL=... entry"
-#~ msgstr ""
-#~ "Ar restr kdelnk\n"
-#~ "%s\n"
-#~ "a zo eus ar seurt Link met n'eus ket a enmont URL=..."
-
-#~ msgid "Mount"
-#~ msgstr "Mountañ"
-
-#~ msgid "Unmount"
-#~ msgstr "Divountañ"
-
-#~ msgid ""
-#~ "The kdelnk file\n"
-#~ "%s\n"
-#~ " has an invalid menu entry\n"
-#~ "%s"
-#~ msgstr ""
-#~ "Ar restr kdelnk\n"
-#~ "%s\n"
-#~ "a zo ennañ un enmont lañser siek\n"
-#~ "%s"
-
-#~ msgid "The mime type _cfg file "
-#~ msgstr "Ar restr neuziañ _cfg "
-
-#~ msgid ""
-#~ "Can not enter\n"
-#~ "%s\n"
-#~ "Access denied"
-#~ msgstr ""
-#~ "N'hell ket mont tre\n"
-#~ "%s\n"
-#~ "Moned nac'het"
-
-#~ msgid "The application config file\n"
-#~ msgstr "Ar restr kefluniañ un arload\n"
-
-#~ msgid ""
-#~ "\n"
-#~ "does not conatain a Name=... entry"
-#~ msgstr ""
-#~ "\n"
-#~ "n'eus ket ennañ a enmont Name=..."
