@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdehelp 0.5.2\n"
-"POT-Creation-Date: 1998-01-16 22:07+0100\n"
+"POT-Creation-Date: 1998-01-17 07:40+0100\n"
 "PO-Revision-Date: 1997-09-21 19:39+MET\n"
 "Last-Translator: Balazs Nagy <julian7@kva.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -13,31 +13,31 @@ msgstr ""
 "Content-Type: text/plain; charset=Latin2\n"
 "Content-Transfer-Encoding: iso-8859-2\n"
 
-#: kdecore/kapp.cpp:413
+#: kdecore/kapp.cpp:416
 #, fuzzy
 msgid "&Help..."
 msgstr "Segítség"
 
-#: kdecore/kapp.cpp:418
+#: kdecore/kapp.cpp:421
 #, fuzzy
 msgid "&About"
 msgstr "Névjegy"
 
-#: kdecore/kapp.cpp:422
+#: kdecore/kapp.cpp:425
 #, fuzzy
 msgid "About &KDE..."
 msgstr "Névjegy"
 
-#: kdecore/kapp.cpp:443
+#: kdecore/kapp.cpp:446
 #, fuzzy
 msgid "About KDE"
 msgstr "Névjegy"
 
-#: kdecore/kapp.cpp:445
+#: kdecore/kapp.cpp:448
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
-"Please report bug at http://buglist.kde.org.\n"
+"Please report bugs at http://buglist.kde.org.\n"
 "\n"
 "\n"
 "KDE was developed with Qt, a cross-platform GUI library.\n"

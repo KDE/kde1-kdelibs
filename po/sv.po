@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-16 22:07+0100\n"
+"POT-Creation-Date: 1998-01-17 07:40+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,28 +14,28 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: kdecore/kapp.cpp:413
+#: kdecore/kapp.cpp:416
 msgid "&Help..."
 msgstr "&Hjälp..."
 
-#: kdecore/kapp.cpp:418
+#: kdecore/kapp.cpp:421
 msgid "&About"
 msgstr "&Om"
 
-#: kdecore/kapp.cpp:422
+#: kdecore/kapp.cpp:425
 msgid "About &KDE..."
 msgstr "Om &KDE..."
 
-#: kdecore/kapp.cpp:443
+#: kdecore/kapp.cpp:446
 msgid "About KDE"
 msgstr "Om KDE"
 
-#: kdecore/kapp.cpp:445
+#: kdecore/kapp.cpp:448
 #, fuzzy
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
-"Please report bug at http://buglist.kde.org.\n"
+"Please report bugs at http://buglist.kde.org.\n"
 "\n"
 "\n"
 "KDE was developed with Qt, a cross-platform GUI library.\n"
