@@ -22,7 +22,6 @@ msgid "About KDE"
 msgstr "Sobre o KDE"
 
 #: kdecore/kapp.cpp:530
-#, fuzzy
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -38,11 +37,13 @@ msgstr ""
 "O Ambiente Gráfico KDE foi desenvolvido pelo Time KDE,\n"
 "uma rede mundial de engenheiros de software comprometidos\n"
 "com o desenvolvimento de software gratuito.\n"
-"\n"
 "Visite http://www.kde.org para maiores informações sobre\n"
 "o Projeto KDE. Considere juntar-se à equipe KDE.\n"
 "\n"
 "Favor reportar bugs no site http://buglist.kde.org.\n"
+"\n"
+"Envie comentários sobre a localização do KDE para Português\n"
+"do Brasil para Elvis Pfützenreuter <epx@netville.com.br>\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416
 #: kdeui/keditcl1.cpp:477 kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573
