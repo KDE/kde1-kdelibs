@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-15 14:46+0200\n"
+"POT-Creation-Date: 1998-06-15 18:30+0200\n"
 "PO-Revision-Date: 1998-02-26 20:20+MET\n"
 "Last-Translator: Balazs Nagy <julian7@kva.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -9,23 +9,23 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-2\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: kdecore/kapp.cpp:487
+#: kdecore/kapp.cpp:490
 msgid "&Contents"
 msgstr "&Tartalom"
 
-#: kdecore/kapp.cpp:493
+#: kdecore/kapp.cpp:496
 msgid "&About"
 msgstr "&Névjegy"
 
-#: kdecore/kapp.cpp:500
+#: kdecore/kapp.cpp:503
 msgid "About &KDE..."
 msgstr "&KDE Névjegy"
 
-#: kdecore/kapp.cpp:521
+#: kdecore/kapp.cpp:524
 msgid "About KDE"
 msgstr "&KDE Névjegy"
 
-#: kdecore/kapp.cpp:523
+#: kdecore/kapp.cpp:526
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -63,9 +63,9 @@ msgstr "Segítség"
 
 #: kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:46
 #: kdeui/keditcl1.cpp:397 kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897
-#: kdeui/kfontdialog.cpp:352 kdeui/kiconloaderdialog.cpp:255
+#: kdeui/kfontdialog.cpp:355 kdeui/kiconloaderdialog.cpp:255
 #: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:877
-#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:406 po/texts.cpp:40
+#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:407 po/texts.cpp:40
 msgid "Cancel"
 msgstr "Mégsem"
 
@@ -85,9 +85,9 @@ msgstr "Saját paletta"
 msgid "Add to Custom Colors"
 msgstr "Saját palettához ad"
 
-#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:357
+#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:360
 #: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872
-#: kfmlib/kfm.cpp:402 po/texts.cpp:37
+#: kfmlib/kfm.cpp:403 po/texts.cpp:37
 msgid "Ok"
 msgstr ""
 
@@ -344,82 +344,82 @@ msgstr "Ugrás sorra"
 msgid "Go"
 msgstr "Mehet"
 
-#: kdeui/kfontdialog.cpp:168
+#: kdeui/kfontdialog.cpp:171
 msgid "Select Font"
 msgstr "Kiválasztott betûtípus"
 
-#: kdeui/kfontdialog.cpp:172
+#: kdeui/kfontdialog.cpp:175
 msgid "Requested Font"
 msgstr "Kért betûtípus"
 
-#: kdeui/kfontdialog.cpp:177
+#: kdeui/kfontdialog.cpp:180
 msgid "Actual Font"
 msgstr "Tényleges betûtípus"
 
-#: kdeui/kfontdialog.cpp:181 kdeui/kfontdialog.cpp:185
+#: kdeui/kfontdialog.cpp:184 kdeui/kfontdialog.cpp:188
 msgid "Family:"
 msgstr "Család:"
 
-#: kdeui/kfontdialog.cpp:192 kdeui/kfontdialog.cpp:198 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:195 kdeui/kfontdialog.cpp:201 po/texts.cpp:26
 msgid "Charset:"
 msgstr "Betûkészlet:"
 
-#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:210 kfile/kpreview.cpp:196
+#: kdeui/kfontdialog.cpp:208 kdeui/kfontdialog.cpp:213 kfile/kpreview.cpp:196
 msgid "Size:"
 msgstr "Méret:"
 
-#: kdeui/kfontdialog.cpp:217 kdeui/kfontdialog.cpp:222
+#: kdeui/kfontdialog.cpp:220 kdeui/kfontdialog.cpp:225
 msgid "Weight:"
 msgstr "Vastagság:"
 
-#: kdeui/kfontdialog.cpp:230 kdeui/kfontdialog.cpp:237
+#: kdeui/kfontdialog.cpp:233 kdeui/kfontdialog.cpp:240
 msgid "Style:"
 msgstr "Stílus:"
 
-#: kdeui/kfontdialog.cpp:273
+#: kdeui/kfontdialog.cpp:276
 msgid "Charset"
 msgstr "Betûkészlet:"
 
-#: kdeui/kfontdialog.cpp:284 kfile/kfiledetaillist.cpp:38
+#: kdeui/kfontdialog.cpp:287 kfile/kfiledetaillist.cpp:38
 msgid "Size"
 msgstr "Méret"
 
-#: kdeui/kfontdialog.cpp:325
+#: kdeui/kfontdialog.cpp:328
 msgid "Weight"
 msgstr "Vastagság"
 
-#: kdeui/kfontdialog.cpp:326 kdeui/kfontdialog.cpp:467
+#: kdeui/kfontdialog.cpp:329 kdeui/kfontdialog.cpp:470
 msgid "normal"
 msgstr "normál"
 
-#: kdeui/kfontdialog.cpp:327 kdeui/kfontdialog.cpp:469
+#: kdeui/kfontdialog.cpp:330 kdeui/kfontdialog.cpp:472
 msgid "bold"
 msgstr "félkövér"
 
-#: kdeui/kfontdialog.cpp:338
+#: kdeui/kfontdialog.cpp:341
 msgid "Style"
 msgstr "Stílus"
 
-#: kdeui/kfontdialog.cpp:339 kdeui/kfontdialog.cpp:480
-#: kdeui/kfontdialog.cpp:509
+#: kdeui/kfontdialog.cpp:342 kdeui/kfontdialog.cpp:483
+#: kdeui/kfontdialog.cpp:512
 #, fuzzy
 msgid "roman"
 msgstr "Parancs:"
 
-#: kdeui/kfontdialog.cpp:340 kdeui/kfontdialog.cpp:482
-#: kdeui/kfontdialog.cpp:507
+#: kdeui/kfontdialog.cpp:343 kdeui/kfontdialog.cpp:485
+#: kdeui/kfontdialog.cpp:510
 msgid "italic"
 msgstr "kurzív"
 
-#: kdeui/kfontdialog.cpp:370
+#: kdeui/kfontdialog.cpp:373
 msgid "Dolor Ipse"
 msgstr "árvíztûrõ tükörfúrógép"
 
-#: kdeui/kfontdialog.cpp:502
+#: kdeui/kfontdialog.cpp:505
 msgid "Bold"
 msgstr "Félkövér"
 
-#: kdeui/kfontdialog.cpp:504
+#: kdeui/kfontdialog.cpp:507
 msgid "Normal"
 msgstr "Normál"
 
@@ -868,12 +868,12 @@ msgid ""
 "Could not do Authorization"
 msgstr ""
 
-#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:209
+#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
 #, fuzzy
 msgid "KFM Error"
 msgstr "Hiba"
 
-#: kfmlib/kfm.cpp:207
+#: kfmlib/kfm.cpp:208
 #, c-format
 msgid ""
 "The file %s is corrupted\n"
@@ -1273,6 +1273,25 @@ msgstr "Kilép"
 #: po/texts.cpp:139
 msgid "Highscore"
 msgstr ""
+
+#: po/texts.cpp:140
+#, fuzzy
+msgid "&New View"
+msgstr "&Nézet"
+
+#: po/texts.cpp:141
+msgid "&Insert"
+msgstr ""
+
+#: po/texts.cpp:144
+#, fuzzy
+msgid "&Next >>"
+msgstr "&Következõ"
+
+#: po/texts.cpp:145
+#, fuzzy
+msgid "<< &Previous"
+msgstr "E&lõzõ"
 
 #, fuzzy
 #~ msgid "Height"

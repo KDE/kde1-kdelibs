@@ -6,30 +6,30 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-06-15 14:46+0200\n"
+"POT-Creation-Date: 1998-06-15 18:30+0200\n"
 "PO-Revision-Date: 1998-04-19 13:46+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: kdecore/kapp.cpp:487
+#: kdecore/kapp.cpp:490
 msgid "&Contents"
 msgstr "內容[&C]"
 
-#: kdecore/kapp.cpp:493
+#: kdecore/kapp.cpp:496
 msgid "&About"
 msgstr "有關[&A]"
 
-#: kdecore/kapp.cpp:500
+#: kdecore/kapp.cpp:503
 msgid "About &KDE..."
 msgstr "關於 &KDE..."
 
-#: kdecore/kapp.cpp:521
+#: kdecore/kapp.cpp:524
 msgid "About KDE"
 msgstr "關於 KDE"
 
-#: kdecore/kapp.cpp:523
+#: kdecore/kapp.cpp:526
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -67,9 +67,9 @@ msgstr "求助"
 
 #: kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:46
 #: kdeui/keditcl1.cpp:397 kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897
-#: kdeui/kfontdialog.cpp:352 kdeui/kiconloaderdialog.cpp:255
+#: kdeui/kfontdialog.cpp:355 kdeui/kiconloaderdialog.cpp:255
 #: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:877
-#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:406 po/texts.cpp:40
+#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:407 po/texts.cpp:40
 msgid "Cancel"
 msgstr "取消"
 
@@ -89,9 +89,9 @@ msgstr "自定顏色"
 msgid "Add to Custom Colors"
 msgstr "加入自定顏色"
 
-#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:357
+#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:360
 #: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872
-#: kfmlib/kfm.cpp:402 po/texts.cpp:37
+#: kfmlib/kfm.cpp:403 po/texts.cpp:37
 msgid "Ok"
 msgstr "確定"
 
@@ -354,82 +354,82 @@ msgstr "跳至行數"
 msgid "Go"
 msgstr "跳"
 
-#: kdeui/kfontdialog.cpp:168
+#: kdeui/kfontdialog.cpp:171
 msgid "Select Font"
 msgstr "選擇字型"
 
-#: kdeui/kfontdialog.cpp:172
+#: kdeui/kfontdialog.cpp:175
 msgid "Requested Font"
 msgstr "要求的字型"
 
-#: kdeui/kfontdialog.cpp:177
+#: kdeui/kfontdialog.cpp:180
 msgid "Actual Font"
 msgstr "實際的字型"
 
-#: kdeui/kfontdialog.cpp:181 kdeui/kfontdialog.cpp:185
+#: kdeui/kfontdialog.cpp:184 kdeui/kfontdialog.cpp:188
 msgid "Family:"
 msgstr "族類:"
 
-#: kdeui/kfontdialog.cpp:192 kdeui/kfontdialog.cpp:198 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:195 kdeui/kfontdialog.cpp:201 po/texts.cpp:26
 msgid "Charset:"
 msgstr "字集:"
 
-#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:210 kfile/kpreview.cpp:196
+#: kdeui/kfontdialog.cpp:208 kdeui/kfontdialog.cpp:213 kfile/kpreview.cpp:196
 msgid "Size:"
 msgstr "大小"
 
-#: kdeui/kfontdialog.cpp:217 kdeui/kfontdialog.cpp:222
+#: kdeui/kfontdialog.cpp:220 kdeui/kfontdialog.cpp:225
 msgid "Weight:"
 msgstr "厚度:"
 
-#: kdeui/kfontdialog.cpp:230 kdeui/kfontdialog.cpp:237
+#: kdeui/kfontdialog.cpp:233 kdeui/kfontdialog.cpp:240
 msgid "Style:"
 msgstr "樣式:"
 
-#: kdeui/kfontdialog.cpp:273
+#: kdeui/kfontdialog.cpp:276
 msgid "Charset"
 msgstr "字集"
 
-#: kdeui/kfontdialog.cpp:284 kfile/kfiledetaillist.cpp:38
+#: kdeui/kfontdialog.cpp:287 kfile/kfiledetaillist.cpp:38
 msgid "Size"
 msgstr "大小"
 
-#: kdeui/kfontdialog.cpp:325
+#: kdeui/kfontdialog.cpp:328
 msgid "Weight"
 msgstr "厚度"
 
-#: kdeui/kfontdialog.cpp:326 kdeui/kfontdialog.cpp:467
+#: kdeui/kfontdialog.cpp:329 kdeui/kfontdialog.cpp:470
 msgid "normal"
 msgstr "正常"
 
-#: kdeui/kfontdialog.cpp:327 kdeui/kfontdialog.cpp:469
+#: kdeui/kfontdialog.cpp:330 kdeui/kfontdialog.cpp:472
 msgid "bold"
 msgstr "粗體"
 
-#: kdeui/kfontdialog.cpp:338
+#: kdeui/kfontdialog.cpp:341
 msgid "Style"
 msgstr "樣式"
 
-#: kdeui/kfontdialog.cpp:339 kdeui/kfontdialog.cpp:480
-#: kdeui/kfontdialog.cpp:509
+#: kdeui/kfontdialog.cpp:342 kdeui/kfontdialog.cpp:483
+#: kdeui/kfontdialog.cpp:512
 msgid "roman"
 msgstr "正體"
 
-#: kdeui/kfontdialog.cpp:340 kdeui/kfontdialog.cpp:482
-#: kdeui/kfontdialog.cpp:507
+#: kdeui/kfontdialog.cpp:343 kdeui/kfontdialog.cpp:485
+#: kdeui/kfontdialog.cpp:510
 msgid "italic"
 msgstr "斜體"
 
-#: kdeui/kfontdialog.cpp:370
+#: kdeui/kfontdialog.cpp:373
 #, fuzzy
 msgid "Dolor Ipse"
 msgstr "顏色"
 
-#: kdeui/kfontdialog.cpp:502
+#: kdeui/kfontdialog.cpp:505
 msgid "Bold"
 msgstr "粗體"
 
-#: kdeui/kfontdialog.cpp:504
+#: kdeui/kfontdialog.cpp:507
 msgid "Normal"
 msgstr "正常"
 
@@ -842,12 +842,12 @@ msgid ""
 "Could not do Authorization"
 msgstr ""
 
-#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:209
+#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
 #, fuzzy
 msgid "KFM Error"
 msgstr "錯誤"
 
-#: kfmlib/kfm.cpp:207
+#: kfmlib/kfm.cpp:208
 #, c-format
 msgid ""
 "The file %s is corrupted\n"
@@ -1247,3 +1247,22 @@ msgstr "離線"
 #: po/texts.cpp:139
 msgid "Highscore"
 msgstr ""
+
+#: po/texts.cpp:140
+#, fuzzy
+msgid "&New View"
+msgstr "檢視[&V]"
+
+#: po/texts.cpp:141
+msgid "&Insert"
+msgstr ""
+
+#: po/texts.cpp:144
+#, fuzzy
+msgid "&Next >>"
+msgstr "下一頁[&N]"
+
+#: po/texts.cpp:145
+#, fuzzy
+msgid "<< &Previous"
+msgstr "前一頁[&P]"

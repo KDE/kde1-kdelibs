@@ -1,29 +1,29 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-06-15 14:46+0200\n"
+"POT-Creation-Date: 1998-06-15 18:30+0200\n"
 "Content-Type: text/plain; charset=koi8-r\n"
 "Date: 1997-11-20 18:24:38+0600\n"
 "From: Denis Y. Pershin <dyp@inetlab.com>\n"
 "Xgettext-Options: --default-domain=xquser --directory=../.. --add-comments "
 "--keyword=_ --keyword=N_ --files-from=../../po/POTFILES.in\n"
 
-#: kdecore/kapp.cpp:487
+#: kdecore/kapp.cpp:490
 msgid "&Contents"
 msgstr "Содержимое"
 
-#: kdecore/kapp.cpp:493
+#: kdecore/kapp.cpp:496
 msgid "&About"
 msgstr "&О программе"
 
-#: kdecore/kapp.cpp:500
+#: kdecore/kapp.cpp:503
 msgid "About &KDE..."
 msgstr "О &KDE"
 
-#: kdecore/kapp.cpp:521
+#: kdecore/kapp.cpp:524
 msgid "About KDE"
 msgstr "О KDE"
 
-#: kdecore/kapp.cpp:523
+#: kdecore/kapp.cpp:526
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -61,9 +61,9 @@ msgstr "Помощь"
 
 #: kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:46
 #: kdeui/keditcl1.cpp:397 kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897
-#: kdeui/kfontdialog.cpp:352 kdeui/kiconloaderdialog.cpp:255
+#: kdeui/kfontdialog.cpp:355 kdeui/kiconloaderdialog.cpp:255
 #: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:877
-#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:406 po/texts.cpp:40
+#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:407 po/texts.cpp:40
 msgid "Cancel"
 msgstr "Отмена"
 
@@ -83,9 +83,9 @@ msgstr "Собственные цвета"
 msgid "Add to Custom Colors"
 msgstr "Добавить собственный цвет"
 
-#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:357
+#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:360
 #: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872
-#: kfmlib/kfm.cpp:402 po/texts.cpp:37
+#: kfmlib/kfm.cpp:403 po/texts.cpp:37
 msgid "Ok"
 msgstr "Ок"
 
@@ -341,81 +341,81 @@ msgstr "На строку"
 msgid "Go"
 msgstr "Идти"
 
-#: kdeui/kfontdialog.cpp:168
+#: kdeui/kfontdialog.cpp:171
 msgid "Select Font"
 msgstr "Выберите шрифт"
 
-#: kdeui/kfontdialog.cpp:172
+#: kdeui/kfontdialog.cpp:175
 msgid "Requested Font"
 msgstr "Запрошенные шрифты"
 
-#: kdeui/kfontdialog.cpp:177
+#: kdeui/kfontdialog.cpp:180
 msgid "Actual Font"
 msgstr "Существующие шрифты"
 
-#: kdeui/kfontdialog.cpp:181 kdeui/kfontdialog.cpp:185
+#: kdeui/kfontdialog.cpp:184 kdeui/kfontdialog.cpp:188
 msgid "Family:"
 msgstr "Семейство:"
 
-#: kdeui/kfontdialog.cpp:192 kdeui/kfontdialog.cpp:198 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:195 kdeui/kfontdialog.cpp:201 po/texts.cpp:26
 msgid "Charset:"
 msgstr "Кодировка:"
 
-#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:210 kfile/kpreview.cpp:196
+#: kdeui/kfontdialog.cpp:208 kdeui/kfontdialog.cpp:213 kfile/kpreview.cpp:196
 msgid "Size:"
 msgstr "Размер:"
 
-#: kdeui/kfontdialog.cpp:217 kdeui/kfontdialog.cpp:222
+#: kdeui/kfontdialog.cpp:220 kdeui/kfontdialog.cpp:225
 msgid "Weight:"
 msgstr "Ширина:"
 
-#: kdeui/kfontdialog.cpp:230 kdeui/kfontdialog.cpp:237
+#: kdeui/kfontdialog.cpp:233 kdeui/kfontdialog.cpp:240
 msgid "Style:"
 msgstr "Стиль:"
 
-#: kdeui/kfontdialog.cpp:273
+#: kdeui/kfontdialog.cpp:276
 msgid "Charset"
 msgstr "Кодировка"
 
-#: kdeui/kfontdialog.cpp:284 kfile/kfiledetaillist.cpp:38
+#: kdeui/kfontdialog.cpp:287 kfile/kfiledetaillist.cpp:38
 msgid "Size"
 msgstr "Размер"
 
-#: kdeui/kfontdialog.cpp:325
+#: kdeui/kfontdialog.cpp:328
 msgid "Weight"
 msgstr "Ширина"
 
-#: kdeui/kfontdialog.cpp:326 kdeui/kfontdialog.cpp:467
+#: kdeui/kfontdialog.cpp:329 kdeui/kfontdialog.cpp:470
 msgid "normal"
 msgstr "нормальный"
 
-#: kdeui/kfontdialog.cpp:327 kdeui/kfontdialog.cpp:469
+#: kdeui/kfontdialog.cpp:330 kdeui/kfontdialog.cpp:472
 msgid "bold"
 msgstr "жирный"
 
-#: kdeui/kfontdialog.cpp:338
+#: kdeui/kfontdialog.cpp:341
 msgid "Style"
 msgstr "Стиль"
 
-#: kdeui/kfontdialog.cpp:339 kdeui/kfontdialog.cpp:480
-#: kdeui/kfontdialog.cpp:509
+#: kdeui/kfontdialog.cpp:342 kdeui/kfontdialog.cpp:483
+#: kdeui/kfontdialog.cpp:512
 msgid "roman"
 msgstr "роман"
 
-#: kdeui/kfontdialog.cpp:340 kdeui/kfontdialog.cpp:482
-#: kdeui/kfontdialog.cpp:507
+#: kdeui/kfontdialog.cpp:343 kdeui/kfontdialog.cpp:485
+#: kdeui/kfontdialog.cpp:510
 msgid "italic"
 msgstr "наклонный"
 
-#: kdeui/kfontdialog.cpp:370
+#: kdeui/kfontdialog.cpp:373
 msgid "Dolor Ipse"
 msgstr "Тестируем"
 
-#: kdeui/kfontdialog.cpp:502
+#: kdeui/kfontdialog.cpp:505
 msgid "Bold"
 msgstr "Жирный"
 
-#: kdeui/kfontdialog.cpp:504
+#: kdeui/kfontdialog.cpp:507
 msgid "Normal"
 msgstr "Нормальный"
 
@@ -862,12 +862,12 @@ msgid ""
 "Could not do Authorization"
 msgstr ""
 
-#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:209
+#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
 #, fuzzy
 msgid "KFM Error"
 msgstr "Ошибка"
 
-#: kfmlib/kfm.cpp:207
+#: kfmlib/kfm.cpp:208
 #, c-format
 msgid ""
 "The file %s is corrupted\n"
@@ -1266,6 +1266,25 @@ msgstr "Выйти"
 #: po/texts.cpp:139
 msgid "Highscore"
 msgstr ""
+
+#: po/texts.cpp:140
+#, fuzzy
+msgid "&New View"
+msgstr "&Вид"
+
+#: po/texts.cpp:141
+msgid "&Insert"
+msgstr ""
+
+#: po/texts.cpp:144
+#, fuzzy
+msgid "&Next >>"
+msgstr "Следующий"
+
+#: po/texts.cpp:145
+#, fuzzy
+msgid "<< &Previous"
+msgstr "Предыдущий"
 
 #, fuzzy
 #~ msgid "Height"

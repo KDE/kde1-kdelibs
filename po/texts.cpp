@@ -137,3 +137,10 @@ translate( "Sunday");
 translate( "&Update");
 translate( "Layout");
 translate( "Highscore");
+translate( "&New View");
+translate( "&Insert");
+// the following are out of kwizard.h, but it
+// seems, xgettext ignores them
+translate( "&Next >>");
+translate( "<< &Previous");
+

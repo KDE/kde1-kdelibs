@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-15 14:46+0200\n"
+"POT-Creation-Date: 1998-06-15 18:30+0200\n"
 "PO-Revision-Date: 1998-03-11 HO:MI+ZONE\n"
 "Last-Translator: Theodore J. Soldatos <theodore@eexi.gr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9,24 +9,24 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: kdecore/kapp.cpp:487
+#: kdecore/kapp.cpp:490
 #, fuzzy
 msgid "&Contents"
 msgstr "Περιεχόμενα"
 
-#: kdecore/kapp.cpp:493
+#: kdecore/kapp.cpp:496
 msgid "&About"
 msgstr "&Σχετικά"
 
-#: kdecore/kapp.cpp:500
+#: kdecore/kapp.cpp:503
 msgid "About &KDE..."
 msgstr "Σχετικά με το &KDE..."
 
-#: kdecore/kapp.cpp:521
+#: kdecore/kapp.cpp:524
 msgid "About KDE"
 msgstr "Σχετικά με το KDE"
 
-#: kdecore/kapp.cpp:523
+#: kdecore/kapp.cpp:526
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -64,9 +64,9 @@ msgstr "Βοήθεια"
 
 #: kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:46
 #: kdeui/keditcl1.cpp:397 kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897
-#: kdeui/kfontdialog.cpp:352 kdeui/kiconloaderdialog.cpp:255
+#: kdeui/kfontdialog.cpp:355 kdeui/kiconloaderdialog.cpp:255
 #: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:877
-#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:406 po/texts.cpp:40
+#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:407 po/texts.cpp:40
 msgid "Cancel"
 msgstr "Ακύρωση"
 
@@ -86,9 +86,9 @@ msgstr "Διαμορφωμένα Χρώματα"
 msgid "Add to Custom Colors"
 msgstr "Προσθήκη Διαμορφωμένου Χρώματος"
 
-#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:357
+#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:360
 #: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872
-#: kfmlib/kfm.cpp:402 po/texts.cpp:37
+#: kfmlib/kfm.cpp:403 po/texts.cpp:37
 msgid "Ok"
 msgstr "OK"
 
@@ -369,82 +369,82 @@ msgstr "&Πήγαινε στην γραμμή"
 msgid "Go"
 msgstr "Συνέχεια"
 
-#: kdeui/kfontdialog.cpp:168
+#: kdeui/kfontdialog.cpp:171
 msgid "Select Font"
 msgstr "Επιλογή Γραμματοσειράς"
 
-#: kdeui/kfontdialog.cpp:172
+#: kdeui/kfontdialog.cpp:175
 msgid "Requested Font"
 msgstr "Ζητούμενη Γραμματοσειρά"
 
-#: kdeui/kfontdialog.cpp:177
+#: kdeui/kfontdialog.cpp:180
 msgid "Actual Font"
 msgstr "Πραγματική Γραμματοσειρά"
 
-#: kdeui/kfontdialog.cpp:181 kdeui/kfontdialog.cpp:185
+#: kdeui/kfontdialog.cpp:184 kdeui/kfontdialog.cpp:188
 msgid "Family:"
 msgstr "Οικογένεια:"
 
-#: kdeui/kfontdialog.cpp:192 kdeui/kfontdialog.cpp:198 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:195 kdeui/kfontdialog.cpp:201 po/texts.cpp:26
 msgid "Charset:"
 msgstr "Σύνολο εντολών"
 
-#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:210 kfile/kpreview.cpp:196
+#: kdeui/kfontdialog.cpp:208 kdeui/kfontdialog.cpp:213 kfile/kpreview.cpp:196
 msgid "Size:"
 msgstr "Μέγεθος:"
 
-#: kdeui/kfontdialog.cpp:217 kdeui/kfontdialog.cpp:222
+#: kdeui/kfontdialog.cpp:220 kdeui/kfontdialog.cpp:225
 msgid "Weight:"
 msgstr "Βάρος:"
 
-#: kdeui/kfontdialog.cpp:230 kdeui/kfontdialog.cpp:237
+#: kdeui/kfontdialog.cpp:233 kdeui/kfontdialog.cpp:240
 msgid "Style:"
 msgstr "Στυλ"
 
-#: kdeui/kfontdialog.cpp:273
+#: kdeui/kfontdialog.cpp:276
 #, fuzzy
 msgid "Charset"
 msgstr "Σύνολο εντολών"
 
-#: kdeui/kfontdialog.cpp:284 kfile/kfiledetaillist.cpp:38
+#: kdeui/kfontdialog.cpp:287 kfile/kfiledetaillist.cpp:38
 msgid "Size"
 msgstr "Μέγεθος"
 
-#: kdeui/kfontdialog.cpp:325
+#: kdeui/kfontdialog.cpp:328
 msgid "Weight"
 msgstr "Βάρος"
 
-#: kdeui/kfontdialog.cpp:326 kdeui/kfontdialog.cpp:467
+#: kdeui/kfontdialog.cpp:329 kdeui/kfontdialog.cpp:470
 msgid "normal"
 msgstr "κανονικά"
 
-#: kdeui/kfontdialog.cpp:327 kdeui/kfontdialog.cpp:469
+#: kdeui/kfontdialog.cpp:330 kdeui/kfontdialog.cpp:472
 msgid "bold"
 msgstr "έντονα"
 
-#: kdeui/kfontdialog.cpp:338
+#: kdeui/kfontdialog.cpp:341
 msgid "Style"
 msgstr "Στυλ"
 
-#: kdeui/kfontdialog.cpp:339 kdeui/kfontdialog.cpp:480
-#: kdeui/kfontdialog.cpp:509
+#: kdeui/kfontdialog.cpp:342 kdeui/kfontdialog.cpp:483
+#: kdeui/kfontdialog.cpp:512
 msgid "roman"
 msgstr "απλά"
 
-#: kdeui/kfontdialog.cpp:340 kdeui/kfontdialog.cpp:482
-#: kdeui/kfontdialog.cpp:507
+#: kdeui/kfontdialog.cpp:343 kdeui/kfontdialog.cpp:485
+#: kdeui/kfontdialog.cpp:510
 msgid "italic"
 msgstr "πλαγιαστά"
 
-#: kdeui/kfontdialog.cpp:370
+#: kdeui/kfontdialog.cpp:373
 msgid "Dolor Ipse"
 msgstr "Ντόλορ Ίπσε"
 
-#: kdeui/kfontdialog.cpp:502
+#: kdeui/kfontdialog.cpp:505
 msgid "Bold"
 msgstr "Έντονα"
 
-#: kdeui/kfontdialog.cpp:504
+#: kdeui/kfontdialog.cpp:507
 msgid "Normal"
 msgstr "Κανονικά"
 
@@ -891,12 +891,12 @@ msgid ""
 "Could not do Authorization"
 msgstr ""
 
-#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:209
+#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
 #, fuzzy
 msgid "KFM Error"
 msgstr "Λάθος"
 
-#: kfmlib/kfm.cpp:207
+#: kfmlib/kfm.cpp:208
 #, c-format
 msgid ""
 "The file %s is corrupted\n"
@@ -1297,6 +1297,25 @@ msgstr "Έξοδος"
 #: po/texts.cpp:139
 msgid "Highscore"
 msgstr ""
+
+#: po/texts.cpp:140
+#, fuzzy
+msgid "&New View"
+msgstr "Προβολή"
+
+#: po/texts.cpp:141
+msgid "&Insert"
+msgstr ""
+
+#: po/texts.cpp:144
+#, fuzzy
+msgid "&Next >>"
+msgstr "Επόμενο"
+
+#: po/texts.cpp:145
+#, fuzzy
+msgid "<< &Previous"
+msgstr "Προηγούμενο"
 
 #, fuzzy
 #~ msgid "Height"
