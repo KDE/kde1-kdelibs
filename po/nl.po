@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-02-05 01:01+0100\n"
+"POT-Creation-Date: 1999-02-06 01:01+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-10-01 16:40:07+0200\n"
 "From: root <flidr@CyberGate.zcu.cz>\n"
@@ -409,7 +409,7 @@ msgstr "Nee"
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:403
 #: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:321
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:906
-#: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:751
+#: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:773
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:64 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
 #: kspell/kspelldlg.cpp:143 po/texts.cpp:39
@@ -897,23 +897,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr ""
 
-#: kdeui/kmenubar.cpp:278 kdeui/ktoolbar.cpp:856
+#: kdeui/kmenubar.cpp:281 kdeui/ktoolbar.cpp:856
 msgid "Top"
 msgstr "Boven"
 
-#: kdeui/kmenubar.cpp:279 kdeui/ktoolbar.cpp:858
+#: kdeui/kmenubar.cpp:282 kdeui/ktoolbar.cpp:858
 msgid "Bottom"
 msgstr "Onder"
 
-#: kdeui/kmenubar.cpp:280 kdeui/ktoolbar.cpp:859
+#: kdeui/kmenubar.cpp:283 kdeui/ktoolbar.cpp:859
 msgid "Floating"
 msgstr "Zwevend"
 
-#: kdeui/kmenubar.cpp:429 kdeui/kmenubar.cpp:771 kdeui/ktoolbar.cpp:2170
+#: kdeui/kmenubar.cpp:432 kdeui/kmenubar.cpp:774 kdeui/ktoolbar.cpp:2170
 msgid "Float"
 msgstr "Zweven"
 
-#: kdeui/kmenubar.cpp:723 kdeui/ktoolbar.cpp:2151
+#: kdeui/kmenubar.cpp:726 kdeui/ktoolbar.cpp:2151
 msgid "UnFloat"
 msgstr "Vast"
 
