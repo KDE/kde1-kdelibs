@@ -85,10 +85,15 @@ merge:
 	for cat in $$catalogs; do \
 	echo $$cat $$name; \
 	msgmerge -o $$cat.new $$cat kdelibs.pot ; \
-	if test -s $$cat.new && diff $$cat $$cat.new; then \
+	if test -s $$cat.new; then \
+	  grep -v "\"POT-Creation" $$cat.new > $$cat.new.2 ; \
+          grep -v "\"POT-Creation" $$cat >> $$cat.new.1; \
+	  if diff $$cat.new.1 $$cat.new.2; then \
 		rm $$cat.new;  \
-	else  \
+	  else  \
 		mv $$cat.new $$cat ; \
 	fi; \
+	rm -f $$cat.new.1 $$cat.new.2 ;\
+	fi ;\
 	done
 
