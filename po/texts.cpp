@@ -144,7 +144,6 @@ i18n( "&Insert");
 i18n( "&Next >>");
 i18n( "<< &Previous");
 
-i18n( "Find");
 i18n( "Replace");
 i18n( "Insert");
 i18n( "Next");
