@@ -1229,21 +1229,18 @@ msgstr "Stil"
 msgid "Highscore"
 msgstr "Liste over de beste"
 
-# , fuzzy
 #: po/texts.cpp:140
 msgid "&New View"
-msgstr "Se p&å"
+msgstr "&Ny visning"
 
 #: po/texts.cpp:141
 msgid "&Insert"
 msgstr "&Sett inn"
 
-# , fuzzy
 #: po/texts.cpp:144
 msgid "&Next >>"
-msgstr "&Neste"
+msgstr "&Neste >>"
 
-# , fuzzy
 #: po/texts.cpp:145
 msgid "<< &Previous"
-msgstr "&Forrige"
+msgstr "<< &Forrige"
