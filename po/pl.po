@@ -1,10 +1,13 @@
+# Polish translation of KDE kdelibs
+# Version 0.1.1
+# (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
 
 # general messages, that are often used
 msgid "Error"
-msgstr "Bþ˜d"
+msgstr "B³±d"
 
 msgid "Malformed URL"
-msgstr "Adresat formularza"
+msgstr "URL formularza pocztowego"
 
 msgid "Yes"
 msgstr "Tak"
@@ -13,22 +16,22 @@ msgid "No"
 msgstr "Nie"
 
 msgid "Warning"
-msgstr "OstrzeÀenie"
+msgstr "Ostrze¿enie"
 
 msgid "Open a file"
-msgstr "Otwrz plik"
+msgstr "Otwórz plik"
 
 msgid "Save a file"
 msgstr "Zapisz plik"
 
 msgid "Contents"
-msgstr "Treµ†"
+msgstr "Tre¶æ"
 
 msgid "About"
 msgstr "Informacje"
 
 msgid "Open"
-msgstr "Otwrz"
+msgstr "Otwórz"
 
 msgid "Save"
 msgstr "Zachowaj"
@@ -40,7 +43,7 @@ msgid "Close"
 msgstr "Zamknij"
 
 msgid "Quit"
-msgstr "Zako±cz"
+msgstr "Zakoñcz"
 
 msgid "Untitled"
 msgstr "Nienazwany"
@@ -78,23 +81,23 @@ msgstr "Kolory podstawowe"
 
 #: kcolordlg.cpp:269
 msgid "Custom Colors"
-msgstr "Kolory uÀytkownika"
+msgstr "Kolory u¿ytkownika"
 
 #: kcolordlg.cpp:345
 msgid "Add to Custom Colors"
-msgstr "Dodaj do kolorw uÀytkownika"
+msgstr "Dodaj do kolorów u¿ytkownika"
 
 #: kcolordlg.cpp:649 kcolordlg.cpp:699
 msgid "Custom..."
-msgstr "Definiuj kolory uÀytkownika"
+msgstr "Definiuj kolory u¿ytkownika"
 
 #: kfontdialog.cpp:95
 msgid "Select Font"
-msgstr "Wybierz czcionkŠ"
+msgstr "Wybierz czcionkê"
 
 #: kfontdialog.cpp:99
 msgid "Requested Font"
-msgstr "¯˜dana czcionka"
+msgstr "¯±dana czcionka"
 
 #: kfontdialog.cpp:104
 msgid "Actual Font"
@@ -158,7 +161,7 @@ msgstr "Normalna"
 
 #: kiconloader.cpp:176
 msgid "Select Icon"
-msgstr "Wybierz ikonŠ"
+msgstr "Wybierz ikonê"
 
 #: kiconloader.cpp:182
 msgid "Filter:"
@@ -167,15 +170,15 @@ msgstr "Filtr:"
 #: kiconloader.cpp:337
 #, c-format
 msgid "ERROR: couldn't find icon: %s"
-msgstr "BúíD: nie mogŠ znaleÀ† ikony: %s"
+msgstr "B£¡D: nie mogê znale¿æ ikony: %s"
 
 #: kmenubar.cpp:106 ktoolbar.cpp:273
 msgid "Top"
-msgstr "Gra"
+msgstr "Góra"
 
 #: kmenubar.cpp:107 ktoolbar.cpp:275
 msgid "Bottom"
-msgstr "Dþ"
+msgstr "Dó³"
 
 #: kmenubar.cpp:108 ktoolbar.cpp:276
 msgid "Floating"
@@ -191,7 +194,7 @@ msgstr "Unieruchom"
 
 #: ktoolbar.cpp:87 ktoolbar.cpp:145
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr "KToolBarButton: ikona jest pusta, prawdopodobnie brak pliku"
+msgstr "KToolBarButton: pixmapa jest pusta, prawdopodobnie brak pliku"
 
 #: ktoolbar.cpp:272
 msgid "Left"
