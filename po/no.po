@@ -42,6 +42,14 @@ msgid ""
 "\n"
 "Please report bugs at http://buglist.kde.org.\n"
 msgstr ""
+"The KDE Desktop Environment ble skrevet av the KDE Team,\n"
+"et verdensomspenndene nettverk av programvareteknikere\n"
+"som utvikler gratis programvare.\n"
+"\n"
+"Besøk http://www.kde.org for mer informasjon om the KDE\n"
+"Project. Vennligst vurder å slutte deg til og støtte KDE.\n"
+"\n"
+"Vennligst rapporter feil med http://buglist.kde.org.\n"
 
 # libkdeui messages
 #: kdeui/kcolordlg.cpp:285
@@ -400,7 +408,7 @@ msgstr "Nytt spill"
 
 #: kfile/kfiledetaillist.cpp:40
 msgid "Permissions"
-msgstr ""
+msgstr "Rettigheter"
 
 #: kfile/kfiledetaillist.cpp:42
 #, fuzzy
@@ -409,11 +417,11 @@ msgstr "Sett inn"
 
 #: kfile/kfiledetaillist.cpp:45
 msgid "Owner"
-msgstr ""
+msgstr "Eier"
 
 #: kfile/kfiledetaillist.cpp:47
 msgid "Group"
-msgstr ""
+msgstr "Gruppe"
 
 #: kfile/kfiledialog.cpp:146 po/texts.cpp:56
 msgid "Back"
@@ -425,11 +433,11 @@ msgstr "Fremover"
 
 #: kfile/kfiledialog.cpp:152
 msgid "Up to parent"
-msgstr ""
+msgstr "Opp ett nivå"
 
 #: kfile/kfiledialog.cpp:155
 msgid "Home"
-msgstr ""
+msgstr "Hjem"
 
 #: kfile/kfiledialog.cpp:158 po/texts.cpp:55
 msgid "Reload"
@@ -437,11 +445,11 @@ msgstr "Last inn på nytt"
 
 #: kfile/kfiledialog.cpp:174
 msgid "Bookmarks"
-msgstr ""
+msgstr "Bokmerker"
 
 #: kfile/kfiledialog.cpp:178
 msgid "Create new folder"
-msgstr ""
+msgstr "Lag ny mappe"
 
 #: kfile/kfiledialog.cpp:181
 #, fuzzy
@@ -454,11 +462,11 @@ msgstr ""
 
 #: kfile/kfiledialog.cpp:192
 msgid "The path"
-msgstr ""
+msgstr "Stien"
 
 #: kfile/kfiledialog.cpp:217
 msgid "&Location:"
-msgstr ""
+msgstr "&Sted:"
 
 #: kfile/kfiledialog.cpp:229
 #, fuzzy
@@ -467,21 +475,23 @@ msgstr "Filter:"
 
 #: kfile/kfiledialog.cpp:262
 msgid "Show hidden"
-msgstr ""
+msgstr "Vis skjulte"
 
 #: kfile/kfiledialog.cpp:511
 msgid "Error: Not local file"
-msgstr ""
+msgstr "Feil: Ikke lokal fil"
 
 #: kfile/kfiledialog.cpp:512
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
 msgstr ""
+"Den oppgitte katalogen er ikke en lokal katalog\n"
+"Men applikasjonen godtar bare lokale filer."
 
 #: kfile/kfiledialog.cpp:526 kfile/kfiledialog.cpp:628
 msgid "Error: Cannot Open Directory"
-msgstr ""
+msgstr "Feil: Kan ikke åpne katalog"
 
 #: kfile/kfiledialog.cpp:527
 #, fuzzy
@@ -492,7 +502,7 @@ msgstr "Den valgte filen finnes ikke"
 
 #: kfile/kfiledialog.cpp:529 kfile/kfiledialog.cpp:631
 msgid "Dismiss"
-msgstr ""
+msgstr "Forkast"
 
 #: kfile/kfiledialog.cpp:566 kfile/kfiledialog.cpp:1146
 #: kfile/kfiledialog.cpp:1305 kfile/kfiledialog.cpp:1339 po/texts.cpp:69
@@ -505,7 +515,7 @@ msgstr "Lagre som"
 
 #: kfile/kfiledialog.cpp:604
 msgid "Root Directory"
-msgstr ""
+msgstr "Rotkatalog"
 
 #: kfile/kfiledialog.cpp:629
 #, fuzzy
@@ -514,11 +524,11 @@ msgstr "Den valgte filen finnes ikke"
 
 #: kfile/kfiledialog.cpp:874
 msgid "Create new directory in: "
-msgstr ""
+msgstr "Opprett ny katalog i: "
 
 #: kfile/kfiledialog.cpp:877
 msgid "New Directory"
-msgstr ""
+msgstr "Ny katalog"
 
 #: kfile/kfiledialog.cpp:949
 #, fuzzy
@@ -527,7 +537,7 @@ msgstr "Tilføy til brukerdefinerte farger"
 
 #: kfile/kfiledialog.cpp:1180
 msgid "Choose Directory"
-msgstr ""
+msgstr "Velg katalog"
 
 #: kfile/kfiledialog.cpp:1201 kfile/kfiledialog.cpp:1360 po/texts.cpp:78
 msgid "Save"
@@ -535,11 +545,11 @@ msgstr "Lagre"
 
 #: kfile/kfiledialog.cpp:1248
 msgid "directory"
-msgstr ""
+msgstr "katalog"
 
 #: kfile/kfiledialog.cpp:1250
 msgid "directories"
-msgstr ""
+msgstr "kataloger"
 
 #: kfile/kfiledialog.cpp:1252 kfile/kpreview.cpp:326
 #, fuzzy
@@ -554,11 +564,11 @@ msgstr "Fil"
 #: kfile/kfiledialog.cpp:1256
 #, c-format
 msgid "%d %s and %d %s"
-msgstr ""
+msgstr "%d %s og %d %s"
 
 #: kfile/kfiledialog.cpp:1266
 msgid "one directory"
-msgstr ""
+msgstr "en katalog"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"
@@ -577,6 +587,16 @@ msgid ""
 "Mario Weilguni <mweilguni@sime.com>\n"
 "and Martin Jones <mjones@kde.org>"
 msgstr ""
+"KDE File Selector av:\n"
+"\n"
+"Richard Moore <rich@kde.org>\n"
+"Stephan Kulow <coolo@kde.org>\n"
+"and Daniel Grana <grana@ie.iwi.unibe.ch>\n"
+"\n"
+"med bidrag fra\n"
+"\n"
+"Mario Weilguni <mweilguni@sime.com>\n"
+"and Martin Jones <mjones@kde.org>"
 
 #: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
 msgid "About"
@@ -584,19 +604,19 @@ msgstr "Om"
 
 #: kfile/kfiledialogconf.cpp:70
 msgid "View style"
-msgstr ""
+msgstr "Oversiktstil"
 
 #: kfile/kfiledialogconf.cpp:74
 msgid "Show Short View"
-msgstr ""
+msgstr "Vis kort oversikt"
 
 #: kfile/kfiledialogconf.cpp:80
 msgid "Show Detail View"
-msgstr ""
+msgstr "Vis detaljert oversikt"
 
 #: kfile/kfiledialogconf.cpp:89
 msgid "Misc"
-msgstr ""
+msgstr "Blandet"
 
 #: kfile/kfiledialogconf.cpp:95
 #, fuzzy
@@ -605,113 +625,113 @@ msgstr "Filter:"
 
 #: kfile/kfiledialogconf.cpp:101
 msgid "Show List Labels"
-msgstr ""
+msgstr "Vis listeetiketter"
 
 #: kfile/kfiledialogconf.cpp:107
 msgid "Show Hidden"
-msgstr ""
+msgstr "Vis skjulte"
 
 #: kfile/kfiledialogconf.cpp:113
 msgid "Show Status Line"
-msgstr ""
+msgstr "Vis statuslinje"
 
 #: kfile/kfiledialogconf.cpp:119
 msgid "Use single Click"
-msgstr ""
+msgstr "Bruk enkeltklikk"
 
 #: kfile/kfiledialogconf.cpp:125
 msgid "Mix dirs and files"
-msgstr ""
+msgstr "Bland kataloger og filer"
 
 #: kfile/kfiledialogconf.cpp:131
 msgid "Keep dirs first"
-msgstr ""
+msgstr "Behold kataloger først"
 
 #: kfile/kfileinfo.cpp:95 kfile/kfileinfo.cpp:99
 msgid "unknown"
-msgstr ""
+msgstr "ukjent"
 
 #: kfile/kfileinfo.cpp:218
 msgid "Jan"
-msgstr ""
+msgstr "jan"
 
 #: kfile/kfileinfo.cpp:219
 msgid "Feb"
-msgstr ""
+msgstr "feb"
 
 #: kfile/kfileinfo.cpp:220
 msgid "Mar"
-msgstr ""
+msgstr "mar"
 
 #: kfile/kfileinfo.cpp:221
 msgid "Apr"
-msgstr ""
+msgstr "apr"
 
 #: kfile/kfileinfo.cpp:222
 msgid "May"
-msgstr ""
+msgstr "mai"
 
 #: kfile/kfileinfo.cpp:223
 msgid "Jun"
-msgstr ""
+msgstr "jun"
 
 #: kfile/kfileinfo.cpp:224
 msgid "Jul"
-msgstr ""
+msgstr "jul"
 
 #: kfile/kfileinfo.cpp:225
 msgid "Aug"
-msgstr ""
+msgstr "aug"
 
 #: kfile/kfileinfo.cpp:226
 msgid "Sep"
-msgstr ""
+msgstr "sep"
 
 #: kfile/kfileinfo.cpp:227
 msgid "Oct"
-msgstr ""
+msgstr "okt"
 
 #: kfile/kfileinfo.cpp:228
 #, fuzzy
 msgid "Nov"
-msgstr "Nei"
+msgstr "nov"
 
 #: kfile/kfileinfo.cpp:229
 msgid "Dec"
-msgstr ""
+msgstr "des"
 
 #: kfile/kpreview.cpp:187
 #, fuzzy
 msgid "Name:"
-msgstr "Nytt spill"
+msgstr "Navn:"
 
 #: kfile/kpreview.cpp:205
 msgid "Date:"
-msgstr ""
+msgstr "Dato:"
 
 #: kfile/kpreview.cpp:214
 msgid "Owner:"
-msgstr ""
+msgstr "Eier:"
 
 #: kfile/kpreview.cpp:223
 msgid "Group:"
-msgstr ""
+msgstr "Gruppe:"
 
 #: kfile/kpreview.cpp:232
 msgid "Type:"
-msgstr ""
+msgstr "Type:"
 
 #: kfile/kpreview.cpp:287
 msgid "locked"
-msgstr ""
+msgstr "låst"
 
 #: kfile/kpreview.cpp:311
 msgid "picture"
-msgstr ""
+msgstr "bilde"
 
 #: kfile/kpreview.cpp:343
 msgid "folder"
-msgstr ""
+msgstr "mappe"
 
 # Norwegian (Norsk) translation by Marius Sundbakken <marius6@hermes.hibu.no>
 # Comments welcome.
