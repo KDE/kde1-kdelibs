@@ -35,7 +35,7 @@ msgid "Save As"
 msgstr "Speichern unter"
 
 msgid "Close"
-msgstr "Schliessen"
+msgstr "Schließen"
 
 msgid "Quit"
 msgstr "Beenden"
