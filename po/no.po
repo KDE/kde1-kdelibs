@@ -1221,7 +1221,7 @@ msgstr "Se &på"
 
 #: po/texts.cpp:51
 msgid "E&xit"
-msgstr "&Gå ut"
+msgstr "&Avslutt"
 
 #: po/texts.cpp:53
 msgid "&Quit"
