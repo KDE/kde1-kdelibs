@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE 1.0\n"
-"POT-Creation-Date: 1999-01-17 01:01+0100\n"
+"POT-Creation-Date: 1999-01-18 01:00+0100\n"
 "PO-Revision-Date: 1998-11-19 18:00+0200\n"
 "Last-Translator: Kerem ERZURUMLU & Zerrin ÜNAL <kerem@linux.org.tri & @>\n"
 "Language-Team: Hacettepe Linux Users Group <hacettepe@linux.org.tr>\n"
@@ -300,7 +300,8 @@ msgid "Find"
 msgstr "Bul"
 
 #: kdecore/kaccel.cpp:275 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
-#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:133
+#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 kspell/kspelldlg.cpp:110
+#: po/texts.cpp:133
 msgid "Replace"
 msgstr "Deðiþtir"
 
@@ -327,7 +328,8 @@ msgid "Next"
 msgstr "&Sonraki"
 
 #: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
-#: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 po/texts.cpp:44
+#: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 kspell/ksconfig.cpp:212
+#: kspell/kspelldlg.cpp:131 po/texts.cpp:44
 msgid "Help"
 msgstr "Yardým"
 
@@ -408,7 +410,7 @@ msgstr "Hayýr"
 #: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:697
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
-#: po/texts.cpp:39
+#: kspell/kspelldlg.cpp:143 po/texts.cpp:39
 msgid "Cancel"
 msgstr "Vazgeç"
 
@@ -644,7 +646,7 @@ msgstr "Bul:"
 msgid "Replace with:"
 msgstr "Ýle Deðiþtir:"
 
-#: kdeui/keditcl2.cpp:792
+#: kdeui/keditcl2.cpp:792 kspell/kspelldlg.cpp:38
 msgid "Replace All"
 msgstr "Hepsini Deðiþtir"
 
@@ -1255,6 +1257,88 @@ msgstr ""
 "%s dosyasý deðiþtirilmiþ\n"
 "Onaylama yapýlamadý"
 
+#: kspell/ksconfig.cpp:66
+msgid "Create Root/Affix combinations not in the dictionary"
+msgstr ""
+
+#: kspell/ksconfig.cpp:75
+msgid "Consider run-together words as spelling errors"
+msgstr ""
+
+#: kspell/ksconfig.cpp:92
+#, fuzzy
+msgid "Dictionary"
+msgstr "dizin"
+
+#: kspell/ksconfig.cpp:140
+msgid "Encoding:"
+msgstr ""
+
+#: kspell/ksconfig.cpp:147
+#, fuzzy
+msgid "Latin1"
+msgstr "&Konum:"
+
+#: kspell/ksconfig.cpp:148
+msgid "7-Bit/ASCII"
+msgstr ""
+
+#: kspell/ksconfig.cpp:292
+msgid "English"
+msgstr ""
+
+#: kspell/ksconfig.cpp:298
+msgid "Spanish"
+msgstr ""
+
+#: kspell/ksconfig.cpp:304
+#, fuzzy
+msgid "German"
+msgstr "roman"
+
+#: kspell/ksconfig.cpp:311
+msgid "Brazilian Portuguese"
+msgstr ""
+
+#: kio/kio_cache.cc:422 kspell/ksconfig.cpp:317
+#, fuzzy
+msgid "Unknown"
+msgstr "Bilinmeyen"
+
+#: kspell/ksconfig.cpp:348
+#, fuzzy
+msgid "ISpell Default"
+msgstr "Öntanýmlý"
+
+#: kspell/kspelldlg.cpp:58
+msgid "Misspelled Word:"
+msgstr ""
+
+#: kspell/kspelldlg.cpp:68
+#, fuzzy
+msgid "Replacement:"
+msgstr "Deðiþtir"
+
+#: kspell/kspelldlg.cpp:77
+msgid "Suggestions:"
+msgstr ""
+
+#: kspell/kspelldlg.cpp:88
+msgid "Ignore"
+msgstr ""
+
+#: kspell/kspelldlg.cpp:99
+msgid "Ignore All"
+msgstr ""
+
+#: kspell/kspelldlg.cpp:120 po/texts.cpp:86
+msgid "Add"
+msgstr "Ekle"
+
+#: kspell/kspelldlg.cpp:166 po/texts.cpp:100
+msgid "Stop"
+msgstr "Dur"
+
 #: kab/widget.cc:162 kab/widget.cc:1164 kab/widget.cc:1222 kab/widget.cc:1233
 #: kab/widget.cc:1936 kab/widget.cc:2028 kab/widget.cc:2112 kab/widget.cc:2157
 #: kab/widget.cc:2168 kio/kio_error.cc:118 kio/kio_paste.cc:48
@@ -1418,10 +1502,6 @@ msgstr "Seçenekler"
 msgid "Remove"
 msgstr "Sil"
 
-#: po/texts.cpp:86
-msgid "Add"
-msgstr "Ekle"
-
 #: po/texts.cpp:87
 msgid "Change"
 msgstr "Deðiþtir"
@@ -1469,10 +1549,6 @@ msgstr "Bilgi"
 #: po/texts.cpp:99
 msgid "Browse..."
 msgstr "Gözat..."
-
-#: po/texts.cpp:100
-msgid "Stop"
-msgstr "Dur"
 
 #: po/texts.cpp:101
 msgid "&Remove"
@@ -2340,11 +2416,6 @@ msgstr ""
 #: kio/kio_cache.cc:357
 msgid "Expiration Date"
 msgstr ""
-
-#: kio/kio_cache.cc:422
-#, fuzzy
-msgid "Unknown"
-msgstr "Bilinmeyen"
 
 #: kio/kio_cache.cc:428
 #, fuzzy

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klibs\n"
-"POT-Creation-Date: 1999-01-17 01:01+0100\n"
+"POT-Creation-Date: 1999-01-18 01:00+0100\n"
 "PO-Revision-Date: 1998-01-22 00:00+0100\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 "Language-Team: pt\n"
@@ -301,7 +301,8 @@ msgid "Find"
 msgstr "Procurar"
 
 #: kdecore/kaccel.cpp:275 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
-#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:133
+#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 kspell/kspelldlg.cpp:110
+#: po/texts.cpp:133
 msgid "Replace"
 msgstr "Substituir"
 
@@ -326,7 +327,8 @@ msgid "Next"
 msgstr "Seguinte"
 
 #: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
-#: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 po/texts.cpp:44
+#: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 kspell/ksconfig.cpp:212
+#: kspell/kspelldlg.cpp:131 po/texts.cpp:44
 msgid "Help"
 msgstr "Ajuda"
 
@@ -409,7 +411,7 @@ msgstr "Não"
 #: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:697
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
-#: po/texts.cpp:39
+#: kspell/kspelldlg.cpp:143 po/texts.cpp:39
 msgid "Cancel"
 msgstr "Cancelar"
 
@@ -645,7 +647,7 @@ msgstr "Procurar:"
 msgid "Replace with:"
 msgstr "Substituir com:"
 
-#: kdeui/keditcl2.cpp:792
+#: kdeui/keditcl2.cpp:792 kspell/kspelldlg.cpp:38
 msgid "Replace All"
 msgstr "Substituir Tudo"
 
@@ -1258,6 +1260,89 @@ msgstr ""
 "O ficheiro %s está corrumpido\n"
 "Não consegui obter Autorização"
 
+#: kspell/ksconfig.cpp:66
+msgid "Create Root/Affix combinations not in the dictionary"
+msgstr ""
+
+#: kspell/ksconfig.cpp:75
+msgid "Consider run-together words as spelling errors"
+msgstr ""
+
+#: kspell/ksconfig.cpp:92
+#, fuzzy
+msgid "Dictionary"
+msgstr "directoria"
+
+#: kspell/ksconfig.cpp:140
+msgid "Encoding:"
+msgstr ""
+
+#: kspell/ksconfig.cpp:147
+#, fuzzy
+msgid "Latin1"
+msgstr "&Localização:"
+
+#: kspell/ksconfig.cpp:148
+msgid "7-Bit/ASCII"
+msgstr ""
+
+#: kspell/ksconfig.cpp:292
+msgid "English"
+msgstr ""
+
+#: kspell/ksconfig.cpp:298
+msgid "Spanish"
+msgstr ""
+
+#: kspell/ksconfig.cpp:304
+#, fuzzy
+msgid "German"
+msgstr "romano"
+
+#: kspell/ksconfig.cpp:311
+msgid "Brazilian Portuguese"
+msgstr ""
+
+#: kio/kio_cache.cc:422 kspell/ksconfig.cpp:317
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#: kspell/ksconfig.cpp:348
+#, fuzzy
+msgid "ISpell Default"
+msgstr "Por omissão"
+
+#: kspell/kspelldlg.cpp:58
+msgid "Misspelled Word:"
+msgstr ""
+
+#: kspell/kspelldlg.cpp:68
+#, fuzzy
+msgid "Replacement:"
+msgstr "Substituir"
+
+#: kspell/kspelldlg.cpp:77
+msgid "Suggestions:"
+msgstr ""
+
+#: kspell/kspelldlg.cpp:88
+#, fuzzy
+msgid "Ignore"
+msgstr "&Ignorar"
+
+#: kspell/kspelldlg.cpp:99
+#, fuzzy
+msgid "Ignore All"
+msgstr "&Ignorar"
+
+#: kspell/kspelldlg.cpp:120 po/texts.cpp:86
+msgid "Add"
+msgstr "Adicionar"
+
+#: kspell/kspelldlg.cpp:166 po/texts.cpp:100
+msgid "Stop"
+msgstr "Parar"
+
 #: kab/widget.cc:162 kab/widget.cc:1164 kab/widget.cc:1222 kab/widget.cc:1233
 #: kab/widget.cc:1936 kab/widget.cc:2028 kab/widget.cc:2112 kab/widget.cc:2157
 #: kab/widget.cc:2168 kio/kio_error.cc:118 kio/kio_paste.cc:48
@@ -1421,10 +1506,6 @@ msgstr "Opções"
 msgid "Remove"
 msgstr "Apagar"
 
-#: po/texts.cpp:86
-msgid "Add"
-msgstr "Adicionar"
-
 #: po/texts.cpp:87
 msgid "Change"
 msgstr "Mudar"
@@ -1472,10 +1553,6 @@ msgstr "Informação"
 #: po/texts.cpp:99
 msgid "Browse..."
 msgstr "Explorar..."
-
-#: po/texts.cpp:100
-msgid "Stop"
-msgstr "Parar"
 
 #: po/texts.cpp:101
 msgid "&Remove"
@@ -2331,10 +2408,6 @@ msgstr ""
 #: kio/kio_cache.cc:357
 msgid "Expiration Date"
 msgstr ""
-
-#: kio/kio_cache.cc:422
-msgid "Unknown"
-msgstr "Desconhecido"
 
 #: kio/kio_cache.cc:428
 msgid "Never"
