@@ -80,7 +80,7 @@ msgstr "Ok"
 #: kfile/kfiledialog.cpp:286 kfile/kfiledialog.cpp:903
 #: kfile/kfiledialogconf.cpp:58 po/texts.cpp:40
 msgid "Cancel"
-msgstr "Cancella"
+msgstr "Annulla"
 
 #: kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34 kfile/kfiledialog.cpp:292
 #: po/texts.cpp:45
