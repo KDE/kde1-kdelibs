@@ -265,12 +265,10 @@ while (!feof(fh))
 if (sl!=NULL) sl->setActiveSong(activeid);
 
 fclose(fh);
-printf("Collections loaded\n");
 };
 
 void SLManager::saveConfig(const char *filename)
 {
-printf("Saving Collections\n");
 SongListNode *ptr=list;
 FILE *fh=fopen(filename,"wt");
 if (fh==NULL)
@@ -303,7 +301,6 @@ while (ptr!=NULL)
    };
 fclose(fh);
 
-printf("Collections saved\n");
 };
 
 SongList *SLManager::createTemporaryCollection(void)
