@@ -255,4 +255,4 @@ void KTabBar::paintEvent(QPaintEvent *)
 
   //debug("KTabBar - painting done");
 }
-
+#include "ktabbar.moc"
