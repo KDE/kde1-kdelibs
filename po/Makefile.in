@@ -6,8 +6,11 @@ DE_GMFILES = de_kde.gmo
 FR_POFILES = fr_kde.po
 FR_GMFILES = fr_kde.gmo
 
-POFILES = $(DE_POFILES) $(FR_POFILES)
-GMOFILES= $(DE_GMFILES) $(FR_GMFILES)
+SV_POFILES = sv_kde.po
+SV_GMFILES = sv_kde.gmo
+
+POFILES = $(DE_POFILES) $(FR_POFILES) $(SV_POFILES)
+GMOFILES= $(DE_GMFILES) $(FR_GMFILES) $(SV_GMFILES)
 
 # more general options
 srcdir = @srcdir@
