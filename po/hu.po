@@ -1,12 +1,10 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 1997 Free Software Foundation, Inc.
 # Balazs Nagy <julian7@kva.hu>, 1997.
 #
-
 msgid ""
 msgstr ""
 "Project-Id-Version: kdehelp 0.5.2\n"
-"POT-Creation-Date: 1997-08-21 23:23-0500\n"
+"POT-Creation-Date: 1997-10-18 11:43+0200\n"
 "PO-Revision-Date: 1997-09-21 19:39+MET\n"
 "Last-Translator: Balazs Nagy <julian7@kva.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -14,203 +12,194 @@ msgstr ""
 "Content-Type: text/plain; charset=Latin2\n"
 "Content-Transfer-Encoding: iso-8859-2\n"
 
-msgid "Error"
-msgstr "Hiba"
-
-msgid "Malformed URL"
-msgstr "Hibás URL"
-
-msgid "Yes"
-msgstr "Igen"
-
-msgid "No"
-msgstr "Nem"
-
-msgid "Warning"
-msgstr "Figyelmeztetés"
-
-msgid "Open a file"
-msgstr "File megnyitása"
-
-msgid "Save a file"
-msgstr "File mentése"
-
-msgid "Contents"
-msgstr "Tartalom"
-
-msgid "About"
+#: kapp.cpp:330
+#, fuzzy
+msgid "About "
 msgstr "Névjegy"
 
-msgid "Open"
-msgstr "Megnyitás"
+#: kapp.cpp:334 kapp.cpp:355
+#, fuzzy
+msgid "About KDE"
+msgstr "Névjegy"
 
-msgid "Save"
-msgstr "Mentés"
-
-msgid "Save As"
-msgstr "Mentés másként"
-
-msgid "Close"
-msgstr "Bezár"
-
-msgid "Quit"
-msgstr "Kilép"
-
-msgid "Untitled"
-msgstr "Névtelen"
-
-msgid "OK"
+#: kapp.cpp:357
+msgid ""
+"The KDE Desktop Environment was written by\n"
+"\n"
+"Roberto Alsina (ralsina@unl.edu.ar)\n"
+"Kalle Dalheimer (kalle@kde.org)\n"
+"Mark Donohoe UK (donohoe@kde.org)\n"
+"Fritz Elfert (fritz@wuemaus.franken.de)\n"
+"Matthias Ettrich (ettrich@kde.org)\n"
+"Steffen Hansen (stefh@mip.ou.dk)\n"
+"Martin Jones (mjones@kde.org)\n"
+"Sirtaj Singh Kang (tak@kde.org)\n"
+"Martin Konold (konold@kde.org)\n"
+"Stephan Kulow (coolo@kde.org)\n"
+"Richard Moore UK (rich@kde.org)\n"
+"Uwe Thiem (uwix.alt.na)\n"
+"Stefan Taferner (taferner@salzburg.co.at)\n"
+"Torben Weis (weis@kde.org)\n"
+"Robert David Williams (rwilliam@kde.org)\n"
+"Bernd Johannes Wuebben (wuebben@kde.org)\n"
+"Markus Wuebben (markus.wuebben@kde.org)\n"
+"and lots of other developers, contributors, documentation writers and "
+"maintainers.\n"
+"\n"
+"\n"
+"KDE was developed with Qt, a cross-platform GUI library.\n"
+"\n"
+"Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
+"Qt may be used freely to develop free software on the X Window System.\n"
 msgstr ""
 
-msgid "Ok"
-msgstr ""
+#~ msgid "Error"
+#~ msgstr "Hiba"
 
-msgid "Cancel"
-msgstr "Mégsem"
+#~ msgid "Malformed URL"
+#~ msgstr "Hibás URL"
 
-msgid "Apply"
-msgstr "Alkalmaz"
+#~ msgid "Yes"
+#~ msgstr "Igen"
 
-msgid "File"
-msgstr ""
+#~ msgid "No"
+#~ msgstr "Nem"
 
-msgid "Help"
-msgstr "Segítség"
+#~ msgid "Warning"
+#~ msgstr "Figyelmeztetés"
 
-msgid "Edit"
-msgstr "Szerkesztés"
+#~ msgid "Open a file"
+#~ msgstr "File megnyitása"
+
+#~ msgid "Save a file"
+#~ msgstr "File mentése"
+
+#~ msgid "Contents"
+#~ msgstr "Tartalom"
+
+#~ msgid "Open"
+#~ msgstr "Megnyitás"
+
+#~ msgid "Save"
+#~ msgstr "Mentés"
+
+#~ msgid "Save As"
+#~ msgstr "Mentés másként"
+
+#~ msgid "Close"
+#~ msgstr "Bezár"
+
+#~ msgid "Quit"
+#~ msgstr "Kilép"
+
+#~ msgid "Untitled"
+#~ msgstr "Névtelen"
+
+#~ msgid "Cancel"
+#~ msgstr "Mégsem"
+
+#~ msgid "Apply"
+#~ msgstr "Alkalmaz"
+
+#~ msgid "Help"
+#~ msgstr "Segítség"
+
+#~ msgid "Edit"
+#~ msgstr "Szerkesztés"
 
 # libkdeui messages
-#: kcolordlg.cpp:239
-msgid "Select Color"
-msgstr "Szín kiválasztása"
+#~ msgid "Select Color"
+#~ msgstr "Szín kiválasztása"
 
-#: kcolordlg.cpp:244
-msgid "System Colors"
-msgstr "Rendszerpaletta"
+#~ msgid "System Colors"
+#~ msgstr "Rendszerpaletta"
 
-#: kcolordlg.cpp:269
-msgid "Custom Colors"
-msgstr "Saját paletta"
+#~ msgid "Custom Colors"
+#~ msgstr "Saját paletta"
 
-#: kcolordlg.cpp:345
-msgid "Add to Custom Colors"
-msgstr "Saját palettához ad"
+#~ msgid "Add to Custom Colors"
+#~ msgstr "Saját palettához ad"
 
-#: kcolordlg.cpp:649 kcolordlg.cpp:699
-msgid "Custom..."
-msgstr "Saját..."
+#~ msgid "Custom..."
+#~ msgstr "Saját..."
 
-#: kfontdialog.cpp:95
-msgid "Select Font"
-msgstr "Kiválasztott betûtípus"
+#~ msgid "Select Font"
+#~ msgstr "Kiválasztott betûtípus"
 
-#: kfontdialog.cpp:99
-msgid "Requested Font"
-msgstr "Kért betûtípus"
+#~ msgid "Requested Font"
+#~ msgstr "Kért betûtípus"
 
-#: kfontdialog.cpp:104
-msgid "Actual Font"
-msgstr "Tényleges betûtípus"
+#~ msgid "Actual Font"
+#~ msgstr "Tényleges betûtípus"
 
-#: kfontdialog.cpp:108 kfontdialog.cpp:112
-msgid "Family:"
-msgstr "Család:"
+#~ msgid "Family:"
+#~ msgstr "Család:"
 
-#: kfontdialog.cpp:119 kfontdialog.cpp:124
-msgid "Size:"
-msgstr "Méret:"
+#~ msgid "Size:"
+#~ msgstr "Méret:"
 
-#: kfontdialog.cpp:133 kfontdialog.cpp:138
-msgid "Weight:"
-msgstr "Vastagság:"
+#~ msgid "Weight:"
+#~ msgstr "Vastagság:"
 
-#: kfontdialog.cpp:147 kfontdialog.cpp:155
-msgid "Style:"
-msgstr "Stílus:"
+#~ msgid "Style:"
+#~ msgstr "Stílus:"
 
-#: kfontdialog.cpp:190
-msgid "Size"
-msgstr "Méret"
+#~ msgid "Size"
+#~ msgstr "Méret"
 
-#: kfontdialog.cpp:229
-msgid "Weight"
-msgstr "Vastagság"
+#~ msgid "Weight"
+#~ msgstr "Vastagság"
 
-#: kfontdialog.cpp:230 kfontdialog.cpp:327
-msgid "normal"
-msgstr "normál"
+#~ msgid "normal"
+#~ msgstr "normál"
 
-#: kfontdialog.cpp:231 kfontdialog.cpp:329
-msgid "bold"
-msgstr "félkövér"
+#~ msgid "bold"
+#~ msgstr "félkövér"
 
-#: kfontdialog.cpp:240
-msgid "Style"
-msgstr "Stílus"
+#~ msgid "Style"
+#~ msgstr "Stílus"
 
-#: kfontdialog.cpp:241 kfontdialog.cpp:340 kfontdialog.cpp:369
-msgid "roman"
-msgstr ""
+#~ msgid "italic"
+#~ msgstr "kurzív"
 
-#: kfontdialog.cpp:242 kfontdialog.cpp:342 kfontdialog.cpp:367
-msgid "italic"
-msgstr "kurzív"
+#~ msgid "Dolor Ipse"
+#~ msgstr "árvíztûrõ"
 
-#: kfontdialog.cpp:270
-msgid "Dolor Ipse"
-msgstr "árvíztûrõ"
+#~ msgid "Bold"
+#~ msgstr "Félkövér"
 
-#: kfontdialog.cpp:362
-msgid "Bold"
-msgstr "Félkövér"
+#~ msgid "Normal"
+#~ msgstr "Normál"
 
-#: kfontdialog.cpp:364
-msgid "Normal"
-msgstr "Normál"
+#~ msgid "Select Icon"
+#~ msgstr "Ikon kiválasztása"
 
-#: kiconloader.cpp:176
-msgid "Select Icon"
-msgstr "Ikon kiválasztása"
+#~ msgid "Filter:"
+#~ msgstr "Szûrõ:"
 
-#: kiconloader.cpp:182
-msgid "Filter:"
-msgstr "Szûrõ:"
+#~ msgid "ERROR: couldn't find icon: %s"
+#~ msgstr "HIBA: nem találtam a %s icont"
 
-#: kiconloader.cpp:337
-#, c-format
-msgid "ERROR: couldn't find icon: %s"
-msgstr "HIBA: nem találtam a %s icont"
+#~ msgid "Top"
+#~ msgstr "Tetején"
 
-#: kmenubar.cpp:106 ktoolbar.cpp:273
-msgid "Top"
-msgstr "Tetején"
+#~ msgid "Bottom"
+#~ msgstr "Alján"
 
-#: kmenubar.cpp:107 ktoolbar.cpp:275
-msgid "Bottom"
-msgstr "Alján"
+#~ msgid "Floating"
+#~ msgstr "Lebegõ"
 
-#: kmenubar.cpp:108 ktoolbar.cpp:276
-msgid "Floating"
-msgstr "Lebegõ"
+#~ msgid "Float"
+#~ msgstr "Lebegtetés"
 
-#: kmenubar.cpp:182 kmenubar.cpp:223 ktoolbar.cpp:699 ktoolbar.cpp:1208
-msgid "Float"
-msgstr "Lebegtetés"
+#~ msgid "UnFloat"
+#~ msgstr "Rögzítés"
 
-#: kmenubar.cpp:213 ktoolbar.cpp:1198
-msgid "UnFloat"
-msgstr "Rögzítés"
+#~ msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
+#~ msgstr "KToolBarButton: pixmap üres, hiányzik a file?"
 
-#: ktoolbar.cpp:87 ktoolbar.cpp:145
-msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr "KToolBarButton: pixmap üres, hiányzik a file?"
+#~ msgid "Left"
+#~ msgstr "Bal"
 
-#: ktoolbar.cpp:272
-msgid "Left"
-msgstr "Bal"
-
-#: ktoolbar.cpp:274
-msgid "Right"
-msgstr "Jobb"
-
+#~ msgid "Right"
+#~ msgstr "Jobb"
