@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-03 16:29+0100\n"
+"POT-Creation-Date: 1998-01-03 22:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,8 +78,9 @@ msgstr "Aan eigen kleuren toevoegen"
 msgid "Ok"
 msgstr "Ok"
 
-#: kdeui/kcolordlg.cpp:464 kdeui/kcontrol.cpp:41 kdeui/kfontdialog.cpp:346
-#: kdeui/kiconloaderdialog.cpp:211 po/texts.cpp:40
+#: kdeui/kcolordlg.cpp:464 kdeui/kcontrol.cpp:41 kdeui/keditcl1.cpp:397
+#: kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897 kdeui/kfontdialog.cpp:346
+#: kdeui/kiconloaderdialog.cpp:211 kdeui/kmsgbox.cpp:509 po/texts.cpp:40
 msgid "Cancel"
 msgstr "Annuleren"
 
@@ -91,13 +92,168 @@ msgstr "Help"
 msgid "Custom..."
 msgstr "Eigen..."
 
-#: kdeui/kcontrol.cpp:39 po/texts.cpp:35
+#: kdeui/kcontrol.cpp:39 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
+#: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
+#: kdeui/keditcl1.cpp:1472 kdeui/keditcl1.cpp:1629 kdeui/kmsgbox.cpp:477
+#: po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
 
 #: kdeui/kcontrol.cpp:40 po/texts.cpp:42
 msgid "Apply"
 msgstr "Toepassen"
+
+#: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
+#: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1470 po/texts.cpp:87
+msgid "Sorry"
+msgstr ""
+
+#: kdeui/keditcl1.cpp:128
+msgid "The specified File does not exist"
+msgstr ""
+
+#: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:494
+#: kdeui/keditcl1.cpp:1626
+msgid "Sorry:"
+msgstr ""
+
+#: kdeui/keditcl1.cpp:142
+msgid "You have specificated a directory"
+msgstr ""
+
+#: kdeui/keditcl1.cpp:157 kdeui/keditcl1.cpp:178
+msgid "You do not have read permission to this file."
+msgstr ""
+
+#: kdeui/keditcl1.cpp:191
+msgid "An Error occured while trying to open this Document"
+msgstr ""
+
+#: kdeui/keditcl1.cpp:356
+msgid "Select Document to Insert"
+msgstr ""
+
+#: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1569
+#, fuzzy
+msgid "Warning:"
+msgstr "Waarschuwing"
+
+#: kdeui/keditcl1.cpp:393 kdeui/keditcl1.cpp:475
+msgid ""
+"The current Document has been modified.\n"
+"Would you like to save it?"
+msgstr ""
+
+#: kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416 kdeui/keditcl1.cpp:477
+#: kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1572 kdeui/keditcl2.cpp:108
+#: kdeui/keditcl2.cpp:125 kdeui/keditcl2.cpp:365 kdeui/keditcl2.cpp:382
+#: kdeui/keditcl2.cpp:428 kdeui/keditcl2.cpp:458 kdeui/keditcl2.cpp:475
+#: kdeui/kmsgbox.cpp:492 kdeui/kmsgbox.cpp:507 po/texts.cpp:27
+msgid "Yes"
+msgstr "Ja"
+
+#: kdeui/keditcl1.cpp:396 kdeui/keditcl1.cpp:417 kdeui/keditcl1.cpp:478
+#: kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1573 kdeui/keditcl2.cpp:109
+#: kdeui/keditcl2.cpp:126 kdeui/keditcl2.cpp:366 kdeui/keditcl2.cpp:383
+#: kdeui/keditcl2.cpp:429 kdeui/keditcl2.cpp:459 kdeui/keditcl2.cpp:476
+#: kdeui/kmsgbox.cpp:490 kdeui/kmsgbox.cpp:505 po/texts.cpp:28
+msgid "No"
+msgstr "Nee"
+
+#: kdeui/keditcl1.cpp:414
+msgid ""
+"Could not save the document.\n"
+"Open a new document anyways?"
+msgstr ""
+
+#: kdeui/keditcl1.cpp:445
+msgid "Select Document to Open"
+msgstr ""
+
+#: kdeui/keditcl1.cpp:495
+msgid ""
+"Could not save the document.\n"
+"Create a new document anyways?"
+msgstr ""
+
+#: kdeui/keditcl1.cpp:530 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
+msgid "Untitled"
+msgstr "Naamloos"
+
+#: kdeui/keditcl1.cpp:1471
+msgid "Could not save the document\n"
+msgstr ""
+
+#: kdeui/keditcl1.cpp:1541
+#, fuzzy
+msgid "Save Document As"
+msgstr "Opslaan als"
+
+#: kdeui/keditcl1.cpp:1570
+msgid ""
+"A Document with this Name exists already\n"
+"Do you want to overwrite it ?"
+msgstr ""
+
+#: kdeui/keditcl1.cpp:1627
+msgid "You do not have write permission to this file.\n"
+msgstr ""
+
+#: kdeui/keditcl2.cpp:105 kdeui/keditcl2.cpp:122 kdeui/keditcl2.cpp:362
+#: kdeui/keditcl2.cpp:379 kdeui/keditcl2.cpp:678 kdeui/keditcl2.cpp:687
+#: kdeui/keditcl2.cpp:788
+msgid "Find"
+msgstr ""
+
+#: kdeui/keditcl2.cpp:106 kdeui/keditcl2.cpp:363 kdeui/keditcl2.cpp:456
+msgid ""
+"End of document reached.\n"
+"Continue from the beginning?"
+msgstr ""
+
+#: kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426
+#: kdeui/keditcl2.cpp:473
+msgid ""
+"Beginning of document reached.\n"
+"Continue from the end?"
+msgstr ""
+
+#: kdeui/keditcl2.cpp:425 kdeui/keditcl2.cpp:455 kdeui/keditcl2.cpp:472
+#: kdeui/keditcl2.cpp:791
+msgid "Replace"
+msgstr ""
+
+#: kdeui/keditcl2.cpp:684 kdeui/keditcl2.cpp:782
+msgid "Case Sensitive"
+msgstr ""
+
+#: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:785
+msgid "Find Backwards"
+msgstr ""
+
+#: kdeui/keditcl2.cpp:690 kdeui/keditcl2.cpp:797 po/texts.cpp:86
+msgid "Done"
+msgstr ""
+
+#: kdeui/keditcl2.cpp:770
+msgid "Find:"
+msgstr ""
+
+#: kdeui/keditcl2.cpp:780
+msgid "Replace with:"
+msgstr ""
+
+#: kdeui/keditcl2.cpp:794
+msgid "Replace All"
+msgstr ""
+
+#: kdeui/keditcl2.cpp:891
+msgid "Goto Line"
+msgstr ""
+
+#: kdeui/keditcl2.cpp:896
+msgid "Go"
+msgstr ""
 
 #: kdeui/kfontdialog.cpp:164
 msgid "Select Font"
@@ -209,10 +365,6 @@ msgstr "Zweven"
 msgid "UnFloat"
 msgstr "Vast"
 
-#: kdeui/kpopmenu.cpp:10 po/texts.cpp:34
-msgid "Untitled"
-msgstr "Naamloos"
-
 #: kdeui/ktoolbar.cpp:115 kdeui/ktoolbar.cpp:174
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: pixmap is leeg, mischien een missend bestand"
@@ -235,14 +387,6 @@ msgstr "Fout"
 #: po/texts.cpp:25
 msgid "Malformed URL"
 msgstr "URL heeft een verkeerd formaat"
-
-#: po/texts.cpp:27
-msgid "Yes"
-msgstr "Ja"
-
-#: po/texts.cpp:28
-msgid "No"
-msgstr "Nee"
 
 #: po/texts.cpp:29
 msgid "Warning"
@@ -467,14 +611,6 @@ msgstr "Sluiten"
 
 #: po/texts.cpp:85
 msgid "&Print..."
-msgstr ""
-
-#: po/texts.cpp:86
-msgid "Done"
-msgstr ""
-
-#: po/texts.cpp:87
-msgid "Sorry"
 msgstr ""
 
 #: po/texts.cpp:88
