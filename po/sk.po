@@ -1272,7 +1272,7 @@ msgstr "Vytvori» Root/Affix kombinácie, ktoré nie sú v slovníku"
 
 #: kspell/ksconfig.cpp:75
 msgid "Consider run-together words as spelling errors"
-msgstr "Pova¾ova» spojené slová ako chyby"
+msgstr "Pova¾ova» spojené slová za chyby"
 
 #: kspell/ksconfig.cpp:92
 msgid "Dictionary"
