@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs \n"
 "POT-Creation-Date: 1998-01-03 22:39+0100\n"
-"PO-Revision-Date: 1997-12-30 15:56+0100\n"
+"PO-Revision-Date: 1998-01-03 14:46+0100\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
@@ -83,7 +83,7 @@ msgstr "Pomoc"
 
 #: kdeui/kcolordlg.cpp:786 kdeui/kcolordlg.cpp:838
 msgid "Custom..."
-msgstr "Definiuj kolory u¿ytkownika"
+msgstr "Definiuj..."
 
 #: kdeui/kcontrol.cpp:39 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
@@ -442,12 +442,11 @@ msgstr "&Opcje"
 
 #: po/texts.cpp:50
 msgid "View"
-msgstr "Poka¿"
+msgstr "Widok"
 
 #: po/texts.cpp:51
-#, fuzzy
 msgid "&View"
-msgstr "Poka¿"
+msgstr "&Widok"
 
 #: po/texts.cpp:52
 msgid "E&xit"
@@ -494,32 +493,28 @@ msgid "New"
 msgstr "Nowy"
 
 #: po/texts.cpp:63
-#, fuzzy
 msgid "&New"
-msgstr "Nowy"
+msgstr "&Nowy"
 
 #: po/texts.cpp:64
-#, fuzzy
 msgid "&New..."
-msgstr "Nowy"
+msgstr "&Nowy..."
 
 #: po/texts.cpp:65
 msgid "&New Window..."
-msgstr ""
+msgstr "&Nowe okno..."
 
 #: po/texts.cpp:66
 msgid "New &Window..."
-msgstr ""
+msgstr "No&we okno..."
 
 #: po/texts.cpp:67
-#, fuzzy
 msgid "New Game"
-msgstr "&Zachowaj"
+msgstr "Nowa gra"
 
 #: po/texts.cpp:68
-#, fuzzy
 msgid "&New Game"
-msgstr "&Zachowaj"
+msgstr "&Nowa gra"
 
 #: po/texts.cpp:69
 msgid "Open"
@@ -534,9 +529,8 @@ msgid "Open..."
 msgstr "Otwórz..."
 
 #: po/texts.cpp:72
-#, fuzzy
 msgid "&Open..."
-msgstr "Otwórz..."
+msgstr "&Otwórz..."
 
 #: po/texts.cpp:73
 msgid "Cut"
@@ -548,7 +542,7 @@ msgstr "Wy&tnij"
 
 #: po/texts.cpp:75
 msgid "Font"
-msgstr "Naprzód"
+msgstr "Czcionka"
 
 #: po/texts.cpp:76
 msgid "&Foreground Color"
@@ -611,54 +605,48 @@ msgid "Delete"
 msgstr "Skasuj"
 
 #: po/texts.cpp:93
-#, fuzzy
 msgid "&Delete"
-msgstr "Skasuj"
+msgstr "&Skasuj"
 
 #: po/texts.cpp:94
-#, fuzzy
 msgid "Clear"
 msgstr "Zamknij"
 
 #: po/texts.cpp:95
-#, fuzzy
 msgid "Italic"
-msgstr "italic"
+msgstr "Italic"
 
 #: po/texts.cpp:96
-#, fuzzy
 msgid "Roman"
-msgstr "roman"
+msgstr "Roman"
 
 #: po/texts.cpp:97
 msgid "Undo"
-msgstr ""
+msgstr "Cofnij"
 
 #: po/texts.cpp:98
 msgid "&Undo"
-msgstr ""
+msgstr "&Cofnij"
 
 #: po/texts.cpp:99
-#, fuzzy
 msgid "Redo"
-msgstr "Prze³aduj"
+msgstr "Przywróæ"
 
 #: po/texts.cpp:100
 msgid "&Redo"
-msgstr ""
+msgstr "Przy&wróæ"
 
 #: po/texts.cpp:101
-#, fuzzy
 msgid "&Game"
-msgstr "&Zachowaj"
+msgstr "&Gra"
 
 #: po/texts.cpp:102
 msgid "Information"
-msgstr ""
+msgstr "Informacja"
 
 #: po/texts.cpp:103
 msgid "Browse..."
-msgstr ""
+msgstr "Przegl±daj..."
 
 #~ msgid "About "
 #~ msgstr "Informacje o "
