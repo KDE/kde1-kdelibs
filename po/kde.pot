@@ -5,6 +5,9 @@ msgstr ""
 msgid "Malformed URL"
 msgstr ""
 
+msgid "Charset:"
+msgstr ""
+
 msgid "Yes"
 msgstr ""
 

@@ -3,7 +3,10 @@ msgid "Error"
 msgstr "Ошибка"
 
 msgid "Malformed URL"
-msgstr ""
+msgstr "Неверный URL"
+
+msgid "Charset:"
+msgstr "Кодировка:"
 
 msgid "Yes"
 msgstr "Да"
@@ -136,7 +139,7 @@ msgstr "Стиль"
 
 #: kfontdialog.cpp:241 kfontdialog.cpp:340 kfontdialog.cpp:369
 msgid "roman"
-msgstr "roman"
+msgstr "роман"
 
 #: kfontdialog.cpp:242 kfontdialog.cpp:342 kfontdialog.cpp:367
 msgid "italic"
@@ -144,7 +147,7 @@ msgstr "наклонный"
 
 #: kfontdialog.cpp:270
 msgid "Dolor Ipse"
-msgstr ""
+msgstr "Тестируем"
 
 #: kfontdialog.cpp:362
 msgid "Bold"
@@ -160,7 +163,7 @@ msgstr "Выберите пиктограмму"
 
 #: kiconloader.cpp:182
 msgid "Filter:"
-msgstr "Фильтер:"
+msgstr "Фильтр:"
 
 #: kiconloader.cpp:337
 #, c-format
@@ -221,3 +224,13 @@ msgid ""
 "Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
 "Qt may be used freely to develop free software on the X Window System.\n"
 msgstr ""
+"KDE Desktop Environment написано командой KDE.\n"
+"\n"
+"Пожайлуста, посылайте отчеты об ощибках на kde-bugs@kde.org.\n"
+"\n"
+"\n"
+"KDE разработано на Qt, межплатформенной библиотекой ГИП.\n"
+"\n"
+"Qt продукт Troll Tech (http://www.troll.no, info@troll.no).\n"
+"Qt может свободно использоваться для разработки свободного\n"
+"программного обеспечения под X Window System.\n"
