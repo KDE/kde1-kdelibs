@@ -42,7 +42,7 @@ msgid ""
 "Project. Please consider joining and supporting KDE.\n"
 "\n"
 "Please report bugs at http://buglist.kde.org.\n"
-msgstr 
+msgstr ""
 "\n"
 "KDE a fost scrisã de o echipã internaþionalã,\n"
 "de programatori ca ºi un proiect liber.\n"
@@ -465,7 +465,7 @@ msgstr "Locaþia in System"
 
 #: kfile/kfiledialog.cpp:217
 msgid "&Location:"
-msgstr  "&Locaþia"
+msgstr "&Locaþia"
 
 #: kfile/kfiledialog.cpp:229
 #, fuzzy
@@ -484,7 +484,8 @@ msgstr "Eroare: Fiºierul nu este local"
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
-msgstr "Directorul specificat nu este local\n"
+msgstr ""
+"Directorul specificat nu este local\n"
 "ªi aceast program nu acceptã decît fiºiere locale."
 
 #: kfile/kfiledialog.cpp:526 kfile/kfiledialog.cpp:628
@@ -595,7 +596,6 @@ msgstr ""
 "\n"
 "Mario Weilguni <mweilguni@sime.com>\n"
 "ºi Martin Jones <mjones@kde.org>"
-
 
 #: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
 msgid "About"

@@ -433,8 +433,8 @@ msgstr "书签"
 msgid "Create new folder"
 msgstr "建立新的文件夹"
 
-#: kfile/kfiledialog.cpp:181
 #
+#: kfile/kfiledialog.cpp:181
 msgid "Search for a file"
 msgstr "搜寻文件"
 
@@ -450,8 +450,8 @@ msgstr "路径"
 msgid "&Location:"
 msgstr "位置[&L]"
 
-#: kfile/kfiledialog.cpp:229
 #
+#: kfile/kfiledialog.cpp:229
 msgid "&Filter:"
 msgstr "过滤[&F]"
 
@@ -475,8 +475,8 @@ msgstr ""
 msgid "Error: Cannot Open Directory"
 msgstr "错误: 不能打开目录"
 
-#: kfile/kfiledialog.cpp:527
 #
+#: kfile/kfiledialog.cpp:527
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
@@ -499,8 +499,8 @@ msgstr "另存新文件"
 msgid "Root Directory"
 msgstr "根目录"
 
-#: kfile/kfiledialog.cpp:629
 #
+#: kfile/kfiledialog.cpp:629
 msgid "The specified directory does not exist or was not readable."
 msgstr "指定的目录不存在或不可读"
 
@@ -512,8 +512,8 @@ msgstr "建立一个新的目录在 :"
 msgid "New Directory"
 msgstr "建立新目录"
 
-#: kfile/kfiledialog.cpp:949
 #
+#: kfile/kfiledialog.cpp:949
 msgid "Add to bookmarks"
 msgstr "添加到书签中"
 
@@ -533,13 +533,13 @@ msgstr "目录"
 msgid "directories"
 msgstr "目录"
 
-#: kfile/kfiledialog.cpp:1252 kfile/kpreview.cpp:326
 #
+#: kfile/kfiledialog.cpp:1252 kfile/kpreview.cpp:326
 msgid "file"
 msgstr "文件"
 
-#: kfile/kfiledialog.cpp:1254
 #
+#: kfile/kfiledialog.cpp:1254
 msgid "files"
 msgstr "文件"
 
@@ -575,8 +575,7 @@ msgstr ""
 "Stephan Kulow <coolo@kde.org>\n"
 "和 Daniel Grana <grana@ie.iwi.unibe.ch>\n"
 "\n"
-"完成 , 并由"
-"\n"
+"完成 , 并由\n"
 "Mario Weilguni <mweilguni@sime.com>\n"
 "and Martin Jones <mjones@kde.org>\n"
 "协助"
@@ -601,8 +600,8 @@ msgstr "详细方式"
 msgid "Misc"
 msgstr "其他"
 
-#: kfile/kfiledialogconf.cpp:95
 #
+#: kfile/kfiledialogconf.cpp:95
 msgid "Show Filter"
 msgstr "显示过滤符"
 
@@ -674,8 +673,8 @@ msgstr "九月"
 msgid "Oct"
 msgstr "十月"
 
-#: kfile/kfileinfo.cpp:228
 #
+#: kfile/kfileinfo.cpp:228
 msgid "Nov"
 msgstr "十一月"
 
@@ -691,13 +690,13 @@ msgstr "名称:"
 msgid "Date:"
 msgstr "日期:"
 
-#: kfile/kpreview.cpp:214
 #
+#: kfile/kpreview.cpp:214
 msgid "Owner:"
 msgstr "所有者:"
 
-#: kfile/kpreview.cpp:223
 #
+#: kfile/kpreview.cpp:223
 msgid "Group:"
 msgstr "工作组:"
 
