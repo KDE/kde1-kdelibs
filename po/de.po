@@ -985,6 +985,7 @@ msgid "one directory"
 msgstr "ein Verzeichnis"
 
 #: kfile/kfiledialog.cpp:1321
+#, c-format
 msgid "%d directories"
 msgstr "%d Verzeichnisse"
 
