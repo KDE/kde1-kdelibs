@@ -17,7 +17,7 @@
     Boston, MA 02111-1307, USA.
 */  
 
-#include "ktabbar.moc"
+#include "ktabbar.h"
 
 struct KTabBarProtected
 {
