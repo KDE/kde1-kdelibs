@@ -1,212 +1,33 @@
-msgid "Error"
-msgstr "Erreur"
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1997-12-28 19:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
 
-msgid "Malformed URL"
-msgstr "URL incorrecte"
-
-msgid "Yes"
-msgstr "Oui"
-
-msgid "No"
-msgstr "Non"
-
-msgid "Warning"
-msgstr "Attention"
-
-msgid "Open a file"
-msgstr "Ouvrir un fichier"
-
-msgid "Save a file"
-msgstr "Enregistrer un fichier"
-
-msgid "Contents"
-msgstr "Contenu"
-
-msgid "About"
-msgstr "A propos"
-
-msgid "Open"
-msgstr "Ouvrir"
-
-msgid "Save"
-msgstr "Enregistrer"
-
-msgid "Save As"
-msgstr "Enregistrer sous"
-
-msgid "Close"
-msgstr "Fermer"
-
-msgid "Quit"
-msgstr "Quitter"
-
-msgid "Untitled"
-msgstr "Sans titre"
-
-msgid "OK"
-msgstr "OK"
-
-msgid "Ok"
-msgstr "Ok"
-
-msgid "Cancel"
-msgstr "Annuler"
-
-msgid "Apply"
-msgstr "Appliquer"
-
-msgid "File"
-msgstr "Fichier"
-
+#: kdecore/kapp.cpp:391 kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34
+#: po/texts.cpp:45
 msgid "Help"
 msgstr "Aide"
 
-msgid "Edit"
-msgstr "Editer"
-
-# libkdeui messages
-#: kcolordlg.cpp:239
-msgid "Select Color"
-msgstr "Selection couleur"
-
-#: kcolordlg.cpp:244
-msgid "System Colors"
-msgstr "Couleurs système"
-
-#: kcolordlg.cpp:269
-msgid "Custom Colors"
-msgstr "Couleurs personnalisées"
-
-#: kcolordlg.cpp:345
-msgid "Add to Custom Colors"
-msgstr "Ajouter aux couleurs personnalisées"
-
-#: kcolordlg.cpp:649 kcolordlg.cpp:699
-msgid "Custom..."
-msgstr "Personnalisées..."
-
-#: kfontdialog.cpp:95
-msgid "Select Font"
-msgstr "Choisir une police"
-
-#: kfontdialog.cpp:99
-msgid "Requested Font"
-msgstr "Police demandée"
-
-#: kfontdialog.cpp:104
-msgid "Actual Font"
-msgstr "Police actuelle"
-
-#: kfontdialog.cpp:108 kfontdialog.cpp:112
-msgid "Family:"
-msgstr "Famille:"
-
-#: kfontdialog.cpp:119 kfontdialog.cpp:124
-msgid "Size:"
-msgstr "Taille:"
-
-#: kfontdialog.cpp:133 kfontdialog.cpp:138
-msgid "Weight:"
-msgstr "Poids:"
-
-#: kfontdialog.cpp:147 kfontdialog.cpp:155
-msgid "Style:"
-msgstr "Style:"
-
-#: kfontdialog.cpp:190
-msgid "Size"
-msgstr "Taille"
-
-#: kfontdialog.cpp:229
-msgid "Weight"
-msgstr "Poids:"
-
-#: kfontdialog.cpp:230 kfontdialog.cpp:327
-msgid "normal"
-msgstr "normal"
-
-#: kfontdialog.cpp:231 kfontdialog.cpp:329
-msgid "bold"
-msgstr "gras"
-
-#: kfontdialog.cpp:240
-msgid "Style"
-msgstr "Style"
-
-#: kfontdialog.cpp:241 kfontdialog.cpp:340 kfontdialog.cpp:369
-msgid "roman"
-msgstr "roman"
-
-#: kfontdialog.cpp:242 kfontdialog.cpp:342 kfontdialog.cpp:367
-msgid "italic"
-msgstr "italique"
-
-#: kfontdialog.cpp:270
-msgid "Dolor Ipse"
-msgstr "Dolor Ipse"
-
-#: kfontdialog.cpp:362
-msgid "Bold"
-msgstr "Gras"
-
-#: kfontdialog.cpp:364
-msgid "Normal"
-msgstr "Normal"
-
-#: kiconloader.cpp:176
-msgid "Select Icon"
-msgstr "Selectionner une icône"
-
-#: kiconloader.cpp:182
-msgid "Filter:"
-msgstr "Filtre:"
-
-#: kiconloader.cpp:337
-#, c-format
-msgid "ERROR: couldn't find icon: %s"
-msgstr "ERREUR: Icône introuvable: %s"
-
-#: kmenubar.cpp:106 ktoolbar.cpp:273
-msgid "Top"
-msgstr "Haut"
-
-#: kmenubar.cpp:107 ktoolbar.cpp:275
-msgid "Bottom"
-msgstr "Bas"
-
-#: kmenubar.cpp:108 ktoolbar.cpp:276
-msgid "Floating"
-msgstr "Flottant"
-
-#: kmenubar.cpp:182 kmenubar.cpp:223 ktoolbar.cpp:699 ktoolbar.cpp:1208
-msgid "Float"
-msgstr "Flottant"
-
-#: kmenubar.cpp:213 ktoolbar.cpp:1198
-msgid "UnFloat"
-msgstr "Rattacher"
-
-#: ktoolbar.cpp:87 ktoolbar.cpp:145
-msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr "KToolBarButton: pixmap vide, probablement un fichier manquant"
-
-#: ktoolbar.cpp:272
-msgid "Left"
-msgstr "Gauche"
-
-#: ktoolbar.cpp:274
-msgid "Right"
-msgstr "Droite"
-
-#: kapp.cpp:330
+#: kdecore/kapp.cpp:396
 msgid "About "
 msgstr "A propos"
 
-#: kapp.cpp:334 kapp.cpp:355
+#: kdecore/kapp.cpp:400 kdecore/kapp.cpp:421
 msgid "About KDE"
 msgstr "A propos de KDE"
 
-#: kapp.cpp:357
+#: kdecore/kapp.cpp:423
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
@@ -229,3 +50,231 @@ msgstr ""
 "Qt peut être librement utilisé pour développer des logiciels libres \n"
 "pour le système X-Window.\n"
 
+# libkdeui messages
+#: kdeui/kcolordlg.cpp:283
+msgid "Select Color"
+msgstr "Selection couleur"
+
+#: kdeui/kcolordlg.cpp:295
+msgid "System Colors"
+msgstr "Couleurs système"
+
+#: kdeui/kcolordlg.cpp:326
+msgid "Custom Colors"
+msgstr "Couleurs personnalisées"
+
+#: kdeui/kcolordlg.cpp:339
+msgid "Add to Custom Colors"
+msgstr "Ajouter aux couleurs personnalisées"
+
+#: kdeui/kcolordlg.cpp:461 kdeui/kfontdialog.cpp:351
+#: kdeui/kiconloaderdialog.cpp:210 po/texts.cpp:41
+msgid "Ok"
+msgstr "Ok"
+
+#: kdeui/kcolordlg.cpp:464 kdeui/kcontrol.cpp:41 kdeui/kfontdialog.cpp:346
+#: kdeui/kiconloaderdialog.cpp:211 po/texts.cpp:42
+msgid "Cancel"
+msgstr "Annuler"
+
+#: kdeui/kcolordlg.cpp:786 kdeui/kcolordlg.cpp:838
+msgid "Custom..."
+msgstr "Personnalisées..."
+
+#: kdeui/kcontrol.cpp:39 po/texts.cpp:40
+msgid "OK"
+msgstr "OK"
+
+#: kdeui/kcontrol.cpp:40 po/texts.cpp:43
+msgid "Apply"
+msgstr "Appliquer"
+
+#: kdeui/kfontdialog.cpp:164
+msgid "Select Font"
+msgstr "Choisir une police"
+
+#: kdeui/kfontdialog.cpp:168
+msgid "Requested Font"
+msgstr "Police demandée"
+
+#: kdeui/kfontdialog.cpp:173
+msgid "Actual Font"
+msgstr "Police actuelle"
+
+#: kdeui/kfontdialog.cpp:177 kdeui/kfontdialog.cpp:181
+msgid "Family:"
+msgstr "Famille:"
+
+#: kdeui/kfontdialog.cpp:188 kdeui/kfontdialog.cpp:194 po/texts.cpp:26
+msgid "Charset:"
+msgstr ""
+
+#: kdeui/kfontdialog.cpp:201 kdeui/kfontdialog.cpp:206
+msgid "Size:"
+msgstr "Taille:"
+
+#: kdeui/kfontdialog.cpp:215 kdeui/kfontdialog.cpp:220
+msgid "Weight:"
+msgstr "Poids:"
+
+#: kdeui/kfontdialog.cpp:229 kdeui/kfontdialog.cpp:237
+msgid "Style:"
+msgstr "Style:"
+
+#: kdeui/kfontdialog.cpp:272
+msgid "Charset"
+msgstr ""
+
+#: kdeui/kfontdialog.cpp:284
+msgid "Size"
+msgstr "Taille"
+
+#: kdeui/kfontdialog.cpp:323
+msgid "Weight"
+msgstr "Poids:"
+
+#: kdeui/kfontdialog.cpp:324 kdeui/kfontdialog.cpp:433
+msgid "normal"
+msgstr "normal"
+
+#: kdeui/kfontdialog.cpp:325 kdeui/kfontdialog.cpp:435
+msgid "bold"
+msgstr "gras"
+
+#: kdeui/kfontdialog.cpp:334
+msgid "Style"
+msgstr "Style"
+
+#: kdeui/kfontdialog.cpp:335 kdeui/kfontdialog.cpp:446
+#: kdeui/kfontdialog.cpp:476
+msgid "roman"
+msgstr "roman"
+
+#: kdeui/kfontdialog.cpp:336 kdeui/kfontdialog.cpp:448
+#: kdeui/kfontdialog.cpp:474
+msgid "italic"
+msgstr "italique"
+
+#: kdeui/kfontdialog.cpp:364
+msgid "Dolor Ipse"
+msgstr "Dolor Ipse"
+
+#: kdeui/kfontdialog.cpp:469
+msgid "Bold"
+msgstr "Gras"
+
+#: kdeui/kfontdialog.cpp:471
+msgid "Normal"
+msgstr "Normal"
+
+#: kdeui/kiconloaderdialog.cpp:193
+msgid "Select Icon"
+msgstr "Selectionner une icône"
+
+#: kdeui/kiconloaderdialog.cpp:198
+msgid "Filter:"
+msgstr "Filtre:"
+
+#: kdeui/kmenubar.cpp:149 kdeui/ktoolbar.cpp:311
+msgid "Top"
+msgstr "Haut"
+
+#: kdeui/kmenubar.cpp:150 kdeui/ktoolbar.cpp:313
+msgid "Bottom"
+msgstr "Bas"
+
+#: kdeui/kmenubar.cpp:151 kdeui/ktoolbar.cpp:314
+msgid "Floating"
+msgstr "Flottant"
+
+#: kdeui/kmenubar.cpp:188 kdeui/kmenubar.cpp:327 kdeui/ktoolbar.cpp:831
+#: kdeui/ktoolbar.cpp:1362
+msgid "Float"
+msgstr "Flottant"
+
+#: kdeui/kmenubar.cpp:316 kdeui/ktoolbar.cpp:1352
+msgid "UnFloat"
+msgstr "Rattacher"
+
+#: kdeui/kpopmenu.cpp:10 po/texts.cpp:39
+msgid "Untitled"
+msgstr "Sans titre"
+
+#: kdeui/ktoolbar.cpp:115 kdeui/ktoolbar.cpp:174
+msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
+msgstr "KToolBarButton: pixmap vide, probablement un fichier manquant"
+
+#: kdeui/ktoolbar.cpp:310
+msgid "Left"
+msgstr "Gauche"
+
+#: kdeui/ktoolbar.cpp:312
+msgid "Right"
+msgstr "Droite"
+
+#: po/texts.cpp:24
+msgid "Error"
+msgstr "Erreur"
+
+#: po/texts.cpp:25
+msgid "Malformed URL"
+msgstr "URL incorrecte"
+
+#: po/texts.cpp:27
+msgid "Yes"
+msgstr "Oui"
+
+#: po/texts.cpp:28
+msgid "No"
+msgstr "Non"
+
+#: po/texts.cpp:29
+msgid "Warning"
+msgstr "Attention"
+
+#: po/texts.cpp:30
+msgid "Open a file"
+msgstr "Ouvrir un fichier"
+
+#: po/texts.cpp:31
+msgid "Save a file"
+msgstr "Enregistrer un fichier"
+
+#: po/texts.cpp:32
+msgid "Contents"
+msgstr "Contenu"
+
+#: po/texts.cpp:33
+msgid "About"
+msgstr "A propos"
+
+#: po/texts.cpp:34
+msgid "Open"
+msgstr "Ouvrir"
+
+#: po/texts.cpp:35
+msgid "Save"
+msgstr "Enregistrer"
+
+#: po/texts.cpp:36
+msgid "Save As"
+msgstr "Enregistrer sous"
+
+#: po/texts.cpp:37
+msgid "Close"
+msgstr "Fermer"
+
+#: po/texts.cpp:38
+msgid "Quit"
+msgstr "Quitter"
+
+#: po/texts.cpp:44
+msgid "File"
+msgstr "Fichier"
+
+#: po/texts.cpp:46
+msgid "Edit"
+msgstr "Editer"
+
+#~ msgid "ERROR: couldn't find icon: %s"
+#~ msgstr "ERREUR: Icône introuvable: %s"

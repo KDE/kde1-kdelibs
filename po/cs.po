@@ -6,6 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1997-12-28 19:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,219 +14,20 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-# general messages, that are often used
-msgid "Error"
-msgstr "Chyba"
-
-msgid "Malformed URL"
-msgstr "URL má chybný formát"
-
-msgid "Charset:"
-msgstr "Kódování:"
-
-msgid "Yes"
-msgstr "Ano"
-
-msgid "No"
-msgstr "Ne"
-
-msgid "Warning"
-msgstr "Varování"
-
-msgid "Open a file"
-msgstr "Otevøít soubor"
-
-msgid "Save a file"
-msgstr "Ulo¾it soubor"
-
-msgid "Contents"
-msgstr "Obsah"
-
-msgid "About"
-msgstr "Informace"
-
-msgid "Open"
-msgstr "Otevøít"
-
-msgid "Save"
-msgstr "Ulo¾it"
-
-msgid "Save As"
-msgstr "Ulo¾it jako"
-
-msgid "Close"
-msgstr "Zavøít"
-
-msgid "Quit"
-msgstr "Ukonèit"
-
-msgid "Untitled"
-msgstr "Nepojmenovaný"
-
-msgid "OK"
-msgstr "OK"
-
-msgid "Ok"
-msgstr "Ok"
-
-msgid "Cancel"
-msgstr "Zru¹it"
-
-msgid "Apply"
-msgstr "Pøevzít"
-
-msgid "File"
-msgstr "Soubor"
-
+#: kdecore/kapp.cpp:391 kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34
+#: po/texts.cpp:45
 msgid "Help"
 msgstr "Nápovìda"
 
-msgid "Edit"
-msgstr "Úpravy"
-
-# libkdeui messages
-#: kcolordlg.cpp:239
-msgid "Select Color"
-msgstr "Vyber barvu"
-
-#: kcolordlg.cpp:244
-msgid "System Colors"
-msgstr "Sytémové barvy"
-
-#: kcolordlg.cpp:269
-msgid "Custom Colors"
-msgstr "Vlastní barvy"
-
-#: kcolordlg.cpp:345
-msgid "Add to Custom Colors"
-msgstr "Pøidat k vlastním barvám"
-
-#: kcolordlg.cpp:649 kcolordlg.cpp:699
-msgid "Custom..."
-msgstr "Vlastní..."
-
-#: kfontdialog.cpp:95
-msgid "Select Font"
-msgstr "Vyber znakovou sadu"
-
-#: kfontdialog.cpp:99
-msgid "Requested Font"
-msgstr "Po¾adovaná znaková sada"
-
-#: kfontdialog.cpp:104
-msgid "Actual Font"
-msgstr "Aktuální znaková sada"
-
-#: kfontdialog.cpp:108 kfontdialog.cpp:112
-msgid "Family:"
-msgstr "Rodina:"
-
-#: kfontdialog.cpp:119 kfontdialog.cpp:124
-msgid "Size:"
-msgstr "Velikost:"
-
-#: kfontdialog.cpp:133 kfontdialog.cpp:138
-msgid "Weight:"
-msgstr "Váha:"
-
-#: kfontdialog.cpp:147 kfontdialog.cpp:155
-msgid "Style:"
-msgstr "Styl:"
-
-#: kfontdialog.cpp:190
-msgid "Size"
-msgstr "Velikost"
-
-#: kfontdialog.cpp:229
-msgid "Weight"
-msgstr "Váha"
-
-#: kfontdialog.cpp:230 kfontdialog.cpp:327
-msgid "normal"
-msgstr "normální"
-
-#: kfontdialog.cpp:231 kfontdialog.cpp:329
-msgid "bold"
-msgstr "tuèné"
-
-#: kfontdialog.cpp:240
-msgid "Style"
-msgstr "Styl"
-
-#: kfontdialog.cpp:241 kfontdialog.cpp:340 kfontdialog.cpp:369
-msgid "roman"
-msgstr "roman"
-
-#: kfontdialog.cpp:242 kfontdialog.cpp:342 kfontdialog.cpp:367
-msgid "italic"
-msgstr "italic"
-
-#: kfontdialog.cpp:270
-msgid "Dolor Ipse"
-msgstr "Dolor Ipse"
-
-#: kfontdialog.cpp:362
-msgid "Bold"
-msgstr "Tuèné"
-
-#: kfontdialog.cpp:364
-msgid "Normal"
-msgstr "Normální"
-
-#: kiconloader.cpp:176
-msgid "Select Icon"
-msgstr "Vyber ikonu"
-
-#: kiconloader.cpp:182
-msgid "Filter:"
-msgstr "Filtr:"
-
-#: kiconloader.cpp:337
-#, c-format
-msgid "ERROR: couldn't find icon: %s"
-msgstr "Chyba: nemohu nalézt ikonu: %s"
-
-#: kmenubar.cpp:106 ktoolbar.cpp:273
-msgid "Top"
-msgstr "Nahoøe"
-
-#: kmenubar.cpp:107 ktoolbar.cpp:275
-msgid "Bottom"
-msgstr "Dole"
-
-#: kmenubar.cpp:108 ktoolbar.cpp:276
-msgid "Floating"
-msgstr "Plovoucí"
-
-#: kmenubar.cpp:182 kmenubar.cpp:223 ktoolbar.cpp:699 ktoolbar.cpp:1208
-msgid "Float"
-msgstr "Plovoucí"
-
-#: kmenubar.cpp:213 ktoolbar.cpp:1198
-msgid "UnFloat"
-msgstr "Pøipevnit"
-
-#: ktoolbar.cpp:87 ktoolbar.cpp:145
-msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr "KToolBarButton: pixmapa je prázdná, pravdìpodovnì chybí nìjaký soubor"
-
-#: ktoolbar.cpp:272
-msgid "Left"
-msgstr "Vlevo"
-
-#: ktoolbar.cpp:274
-msgid "Right"
-msgstr "Vpravo"
-
-#: kapp.cpp:330
+#: kdecore/kapp.cpp:396
 msgid "About "
 msgstr "Informace o aplikaci "
 
-#: kapp.cpp:334 kapp.cpp:355
+#: kdecore/kapp.cpp:400 kdecore/kapp.cpp:421
 msgid "About KDE"
 msgstr "Informace o KDE"
 
-#: kapp.cpp:357
+#: kdecore/kapp.cpp:423
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
@@ -246,3 +48,234 @@ msgstr ""
 "\n"
 "Qt je produktem Troll Techu (http://www.troll.no, info@troll.no).\n"
 "Qt je mo¾no volnì pou¾ívat k vývoji volného softwaru na sytému X Windows\n"
+
+# libkdeui messages
+#: kdeui/kcolordlg.cpp:283
+msgid "Select Color"
+msgstr "Vyber barvu"
+
+#: kdeui/kcolordlg.cpp:295
+msgid "System Colors"
+msgstr "Sytémové barvy"
+
+#: kdeui/kcolordlg.cpp:326
+msgid "Custom Colors"
+msgstr "Vlastní barvy"
+
+#: kdeui/kcolordlg.cpp:339
+msgid "Add to Custom Colors"
+msgstr "Pøidat k vlastním barvám"
+
+#: kdeui/kcolordlg.cpp:461 kdeui/kfontdialog.cpp:351
+#: kdeui/kiconloaderdialog.cpp:210 po/texts.cpp:41
+msgid "Ok"
+msgstr "Ok"
+
+#: kdeui/kcolordlg.cpp:464 kdeui/kcontrol.cpp:41 kdeui/kfontdialog.cpp:346
+#: kdeui/kiconloaderdialog.cpp:211 po/texts.cpp:42
+msgid "Cancel"
+msgstr "Zru¹it"
+
+#: kdeui/kcolordlg.cpp:786 kdeui/kcolordlg.cpp:838
+msgid "Custom..."
+msgstr "Vlastní..."
+
+#: kdeui/kcontrol.cpp:39 po/texts.cpp:40
+msgid "OK"
+msgstr "OK"
+
+#: kdeui/kcontrol.cpp:40 po/texts.cpp:43
+msgid "Apply"
+msgstr "Pøevzít"
+
+#: kdeui/kfontdialog.cpp:164
+msgid "Select Font"
+msgstr "Vyber znakovou sadu"
+
+#: kdeui/kfontdialog.cpp:168
+msgid "Requested Font"
+msgstr "Po¾adovaná znaková sada"
+
+#: kdeui/kfontdialog.cpp:173
+msgid "Actual Font"
+msgstr "Aktuální znaková sada"
+
+#: kdeui/kfontdialog.cpp:177 kdeui/kfontdialog.cpp:181
+msgid "Family:"
+msgstr "Rodina:"
+
+#: kdeui/kfontdialog.cpp:188 kdeui/kfontdialog.cpp:194 po/texts.cpp:26
+msgid "Charset:"
+msgstr "Kódování:"
+
+#: kdeui/kfontdialog.cpp:201 kdeui/kfontdialog.cpp:206
+msgid "Size:"
+msgstr "Velikost:"
+
+#: kdeui/kfontdialog.cpp:215 kdeui/kfontdialog.cpp:220
+msgid "Weight:"
+msgstr "Váha:"
+
+#: kdeui/kfontdialog.cpp:229 kdeui/kfontdialog.cpp:237
+msgid "Style:"
+msgstr "Styl:"
+
+#: kdeui/kfontdialog.cpp:272
+#, fuzzy
+msgid "Charset"
+msgstr "Kódování:"
+
+#: kdeui/kfontdialog.cpp:284
+msgid "Size"
+msgstr "Velikost"
+
+#: kdeui/kfontdialog.cpp:323
+msgid "Weight"
+msgstr "Váha"
+
+#: kdeui/kfontdialog.cpp:324 kdeui/kfontdialog.cpp:433
+msgid "normal"
+msgstr "normální"
+
+#: kdeui/kfontdialog.cpp:325 kdeui/kfontdialog.cpp:435
+msgid "bold"
+msgstr "tuèné"
+
+#: kdeui/kfontdialog.cpp:334
+msgid "Style"
+msgstr "Styl"
+
+#: kdeui/kfontdialog.cpp:335 kdeui/kfontdialog.cpp:446
+#: kdeui/kfontdialog.cpp:476
+msgid "roman"
+msgstr "roman"
+
+#: kdeui/kfontdialog.cpp:336 kdeui/kfontdialog.cpp:448
+#: kdeui/kfontdialog.cpp:474
+msgid "italic"
+msgstr "italic"
+
+#: kdeui/kfontdialog.cpp:364
+msgid "Dolor Ipse"
+msgstr "Dolor Ipse"
+
+#: kdeui/kfontdialog.cpp:469
+msgid "Bold"
+msgstr "Tuèné"
+
+#: kdeui/kfontdialog.cpp:471
+msgid "Normal"
+msgstr "Normální"
+
+#: kdeui/kiconloaderdialog.cpp:193
+msgid "Select Icon"
+msgstr "Vyber ikonu"
+
+#: kdeui/kiconloaderdialog.cpp:198
+msgid "Filter:"
+msgstr "Filtr:"
+
+#: kdeui/kmenubar.cpp:149 kdeui/ktoolbar.cpp:311
+msgid "Top"
+msgstr "Nahoøe"
+
+#: kdeui/kmenubar.cpp:150 kdeui/ktoolbar.cpp:313
+msgid "Bottom"
+msgstr "Dole"
+
+#: kdeui/kmenubar.cpp:151 kdeui/ktoolbar.cpp:314
+msgid "Floating"
+msgstr "Plovoucí"
+
+#: kdeui/kmenubar.cpp:188 kdeui/kmenubar.cpp:327 kdeui/ktoolbar.cpp:831
+#: kdeui/ktoolbar.cpp:1362
+msgid "Float"
+msgstr "Plovoucí"
+
+#: kdeui/kmenubar.cpp:316 kdeui/ktoolbar.cpp:1352
+msgid "UnFloat"
+msgstr "Pøipevnit"
+
+#: kdeui/kpopmenu.cpp:10 po/texts.cpp:39
+msgid "Untitled"
+msgstr "Nepojmenovaný"
+
+#: kdeui/ktoolbar.cpp:115 kdeui/ktoolbar.cpp:174
+msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
+msgstr "KToolBarButton: pixmapa je prázdná, pravdìpodovnì chybí nìjaký soubor"
+
+#: kdeui/ktoolbar.cpp:310
+msgid "Left"
+msgstr "Vlevo"
+
+#: kdeui/ktoolbar.cpp:312
+msgid "Right"
+msgstr "Vpravo"
+
+# general messages, that are often used
+#: po/texts.cpp:24
+msgid "Error"
+msgstr "Chyba"
+
+#: po/texts.cpp:25
+msgid "Malformed URL"
+msgstr "URL má chybný formát"
+
+#: po/texts.cpp:27
+msgid "Yes"
+msgstr "Ano"
+
+#: po/texts.cpp:28
+msgid "No"
+msgstr "Ne"
+
+#: po/texts.cpp:29
+msgid "Warning"
+msgstr "Varování"
+
+#: po/texts.cpp:30
+msgid "Open a file"
+msgstr "Otevøít soubor"
+
+#: po/texts.cpp:31
+msgid "Save a file"
+msgstr "Ulo¾it soubor"
+
+#: po/texts.cpp:32
+msgid "Contents"
+msgstr "Obsah"
+
+#: po/texts.cpp:33
+msgid "About"
+msgstr "Informace"
+
+#: po/texts.cpp:34
+msgid "Open"
+msgstr "Otevøít"
+
+#: po/texts.cpp:35
+msgid "Save"
+msgstr "Ulo¾it"
+
+#: po/texts.cpp:36
+msgid "Save As"
+msgstr "Ulo¾it jako"
+
+#: po/texts.cpp:37
+msgid "Close"
+msgstr "Zavøít"
+
+#: po/texts.cpp:38
+msgid "Quit"
+msgstr "Ukonèit"
+
+#: po/texts.cpp:44
+msgid "File"
+msgstr "Soubor"
+
+#: po/texts.cpp:46
+msgid "Edit"
+msgstr "Úpravy"
+
+#~ msgid "ERROR: couldn't find icon: %s"
+#~ msgstr "Chyba: nemohu nalézt ikonu: %s"
