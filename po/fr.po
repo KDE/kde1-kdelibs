@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1998-02-19 22:49+0100\n"
-"PO-Revision-Date: 1998-01-19 21:47 CET\n"
+"PO-Revision-Date: 1998-02-25 21:45 CET\n"
 "Last-Translator: Bertrand Leconte <B.Leconte@mail.dotcom.fr>\n"
 "Language-Team: Français <fr@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -14,9 +14,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: kdecore/kapp.cpp:439
-#, fuzzy
 msgid "&Contents"
-msgstr "Contenu"
+msgstr "&Contenu"
 
 #: kdecore/kapp.cpp:444
 msgid "&About"
