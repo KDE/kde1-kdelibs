@@ -76,7 +76,7 @@ protected:
 };
 
 
-#endif __KTABBAR_H__
+#endif // __KTABBAR_H__
 
 
 
