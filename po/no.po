@@ -786,7 +786,7 @@ msgstr "&Rediger"
 
 #: po/texts.cpp:49
 msgid "&Options"
-msgstr "Valgmuligheter"
+msgstr "V&algmuligheter"
 
 #: po/texts.cpp:50
 msgid "View"
