@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-10-03 19:29+0200\n"
+"POT-Creation-Date: 1998-10-04 12:22+0200\n"
 "PO-Revision-Date: 1998-06-17 20:52+0200\n"
 "Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
@@ -195,24 +195,24 @@ msgid "Selected values:"
 msgstr ""
 
 #: kdecore/kaccel.cpp:229 kfile/kfiledialog.cpp:549 kfile/kfiledialog.cpp:1191
-#: kfile/kfiledialog.cpp:1350 kfile/kfiledialog.cpp:1384 po/texts.cpp:70
+#: kfile/kfiledialog.cpp:1350 kfile/kfiledialog.cpp:1384 po/texts.cpp:68
 msgid "Open"
 msgstr "Abrir"
 
-#: kdecore/kaccel.cpp:233 po/texts.cpp:62
+#: kdecore/kaccel.cpp:233
 msgid "New"
 msgstr "Nuevo"
 
-#: kab/searchresults.cc:33 kdecore/kaccel.cpp:237 po/texts.cpp:85
+#: kab/searchresults.cc:33 kdecore/kaccel.cpp:237 po/texts.cpp:83
 msgid "Close"
 msgstr "Cerrar"
 
 #: kdecore/kaccel.cpp:241 kfile/kfiledialog.cpp:1246
-#: kfile/kfiledialog.cpp:1405 po/texts.cpp:80
+#: kfile/kfiledialog.cpp:1405 po/texts.cpp:78
 msgid "Save"
 msgstr "Guardar"
 
-#: kdecore/kaccel.cpp:245 po/texts.cpp:127
+#: kdecore/kaccel.cpp:245 po/texts.cpp:121
 msgid "Print"
 msgstr "Imprimir"
 
@@ -220,19 +220,19 @@ msgstr "Imprimir"
 msgid "Quit"
 msgstr "Cerrar"
 
-#: kdecore/kaccel.cpp:253 po/texts.cpp:74
+#: kdecore/kaccel.cpp:253 po/texts.cpp:72
 msgid "Cut"
 msgstr "Cortar"
 
-#: kdecore/kaccel.cpp:257 po/texts.cpp:58
+#: kdecore/kaccel.cpp:257 po/texts.cpp:57
 msgid "Copy"
 msgstr "Copiar"
 
-#: kdecore/kaccel.cpp:261 po/texts.cpp:60
+#: kdecore/kaccel.cpp:261 po/texts.cpp:59
 msgid "Paste"
 msgstr "Pegar"
 
-#: kdecore/kaccel.cpp:265 po/texts.cpp:99
+#: kdecore/kaccel.cpp:265 po/texts.cpp:96
 msgid "Undo"
 msgstr "Deshacer"
 
@@ -243,11 +243,11 @@ msgid "Find"
 msgstr "Buscar"
 
 #: kdecore/kaccel.cpp:273 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
-#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:145
+#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:139
 msgid "Replace"
 msgstr "Reemplazar"
 
-#: kdecore/kaccel.cpp:277 po/texts.cpp:146
+#: kdecore/kaccel.cpp:277 po/texts.cpp:140
 #, fuzzy
 msgid "Insert"
 msgstr "&Insertar"
@@ -260,12 +260,12 @@ msgstr "Personal"
 msgid "End"
 msgstr ""
 
-#: kdecore/kaccel.cpp:289 po/texts.cpp:148
+#: kdecore/kaccel.cpp:289
 #, fuzzy
 msgid "Prior"
 msgstr "Error"
 
-#: kdecore/kaccel.cpp:293 po/texts.cpp:147
+#: kdecore/kaccel.cpp:293
 #, fuzzy
 msgid "Next"
 msgstr "&Siguiente"
@@ -287,7 +287,7 @@ msgstr ""
 msgid "ALT"
 msgstr ""
 
-#: kdecore/kapp.cpp:545 po/texts.cpp:151
+#: kdecore/kapp.cpp:545 po/texts.cpp:143
 msgid "&Contents"
 msgstr "&Contenido"
 
@@ -363,7 +363,7 @@ msgstr "Añadir a colores personales"
 msgid "Custom..."
 msgstr "Personal..."
 
-#: kdeui/kcontrol.cpp:39 po/texts.cpp:149
+#: kdeui/kcontrol.cpp:39 po/texts.cpp:141
 msgid "Default"
 msgstr "Por defecto"
 
@@ -453,7 +453,7 @@ msgstr "Sab"
 
 #: kab/kabapi.cc:143 kab/widget.cc:920 kab/widget.cc:940 kab/widget.cc:2087
 #: kdeui/keditcl1.cpp:128 kdeui/keditcl1.cpp:157 kdeui/keditcl1.cpp:178
-#: kdeui/keditcl1.cpp:191 kdeui/keditcl1.cpp:1533 po/texts.cpp:89
+#: kdeui/keditcl1.cpp:191 kdeui/keditcl1.cpp:1533 po/texts.cpp:86
 msgid "Sorry"
 msgstr "Lo siento"
 
@@ -563,7 +563,7 @@ msgstr "Considerar Mayúsculas"
 msgid "Find Backwards"
 msgstr "Buscar hacia arriba"
 
-#: kdeui/keditcl2.cpp:688 kdeui/keditcl2.cpp:795 po/texts.cpp:88
+#: kdeui/keditcl2.cpp:688 kdeui/keditcl2.cpp:795
 msgid "Done"
 msgstr "Hecho"
 
@@ -678,7 +678,7 @@ msgstr "Filtro:"
 msgid "&Help"
 msgstr "A&yuda"
 
-#: kdeui/kkeydialog.cpp:236 po/texts.cpp:150
+#: kdeui/kkeydialog.cpp:236 po/texts.cpp:142
 #, fuzzy
 msgid "&Defaults"
 msgstr "Por &defecto"
@@ -801,7 +801,7 @@ msgstr "Grupo"
 msgid "Back"
 msgstr "Atrás"
 
-#: kfile/kfiledialog.cpp:125 po/texts.cpp:57
+#: kfile/kfiledialog.cpp:125
 msgid "Forward"
 msgstr "Adelante"
 
@@ -873,7 +873,7 @@ msgstr ""
 msgid "Dismiss"
 msgstr "Cerrar"
 
-#: kfile/kfiledialog.cpp:564 kfile/kfiledialog.cpp:1365 po/texts.cpp:82
+#: kfile/kfiledialog.cpp:564 kfile/kfiledialog.cpp:1365 po/texts.cpp:80
 msgid "Save As"
 msgstr "Guardar como"
 
@@ -1181,295 +1181,283 @@ msgstr "&Salir"
 msgid "&Quit"
 msgstr "&Cerrar"
 
-#: po/texts.cpp:59
+#: po/texts.cpp:58
 msgid "&Copy"
 msgstr "&Copiar"
 
-#: po/texts.cpp:61
+#: po/texts.cpp:60
 msgid "&Paste"
 msgstr "&Pegar"
 
-#: po/texts.cpp:63
+#: po/texts.cpp:61
 msgid "&New"
 msgstr "&Nuevo"
 
-#: po/texts.cpp:64
+#: po/texts.cpp:62
 msgid "&New..."
 msgstr "&Nuevo..."
 
-#: po/texts.cpp:65
+#: po/texts.cpp:63
 msgid "&New Window..."
 msgstr "&Nueva ventana..."
 
-#: po/texts.cpp:66
+#: po/texts.cpp:64
 msgid "New &Window..."
 msgstr "Nueva &Ventana..."
 
-#: po/texts.cpp:67
+#: po/texts.cpp:65
 msgid "&New Window"
 msgstr "Nueva &ventana"
 
-#: po/texts.cpp:68
+#: po/texts.cpp:66
 msgid "New Game"
 msgstr "Nuevo juego"
 
-#: po/texts.cpp:69
+#: po/texts.cpp:67
 msgid "&New Game"
 msgstr "&Nuevo juego"
 
-#: po/texts.cpp:71
+#: po/texts.cpp:69
 msgid "Open a file"
 msgstr "Abrir un archivo"
 
-#: po/texts.cpp:72
+#: po/texts.cpp:70
 msgid "Open..."
 msgstr "Abrir..."
 
-#: po/texts.cpp:73
+#: po/texts.cpp:71
 msgid "&Open..."
 msgstr "&Abrir..."
 
-#: po/texts.cpp:75
+#: po/texts.cpp:73
 msgid "&Cut"
 msgstr "&Cortar"
 
-#: po/texts.cpp:76
+#: po/texts.cpp:74
 msgid "C&ut"
 msgstr "C&ortar"
 
-#: po/texts.cpp:77
+#: po/texts.cpp:75
 msgid "Font"
 msgstr "Fuente"
 
-#: po/texts.cpp:78
+#: po/texts.cpp:76
 msgid "&Foreground Color"
 msgstr "Color del &texto"
 
-#: po/texts.cpp:79
+#: po/texts.cpp:77
 msgid "&Background Color"
 msgstr "Color del &fondo"
 
-#: po/texts.cpp:81
+#: po/texts.cpp:79
 msgid "&Save"
 msgstr "&Guardar"
 
-#: po/texts.cpp:83
+#: po/texts.cpp:81
 msgid "Save as..."
 msgstr "Guardar como..."
 
-#: po/texts.cpp:84
+#: po/texts.cpp:82
 msgid "S&ave as..."
 msgstr "G&uardar como..."
 
-#: po/texts.cpp:86
+#: po/texts.cpp:84
 msgid "&Close"
 msgstr "&Cerrar"
 
-#: po/texts.cpp:87
+#: po/texts.cpp:85
 msgid "&Print..."
 msgstr "&Imprimir..."
 
-#: po/texts.cpp:90
+#: po/texts.cpp:87
 msgid "Options"
 msgstr "Opciones"
 
-#: po/texts.cpp:91
+#: po/texts.cpp:88
 msgid "Remove"
 msgstr "Quitar"
 
-#: po/texts.cpp:92
+#: po/texts.cpp:89
 msgid "Add"
 msgstr "Añadir"
 
-#: po/texts.cpp:93
+#: po/texts.cpp:90
 msgid "Change"
 msgstr "Cambiar"
 
-#: po/texts.cpp:94
+#: po/texts.cpp:91
 msgid "Delete"
 msgstr "Suprimir"
 
-#: po/texts.cpp:95
+#: po/texts.cpp:92
 msgid "&Delete"
 msgstr "E&liminar"
 
-#: kio/kio_linedit_dlg.cc:46 kio/kio_openwith.cc:268 po/texts.cpp:96
+#: kio/kio_linedit_dlg.cc:46 kio/kio_openwith.cc:268 po/texts.cpp:93
 msgid "Clear"
 msgstr "Limpiar"
 
-#: po/texts.cpp:97
+#: po/texts.cpp:94
 msgid "Italic"
 msgstr "Cursiva"
 
-#: po/texts.cpp:98
+#: po/texts.cpp:95
 msgid "Roman"
 msgstr "Roman"
 
-#: po/texts.cpp:100
+#: po/texts.cpp:97
 msgid "&Undo"
 msgstr "&Deshacer"
 
-#: po/texts.cpp:101
+#: po/texts.cpp:98
 msgid "Redo"
 msgstr "Rehacer"
 
-#: po/texts.cpp:102
+#: po/texts.cpp:99
 msgid "&Redo"
 msgstr "&Rehacer"
 
-#: po/texts.cpp:103
+#: po/texts.cpp:100
 msgid "&Game"
 msgstr "&Juego"
 
-#: kio/kio_rename_dlg.cc:22 kio/kio_skip_dlg.cc:18 po/texts.cpp:104
+#: kio/kio_rename_dlg.cc:22 kio/kio_skip_dlg.cc:18 po/texts.cpp:101
 msgid "Information"
 msgstr "Información"
 
-#: po/texts.cpp:105
+#: po/texts.cpp:102
 msgid "Browse..."
 msgstr "Examinar..."
 
-#: po/texts.cpp:106
+#: po/texts.cpp:103
 msgid "Stop"
 msgstr "Alto"
 
-#: po/texts.cpp:107
+#: po/texts.cpp:104
 msgid "&Remove"
 msgstr "&Suprimir"
 
-#: po/texts.cpp:108
+#: po/texts.cpp:105
 msgid "&Properties..."
 msgstr "&Propiedades..."
 
-#: po/texts.cpp:109
+#: po/texts.cpp:106
 msgid "Properties"
 msgstr "Propiedades"
 
-#: po/texts.cpp:110
+#: po/texts.cpp:107
 msgid "&Start"
 msgstr "&Inicio"
 
-#: po/texts.cpp:111
+#: po/texts.cpp:108
 msgid "St&op"
 msgstr "Alt&o"
 
-#: po/texts.cpp:112
+#: po/texts.cpp:109
 msgid "Move"
 msgstr "Mover"
 
-#: po/texts.cpp:113
+#: po/texts.cpp:110
 msgid "Miscellaneous"
 msgstr "Misceláneos"
 
-#: po/texts.cpp:114
+#: po/texts.cpp:111
 msgid "Font Size"
 msgstr "Tamaño de la fuente"
 
-#: po/texts.cpp:115
-msgid "Small"
-msgstr "Pequeño"
-
-#: po/texts.cpp:116
-msgid "Medium"
-msgstr "Mediano"
-
-#: po/texts.cpp:117
-msgid "Large"
-msgstr "Grande"
-
-#: po/texts.cpp:118
+#: po/texts.cpp:112
 msgid "Fonts"
 msgstr "Fuentes"
 
-#: po/texts.cpp:119
+#: po/texts.cpp:113
 msgid "&Fonts"
 msgstr "&Fuentes"
 
-#: po/texts.cpp:120
+#: po/texts.cpp:114
 msgid "&Reload"
 msgstr "Ac&tualizar"
 
-#: po/texts.cpp:121
+#: po/texts.cpp:115
 msgid "&Previous"
 msgstr "A&nterior"
 
-#: po/texts.cpp:122
+#: po/texts.cpp:116
 msgid "&Next"
 msgstr "&Siguiente"
 
-#: po/texts.cpp:123
+#: po/texts.cpp:117
 msgid "Files"
 msgstr "Archivos"
 
-#: kab/widget.cc:1507 kab/widget.cc:1555 po/texts.cpp:124
+#: kab/widget.cc:1507 kab/widget.cc:1555 po/texts.cpp:118
 msgid "Continue"
 msgstr "Continuar"
 
-#: po/texts.cpp:125
+#: po/texts.cpp:119
 msgid "Restore"
 msgstr "Restaurar"
 
-#: po/texts.cpp:126
+#: po/texts.cpp:120
 msgid "Appearance"
 msgstr "Aspecto"
 
-#: po/texts.cpp:128
+#: po/texts.cpp:122
 msgid "Monday"
 msgstr "Lunes"
 
-#: po/texts.cpp:129
+#: po/texts.cpp:123
 msgid "Tuesday"
 msgstr "Martes"
 
-#: po/texts.cpp:130
+#: po/texts.cpp:124
 msgid "Wednesday"
 msgstr "Miércoles"
 
-#: po/texts.cpp:131
+#: po/texts.cpp:125
 msgid "Thursday"
 msgstr "Jueves"
 
-#: po/texts.cpp:132
+#: po/texts.cpp:126
 msgid "Friday"
 msgstr "Viernes"
 
-#: po/texts.cpp:133
+#: po/texts.cpp:127
 msgid "Saturday"
 msgstr "Sábado"
 
-#: po/texts.cpp:134
+#: po/texts.cpp:128
 msgid "Sunday"
 msgstr "Domingo"
 
-#: po/texts.cpp:135
+#: po/texts.cpp:129
 msgid "&Update"
 msgstr "Act&ualizar"
 
-#: po/texts.cpp:136
+#: po/texts.cpp:130
 msgid "Layout"
 msgstr "Formato"
 
-#: po/texts.cpp:137
+#: po/texts.cpp:131
 msgid "Highscore"
 msgstr "Puntaje máximo"
 
-#: po/texts.cpp:138
+#: po/texts.cpp:132
 msgid "&New View"
 msgstr "&Nueva Vista"
 
-#: po/texts.cpp:139
+#: po/texts.cpp:133
 msgid "&Insert"
 msgstr "&Insertar"
 
-#: po/texts.cpp:142
+#: po/texts.cpp:136
 msgid "&Next >>"
 msgstr "&Siguiente >>"
 
-#: po/texts.cpp:143
+#: po/texts.cpp:137
 msgid "<< &Previous"
 msgstr "<< A&nterior"
 
-#: po/texts.cpp:152
+#: po/texts.cpp:144
 #, fuzzy
 msgid "&About..."
 msgstr "&Acerca de..."
@@ -2670,6 +2658,15 @@ msgid ""
 "\n"
 "does not conatain a Name=... entry"
 msgstr ""
+
+#~ msgid "Small"
+#~ msgstr "Pequeño"
+
+#~ msgid "Medium"
+#~ msgstr "Mediano"
+
+#~ msgid "Large"
+#~ msgstr "Grande"
 
 #~ msgid "(none)"
 #~ msgstr "(ninguno)"

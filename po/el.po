@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-03 19:29+0200\n"
+"POT-Creation-Date: 1998-10-04 12:22+0200\n"
 "PO-Revision-Date: 1998-03-11 HO:MI+ZONE\n"
 "Last-Translator: Theodore J. Soldatos <theodore@eexi.gr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -202,24 +202,24 @@ msgid "Selected values:"
 msgstr ""
 
 #: kdecore/kaccel.cpp:229 kfile/kfiledialog.cpp:549 kfile/kfiledialog.cpp:1191
-#: kfile/kfiledialog.cpp:1350 kfile/kfiledialog.cpp:1384 po/texts.cpp:70
+#: kfile/kfiledialog.cpp:1350 kfile/kfiledialog.cpp:1384 po/texts.cpp:68
 msgid "Open"
 msgstr "¶νοιξε"
 
-#: kdecore/kaccel.cpp:233 po/texts.cpp:62
+#: kdecore/kaccel.cpp:233
 msgid "New"
 msgstr "Νέο"
 
-#: kab/searchresults.cc:33 kdecore/kaccel.cpp:237 po/texts.cpp:85
+#: kab/searchresults.cc:33 kdecore/kaccel.cpp:237 po/texts.cpp:83
 msgid "Close"
 msgstr "Κλείσε"
 
 #: kdecore/kaccel.cpp:241 kfile/kfiledialog.cpp:1246
-#: kfile/kfiledialog.cpp:1405 po/texts.cpp:80
+#: kfile/kfiledialog.cpp:1405 po/texts.cpp:78
 msgid "Save"
 msgstr "Σώσε"
 
-#: kdecore/kaccel.cpp:245 po/texts.cpp:127
+#: kdecore/kaccel.cpp:245 po/texts.cpp:121
 msgid "Print"
 msgstr "Εκτύπωση"
 
@@ -227,19 +227,19 @@ msgstr "Εκτύπωση"
 msgid "Quit"
 msgstr "Τερματισμός"
 
-#: kdecore/kaccel.cpp:253 po/texts.cpp:74
+#: kdecore/kaccel.cpp:253 po/texts.cpp:72
 msgid "Cut"
 msgstr "Αποκοπή"
 
-#: kdecore/kaccel.cpp:257 po/texts.cpp:58
+#: kdecore/kaccel.cpp:257 po/texts.cpp:57
 msgid "Copy"
 msgstr "Αντιγραφή"
 
-#: kdecore/kaccel.cpp:261 po/texts.cpp:60
+#: kdecore/kaccel.cpp:261 po/texts.cpp:59
 msgid "Paste"
 msgstr "Επικόλληση"
 
-#: kdecore/kaccel.cpp:265 po/texts.cpp:99
+#: kdecore/kaccel.cpp:265 po/texts.cpp:96
 msgid "Undo"
 msgstr "Aναίρεση"
 
@@ -252,11 +252,11 @@ msgstr "&Αναζήτηση"
 
 # , fuzzy
 #: kdecore/kaccel.cpp:273 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
-#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:145
+#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:139
 msgid "Replace"
 msgstr "&Αντικατάσταση"
 
-#: kdecore/kaccel.cpp:277 po/texts.cpp:146
+#: kdecore/kaccel.cpp:277 po/texts.cpp:140
 msgid "Insert"
 msgstr ""
 
@@ -269,12 +269,12 @@ msgstr "Ένταση"
 msgid "End"
 msgstr ""
 
-#: kdecore/kaccel.cpp:289 po/texts.cpp:148
+#: kdecore/kaccel.cpp:289
 #, fuzzy
 msgid "Prior"
 msgstr "Λάθος"
 
-#: kdecore/kaccel.cpp:293 po/texts.cpp:147
+#: kdecore/kaccel.cpp:293
 #, fuzzy
 msgid "Next"
 msgstr "Επόμενο"
@@ -297,7 +297,7 @@ msgid "ALT"
 msgstr ""
 
 # , fuzzy
-#: kdecore/kapp.cpp:545 po/texts.cpp:151
+#: kdecore/kapp.cpp:545 po/texts.cpp:143
 msgid "&Contents"
 msgstr "Περιεχόμενα"
 
@@ -365,7 +365,7 @@ msgid "Custom..."
 msgstr "Διαμόρφωση"
 
 # , fuzzy
-#: kdeui/kcontrol.cpp:39 po/texts.cpp:149
+#: kdeui/kcontrol.cpp:39 po/texts.cpp:141
 msgid "Default"
 msgstr "Προκαθορισμένα:"
 
@@ -465,7 +465,7 @@ msgstr "Έξυπνα "
 
 #: kab/kabapi.cc:143 kab/widget.cc:920 kab/widget.cc:940 kab/widget.cc:2087
 #: kdeui/keditcl1.cpp:128 kdeui/keditcl1.cpp:157 kdeui/keditcl1.cpp:178
-#: kdeui/keditcl1.cpp:191 kdeui/keditcl1.cpp:1533 po/texts.cpp:89
+#: kdeui/keditcl1.cpp:191 kdeui/keditcl1.cpp:1533 po/texts.cpp:86
 msgid "Sorry"
 msgstr "Λυπάμαι"
 
@@ -586,7 +586,7 @@ msgstr ""
 msgid "Find Backwards"
 msgstr ""
 
-#: kdeui/keditcl2.cpp:688 kdeui/keditcl2.cpp:795 po/texts.cpp:88
+#: kdeui/keditcl2.cpp:688 kdeui/keditcl2.cpp:795
 msgid "Done"
 msgstr "Έγινε"
 
@@ -708,7 +708,7 @@ msgid "&Help"
 msgstr "Βοήθεια"
 
 # , fuzzy
-#: kdeui/kkeydialog.cpp:236 po/texts.cpp:150
+#: kdeui/kkeydialog.cpp:236 po/texts.cpp:142
 #, fuzzy
 msgid "&Defaults"
 msgstr "Προκαθορισμένα:"
@@ -844,7 +844,7 @@ msgstr "Ομάδες: "
 msgid "Back"
 msgstr "Πίσω"
 
-#: kfile/kfiledialog.cpp:125 po/texts.cpp:57
+#: kfile/kfiledialog.cpp:125
 msgid "Forward"
 msgstr "Επόμενο"
 
@@ -924,7 +924,7 @@ msgstr ""
 msgid "Dismiss"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:564 kfile/kfiledialog.cpp:1365 po/texts.cpp:82
+#: kfile/kfiledialog.cpp:564 kfile/kfiledialog.cpp:1365 po/texts.cpp:80
 msgid "Save As"
 msgstr "Σώσε ως"
 
@@ -1255,307 +1255,295 @@ msgstr "Διόρθωση"
 msgid "&Quit"
 msgstr "Τερματισμός"
 
-#: po/texts.cpp:59
+#: po/texts.cpp:58
 msgid "&Copy"
 msgstr "Αντιγραφή"
 
-#: po/texts.cpp:61
+#: po/texts.cpp:60
 msgid "&Paste"
 msgstr "Επικόλληση"
 
-#: po/texts.cpp:63
+#: po/texts.cpp:61
 msgid "&New"
 msgstr "Νέο"
 
-#: po/texts.cpp:64
+#: po/texts.cpp:62
 msgid "&New..."
 msgstr "Νέο"
 
-#: po/texts.cpp:65
+#: po/texts.cpp:63
 msgid "&New Window..."
 msgstr "Νέο Παράθυρο"
 
-#: po/texts.cpp:66
+#: po/texts.cpp:64
 msgid "New &Window..."
 msgstr "Νέο Παράθυρο"
 
-#: po/texts.cpp:67
+#: po/texts.cpp:65
 msgid "&New Window"
 msgstr "&Νέο Παράθυρο"
 
-#: po/texts.cpp:68
+#: po/texts.cpp:66
 msgid "New Game"
 msgstr "Νέο Παιχνίδι"
 
-#: po/texts.cpp:69
+#: po/texts.cpp:67
 msgid "&New Game"
 msgstr "Νέο Παιχνίδι"
 
-#: po/texts.cpp:71
+#: po/texts.cpp:69
 msgid "Open a file"
 msgstr "¶νοιγμα αρχείου"
 
-#: po/texts.cpp:72
+#: po/texts.cpp:70
 msgid "Open..."
 msgstr "¶νοιξε"
 
-#: po/texts.cpp:73
+#: po/texts.cpp:71
 msgid "&Open..."
 msgstr "¶νοιξε"
 
-#: po/texts.cpp:75
+#: po/texts.cpp:73
 msgid "&Cut"
 msgstr "Αποκοπή"
 
-#: po/texts.cpp:76
+#: po/texts.cpp:74
 msgid "C&ut"
 msgstr "Αποκοπή"
 
-#: po/texts.cpp:77
+#: po/texts.cpp:75
 msgid "Font"
 msgstr "Γραμματοσειρά"
 
-#: po/texts.cpp:78
+#: po/texts.cpp:76
 msgid "&Foreground Color"
 msgstr "Χρώμα Προσκηνίου"
 
-#: po/texts.cpp:79
+#: po/texts.cpp:77
 msgid "&Background Color"
 msgstr "Χρώμα Παρασκηνίου"
 
-#: po/texts.cpp:81
+#: po/texts.cpp:79
 msgid "&Save"
 msgstr "Σώσε"
 
-#: po/texts.cpp:83
+#: po/texts.cpp:81
 msgid "Save as..."
 msgstr "Σώσε ως"
 
-#: po/texts.cpp:84
+#: po/texts.cpp:82
 msgid "S&ave as..."
 msgstr "Σώσε ως"
 
-#: po/texts.cpp:86
+#: po/texts.cpp:84
 msgid "&Close"
 msgstr "Κλείσε"
 
-#: po/texts.cpp:87
+#: po/texts.cpp:85
 msgid "&Print..."
 msgstr "Εκτύπωση"
 
-#: po/texts.cpp:90
+#: po/texts.cpp:87
 msgid "Options"
 msgstr "Επιλογές"
 
-#: po/texts.cpp:91
+#: po/texts.cpp:88
 msgid "Remove"
 msgstr "Αφαίρεση"
 
-#: po/texts.cpp:92
+#: po/texts.cpp:89
 msgid "Add"
 msgstr "Προσθήκη"
 
-#: po/texts.cpp:93
+#: po/texts.cpp:90
 msgid "Change"
 msgstr "Αλλαγή"
 
-#: po/texts.cpp:94
+#: po/texts.cpp:91
 msgid "Delete"
 msgstr "Διαγραφή"
 
-#: po/texts.cpp:95
+#: po/texts.cpp:92
 msgid "&Delete"
 msgstr "Διαγραφή"
 
-#: kio/kio_linedit_dlg.cc:46 kio/kio_openwith.cc:268 po/texts.cpp:96
+#: kio/kio_linedit_dlg.cc:46 kio/kio_openwith.cc:268 po/texts.cpp:93
 msgid "Clear"
 msgstr "Καθαρισμός"
 
-#: po/texts.cpp:97
+#: po/texts.cpp:94
 msgid "Italic"
 msgstr "πλαγιαστά"
 
-#: po/texts.cpp:98
+#: po/texts.cpp:95
 msgid "Roman"
 msgstr "απλά"
 
-#: po/texts.cpp:100
+#: po/texts.cpp:97
 msgid "&Undo"
 msgstr "Αναίρεση"
 
-#: po/texts.cpp:101
+#: po/texts.cpp:98
 msgid "Redo"
 msgstr "Επανάληψη"
 
-#: po/texts.cpp:102
+#: po/texts.cpp:99
 msgid "&Redo"
 msgstr "Επανάληψη"
 
-#: po/texts.cpp:103
+#: po/texts.cpp:100
 msgid "&Game"
 msgstr "Παιχνίδι"
 
-#: kio/kio_rename_dlg.cc:22 kio/kio_skip_dlg.cc:18 po/texts.cpp:104
+#: kio/kio_rename_dlg.cc:22 kio/kio_skip_dlg.cc:18 po/texts.cpp:101
 msgid "Information"
 msgstr "Πληροφορίες"
 
-#: po/texts.cpp:105
+#: po/texts.cpp:102
 msgid "Browse..."
 msgstr "Εξερεύνηση"
 
-#: po/texts.cpp:106
+#: po/texts.cpp:103
 msgid "Stop"
 msgstr "Στοπ"
 
-#: po/texts.cpp:107
+#: po/texts.cpp:104
 msgid "&Remove"
 msgstr "Αφαίρεση"
 
 # , fuzzy
-#: po/texts.cpp:108
+#: po/texts.cpp:105
 msgid "&Properties..."
 msgstr "Ιδιότητες..."
 
-#: po/texts.cpp:109
+#: po/texts.cpp:106
 msgid "Properties"
 msgstr "Ιδιότητες"
 
 # , fuzzy
-#: po/texts.cpp:110
+#: po/texts.cpp:107
 msgid "&Start"
 msgstr "Έναρξη"
 
 # , fuzzy
-#: po/texts.cpp:111
+#: po/texts.cpp:108
 msgid "St&op"
 msgstr "Στοπ"
 
-#: po/texts.cpp:112
+#: po/texts.cpp:109
 msgid "Move"
 msgstr "Μετακίνηση"
 
-#: po/texts.cpp:113
+#: po/texts.cpp:110
 msgid "Miscellaneous"
 msgstr "Διάφορα"
 
-#: po/texts.cpp:114
+#: po/texts.cpp:111
 msgid "Font Size"
 msgstr "Μέγεθος χαρακτήρων"
 
-#: po/texts.cpp:115
-msgid "Small"
-msgstr "Μικρό"
-
-#: po/texts.cpp:116
-msgid "Medium"
-msgstr "Μεσαίο"
-
-#: po/texts.cpp:117
-msgid "Large"
-msgstr "Μεγάλο"
-
-#: po/texts.cpp:118
+#: po/texts.cpp:112
 msgid "Fonts"
 msgstr "Γραμματοσειρές"
 
-#: po/texts.cpp:119
+#: po/texts.cpp:113
 msgid "&Fonts"
 msgstr "Γραμματοσειρές"
 
-#: po/texts.cpp:120
+#: po/texts.cpp:114
 msgid "&Reload"
 msgstr "Επαναφόρτωση"
 
-#: po/texts.cpp:121
+#: po/texts.cpp:115
 msgid "&Previous"
 msgstr "Προηγούμενο"
 
-#: po/texts.cpp:122
+#: po/texts.cpp:116
 msgid "&Next"
 msgstr "Επόμενο"
 
 # , fuzzy
-#: po/texts.cpp:123
+#: po/texts.cpp:117
 msgid "Files"
 msgstr "Αρχείο"
 
-#: kab/widget.cc:1507 kab/widget.cc:1555 po/texts.cpp:124
+#: kab/widget.cc:1507 kab/widget.cc:1555 po/texts.cpp:118
 msgid "Continue"
 msgstr "Συνέχισε"
 
-#: po/texts.cpp:125
+#: po/texts.cpp:119
 msgid "Restore"
 msgstr "Επαναφορά"
 
-#: po/texts.cpp:126
+#: po/texts.cpp:120
 msgid "Appearance"
 msgstr "Μορφή"
 
-#: po/texts.cpp:128
+#: po/texts.cpp:122
 msgid "Monday"
 msgstr ""
 
-#: po/texts.cpp:129
+#: po/texts.cpp:123
 msgid "Tuesday"
 msgstr ""
 
-#: po/texts.cpp:130
+#: po/texts.cpp:124
 msgid "Wednesday"
 msgstr ""
 
 # , fuzzy
-#: po/texts.cpp:131
+#: po/texts.cpp:125
 msgid "Thursday"
 msgstr "Τρίτη"
 
 # , fuzzy
-#: po/texts.cpp:132
+#: po/texts.cpp:126
 msgid "Friday"
 msgstr "Σχάρα"
 
-#: po/texts.cpp:133
+#: po/texts.cpp:127
 msgid "Saturday"
 msgstr ""
 
 # , fuzzy
-#: po/texts.cpp:134
+#: po/texts.cpp:128
 msgid "Sunday"
 msgstr "Ήχος"
 
 # , fuzzy
-#: po/texts.cpp:135
+#: po/texts.cpp:129
 msgid "&Update"
 msgstr "Ενημέρωση"
 
 # , fuzzy
-#: po/texts.cpp:136
+#: po/texts.cpp:130
 msgid "Layout"
 msgstr "Έξοδος"
 
-#: po/texts.cpp:137
+#: po/texts.cpp:131
 msgid "Highscore"
 msgstr ""
 
 # , fuzzy
-#: po/texts.cpp:138
+#: po/texts.cpp:132
 msgid "&New View"
 msgstr "Προβολή"
 
-#: po/texts.cpp:139
+#: po/texts.cpp:133
 msgid "&Insert"
 msgstr ""
 
 # , fuzzy
-#: po/texts.cpp:142
+#: po/texts.cpp:136
 msgid "&Next >>"
 msgstr "Επόμενο"
 
 # , fuzzy
-#: po/texts.cpp:143
+#: po/texts.cpp:137
 msgid "<< &Previous"
 msgstr "Προηγούμενο"
 
-#: po/texts.cpp:152
+#: po/texts.cpp:144
 #, fuzzy
 msgid "&About..."
 msgstr "Σχετικά"
@@ -2780,6 +2768,15 @@ msgid ""
 "\n"
 "does not conatain a Name=... entry"
 msgstr ""
+
+#~ msgid "Small"
+#~ msgstr "Μικρό"
+
+#~ msgid "Medium"
+#~ msgstr "Μεσαίο"
+
+#~ msgid "Large"
+#~ msgstr "Μεγάλο"
 
 # , fuzzy
 #~ msgid "(none)"
