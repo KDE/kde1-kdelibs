@@ -11,7 +11,7 @@ msgstr "A&juda..."
 
 #: kdecore/kapp.cpp:424
 msgid "&About"
-msgstr "&Acerca..."
+msgstr "&Acerca do"
 
 #: kdecore/kapp.cpp:428
 msgid "About &KDE..."
@@ -33,15 +33,18 @@ msgid ""
 "Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
 "Qt may be used freely to develop free software on the X Window System.\n"
 msgstr ""
-"O KDE Desktop Environment foi escrito pela equipa KDE.\n"
+"O Ambiente de Trabalho KDE foi escrito pela equipa KDE.\n"
 "\n"
-"Por favor mande relatórios de bugs para kde-bugs@kde.org.\n"
+"Por favor comunique erros para kde-bugs@kde.org.\n"
 "\n"
 "\n"
-"Este programa foi desenvolvido com Qt, uma biblioteca GUI multiplataforma.\n"
+"Este programa foi desenvolvido com Qt,\n"
+"uma biblioteca GUI multiplataforma.\n"
 "\n"
-"Qt é um produto da Troll Tech AS (http://www.troll.no, info@troll.no).\n"
-"Qt pode ser usada livremente para desenvolver software livre no Sistema X Window.\n"
+"Qt é um produto da Troll Tech AS\n"
+"(http://www.troll.no, info@troll.no).\n"
+"Qt pode ser usada livremente para desenvolver\n"
+"software livre no Sistema X Window.\n"
 
 # libkdeui messages
 #: kdeui/kcolordlg.cpp:283
@@ -222,7 +225,7 @@ msgstr "Substituir"
 
 #: kdeui/keditcl2.cpp:684 kdeui/keditcl2.cpp:782
 msgid "Case Sensitive"
-msgstr "Distinguir Maiusculas/Minusculas"
+msgstr "Distinguir Maiusculas"
 
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:785
 msgid "Find Backwards"
@@ -230,7 +233,7 @@ msgstr "Procurar para Trás"
 
 #: kdeui/keditcl2.cpp:690 kdeui/keditcl2.cpp:797 po/texts.cpp:86
 msgid "Done"
-msgstr "Acabado"
+msgstr "Terminar"
 
 #: kdeui/keditcl2.cpp:770
 msgid "Find:"
@@ -242,7 +245,7 @@ msgstr "Substituir com:"
 
 #: kdeui/keditcl2.cpp:794
 msgid "Replace All"
-msgstr "Sustituir Tudo"
+msgstr "Substituir Tudo"
 
 #: kdeui/keditcl2.cpp:891
 msgid "Goto Line"
@@ -486,7 +489,7 @@ msgstr "Colar"
 
 #: po/texts.cpp:61
 msgid "&Paste"
-msgstr "&Colar"
+msgstr "Co&lar"
 
 #: po/texts.cpp:62
 msgid "New"
@@ -514,7 +517,7 @@ msgstr "Novo Jogo"
 
 #: po/texts.cpp:68
 msgid "&New Game"
-msgstr "Novo Jogo"
+msgstr "&Novo Jogo"
 
 #: po/texts.cpp:69
 msgid "Open"
@@ -546,11 +549,11 @@ msgstr "Fonte"
 
 #: po/texts.cpp:76
 msgid "&Foreground Color"
-msgstr "Cores de &Primeiro Plano"
+msgstr "Cor de &Primeiro Plano"
 
 #: po/texts.cpp:77
 msgid "&Background Color"
-msgstr "Cores de &Fundo"
+msgstr "Cor de &Fundo"
 
 #: po/texts.cpp:78
 msgid "Save"
