@@ -1,5 +1,4 @@
 # KTranslator Generated File
-
 # KTranslator Generated File
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
@@ -8,14 +7,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:24+0200\n"
+"POT-Creation-Date: 1998-12-08 01:01+0100\n"
 "PO-Revision-Date: Mon Dec 7 1998 17:48:09+0200\n"
 "Last-Translator: Andrea Rizzi <rizzi@kde.org>\n"
 "Language-Team: Italiano <it@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
-"X-Generator: KTranslator v 0.4.0"
+"X-Generator: KTranslator v 0.4.0\n"
 
 #
 #: kab/AssertDialog.cpp:29
@@ -53,7 +52,7 @@ msgstr "Manda una email al responsabile dell'applicazione "
 #: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:391
 #: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:277
 #: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:505
-#: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:409
+#: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:407
 #: po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
@@ -420,7 +419,7 @@ msgstr "No"
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:394
 #: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:312
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:892
-#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:413 kio/kio_job.cc:703
+#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:411 kio/kio_job.cc:703
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
 #: po/texts.cpp:39
@@ -886,23 +885,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr "Conflitto tra i tasti"
 
-#: kdeui/kmenubar.cpp:244 kdeui/ktoolbar.cpp:844
+#: kdeui/kmenubar.cpp:253 kdeui/ktoolbar.cpp:844
 msgid "Top"
 msgstr "In Alto"
 
-#: kdeui/kmenubar.cpp:245 kdeui/ktoolbar.cpp:846
+#: kdeui/kmenubar.cpp:254 kdeui/ktoolbar.cpp:846
 msgid "Bottom"
 msgstr "In Basso"
 
-#: kdeui/kmenubar.cpp:246 kdeui/ktoolbar.cpp:847
+#: kdeui/kmenubar.cpp:255 kdeui/ktoolbar.cpp:847
 msgid "Floating"
 msgstr "Galleggiante"
 
-#: kdeui/kmenubar.cpp:396 kdeui/kmenubar.cpp:732 kdeui/ktoolbar.cpp:2158
+#: kdeui/kmenubar.cpp:405 kdeui/kmenubar.cpp:741 kdeui/ktoolbar.cpp:2158
 msgid "Float"
 msgstr "Galleggia"
 
-#: kdeui/kmenubar.cpp:701 kdeui/ktoolbar.cpp:2139
+#: kdeui/kmenubar.cpp:710 kdeui/ktoolbar.cpp:2139
 msgid "UnFloat"
 msgstr "Non Galleggiante"
 
@@ -1645,8 +1644,8 @@ msgid ""
 "kfm once to automatically create it."
 msgstr ""
 "La directory non può essere creata.\n"
-"Probabilmente non hai mai usato KDE prima,"
-"quindi non hai una directory locale \".kde\" \n"
+"Probabilmente non hai mai usato KDE prima,quindi non hai una directory "
+"locale \".kde\" \n"
 "nelal tua Home directory. Esegui il filemanager KDE\n"
 "(kfm) una volta per crearla automaticamente."
 
@@ -1660,7 +1659,9 @@ msgstr "Nessun file di database di addressbook, ne sto creando uno nuovo."
 
 #: kab/addressbook.cc:157
 msgid "Tried to load database for creating backup, but failed"
-msgstr "Ho provato a caricare il database per creare una copia di backup, ma ho fallito"
+msgstr ""
+"Ho provato a caricare il database per creare una copia di backup, ma ho "
+"fallito"
 
 #: kab/addressbook.cc:192
 msgid "Unable to save to backup file."
@@ -1682,8 +1683,8 @@ msgstr "impossibile inserire \""
 msgid "\" into configuration section (ignored)."
 msgstr "\" nella sezione di configurazione (ignorato)."
 
-#: kab/addressbook.cc:659
 # ,fuzzy
+#: kab/addressbook.cc:659
 msgid "Unable to add a new entry with available key."
 msgstr "Impossibile aggiungere una nuova voce con un tasto disponibile."
 
@@ -1703,7 +1704,8 @@ msgstr "voce senza nome"
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
 msgstr ""
-"Impossibile creare un nuovo file di database (probabile permesso negato), uscita."
+"Impossibile creare un nuovo file di database (probabile permesso negato), "
+"uscita."
 
 #: kab/addressbook.cc:949
 msgid "Cannot create configuration section, exiting."
@@ -2661,8 +2663,7 @@ msgid ""
 "%s"
 msgstr ""
 "Impossibile montare il dispositivo.\n"
-"L'errore riportato è:"
-"\n"
+"L'errore riportato è:\n"
 "%s"
 
 #: kio/kio_error.cc:97
@@ -2674,8 +2675,7 @@ msgid ""
 "%s"
 msgstr ""
 "Impossibile smontare il dispositivo.\n"
-"L'errore riportato è:"
-"\n"
+"L'errore riportato è:\n"
 "%s"
 
 #: kio/kio_error.cc:100
@@ -2756,8 +2756,7 @@ msgstr "Non ci sono appunti"
 #: kio/kio_paste.cc:75
 msgid ""
 "Pasting clipboard data is only supported on the local hard disk currently"
-msgstr ""
-"Attualmente incollare gli appunti è possibile solo su hard disk locali"
+msgstr "Attualmente incollare gli appunti è possibile solo su hard disk locali"
 
 #: kio/kio_paste.cc:80
 msgid "Filename for clipboard content:"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-12-06 01:01+0100\n"
+"POT-Creation-Date: 1998-12-08 01:01+0100\n"
 "PO-Revision-Date: 1998-11-04 14:02+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <flidr@kky.cu.cz>\n"
@@ -44,7 +44,7 @@ msgstr "Poslat e-mail programátoru aplikace"
 #: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:391
 #: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:277
 #: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:505
-#: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:409
+#: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:407
 #: po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
@@ -404,7 +404,7 @@ msgstr "Ne"
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:394
 #: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:312
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:892
-#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:413 kio/kio_job.cc:703
+#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:411 kio/kio_job.cc:703
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
 #: po/texts.cpp:39
@@ -855,23 +855,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr ""
 
-#: kdeui/kmenubar.cpp:244 kdeui/ktoolbar.cpp:844
+#: kdeui/kmenubar.cpp:253 kdeui/ktoolbar.cpp:844
 msgid "Top"
 msgstr "Nahoøe"
 
-#: kdeui/kmenubar.cpp:245 kdeui/ktoolbar.cpp:846
+#: kdeui/kmenubar.cpp:254 kdeui/ktoolbar.cpp:846
 msgid "Bottom"
 msgstr "Dole"
 
-#: kdeui/kmenubar.cpp:246 kdeui/ktoolbar.cpp:847
+#: kdeui/kmenubar.cpp:255 kdeui/ktoolbar.cpp:847
 msgid "Floating"
 msgstr "Plovoucí"
 
-#: kdeui/kmenubar.cpp:396 kdeui/kmenubar.cpp:732 kdeui/ktoolbar.cpp:2158
+#: kdeui/kmenubar.cpp:405 kdeui/kmenubar.cpp:741 kdeui/ktoolbar.cpp:2158
 msgid "Float"
 msgstr "Plovoucí"
 
-#: kdeui/kmenubar.cpp:701 kdeui/ktoolbar.cpp:2139
+#: kdeui/kmenubar.cpp:710 kdeui/ktoolbar.cpp:2139
 msgid "UnFloat"
 msgstr "Pøipevnit"
 
