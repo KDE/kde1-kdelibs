@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-17 07:40+0100\n"
+"POT-Creation-Date: 1998-01-18 13:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Paul Ionescu <omy@main.romsoft.ro>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,18 +41,19 @@ msgid ""
 "\n"
 "Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
 "Qt may be used freely to develop free software on the X Window System.\n"
-
-
 msgstr ""
 "Mediul de lucru KDE a fost creat de echipa KDE.\n"
 "\n"
-"Vã rugãm sã raportaþi disfunctionalitaþile la adresa http://buglist.kde.org.\n"
+"Vã rugãm sã raportaþi disfunctionalitaþile la adresa "
+"http://buglist.kde.org.\n"
 "\n"
 "\n"
 "KDE a fost dezvoltat cu Qt, o bibliotecã graficã multi-platformã.\n"
 "\n"
 "Qt este produs de firma Troll Tech (http://www.troll.no, info@troll.no).\n"
-"Qt poate fi folosit gratis pentru dezvoltarea de programe gratuite pentru X.\n"
+"Qt poate fi folosit gratis pentru dezvoltarea de programe gratuite pentru "
+"X.\n"
+
 #: kdeui/kcolordlg.cpp:283
 msgid "Select Color"
 msgstr "Selectare Culoare"
@@ -214,6 +215,7 @@ msgid ""
 msgstr ""
 "Am ajuns la sfârºitul documentului.\n"
 "Vrei sã o iau de la capãt ?"
+
 #: kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426
 #: kdeui/keditcl2.cpp:473
 msgid ""
@@ -654,3 +656,7 @@ msgstr "Informaþii"
 #: po/texts.cpp:103
 msgid "Browse..."
 msgstr "Expandare..."
+
+#: po/texts.cpp:104
+msgid "(none)"
+msgstr ""
