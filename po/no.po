@@ -907,11 +907,11 @@ msgstr "Vis"
 
 #: po/texts.cpp:51
 msgid "&View"
-msgstr "Se p&å"
+msgstr "Se &på"
 
 #: po/texts.cpp:52
 msgid "E&xit"
-msgstr "G&å ut"
+msgstr "&Gå ut"
 
 #: po/texts.cpp:53
 msgid "Quit"
@@ -979,7 +979,7 @@ msgstr "Åpne..."
 
 #: po/texts.cpp:73
 msgid "&Open..."
-msgstr "&Åpne..."
+msgstr "Å&pne..."
 
 #: po/texts.cpp:74
 msgid "Cut"
