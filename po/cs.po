@@ -131,7 +131,7 @@ msgstr "Vyber dokument pro vlo¾ení"
 
 #: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1569
 msgid "Warning:"
-msgstr "Varování:"
+msgstr "Pozor:"
 
 #: kdeui/keditcl1.cpp:393 kdeui/keditcl1.cpp:475
 msgid ""
@@ -391,7 +391,7 @@ msgstr "URL má chybný formát"
 
 #: po/texts.cpp:29
 msgid "Warning"
-msgstr "Varování"
+msgstr "Pozor"
 
 #: po/texts.cpp:30
 msgid "Save a file"
