@@ -1266,78 +1266,71 @@ msgstr ""
 
 #: kspell/ksconfig.cpp:66
 msgid "Create Root/Affix combinations not in the dictionary"
-msgstr ""
+msgstr "Criar combinações de raízes/sufixos inexistentes no dicionário"
 
 #: kspell/ksconfig.cpp:75
 msgid "Consider run-together words as spelling errors"
-msgstr ""
+msgstr "Considerar palavras grudadas como erros"
 
 #: kspell/ksconfig.cpp:92
-#, fuzzy
 msgid "Dictionary"
-msgstr "diretório"
+msgstr "Dicionário"
 
 #: kspell/ksconfig.cpp:140
 msgid "Encoding:"
-msgstr ""
+msgstr "Codificação:"
 
 #: kspell/ksconfig.cpp:147
-#, fuzzy
 msgid "Latin1"
-msgstr "&Localização:"
+msgstr "Latin1"
 
 #: kspell/ksconfig.cpp:148
 msgid "7-Bit/ASCII"
-msgstr ""
+msgstr "&-Bit/ASCII"
 
 #: kspell/ksconfig.cpp:292
 msgid "English"
-msgstr ""
+msgstr "Inglês"
 
 #: kspell/ksconfig.cpp:298
 msgid "Spanish"
-msgstr ""
+msgstr "Espanhol"
 
 #: kspell/ksconfig.cpp:304
-#, fuzzy
 msgid "German"
-msgstr "romano"
+msgstr "Alemão"
 
 #: kspell/ksconfig.cpp:311
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "Português do Brasil"
 
 #: kio/kio_cache.cc:422 kspell/ksconfig.cpp:317
 msgid "Unknown"
 msgstr "Desconhecido"
 
 #: kspell/ksconfig.cpp:348
-#, fuzzy
 msgid "ISpell Default"
-msgstr "Padrão"
+msgstr "Padrão do ISpell"
 
 #: kspell/kspelldlg.cpp:58
 msgid "Misspelled Word:"
-msgstr ""
+msgstr "Palavra errada:"
 
 #: kspell/kspelldlg.cpp:68
-#, fuzzy
 msgid "Replacement:"
-msgstr "Substituir"
+msgstr "Substituir por:"
 
 #: kspell/kspelldlg.cpp:77
 msgid "Suggestions:"
-msgstr ""
+msgstr "Sugestões:"
 
 #: kspell/kspelldlg.cpp:88
-#, fuzzy
 msgid "Ignore"
-msgstr "&Ignorar"
+msgstr "Ignorar"
 
 #: kspell/kspelldlg.cpp:99
-#, fuzzy
 msgid "Ignore All"
-msgstr "&Ignorar"
+msgstr "Ignorar todas"
 
 #: kspell/kspelldlg.cpp:120 po/texts.cpp:86
 msgid "Add"
