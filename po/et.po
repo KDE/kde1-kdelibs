@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-12-23 01:01+0100\n"
+"POT-Creation-Date: 1999-01-11 01:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Hasso C. Tepper <heathcliff@iname.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,7 +91,7 @@ msgid ""
 "handed over to the program, but the dialog\n"
 "will not be closed.Use this to try different settings."
 msgstr ""
-"Kui sa klikid nuppu 'Rakenda', siis jõustuvad\n" 
+"Kui sa klikid nuppu 'Rakenda', siis jõustuvad\n"
 "seadistused programmis, kuid dialoogi ei suleta.\n"
 "Kasuta seda erinevate seadistuste proovimiseks."
 
@@ -103,7 +103,7 @@ msgid ""
 "The program will be in the state before\n"
 "opening the dialog."
 msgstr ""
-"Kui sa vajutad nuppu 'Katkesta', siis kõik\n" 
+"Kui sa vajutad nuppu 'Katkesta', siis kõik\n"
 "muudatused, mis sa tegid, tühistatakse\n"
 "ja dialoog suletakse.\n"
 "Programm on siis samas seisus,mis enne\n"
@@ -345,23 +345,23 @@ msgstr "CTRL"
 msgid "ALT"
 msgstr "ALT"
 
-#: kdecore/kapp.cpp:598 po/texts.cpp:137
+#: kdecore/kapp.cpp:601 po/texts.cpp:137
 msgid "&Contents"
 msgstr "&Sisukord"
 
-#: kdecore/kapp.cpp:604
+#: kdecore/kapp.cpp:607
 msgid "&About"
 msgstr "&Info"
 
-#: kdecore/kapp.cpp:611
+#: kdecore/kapp.cpp:614
 msgid "About &KDE..."
 msgstr "&KDE Info..."
 
-#: kdecore/kapp.cpp:632
+#: kdecore/kapp.cpp:635
 msgid "About KDE"
 msgstr "KDE Info"
 
-#: kdecore/kapp.cpp:634
+#: kdecore/kapp.cpp:637
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -374,7 +374,7 @@ msgid ""
 "Please report bugs at http://buglist.kde.org.\n"
 msgstr ""
 "\n"
-"KDE töölaua keskkond on loodud KDE meeskonna, ülemaailmse\n" 
+"KDE töölaua keskkond on loodud KDE meeskonna, ülemaailmse\n"
 "programeerijate, kes on sidunud ennast vaba tarkvara loomisega,\n"
 "ühenduse, poolt.\n"
 "\n"
@@ -1250,8 +1250,8 @@ msgstr ""
 "Sul ei ole faili nimega %s\n"
 "Ei suuda autoriseerida"
 
-#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210 kio/kmimetypes.cc:61
-#: kio/kmimetypes.cc:88 kio/kmimetypes.cc:134 kio/kregfactories.cc:75
+#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210 kio/kmimetypes.cc:62
+#: kio/kmimetypes.cc:89 kio/kmimetypes.cc:135 kio/kregfactories.cc:75
 #: kio/krun.cc:105 kio/kservices.cc:114
 msgid "KFM Error"
 msgstr "KFM viga"
@@ -1269,9 +1269,9 @@ msgstr ""
 #: kab/widget.cc:1936 kab/widget.cc:2028 kab/widget.cc:2112 kab/widget.cc:2157
 #: kab/widget.cc:2168 kio/kio_error.cc:118 kio/kio_paste.cc:48
 #: kio/kio_paste.cc:60 kio/kio_paste.cc:75 kio/kio_paste.cc:87
-#: kio/kio_rename_dlg.cc:217 kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:487
-#: kio/kmimetypes.cc:505 kio/kmimetypes.cc:519 kio/kmimetypes.cc:566
-#: kio/kmimetypes.cc:599 kio/kmimetypes.cc:659 kio/kmimetypes.cc:691
+#: kio/kio_rename_dlg.cc:217 kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:488
+#: kio/kmimetypes.cc:506 kio/kmimetypes.cc:520 kio/kmimetypes.cc:567
+#: kio/kmimetypes.cc:600 kio/kmimetypes.cc:660 kio/kmimetypes.cc:692
 #: kio/krun.cc:40 kio/krun.cc:512 po/texts.cpp:24
 msgid "Error"
 msgstr "Viga"
@@ -1610,7 +1610,7 @@ msgstr ""
 "Kataloogi, kus aadressiraamatu programm säilitab\n"
 "kasutajaspetsiifilisi andmeid, ei eksisteeri.\n"
 "Programm üritab seda luua\n"
-"	  "
+"\t  "
 
 #: kab/addressbook.cc:91
 msgid "and store all local files in this directory."
@@ -1682,7 +1682,8 @@ msgstr "kirje ilma nimeta"
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
 msgstr ""
-"Uut andmebaasi faili pole võimalik luua (ilmselt on juurdepääs keelatud), väljumine."
+"Uut andmebaasi faili pole võimalik luua (ilmselt on juurdepääs keelatud), "
+"väljumine."
 
 #: kab/addressbook.cc:953
 msgid "Cannot create configuration section, exiting."
@@ -2361,7 +2362,8 @@ msgid ""
 "Use the icons for drag and drop actions, since they refer to the cache files "
 "on your hard disk, while you should use the textual links for browsing"
 msgstr ""
-"Kasuta ikoone pukseerimistegevuseks, kuna nad tähistavad vahemälu faile sinu\n"
+"Kasuta ikoone pukseerimistegevuseks, kuna nad tähistavad vahemälu faile "
+"sinu\n"
 "kõvakettal, kuigi sa peaks kasutama tekstilinke lehitsemiseks"
 
 #: kio/kio_cache.cc:355
@@ -2617,7 +2619,7 @@ msgid ""
 msgstr ""
 "Protokoll %s\n"
 "ei ole filterprotokoll"
- 
+
 #: kio/kio_error.cc:91
 #, c-format
 msgid ""
@@ -2690,10 +2692,10 @@ msgstr ""
 #: kio/kio_error.cc:118 kio/kio_linedit_dlg.cc:42 kio/kio_openwith.cc:260
 #: kio/kio_pass_dlg.cc:75 kio/kio_paste.cc:48 kio/kio_paste.cc:60
 #: kio/kio_paste.cc:76 kio/kio_paste.cc:87 kio/kio_rename_dlg.cc:217
-#: kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:61 kio/kmimetypes.cc:88
-#: kio/kmimetypes.cc:134 kio/kmimetypes.cc:487 kio/kmimetypes.cc:505
-#: kio/kmimetypes.cc:519 kio/kmimetypes.cc:566 kio/kmimetypes.cc:599
-#: kio/kmimetypes.cc:659 kio/kmimetypes.cc:691 kio/kregfactories.cc:75
+#: kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:62 kio/kmimetypes.cc:89
+#: kio/kmimetypes.cc:135 kio/kmimetypes.cc:488 kio/kmimetypes.cc:506
+#: kio/kmimetypes.cc:520 kio/kmimetypes.cc:567 kio/kmimetypes.cc:600
+#: kio/kmimetypes.cc:660 kio/kmimetypes.cc:692 kio/kregfactories.cc:75
 #: kio/krun.cc:40 kio/krun.cc:105 kio/krun.cc:512 kio/kservices.cc:114
 msgid "Ok"
 msgstr "Ok"
@@ -2871,23 +2873,23 @@ msgstr "Ei suuda kirjutada"
 msgid "Permission denied!"
 msgstr "Juurdepääs keelatud!"
 
-#: kio/kmimetypes.cc:61
+#: kio/kmimetypes.cc:62
 msgid "No mime types installed!"
 msgstr "Ühtegi mime tüüpi ei ole installeeritud!"
 
-#: kio/kmimetypes.cc:85
+#: kio/kmimetypes.cc:86
 msgid "Could not find mime type\n"
 msgstr "Ei suuda leida mime tüüpi\n"
 
-#: kio/kmimetypes.cc:131
+#: kio/kmimetypes.cc:132
 msgid "The mime type config file "
 msgstr "Mime tüübi seadistusfail"
 
-#: kio/kmimetypes.cc:133 kio/kregfactories.cc:74
+#: kio/kmimetypes.cc:134 kio/kregfactories.cc:74
 msgid "does not conatain a MimeType=... entry"
 msgstr "ei sisalda kirjet MimeType=..."
 
-#: kio/kmimetypes.cc:486
+#: kio/kmimetypes.cc:487
 #, c-format
 msgid ""
 "The kdelnk file\n"
@@ -2898,7 +2900,7 @@ msgstr ""
 "%s\n"
 "ei sisalda kirjet Type=..."
 
-#: kio/kmimetypes.cc:504
+#: kio/kmimetypes.cc:505
 #, c-format
 msgid ""
 "The kdelnk type\n"
@@ -2909,7 +2911,7 @@ msgstr ""
 "%s\n"
 "on tundamatu"
 
-#: kio/kmimetypes.cc:518 kio/kmimetypes.cc:598 kio/kmimetypes.cc:690
+#: kio/kmimetypes.cc:519 kio/kmimetypes.cc:599 kio/kmimetypes.cc:691
 #, c-format
 msgid ""
 "The kdelnk file\n"
@@ -2920,7 +2922,7 @@ msgstr ""
 "%s\n"
 "on FSDevice tüüpi, kuid ei sialda kirjet Dev=..."
 
-#: kio/kmimetypes.cc:565
+#: kio/kmimetypes.cc:566
 #, c-format
 msgid ""
 "The kdelnk file\n"
@@ -2931,15 +2933,15 @@ msgstr ""
 "%s\n"
 "on Link tüüpi, kuid ei sisalda kirjet URL=..."
 
-#: kio/kmimetypes.cc:608
+#: kio/kmimetypes.cc:609
 msgid "Mount"
 msgstr "Ühenda"
 
-#: kio/kmimetypes.cc:615
+#: kio/kmimetypes.cc:616
 msgid "Unmount"
 msgstr "Ühenda lahti"
 
-#: kio/kmimetypes.cc:658
+#: kio/kmimetypes.cc:659
 #, c-format
 msgid ""
 "The kdelnk file\n"
@@ -2947,8 +2949,7 @@ msgid ""
 " has an invalid menu entry\n"
 "%s"
 msgstr ""
-"kdelnk fail"
-"%s\n"
+"kdelnk fail%s\n"
 "sisaldab vigast menüü kirjet\n"
 "%s"
 

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-12-23 01:01+0100\n"
+"POT-Creation-Date: 1999-01-11 01:01+0100\n"
 "PO-Revision-Date: 1998-12-15 23:30+0100\n"
 "Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
 "Language-Team: Français <fr@li.org>\n"
@@ -332,23 +332,23 @@ msgstr "CONTROL"
 msgid "ALT"
 msgstr "ALT"
 
-#: kdecore/kapp.cpp:598 po/texts.cpp:137
+#: kdecore/kapp.cpp:601 po/texts.cpp:137
 msgid "&Contents"
 msgstr "&Contenu"
 
-#: kdecore/kapp.cpp:604
+#: kdecore/kapp.cpp:607
 msgid "&About"
 msgstr "A &propos"
 
-#: kdecore/kapp.cpp:611
+#: kdecore/kapp.cpp:614
 msgid "About &KDE..."
 msgstr "A propos de &KDE..."
 
-#: kdecore/kapp.cpp:632
+#: kdecore/kapp.cpp:635
 msgid "About KDE"
 msgstr "A propos de KDE"
 
-#: kdecore/kapp.cpp:634
+#: kdecore/kapp.cpp:637
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -1239,8 +1239,8 @@ msgstr ""
 "Le fichier %s n'existe pas !\n"
 "Je ne peux pas autoriser cela."
 
-#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210 kio/kmimetypes.cc:61
-#: kio/kmimetypes.cc:88 kio/kmimetypes.cc:134 kio/kregfactories.cc:75
+#: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210 kio/kmimetypes.cc:62
+#: kio/kmimetypes.cc:89 kio/kmimetypes.cc:135 kio/kregfactories.cc:75
 #: kio/krun.cc:105 kio/kservices.cc:114
 msgid "KFM Error"
 msgstr "Erreur de KFM"
@@ -1259,9 +1259,9 @@ msgstr ""
 #: kab/widget.cc:1936 kab/widget.cc:2028 kab/widget.cc:2112 kab/widget.cc:2157
 #: kab/widget.cc:2168 kio/kio_error.cc:118 kio/kio_paste.cc:48
 #: kio/kio_paste.cc:60 kio/kio_paste.cc:75 kio/kio_paste.cc:87
-#: kio/kio_rename_dlg.cc:217 kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:487
-#: kio/kmimetypes.cc:505 kio/kmimetypes.cc:519 kio/kmimetypes.cc:566
-#: kio/kmimetypes.cc:599 kio/kmimetypes.cc:659 kio/kmimetypes.cc:691
+#: kio/kio_rename_dlg.cc:217 kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:488
+#: kio/kmimetypes.cc:506 kio/kmimetypes.cc:520 kio/kmimetypes.cc:567
+#: kio/kmimetypes.cc:600 kio/kmimetypes.cc:660 kio/kmimetypes.cc:692
 #: kio/krun.cc:40 kio/krun.cc:512 po/texts.cpp:24
 msgid "Error"
 msgstr "Erreur"
@@ -2632,10 +2632,10 @@ msgstr ""
 #: kio/kio_error.cc:118 kio/kio_linedit_dlg.cc:42 kio/kio_openwith.cc:260
 #: kio/kio_pass_dlg.cc:75 kio/kio_paste.cc:48 kio/kio_paste.cc:60
 #: kio/kio_paste.cc:76 kio/kio_paste.cc:87 kio/kio_rename_dlg.cc:217
-#: kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:61 kio/kmimetypes.cc:88
-#: kio/kmimetypes.cc:134 kio/kmimetypes.cc:487 kio/kmimetypes.cc:505
-#: kio/kmimetypes.cc:519 kio/kmimetypes.cc:566 kio/kmimetypes.cc:599
-#: kio/kmimetypes.cc:659 kio/kmimetypes.cc:691 kio/kregfactories.cc:75
+#: kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:62 kio/kmimetypes.cc:89
+#: kio/kmimetypes.cc:135 kio/kmimetypes.cc:488 kio/kmimetypes.cc:506
+#: kio/kmimetypes.cc:520 kio/kmimetypes.cc:567 kio/kmimetypes.cc:600
+#: kio/kmimetypes.cc:660 kio/kmimetypes.cc:692 kio/kregfactories.cc:75
 #: kio/krun.cc:40 kio/krun.cc:105 kio/krun.cc:512 kio/kservices.cc:114
 msgid "Ok"
 msgstr "Ok"
@@ -2817,23 +2817,23 @@ msgstr "Impossible d'écrire"
 msgid "Permission denied!"
 msgstr "Permission refusée !"
 
-#: kio/kmimetypes.cc:61
+#: kio/kmimetypes.cc:62
 msgid "No mime types installed!"
 msgstr "Aucun type mime installé !"
 
-#: kio/kmimetypes.cc:85
+#: kio/kmimetypes.cc:86
 msgid "Could not find mime type\n"
 msgstr "Impossible de trouver le type mime\n"
 
-#: kio/kmimetypes.cc:131
+#: kio/kmimetypes.cc:132
 msgid "The mime type config file "
 msgstr "Le fichier de configuration du type mime "
 
-#: kio/kmimetypes.cc:133 kio/kregfactories.cc:74
+#: kio/kmimetypes.cc:134 kio/kregfactories.cc:74
 msgid "does not conatain a MimeType=... entry"
 msgstr "ne contient pas d'entrée MimeType=..."
 
-#: kio/kmimetypes.cc:486
+#: kio/kmimetypes.cc:487
 #, c-format
 msgid ""
 "The kdelnk file\n"
@@ -2844,7 +2844,7 @@ msgstr ""
 "%s\n"
 "n'a pas d'entrée Type=..."
 
-#: kio/kmimetypes.cc:504
+#: kio/kmimetypes.cc:505
 #, c-format
 msgid ""
 "The kdelnk type\n"
@@ -2855,7 +2855,7 @@ msgstr ""
 "%s\n"
 "est inconnu"
 
-#: kio/kmimetypes.cc:518 kio/kmimetypes.cc:598 kio/kmimetypes.cc:690
+#: kio/kmimetypes.cc:519 kio/kmimetypes.cc:599 kio/kmimetypes.cc:691
 #, c-format
 msgid ""
 "The kdelnk file\n"
@@ -2866,7 +2866,7 @@ msgstr ""
 "%s\n"
 "est de type Périphérique système de fichiers mais n'a pas d'entrée Dev=..."
 
-#: kio/kmimetypes.cc:565
+#: kio/kmimetypes.cc:566
 #, c-format
 msgid ""
 "The kdelnk file\n"
@@ -2877,15 +2877,15 @@ msgstr ""
 "%s\n"
 "est de type Lien mais n'a pas d'entrée URL=..."
 
-#: kio/kmimetypes.cc:608
+#: kio/kmimetypes.cc:609
 msgid "Mount"
 msgstr "Monter"
 
-#: kio/kmimetypes.cc:615
+#: kio/kmimetypes.cc:616
 msgid "Unmount"
 msgstr "Démonter"
 
-#: kio/kmimetypes.cc:658
+#: kio/kmimetypes.cc:659
 #, c-format
 msgid ""
 "The kdelnk file\n"
