@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-12-05 01:01+0100\n"
+"POT-Creation-Date: 1998-12-06 01:01+0100\n"
 "Last-Translator: Paul Ionescu <omy@main.romsoft.ro>\n"
 
 #: kab/AssertDialog.cpp:29
@@ -336,23 +336,23 @@ msgstr ""
 msgid "ALT"
 msgstr ""
 
-#: kdecore/kapp.cpp:586 po/texts.cpp:137
+#: kdecore/kapp.cpp:589 po/texts.cpp:137
 msgid "&Contents"
 msgstr "&Cuprins"
 
-#: kdecore/kapp.cpp:592
+#: kdecore/kapp.cpp:595
 msgid "&About"
 msgstr "&Despre"
 
-#: kdecore/kapp.cpp:599
+#: kdecore/kapp.cpp:602
 msgid "About &KDE..."
 msgstr "Despre &KDE..."
 
-#: kdecore/kapp.cpp:620
+#: kdecore/kapp.cpp:623
 msgid "About KDE"
 msgstr "Despre KDE"
 
-#: kdecore/kapp.cpp:622
+#: kdecore/kapp.cpp:625
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
