@@ -1,5 +1,5 @@
 # Polish translation of KDE kdelibs
-# Version 0.1.1
+# Version 0.1.2
 # (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
 
 # general messages, that are often used
@@ -10,10 +10,10 @@ msgid "Malformed URL"
 msgstr "URL formularza pocztowego"
 
 msgid "Yes"
-msgstr "Tak"
+msgstr "&Tak"
 
 msgid "No"
-msgstr "Nie"
+msgstr "&Nie"
 
 msgid "Warning"
 msgstr "Ostrze¿enie"
@@ -49,25 +49,25 @@ msgid "Untitled"
 msgstr "Nienazwany"
 
 msgid "OK"
-msgstr "OK"
+msgstr "O&K"
 
 msgid "Ok"
-msgstr "Ok"
+msgstr "O&k"
 
 msgid "Cancel"
-msgstr "Anuluj"
+msgstr "A&nuluj"
 
 msgid "Apply"
-msgstr "Zastosuj"
+msgstr "Z&astosuj"
 
 msgid "File"
-msgstr "Plik"
+msgstr "&Plik"
 
 msgid "Help"
-msgstr "Pomoc"
+msgstr "Pomo&c"
 
 msgid "Edit"
-msgstr "Edycja"
+msgstr "&Edycja"
 
 # libkdeui messages
 
