@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-02-06 01:01+0100\n"
-"PO-Revision-Date: 1998-01-29 22:00\n"
+"POT-Creation-Date: 1999-02-05 01:01+0100\n"
+"PO-Revision-Date: 1999-02-05 22:51\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -411,7 +411,7 @@ msgstr "No"
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:403
 #: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:321
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:906
-#: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:773
+#: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:751
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:64 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
 #: kspell/kspelldlg.cpp:143 po/texts.cpp:39
@@ -696,7 +696,7 @@ msgstr "Estil:"
 
 #: kdeui/kfontdialog.cpp:284 kfile/kfiledetaillist.cpp:38
 msgid "Size"
-msgstr "Grandària"
+msgstr "Mida"
 
 #: kdeui/kfontdialog.cpp:322
 msgid "Weight"
@@ -872,23 +872,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr "Conflicte de tecla"
 
-#: kdeui/kmenubar.cpp:281 kdeui/ktoolbar.cpp:856
+#: kdeui/kmenubar.cpp:278 kdeui/ktoolbar.cpp:856
 msgid "Top"
 msgstr "Dalt"
 
-#: kdeui/kmenubar.cpp:282 kdeui/ktoolbar.cpp:858
+#: kdeui/kmenubar.cpp:279 kdeui/ktoolbar.cpp:858
 msgid "Bottom"
 msgstr "Baix"
 
-#: kdeui/kmenubar.cpp:283 kdeui/ktoolbar.cpp:859
+#: kdeui/kmenubar.cpp:280 kdeui/ktoolbar.cpp:859
 msgid "Floating"
 msgstr "Flotant"
 
-#: kdeui/kmenubar.cpp:432 kdeui/kmenubar.cpp:774 kdeui/ktoolbar.cpp:2170
+#: kdeui/kmenubar.cpp:429 kdeui/kmenubar.cpp:771 kdeui/ktoolbar.cpp:2170
 msgid "Float"
 msgstr "Surar"
 
-#: kdeui/kmenubar.cpp:726 kdeui/ktoolbar.cpp:2151
+#: kdeui/kmenubar.cpp:723 kdeui/ktoolbar.cpp:2151
 msgid "UnFloat"
 msgstr "No surar"
 
@@ -967,7 +967,7 @@ msgstr "Cap amunt"
 
 #: kfile/kfiledialog.cpp:134 po/texts.cpp:54
 msgid "Reload"
-msgstr "Refrescar"
+msgstr "Refresca"
 
 #: kfile/kfiledialog.cpp:156
 msgid "Bookmarks"
@@ -1536,15 +1536,15 @@ msgstr "Roman"
 
 #: po/texts.cpp:94
 msgid "&Undo"
-msgstr "&Desfà"
+msgstr "&Desfés"
 
 #: po/texts.cpp:95
 msgid "Redo"
-msgstr "Refà"
+msgstr "Refés"
 
 #: po/texts.cpp:96
 msgid "&Redo"
-msgstr "&Refà"
+msgstr "&Refés"
 
 #: po/texts.cpp:97
 msgid "&Game"
@@ -2823,23 +2823,20 @@ msgid "The file %s does already exist. Do you really want to overwrite it ?"
 msgstr "El fitxer %s ja existeix. De veres voleu escriure-hi a sobre ?"
 
 #: kio/kio_progress_dlg.cc:108 kio/kio_progress_dlg.cc:124
-#, fuzzy
 msgid "Bytes"
-msgstr " Bytes"
+msgstr "Bytes"
 
 #: kio/kio_progress_dlg.cc:113 kio/kio_progress_dlg.cc:129
-#, fuzzy
 msgid "Kb"
-msgstr " Kb"
+msgstr "Kb"
 
 #: kio/kio_progress_dlg.cc:118 kio/kio_progress_dlg.cc:134
-#, fuzzy
 msgid "Mb"
-msgstr " Mb"
+msgstr "Mb"
 
 #: kio/kio_progress_dlg.cc:139 kio/kio_progress_dlg.cc:146
 msgid "of"
-msgstr ""
+msgstr "de"
 
 #: kio/kio_progress_dlg.cc:171 kio/kio_progress_dlg.cc:197
 msgid "Stalled"
@@ -2883,11 +2880,11 @@ msgstr "S'està explorant "
 
 #: kio/kio_progress_dlg.cc:234
 msgid "From : "
-msgstr ""
+msgstr "De : "
 
 #: kio/kio_progress_dlg.cc:238
 msgid "To: "
-msgstr ""
+msgstr "A : "
 
 #: kio/kio_progress_dlg.cc:245
 msgid "Creating dir "
