@@ -527,7 +527,7 @@ msgstr "Zurück"
 
 #: kfile/kfiledialog.cpp:125 po/texts.cpp:57
 msgid "Forward"
-msgstr "Vorspulen"
+msgstr "Vorwärts"
 
 #: kfile/kfiledialog.cpp:128
 msgid "Up to parent"
