@@ -1,9 +1,27 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
 # general messages, that are often used
 msgid "Error"
 msgstr "Chyba"
 
 msgid "Malformed URL"
 msgstr "URL má chybný formát"
+
+msgid "Charset:"
+msgstr "Kódování:"
 
 msgid "Yes"
 msgstr "Ano"
@@ -201,7 +219,7 @@ msgstr "Vpravo"
 
 #: kapp.cpp:330
 msgid "About "
-msgstr "Informace o "
+msgstr "Informace o aplikaci "
 
 #: kapp.cpp:334 kapp.cpp:355
 msgid "About KDE"
@@ -219,3 +237,12 @@ msgid ""
 "Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
 "Qt may be used freely to develop free software on the X Window System.\n"
 msgstr ""
+"KDE Desktop Enviroment bylo napsáno KDE týmem.\n"
+"\n"
+"Prosím zasílejte hlá¹ení o chybách na kde-bugs@kde.org.\n"
+"\n"
+"\n"
+"KDE bylo vyvinuto pomocí víceplatformní GUI knihovnì Qt\n"
+"\n"
+"Qt je produktem Troll Techu (http://www.troll.no, info@troll.no).\n"
+"Qt je mo¾no volnì pou¾ívat k vývoji volného softwaru na sytému X Windows\n"
