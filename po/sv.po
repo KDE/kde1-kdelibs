@@ -578,7 +578,7 @@ msgstr "Spara som..."
 
 #: po/texts.cpp:82
 msgid "S&ave as..."
-msgstr "&Spara som..."
+msgstr "Spara s&om..."
 
 #: po/texts.cpp:83
 msgid "Close"
@@ -586,7 +586,7 @@ msgstr "Stäng"
 
 #: po/texts.cpp:84
 msgid "&Close"
-msgstr "&Stäng"
+msgstr "S&täng"
 
 #: po/texts.cpp:85
 msgid "&Print..."
