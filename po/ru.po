@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-11-18 11:04+0100\n"
+"POT-Creation-Date: 1998-11-22 01:01+0100\n"
 "Content-Type: text/plain; charset=koi8-r\n"
 "Date: 1997-11-20 18:24:38+0600\n"
 "From: Denis Y. Pershin <dyp@inetlab.com>\n"
@@ -780,23 +780,23 @@ msgstr "&Клавиша по умолчанию"
 msgid "&Custom key"
 msgstr "Своя клавиша"
 
-#: kdeui/kmenubar.cpp:206 kdeui/ktoolbar.cpp:831
+#: kdeui/kmenubar.cpp:215 kdeui/ktoolbar.cpp:841
 msgid "Top"
 msgstr "Верх"
 
-#: kdeui/kmenubar.cpp:207 kdeui/ktoolbar.cpp:833
+#: kdeui/kmenubar.cpp:216 kdeui/ktoolbar.cpp:843
 msgid "Bottom"
 msgstr "Низ"
 
-#: kdeui/kmenubar.cpp:208 kdeui/ktoolbar.cpp:834
+#: kdeui/kmenubar.cpp:217 kdeui/ktoolbar.cpp:844
 msgid "Floating"
 msgstr "Плавающий"
 
-#: kdeui/kmenubar.cpp:353 kdeui/kmenubar.cpp:608 kdeui/ktoolbar.cpp:2137
+#: kdeui/kmenubar.cpp:364 kdeui/kmenubar.cpp:622 kdeui/ktoolbar.cpp:2155
 msgid "Float"
 msgstr "Сделать плавающей"
 
-#: kdeui/kmenubar.cpp:577 kdeui/ktoolbar.cpp:2118
+#: kdeui/kmenubar.cpp:591 kdeui/ktoolbar.cpp:2136
 msgid "UnFloat"
 msgstr "Сделать неплавающей"
 
@@ -813,15 +813,15 @@ msgstr "&По умолчанию:"
 msgid "Quickhelp"
 msgstr "Быстрая помощь"
 
-#: kdeui/ktoolbar.cpp:266 kdeui/ktoolbar.cpp:317
+#: kdeui/ktoolbar.cpp:269 kdeui/ktoolbar.cpp:321
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: пустая пиктограмма, возможно отсутствует файл"
 
-#: kdeui/ktoolbar.cpp:830
+#: kdeui/ktoolbar.cpp:840
 msgid "Left"
 msgstr "Слева"
 
-#: kdeui/ktoolbar.cpp:832
+#: kdeui/ktoolbar.cpp:842
 msgid "Right"
 msgstr "Справа"
 

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-18 11:04+0100\n"
+"POT-Creation-Date: 1998-11-22 01:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -770,23 +770,23 @@ msgstr "&Oletusn‰pp‰in"
 msgid "&Custom key"
 msgstr "O&ma n‰pp‰in"
 
-#: kdeui/kmenubar.cpp:206 kdeui/ktoolbar.cpp:831
+#: kdeui/kmenubar.cpp:215 kdeui/ktoolbar.cpp:841
 msgid "Top"
 msgstr "Ylh‰‰ll‰"
 
-#: kdeui/kmenubar.cpp:207 kdeui/ktoolbar.cpp:833
+#: kdeui/kmenubar.cpp:216 kdeui/ktoolbar.cpp:843
 msgid "Bottom"
 msgstr "Alhaalla"
 
-#: kdeui/kmenubar.cpp:208 kdeui/ktoolbar.cpp:834
+#: kdeui/kmenubar.cpp:217 kdeui/ktoolbar.cpp:844
 msgid "Floating"
 msgstr "Kelluva"
 
-#: kdeui/kmenubar.cpp:353 kdeui/kmenubar.cpp:608 kdeui/ktoolbar.cpp:2137
+#: kdeui/kmenubar.cpp:364 kdeui/kmenubar.cpp:622 kdeui/ktoolbar.cpp:2155
 msgid "Float"
 msgstr "Kellua"
 
-#: kdeui/kmenubar.cpp:577 kdeui/ktoolbar.cpp:2118
+#: kdeui/kmenubar.cpp:591 kdeui/ktoolbar.cpp:2136
 msgid "UnFloat"
 msgstr "Upota"
 
@@ -802,15 +802,15 @@ msgstr "&Oletus"
 msgid "Quickhelp"
 msgstr "Pika-apu"
 
-#: kdeui/ktoolbar.cpp:266 kdeui/ktoolbar.cpp:317
+#: kdeui/ktoolbar.cpp:269 kdeui/ktoolbar.cpp:321
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: pixmap on tyhj‰, ehk‰ jokin puuttuva tiedosto."
 
-#: kdeui/ktoolbar.cpp:830
+#: kdeui/ktoolbar.cpp:840
 msgid "Left"
 msgstr "Vasemmalla"
 
-#: kdeui/ktoolbar.cpp:832
+#: kdeui/ktoolbar.cpp:842
 msgid "Right"
 msgstr "Oikealla"
 

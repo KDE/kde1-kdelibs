@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdebase\n"
-"POT-Creation-Date: 1998-11-18 11:04+0100\n"
+"POT-Creation-Date: 1998-11-22 01:01+0100\n"
 "PO-Revision-Date: 1998-05-22 10:10+0000\n"
 "Last-Translator: Sasha Konecni <sasha@msi-uk.com>\n"
 "Language-Team: Macedonian\n"
@@ -777,23 +777,23 @@ msgstr "(Normalno)"
 msgid "&Custom key"
 msgstr "Kastomiziraj..."
 
-#: kdeui/kmenubar.cpp:206 kdeui/ktoolbar.cpp:831
+#: kdeui/kmenubar.cpp:215 kdeui/ktoolbar.cpp:841
 msgid "Top"
 msgstr "Vrv"
 
-#: kdeui/kmenubar.cpp:207 kdeui/ktoolbar.cpp:833
+#: kdeui/kmenubar.cpp:216 kdeui/ktoolbar.cpp:843
 msgid "Bottom"
 msgstr "Dno"
 
-#: kdeui/kmenubar.cpp:208 kdeui/ktoolbar.cpp:834
+#: kdeui/kmenubar.cpp:217 kdeui/ktoolbar.cpp:844
 msgid "Floating"
 msgstr "Plovechki"
 
-#: kdeui/kmenubar.cpp:353 kdeui/kmenubar.cpp:608 kdeui/ktoolbar.cpp:2137
+#: kdeui/kmenubar.cpp:364 kdeui/kmenubar.cpp:622 kdeui/ktoolbar.cpp:2155
 msgid "Float"
 msgstr "Plovi"
 
-#: kdeui/kmenubar.cpp:577 kdeui/ktoolbar.cpp:2118
+#: kdeui/kmenubar.cpp:591 kdeui/ktoolbar.cpp:2136
 msgid "UnFloat"
 msgstr "OdPlovi"
 
@@ -810,15 +810,15 @@ msgstr "(Normalno)"
 msgid "Quickhelp"
 msgstr ""
 
-#: kdeui/ktoolbar.cpp:266 kdeui/ktoolbar.cpp:317
+#: kdeui/ktoolbar.cpp:269 kdeui/ktoolbar.cpp:321
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: piksmap e prazen, mozhebi nedostasuva dosie"
 
-#: kdeui/ktoolbar.cpp:830
+#: kdeui/ktoolbar.cpp:840
 msgid "Left"
 msgstr "Levo"
 
-#: kdeui/ktoolbar.cpp:832
+#: kdeui/ktoolbar.cpp:842
 msgid "Right"
 msgstr "Desno"
 

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE 1.0\n"
-"POT-Creation-Date: 1998-11-18 11:24+0100\n"
+"POT-Creation-Date: 1998-11-22 01:01+0100\n"
 "PO-Revision-Date: 1998-11-19 18:00+0200\n"
 "Last-Translator: Kerem ERZURUMLU & Zerrin ÜNAL <kerem@linux.org.tri & @>\n"
 "Language-Team: Hacettepe Linux Users Group <hacettepe@linux.org.tr>\n"
@@ -775,23 +775,23 @@ msgstr "&Öntanýmlý"
 msgid "&Custom key"
 msgstr ""
 
-#: kdeui/kmenubar.cpp:206 kdeui/ktoolbar.cpp:831
+#: kdeui/kmenubar.cpp:215 kdeui/ktoolbar.cpp:841
 msgid "Top"
 msgstr "Üst"
 
-#: kdeui/kmenubar.cpp:207 kdeui/ktoolbar.cpp:833
+#: kdeui/kmenubar.cpp:216 kdeui/ktoolbar.cpp:843
 msgid "Bottom"
 msgstr "Alt"
 
-#: kdeui/kmenubar.cpp:208 kdeui/ktoolbar.cpp:834
+#: kdeui/kmenubar.cpp:217 kdeui/ktoolbar.cpp:844
 msgid "Floating"
 msgstr "Yuvarlanýyor"
 
-#: kdeui/kmenubar.cpp:353 kdeui/kmenubar.cpp:608 kdeui/ktoolbar.cpp:2137
+#: kdeui/kmenubar.cpp:364 kdeui/kmenubar.cpp:622 kdeui/ktoolbar.cpp:2155
 msgid "Float"
 msgstr "Float"
 
-#: kdeui/kmenubar.cpp:577 kdeui/ktoolbar.cpp:2118
+#: kdeui/kmenubar.cpp:591 kdeui/ktoolbar.cpp:2136
 msgid "UnFloat"
 msgstr "UnFloat"
 
@@ -807,15 +807,15 @@ msgstr "&Öntanýmlý"
 msgid "Quickhelp"
 msgstr ""
 
-#: kdeui/ktoolbar.cpp:266 kdeui/ktoolbar.cpp:317
+#: kdeui/ktoolbar.cpp:269 kdeui/ktoolbar.cpp:321
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: pixel boþ, dosya kayýp herhalde..."
 
-#: kdeui/ktoolbar.cpp:830
+#: kdeui/ktoolbar.cpp:840
 msgid "Left"
 msgstr "Sol"
 
-#: kdeui/ktoolbar.cpp:832
+#: kdeui/ktoolbar.cpp:842
 msgid "Right"
 msgstr "Sað"
 

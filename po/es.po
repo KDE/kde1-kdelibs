@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-11-18 11:04+0100\n"
+"POT-Creation-Date: 1998-11-22 01:01+0100\n"
 "PO-Revision-Date: 1998-10-28 19:01+0200\n"
 "Language-Team: Spanish <kde-es@kyb.ml.org>\n"
 "Translator: Boris Wesslowski <bwess@gmx.net>\n"
@@ -765,23 +765,23 @@ msgstr "Llave estándar"
 msgid "&Custom key"
 msgstr "Llave propia"
 
-#: kdeui/kmenubar.cpp:206 kdeui/ktoolbar.cpp:831
+#: kdeui/kmenubar.cpp:215 kdeui/ktoolbar.cpp:841
 msgid "Top"
 msgstr "Arriba"
 
-#: kdeui/kmenubar.cpp:207 kdeui/ktoolbar.cpp:833
+#: kdeui/kmenubar.cpp:216 kdeui/ktoolbar.cpp:843
 msgid "Bottom"
 msgstr "Abajo"
 
-#: kdeui/kmenubar.cpp:208 kdeui/ktoolbar.cpp:834
+#: kdeui/kmenubar.cpp:217 kdeui/ktoolbar.cpp:844
 msgid "Floating"
 msgstr "Flotante"
 
-#: kdeui/kmenubar.cpp:353 kdeui/kmenubar.cpp:608 kdeui/ktoolbar.cpp:2137
+#: kdeui/kmenubar.cpp:364 kdeui/kmenubar.cpp:622 kdeui/ktoolbar.cpp:2155
 msgid "Float"
 msgstr "Flotar"
 
-#: kdeui/kmenubar.cpp:577 kdeui/ktoolbar.cpp:2118
+#: kdeui/kmenubar.cpp:591 kdeui/ktoolbar.cpp:2136
 msgid "UnFloat"
 msgstr "No Flotante"
 
@@ -797,15 +797,15 @@ msgstr "Por &defecto"
 msgid "Quickhelp"
 msgstr "Ayuda rápida"
 
-#: kdeui/ktoolbar.cpp:266 kdeui/ktoolbar.cpp:317
+#: kdeui/ktoolbar.cpp:269 kdeui/ktoolbar.cpp:321
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: pixmap vacio, probablemente falta un archivo"
 
-#: kdeui/ktoolbar.cpp:830
+#: kdeui/ktoolbar.cpp:840
 msgid "Left"
 msgstr "Izquierda"
 
-#: kdeui/ktoolbar.cpp:832
+#: kdeui/ktoolbar.cpp:842
 msgid "Right"
 msgstr "Derecha"
 
