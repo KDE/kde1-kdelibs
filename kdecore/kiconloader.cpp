@@ -20,6 +20,9 @@
    Boston, MA 02111-1307, USA.
    
    $Log$
+   Revision 1.17  1998/03/08 18:49:03  wuebben
+   Bernd: fixed up the kiconloader class -- it was completely busted
+	   printf("()in path:%s\n",c);
 }
 */
 	if (result.isNull() && !canReturnNull) {
@@ -31,6 +34,7 @@
 #include "kiconloader.h"
 #include "kiconloader.moc"
 	}
+#include <kpixmap.h>
 #include <klocale.h>
 #include <kapp.h>
 }
@@ -197,7 +201,7 @@ QPixmap KIconLoader::loadApplicationMiniIcon ( const QString &name, int w, int h
 QPixmap KIconLoader::loadInternal ( const QString &name, int w,  int h ){
 
   QPixmap *pix;
-  QPixmap new_xpm;
+  KPixmap new_xpm;
 
   int index;
 
@@ -227,7 +231,7 @@ QPixmap KIconLoader::loadInternal ( const QString &name, int w,  int h ){
 	++it;
       }
     }
-    new_xpm.load( full_path );
+    new_xpm.load( full_path, 0, KPixmap::LowColor );
     *pix = new_xpm;
     
     if( !(pix->isNull()) ){
