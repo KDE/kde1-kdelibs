@@ -459,7 +459,6 @@ msgstr "Tentativo di aggiungere una pagina quando non ci sono KWizard!"
 msgid "&Cancel"
 msgstr "&Annulla"
 
-
 #: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:143
 msgid "&Default"
 msgstr "&Predefinito"
@@ -484,7 +483,6 @@ msgstr "Sinistra"
 msgid "Right"
 msgstr "Destra"
 
-#, c-format
 #: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
 #, c-format
 msgid "Page %d of %d"
@@ -837,7 +835,7 @@ msgstr "Errore KFM"
 
 # , c-format
 #: kfmlib/kfm.cpp:208
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid ""
 "The file %s is corrupted\n"
 "Could not do Authorization"
@@ -1108,7 +1106,6 @@ msgstr "Ferma"
 #: po/texts.cpp:109
 msgid "&Remove"
 msgstr "&Rimuovi"
-
 
 #: po/texts.cpp:110
 msgid "&Properties..."

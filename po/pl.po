@@ -1,18 +1,18 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: kuser \n"
+"Project-Id-Version: kdelibs \n"
 "POT-Creation-Date: 1998-06-18 22:45+0200\n"
-"PO-Revision-Date: 1998-01-22 17:46+0100\n"
-"Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
+"PO-Revision-Date: 1998-06-17 23:17+0200\n"
+"Last-Translator: Piotr Roszatycki <dexter@fnet.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
 #: kdecore/kapp.cpp:490
 msgid "&Contents"
-msgstr "Pomo&c"
+msgstr "Spis &tre¶ci"
 
 #: kdecore/kapp.cpp:496
 msgid "&About"
-msgstr "&Informacje o kmedia"
+msgstr "&Informacje o"
 
 #: kdecore/kapp.cpp:503
 msgid "About &KDE..."
@@ -34,6 +34,16 @@ msgid ""
 "\n"
 "Please report bugs at http://buglist.kde.org.\n"
 msgstr ""
+"\n"
+"¦rodowisko KDE zosta³o napisane przez Zespó³ KDE,\n"
+"ogólno¶wiatow± sieæ informatyków programistów, zajmuj±cych siê\n"
+"rozwojem bezp³atnego oprogramowania.\n"
+"\n"
+"Odwied¼ http://www.kde.org w celu uzyskania wiêcej informacji\n"
+"na temat Projektu KDE lub http://kde.fnet.pl/pl na temat polskiej\n"
+"wersji KDE. Zapraszamy do wspó³dzia³ania nad KDE.\n"
+"\n"
+"Prosimy raportowaæ b³êdy na http://buglist.kde.org.\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416
 #: kdeui/keditcl1.cpp:477 kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573
@@ -66,6 +76,7 @@ msgstr "Pomoc"
 msgid "Cancel"
 msgstr "Anuluj"
 
+# libkdeui messages
 #: kdeui/kcolordlg.cpp:285
 msgid "Select Color"
 msgstr "Wybierz kolor"
@@ -86,16 +97,15 @@ msgstr "Dodaj do kolorów u¿ytkownika"
 #: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872
 #: kfmlib/kfm.cpp:403 po/texts.cpp:37
 msgid "Ok"
-msgstr "OK"
+msgstr "Ok"
 
 #: kdeui/kcolordlg.cpp:788 kdeui/kcolordlg.cpp:840
 msgid "Custom..."
 msgstr "Definiuj..."
 
-# , fuzzy
 #: kdeui/kcontrol.cpp:39
 msgid "Default"
-msgstr "Domy¶lne:"
+msgstr "Domy¶lne"
 
 #: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
@@ -125,10 +135,9 @@ msgstr "Marzec"
 msgid "April"
 msgstr "Kwiecieñ"
 
-# , fuzzy
 #: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:222
 msgid "May"
-msgstr "ka€de"
+msgstr "Maj"
 
 #: kdeui/kdatepik.cpp:104
 msgid "June"
@@ -136,7 +145,7 @@ msgstr "Czerwiec"
 
 #: kdeui/kdatepik.cpp:105
 msgid "July"
-msgstr "Lipiej"
+msgstr "Lipiec"
 
 #: kdeui/kdatepik.cpp:105
 msgid "August"
@@ -160,40 +169,35 @@ msgstr "Grudzieñ"
 
 #: kdeui/kdatepik.cpp:248
 msgid "(invalid)"
-msgstr ""
+msgstr "(niepoprawny)"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:48
 msgid "Sun"
-msgstr "&D¼wiêk"
+msgstr "Nie"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:48
 msgid "Mon"
-msgstr "Zamontuj"
+msgstr "Pon"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:48
 msgid "Tue"
-msgstr "Dziesiêæ"
+msgstr "Wto"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:49
 msgid "Wed"
-msgstr "Czerwone"
+msgstr "¦ro"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Thu"
-msgstr ""
+msgstr "Czw"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Fri"
-msgstr ""
+msgstr "Pi±"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:50
 msgid "Sat"
-msgstr "w"
+msgstr "Sob"
 
 #: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
 #: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:89
@@ -331,7 +335,7 @@ msgstr "Zamieñ z:"
 
 #: kdeui/keditcl2.cpp:794
 msgid "Replace All"
-msgstr "Zamieñ wszysko"
+msgstr "Zamieñ wszystko"
 
 #: kdeui/keditcl2.cpp:891
 msgid "Goto Line"
@@ -343,15 +347,15 @@ msgstr "Id¼"
 
 #: kdeui/kfontdialog.cpp:171
 msgid "Select Font"
-msgstr "Wybierz czcionkê"
+msgstr "Wybierz font"
 
 #: kdeui/kfontdialog.cpp:175
 msgid "Requested Font"
-msgstr "¯±dana czcionka"
+msgstr "¯±dany font"
 
 #: kdeui/kfontdialog.cpp:180
 msgid "Actual Font"
-msgstr "Aktualna czcionka"
+msgstr "Aktualny font"
 
 #: kdeui/kfontdialog.cpp:184 kdeui/kfontdialog.cpp:188
 msgid "Family:"
@@ -359,7 +363,7 @@ msgstr "Rodzina:"
 
 #: kdeui/kfontdialog.cpp:195 kdeui/kfontdialog.cpp:201 po/texts.cpp:26
 msgid "Charset:"
-msgstr "Charset:"
+msgstr "Kodowanie:"
 
 #: kdeui/kfontdialog.cpp:208 kdeui/kfontdialog.cpp:213 kfile/kpreview.cpp:196
 msgid "Size:"
@@ -375,7 +379,7 @@ msgstr "Styl:"
 
 #: kdeui/kfontdialog.cpp:276
 msgid "Charset"
-msgstr "Charset"
+msgstr "Kodowanie"
 
 #: kdeui/kfontdialog.cpp:287 kfile/kfiledetaillist.cpp:38
 msgid "Size"
@@ -449,16 +453,15 @@ msgstr "Unieruchom"
 
 #: kdeui/knotebook.cpp:145
 msgid "Trying to add page when no KWizards are added!"
-msgstr ""
+msgstr "Próbujesz dodaæ stronê choæ KWizards s± nie do³±czone!"
 
 #: kdeui/knotebook.cpp:178 kdeui/kwizard.cpp:120 po/texts.cpp:41
 msgid "&Cancel"
 msgstr "A&nuluj"
 
-# , fuzzy
 #: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:143
 msgid "&Default"
-msgstr "Domy¶lne:"
+msgstr "&Domy¶lne"
 
 #: kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:166 po/texts.cpp:46
 msgid "&Help"
@@ -466,7 +469,7 @@ msgstr "Pomo&c"
 
 #: kdeui/knotebook.cpp:247 kdeui/kwizard.cpp:189
 msgid "&Ok"
-msgstr "&Ok"
+msgstr "O&k"
 
 #: kdeui/ktoolbar.cpp:178 kdeui/ktoolbar.cpp:297
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
@@ -480,50 +483,42 @@ msgstr "Lewo"
 msgid "Right"
 msgstr "Prawo"
 
-# , fuzzy, c-format
 #: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
 #, c-format
 msgid "Page %d of %d"
-msgstr "Lin: %d Kol: %d"
+msgstr "Strona %d z %d"
 
 #: kfile/bookmark.cpp:246
 msgid "<!-- Do not edit this file -->"
-msgstr ""
+msgstr "<!-- Nie edytuj tego pliku -->"
 
-# , fuzzy
 #: kfile/kcombiview.cpp:80
 msgid "Folders:"
-msgstr "Foldery"
+msgstr "Katalogi:"
 
-# , fuzzy
 #: kfile/kcombiview.cpp:81
 msgid "Contents:"
-msgstr "Spis tre¶ci"
+msgstr "Zawarto¶æ:"
 
-# , fuzzy
 #: kfile/kfiledetaillist.cpp:36
 msgid "Name"
-msgstr "&Nazwa:"
+msgstr "Nazwa"
 
-# , fuzzy
 #: kfile/kfiledetaillist.cpp:40
 msgid "Permissions"
-msgstr "&Prawa"
+msgstr "Prawa dostêpu"
 
-# , fuzzy
 #: kfile/kfiledetaillist.cpp:42
 msgid "Date"
-msgstr "Data:"
+msgstr "Data"
 
-# , fuzzy
 #: kfile/kfiledetaillist.cpp:45
 msgid "Owner"
-msgstr "Jeden"
+msgstr "W³a¶ciciel"
 
-# , fuzzy
 #: kfile/kfiledetaillist.cpp:47
 msgid "Group"
-msgstr "Grupy"
+msgstr "Grupa"
 
 #: kfile/kfiledialog.cpp:122 po/texts.cpp:56
 msgid "Back"
@@ -533,12 +528,10 @@ msgstr "W ty³"
 msgid "Forward"
 msgstr "W przód"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:128
 msgid "Up to parent"
-msgstr "Id¼ do strony"
+msgstr "Wy¿ej"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:131
 msgid "Home"
 msgstr "Katalog domowy"
@@ -547,73 +540,65 @@ msgstr "Katalog domowy"
 msgid "Reload"
 msgstr "Prze³aduj"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:150
 msgid "Bookmarks"
-msgstr "&Zak³adki"
+msgstr "Zak³adki"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:154
 msgid "Create new folder"
-msgstr "Nie mo¿na utworzyæ katalogu"
+msgstr "Utwórz nowy katalog"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:157
 msgid "Search for a file"
-msgstr "&Szukaj:"
+msgstr "Znajd¼ plik"
 
 #: kfile/kfiledialog.cpp:160
 msgid "Configure this dialog [development only]"
-msgstr ""
+msgstr "Skonfiguruj ten dialog [tylko dla developerów]"
 
 #: kfile/kfiledialog.cpp:168
 msgid "The path"
-msgstr ""
+msgstr "¦cie¿ka"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:193
 msgid "&Location:"
-msgstr "¦cie¿ka:"
+msgstr "&Lokacja:"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:206
 msgid "&Filter:"
-msgstr "Filtr:"
+msgstr "&Filtr:"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:220
 msgid "Show hidden"
-msgstr "Poka¿ menu"
+msgstr "Poka¿ ukryte"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:487
 msgid "Error: Not local file"
-msgstr "B³±d w pliku informacyjnym"
+msgstr "B³±d: Plik nie lokalny"
 
 #: kfile/kfiledialog.cpp:488
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
 msgstr ""
+"Wybrany katalog nie jest lokalnym katalogiem.\n"
+"Aplikacja obs³uguje wy³±cznie lokalne pliki."
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:502 kfile/kfiledialog.cpp:608
 msgid "Error: Cannot Open Directory"
-msgstr "Nie mo¿na otworzyæ lub odczytaæ katalogu."
+msgstr "B³±d: Nie mo¿na otworzyæ katalogu"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:503
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
 msgstr ""
-"Wskazany plik nie istnieje:\n"
-"%sPlik nie istnieje:\n"
-"%s"
+"Wybrany katalog nie istnieje\n"
+"lub brak praw do odczytu."
 
 #: kfile/kfiledialog.cpp:505 kfile/kfiledialog.cpp:611
 msgid "Dismiss"
-msgstr ""
+msgstr "Anuluj"
 
 #: kfile/kfiledialog.cpp:542 kfile/kfiledialog.cpp:1179
 #: kfile/kfiledialog.cpp:1338 kfile/kfiledialog.cpp:1372 po/texts.cpp:70
@@ -624,74 +609,62 @@ msgstr "Otwórz"
 msgid "Save As"
 msgstr "Zachowaj jako"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:580
 msgid "Root Directory"
-msgstr "Katalog domowy"
+msgstr "Katalog g³ówny"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:609
 msgid "The specified directory does not exist or was not readable."
-msgstr "Wybrany plik nie istnieje"
+msgstr "Wybrany katalog nie istnieje lub brak praw do odczytu."
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:857
 msgid "Create new directory in: "
-msgstr "Utwórz katalog domowy"
+msgstr "Utwórz nowy katalog w: "
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:860
 msgid "New Directory"
-msgstr "Katalog domowy"
+msgstr "Nowy katalog"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:932
 msgid "Add to bookmarks"
 msgstr "Dodaj do zak³adek"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1213
 msgid "Choose Directory"
-msgstr "Katalog domowy"
+msgstr "Wybierz katalog"
 
 #: kfile/kfiledialog.cpp:1234 kfile/kfiledialog.cpp:1393 po/texts.cpp:80
 msgid "Save"
 msgstr "Zachowaj"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1281
 msgid "directory"
-msgstr "Katalog domowy"
+msgstr "katalog"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1283
 msgid "directories"
-msgstr "Katalogi:"
+msgstr "katalogi"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1285 kfile/kpreview.cpp:326
 msgid "file"
-msgstr "Plik"
+msgstr "plik"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1287
 msgid "files"
-msgstr "Pliki"
+msgstr "pliki"
 
-# , c-format
 #: kfile/kfiledialog.cpp:1289
 #, c-format
 msgid "%d %s and %d %s"
-msgstr ""
+msgstr "%d %s i %d %s"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1299
 msgid "one directory"
-msgstr "Katalog domowy"
+msgstr "jeden katalog"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"
-msgstr ""
+msgstr "Wygl±d"
 
 #: kfile/kfiledialogconf.cpp:43
 msgid ""
@@ -706,180 +679,166 @@ msgid ""
 "Mario Weilguni <mweilguni@sime.com>\n"
 "and Martin Jones <mjones@kde.org>"
 msgstr ""
+"KDE Selektor plików:\n"
+"\n"
+"Richard Moore <rich@kde.org>\n"
+"Stephan Kulow <coolo@kde.org>\n"
+"oraz Daniel Grana <grana@ie.iwi.unibe.ch>\n"
+"\n"
+"przy wspó³pracy z\n"
+"\n"
+"Mario Weilguni <mweilguni@sime.com>\n"
+"oraz Martin Jones <mjones@kde.org>"
 
 #: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
 msgid "About"
 msgstr "Informacje"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:70
 msgid "View style"
-msgstr "Styl ³±czenia:"
+msgstr "Styl"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:74
 msgid "Show Short View"
-msgstr "Pokazuj pliki z &kropk±"
+msgstr "Widok skrócony"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:80
 msgid "Show Detail View"
-msgstr "Pokazuj pliki z &kropk±"
+msgstr "Widok szczegó³owy"
 
 #: kfile/kfiledialogconf.cpp:89
 msgid "Misc"
-msgstr ""
+msgstr "Ró¿ne"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:95
 msgid "Show Filter"
-msgstr "Pokazuj pliki z &kropk±"
+msgstr "Poka¿ filtr"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:101
 msgid "Show List Labels"
-msgstr "Poka¿ panel"
+msgstr "Poka¿ nazwy list"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:107
 msgid "Show Hidden"
-msgstr "Poka¿ menu"
+msgstr "Poka¿ ukryte"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:113
 msgid "Show Status Line"
 msgstr "Poka¿ pasek stanu"
 
 #: kfile/kfiledialogconf.cpp:119
 msgid "Use single Click"
-msgstr ""
+msgstr "U¿ywaj pojedynczego klikniêcia"
 
 #: kfile/kfiledialogconf.cpp:125
 msgid "Mix dirs and files"
-msgstr ""
+msgstr "Mieszaj katalogi i pliki"
 
 #: kfile/kfiledialogconf.cpp:131
 msgid "Keep dirs first"
-msgstr ""
+msgstr "Katalogi s± jako pierwsze"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:95 kfile/kfileinfo.cpp:99
 msgid "unknown"
-msgstr "Nieznana szybko¶æ"
+msgstr "nieznane"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:218
 msgid "Jan"
-msgstr "i"
+msgstr "Sty"
 
 #: kfile/kfileinfo.cpp:219
 msgid "Feb"
-msgstr ""
+msgstr "Lut"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:220
 msgid "Mar"
-msgstr "Marzec"
+msgstr "Mar"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:221
 msgid "Apr"
-msgstr "Kwiecieñ"
+msgstr "Kwi"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:223
 msgid "Jun"
-msgstr "Czerwiec"
+msgstr "Cze"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:224
 msgid "Jul"
-msgstr "Lipiej"
+msgstr "Lip"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:225
 msgid "Aug"
-msgstr "Sierpieñ"
+msgstr "Sie"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:226
 msgid "Sep"
-msgstr "Opcje..."
+msgstr "Wrz"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:227
 msgid "Oct"
-msgstr "Wypchniêcie"
+msgstr "Pa¼"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:228
 msgid "Nov"
-msgstr "Nie"
+msgstr "Lis"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:229
 msgid "Dec"
-msgstr "Dekoduj"
+msgstr "Gru"
 
-# , fuzzy
 #: kfile/kpreview.cpp:187
 msgid "Name:"
-msgstr "&Nazwa:"
+msgstr "Nazwa:"
 
-# , fuzzy
 #: kfile/kpreview.cpp:205
 msgid "Date:"
 msgstr "Data:"
 
-# , fuzzy
 #: kfile/kpreview.cpp:214
 msgid "Owner:"
-msgstr "Jeden"
+msgstr "W³a¶ciciel:"
 
-# , fuzzy
 #: kfile/kpreview.cpp:223
 msgid "Group:"
-msgstr "Grupy dyskusyjne:"
+msgstr "Grupa:"
 
-# , fuzzy
 #: kfile/kpreview.cpp:232
 msgid "Type:"
-msgstr "Typ"
+msgstr "Typ:"
 
-# , fuzzy
 #: kfile/kpreview.cpp:287
 msgid "locked"
-msgstr "Zegar"
+msgstr "zablokowane"
 
 #: kfile/kpreview.cpp:311
 msgid "picture"
-msgstr ""
+msgstr "obrazek"
 
-# , fuzzy
 #: kfile/kpreview.cpp:343
 msgid "folder"
-msgstr "Folder"
+msgstr "katalog"
 
-# , c-format
 #: kfmlib/kfm.cpp:197
 #, c-format
 msgid ""
 "You dont have the file %s\n"
 "Could not do Authorization"
 msgstr ""
+"Nie masz pliku %s\n"
+"Nie mo¿na dokonaæ autoryzacji"
 
-# , fuzzy
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
 msgid "KFM Error"
-msgstr "B³±d"
+msgstr "KFM B³±d"
 
-# , c-format
 #: kfmlib/kfm.cpp:208
 #, c-format
 msgid ""
 "The file %s is corrupted\n"
 "Could not do Authorization"
 msgstr ""
+"Plik %s jest uszkodzony\n"
+"Nie mo¿na dokonaæ autoryzacji"
 
 #: po/texts.cpp:24
 msgid "Error"
@@ -951,11 +910,11 @@ msgstr "&Wyj¶cie"
 
 #: po/texts.cpp:53
 msgid "Quit"
-msgstr "Koniec"
+msgstr "Zakoñcz"
 
 #: po/texts.cpp:54
 msgid "&Quit"
-msgstr "Za&ko¤cz"
+msgstr "Za&koñcz"
 
 #: po/texts.cpp:58
 msgid "Copy"
@@ -995,7 +954,7 @@ msgstr "No&we okno..."
 
 #: po/texts.cpp:67
 msgid "&New Window"
-msgstr "Now&e okno"
+msgstr "&Nowe okno"
 
 #: po/texts.cpp:68
 msgid "New Game"
@@ -1023,7 +982,7 @@ msgstr "Wytnij"
 
 #: po/texts.cpp:75
 msgid "&Cut"
-msgstr "&Wytnij"
+msgstr "Wy&tnij"
 
 #: po/texts.cpp:76
 msgid "C&ut"
@@ -1031,7 +990,7 @@ msgstr "Wy&tnij"
 
 #: po/texts.cpp:77
 msgid "Font"
-msgstr "Czcionka"
+msgstr "Font"
 
 #: po/texts.cpp:78
 msgid "&Foreground Color"
@@ -1139,34 +1098,31 @@ msgstr "Brak"
 
 #: po/texts.cpp:108
 msgid "Stop"
-msgstr "Zatrzymaj"
+msgstr "Stop"
 
 #: po/texts.cpp:109
 msgid "&Remove"
 msgstr "&Usuñ"
 
-# , fuzzy
 #: po/texts.cpp:110
 msgid "&Properties..."
-msgstr "W³a¶ciwo¶ci..."
+msgstr "&W³a¶ciwo¶ci..."
 
 #: po/texts.cpp:111
 msgid "Properties"
 msgstr "W³a¶ciwo¶ci"
 
-# , fuzzy
 #: po/texts.cpp:112
 msgid "&Start"
-msgstr "Start systemu"
+msgstr "&Start"
 
-# , fuzzy
 #: po/texts.cpp:113
 msgid "St&op"
-msgstr "Zatrzymaj"
+msgstr "St&op"
 
 #: po/texts.cpp:114
 msgid "Move"
-msgstr "Przesuñ"
+msgstr "Usuñ"
 
 #: po/texts.cpp:115
 msgid "Miscellaneous"
@@ -1174,7 +1130,7 @@ msgstr "Ró¿ne"
 
 #: po/texts.cpp:116
 msgid "Font Size"
-msgstr "Rozmiar czcionki"
+msgstr "Rozmiar fontu"
 
 #: po/texts.cpp:117
 msgid "Small"
@@ -1190,11 +1146,11 @@ msgstr "Du¿y"
 
 #: po/texts.cpp:120
 msgid "Fonts"
-msgstr "Czcionki"
+msgstr "Fonty"
 
 #: po/texts.cpp:121
 msgid "&Fonts"
-msgstr "&Czcionka"
+msgstr "&Fonty"
 
 #: po/texts.cpp:122
 msgid "&Reload"
@@ -1228,67 +1184,58 @@ msgstr "Wygl±d"
 msgid "Print"
 msgstr "Drukuj"
 
-# , fuzzy
 #: po/texts.cpp:130
 msgid "Monday"
-msgstr "Mod3"
+msgstr "Poniedzia³ek"
 
 #: po/texts.cpp:131
 msgid "Tuesday"
-msgstr ""
+msgstr "Wtorek"
 
 #: po/texts.cpp:132
 msgid "Wednesday"
-msgstr ""
+msgstr "¦roda"
 
-# , fuzzy
 #: po/texts.cpp:133
 msgid "Thursday"
-msgstr "Trzeci"
+msgstr "Czwartek"
 
-# , fuzzy
 #: po/texts.cpp:134
 msgid "Friday"
-msgstr "Znajd¼"
+msgstr "Pi±tek"
 
 #: po/texts.cpp:135
 msgid "Saturday"
-msgstr ""
+msgstr "Sobota"
 
-# , fuzzy
 #: po/texts.cpp:136
 msgid "Sunday"
-msgstr "&D¼wiêk"
+msgstr "Niedziela"
 
-# , fuzzy
 #: po/texts.cpp:137
 msgid "&Update"
-msgstr "&Wklej"
+msgstr "&Uaktualnij"
 
-# , fuzzy
 #: po/texts.cpp:138
 msgid "Layout"
-msgstr "Wyloguj"
+msgstr "Wygl±d"
 
 #: po/texts.cpp:139
 msgid "Highscore"
-msgstr ""
+msgstr "Lista wyników"
 
-# , fuzzy
 #: po/texts.cpp:140
 msgid "&New View"
-msgstr "&Widok"
+msgstr "&Nowy widok"
 
 #: po/texts.cpp:141
 msgid "&Insert"
-msgstr ""
+msgstr "W&staw"
 
-# , fuzzy
 #: po/texts.cpp:144
 msgid "&Next >>"
-msgstr "&Nastêpny"
+msgstr "&Nastêpny >>"
 
-# , fuzzy
 #: po/texts.cpp:145
 msgid "<< &Previous"
-msgstr "&Poprzedni"
+msgstr "<< &Poprzedni"
