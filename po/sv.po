@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs 1.0pre\n"
-"POT-Creation-Date: 1998-10-29 13:16+0100\n"
+"POT-Creation-Date: 1998-10-29 13:38+0100\n"
 "PO-Revision-Date: 1998-07-08 22:24+02:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
