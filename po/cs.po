@@ -201,7 +201,7 @@ msgstr "Vpravo"
 
 #: kapp.cpp:330
 msgid "About "
-msgstr "Informace "
+msgstr "Informace o "
 
 #: kapp.cpp:334 kapp.cpp:355
 msgid "About KDE"
