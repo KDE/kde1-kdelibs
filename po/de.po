@@ -22,7 +22,6 @@ msgid "About KDE"
 msgstr "Über KDE"
 
 #: kdecore/kapp.cpp:448
-#, fuzzy
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
