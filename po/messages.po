@@ -1,47 +1,48 @@
+# general messages, that are often used
 msgid "Error"
-msgstr "Chyba"
+msgstr ""
 
 msgid "Malformed URL"
-msgstr "URL má chybný formát"
+msgstr ""
 
 msgid "Yes"
-msgstr "Ano"
+msgstr ""
 
 msgid "No"
-msgstr "Ne"
+msgstr ""
 
 msgid "Warning"
-msgstr "Varování"
+msgstr ""
 
 msgid "Open a file"
-msgstr "Otevøít soubor"
+msgstr ""
 
 msgid "Save a file"
-msgstr "Ulo¾it soubor"
+msgstr ""
 
 msgid "Contents"
-msgstr "Nápovìda"
+msgstr ""
 
 msgid "About"
-msgstr "Informace"
+msgstr ""
 
 msgid "Open"
-msgstr "Otevøít soubor"
+msgstr ""
 
 msgid "Save"
-msgstr "Ulo¾it soubor"
+msgstr ""
 
 msgid "Save As"
-msgstr "Ulo¾it soubor jako"
+msgstr ""
 
 msgid "Close"
-msgstr "Uzavøít"
+msgstr ""
 
 msgid "Quit"
-msgstr "Ukonèit"
+msgstr ""
 
 msgid "Untitled"
-msgstr "Nepojmenovaný"
+msgstr ""
 
 msgid "OK"
 msgstr ""
@@ -65,6 +66,7 @@ msgid "Edit"
 msgstr ""
 
 # libkdeui messages
+
 #: kcolordlg.cpp:239
 msgid "Select Color"
 msgstr ""
@@ -197,3 +199,4 @@ msgstr ""
 #: ktoolbar.cpp:274
 msgid "Right"
 msgstr ""
+
