@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1998-11-02 09:27+0100\n"
-"PO-Revision-Date: 1998-10-24 16:13 CEST\n"
+"PO-Revision-Date: 1998-11-03 15:54+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <flidr@kky.cu.cz>\n"
 "MIME-Version: 1.0\n"
@@ -63,23 +63,23 @@ msgstr ", na øádce "
 
 #: kab/AssertDialog.cpp:212 kab/AssertDialog.cpp:217
 msgid "Error handling error"
-msgstr ""
+msgstr "Chyba pøi vypoøádávání se s chybou"
 
 #: kab/AssertDialog.cpp:213
-#, fuzzy
 msgid "Could not send message."
-msgstr "Není mo¾né ulo¾it dokument\n"
+msgstr "Není mo¾né odeslat zprávu."
 
 #: kab/AssertDialog.cpp:218
-#, fuzzy
 msgid "The author did not publish an email address."
-msgstr "Tøetí e-mail adresa"
+msgstr "Autor nezveøejnil e-mail adresu."
 
 #: kab/DialogBase.cpp:36
 msgid ""
 "If you press the OK button, all changes\n"
 "you made will be used to proceed."
 msgstr ""
+"Stisnete-li tlaèítko OK, budou v¹echny Vámi\n"
+"provedené zmìny zavedeny."
 
 #: kab/DialogBase.cpp:39
 msgid ""
@@ -87,6 +87,9 @@ msgid ""
 "handed over to the program, but the dialog\n"
 "will not be closed.Use this to try different settings."
 msgstr ""
+"Stisknete-li tlaèítko Pou¾ít, v¹echny Vámi provedené zmìny\n"
+"budou pøedány programu, ale dialog nebude uzavøen.\n"
+"Pou¾ívejte k vyzkou¹ení rùzných nastavení."
 
 #: kab/DialogBase.cpp:44
 msgid ""
@@ -96,6 +99,10 @@ msgid ""
 "The program will be in the state before\n"
 "opening the dialog."
 msgstr ""
+"Stisknete-li tlaèítko Zru¹it, v¹echny Vámi provedené zmìny\n"
+"budou opu¹tìny a dialog bude uzavøen.\n"
+"Program se pak bude nacházet ve stavu v jakém byl\n"
+"pøed otevøením dialogu."
 
 #: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
 #: kdeui/kwizard.cpp:228 po/texts.cpp:36
@@ -103,9 +110,8 @@ msgid "&OK"
 msgstr "&OK"
 
 #: kab/DialogBase.cpp:58
-#, fuzzy
 msgid "&Apply"
-msgstr "Pou¾ít"
+msgstr "&Pou¾ít"
 
 #: kab/DialogBase.cpp:59 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
 #: kdeui/kwizard.cpp:159 po/texts.cpp:40
@@ -205,9 +211,8 @@ msgid "The comment"
 msgstr "Komentáø"
 
 #: kab/SearchDialog.cpp:74
-#, fuzzy
 msgid "kab: Search entries"
-msgstr "Hledat polo¾ky"
+msgstr "kab: Hledat polo¾ky"
 
 #: kab/SearchDialogMainWidget.cpp:22
 msgid "matches"
@@ -725,7 +730,6 @@ msgid "&Help"
 msgstr "&Nápovìda"
 
 #: kdeui/kkeydialog.cpp:236 po/texts.cpp:136
-#, fuzzy
 msgid "&Defaults"
 msgstr "Impli&citní"
 
@@ -1549,9 +1553,8 @@ msgid "Cannot find previously created section."
 msgstr "Není mo¾né nalézt døíve vytvoøenou sekci."
 
 #: kab/addressbook.cc:696
-#, fuzzy
 msgid "Unable to create key-value-map for entry."
-msgstr "Není mo¾né vytvoøit zálo¾ní soubor"
+msgstr "Není mo¾né pro polo¾ku vytvoøit mapu klíèù."
 
 #: kab/addressbook.cc:925
 msgid "entry without name"
@@ -1884,99 +1887,93 @@ msgid ""
 msgstr ""
 
 #: kab/widget.cc:308
-#, fuzzy
 msgid "Could not save database after update."
-msgstr "Není mo¾né ulo¾it dokument\n"
+msgstr "Nebylo mo¾né ulo¾it databázi po aktualizaci."
 
 #: kab/widget.cc:316
 msgid "Unable to reopen database file r/o."
 msgstr ""
 
 #: kab/widget.cc:477
-#, fuzzy
 msgid "first entry"
-msgstr "adresáø"
+msgstr "první polo¾ka"
 
 #: kab/widget.cc:478
-#, fuzzy
 msgid "previous entry"
-msgstr "&Pøedchozí"
+msgstr "pøedchozí polo¾ka"
 
 #: kab/widget.cc:479
-#, fuzzy
 msgid "next entry"
-msgstr "jeden adresáø"
+msgstr "následující polo¾ka"
 
 #: kab/widget.cc:480
 msgid "last entry"
-msgstr ""
+msgstr "poslední polo¾ka"
 
 #: kab/widget.cc:481
 msgid "search entries"
-msgstr ""
+msgstr "hledat polo¾ku"
 
 #: kab/widget.cc:482
 msgid "add a new entry"
-msgstr ""
+msgstr "pøidat novou polo¾ku"
 
 #: kab/widget.cc:483
 msgid "change this entry"
-msgstr ""
+msgstr "zmìnit tuto polo¾ku"
 
 #: kab/widget.cc:484
 msgid "remove this entry"
-msgstr ""
+msgstr "odstranit tuto polo¾ku"
 
 #: kab/widget.cc:523
 msgid "Switched to first entry."
-msgstr ""
+msgstr "Pøepnuto na první polo¾ku."
 
 #: kab/widget.cc:555
 msgid "Switched to last entry."
-msgstr ""
+msgstr "Pøepnuto na poslední polo¾ku."
 
 #: kab/widget.cc:616 kab/widget.cc:670 kab/widget.cc:845 kab/widget.cc:907
 msgid "Sorry, file changed."
-msgstr ""
+msgstr "Lituji, soubor byl zmìnìn."
 
 #: kab/widget.cc:620 kab/widget.cc:674 kab/widget.cc:911
-#, fuzzy
 msgid "Permission denied."
-msgstr "Práva"
+msgstr "Odepøen pøístup."
 
 #: kab/widget.cc:631
-#, fuzzy
 msgid "Remove entry?"
-msgstr "Odstranit"
+msgstr "Odstranit polo¾ku?"
 
 #: kab/widget.cc:632
 msgid "Really remove this entry?"
-msgstr ""
+msgstr "Opravdu odstranit tuto polo¾ku?"
 
 #: kab/widget.cc:650
 msgid "Entry deleted."
-msgstr ""
+msgstr "Polo¾ka vymazána."
 
 #: kab/widget.cc:684
 msgid "Added a new entry."
-msgstr ""
+msgstr "Pøidána nová polo¾ka."
 
 #: kab/widget.cc:806
 msgid "Opened browser window."
-msgstr ""
+msgstr "Otevøeno okno prohlí¾eèe"
 
 #: kab/widget.cc:809
 msgid "No URL."
-msgstr ""
+msgstr "®ádné URL."
 
 #: kab/widget.cc:813 kab/widget.cc:1153 kab/widget.cc:1766 kab/widget.cc:1944
 #: kab/widget.cc:2023
 msgid "No entries."
-msgstr ""
+msgstr "®ádné polo¾ky."
 
 #: kab/widget.cc:818
 msgid "The filemanager is busy, please try again."
-msgstr ""
+msgstr "Správce souborje zaneprázdnìn, prosím skuste znovu."
 
 #: kab/widget.cc:838
 msgid ""
@@ -1994,47 +1991,44 @@ msgid "kab: File error"
 msgstr ""
 
 #: kab/widget.cc:860
-#, fuzzy
 msgid "Could not save database."
-msgstr "Není mo¾né ulo¾it dokument\n"
+msgstr "Není mo¾né ulo¾it databázi."
 
 #: kab/widget.cc:861
-#, fuzzy
 msgid "&Retry"
-msgstr "Obnovit"
+msgstr "Zkusit znovu"
 
 #: kab/widget.cc:861
 msgid "&Ignore"
-msgstr ""
+msgstr "&Ignorovat"
 
 #: kab/widget.cc:864
-#, fuzzy
 msgid "Saving cancelled.\n"
-msgstr "Zru¹it"
+msgstr "Ukládání pøeru¹eno.\n"
 
 #: kab/widget.cc:930
 msgid "Entry changed."
-msgstr ""
+msgstr "Polo¾ka zmìnìna."
 
 #: kab/widget.cc:1020
 msgid "Results"
-msgstr ""
+msgstr "Výsledky."
 
 #: kab/widget.cc:1020
 msgid "No entry matches this."
-msgstr ""
+msgstr "®ádná polo¾ka s tímto nekoresponduje."
 
 #: kab/widget.cc:1043
 msgid "Search results window closed."
-msgstr ""
+msgstr "Okno s výsledky hledání zavøeno."
 
 #: kab/widget.cc:1142
 msgid "The talk command must be configured before!"
-msgstr ""
+msgstr "Nejprve je nutné provést konviguraci pøíkau talk!"
 
 #: kab/widget.cc:1147
 msgid "Talk configuration"
-msgstr ""
+msgstr "Konfikurace pøíkazu talk"
 
 #: kab/widget.cc:1148
 msgid "Please configure the parameters for the talk command."
@@ -2053,9 +2047,8 @@ msgid "Available talk addresses:"
 msgstr ""
 
 #: kab/widget.cc:1176 kab/widget.cc:1904
-#, fuzzy
 msgid "Cancelled."
-msgstr "Zru¹it"
+msgstr "Pøeru¹eno."
 
 #: kab/widget.cc:1199
 msgid "The talk command parameters are wrong."
@@ -2119,9 +2112,8 @@ msgid "Name-Email-Link (!!)"
 msgstr ""
 
 #: kab/widget.cc:1784
-#, fuzzy
 msgid "Select table columns"
-msgstr "Vyber ikonu"
+msgstr "Vyberte sloupce tabulky"
 
 #: kab/widget.cc:1789
 msgid "Nothing to export."
@@ -2172,44 +2164,44 @@ msgid "Empty email address."
 msgstr ""
 
 #: kab/widget.cc:2050
-#, fuzzy
 msgid "No email address."
-msgstr "E-mail adresa"
+msgstr "®ádná e-mailová adresa."
 
 #: kab/widget.cc:2060
-#, fuzzy
 msgid "Error calling mailer."
-msgstr "Chyba: Toto není lokální soubor"
+msgstr "Chyba pøi volání po¹tovního programu."
 
 #: kab/widget.cc:2062
 msgid "Mailer called."
-msgstr ""
+msgstr "Po¹tovní program zavolán."
 
 #: kab/widget.cc:2085
 msgid "The mail command must be configured before!"
-msgstr ""
+msgstr "Nejprve je nutné nastavit pøíkaz pro po¹tu!"
 
 #: kab/widget.cc:2090
 msgid "Mail configuration"
-msgstr ""
+msgstr "Nastavení po¹ty"
 
 #: kab/widget.cc:2091
 msgid "Please configure the parameters for the email command."
-msgstr ""
+msgstr "Prosím nastavte parametry po¹tovního pøíkazu."
 
 #: kab/widget.cc:2129
 msgid "The email command parameters are wrong."
-msgstr ""
+msgstr "Parametry pro po¹tovní program jsou chybné."
 
 #: kab/widget.cc:2141
 msgid ""
 "Email command failed.\n"
 "Make sure you did setup your email command and parameter!"
 msgstr ""
+"Po¹tovní pøíkaz selhal.\n"
+"Ujistìte se, ¾e jste nastavili vá¹ po¹tovní pøíkaz a parametry!"
 
 #: kab/widget.cc:2145
 msgid "Mail program started."
-msgstr ""
+msgstr "po¹tovní program spu¹tìn."
 
 #: kio/kio_cache.cc:345
 msgid "KIO Cache"
@@ -2807,42 +2799,3 @@ msgid ""
 msgstr ""
 "\n"
 "neobsahuje polo¾ku Name=..."
-
-#~ msgid "Search"
-#~ msgstr "Hledat"
-
-#~ msgid "contains"
-#~ msgstr "obsahuje"
-
-#~ msgid "&New"
-#~ msgstr "&Nový"
-
-#~ msgid "&New..."
-#~ msgstr "&Nový ..."
-
-#~ msgid "Move"
-#~ msgstr "Pøesunout"
-
-#~ msgid "&Previous"
-#~ msgstr "&Pøedchozí"
-
-#~ msgid "&Next"
-#~ msgstr "Nás&ledující"
-
-#~ msgid "Small"
-#~ msgstr "Malý"
-
-#~ msgid "Medium"
-#~ msgstr "Støední"
-
-#~ msgid "Large"
-#~ msgstr "Velký"
-
-#~ msgid "(none)"
-#~ msgstr "(¾ádná)"
-
-#~ msgid "None"
-#~ msgstr "®ádná"
-
-#~ msgid "&Ok"
-#~ msgstr "&Ok"
