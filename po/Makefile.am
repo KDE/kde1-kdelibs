@@ -84,8 +84,8 @@ merge:
 	@catalogs='$(POFILES)'; \
 	for cat in $$catalogs; do \
 	echo $$cat $$name; \
-	msgmerge $$cat kdelibs.pot > $$cat.new ; \
-	if diff $$cat $$cat.new; then \
+	msgmerge -o $$cat.new $$cat kdelibs.pot ; \
+	if test -s $$cat.new && diff $$cat $$cat.new; then \
 		rm $$cat.new;  \
 	else  \
 		mv $$cat.new $$cat ; \

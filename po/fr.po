@@ -1,23 +1,18 @@
- done.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-01 01:02+0100\n"
+"POT-Creation-Date: 1998-11-01 13:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: kab/AssertDialog.cpp:29
+#, fuzzy
 msgid "(unknown file)"
-msgstr ""
+msgstr "inconnu"
 
 #: kab/AssertDialog.cpp:30
 msgid "(unknown line number)"
@@ -53,15 +48,16 @@ msgstr ""
 #: kfile/kfiledialog.cpp:881 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:403
 #: po/texts.cpp:35
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: kab/AssertDialog.cpp:140
 msgid "The following condition failed:\n"
 msgstr ""
 
 #: kab/AssertDialog.cpp:141
+#, fuzzy
 msgid "In file "
-msgstr ""
+msgstr "fichier"
 
 #: kab/AssertDialog.cpp:141
 msgid ", line "
@@ -72,27 +68,28 @@ msgid "Error handling error"
 msgstr ""
 
 #: kab/AssertDialog.cpp:213
+#, fuzzy
 msgid "Could not send message."
-msgstr ""
+msgstr "Le document ne peut pas être enregistré.\n"
 
 #: kab/AssertDialog.cpp:218
 msgid "The author did not publish an email address."
 msgstr ""
 
-#: kab/DialogBase.cpp:36
+#: kab/DialogBase.cpp:34
 msgid ""
 "If you press the OK button, all changes\n"
 "you made will be used to proceed."
 msgstr ""
 
-#: kab/DialogBase.cpp:39
+#: kab/DialogBase.cpp:37
 msgid ""
 "When clicking apply, the settings will be\n"
 "handed over to the program, but the dialog\n"
 "will not be closed.Use this to try different settings."
 msgstr ""
 
-#: kab/DialogBase.cpp:44
+#: kab/DialogBase.cpp:42
 msgid ""
 "If you press the Cancel button, all changes\n"
 "you made will be abandoned and the dialog\n"
@@ -101,19 +98,20 @@ msgid ""
 "opening the dialog."
 msgstr ""
 
-#: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
+#: kab/DialogBase.cpp:55 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
 #: kdeui/kwizard.cpp:228 po/texts.cpp:36
 msgid "&OK"
-msgstr ""
+msgstr "&OK"
 
-#: kab/DialogBase.cpp:58
+#: kab/DialogBase.cpp:56
+#, fuzzy
 msgid "&Apply"
-msgstr ""
+msgstr "Appliquer"
 
-#: kab/DialogBase.cpp:59 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
+#: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
 #: kdeui/kwizard.cpp:159 po/texts.cpp:40
 msgid "&Cancel"
-msgstr ""
+msgstr "&Annuler"
 
 #: kab/PrintDialog.cpp:26
 msgid "Headline text:"
@@ -144,8 +142,9 @@ msgid "The name prefix"
 msgstr ""
 
 #: kab/SearchDialog.cpp:51
+#, fuzzy
 msgid "The name"
-msgstr ""
+msgstr "Le chemin"
 
 #: kab/SearchDialog.cpp:52
 msgid "The formatted name"
@@ -156,8 +155,9 @@ msgid "The address"
 msgstr ""
 
 #: kab/SearchDialog.cpp:54
+#, fuzzy
 msgid "The town"
-msgstr ""
+msgstr "Le chemin"
 
 #: kab/SearchDialog.cpp:55
 msgid "The organization"
@@ -208,8 +208,9 @@ msgid "The comment"
 msgstr ""
 
 #: kab/SearchDialog.cpp:74
+#, fuzzy
 msgid "kab: Search entries"
-msgstr ""
+msgstr "Rechercher un fichier"
 
 #: kab/SearchDialogMainWidget.cpp:22
 msgid "matches"
@@ -234,7 +235,7 @@ msgstr ""
 #: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:24 kio/kio_skip_dlg.cc:20
 #: po/texts.cpp:39
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #: kab/StringListSelectAndReorderSet.cpp:34
 msgid "Possible values:"
@@ -247,80 +248,83 @@ msgstr ""
 #: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:549 kfile/kfiledialog.cpp:1193
 #: kfile/kfiledialog.cpp:1352 kfile/kfiledialog.cpp:1386 po/texts.cpp:65
 msgid "Open"
-msgstr ""
+msgstr "Ouvrir"
 
 #: kdecore/kaccel.cpp:235
 msgid "New"
-msgstr ""
+msgstr "Nouveau"
 
 #: kab/searchresults.cc:30 kdecore/kaccel.cpp:239 po/texts.cpp:80
 msgid "Close"
-msgstr ""
+msgstr "Fermer"
 
 #: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1248
 #: kfile/kfiledialog.cpp:1407 po/texts.cpp:75
 msgid "Save"
-msgstr ""
+msgstr "Enregistrer"
 
 #: kdecore/kaccel.cpp:247 po/texts.cpp:115
 msgid "Print"
-msgstr ""
+msgstr "Imprimer"
 
 #: kdecore/kaccel.cpp:251 po/texts.cpp:52
 msgid "Quit"
-msgstr ""
+msgstr "Quitter"
 
 #: kdecore/kaccel.cpp:255 po/texts.cpp:69
 msgid "Cut"
-msgstr ""
+msgstr "Couper"
 
 #: kdecore/kaccel.cpp:259 po/texts.cpp:56
 msgid "Copy"
-msgstr ""
+msgstr "Copier"
 
 #: kdecore/kaccel.cpp:263 po/texts.cpp:58
 msgid "Paste"
-msgstr ""
+msgstr "Coller"
 
 #: kdecore/kaccel.cpp:267 po/texts.cpp:93
 msgid "Undo"
-msgstr ""
+msgstr "Défaire"
 
 #: kdecore/kaccel.cpp:271 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
 #: kdeui/keditcl2.cpp:360 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:676
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786
 msgid "Find"
-msgstr ""
+msgstr "Trouver"
 
 #: kdecore/kaccel.cpp:275 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
 #: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:133
 msgid "Replace"
-msgstr ""
+msgstr "Remplacer"
 
 #: kdecore/kaccel.cpp:279 po/texts.cpp:134
+#, fuzzy
 msgid "Insert"
-msgstr ""
+msgstr "&Insérer"
 
 #: kdecore/kaccel.cpp:283 kfile/kfiledialog.cpp:131
 msgid "Home"
-msgstr ""
+msgstr "Maison"
 
 #: kdecore/kaccel.cpp:287
 msgid "End"
 msgstr ""
 
 #: kdecore/kaccel.cpp:291
+#, fuzzy
 msgid "Prior"
-msgstr ""
+msgstr "Erreur"
 
 #: kdecore/kaccel.cpp:295
+#, fuzzy
 msgid "Next"
-msgstr ""
+msgstr "&Suivant"
 
 #: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471
 #: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:240 po/texts.cpp:44
 msgid "Help"
-msgstr ""
+msgstr "Aide"
 
 #: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:661
 msgid "SHIFT"
@@ -336,19 +340,19 @@ msgstr ""
 
 #: kdecore/kapp.cpp:551 po/texts.cpp:137
 msgid "&Contents"
-msgstr ""
+msgstr "&Contenu"
 
 #: kdecore/kapp.cpp:557
 msgid "&About"
-msgstr ""
+msgstr "A &propos"
 
 #: kdecore/kapp.cpp:564
 msgid "About &KDE..."
-msgstr ""
+msgstr "A propos de &KDE..."
 
 #: kdecore/kapp.cpp:585
 msgid "About KDE"
-msgstr ""
+msgstr "A propos de KDE"
 
 #: kdecore/kapp.cpp:587
 msgid ""
@@ -362,6 +366,15 @@ msgid ""
 "\n"
 "Please report bugs at http://buglist.kde.org.\n"
 msgstr ""
+"\n"
+"L'Environnement de bureau KDE a été écrit par l'équipe KDE,\n"
+"un réseau mondial d'ingénieurs logiciels engagés dans le\n"
+"développement le logiciels libres.\n"
+"\n"
+"Visitez http://www.kde.org pour plus d'informations sur\n"
+"le projet KDE. Rejoignez-nous et supportez KDE !\n"
+"\n"
+"S'il-vous-plait, signalez les bogues à http://buglist.kde.org.\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:412 kdeui/keditcl1.cpp:433
 #: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661
@@ -370,7 +383,7 @@ msgstr ""
 #: kdeui/keditcl2.cpp:473 kdeui/kmsgbox.cpp:294 kdeui/kmsgbox.cpp:310
 #: kio/kio_paste.cc:85 po/texts.cpp:27
 msgid "Yes"
-msgstr ""
+msgstr "Oui"
 
 #: kdetest/klocaletest.cpp:101 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:434
 #: kdeui/keditcl1.cpp:495 kdeui/keditcl1.cpp:515 kdeui/keditcl1.cpp:1662
@@ -379,201 +392,211 @@ msgstr ""
 #: kdeui/keditcl2.cpp:474 kdeui/kmsgbox.cpp:292 kdeui/kmsgbox.cpp:308
 #: kio/kio_paste.cc:85 po/texts.cpp:28
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #: kdeui/kcolordlg.cpp:285
 msgid "Select Color"
-msgstr ""
+msgstr "Selection couleur"
 
 #: kdeui/kcolordlg.cpp:297
 msgid "System Colors"
-msgstr ""
+msgstr "Couleurs système"
 
 #: kdeui/kcolordlg.cpp:328
 msgid "Custom Colors"
-msgstr ""
+msgstr "Couleurs personnalisées"
 
 #: kdeui/kcolordlg.cpp:341
 msgid "Add to Custom Colors"
-msgstr ""
+msgstr "Ajouter aux couleurs personnalisées"
 
 #: kdeui/kcolordlg.cpp:788 kdeui/kcolordlg.cpp:840
 msgid "Custom..."
-msgstr ""
+msgstr "Personnalisées..."
 
 #: kdeui/kcontrol.cpp:41 kdeui/kcontrol.cpp:58 po/texts.cpp:135
 msgid "Default"
-msgstr ""
+msgstr "Par défaut"
 
 #: kdeui/kcontrol.cpp:47 kdeui/kcontrol.cpp:53 kfile/kfiledialogconf.cpp:59
 #: po/texts.cpp:41
 msgid "Apply"
-msgstr ""
+msgstr "Appliquer"
 
 #: kdeui/kdatepik.cpp:102
 msgid "January"
-msgstr ""
+msgstr "Janvier"
 
 #: kdeui/kdatepik.cpp:102
 msgid "February"
-msgstr ""
+msgstr "Février"
 
 #: kdeui/kdatepik.cpp:103
 msgid "March"
-msgstr ""
+msgstr "Mars"
 
 #: kdeui/kdatepik.cpp:103
 msgid "April"
-msgstr ""
+msgstr "Avril"
 
 #: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:224
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 #: kdeui/kdatepik.cpp:104
 msgid "June"
-msgstr ""
+msgstr "Juin"
 
 #: kdeui/kdatepik.cpp:105
 msgid "July"
-msgstr ""
+msgstr "Juillet"
 
 #: kdeui/kdatepik.cpp:105
 msgid "August"
-msgstr ""
+msgstr "Août"
 
 #: kdeui/kdatepik.cpp:106
 msgid "September"
-msgstr ""
+msgstr "Septembre"
 
 #: kdeui/kdatepik.cpp:106
 msgid "October"
-msgstr ""
+msgstr "Octobre"
 
 #: kdeui/kdatepik.cpp:107
 msgid "November"
-msgstr ""
+msgstr "Novembre"
 
 #: kdeui/kdatepik.cpp:107
 msgid "December"
-msgstr ""
+msgstr "Décembre"
 
 #: kdeui/kdatepik.cpp:247
 msgid "(invalid)"
-msgstr ""
+msgstr "(invalide)"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Sun"
-msgstr ""
+msgstr "Dim"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Mon"
-msgstr ""
+msgstr "Lun"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Tue"
-msgstr ""
+msgstr "Mar"
 
 #: kdeui/kdatetbl.cpp:50
 msgid "Wed"
-msgstr ""
+msgstr "Mer"
 
 #: kdeui/kdatetbl.cpp:50
 msgid "Thu"
-msgstr ""
+msgstr "Jeu"
 
 #: kdeui/kdatetbl.cpp:50
 msgid "Fri"
-msgstr ""
+msgstr "Ven"
 
 #: kdeui/kdatetbl.cpp:51
 msgid "Sat"
-msgstr ""
+msgstr "Sam"
 
 #: kab/kabapi.cc:134 kab/widget.cc:817 kab/widget.cc:837 kab/widget.cc:1893
 #: kdeui/keditcl1.cpp:139 kdeui/keditcl1.cpp:168 kdeui/keditcl1.cpp:189
 #: kdeui/keditcl1.cpp:202 kdeui/keditcl1.cpp:1559 po/texts.cpp:83
 msgid "Sorry"
-msgstr ""
+msgstr "Désolé"
 
 #: kdeui/keditcl1.cpp:140
 msgid "The specified File does not exist"
-msgstr ""
+msgstr "Le fichier spécifié n'existe pas"
 
 #: kdeui/keditcl1.cpp:153 kdeui/keditcl1.cpp:430 kdeui/keditcl1.cpp:511
 #: kdeui/keditcl1.cpp:1715
 msgid "Sorry:"
-msgstr ""
+msgstr "Désolé :"
 
 #: kdeui/keditcl1.cpp:154
 msgid "You have specificated a directory"
-msgstr ""
+msgstr "Vous avez spécifié un répertoire"
 
 #: kdeui/keditcl1.cpp:169 kdeui/keditcl1.cpp:190
 msgid "You do not have read permission to this file."
-msgstr ""
+msgstr "Vous n'avez pas la permission de lire ce fichier"
 
 #: kdeui/keditcl1.cpp:203
 msgid "An Error occured while trying to open this Document"
-msgstr ""
+msgstr "Une erreur est survenue lors de l'ouverture de ce document"
 
 #: kdeui/keditcl1.cpp:373
 msgid "Select Document to Insert"
-msgstr ""
+msgstr "Sélectionnez le document à inclure"
 
 #: kdeui/keditcl1.cpp:409 kdeui/keditcl1.cpp:491 kdeui/keditcl1.cpp:1658
 msgid "Warning:"
-msgstr ""
+msgstr "Attention :"
 
 #: kdeui/keditcl1.cpp:410 kdeui/keditcl1.cpp:492
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
 msgstr ""
+"Le document courant a été modifié.\n"
+"Voulez-vous l'enregistrer ?"
 
 #: kdeui/keditcl1.cpp:431
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
+"Le document ne peut pas être enregistré.\n"
+"Ouvrir un nouveau document quand même ?"
 
 #: kdeui/keditcl1.cpp:462
 msgid "Select Document to Open"
-msgstr ""
+msgstr "Sélectionnez le document à ouvrir"
 
 #: kdeui/keditcl1.cpp:512
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
+"Le document ne peut pas être enregistré.\n"
+"Créer un nouveau document quand même ?"
 
 #: kdeui/keditcl1.cpp:547 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
 msgid "Untitled"
-msgstr ""
+msgstr "Sans titre"
 
 #: kdeui/keditcl1.cpp:1560
 msgid "Could not save the document\n"
-msgstr ""
+msgstr "Le document ne peut pas être enregistré.\n"
 
 #: kdeui/keditcl1.cpp:1630
 msgid "Save Document As"
-msgstr ""
+msgstr "Enregistrer le document sous"
 
 #: kdeui/keditcl1.cpp:1659
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
 msgstr ""
+"Un document avec ce nom existe déjà.\n"
+"Voulez-vous l'écraser ?"
 
 #: kdeui/keditcl1.cpp:1716
 msgid "You do not have write permission to this file.\n"
-msgstr ""
+msgstr "Vous n'avez pas la permission d'écrire dans ce fichier.\n"
 
 #: kdeui/keditcl2.cpp:104 kdeui/keditcl2.cpp:361 kdeui/keditcl2.cpp:454
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
 msgstr ""
+"Fin du document atteinte.\n"
+"Continuer depuis le début ?"
 
 #: kdeui/keditcl2.cpp:121 kdeui/keditcl2.cpp:378 kdeui/keditcl2.cpp:424
 #: kdeui/keditcl2.cpp:471
@@ -581,181 +604,188 @@ msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
 msgstr ""
+"Début du document atteint.\n"
+"Continuer depuis la fin ?"
 
 #: kdeui/keditcl2.cpp:682 kdeui/keditcl2.cpp:780
 msgid "Case Sensitive"
-msgstr ""
+msgstr "Respecte la casse"
 
 #: kdeui/keditcl2.cpp:683 kdeui/keditcl2.cpp:783
 msgid "Find Backwards"
-msgstr ""
+msgstr "Recherche en arrière"
 
 #: kdeui/keditcl2.cpp:688 kdeui/keditcl2.cpp:795
 msgid "Done"
-msgstr ""
+msgstr "Fait"
 
 #: kdeui/keditcl2.cpp:768
 msgid "Find:"
-msgstr ""
+msgstr "Trouver :"
 
 #: kdeui/keditcl2.cpp:778
 msgid "Replace with:"
-msgstr ""
+msgstr "Remplacer avec :"
 
 #: kdeui/keditcl2.cpp:792
 msgid "Replace All"
-msgstr ""
+msgstr "Remplacer tout"
 
 #: kdeui/keditcl2.cpp:889
 msgid "Goto Line"
-msgstr ""
+msgstr "Aller à la ligne"
 
 #: kdeui/keditcl2.cpp:894
 msgid "Go"
-msgstr ""
+msgstr "Aller à"
 
 #: kdeui/kfontdialog.cpp:181
 msgid "Select Font"
-msgstr ""
+msgstr "Choisir une police"
 
 #: kdeui/kfontdialog.cpp:185
 msgid "Requested Font"
-msgstr ""
+msgstr "Police demandée"
 
 #: kdeui/kfontdialog.cpp:190
 msgid "Actual Font"
-msgstr ""
+msgstr "Police actuelle"
 
 #: kdeui/kfontdialog.cpp:194 kdeui/kfontdialog.cpp:198
 msgid "Family:"
-msgstr ""
+msgstr "Famille :"
 
 #: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:211 po/texts.cpp:26
 msgid "Charset:"
-msgstr ""
+msgstr "Jeu de caractères :"
 
 #: kdeui/kfontdialog.cpp:218 kdeui/kfontdialog.cpp:223 kfile/kpreview.cpp:196
 msgid "Size:"
-msgstr ""
+msgstr "Taille :"
 
 #: kdeui/kfontdialog.cpp:230 kdeui/kfontdialog.cpp:235
 msgid "Weight:"
-msgstr ""
+msgstr "Poids :"
 
 #: kdeui/kfontdialog.cpp:243 kdeui/kfontdialog.cpp:250
 msgid "Style:"
-msgstr ""
+msgstr "Style :"
 
 #: kdeui/kfontdialog.cpp:286
 msgid "Charset"
-msgstr ""
+msgstr "Jeu de caractères"
 
 #: kdeui/kfontdialog.cpp:297 kfile/kfiledetaillist.cpp:38
 msgid "Size"
-msgstr ""
+msgstr "Taille"
 
 #: kdeui/kfontdialog.cpp:338
 msgid "Weight"
-msgstr ""
+msgstr "Poids"
 
 #: kdeui/kfontdialog.cpp:339 kdeui/kfontdialog.cpp:480
 msgid "normal"
-msgstr ""
+msgstr "normal"
 
 #: kdeui/kfontdialog.cpp:340 kdeui/kfontdialog.cpp:482
 msgid "bold"
-msgstr ""
+msgstr "gras"
 
 #: kdeui/kfontdialog.cpp:351
 msgid "Style"
-msgstr ""
+msgstr "Style"
 
 #: kdeui/kfontdialog.cpp:352 kdeui/kfontdialog.cpp:493
 #: kdeui/kfontdialog.cpp:522
 msgid "roman"
-msgstr ""
+msgstr "roman"
 
 #: kdeui/kfontdialog.cpp:353 kdeui/kfontdialog.cpp:495
 #: kdeui/kfontdialog.cpp:520
 msgid "italic"
-msgstr ""
+msgstr "italique"
 
 #: kdeui/kfontdialog.cpp:383
 msgid "Dolor Ipse"
-msgstr ""
+msgstr "Dolor Ipse"
 
 #: kdeui/kfontdialog.cpp:515
 msgid "Bold"
-msgstr ""
+msgstr "Gras"
 
 #: kdeui/kfontdialog.cpp:517
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: kdeui/kiconloaderdialog.cpp:237
 msgid "Select Icon"
-msgstr ""
+msgstr "Selectionner une icône"
 
 #: kdeui/kiconloaderdialog.cpp:242
 msgid "Filter:"
-msgstr ""
+msgstr "Filtre :"
 
 #: kdeui/kkeydialog.cpp:232 kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:205
 #: po/texts.cpp:45
 msgid "&Help"
-msgstr ""
+msgstr "&Aide"
 
 #: kdeui/kkeydialog.cpp:236 po/texts.cpp:136
+#, fuzzy
 msgid "&Defaults"
-msgstr ""
+msgstr "Par &défaut"
 
 #: kdeui/kkeydialog.cpp:320
 msgid "Current key"
 msgstr ""
 
 #: kdeui/kkeydialog.cpp:331
+#, fuzzy
 msgid "&Action"
-msgstr ""
+msgstr "Emp&lacement :"
 
 #: kdeui/kkeydialog.cpp:392
 msgid "&No key"
 msgstr ""
 
 #: kdeui/kkeydialog.cpp:400
+#, fuzzy
 msgid "&Default key"
-msgstr ""
+msgstr "Par &défaut"
 
 #: kdeui/kkeydialog.cpp:408
+#, fuzzy
 msgid "&Custom key"
-msgstr ""
+msgstr "Personnalisées..."
 
 #: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:731
 msgid "Top"
-msgstr ""
+msgstr "Haut"
 
 #: kdeui/kmenubar.cpp:172 kdeui/ktoolbar.cpp:733
 msgid "Bottom"
-msgstr ""
+msgstr "Bas"
 
 #: kdeui/kmenubar.cpp:173 kdeui/ktoolbar.cpp:734
 msgid "Floating"
-msgstr ""
+msgstr "Flottant"
 
 #: kdeui/kmenubar.cpp:302 kdeui/kmenubar.cpp:457 kdeui/ktoolbar.cpp:1946
 msgid "Float"
-msgstr ""
+msgstr "Flottant"
 
 #: kdeui/kmenubar.cpp:446 kdeui/ktoolbar.cpp:1928
 msgid "UnFloat"
-msgstr ""
+msgstr "Rattacher"
 
 #: kdeui/knotebook.cpp:145
 msgid "Trying to add page when no KWizards are added!"
 msgstr ""
+"Vous tentez d'ajouter une page sans avoir au préalable ajouté un KWizard !"
 
 #: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:182
 msgid "&Default"
-msgstr ""
+msgstr "Par &défaut"
 
 #: kdeui/kquickhelp.cpp:203
 msgid "Quickhelp"
@@ -763,181 +793,186 @@ msgstr ""
 
 #: kdeui/ktoolbar.cpp:237 kdeui/ktoolbar.cpp:288
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr ""
+msgstr "KToolBarButton: pixmap vide, il manque probablement un fichier"
 
 #: kdeui/ktoolbar.cpp:730
 msgid "Left"
-msgstr ""
+msgstr "Gauche"
 
 #: kdeui/ktoolbar.cpp:732
 msgid "Right"
-msgstr ""
+msgstr "Droite"
 
 #: kdeui/kwizard.cpp:531 kdeui/kwizard.cpp:678
 #, c-format
 msgid "Page %d of %d"
-msgstr ""
+msgstr "Page %d sur %d"
 
 #: kfile/bookmark.cpp:246
 msgid "<!-- Do not edit this file -->"
-msgstr ""
+msgstr "<!-- Ne modifiez pas ce fichier -->"
 
 #: kfile/kcombiview.cpp:80
 msgid "Folders:"
-msgstr ""
+msgstr "Répertoires :"
 
 #: kfile/kcombiview.cpp:81
 msgid "Contents:"
-msgstr ""
+msgstr "Contenus :"
 
-#: kab/addressbook.cc:1048 kfile/kfiledetaillist.cpp:36
+#: kab/addressbook.cc:1047 kfile/kfiledetaillist.cpp:36
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: kfile/kfiledetaillist.cpp:40
 msgid "Permissions"
-msgstr ""
+msgstr "Permissions"
 
 #: kfile/kfiledetaillist.cpp:42
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: kfile/kfiledetaillist.cpp:45
 msgid "Owner"
-msgstr ""
+msgstr "Propriétaire"
 
 #: kfile/kfiledetaillist.cpp:47
 msgid "Group"
-msgstr ""
+msgstr "Groupe"
 
 #: kfile/kfiledialog.cpp:122 po/texts.cpp:55
 msgid "Back"
-msgstr ""
+msgstr "Retour"
 
 #: kfile/kfiledialog.cpp:125
 msgid "Forward"
-msgstr ""
+msgstr "Avant"
 
 #: kfile/kfiledialog.cpp:128
 msgid "Up to parent"
-msgstr ""
+msgstr "Retour vers le parent"
 
 #: kfile/kfiledialog.cpp:134 po/texts.cpp:54
 msgid "Reload"
-msgstr ""
+msgstr "Recharger"
 
 #: kfile/kfiledialog.cpp:150
 msgid "Bookmarks"
-msgstr ""
+msgstr "Marques-pages"
 
 #: kfile/kfiledialog.cpp:154
 msgid "Create new folder"
-msgstr ""
+msgstr "Créer un nouveau répertoire"
 
 #: kfile/kfiledialog.cpp:157
 msgid "Search for a file"
-msgstr ""
+msgstr "Rechercher un fichier"
 
 #: kfile/kfiledialog.cpp:160
 msgid "Configure this dialog [development only]"
-msgstr ""
+msgstr "Configuration de ce dialogue [development only]"
 
 #: kfile/kfiledialog.cpp:168
 msgid "The path"
-msgstr ""
+msgstr "Le chemin"
 
 #: kfile/kfiledialog.cpp:193
 msgid "&Location:"
-msgstr ""
+msgstr "Emp&lacement :"
 
 #: kfile/kfiledialog.cpp:206
 msgid "&Filter:"
-msgstr ""
+msgstr "&Filtre :"
 
 #: kfile/kfiledialog.cpp:220
 msgid "Show hidden"
-msgstr ""
+msgstr "Montrer les fichiers cachés"
 
 #: kfile/kfiledialog.cpp:494
 msgid "Error: Not local file"
-msgstr ""
+msgstr "Erreur : fichier non local"
 
 #: kfile/kfiledialog.cpp:495
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
 msgstr ""
+"Le répertoire spécifié n'est pas un répertoire local,\n"
+"or l'application n'accepte que des fichiers locaux."
 
 #: kfile/kfiledialog.cpp:509 kfile/kfiledialog.cpp:615
 msgid "Error: Cannot Open Directory"
-msgstr ""
+msgstr "Erreur : ouverture du répertoire impossible"
 
 #: kfile/kfiledialog.cpp:510
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
 msgstr ""
+"Le répertoire spécifié n'existe pas\n"
+"ou n'est pas lisible."
 
 #: kfile/kfiledialog.cpp:512 kfile/kfiledialog.cpp:618
 msgid "Dismiss"
-msgstr ""
+msgstr "Annuler"
 
 #: kfile/kfiledialog.cpp:564 kfile/kfiledialog.cpp:1367 po/texts.cpp:77
 msgid "Save As"
-msgstr ""
+msgstr "Enregistrer sous"
 
 #: kfile/kfiledialog.cpp:587
 msgid "Root Directory"
-msgstr ""
+msgstr "Réportoire racine"
 
 #: kfile/kfiledialog.cpp:616
 msgid "The specified directory does not exist or was not readable."
-msgstr ""
+msgstr "Le répertoire spécifié n'existe pas ou n'est pas lisible."
 
 #: kfile/kfiledialog.cpp:866
 msgid "Create new directory in: "
-msgstr ""
+msgstr "Créer un nouveau répertoire dans : "
 
 #: kfile/kfiledialog.cpp:869
 msgid "New Directory"
-msgstr ""
+msgstr "Nouveau répertoire"
 
 #: kfile/kfiledialog.cpp:941
 msgid "Add to bookmarks"
-msgstr ""
+msgstr "Ajouter aux marques-pages"
 
 #: kfile/kfiledialog.cpp:1227
 msgid "Choose Directory"
-msgstr ""
+msgstr "Choisir le répertoire"
 
 #: kfile/kfiledialog.cpp:1295
 msgid "directory"
-msgstr ""
+msgstr "répertoire"
 
 #: kfile/kfiledialog.cpp:1297
 msgid "directories"
-msgstr ""
+msgstr "répertoires"
 
 #: kfile/kfiledialog.cpp:1299 kfile/kpreview.cpp:326
 msgid "file"
-msgstr ""
+msgstr "fichier"
 
 #: kfile/kfiledialog.cpp:1301
 msgid "files"
-msgstr ""
+msgstr "fichiers"
 
+# , c-format
 #: kfile/kfiledialog.cpp:1303
 #, c-format
 msgid "%d %s and %d %s"
-msgstr ""
+msgstr "%d %s et %d %s"
 
 #: kfile/kfiledialog.cpp:1313
 msgid "one directory"
-msgstr ""
+msgstr "un répertoire"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"
-msgstr ""
+msgstr "Look and Feel"
 
 #: kfile/kfiledialogconf.cpp:43
 msgid ""
@@ -952,154 +987,170 @@ msgid ""
 "Mario Weilguni <mweilguni@sime.com>\n"
 "and Martin Jones <mjones@kde.org>"
 msgstr ""
+"Sélecteur de fichiers KDE fait par:\n"
+"\n"
+"Richard Moore <rich@kde.org>\n"
+"Stephan Kulow <coolo@kde.org>\n"
+"et Daniel Grana <grana@ie.iwi.unibe.ch>\n"
+"\n"
+"avec la contribution de\n"
+"\n"
+"Mario Weilguni <mweilguni@sime.com>\n"
+"et Martin Jones <mjones@kde.org>"
 
 #: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
 msgid "About"
-msgstr ""
+msgstr "A propos"
 
 #: kfile/kfiledialogconf.cpp:70
 msgid "View style"
-msgstr ""
+msgstr "Style d'affichage"
 
 #: kfile/kfiledialogconf.cpp:74
 msgid "Show Short View"
-msgstr ""
+msgstr "Montrer l'affichage court"
 
 #: kfile/kfiledialogconf.cpp:80
 msgid "Show Detail View"
-msgstr ""
+msgstr "Montrer l'affichage détaillé"
 
 #: kfile/kfiledialogconf.cpp:89
 msgid "Misc"
-msgstr ""
+msgstr "Divers"
 
 #: kfile/kfiledialogconf.cpp:95
 msgid "Show Filter"
-msgstr ""
+msgstr "Montrer le filtre"
 
 #: kfile/kfiledialogconf.cpp:101
 msgid "Show List Labels"
-msgstr ""
+msgstr "Montrer les libellés de la liste"
 
 #: kfile/kfiledialogconf.cpp:107
 msgid "Show Hidden"
-msgstr ""
+msgstr "Montrer les cachés"
 
 #: kfile/kfiledialogconf.cpp:113
 msgid "Show Status Line"
-msgstr ""
+msgstr "Montrer la barre d'état"
 
 #: kfile/kfiledialogconf.cpp:119
 msgid "Use single Click"
-msgstr ""
+msgstr "Utiser le simple-clic"
 
 #: kfile/kfiledialogconf.cpp:125
 msgid "Mix dirs and files"
-msgstr ""
+msgstr "Mélanger les répertoires et les fichiers"
 
 #: kfile/kfiledialogconf.cpp:131
 msgid "Keep dirs first"
-msgstr ""
+msgstr "Garder les répertoires en premier"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"
-msgstr ""
+msgstr "inconnu"
 
 #: kfile/kfileinfo.cpp:220
 msgid "Jan"
-msgstr ""
+msgstr "Jan"
 
 #: kfile/kfileinfo.cpp:221
 msgid "Feb"
-msgstr ""
+msgstr "Fév"
 
 #: kfile/kfileinfo.cpp:222
 msgid "Mar"
-msgstr ""
+msgstr "Mar"
 
 #: kfile/kfileinfo.cpp:223
 msgid "Apr"
-msgstr ""
+msgstr "Avr"
 
 #: kfile/kfileinfo.cpp:225
 msgid "Jun"
-msgstr ""
+msgstr "Jun"
 
 #: kfile/kfileinfo.cpp:226
 msgid "Jul"
-msgstr ""
+msgstr "Jul"
 
 #: kfile/kfileinfo.cpp:227
 msgid "Aug"
-msgstr ""
+msgstr "Aou"
 
 #: kfile/kfileinfo.cpp:228
 msgid "Sep"
-msgstr ""
+msgstr "Sep"
 
 #: kfile/kfileinfo.cpp:229
 msgid "Oct"
-msgstr ""
+msgstr "Oct"
 
 #: kfile/kfileinfo.cpp:230
 msgid "Nov"
-msgstr ""
+msgstr "Nov"
 
 #: kfile/kfileinfo.cpp:231
 msgid "Dec"
-msgstr ""
+msgstr "Déc"
 
-#: kab/editentry.cc:64 kfile/kpreview.cpp:187
+#: kab/editentry.cc:63 kfile/kpreview.cpp:187
 msgid "Name:"
-msgstr ""
+msgstr "Nom :"
 
 #: kfile/kpreview.cpp:205
 msgid "Date:"
-msgstr ""
+msgstr "Date :"
 
 #: kfile/kpreview.cpp:214
 msgid "Owner:"
-msgstr ""
+msgstr "Propriétaire :"
 
 #: kfile/kpreview.cpp:223
 msgid "Group:"
-msgstr ""
+msgstr "Groupe :"
 
 #: kfile/kpreview.cpp:232
 msgid "Type:"
-msgstr ""
+msgstr "Type :"
 
 #: kfile/kpreview.cpp:287
 msgid "locked"
-msgstr ""
+msgstr "fermé"
 
 #: kfile/kpreview.cpp:311
 msgid "picture"
-msgstr ""
+msgstr "image"
 
 #: kfile/kpreview.cpp:343
 msgid "folder"
-msgstr ""
+msgstr "dossier"
 
+# , c-format
 #: kfmlib/kfm.cpp:197
 #, c-format
 msgid ""
 "You dont have the file %s\n"
 "Could not do Authorization"
 msgstr ""
+"Le fichier %s n'existe pas !\n"
+"Je ne peux pas autoriser cela."
 
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210 kio/kmimetypes.cc:61
 #: kio/kmimetypes.cc:88 kio/kmimetypes.cc:134 kio/kregfactories.cc:75
 #: kio/krun.cc:105 kio/kservices.cc:114
 msgid "KFM Error"
-msgstr ""
+msgstr "Erreur de KFM"
 
+# , c-format
 #: kfmlib/kfm.cpp:208
 #, c-format
 msgid ""
 "The file %s is corrupted\n"
 "Could not do Authorization"
 msgstr ""
+"Le fichier %s est corrompu !\n"
+"Je ne peux pas autoriser cela."
 
 #: kab/widget.cc:157 kab/widget.cc:1141 kab/widget.cc:1199 kab/widget.cc:1210
 #: kab/widget.cc:1913 kab/widget.cc:2000 kab/widget.cc:2084 kab/widget.cc:2129
@@ -1110,331 +1161,332 @@ msgstr ""
 #: kio/kmimetypes.cc:599 kio/kmimetypes.cc:659 kio/kmimetypes.cc:691
 #: kio/krun.cc:40 kio/krun.cc:512 po/texts.cpp:24
 msgid "Error"
-msgstr ""
+msgstr "Erreur"
 
 #: kio/krun.cc:102 kio/krun.cc:509 po/texts.cpp:25
 msgid "Malformed URL"
-msgstr ""
+msgstr "URL mal formée"
 
 #: kio/kio_paste.cc:85 po/texts.cpp:29
 msgid "Warning"
-msgstr ""
+msgstr "Attention"
 
 #: po/texts.cpp:30
 msgid "Save a file"
-msgstr ""
+msgstr "Enregistrer un fichier"
 
 #: po/texts.cpp:31
 msgid "Contents"
-msgstr ""
+msgstr "Contenu"
 
 #: po/texts.cpp:33
 msgid "A&bout..."
-msgstr ""
+msgstr "&A propos..."
 
 #: po/texts.cpp:37
 msgid "On"
-msgstr ""
+msgstr "Allumé"
 
 #: po/texts.cpp:38
 msgid "Off"
-msgstr ""
+msgstr "Eteint"
 
 #: po/texts.cpp:42
 msgid "File"
-msgstr ""
+msgstr "Fichier"
 
 #: po/texts.cpp:43
 msgid "&File"
-msgstr ""
+msgstr "&Fichier"
 
 #: po/texts.cpp:46
 msgid "Edit"
-msgstr ""
+msgstr "Edition"
 
 #: po/texts.cpp:47
 msgid "&Edit"
-msgstr ""
+msgstr "&Edition"
 
 #: po/texts.cpp:48
 msgid "&Options"
-msgstr ""
+msgstr "&Options"
 
 #: po/texts.cpp:49
 msgid "View"
-msgstr ""
+msgstr "Affichage"
 
 #: po/texts.cpp:50
 msgid "&View"
-msgstr ""
+msgstr "&Affichage"
 
 #: po/texts.cpp:51
 msgid "E&xit"
-msgstr ""
+msgstr "&Sortir"
 
 #: po/texts.cpp:53
 msgid "&Quit"
-msgstr ""
+msgstr "&Quitter"
 
 #: po/texts.cpp:57
 msgid "&Copy"
-msgstr ""
+msgstr "&Copier"
 
 #: po/texts.cpp:59
 msgid "&Paste"
-msgstr ""
+msgstr "C&oller"
 
 #: po/texts.cpp:60
 msgid "&New Window..."
-msgstr ""
+msgstr "&Nouvelle fenêtre..."
 
 #: po/texts.cpp:61
 msgid "New &Window..."
-msgstr ""
+msgstr "Nouvelle &fenêtre..."
 
 #: po/texts.cpp:62
 msgid "&New Window"
-msgstr ""
+msgstr "Nouvelle &fenêtre"
 
 #: po/texts.cpp:63
 msgid "New Game"
-msgstr ""
+msgstr "Nouveau jeu"
 
 #: po/texts.cpp:64
 msgid "&New Game"
-msgstr ""
+msgstr "&Nouveau jeu"
 
 #: po/texts.cpp:66
 msgid "Open a file"
-msgstr ""
+msgstr "Ouvrir un fichier"
 
 #: po/texts.cpp:67
 msgid "Open..."
-msgstr ""
+msgstr "Ouvrir..."
 
 #: po/texts.cpp:68
 msgid "&Open..."
-msgstr ""
+msgstr "&Ouvrir..."
 
 #: po/texts.cpp:70
 msgid "&Cut"
-msgstr ""
+msgstr "&Couper"
 
 #: po/texts.cpp:71
 msgid "C&ut"
-msgstr ""
+msgstr "Co&uper"
 
 #: po/texts.cpp:72
 msgid "Font"
-msgstr ""
+msgstr "Police"
 
 #: po/texts.cpp:73
 msgid "&Foreground Color"
-msgstr ""
+msgstr "Couleur de &premier plan"
 
 #: po/texts.cpp:74
 msgid "&Background Color"
-msgstr ""
+msgstr "Couleur d'&arrière plan"
 
 #: po/texts.cpp:76
 msgid "&Save"
-msgstr ""
+msgstr "&Enregistrer"
 
 #: po/texts.cpp:78
 msgid "Save as..."
-msgstr ""
+msgstr "Enregistrer sous..."
 
 #: po/texts.cpp:79
 msgid "S&ave as..."
-msgstr ""
+msgstr "Enregistrer &sous..."
 
 #: po/texts.cpp:81
 msgid "&Close"
-msgstr ""
+msgstr "&Fermer"
 
 #: po/texts.cpp:82
 msgid "&Print..."
-msgstr ""
+msgstr "Im&primer..."
 
 #: po/texts.cpp:84
 msgid "Options"
-msgstr ""
+msgstr "Options"
 
 #: po/texts.cpp:85
 msgid "Remove"
-msgstr ""
+msgstr "Enlever"
 
 #: po/texts.cpp:86
 msgid "Add"
-msgstr ""
+msgstr "Ajouter"
 
 #: po/texts.cpp:87
 msgid "Change"
-msgstr ""
+msgstr "Changer"
 
 #: po/texts.cpp:88
 msgid "Delete"
-msgstr ""
+msgstr "Supprimer"
 
 #: po/texts.cpp:89
 msgid "&Delete"
-msgstr ""
+msgstr "&Supprimer"
 
 #: kio/kio_linedit_dlg.cc:46 kio/kio_openwith.cc:268 po/texts.cpp:90
 msgid "Clear"
-msgstr ""
+msgstr "Effacer"
 
 #: po/texts.cpp:91
 msgid "Italic"
-msgstr ""
+msgstr "Italique"
 
 #: po/texts.cpp:92
 msgid "Roman"
-msgstr ""
+msgstr "Roman"
 
 #: po/texts.cpp:94
 msgid "&Undo"
-msgstr ""
+msgstr "&Défaire"
 
 #: po/texts.cpp:95
 msgid "Redo"
-msgstr ""
+msgstr "Refaire"
 
 #: po/texts.cpp:96
 msgid "&Redo"
-msgstr ""
+msgstr "&Refaire"
 
 #: po/texts.cpp:97
 msgid "&Game"
-msgstr ""
+msgstr "&Jeu"
 
 #: kio/kio_rename_dlg.cc:22 kio/kio_skip_dlg.cc:18 po/texts.cpp:98
 msgid "Information"
-msgstr ""
+msgstr "Information"
 
 #: po/texts.cpp:99
 msgid "Browse..."
-msgstr ""
+msgstr "Parcourir..."
 
 #: po/texts.cpp:100
 msgid "Stop"
-msgstr ""
+msgstr "Stop"
 
 #: po/texts.cpp:101
 msgid "&Remove"
-msgstr ""
+msgstr "&Effacer"
 
 #: po/texts.cpp:102
 msgid "&Properties..."
-msgstr ""
+msgstr "&Propriétés..."
 
 #: po/texts.cpp:103
 msgid "Properties"
-msgstr ""
+msgstr "Propriétés"
 
 #: po/texts.cpp:104
 msgid "&Start"
-msgstr ""
+msgstr "&Démarrer"
 
 #: po/texts.cpp:105
 msgid "St&op"
-msgstr ""
+msgstr "&Stop"
 
 #: po/texts.cpp:106
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Divers"
 
 #: po/texts.cpp:107
 msgid "Font Size"
-msgstr ""
+msgstr "Taille de la police"
 
 #: po/texts.cpp:108
 msgid "Fonts"
-msgstr ""
+msgstr "Polices"
 
 #: po/texts.cpp:109
 msgid "&Fonts"
-msgstr ""
+msgstr "&Polices"
 
 #: po/texts.cpp:110
 msgid "&Reload"
-msgstr ""
+msgstr "&Recharger"
 
 #: po/texts.cpp:111
 msgid "Files"
-msgstr ""
+msgstr "Fichiers"
 
 #: kab/widget.cc:1361 kab/widget.cc:1403 po/texts.cpp:112
 msgid "Continue"
-msgstr ""
+msgstr "Continuer"
 
 #: po/texts.cpp:113
 msgid "Restore"
-msgstr ""
+msgstr "Restaurer"
 
 #: po/texts.cpp:114
 msgid "Appearance"
-msgstr ""
+msgstr "Apparence"
 
 #: po/texts.cpp:116
 msgid "Monday"
-msgstr ""
+msgstr "Lundi"
 
 #: po/texts.cpp:117
 msgid "Tuesday"
-msgstr ""
+msgstr "Mardi"
 
 #: po/texts.cpp:118
 msgid "Wednesday"
-msgstr ""
+msgstr "Mercredi"
 
 #: po/texts.cpp:119
 msgid "Thursday"
-msgstr ""
+msgstr "Jeudi"
 
 #: po/texts.cpp:120
 msgid "Friday"
-msgstr ""
+msgstr "Vendredi"
 
 #: po/texts.cpp:121
 msgid "Saturday"
-msgstr ""
+msgstr "Samedi"
 
 #: po/texts.cpp:122
 msgid "Sunday"
-msgstr ""
+msgstr "Dimanche"
 
 #: po/texts.cpp:123
 msgid "&Update"
-msgstr ""
+msgstr "&Mettre à jour"
 
 #: po/texts.cpp:124
 msgid "Layout"
-msgstr ""
+msgstr "Orientation"
 
 #: po/texts.cpp:125
 msgid "Highscore"
-msgstr ""
+msgstr "Meilleur score"
 
 #: po/texts.cpp:126
 msgid "&New View"
-msgstr ""
+msgstr "&Nouvelle vue"
 
 #: po/texts.cpp:127
 msgid "&Insert"
-msgstr ""
+msgstr "&Insérer"
 
 #: po/texts.cpp:130
 msgid "&Next >>"
-msgstr ""
+msgstr "&Suivant >>"
 
 #: po/texts.cpp:131
 msgid "<< &Previous"
-msgstr ""
+msgstr "<< &Précédent"
 
 #: po/texts.cpp:138
+#, fuzzy
 msgid "&About..."
-msgstr ""
+msgstr "&A propos..."
 
 #: kab/addressbook.cc:88
 msgid ""
@@ -1469,288 +1521,300 @@ msgstr ""
 msgid "Tried to load database for creating backup, but failed"
 msgstr ""
 
-#: kab/addressbook.cc:192
+#: kab/addressbook.cc:191
 msgid "Unable to save to backup file."
 msgstr ""
 
-#: kab/addressbook.cc:198
+#: kab/addressbook.cc:197
 msgid "Unable to reset filename after creating backup."
 msgstr ""
 
-#: kab/addressbook.cc:203
+#: kab/addressbook.cc:202
 msgid "Unable to create backup file"
 msgstr ""
 
-#: kab/addressbook.cc:256
+#: kab/addressbook.cc:255
 msgid "Unable to insert \""
 msgstr ""
 
-#: kab/addressbook.cc:257
+#: kab/addressbook.cc:256
 msgid "\" into configuration section (ignored)."
 msgstr ""
 
-#: kab/addressbook.cc:659
+#: kab/addressbook.cc:658
 msgid "Unable to add a new entry with available key."
 msgstr ""
 
-#: kab/addressbook.cc:665
+#: kab/addressbook.cc:664
 msgid "Cannot find previously created section."
 msgstr ""
 
-#: kab/addressbook.cc:696
+#: kab/addressbook.cc:695
 msgid "Unable to create key-value-map for entry."
 msgstr ""
 
-#: kab/addressbook.cc:925
+#: kab/addressbook.cc:924
 msgid "entry without name"
 msgstr ""
 
-#: kab/addressbook.cc:943
+#: kab/addressbook.cc:942
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
 msgstr ""
 
-#: kab/addressbook.cc:949
+#: kab/addressbook.cc:948
 msgid "Cannot create configuration section, exiting."
 msgstr ""
 
-#: kab/addressbook.cc:954
+#: kab/addressbook.cc:953
 msgid "Cannot create entries section, exiting."
 msgstr ""
 
-#: kab/addressbook.cc:959
+#: kab/addressbook.cc:958
 msgid "Unable to find previously created section, exiting."
 msgstr ""
 
-#: kab/addressbook.cc:967
+#: kab/addressbook.cc:966
 msgid "Cannot save newly created database."
 msgstr ""
 
-#: kab/addressbook.cc:973
+#: kab/addressbook.cc:972
 msgid "Cannot erase database contents."
 msgstr ""
 
-#: kab/addressbook.cc:1052
+#: kab/addressbook.cc:1051
 msgid "First name"
 msgstr ""
 
-#: kab/addressbook.cc:1056
+#: kab/addressbook.cc:1055
 msgid "Additional name"
 msgstr ""
 
-#: kab/addressbook.cc:1060
+#: kab/addressbook.cc:1059
 msgid "Name prefix"
 msgstr ""
 
-#: kab/addressbook.cc:1064
+#: kab/addressbook.cc:1063
 msgid "Formatted name"
 msgstr ""
 
-#: kab/addressbook.cc:1068
+#: kab/addressbook.cc:1067
+#, fuzzy
 msgid "Comment"
-msgstr ""
+msgstr "Contenu"
 
-#: kab/addressbook.cc:1072
+#: kab/addressbook.cc:1071
 msgid "Organization"
 msgstr ""
 
-#: kab/addressbook.cc:1076
+#: kab/addressbook.cc:1075
+#, fuzzy
 msgid "Unit"
-msgstr ""
+msgstr "Sans titre"
 
-#: kab/addressbook.cc:1080
+#: kab/addressbook.cc:1079
+#, fuzzy
 msgid "Subunit"
-msgstr ""
+msgstr "Dim"
 
-#: kab/addressbook.cc:1084
+#: kab/addressbook.cc:1083
+#, fuzzy
 msgid "Title"
-msgstr ""
+msgstr "fichier"
 
-#: kab/addressbook.cc:1088
+#: kab/addressbook.cc:1087
+#, fuzzy
 msgid "Role"
-msgstr ""
+msgstr "dossier"
 
-#: kab/addressbook.cc:1092
+#: kab/addressbook.cc:1091
 msgid "Birthday"
 msgstr ""
 
-#: kab/addressbook.cc:1096
+#: kab/addressbook.cc:1095
 msgid "Talk addresses"
 msgstr ""
 
-#: kab/addressbook.cc:1100
+#: kab/addressbook.cc:1099
 msgid "Delivery label"
 msgstr ""
 
-#: kab/addressbook.cc:1104
+#: kab/addressbook.cc:1103
 msgid "Email address"
 msgstr ""
 
-#: kab/addressbook.cc:1108
+#: kab/addressbook.cc:1107
 msgid "Second email address"
 msgstr ""
 
-#: kab/addressbook.cc:1112
+#: kab/addressbook.cc:1111
 msgid "Third email address"
 msgstr ""
 
-#: kab/addressbook.cc:1116
+#: kab/addressbook.cc:1115
 msgid "Email addresses"
 msgstr ""
 
-#: kab/addressbook.cc:1120
+#: kab/addressbook.cc:1119
+#, fuzzy
 msgid "Address"
-msgstr ""
+msgstr "Ajouter"
 
-#: kab/addressbook.cc:1124
+#: kab/addressbook.cc:1123
 msgid "City/Town"
 msgstr ""
 
-#: kab/addressbook.cc:1128
+#: kab/addressbook.cc:1127
 msgid "Telephone"
 msgstr ""
 
-#: kab/addressbook.cc:1132
+#: kab/addressbook.cc:1131
 msgid "Fax number"
 msgstr ""
 
-#: kab/addressbook.cc:1136
+#: kab/addressbook.cc:1135
+#, fuzzy
 msgid "Modem number"
-msgstr ""
+msgstr "Novembre"
 
-#: kab/addressbook.cc:1140
+#: kab/addressbook.cc:1139
 msgid "Homepage URL"
 msgstr ""
 
-#: kab/addressbook.cc:1144
+#: kab/addressbook.cc:1143
 msgid "Zip/postal code"
 msgstr ""
 
-#: kab/addressbook.cc:1148
+#: kab/addressbook.cc:1147
 msgid "State/province"
 msgstr ""
 
-#: kab/addressbook.cc:1152
+#: kab/addressbook.cc:1151
+#, fuzzy
 msgid "Country"
-msgstr ""
+msgstr "Couper"
 
-#: kab/addressbook.cc:1319
+#: kab/addressbook.cc:1318
 msgid "(unnamed entry)"
 msgstr ""
 
 #: kab/datepickerdialog.cc:34
+#, fuzzy
 msgid "Select birthday"
-msgstr ""
+msgstr "Choisir une police"
 
-#: kab/editentry.cc:38
+#: kab/editentry.cc:37
 msgid "Edit the current entry"
 msgstr ""
 
-#: kab/editentry.cc:61
+#: kab/editentry.cc:60
+#, fuzzy
 msgid "Title:"
-msgstr ""
+msgstr "Style :"
 
-#: kab/editentry.cc:62
+#: kab/editentry.cc:61
 msgid "First name:"
 msgstr ""
 
-#: kab/editentry.cc:63
+#: kab/editentry.cc:62
 msgid "Additional Name:"
 msgstr ""
 
-#: kab/editentry.cc:65
+#: kab/editentry.cc:64
 msgid "Formatted Name:"
 msgstr ""
 
-#: kab/editentry.cc:88
+#: kab/editentry.cc:87
+#, fuzzy
 msgid "&Name"
-msgstr ""
+msgstr "Nom"
 
-#: kab/editentry.cc:103
+#: kab/editentry.cc:104
 msgid "Address:"
 msgstr ""
 
-#: kab/editentry.cc:104
+#: kab/editentry.cc:105
 msgid "Zip/postal code:"
 msgstr ""
 
-#: kab/editentry.cc:105
+#: kab/editentry.cc:106
 msgid "Town:"
 msgstr ""
 
-#: kab/editentry.cc:106
-msgid "State:"
-msgstr ""
-
 #: kab/editentry.cc:107
+#, fuzzy
+msgid "State:"
+msgstr "Date :"
+
+#: kab/editentry.cc:108
 msgid "Country:"
 msgstr ""
 
-#: kab/editentry.cc:130
+#: kab/editentry.cc:131
 msgid "&Address"
 msgstr ""
 
-#: kab/editentry.cc:145
+#: kab/editentry.cc:148
 msgid "Organization:"
 msgstr ""
 
-#: kab/editentry.cc:146
+#: kab/editentry.cc:149
 msgid "Org Unit:"
 msgstr ""
 
-#: kab/editentry.cc:147
+#: kab/editentry.cc:150
 msgid "Org Subunit:"
 msgstr ""
 
-#: kab/editentry.cc:148
+#: kab/editentry.cc:151
+#, fuzzy
 msgid "Role:"
-msgstr ""
+msgstr "Répertoires :"
 
-#: kab/editentry.cc:169
+#: kab/editentry.cc:172
 msgid "&Organization"
 msgstr ""
 
-#: kab/editentry.cc:184
+#: kab/editentry.cc:189
 msgid "Telephone:"
 msgstr ""
 
-#: kab/editentry.cc:185
+#: kab/editentry.cc:190
 msgid "Fax:"
 msgstr ""
 
-#: kab/editentry.cc:186
+#: kab/editentry.cc:191
+#, fuzzy
 msgid "Modem:"
-msgstr ""
+msgstr "Déplacer"
 
-#: kab/editentry.cc:187
+#: kab/editentry.cc:192
 msgid "Homepage (URL):"
 msgstr ""
 
-#: kab/editentry.cc:200 kab/editentry.cc:416
+#: kab/editentry.cc:206 kab/editentry.cc:434
 msgid "Edit email addresses"
 msgstr ""
 
-#: kab/editentry.cc:206 kab/editentry.cc:398
+#: kab/editentry.cc:212 kab/editentry.cc:416
 msgid "Edit talk addresses"
 msgstr ""
 
-#: kab/editentry.cc:218
+#: kab/editentry.cc:224
+#, fuzzy
 msgid "&Contact"
-msgstr ""
+msgstr "&Contenu"
 
-#: kab/editentry.cc:239
+#: kab/editentry.cc:247
+#, fuzzy
 msgid "Comment:"
-msgstr ""
+msgstr "Contenus :"
 
-#: kab/editentry.cc:246
+#: kab/editentry.cc:254
 msgid "Birthday:"
 msgstr ""
 
-#: kab/editentry.cc:249
-msgid "Double click to set date"
-msgstr ""
-
-#: kab/editentry.cc:256
+#: kab/editentry.cc:264
 msgid "O&thers"
 msgstr ""
 
@@ -1830,24 +1894,28 @@ msgid ""
 msgstr ""
 
 #: kab/widget.cc:308
+#, fuzzy
 msgid "Could not save database after update."
-msgstr ""
+msgstr "Le document ne peut pas être enregistré.\n"
 
 #: kab/widget.cc:316
 msgid "Unable to reopen database file r/o."
 msgstr ""
 
 #: kab/widget.cc:477
+#, fuzzy
 msgid "first entry"
-msgstr ""
+msgstr "répertoire"
 
 #: kab/widget.cc:478
+#, fuzzy
 msgid "previous entry"
-msgstr ""
+msgstr "&Précédent"
 
 #: kab/widget.cc:479
+#, fuzzy
 msgid "next entry"
-msgstr ""
+msgstr "un répertoire"
 
 #: kab/widget.cc:480
 msgid "last entry"
@@ -1882,12 +1950,14 @@ msgid "Sorry, file changed."
 msgstr ""
 
 #: kab/widget.cc:620 kab/widget.cc:674 kab/widget.cc:911
+#, fuzzy
 msgid "Permission denied."
-msgstr ""
+msgstr "Permissions"
 
 #: kab/widget.cc:631
+#, fuzzy
 msgid "Remove entry?"
-msgstr ""
+msgstr "Enlever"
 
 #: kab/widget.cc:632
 msgid "Really remove this entry?"
@@ -1934,20 +2004,23 @@ msgid "kab: File error"
 msgstr ""
 
 #: kab/widget.cc:860
+#, fuzzy
 msgid "Could not save database."
-msgstr ""
+msgstr "Le document ne peut pas être enregistré.\n"
 
 #: kab/widget.cc:861
+#, fuzzy
 msgid "&Retry"
-msgstr ""
+msgstr "Restaurer"
 
 #: kab/widget.cc:861
 msgid "&Ignore"
 msgstr ""
 
 #: kab/widget.cc:864
+#, fuzzy
 msgid "Saving cancelled.\n"
-msgstr ""
+msgstr "Annuler"
 
 #: kab/widget.cc:930
 msgid "Entry changed."
@@ -1990,8 +2063,9 @@ msgid "Available talk addresses:"
 msgstr ""
 
 #: kab/widget.cc:1176 kab/widget.cc:1904
+#, fuzzy
 msgid "Cancelled."
-msgstr ""
+msgstr "Annuler"
 
 #: kab/widget.cc:1199
 msgid "The talk command parameters are wrong."
@@ -2055,8 +2129,9 @@ msgid "Name-Email-Link (!!)"
 msgstr ""
 
 #: kab/widget.cc:1784
+#, fuzzy
 msgid "Select table columns"
-msgstr ""
+msgstr "Selectionner une icône"
 
 #: kab/widget.cc:1789
 msgid "Nothing to export."
@@ -2111,8 +2186,9 @@ msgid "No email address."
 msgstr ""
 
 #: kab/widget.cc:2060
+#, fuzzy
 msgid "Error calling mailer."
-msgstr ""
+msgstr "Erreur : fichier non local"
 
 #: kab/widget.cc:2062
 msgid "Mailer called."
@@ -2167,12 +2243,14 @@ msgid "Expiration Date"
 msgstr ""
 
 #: kio/kio_cache.cc:422
+#, fuzzy
 msgid "Unknown"
-msgstr ""
+msgstr "inconnu"
 
 #: kio/kio_cache.cc:428
+#, fuzzy
 msgid "Never"
-msgstr ""
+msgstr "Novembre"
 
 #: kio/kio_error.cc:16
 #, c-format
@@ -2182,18 +2260,18 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:19
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Could not write to\n"
 "%s"
-msgstr ""
+msgstr "Le document ne peut pas être enregistré.\n"
 
 #: kio/kio_error.cc:22
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Could not start process\n"
 "%s"
-msgstr ""
+msgstr "Le document ne peut pas être enregistré.\n"
 
 #: kio/kio_error.cc:25
 #, c-format
@@ -2205,11 +2283,11 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:28
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Malformed URL\n"
 "%s"
-msgstr ""
+msgstr "URL mal formée"
 
 #: kio/kio_error.cc:31
 #, c-format
@@ -2233,12 +2311,12 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:40
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "The file or directory\n"
 "%s\n"
 "does not exist"
-msgstr ""
+msgstr "Le fichier spécifié n'existe pas"
 
 #: kio/kio_error.cc:43
 #, c-format
@@ -2249,11 +2327,11 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:46
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Could not make directory\n"
 "%s"
-msgstr ""
+msgstr "un répertoire"
 
 #: kio/kio_error.cc:49
 #, c-format
@@ -2271,11 +2349,11 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:55
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Could not enter directory\n"
 "%s"
-msgstr ""
+msgstr "Le document ne peut pas être enregistré.\n"
 
 #: kio/kio_error.cc:58
 #, c-format
@@ -2292,11 +2370,11 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:64
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Could not change permissions for\n"
 "%s"
-msgstr ""
+msgstr "Vous n'avez pas la permission d'écrire dans ce fichier.\n"
 
 #: kio/kio_error.cc:67
 #, c-format
@@ -2327,11 +2405,11 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:79
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Could not connect to host\n"
 "%s"
-msgstr ""
+msgstr "Le document ne peut pas être enregistré.\n"
 
 #: kio/kio_error.cc:82
 #, c-format
@@ -2398,7 +2476,7 @@ msgstr ""
 #: kio/kmimetypes.cc:659 kio/kmimetypes.cc:691 kio/kregfactories.cc:75
 #: kio/krun.cc:40 kio/krun.cc:105 kio/krun.cc:512 kio/kservices.cc:114
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: kio/kio_job.cc:137
 #, c-format
@@ -2415,8 +2493,9 @@ msgid "This group is empty!"
 msgstr ""
 
 #: kio/kio_openwith.cc:264
+#, fuzzy
 msgid "&Browser"
-msgstr ""
+msgstr "Parcourir..."
 
 #: kio/kio_pass_dlg.cc:33
 msgid "User"
@@ -2444,9 +2523,11 @@ msgid "You did not enter a filename"
 msgstr ""
 
 #: kio/kio_paste.cc:84
-#, c-format
+#, fuzzy, c-format
 msgid "The file %s does already exist. Do you really want to overwrite it ?"
 msgstr ""
+"Un document avec ce nom existe déjà.\n"
+"Voulez-vous l'écraser ?"
 
 #: kio/kio_progress_dlg.cc:92 kio/kio_progress_dlg.cc:108
 msgid " Bytes"
@@ -2461,8 +2542,9 @@ msgid " Mb"
 msgstr ""
 
 #: kio/kio_progress_dlg.cc:151 kio/kio_progress_dlg.cc:177
+#, fuzzy
 msgid "Stalled"
-msgstr ""
+msgstr "Style"
 
 #: kio/kio_progress_dlg.cc:159
 msgid " Bytes/s"
@@ -2497,20 +2579,23 @@ msgid "%i%s  Remaining time: %s"
 msgstr ""
 
 #: kio/kio_progress_dlg.cc:207
+#, fuzzy
 msgid "Scanning "
-msgstr ""
+msgstr "Attention"
 
 #: kio/kio_progress_dlg.cc:222
+#, fuzzy
 msgid "Creating dir "
-msgstr ""
+msgstr "Créer un nouveau répertoire"
 
 #: kio/kio_progress_dlg.cc:229
 msgid "Fetching file"
 msgstr ""
 
 #: kio/kio_rename_dlg.cc:27
+#, fuzzy
 msgid "Rename"
-msgstr ""
+msgstr "Enlever"
 
 #: kio/kio_rename_dlg.cc:32 kio/kio_skip_dlg.cc:23
 msgid "Skip"
@@ -2549,8 +2634,9 @@ msgid "Do you want to rename it ?"
 msgstr ""
 
 #: kio/kio_rename_dlg.cc:185
+#, fuzzy
 msgid "Malformed URL\n"
-msgstr ""
+msgstr "URL mal formée"
 
 #: kio/kio_rename_dlg.cc:194
 msgid "You must not change the protocol"
@@ -2609,8 +2695,9 @@ msgid ""
 msgstr ""
 
 #: kio/kmimetypes.cc:608
+#, fuzzy
 msgid "Mount"
-msgstr ""
+msgstr "Lun"
 
 #: kio/kmimetypes.cc:615
 msgid "Unmount"
@@ -2646,3 +2733,44 @@ msgid ""
 "\n"
 "does not conatain a Name=... entry"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Search"
+#~ msgstr "Mars"
+
+#, fuzzy
+#~ msgid "contains"
+#~ msgstr "Contenu"
+
+#~ msgid "&New"
+#~ msgstr "&Nouveau"
+
+#~ msgid "&New..."
+#~ msgstr "&Nouveau..."
+
+#~ msgid "Move"
+#~ msgstr "Déplacer"
+
+#~ msgid "&Previous"
+#~ msgstr "&Précédent"
+
+#~ msgid "&Next"
+#~ msgstr "&Suivant"
+
+#~ msgid "Small"
+#~ msgstr "Petite"
+
+#~ msgid "Medium"
+#~ msgstr "Moyenne"
+
+#~ msgid "Large"
+#~ msgstr "Grande"
+
+#~ msgid "(none)"
+#~ msgstr "(aucun)"
+
+#~ msgid "None"
+#~ msgstr "Aucun"
+
+#~ msgid "&Ok"
+#~ msgstr "&Ok"

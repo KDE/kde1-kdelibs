@@ -1,23 +1,19 @@
- done.
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-01 01:02+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 1998-11-01 13:56+0100\n"
+"PO-Revision-Date: 1998-03-11 HO:MI+ZONE\n"
+"Last-Translator: Theodore J. Soldatos <theodore@eexi.gr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
+# , fuzzy
 #: kab/AssertDialog.cpp:29
+#, fuzzy
 msgid "(unknown file)"
-msgstr ""
+msgstr "ταχύτητα άγνωστη"
 
 #: kab/AssertDialog.cpp:30
 msgid "(unknown line number)"
@@ -53,15 +49,17 @@ msgstr ""
 #: kfile/kfiledialog.cpp:881 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:403
 #: po/texts.cpp:35
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: kab/AssertDialog.cpp:140
 msgid "The following condition failed:\n"
 msgstr ""
 
+# , fuzzy
 #: kab/AssertDialog.cpp:141
+#, fuzzy
 msgid "In file "
-msgstr ""
+msgstr "Αρχείο"
 
 #: kab/AssertDialog.cpp:141
 msgid ", line "
@@ -71,28 +69,30 @@ msgstr ""
 msgid "Error handling error"
 msgstr ""
 
+# , fuzzy
 #: kab/AssertDialog.cpp:213
+#, fuzzy
 msgid "Could not send message."
-msgstr ""
+msgstr "Δεν μπορώ να αποθηκεύσω το αρχείο\n"
 
 #: kab/AssertDialog.cpp:218
 msgid "The author did not publish an email address."
 msgstr ""
 
-#: kab/DialogBase.cpp:36
+#: kab/DialogBase.cpp:34
 msgid ""
 "If you press the OK button, all changes\n"
 "you made will be used to proceed."
 msgstr ""
 
-#: kab/DialogBase.cpp:39
+#: kab/DialogBase.cpp:37
 msgid ""
 "When clicking apply, the settings will be\n"
 "handed over to the program, but the dialog\n"
 "will not be closed.Use this to try different settings."
 msgstr ""
 
-#: kab/DialogBase.cpp:44
+#: kab/DialogBase.cpp:42
 msgid ""
 "If you press the Cancel button, all changes\n"
 "you made will be abandoned and the dialog\n"
@@ -101,19 +101,22 @@ msgid ""
 "opening the dialog."
 msgstr ""
 
-#: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
+# , fuzzy
+#: kab/DialogBase.cpp:55 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
 #: kdeui/kwizard.cpp:228 po/texts.cpp:36
 msgid "&OK"
-msgstr ""
+msgstr "OK"
 
-#: kab/DialogBase.cpp:58
+#: kab/DialogBase.cpp:56
+#, fuzzy
 msgid "&Apply"
-msgstr ""
+msgstr "Ενεργοποίησε"
 
-#: kab/DialogBase.cpp:59 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
+# , fuzzy
+#: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
 #: kdeui/kwizard.cpp:159 po/texts.cpp:40
 msgid "&Cancel"
-msgstr ""
+msgstr "Ακύρωση"
 
 #: kab/PrintDialog.cpp:26
 msgid "Headline text:"
@@ -144,8 +147,9 @@ msgid "The name prefix"
 msgstr ""
 
 #: kab/SearchDialog.cpp:51
+#, fuzzy
 msgid "The name"
-msgstr ""
+msgstr "Νέο Παιχνίδι"
 
 #: kab/SearchDialog.cpp:52
 msgid "The formatted name"
@@ -207,9 +211,11 @@ msgstr ""
 msgid "The comment"
 msgstr ""
 
+# , fuzzy
 #: kab/SearchDialog.cpp:74
+#, fuzzy
 msgid "kab: Search entries"
-msgstr ""
+msgstr "Ψάξε για:"
 
 #: kab/SearchDialogMainWidget.cpp:22
 msgid "matches"
@@ -234,7 +240,7 @@ msgstr ""
 #: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:24 kio/kio_skip_dlg.cc:20
 #: po/texts.cpp:39
 msgid "Cancel"
-msgstr ""
+msgstr "Ακύρωση"
 
 #: kab/StringListSelectAndReorderSet.cpp:34
 msgid "Possible values:"
@@ -247,80 +253,85 @@ msgstr ""
 #: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:549 kfile/kfiledialog.cpp:1193
 #: kfile/kfiledialog.cpp:1352 kfile/kfiledialog.cpp:1386 po/texts.cpp:65
 msgid "Open"
-msgstr ""
+msgstr "Άνοιξε"
 
 #: kdecore/kaccel.cpp:235
 msgid "New"
-msgstr ""
+msgstr "Νέο"
 
 #: kab/searchresults.cc:30 kdecore/kaccel.cpp:239 po/texts.cpp:80
 msgid "Close"
-msgstr ""
+msgstr "Κλείσε"
 
 #: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1248
 #: kfile/kfiledialog.cpp:1407 po/texts.cpp:75
 msgid "Save"
-msgstr ""
+msgstr "Σώσε"
 
 #: kdecore/kaccel.cpp:247 po/texts.cpp:115
 msgid "Print"
-msgstr ""
+msgstr "Εκτύπωση"
 
 #: kdecore/kaccel.cpp:251 po/texts.cpp:52
 msgid "Quit"
-msgstr ""
+msgstr "Τερματισμός"
 
 #: kdecore/kaccel.cpp:255 po/texts.cpp:69
 msgid "Cut"
-msgstr ""
+msgstr "Αποκοπή"
 
 #: kdecore/kaccel.cpp:259 po/texts.cpp:56
 msgid "Copy"
-msgstr ""
+msgstr "Αντιγραφή"
 
 #: kdecore/kaccel.cpp:263 po/texts.cpp:58
 msgid "Paste"
-msgstr ""
+msgstr "Επικόλληση"
 
 #: kdecore/kaccel.cpp:267 po/texts.cpp:93
 msgid "Undo"
-msgstr ""
+msgstr "Aναίρεση"
 
+# , fuzzy
 #: kdecore/kaccel.cpp:271 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
 #: kdeui/keditcl2.cpp:360 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:676
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786
 msgid "Find"
-msgstr ""
+msgstr "&Αναζήτηση"
 
+# , fuzzy
 #: kdecore/kaccel.cpp:275 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
 #: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:133
 msgid "Replace"
-msgstr ""
+msgstr "&Αντικατάσταση"
 
 #: kdecore/kaccel.cpp:279 po/texts.cpp:134
 msgid "Insert"
 msgstr ""
 
+# , fuzzy
 #: kdecore/kaccel.cpp:283 kfile/kfiledialog.cpp:131
 msgid "Home"
-msgstr ""
+msgstr "Ένταση"
 
 #: kdecore/kaccel.cpp:287
 msgid "End"
 msgstr ""
 
 #: kdecore/kaccel.cpp:291
+#, fuzzy
 msgid "Prior"
-msgstr ""
+msgstr "Λάθος"
 
 #: kdecore/kaccel.cpp:295
+#, fuzzy
 msgid "Next"
-msgstr ""
+msgstr "Επόμενο"
 
 #: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471
 #: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:240 po/texts.cpp:44
 msgid "Help"
-msgstr ""
+msgstr "Βοήθεια"
 
 #: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:661
 msgid "SHIFT"
@@ -334,21 +345,22 @@ msgstr ""
 msgid "ALT"
 msgstr ""
 
+# , fuzzy
 #: kdecore/kapp.cpp:551 po/texts.cpp:137
 msgid "&Contents"
-msgstr ""
+msgstr "Περιεχόμενα"
 
 #: kdecore/kapp.cpp:557
 msgid "&About"
-msgstr ""
+msgstr "&Σχετικά"
 
 #: kdecore/kapp.cpp:564
 msgid "About &KDE..."
-msgstr ""
+msgstr "Σχετικά με το &KDE..."
 
 #: kdecore/kapp.cpp:585
 msgid "About KDE"
-msgstr ""
+msgstr "Σχετικά με το KDE"
 
 #: kdecore/kapp.cpp:587
 msgid ""
@@ -370,7 +382,7 @@ msgstr ""
 #: kdeui/keditcl2.cpp:473 kdeui/kmsgbox.cpp:294 kdeui/kmsgbox.cpp:310
 #: kio/kio_paste.cc:85 po/texts.cpp:27
 msgid "Yes"
-msgstr ""
+msgstr "Ναι"
 
 #: kdetest/klocaletest.cpp:101 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:434
 #: kdeui/keditcl1.cpp:495 kdeui/keditcl1.cpp:515 kdeui/keditcl1.cpp:1662
@@ -379,60 +391,65 @@ msgstr ""
 #: kdeui/keditcl2.cpp:474 kdeui/kmsgbox.cpp:292 kdeui/kmsgbox.cpp:308
 #: kio/kio_paste.cc:85 po/texts.cpp:28
 msgid "No"
-msgstr ""
+msgstr "Όχι"
 
 #: kdeui/kcolordlg.cpp:285
 msgid "Select Color"
-msgstr ""
+msgstr "Επιλογή Χρώματος"
 
 #: kdeui/kcolordlg.cpp:297
 msgid "System Colors"
-msgstr ""
+msgstr "Χρώματα Συστήματος"
 
 #: kdeui/kcolordlg.cpp:328
 msgid "Custom Colors"
-msgstr ""
+msgstr "Διαμορφωμένα Χρώματα"
 
 #: kdeui/kcolordlg.cpp:341
 msgid "Add to Custom Colors"
-msgstr ""
+msgstr "Προσθήκη Διαμορφωμένου Χρώματος"
 
 #: kdeui/kcolordlg.cpp:788 kdeui/kcolordlg.cpp:840
 msgid "Custom..."
-msgstr ""
+msgstr "Διαμόρφωση"
 
+# , fuzzy
 #: kdeui/kcontrol.cpp:41 kdeui/kcontrol.cpp:58 po/texts.cpp:135
 msgid "Default"
-msgstr ""
+msgstr "Προκαθορισμένα:"
 
 #: kdeui/kcontrol.cpp:47 kdeui/kcontrol.cpp:53 kfile/kfiledialogconf.cpp:59
 #: po/texts.cpp:41
 msgid "Apply"
-msgstr ""
+msgstr "Ενεργοποίησε"
 
+# , fuzzy
 #: kdeui/kdatepik.cpp:102
 msgid "January"
-msgstr ""
+msgstr "Δυαδικό"
 
 #: kdeui/kdatepik.cpp:102
 msgid "February"
 msgstr ""
 
+# , fuzzy
 #: kdeui/kdatepik.cpp:103
 msgid "March"
-msgstr ""
+msgstr "Ψάξιμο"
 
+# , fuzzy
 #: kdeui/kdatepik.cpp:103
 msgid "April"
-msgstr ""
+msgstr "Ενεργοποίησε"
 
 #: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:224
 msgid "May"
 msgstr ""
 
+# , fuzzy
 #: kdeui/kdatepik.cpp:104
 msgid "June"
-msgstr ""
+msgstr "εκτός"
 
 #: kdeui/kdatepik.cpp:105
 msgid "July"
@@ -446,13 +463,15 @@ msgstr ""
 msgid "September"
 msgstr ""
 
+# , fuzzy
 #: kdeui/kdatepik.cpp:106
 msgid "October"
-msgstr ""
+msgstr "’λλα"
 
+# , fuzzy
 #: kdeui/kdatepik.cpp:107
 msgid "November"
-msgstr ""
+msgstr "Αριθμός:"
 
 #: kdeui/kdatepik.cpp:107
 msgid "December"
@@ -462,21 +481,24 @@ msgstr ""
 msgid "(invalid)"
 msgstr ""
 
+# , fuzzy
 #: kdeui/kdatetbl.cpp:49
 msgid "Sun"
-msgstr ""
+msgstr "Ήχος"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Mon"
 msgstr ""
 
+# , fuzzy
 #: kdeui/kdatetbl.cpp:49
 msgid "Tue"
-msgstr ""
+msgstr "β‘"
 
+# , fuzzy
 #: kdeui/kdatetbl.cpp:50
 msgid "Wed"
-msgstr ""
+msgstr "κόκκινο"
 
 #: kdeui/kdatetbl.cpp:50
 msgid "Thu"
@@ -486,78 +508,101 @@ msgstr ""
 msgid "Fri"
 msgstr ""
 
+# , fuzzy
 #: kdeui/kdatetbl.cpp:51
 msgid "Sat"
-msgstr ""
+msgstr "Έξυπνα "
 
 #: kab/kabapi.cc:134 kab/widget.cc:817 kab/widget.cc:837 kab/widget.cc:1893
 #: kdeui/keditcl1.cpp:139 kdeui/keditcl1.cpp:168 kdeui/keditcl1.cpp:189
 #: kdeui/keditcl1.cpp:202 kdeui/keditcl1.cpp:1559 po/texts.cpp:83
 msgid "Sorry"
-msgstr ""
+msgstr "Λυπάμαι"
 
+# , fuzzy
 #: kdeui/keditcl1.cpp:140
 msgid "The specified File does not exist"
 msgstr ""
+"Το συγκεκριμένο αρχείο δεν υπάρχει:\n"
+"%s"
 
+# , fuzzy
 #: kdeui/keditcl1.cpp:153 kdeui/keditcl1.cpp:430 kdeui/keditcl1.cpp:511
 #: kdeui/keditcl1.cpp:1715
 msgid "Sorry:"
-msgstr ""
+msgstr "Λυπάμαι"
 
+# , fuzzy
 #: kdeui/keditcl1.cpp:154
 msgid "You have specificated a directory"
-msgstr ""
+msgstr "Δεν έχετε το δικαίωμανα διαγράψετε αυτόν τον κατάλογο"
 
+# , fuzzy
 #: kdeui/keditcl1.cpp:169 kdeui/keditcl1.cpp:190
 msgid "You do not have read permission to this file."
 msgstr ""
+"Δεν έχετε δικαιώματα πρόσβασης στο αρχείο:\n"
+"%s"
 
 #: kdeui/keditcl1.cpp:203
 msgid "An Error occured while trying to open this Document"
 msgstr ""
 
+# , fuzzy
 #: kdeui/keditcl1.cpp:373
 msgid "Select Document to Insert"
-msgstr ""
+msgstr "Στείλε το έγγραφο στη διεύθυνση:"
 
+# , fuzzy
 #: kdeui/keditcl1.cpp:409 kdeui/keditcl1.cpp:491 kdeui/keditcl1.cpp:1658
 msgid "Warning:"
-msgstr ""
+msgstr "Προειδοποίηση: "
 
+# , fuzzy
 #: kdeui/keditcl1.cpp:410 kdeui/keditcl1.cpp:492
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
 msgstr ""
+"Αυτό το έγγραφο τροποποιήθηκε.\n"
+"Θα θέλατε να αποθηκευτεί;"
 
+# , fuzzy
 #: kdeui/keditcl1.cpp:431
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
+"Το κείμενο δεν αποθηκεύτηκε.\n"
+"Θέλετε να εκτυπωθεί ούτως ή άλλως;"
 
+# , fuzzy
 #: kdeui/keditcl1.cpp:462
 msgid "Select Document to Open"
-msgstr ""
+msgstr "Στείλε το έγγραφο στη διεύθυνση:"
 
+# , fuzzy
 #: kdeui/keditcl1.cpp:512
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
+"Το κείμενο δεν αποθηκεύτηκε.\n"
+"Θέλετε να εκτυπωθεί ούτως ή άλλως;"
 
 #: kdeui/keditcl1.cpp:547 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
 msgid "Untitled"
-msgstr ""
+msgstr "Χωρίς τίτλο"
 
+# , fuzzy
 #: kdeui/keditcl1.cpp:1560
 msgid "Could not save the document\n"
-msgstr ""
+msgstr "Δεν μπορώ να αποθηκεύσω το αρχείο\n"
 
+# , fuzzy
 #: kdeui/keditcl1.cpp:1630
 msgid "Save Document As"
-msgstr ""
+msgstr "Σώσιμο Εγγράφου"
 
 #: kdeui/keditcl1.cpp:1659
 msgid ""
@@ -565,9 +610,10 @@ msgid ""
 "Do you want to overwrite it ?"
 msgstr ""
 
+# , fuzzy
 #: kdeui/keditcl1.cpp:1716
 msgid "You do not have write permission to this file.\n"
-msgstr ""
+msgstr "Δεν έχετε δικαιώματα πρόσβασης στο αρχείο:\n"
 
 #: kdeui/keditcl2.cpp:104 kdeui/keditcl2.cpp:361 kdeui/keditcl2.cpp:454
 msgid ""
@@ -592,170 +638,184 @@ msgstr ""
 
 #: kdeui/keditcl2.cpp:688 kdeui/keditcl2.cpp:795
 msgid "Done"
-msgstr ""
+msgstr "Έγινε"
 
+# , fuzzy
 #: kdeui/keditcl2.cpp:768
 msgid "Find:"
-msgstr ""
+msgstr "&Αναζήτηση"
 
+# , fuzzy
 #: kdeui/keditcl2.cpp:778
 msgid "Replace with:"
-msgstr ""
+msgstr "&Αντικατάσταση"
 
+# , fuzzy
 #: kdeui/keditcl2.cpp:792
 msgid "Replace All"
-msgstr ""
+msgstr "&Αντικατάσταση"
 
+# , fuzzy
 #: kdeui/keditcl2.cpp:889
 msgid "Goto Line"
-msgstr ""
+msgstr "&Πήγαινε στην γραμμή"
 
+# , fuzzy
 #: kdeui/keditcl2.cpp:894
 msgid "Go"
-msgstr ""
+msgstr "Συνέχεια"
 
 #: kdeui/kfontdialog.cpp:181
 msgid "Select Font"
-msgstr ""
+msgstr "Επιλογή Γραμματοσειράς"
 
 #: kdeui/kfontdialog.cpp:185
 msgid "Requested Font"
-msgstr ""
+msgstr "Ζητούμενη Γραμματοσειρά"
 
 #: kdeui/kfontdialog.cpp:190
 msgid "Actual Font"
-msgstr ""
+msgstr "Πραγματική Γραμματοσειρά"
 
 #: kdeui/kfontdialog.cpp:194 kdeui/kfontdialog.cpp:198
 msgid "Family:"
-msgstr ""
+msgstr "Οικογένεια:"
 
 #: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:211 po/texts.cpp:26
 msgid "Charset:"
-msgstr ""
+msgstr "Σύνολο εντολών"
 
 #: kdeui/kfontdialog.cpp:218 kdeui/kfontdialog.cpp:223 kfile/kpreview.cpp:196
 msgid "Size:"
-msgstr ""
+msgstr "Μέγεθος:"
 
 #: kdeui/kfontdialog.cpp:230 kdeui/kfontdialog.cpp:235
 msgid "Weight:"
-msgstr ""
+msgstr "Βάρος:"
 
 #: kdeui/kfontdialog.cpp:243 kdeui/kfontdialog.cpp:250
 msgid "Style:"
-msgstr ""
+msgstr "Στυλ"
 
+# , fuzzy
 #: kdeui/kfontdialog.cpp:286
 msgid "Charset"
-msgstr ""
+msgstr "Σύνολο εντολών"
 
 #: kdeui/kfontdialog.cpp:297 kfile/kfiledetaillist.cpp:38
 msgid "Size"
-msgstr ""
+msgstr "Μέγεθος"
 
 #: kdeui/kfontdialog.cpp:338
 msgid "Weight"
-msgstr ""
+msgstr "Βάρος"
 
 #: kdeui/kfontdialog.cpp:339 kdeui/kfontdialog.cpp:480
 msgid "normal"
-msgstr ""
+msgstr "κανονικά"
 
 #: kdeui/kfontdialog.cpp:340 kdeui/kfontdialog.cpp:482
 msgid "bold"
-msgstr ""
+msgstr "έντονα"
 
 #: kdeui/kfontdialog.cpp:351
 msgid "Style"
-msgstr ""
+msgstr "Στυλ"
 
 #: kdeui/kfontdialog.cpp:352 kdeui/kfontdialog.cpp:493
 #: kdeui/kfontdialog.cpp:522
 msgid "roman"
-msgstr ""
+msgstr "απλά"
 
 #: kdeui/kfontdialog.cpp:353 kdeui/kfontdialog.cpp:495
 #: kdeui/kfontdialog.cpp:520
 msgid "italic"
-msgstr ""
+msgstr "πλαγιαστά"
 
 #: kdeui/kfontdialog.cpp:383
 msgid "Dolor Ipse"
-msgstr ""
+msgstr "Ντόλορ Ίπσε"
 
 #: kdeui/kfontdialog.cpp:515
 msgid "Bold"
-msgstr ""
+msgstr "Έντονα"
 
 #: kdeui/kfontdialog.cpp:517
 msgid "Normal"
-msgstr ""
+msgstr "Κανονικά"
 
 #: kdeui/kiconloaderdialog.cpp:237
 msgid "Select Icon"
-msgstr ""
+msgstr "Επέλεξε Εικονίδιο"
 
 #: kdeui/kiconloaderdialog.cpp:242
 msgid "Filter:"
-msgstr ""
+msgstr "Φίλτρο:"
 
 #: kdeui/kkeydialog.cpp:232 kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:205
 #: po/texts.cpp:45
 msgid "&Help"
-msgstr ""
+msgstr "Βοήθεια"
 
+# , fuzzy
 #: kdeui/kkeydialog.cpp:236 po/texts.cpp:136
+#, fuzzy
 msgid "&Defaults"
-msgstr ""
+msgstr "Προκαθορισμένα:"
 
 #: kdeui/kkeydialog.cpp:320
 msgid "Current key"
 msgstr ""
 
+# , fuzzy
 #: kdeui/kkeydialog.cpp:331
+#, fuzzy
 msgid "&Action"
-msgstr ""
+msgstr "Τοποθεσία:"
 
 #: kdeui/kkeydialog.cpp:392
 msgid "&No key"
 msgstr ""
 
+# , fuzzy
 #: kdeui/kkeydialog.cpp:400
+#, fuzzy
 msgid "&Default key"
-msgstr ""
+msgstr "Προκαθορισμένα:"
 
 #: kdeui/kkeydialog.cpp:408
+#, fuzzy
 msgid "&Custom key"
-msgstr ""
+msgstr "Διαμόρφωση"
 
 #: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:731
 msgid "Top"
-msgstr ""
+msgstr "Επάνω"
 
 #: kdeui/kmenubar.cpp:172 kdeui/ktoolbar.cpp:733
 msgid "Bottom"
-msgstr ""
+msgstr "Κάτω"
 
 #: kdeui/kmenubar.cpp:173 kdeui/ktoolbar.cpp:734
 msgid "Floating"
-msgstr ""
+msgstr "Επιπλέον"
 
 #: kdeui/kmenubar.cpp:302 kdeui/kmenubar.cpp:457 kdeui/ktoolbar.cpp:1946
 msgid "Float"
-msgstr ""
+msgstr "Επέπλευσε"
 
 #: kdeui/kmenubar.cpp:446 kdeui/ktoolbar.cpp:1928
 msgid "UnFloat"
-msgstr ""
+msgstr "Βούλιαξε"
 
 #: kdeui/knotebook.cpp:145
 msgid "Trying to add page when no KWizards are added!"
 msgstr ""
 
+# , fuzzy
 #: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:182
 msgid "&Default"
-msgstr ""
+msgstr "Προκαθορισμένα:"
 
 #: kdeui/kquickhelp.cpp:203
 msgid "Quickhelp"
@@ -763,80 +823,92 @@ msgstr ""
 
 #: kdeui/ktoolbar.cpp:237 kdeui/ktoolbar.cpp:288
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr ""
+msgstr "KToolBarButton: το pixmap είναι άδειο, ίσως λοίπει κάποιο αρχείο"
 
 #: kdeui/ktoolbar.cpp:730
 msgid "Left"
-msgstr ""
+msgstr "Αριστερά"
 
 #: kdeui/ktoolbar.cpp:732
 msgid "Right"
-msgstr ""
+msgstr "Δεξιά"
 
+# , fuzzy, c-format
 #: kdeui/kwizard.cpp:531 kdeui/kwizard.cpp:678
 #, c-format
 msgid "Page %d of %d"
-msgstr ""
+msgstr "Γραμμή: %d Στήλη: %d"
 
 #: kfile/bookmark.cpp:246
 msgid "<!-- Do not edit this file -->"
 msgstr ""
 
+# , fuzzy
 #: kfile/kcombiview.cpp:80
 msgid "Folders:"
-msgstr ""
+msgstr "Φάκελλοι"
 
+# , fuzzy
 #: kfile/kcombiview.cpp:81
 msgid "Contents:"
-msgstr ""
+msgstr "Περιεχόμενα"
 
-#: kab/addressbook.cc:1048 kfile/kfiledetaillist.cpp:36
+# , fuzzy
+#: kab/addressbook.cc:1047 kfile/kfiledetaillist.cpp:36
 msgid "Name"
-msgstr ""
+msgstr "Ονομασμένο"
 
+# , fuzzy
 #: kfile/kfiledetaillist.cpp:40
 msgid "Permissions"
-msgstr ""
+msgstr "Συνδέσεις"
 
+# , fuzzy
 #: kfile/kfiledetaillist.cpp:42
 msgid "Date"
-msgstr ""
+msgstr "Ημερομηνία: "
 
+# , fuzzy
 #: kfile/kfiledetaillist.cpp:45
 msgid "Owner"
-msgstr ""
+msgstr "Ένα"
 
+# , fuzzy
 #: kfile/kfiledetaillist.cpp:47
 msgid "Group"
-msgstr ""
+msgstr "Ομάδες: "
 
 #: kfile/kfiledialog.cpp:122 po/texts.cpp:55
 msgid "Back"
-msgstr ""
+msgstr "Πίσω"
 
 #: kfile/kfiledialog.cpp:125
 msgid "Forward"
-msgstr ""
+msgstr "Επόμενο"
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:128
 msgid "Up to parent"
-msgstr ""
+msgstr "Μετακίνηση στη σελίδα"
 
 #: kfile/kfiledialog.cpp:134 po/texts.cpp:54
 msgid "Reload"
-msgstr ""
+msgstr "Επαναφόρτωμα"
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:150
 msgid "Bookmarks"
-msgstr ""
+msgstr "Σελιδοδείκτες"
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:154
 msgid "Create new folder"
-msgstr ""
+msgstr "Αδύνατη η δημιουργία φακέλου"
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:157
 msgid "Search for a file"
-msgstr ""
+msgstr "Ψάξε για:"
 
 #: kfile/kfiledialog.cpp:160
 msgid "Configure this dialog [development only]"
@@ -846,21 +918,25 @@ msgstr ""
 msgid "The path"
 msgstr ""
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:193
 msgid "&Location:"
-msgstr ""
+msgstr "Τοποθεσία:"
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:206
 msgid "&Filter:"
-msgstr ""
+msgstr "Φίλτρο:"
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:220
 msgid "Show hidden"
-msgstr ""
+msgstr "Εμφάνιση του πίνακα"
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:494
 msgid "Error: Not local file"
-msgstr ""
+msgstr "Σφάλμα στο αρχείο πληροφοριών (info file)"
 
 #: kfile/kfiledialog.cpp:495
 msgid ""
@@ -868,15 +944,19 @@ msgid ""
 "But the application accepts just local files."
 msgstr ""
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:509 kfile/kfiledialog.cpp:615
 msgid "Error: Cannot Open Directory"
-msgstr ""
+msgstr "Αδυναμία ανοίγματος ή διαβάσματος υποκαταλόγου."
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:510
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
 msgstr ""
+"Το συγκεκριμένο αρχείο δεν υπάρχει:\n"
+"%s"
 
 #: kfile/kfiledialog.cpp:512 kfile/kfiledialog.cpp:618
 msgid "Dismiss"
@@ -884,56 +964,70 @@ msgstr ""
 
 #: kfile/kfiledialog.cpp:564 kfile/kfiledialog.cpp:1367 po/texts.cpp:77
 msgid "Save As"
-msgstr ""
+msgstr "Σώσε ως"
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:587
 msgid "Root Directory"
-msgstr ""
+msgstr "Είναι ένας κατάλογος"
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:616
 msgid "The specified directory does not exist or was not readable."
 msgstr ""
+"Το συγκεκριμένο αρχείο δεν υπάρχει:\n"
+"%s"
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:866
 msgid "Create new directory in: "
-msgstr ""
+msgstr "Δημιουργώ τον κατάλογο:"
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:869
 msgid "New Directory"
-msgstr ""
+msgstr "Είναι ένας κατάλογος"
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:941
 msgid "Add to bookmarks"
-msgstr ""
+msgstr "Προσθήκη στους σελιδοδείκτες"
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:1227
 msgid "Choose Directory"
-msgstr ""
+msgstr "Είναι ένας κατάλογος"
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:1295
 msgid "directory"
-msgstr ""
+msgstr "Ο κατάλογος "
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:1297
 msgid "directories"
-msgstr ""
+msgstr "Κατάλογοι"
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:1299 kfile/kpreview.cpp:326
 msgid "file"
-msgstr ""
+msgstr "Αρχείο"
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:1301
 msgid "files"
-msgstr ""
+msgstr "Όλα τα αρχεία"
 
+# , c-format
 #: kfile/kfiledialog.cpp:1303
 #, c-format
 msgid "%d %s and %d %s"
 msgstr ""
 
+# , fuzzy
 #: kfile/kfiledialog.cpp:1313
 msgid "one directory"
-msgstr ""
+msgstr "Ο κατάλογος "
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"
@@ -955,39 +1049,46 @@ msgstr ""
 
 #: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
 msgid "About"
-msgstr ""
+msgstr "Σχετικά"
 
+# , fuzzy
 #: kfile/kfiledialogconf.cpp:70
 msgid "View style"
-msgstr ""
+msgstr "Ένωση:"
 
+# , fuzzy
 #: kfile/kfiledialogconf.cpp:74
 msgid "Show Short View"
-msgstr ""
+msgstr "Εμφάνιση &.Αρχείων"
 
+# , fuzzy
 #: kfile/kfiledialogconf.cpp:80
 msgid "Show Detail View"
-msgstr ""
+msgstr "Εμφάνιση &.Αρχείων"
 
 #: kfile/kfiledialogconf.cpp:89
 msgid "Misc"
 msgstr ""
 
+# , fuzzy
 #: kfile/kfiledialogconf.cpp:95
 msgid "Show Filter"
-msgstr ""
+msgstr "Εμφάνιση &.Αρχείων"
 
+# , fuzzy
 #: kfile/kfiledialogconf.cpp:101
 msgid "Show List Labels"
-msgstr ""
+msgstr "Εμφάνιση του πίνακα"
 
+# , fuzzy
 #: kfile/kfiledialogconf.cpp:107
 msgid "Show Hidden"
-msgstr ""
+msgstr "Κρυμμένο"
 
+# , fuzzy
 #: kfile/kfiledialogconf.cpp:113
 msgid "Show Status Line"
-msgstr ""
+msgstr "Εμφάνιση γραμμής κατάστασης"
 
 #: kfile/kfiledialogconf.cpp:119
 msgid "Use single Click"
@@ -1001,21 +1102,24 @@ msgstr ""
 msgid "Keep dirs first"
 msgstr ""
 
+# , fuzzy
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"
-msgstr ""
+msgstr "ταχύτητα άγνωστη"
 
+# , fuzzy
 #: kfile/kfileinfo.cpp:220
 msgid "Jan"
-msgstr ""
+msgstr "και"
 
 #: kfile/kfileinfo.cpp:221
 msgid "Feb"
 msgstr ""
 
+# , fuzzy
 #: kfile/kfileinfo.cpp:222
 msgid "Mar"
-msgstr ""
+msgstr "Σημειωμένο"
 
 #: kfile/kfileinfo.cpp:223
 msgid "Apr"
@@ -1033,54 +1137,65 @@ msgstr ""
 msgid "Aug"
 msgstr ""
 
+# , fuzzy
 #: kfile/kfileinfo.cpp:228
 msgid "Sep"
-msgstr ""
+msgstr "Ρυθμίσεις"
 
 #: kfile/kfileinfo.cpp:229
 msgid "Oct"
 msgstr ""
 
+# , fuzzy
 #: kfile/kfileinfo.cpp:230
 msgid "Nov"
-msgstr ""
+msgstr "Όχι"
 
+# , fuzzy
 #: kfile/kfileinfo.cpp:231
 msgid "Dec"
-msgstr ""
+msgstr "Αποκωδικοποίηση"
 
-#: kab/editentry.cc:64 kfile/kpreview.cpp:187
+# , fuzzy
+#: kab/editentry.cc:63 kfile/kpreview.cpp:187
 msgid "Name:"
-msgstr ""
+msgstr "Ονομασμένο"
 
+# , fuzzy
 #: kfile/kpreview.cpp:205
 msgid "Date:"
-msgstr ""
+msgstr "Ημερομηνία: "
 
+# , fuzzy
 #: kfile/kpreview.cpp:214
 msgid "Owner:"
-msgstr ""
+msgstr "Ένα"
 
+# , fuzzy
 #: kfile/kpreview.cpp:223
 msgid "Group:"
-msgstr ""
+msgstr "Ομάδες: "
 
+# , fuzzy
 #: kfile/kpreview.cpp:232
 msgid "Type:"
-msgstr ""
+msgstr "Τύπος"
 
+# , fuzzy
 #: kfile/kpreview.cpp:287
 msgid "locked"
-msgstr ""
+msgstr "Ρολόι"
 
 #: kfile/kpreview.cpp:311
 msgid "picture"
 msgstr ""
 
+# , fuzzy
 #: kfile/kpreview.cpp:343
 msgid "folder"
-msgstr ""
+msgstr "Φάκελος"
 
+# , c-format
 #: kfmlib/kfm.cpp:197
 #, c-format
 msgid ""
@@ -1088,12 +1203,14 @@ msgid ""
 "Could not do Authorization"
 msgstr ""
 
+# , fuzzy
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210 kio/kmimetypes.cc:61
 #: kio/kmimetypes.cc:88 kio/kmimetypes.cc:134 kio/kregfactories.cc:75
 #: kio/krun.cc:105 kio/kservices.cc:114
 msgid "KFM Error"
-msgstr ""
+msgstr "Λάθος"
 
+# , c-format
 #: kfmlib/kfm.cpp:208
 #, c-format
 msgid ""
@@ -1110,271 +1227,275 @@ msgstr ""
 #: kio/kmimetypes.cc:599 kio/kmimetypes.cc:659 kio/kmimetypes.cc:691
 #: kio/krun.cc:40 kio/krun.cc:512 po/texts.cpp:24
 msgid "Error"
-msgstr ""
+msgstr "Λάθος"
 
 #: kio/krun.cc:102 kio/krun.cc:509 po/texts.cpp:25
 msgid "Malformed URL"
-msgstr ""
+msgstr "Κακοδιατυπωμένη URL"
 
 #: kio/kio_paste.cc:85 po/texts.cpp:29
 msgid "Warning"
-msgstr ""
+msgstr "Προειδοποίηση"
 
 #: po/texts.cpp:30
 msgid "Save a file"
-msgstr ""
+msgstr "Σώσιμο αρχείου"
 
 #: po/texts.cpp:31
 msgid "Contents"
-msgstr ""
+msgstr "Περιεχόμενα"
 
 #: po/texts.cpp:33
 msgid "A&bout..."
-msgstr ""
+msgstr "Σχετικά"
 
 #: po/texts.cpp:37
 msgid "On"
-msgstr ""
+msgstr "Άνοιχτό"
 
 #: po/texts.cpp:38
 msgid "Off"
-msgstr ""
+msgstr "Κλειστό"
 
 #: po/texts.cpp:42
 msgid "File"
-msgstr ""
+msgstr "Αρχείο"
 
 #: po/texts.cpp:43
 msgid "&File"
-msgstr ""
+msgstr "Αρχείο"
 
 #: po/texts.cpp:46
 msgid "Edit"
-msgstr ""
+msgstr "Διορθωση"
 
 #: po/texts.cpp:47
 msgid "&Edit"
-msgstr ""
+msgstr "Διόρθωση"
 
 #: po/texts.cpp:48
 msgid "&Options"
-msgstr ""
+msgstr "Επιλογές"
 
 #: po/texts.cpp:49
 msgid "View"
-msgstr ""
+msgstr "Προβολή"
 
 #: po/texts.cpp:50
 msgid "&View"
-msgstr ""
+msgstr "Προβολή"
 
 #: po/texts.cpp:51
 msgid "E&xit"
-msgstr ""
+msgstr "Διόρθωση"
 
 #: po/texts.cpp:53
 msgid "&Quit"
-msgstr ""
+msgstr "Τερματισμός"
 
 #: po/texts.cpp:57
 msgid "&Copy"
-msgstr ""
+msgstr "Αντιγραφή"
 
 #: po/texts.cpp:59
 msgid "&Paste"
-msgstr ""
+msgstr "Επικόλληση"
 
 #: po/texts.cpp:60
 msgid "&New Window..."
-msgstr ""
+msgstr "Νέο Παράθυρο"
 
 #: po/texts.cpp:61
 msgid "New &Window..."
-msgstr ""
+msgstr "Νέο Παράθυρο"
 
 #: po/texts.cpp:62
 msgid "&New Window"
-msgstr ""
+msgstr "&Νέο Παράθυρο"
 
 #: po/texts.cpp:63
 msgid "New Game"
-msgstr ""
+msgstr "Νέο Παιχνίδι"
 
 #: po/texts.cpp:64
 msgid "&New Game"
-msgstr ""
+msgstr "Νέο Παιχνίδι"
 
 #: po/texts.cpp:66
 msgid "Open a file"
-msgstr ""
+msgstr "Άνοιγμα αρχείου"
 
 #: po/texts.cpp:67
 msgid "Open..."
-msgstr ""
+msgstr "Άνοιξε"
 
 #: po/texts.cpp:68
 msgid "&Open..."
-msgstr ""
+msgstr "Άνοιξε"
 
 #: po/texts.cpp:70
 msgid "&Cut"
-msgstr ""
+msgstr "Αποκοπή"
 
 #: po/texts.cpp:71
 msgid "C&ut"
-msgstr ""
+msgstr "Αποκοπή"
 
 #: po/texts.cpp:72
 msgid "Font"
-msgstr ""
+msgstr "Γραμματοσειρά"
 
 #: po/texts.cpp:73
 msgid "&Foreground Color"
-msgstr ""
+msgstr "Χρώμα Προσκηνίου"
 
 #: po/texts.cpp:74
 msgid "&Background Color"
-msgstr ""
+msgstr "Χρώμα Παρασκηνίου"
 
 #: po/texts.cpp:76
 msgid "&Save"
-msgstr ""
+msgstr "Σώσε"
 
 #: po/texts.cpp:78
 msgid "Save as..."
-msgstr ""
+msgstr "Σώσε ως"
 
 #: po/texts.cpp:79
 msgid "S&ave as..."
-msgstr ""
+msgstr "Σώσε ως"
 
 #: po/texts.cpp:81
 msgid "&Close"
-msgstr ""
+msgstr "Κλείσε"
 
 #: po/texts.cpp:82
 msgid "&Print..."
-msgstr ""
+msgstr "Εκτύπωση"
 
 #: po/texts.cpp:84
 msgid "Options"
-msgstr ""
+msgstr "Επιλογές"
 
 #: po/texts.cpp:85
 msgid "Remove"
-msgstr ""
+msgstr "Αφαίρεση"
 
 #: po/texts.cpp:86
 msgid "Add"
-msgstr ""
+msgstr "Προσθήκη"
 
 #: po/texts.cpp:87
 msgid "Change"
-msgstr ""
+msgstr "Αλλαγή"
 
 #: po/texts.cpp:88
 msgid "Delete"
-msgstr ""
+msgstr "Διαγραφή"
 
 #: po/texts.cpp:89
 msgid "&Delete"
-msgstr ""
+msgstr "Διαγραφή"
 
 #: kio/kio_linedit_dlg.cc:46 kio/kio_openwith.cc:268 po/texts.cpp:90
 msgid "Clear"
-msgstr ""
+msgstr "Καθαρισμός"
 
 #: po/texts.cpp:91
 msgid "Italic"
-msgstr ""
+msgstr "πλαγιαστά"
 
 #: po/texts.cpp:92
 msgid "Roman"
-msgstr ""
+msgstr "απλά"
 
 #: po/texts.cpp:94
 msgid "&Undo"
-msgstr ""
+msgstr "Αναίρεση"
 
 #: po/texts.cpp:95
 msgid "Redo"
-msgstr ""
+msgstr "Επανάληψη"
 
 #: po/texts.cpp:96
 msgid "&Redo"
-msgstr ""
+msgstr "Επανάληψη"
 
 #: po/texts.cpp:97
 msgid "&Game"
-msgstr ""
+msgstr "Παιχνίδι"
 
 #: kio/kio_rename_dlg.cc:22 kio/kio_skip_dlg.cc:18 po/texts.cpp:98
 msgid "Information"
-msgstr ""
+msgstr "Πληροφορίες"
 
 #: po/texts.cpp:99
 msgid "Browse..."
-msgstr ""
+msgstr "Εξερεύνηση"
 
 #: po/texts.cpp:100
 msgid "Stop"
-msgstr ""
+msgstr "Στοπ"
 
 #: po/texts.cpp:101
 msgid "&Remove"
-msgstr ""
+msgstr "Αφαίρεση"
 
+# , fuzzy
 #: po/texts.cpp:102
 msgid "&Properties..."
-msgstr ""
+msgstr "Ιδιότητες..."
 
 #: po/texts.cpp:103
 msgid "Properties"
-msgstr ""
+msgstr "Ιδιότητες"
 
+# , fuzzy
 #: po/texts.cpp:104
 msgid "&Start"
-msgstr ""
+msgstr "Έναρξη"
 
+# , fuzzy
 #: po/texts.cpp:105
 msgid "St&op"
-msgstr ""
+msgstr "Στοπ"
 
 #: po/texts.cpp:106
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Διάφορα"
 
 #: po/texts.cpp:107
 msgid "Font Size"
-msgstr ""
+msgstr "Μέγεθος χαρακτήρων"
 
 #: po/texts.cpp:108
 msgid "Fonts"
-msgstr ""
+msgstr "Γραμματοσειρές"
 
 #: po/texts.cpp:109
 msgid "&Fonts"
-msgstr ""
+msgstr "Γραμματοσειρές"
 
 #: po/texts.cpp:110
 msgid "&Reload"
-msgstr ""
+msgstr "Επαναφόρτωση"
 
+# , fuzzy
 #: po/texts.cpp:111
 msgid "Files"
-msgstr ""
+msgstr "Αρχείο"
 
 #: kab/widget.cc:1361 kab/widget.cc:1403 po/texts.cpp:112
 msgid "Continue"
-msgstr ""
+msgstr "Συνέχισε"
 
 #: po/texts.cpp:113
 msgid "Restore"
-msgstr ""
+msgstr "Επαναφορά"
 
 #: po/texts.cpp:114
 msgid "Appearance"
-msgstr ""
+msgstr "Μορφή"
 
 #: po/texts.cpp:116
 msgid "Monday"
@@ -1388,53 +1509,62 @@ msgstr ""
 msgid "Wednesday"
 msgstr ""
 
+# , fuzzy
 #: po/texts.cpp:119
 msgid "Thursday"
-msgstr ""
+msgstr "Τρίτη"
 
+# , fuzzy
 #: po/texts.cpp:120
 msgid "Friday"
-msgstr ""
+msgstr "Σχάρα"
 
 #: po/texts.cpp:121
 msgid "Saturday"
 msgstr ""
 
+# , fuzzy
 #: po/texts.cpp:122
 msgid "Sunday"
-msgstr ""
+msgstr "Ήχος"
 
+# , fuzzy
 #: po/texts.cpp:123
 msgid "&Update"
-msgstr ""
+msgstr "Ενημέρωση"
 
+# , fuzzy
 #: po/texts.cpp:124
 msgid "Layout"
-msgstr ""
+msgstr "Έξοδος"
 
 #: po/texts.cpp:125
 msgid "Highscore"
 msgstr ""
 
+# , fuzzy
 #: po/texts.cpp:126
 msgid "&New View"
-msgstr ""
+msgstr "Προβολή"
 
 #: po/texts.cpp:127
 msgid "&Insert"
 msgstr ""
 
+# , fuzzy
 #: po/texts.cpp:130
 msgid "&Next >>"
-msgstr ""
+msgstr "Επόμενο"
 
+# , fuzzy
 #: po/texts.cpp:131
 msgid "<< &Previous"
-msgstr ""
+msgstr "Προηγούμενο"
 
 #: po/texts.cpp:138
+#, fuzzy
 msgid "&About..."
-msgstr ""
+msgstr "Σχετικά"
 
 #: kab/addressbook.cc:88
 msgid ""
@@ -1469,288 +1599,309 @@ msgstr ""
 msgid "Tried to load database for creating backup, but failed"
 msgstr ""
 
-#: kab/addressbook.cc:192
+#: kab/addressbook.cc:191
 msgid "Unable to save to backup file."
 msgstr ""
 
-#: kab/addressbook.cc:198
+#: kab/addressbook.cc:197
 msgid "Unable to reset filename after creating backup."
 msgstr ""
 
-#: kab/addressbook.cc:203
+#: kab/addressbook.cc:202
 msgid "Unable to create backup file"
 msgstr ""
 
-#: kab/addressbook.cc:256
+#: kab/addressbook.cc:255
 msgid "Unable to insert \""
 msgstr ""
 
-#: kab/addressbook.cc:257
+#: kab/addressbook.cc:256
 msgid "\" into configuration section (ignored)."
 msgstr ""
 
-#: kab/addressbook.cc:659
+#: kab/addressbook.cc:658
 msgid "Unable to add a new entry with available key."
 msgstr ""
 
-#: kab/addressbook.cc:665
+#: kab/addressbook.cc:664
 msgid "Cannot find previously created section."
 msgstr ""
 
-#: kab/addressbook.cc:696
+#: kab/addressbook.cc:695
 msgid "Unable to create key-value-map for entry."
 msgstr ""
 
-#: kab/addressbook.cc:925
+#: kab/addressbook.cc:924
 msgid "entry without name"
 msgstr ""
 
-#: kab/addressbook.cc:943
+#: kab/addressbook.cc:942
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
 msgstr ""
 
-#: kab/addressbook.cc:949
+#: kab/addressbook.cc:948
 msgid "Cannot create configuration section, exiting."
 msgstr ""
 
-#: kab/addressbook.cc:954
+#: kab/addressbook.cc:953
 msgid "Cannot create entries section, exiting."
 msgstr ""
 
-#: kab/addressbook.cc:959
+#: kab/addressbook.cc:958
 msgid "Unable to find previously created section, exiting."
 msgstr ""
 
-#: kab/addressbook.cc:967
+#: kab/addressbook.cc:966
 msgid "Cannot save newly created database."
 msgstr ""
 
-#: kab/addressbook.cc:973
+#: kab/addressbook.cc:972
 msgid "Cannot erase database contents."
 msgstr ""
 
-#: kab/addressbook.cc:1052
+#: kab/addressbook.cc:1051
 msgid "First name"
 msgstr ""
 
-#: kab/addressbook.cc:1056
+#: kab/addressbook.cc:1055
 msgid "Additional name"
 msgstr ""
 
-#: kab/addressbook.cc:1060
+#: kab/addressbook.cc:1059
 msgid "Name prefix"
 msgstr ""
 
-#: kab/addressbook.cc:1064
+#: kab/addressbook.cc:1063
 msgid "Formatted name"
 msgstr ""
 
-#: kab/addressbook.cc:1068
+#: kab/addressbook.cc:1067
+#, fuzzy
 msgid "Comment"
-msgstr ""
+msgstr "Περιεχόμενα"
 
-#: kab/addressbook.cc:1072
+#: kab/addressbook.cc:1071
 msgid "Organization"
 msgstr ""
 
-#: kab/addressbook.cc:1076
+#: kab/addressbook.cc:1075
+#, fuzzy
 msgid "Unit"
-msgstr ""
+msgstr "Χωρίς τίτλο"
 
-#: kab/addressbook.cc:1080
+# , fuzzy
+#: kab/addressbook.cc:1079
+#, fuzzy
 msgid "Subunit"
-msgstr ""
+msgstr "Ήχος"
 
-#: kab/addressbook.cc:1084
+# , fuzzy
+#: kab/addressbook.cc:1083
+#, fuzzy
 msgid "Title"
-msgstr ""
+msgstr "Αρχείο"
 
-#: kab/addressbook.cc:1088
+# , fuzzy
+#: kab/addressbook.cc:1087
+#, fuzzy
 msgid "Role"
-msgstr ""
+msgstr "Φάκελος"
 
-#: kab/addressbook.cc:1092
+#: kab/addressbook.cc:1091
 msgid "Birthday"
 msgstr ""
 
-#: kab/addressbook.cc:1096
+#: kab/addressbook.cc:1095
 msgid "Talk addresses"
 msgstr ""
 
-#: kab/addressbook.cc:1100
+#: kab/addressbook.cc:1099
 msgid "Delivery label"
 msgstr ""
 
-#: kab/addressbook.cc:1104
+#: kab/addressbook.cc:1103
 msgid "Email address"
 msgstr ""
 
-#: kab/addressbook.cc:1108
+#: kab/addressbook.cc:1107
 msgid "Second email address"
 msgstr ""
 
-#: kab/addressbook.cc:1112
+#: kab/addressbook.cc:1111
 msgid "Third email address"
 msgstr ""
 
-#: kab/addressbook.cc:1116
+#: kab/addressbook.cc:1115
 msgid "Email addresses"
 msgstr ""
 
-#: kab/addressbook.cc:1120
+#: kab/addressbook.cc:1119
+#, fuzzy
 msgid "Address"
-msgstr ""
+msgstr "Προσθήκη"
 
-#: kab/addressbook.cc:1124
+#: kab/addressbook.cc:1123
 msgid "City/Town"
 msgstr ""
 
-#: kab/addressbook.cc:1128
+#: kab/addressbook.cc:1127
 msgid "Telephone"
 msgstr ""
 
-#: kab/addressbook.cc:1132
+#: kab/addressbook.cc:1131
 msgid "Fax number"
 msgstr ""
 
-#: kab/addressbook.cc:1136
+# , fuzzy
+#: kab/addressbook.cc:1135
+#, fuzzy
 msgid "Modem number"
-msgstr ""
+msgstr "Αριθμός:"
 
-#: kab/addressbook.cc:1140
+#: kab/addressbook.cc:1139
 msgid "Homepage URL"
 msgstr ""
 
-#: kab/addressbook.cc:1144
+#: kab/addressbook.cc:1143
 msgid "Zip/postal code"
 msgstr ""
 
-#: kab/addressbook.cc:1148
+#: kab/addressbook.cc:1147
 msgid "State/province"
 msgstr ""
 
-#: kab/addressbook.cc:1152
+#: kab/addressbook.cc:1151
+#, fuzzy
 msgid "Country"
-msgstr ""
+msgstr "Αποκοπή"
 
-#: kab/addressbook.cc:1319
+#: kab/addressbook.cc:1318
 msgid "(unnamed entry)"
 msgstr ""
 
 #: kab/datepickerdialog.cc:34
+#, fuzzy
 msgid "Select birthday"
-msgstr ""
+msgstr "Επιλογή Γραμματοσειράς"
 
-#: kab/editentry.cc:38
+#: kab/editentry.cc:37
 msgid "Edit the current entry"
 msgstr ""
 
-#: kab/editentry.cc:61
+#: kab/editentry.cc:60
+#, fuzzy
 msgid "Title:"
-msgstr ""
+msgstr "Στυλ"
 
-#: kab/editentry.cc:62
+#: kab/editentry.cc:61
 msgid "First name:"
 msgstr ""
 
-#: kab/editentry.cc:63
+#: kab/editentry.cc:62
 msgid "Additional Name:"
 msgstr ""
 
-#: kab/editentry.cc:65
+#: kab/editentry.cc:64
 msgid "Formatted Name:"
 msgstr ""
 
-#: kab/editentry.cc:88
+# , fuzzy
+#: kab/editentry.cc:87
+#, fuzzy
 msgid "&Name"
-msgstr ""
+msgstr "Ονομασμένο"
 
-#: kab/editentry.cc:103
+#: kab/editentry.cc:104
 msgid "Address:"
 msgstr ""
 
-#: kab/editentry.cc:104
+#: kab/editentry.cc:105
 msgid "Zip/postal code:"
 msgstr ""
 
-#: kab/editentry.cc:105
+#: kab/editentry.cc:106
 msgid "Town:"
 msgstr ""
 
-#: kab/editentry.cc:106
-msgid "State:"
-msgstr ""
-
+# , fuzzy
 #: kab/editentry.cc:107
+#, fuzzy
+msgid "State:"
+msgstr "Ημερομηνία: "
+
+#: kab/editentry.cc:108
 msgid "Country:"
 msgstr ""
 
-#: kab/editentry.cc:130
+#: kab/editentry.cc:131
 msgid "&Address"
 msgstr ""
 
-#: kab/editentry.cc:145
+#: kab/editentry.cc:148
 msgid "Organization:"
 msgstr ""
 
-#: kab/editentry.cc:146
+#: kab/editentry.cc:149
 msgid "Org Unit:"
 msgstr ""
 
-#: kab/editentry.cc:147
+#: kab/editentry.cc:150
 msgid "Org Subunit:"
 msgstr ""
 
-#: kab/editentry.cc:148
+# , fuzzy
+#: kab/editentry.cc:151
+#, fuzzy
 msgid "Role:"
-msgstr ""
+msgstr "Φάκελλοι"
 
-#: kab/editentry.cc:169
+#: kab/editentry.cc:172
 msgid "&Organization"
 msgstr ""
 
-#: kab/editentry.cc:184
+#: kab/editentry.cc:189
 msgid "Telephone:"
 msgstr ""
 
-#: kab/editentry.cc:185
+#: kab/editentry.cc:190
 msgid "Fax:"
 msgstr ""
 
-#: kab/editentry.cc:186
+#: kab/editentry.cc:191
+#, fuzzy
 msgid "Modem:"
-msgstr ""
+msgstr "Μετακίνηση"
 
-#: kab/editentry.cc:187
+#: kab/editentry.cc:192
 msgid "Homepage (URL):"
 msgstr ""
 
-#: kab/editentry.cc:200 kab/editentry.cc:416
+#: kab/editentry.cc:206 kab/editentry.cc:434
 msgid "Edit email addresses"
 msgstr ""
 
-#: kab/editentry.cc:206 kab/editentry.cc:398
+#: kab/editentry.cc:212 kab/editentry.cc:416
 msgid "Edit talk addresses"
 msgstr ""
 
-#: kab/editentry.cc:218
+# , fuzzy
+#: kab/editentry.cc:224
+#, fuzzy
 msgid "&Contact"
-msgstr ""
+msgstr "Περιεχόμενα"
 
-#: kab/editentry.cc:239
+# , fuzzy
+#: kab/editentry.cc:247
+#, fuzzy
 msgid "Comment:"
-msgstr ""
+msgstr "Περιεχόμενα"
 
-#: kab/editentry.cc:246
+#: kab/editentry.cc:254
 msgid "Birthday:"
 msgstr ""
 
-#: kab/editentry.cc:249
-msgid "Double click to set date"
-msgstr ""
-
-#: kab/editentry.cc:256
+#: kab/editentry.cc:264
 msgid "O&thers"
 msgstr ""
 
@@ -1829,25 +1980,32 @@ msgid ""
 "entries to make use of it."
 msgstr ""
 
+# , fuzzy
 #: kab/widget.cc:308
+#, fuzzy
 msgid "Could not save database after update."
-msgstr ""
+msgstr "Δεν μπορώ να αποθηκεύσω το αρχείο\n"
 
 #: kab/widget.cc:316
 msgid "Unable to reopen database file r/o."
 msgstr ""
 
+# , fuzzy
 #: kab/widget.cc:477
+#, fuzzy
 msgid "first entry"
-msgstr ""
+msgstr "Ο κατάλογος "
 
 #: kab/widget.cc:478
+#, fuzzy
 msgid "previous entry"
-msgstr ""
+msgstr "Προηγούμενο"
 
+# , fuzzy
 #: kab/widget.cc:479
+#, fuzzy
 msgid "next entry"
-msgstr ""
+msgstr "Ο κατάλογος "
 
 #: kab/widget.cc:480
 msgid "last entry"
@@ -1881,13 +2039,16 @@ msgstr ""
 msgid "Sorry, file changed."
 msgstr ""
 
+# , fuzzy
 #: kab/widget.cc:620 kab/widget.cc:674 kab/widget.cc:911
+#, fuzzy
 msgid "Permission denied."
-msgstr ""
+msgstr "Συνδέσεις"
 
 #: kab/widget.cc:631
+#, fuzzy
 msgid "Remove entry?"
-msgstr ""
+msgstr "Αφαίρεση"
 
 #: kab/widget.cc:632
 msgid "Really remove this entry?"
@@ -1933,21 +2094,25 @@ msgstr ""
 msgid "kab: File error"
 msgstr ""
 
+# , fuzzy
 #: kab/widget.cc:860
+#, fuzzy
 msgid "Could not save database."
-msgstr ""
+msgstr "Δεν μπορώ να αποθηκεύσω το αρχείο\n"
 
 #: kab/widget.cc:861
+#, fuzzy
 msgid "&Retry"
-msgstr ""
+msgstr "Επαναφορά"
 
 #: kab/widget.cc:861
 msgid "&Ignore"
 msgstr ""
 
 #: kab/widget.cc:864
+#, fuzzy
 msgid "Saving cancelled.\n"
-msgstr ""
+msgstr "Ακύρωση"
 
 #: kab/widget.cc:930
 msgid "Entry changed."
@@ -1990,8 +2155,9 @@ msgid "Available talk addresses:"
 msgstr ""
 
 #: kab/widget.cc:1176 kab/widget.cc:1904
+#, fuzzy
 msgid "Cancelled."
-msgstr ""
+msgstr "Ακύρωση"
 
 #: kab/widget.cc:1199
 msgid "The talk command parameters are wrong."
@@ -2055,8 +2221,9 @@ msgid "Name-Email-Link (!!)"
 msgstr ""
 
 #: kab/widget.cc:1784
+#, fuzzy
 msgid "Select table columns"
-msgstr ""
+msgstr "Επέλεξε Εικονίδιο"
 
 #: kab/widget.cc:1789
 msgid "Nothing to export."
@@ -2110,9 +2277,11 @@ msgstr ""
 msgid "No email address."
 msgstr ""
 
+# , fuzzy
 #: kab/widget.cc:2060
+#, fuzzy
 msgid "Error calling mailer."
-msgstr ""
+msgstr "Σφάλμα στο αρχείο πληροφοριών (info file)"
 
 #: kab/widget.cc:2062
 msgid "Mailer called."
@@ -2166,13 +2335,17 @@ msgstr ""
 msgid "Expiration Date"
 msgstr ""
 
+# , fuzzy
 #: kio/kio_cache.cc:422
+#, fuzzy
 msgid "Unknown"
-msgstr ""
+msgstr "ταχύτητα άγνωστη"
 
+# , fuzzy
 #: kio/kio_cache.cc:428
+#, fuzzy
 msgid "Never"
-msgstr ""
+msgstr "Αριθμός:"
 
 #: kio/kio_error.cc:16
 #, c-format
@@ -2181,19 +2354,21 @@ msgid ""
 "%s"
 msgstr ""
 
+# , fuzzy
 #: kio/kio_error.cc:19
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Could not write to\n"
 "%s"
-msgstr ""
+msgstr "Δεν μπορώ να αποθηκεύσω το αρχείο\n"
 
+# , fuzzy
 #: kio/kio_error.cc:22
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Could not start process\n"
 "%s"
-msgstr ""
+msgstr "Δεν μπορώ να αποθηκεύσω το αρχείο\n"
 
 #: kio/kio_error.cc:25
 #, c-format
@@ -2205,11 +2380,11 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:28
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Malformed URL\n"
 "%s"
-msgstr ""
+msgstr "Κακοδιατυπωμένη URL"
 
 #: kio/kio_error.cc:31
 #, c-format
@@ -2232,13 +2407,16 @@ msgid ""
 "%s"
 msgstr ""
 
+# , fuzzy
 #: kio/kio_error.cc:40
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "The file or directory\n"
 "%s\n"
 "does not exist"
 msgstr ""
+"Το συγκεκριμένο αρχείο δεν υπάρχει:\n"
+"%s"
 
 #: kio/kio_error.cc:43
 #, c-format
@@ -2248,12 +2426,13 @@ msgid ""
 "but a file was expected"
 msgstr ""
 
+# , fuzzy
 #: kio/kio_error.cc:46
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Could not make directory\n"
 "%s"
-msgstr ""
+msgstr "Ο κατάλογος "
 
 #: kio/kio_error.cc:49
 #, c-format
@@ -2270,12 +2449,13 @@ msgid ""
 "Access denied"
 msgstr ""
 
+# , fuzzy
 #: kio/kio_error.cc:55
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Could not enter directory\n"
 "%s"
-msgstr ""
+msgstr "Δεν μπορώ να αποθηκεύσω το αρχείο\n"
 
 #: kio/kio_error.cc:58
 #, c-format
@@ -2291,12 +2471,13 @@ msgid ""
 "%s"
 msgstr ""
 
+# , fuzzy
 #: kio/kio_error.cc:64
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Could not change permissions for\n"
 "%s"
-msgstr ""
+msgstr "Δεν έχετε δικαιώματα πρόσβασης στο αρχείο:\n"
 
 #: kio/kio_error.cc:67
 #, c-format
@@ -2326,12 +2507,13 @@ msgid ""
 "%s"
 msgstr ""
 
+# , fuzzy
 #: kio/kio_error.cc:79
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Could not connect to host\n"
 "%s"
-msgstr ""
+msgstr "Δεν μπορώ να αποθηκεύσω το αρχείο\n"
 
 #: kio/kio_error.cc:82
 #, c-format
@@ -2398,7 +2580,7 @@ msgstr ""
 #: kio/kmimetypes.cc:659 kio/kmimetypes.cc:691 kio/kregfactories.cc:75
 #: kio/krun.cc:40 kio/krun.cc:105 kio/krun.cc:512 kio/kservices.cc:114
 msgid "Ok"
-msgstr ""
+msgstr "OK"
 
 #: kio/kio_job.cc:137
 #, c-format
@@ -2415,8 +2597,9 @@ msgid "This group is empty!"
 msgstr ""
 
 #: kio/kio_openwith.cc:264
+#, fuzzy
 msgid "&Browser"
-msgstr ""
+msgstr "Εξερεύνηση"
 
 #: kio/kio_pass_dlg.cc:33
 msgid "User"
@@ -2461,8 +2644,9 @@ msgid " Mb"
 msgstr ""
 
 #: kio/kio_progress_dlg.cc:151 kio/kio_progress_dlg.cc:177
+#, fuzzy
 msgid "Stalled"
-msgstr ""
+msgstr "Στυλ"
 
 #: kio/kio_progress_dlg.cc:159
 msgid " Bytes/s"
@@ -2497,20 +2681,24 @@ msgid "%i%s  Remaining time: %s"
 msgstr ""
 
 #: kio/kio_progress_dlg.cc:207
+#, fuzzy
 msgid "Scanning "
-msgstr ""
+msgstr "Προειδοποίηση"
 
+# , fuzzy
 #: kio/kio_progress_dlg.cc:222
+#, fuzzy
 msgid "Creating dir "
-msgstr ""
+msgstr "Αδύνατη η δημιουργία φακέλου"
 
 #: kio/kio_progress_dlg.cc:229
 msgid "Fetching file"
 msgstr ""
 
 #: kio/kio_rename_dlg.cc:27
+#, fuzzy
 msgid "Rename"
-msgstr ""
+msgstr "Αφαίρεση"
 
 #: kio/kio_rename_dlg.cc:32 kio/kio_skip_dlg.cc:23
 msgid "Skip"
@@ -2549,8 +2737,9 @@ msgid "Do you want to rename it ?"
 msgstr ""
 
 #: kio/kio_rename_dlg.cc:185
+#, fuzzy
 msgid "Malformed URL\n"
-msgstr ""
+msgstr "Κακοδιατυπωμένη URL"
 
 #: kio/kio_rename_dlg.cc:194
 msgid "You must not change the protocol"
@@ -2609,8 +2798,9 @@ msgid ""
 msgstr ""
 
 #: kio/kmimetypes.cc:608
+#, fuzzy
 msgid "Mount"
-msgstr ""
+msgstr "Γραμματοσειρά"
 
 #: kio/kmimetypes.cc:615
 msgid "Unmount"
@@ -2646,3 +2836,46 @@ msgid ""
 "\n"
 "does not conatain a Name=... entry"
 msgstr ""
+
+# , fuzzy
+#, fuzzy
+#~ msgid "Search"
+#~ msgstr "Ψάξιμο"
+
+#, fuzzy
+#~ msgid "contains"
+#~ msgstr "Περιεχόμενα"
+
+#~ msgid "&New"
+#~ msgstr "Νέο"
+
+#~ msgid "&New..."
+#~ msgstr "Νέο"
+
+#~ msgid "Move"
+#~ msgstr "Μετακίνηση"
+
+#~ msgid "&Previous"
+#~ msgstr "Προηγούμενο"
+
+#~ msgid "&Next"
+#~ msgstr "Επόμενο"
+
+#~ msgid "Small"
+#~ msgstr "Μικρό"
+
+#~ msgid "Medium"
+#~ msgstr "Μεσαίο"
+
+#~ msgid "Large"
+#~ msgstr "Μεγάλο"
+
+# , fuzzy
+#~ msgid "(none)"
+#~ msgstr "(Κανένα)"
+
+#~ msgid "None"
+#~ msgstr "σε κανέναν"
+
+#~ msgid "&Ok"
+#~ msgstr "&Ok"

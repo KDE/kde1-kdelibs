@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-01 01:02+0100\n"
+"POT-Creation-Date: 1998-11-01 13:56+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,20 +78,20 @@ msgstr ""
 msgid "The author did not publish an email address."
 msgstr ""
 
-#: kab/DialogBase.cpp:36
+#: kab/DialogBase.cpp:34
 msgid ""
 "If you press the OK button, all changes\n"
 "you made will be used to proceed."
 msgstr ""
 
-#: kab/DialogBase.cpp:39
+#: kab/DialogBase.cpp:37
 msgid ""
 "When clicking apply, the settings will be\n"
 "handed over to the program, but the dialog\n"
 "will not be closed.Use this to try different settings."
 msgstr ""
 
-#: kab/DialogBase.cpp:44
+#: kab/DialogBase.cpp:42
 msgid ""
 "If you press the Cancel button, all changes\n"
 "you made will be abandoned and the dialog\n"
@@ -100,16 +100,16 @@ msgid ""
 "opening the dialog."
 msgstr ""
 
-#: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
+#: kab/DialogBase.cpp:55 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
 #: kdeui/kwizard.cpp:228 po/texts.cpp:36
 msgid "&OK"
 msgstr ""
 
-#: kab/DialogBase.cpp:58
+#: kab/DialogBase.cpp:56
 msgid "&Apply"
 msgstr ""
 
-#: kab/DialogBase.cpp:59 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
+#: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
 #: kdeui/kwizard.cpp:159 po/texts.cpp:40
 msgid "&Cancel"
 msgstr ""
@@ -789,7 +789,7 @@ msgstr ""
 msgid "Contents:"
 msgstr ""
 
-#: kab/addressbook.cc:1048 kfile/kfiledetaillist.cpp:36
+#: kab/addressbook.cc:1047 kfile/kfiledetaillist.cpp:36
 msgid "Name"
 msgstr ""
 
@@ -1048,7 +1048,7 @@ msgstr ""
 msgid "Dec"
 msgstr ""
 
-#: kab/editentry.cc:64 kfile/kpreview.cpp:187
+#: kab/editentry.cc:63 kfile/kpreview.cpp:187
 msgid "Name:"
 msgstr ""
 
@@ -1468,172 +1468,172 @@ msgstr ""
 msgid "Tried to load database for creating backup, but failed"
 msgstr ""
 
-#: kab/addressbook.cc:192
+#: kab/addressbook.cc:191
 msgid "Unable to save to backup file."
 msgstr ""
 
-#: kab/addressbook.cc:198
+#: kab/addressbook.cc:197
 msgid "Unable to reset filename after creating backup."
 msgstr ""
 
-#: kab/addressbook.cc:203
+#: kab/addressbook.cc:202
 msgid "Unable to create backup file"
 msgstr ""
 
-#: kab/addressbook.cc:256
+#: kab/addressbook.cc:255
 msgid "Unable to insert \""
 msgstr ""
 
-#: kab/addressbook.cc:257
+#: kab/addressbook.cc:256
 msgid "\" into configuration section (ignored)."
 msgstr ""
 
-#: kab/addressbook.cc:659
+#: kab/addressbook.cc:658
 msgid "Unable to add a new entry with available key."
 msgstr ""
 
-#: kab/addressbook.cc:665
+#: kab/addressbook.cc:664
 msgid "Cannot find previously created section."
 msgstr ""
 
-#: kab/addressbook.cc:696
+#: kab/addressbook.cc:695
 msgid "Unable to create key-value-map for entry."
 msgstr ""
 
-#: kab/addressbook.cc:925
+#: kab/addressbook.cc:924
 msgid "entry without name"
 msgstr ""
 
-#: kab/addressbook.cc:943
+#: kab/addressbook.cc:942
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
 msgstr ""
 
-#: kab/addressbook.cc:949
+#: kab/addressbook.cc:948
 msgid "Cannot create configuration section, exiting."
 msgstr ""
 
-#: kab/addressbook.cc:954
+#: kab/addressbook.cc:953
 msgid "Cannot create entries section, exiting."
 msgstr ""
 
-#: kab/addressbook.cc:959
+#: kab/addressbook.cc:958
 msgid "Unable to find previously created section, exiting."
 msgstr ""
 
-#: kab/addressbook.cc:967
+#: kab/addressbook.cc:966
 msgid "Cannot save newly created database."
 msgstr ""
 
-#: kab/addressbook.cc:973
+#: kab/addressbook.cc:972
 msgid "Cannot erase database contents."
 msgstr ""
 
-#: kab/addressbook.cc:1052
+#: kab/addressbook.cc:1051
 msgid "First name"
 msgstr ""
 
-#: kab/addressbook.cc:1056
+#: kab/addressbook.cc:1055
 msgid "Additional name"
 msgstr ""
 
-#: kab/addressbook.cc:1060
+#: kab/addressbook.cc:1059
 msgid "Name prefix"
 msgstr ""
 
-#: kab/addressbook.cc:1064
+#: kab/addressbook.cc:1063
 msgid "Formatted name"
 msgstr ""
 
-#: kab/addressbook.cc:1068
+#: kab/addressbook.cc:1067
 msgid "Comment"
 msgstr ""
 
-#: kab/addressbook.cc:1072
+#: kab/addressbook.cc:1071
 msgid "Organization"
 msgstr ""
 
-#: kab/addressbook.cc:1076
+#: kab/addressbook.cc:1075
 msgid "Unit"
 msgstr ""
 
-#: kab/addressbook.cc:1080
+#: kab/addressbook.cc:1079
 msgid "Subunit"
 msgstr ""
 
-#: kab/addressbook.cc:1084
+#: kab/addressbook.cc:1083
 msgid "Title"
 msgstr ""
 
-#: kab/addressbook.cc:1088
+#: kab/addressbook.cc:1087
 msgid "Role"
 msgstr ""
 
-#: kab/addressbook.cc:1092
+#: kab/addressbook.cc:1091
 msgid "Birthday"
 msgstr ""
 
-#: kab/addressbook.cc:1096
+#: kab/addressbook.cc:1095
 msgid "Talk addresses"
 msgstr ""
 
-#: kab/addressbook.cc:1100
+#: kab/addressbook.cc:1099
 msgid "Delivery label"
 msgstr ""
 
-#: kab/addressbook.cc:1104
+#: kab/addressbook.cc:1103
 msgid "Email address"
 msgstr ""
 
-#: kab/addressbook.cc:1108
+#: kab/addressbook.cc:1107
 msgid "Second email address"
 msgstr ""
 
-#: kab/addressbook.cc:1112
+#: kab/addressbook.cc:1111
 msgid "Third email address"
 msgstr ""
 
-#: kab/addressbook.cc:1116
+#: kab/addressbook.cc:1115
 msgid "Email addresses"
 msgstr ""
 
-#: kab/addressbook.cc:1120
+#: kab/addressbook.cc:1119
 msgid "Address"
 msgstr ""
 
-#: kab/addressbook.cc:1124
+#: kab/addressbook.cc:1123
 msgid "City/Town"
 msgstr ""
 
-#: kab/addressbook.cc:1128
+#: kab/addressbook.cc:1127
 msgid "Telephone"
 msgstr ""
 
-#: kab/addressbook.cc:1132
+#: kab/addressbook.cc:1131
 msgid "Fax number"
 msgstr ""
 
-#: kab/addressbook.cc:1136
+#: kab/addressbook.cc:1135
 msgid "Modem number"
 msgstr ""
 
-#: kab/addressbook.cc:1140
+#: kab/addressbook.cc:1139
 msgid "Homepage URL"
 msgstr ""
 
-#: kab/addressbook.cc:1144
+#: kab/addressbook.cc:1143
 msgid "Zip/postal code"
 msgstr ""
 
-#: kab/addressbook.cc:1148
+#: kab/addressbook.cc:1147
 msgid "State/province"
 msgstr ""
 
-#: kab/addressbook.cc:1152
+#: kab/addressbook.cc:1151
 msgid "Country"
 msgstr ""
 
-#: kab/addressbook.cc:1319
+#: kab/addressbook.cc:1318
 msgid "(unnamed entry)"
 msgstr ""
 
@@ -1641,115 +1641,111 @@ msgstr ""
 msgid "Select birthday"
 msgstr ""
 
-#: kab/editentry.cc:38
+#: kab/editentry.cc:37
 msgid "Edit the current entry"
 msgstr ""
 
-#: kab/editentry.cc:61
+#: kab/editentry.cc:60
 msgid "Title:"
 msgstr ""
 
-#: kab/editentry.cc:62
+#: kab/editentry.cc:61
 msgid "First name:"
 msgstr ""
 
-#: kab/editentry.cc:63
+#: kab/editentry.cc:62
 msgid "Additional Name:"
 msgstr ""
 
-#: kab/editentry.cc:65
+#: kab/editentry.cc:64
 msgid "Formatted Name:"
 msgstr ""
 
-#: kab/editentry.cc:88
+#: kab/editentry.cc:87
 msgid "&Name"
 msgstr ""
 
-#: kab/editentry.cc:103
+#: kab/editentry.cc:104
 msgid "Address:"
 msgstr ""
 
-#: kab/editentry.cc:104
+#: kab/editentry.cc:105
 msgid "Zip/postal code:"
 msgstr ""
 
-#: kab/editentry.cc:105
+#: kab/editentry.cc:106
 msgid "Town:"
 msgstr ""
 
-#: kab/editentry.cc:106
+#: kab/editentry.cc:107
 msgid "State:"
 msgstr ""
 
-#: kab/editentry.cc:107
+#: kab/editentry.cc:108
 msgid "Country:"
 msgstr ""
 
-#: kab/editentry.cc:130
+#: kab/editentry.cc:131
 msgid "&Address"
 msgstr ""
 
-#: kab/editentry.cc:145
+#: kab/editentry.cc:148
 msgid "Organization:"
 msgstr ""
 
-#: kab/editentry.cc:146
+#: kab/editentry.cc:149
 msgid "Org Unit:"
 msgstr ""
 
-#: kab/editentry.cc:147
+#: kab/editentry.cc:150
 msgid "Org Subunit:"
 msgstr ""
 
-#: kab/editentry.cc:148
+#: kab/editentry.cc:151
 msgid "Role:"
 msgstr ""
 
-#: kab/editentry.cc:169
+#: kab/editentry.cc:172
 msgid "&Organization"
 msgstr ""
 
-#: kab/editentry.cc:184
+#: kab/editentry.cc:189
 msgid "Telephone:"
 msgstr ""
 
-#: kab/editentry.cc:185
+#: kab/editentry.cc:190
 msgid "Fax:"
 msgstr ""
 
-#: kab/editentry.cc:186
+#: kab/editentry.cc:191
 msgid "Modem:"
 msgstr ""
 
-#: kab/editentry.cc:187
+#: kab/editentry.cc:192
 msgid "Homepage (URL):"
 msgstr ""
 
-#: kab/editentry.cc:200 kab/editentry.cc:416
+#: kab/editentry.cc:206 kab/editentry.cc:434
 msgid "Edit email addresses"
 msgstr ""
 
-#: kab/editentry.cc:206 kab/editentry.cc:398
+#: kab/editentry.cc:212 kab/editentry.cc:416
 msgid "Edit talk addresses"
 msgstr ""
 
-#: kab/editentry.cc:218
+#: kab/editentry.cc:224
 msgid "&Contact"
 msgstr ""
 
-#: kab/editentry.cc:239
+#: kab/editentry.cc:247
 msgid "Comment:"
 msgstr ""
 
-#: kab/editentry.cc:246
+#: kab/editentry.cc:254
 msgid "Birthday:"
 msgstr ""
 
-#: kab/editentry.cc:249
-msgid "Double click to set date"
-msgstr ""
-
-#: kab/editentry.cc:256
+#: kab/editentry.cc:264
 msgid "O&thers"
 msgstr ""
 
