@@ -103,8 +103,6 @@ i18n( "&Redo");
 i18n( "&Game");
 i18n( "Information");
 i18n( "Browse...");
-i18n( "(none)");
-i18n( "None");
 i18n( "Stop");
 i18n( "&Remove");
 i18n( "&Properties...");
