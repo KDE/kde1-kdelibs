@@ -23,7 +23,7 @@
 ***************************************************************************/
 #include "slman.h"
 #include <stdlib.h>
-
+#include "../version.h"
 
 SLManager::SLManager()
 {
@@ -229,7 +229,9 @@ return ptr->name;
 
 void SLManager::loadConfig(const char *filename)
 {
+#ifdef GENERAL_DEBUG_MESSAGES
 printf("Loading collections\n");
+#endif
 FILE *fh=fopen(filename,"rt");
 if (fh==NULL)
    {
