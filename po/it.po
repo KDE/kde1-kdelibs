@@ -701,11 +701,11 @@ msgstr "Stile Visualizzazione"
 
 #: kfile/kfiledialogconf.cpp:74
 msgid "Show Short View"
-msgstr "Mostra vista rapida"
+msgstr "Mostra visualizzazione rapida"
 
 #: kfile/kfiledialogconf.cpp:80
 msgid "Show Detail View"
-msgstr "Mostra vista dettagliata"
+msgstr "Mostra visualizzazione dettagliata"
 
 #: kfile/kfiledialogconf.cpp:89
 msgid "Misc"
@@ -905,7 +905,7 @@ msgstr "Visualizza"
 
 #: po/texts.cpp:51
 msgid "&View"
-msgstr "&Vista"
+msgstr "&Visualizza"
 
 #: po/texts.cpp:52
 msgid "E&xit"
