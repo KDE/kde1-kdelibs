@@ -747,7 +747,7 @@ msgstr "Filter:"
 
 #: kdeui/kkeydialog.cpp:219
 msgid "Configure key bindings"
-msgstr ""
+msgstr "Konfigurer Tastkoblinger"
 
 #: kdeui/kkeydialog.cpp:232 kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:205
 #: po/texts.cpp:45
@@ -768,7 +768,7 @@ msgstr "&Hendelse"
 
 #: kdeui/kkeydialog.cpp:365
 msgid "Choose a key for the selected action"
-msgstr ""
+msgstr "Velg en tast for den valgte hendelse"
 
 #: kdeui/kkeydialog.cpp:392
 msgid "&No key"
@@ -784,40 +784,39 @@ msgstr "&Egendefinert tast"
 
 #: kdeui/kkeydialog.cpp:471
 msgid "No keys defined"
-msgstr ""
+msgstr "INgen taster definert"
 
 #: kdeui/kkeydialog.cpp:473
 msgid "Not configurable"
-msgstr ""
+msgstr "Ikke konfigurerbart"
 
 #: kdeui/kkeydialog.cpp:528
 msgid "Global Keys"
-msgstr ""
+msgstr "Globale taster"
 
 #: kdeui/kkeydialog.cpp:560
 msgid "Keys"
-msgstr ""
+msgstr "Taster"
 
 #: kdeui/kkeydialog.cpp:635 kdeui/kkeydialog.cpp:968
 msgid "Attention : key already used"
-msgstr ""
+msgstr "Hør etter : tast allerede i bruk"
 
 #: kdeui/kkeydialog.cpp:918
 msgid "Press the wanted key"
-msgstr ""
+msgstr "Trykk den ønskede tast"
 
 #: kdeui/kkeydialog.cpp:941
 msgid "Undefined key"
-msgstr ""
+msgstr "Udefinert tast"
 
 #: kdeui/kkeydialog.cpp:990
 msgid "Return to end edition"
-msgstr ""
+msgstr "Linjeskrift for å avslutte editering"
 
 #: kdeui/kkeydialog.cpp:1000
-#, fuzzy
 msgid "Incorrect key"
-msgstr "Gjeldende tast"
+msgstr "Ugyldig tast"
 
 #: kdeui/kkeydialog.cpp:1026
 #, c-format
@@ -827,10 +826,13 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"Tastkombinasjonen %s har allerede blitt brukt for global %s-hendelsen.\n"
+"\n"
+"Vennligst velg en unik tastkombinasjon."
 
 #: kdeui/kkeydialog.cpp:1030
 msgid "Global key conflict"
-msgstr ""
+msgstr "Global tastkonflikt"
 
 #: kdeui/kkeydialog.cpp:1053
 #, c-format
@@ -840,10 +842,13 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"Tastkombinasjonen %s har allerede blitt brukt for standard %s-hendelsen.\n"
+"\n"
+"Vennligst velg en unik tastkombinasjon."
 
 #: kdeui/kkeydialog.cpp:1057
 msgid "Standard key conflict"
-msgstr ""
+msgstr "Standard tastkonflikt"
 
 #: kdeui/kkeydialog.cpp:1077
 #, c-format
@@ -853,10 +858,13 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"Tastkombinasjonen %s har allerede blitt brukt for %s-hendelsen.\n"
+"\n"
+"Vennligst velg en unik tastkombinasjon."
 
 #: kdeui/kkeydialog.cpp:1081
 msgid "Key conflict"
-msgstr ""
+msgstr "Tastkonflikt"
 
 #: kdeui/kmenubar.cpp:244 kdeui/ktoolbar.cpp:844
 msgid "Top"
