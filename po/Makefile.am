@@ -16,8 +16,7 @@ localedir = $(kde_locale)
 
 MAINTAINERCLEANFILES = $(GMOFILES)
 
-EXTRA_DIST = kde.pot kdelibs.pot $(CHARSETFILES) $(POFILES) $(GMOFILES) 
-	texts.cpp
+EXTRA_DIST = kde.pot kdelibs.pot $(CHARSETFILES) $(POFILES) $(GMOFILES) texts.cpp
 # install this to make excluding of this messages possible
 include_HEADERS = kde.pot
 
