@@ -638,25 +638,21 @@ msgstr "Vælg folder"
 msgid "Save"
 msgstr "Gem"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1281
 msgid "directory"
-msgstr "Folder"
+msgstr "folder"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1283
 msgid "directories"
-msgstr "Foldere"
+msgstr "foldere"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1285 kfile/kpreview.cpp:326
 msgid "file"
-msgstr "Fil"
+msgstr "fil"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1287
 msgid "files"
-msgstr "Filer"
+msgstr "filer"
 
 # , c-format
 #: kfile/kfiledialog.cpp:1289
@@ -664,7 +660,6 @@ msgstr "Filer"
 msgid "%d %s and %d %s"
 msgstr "%d %s og %d %s"
 
-# , fuzzy
 #: kfile/kfiledialog.cpp:1299
 msgid "one directory"
 msgstr "en folder"
@@ -691,10 +686,9 @@ msgstr ""
 msgid "About"
 msgstr "Om"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:70
 msgid "View style"
-msgstr "Stil"
+msgstr "Vis stil"
 
 # , fuzzy
 #: kfile/kfiledialogconf.cpp:74
@@ -710,7 +704,6 @@ msgstr "Vis detaljeret stil"
 msgid "Misc"
 msgstr "Diverse"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:95
 msgid "Show Filter"
 msgstr "Vis filter"
@@ -741,12 +734,10 @@ msgstr "Bland foldere og filer"
 msgid "Keep dirs first"
 msgstr "Foldere først"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:95 kfile/kfileinfo.cpp:99
 msgid "unknown"
 msgstr "ukendt"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:218
 msgid "Jan"
 msgstr "Jan"
@@ -755,7 +746,6 @@ msgstr "Jan"
 msgid "Feb"
 msgstr "Feb"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:220
 msgid "Mar"
 msgstr "Mar"
@@ -776,7 +766,6 @@ msgstr ""
 msgid "Aug"
 msgstr ""
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:226
 msgid "Sep"
 msgstr "Sep"
@@ -785,7 +774,6 @@ msgstr "Sep"
 msgid "Oct"
 msgstr "Okt"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:228
 msgid "Nov"
 msgstr "Nov"
@@ -795,17 +783,14 @@ msgstr "Nov"
 msgid "Dec"
 msgstr ""
 
-# , fuzzy
 #: kfile/kpreview.cpp:187
 msgid "Name:"
 msgstr "Navn:"
 
-# , fuzzy
 #: kfile/kpreview.cpp:205
 msgid "Date:"
 msgstr "Dato:"
 
-# , fuzzy
 #: kfile/kpreview.cpp:214
 msgid "Owner:"
 msgstr "Ejer:"
@@ -814,12 +799,10 @@ msgstr "Ejer:"
 msgid "Group:"
 msgstr "Gruppe:"
 
-# , fuzzy
 #: kfile/kpreview.cpp:232
 msgid "Type:"
 msgstr "Type:"
 
-# , fuzzy
 #: kfile/kpreview.cpp:287
 msgid "locked"
 msgstr "låst"
@@ -828,7 +811,6 @@ msgstr "låst"
 msgid "picture"
 msgstr "billede"
 
-# , fuzzy
 #: kfile/kpreview.cpp:343
 msgid "folder"
 msgstr "folder"
@@ -841,7 +823,6 @@ msgid ""
 "Could not do Authorization"
 msgstr ""
 
-# , fuzzy
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
 msgid "KFM Error"
 msgstr "KFM Fejl"
@@ -874,12 +855,10 @@ msgstr "Gem en fil"
 msgid "Contents"
 msgstr "Indhold"
 
-# , fuzzy
 #: po/texts.cpp:33
 msgid "A&bout..."
 msgstr "&Om..."
 
-# , fuzzy
 #: po/texts.cpp:36
 msgid "&OK"
 msgstr "&OK"
@@ -897,7 +876,6 @@ msgstr "Sluk"
 msgid "File"
 msgstr "Fil"
 
-# , fuzzy
 #: po/texts.cpp:44
 msgid "&File"
 msgstr "&Fil"
@@ -906,7 +884,6 @@ msgstr "&Fil"
 msgid "Edit"
 msgstr "Rediger"
 
-# , fuzzy
 #: po/texts.cpp:48
 msgid "&Edit"
 msgstr "&Rediger"
@@ -919,15 +896,13 @@ msgstr "&Indstillinger"
 msgid "View"
 msgstr "Vis"
 
-# , fuzzy
 #: po/texts.cpp:51
 msgid "&View"
 msgstr "&Vis"
 
-# , fuzzy
 #: po/texts.cpp:52
 msgid "E&xit"
-msgstr "Afslut"
+msgstr "&Afslut"
 
 #: po/texts.cpp:53
 msgid "Quit"
@@ -962,7 +937,6 @@ msgstr "Ny"
 msgid "&New"
 msgstr "&Ny"
 
-# , fuzzy
 #: po/texts.cpp:64
 msgid "&New..."
 msgstr "&Ny..."
@@ -979,12 +953,10 @@ msgstr "Nyt &Vindue..."
 msgid "&New Window"
 msgstr "&Nyt vindue"
 
-# , fuzzy
 #: po/texts.cpp:68
 msgid "New Game"
 msgstr "Nyt spil"
 
-# , fuzzy
 #: po/texts.cpp:69
 msgid "&New Game"
 msgstr "&Nyt spil"
@@ -993,12 +965,10 @@ msgstr "&Nyt spil"
 msgid "Open a file"
 msgstr "Åbn en fil"
 
-# , fuzzy
 #: po/texts.cpp:72
 msgid "Open..."
 msgstr "Åben..."
 
-# , fuzzy
 #: po/texts.cpp:73
 msgid "&Open..."
 msgstr "&Åben..."
@@ -1028,15 +998,13 @@ msgstr "&Forgrunds farve"
 msgid "&Background Color"
 msgstr "&Baggrunds farve"
 
-# , fuzzy
 #: po/texts.cpp:81
 msgid "&Save"
 msgstr "&Gem"
 
-# , fuzzy
 #: po/texts.cpp:83
 msgid "Save as..."
-msgstr "Gem &som..."
+msgstr "Gem som..."
 
 # , fuzzy
 #: po/texts.cpp:84
@@ -1047,7 +1015,6 @@ msgstr "Gem s&om..."
 msgid "Close"
 msgstr "Luk"
 
-# , fuzzy
 #: po/texts.cpp:86
 msgid "&Close"
 msgstr "&Luk"
@@ -1068,7 +1035,6 @@ msgstr "Fjern"
 msgid "Add"
 msgstr "Tilføj"
 
-# , fuzzy
 #: po/texts.cpp:93
 msgid "Change"
 msgstr "Ændring"
@@ -1081,7 +1047,6 @@ msgstr "Slet"
 msgid "&Delete"
 msgstr "&Slet"
 
-# , fuzzy
 #: po/texts.cpp:96
 msgid "Clear"
 msgstr "Ryd"
