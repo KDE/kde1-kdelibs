@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-11-02 01:02+0100\n"
+"POT-Creation-Date: 1998-11-02 08:54+0100\n"
 "PO-Revision-Date: 1998-10-28 19:01+0200\n"
 "Language-Team: Spanish <kde-es@kyb.ml.org>\n"
 "Translator: Boris Wesslowski <bwess@gmx.net>\n"
