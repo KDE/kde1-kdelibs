@@ -1,47 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1998-06-21 18:14+0200\n"
-"PO-Revision-Date: 1998-03-23 00:00+0100\n"
-"Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
+msgstr "Project-Id-Version: kde\n"
+       "POT-Creation-Date: 1998-03-21 18:32+0300\n"
+       "PO-Revision-Date: 1998-06-23 09:00-0300\n"
+       "Last-Translator:Elvis Pfützenreuter <epx@netville.com.br>\n"
 
-#: kdecore/kapp.cpp:494
+#: kdecore/kapp.cpp:490
 msgid "&Contents"
 msgstr "&Conteúdo"
 
-#: kdecore/kapp.cpp:500
+#: kdecore/kapp.cpp:496
 msgid "&About"
 msgstr "&Sobre"
 
-#: kdecore/kapp.cpp:507
+#: kdecore/kapp.cpp:503
 msgid "About &KDE..."
 msgstr "Sobre o &KDE..."
 
-#: kdecore/kapp.cpp:528
+#: kdecore/kapp.cpp:524
 msgid "About KDE"
 msgstr "Sobre o KDE"
 
-#: kdecore/kapp.cpp:530
+#: kdecore/kapp.cpp:526
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
-"a world-wide network of software engineers committed to\n"
+"a world-wide network of software engineers commited to\n"
 "free software development.\n"
 "\n"
 "Visit http://www.kde.org for more information on the KDE\n"
 "Project. Please consider joining and supporting KDE.\n"
 "\n"
 "Please report bugs at http://buglist.kde.org.\n"
-msgstr ""
-"\n"
-"O Ambiente Gráfico KDE foi desenvolvido pelo Time KDE,\n"
-"uma rede mundial de engenheiros de software comprometidos\n"
-"com o desenvolvimento de software gratuito.\n"
-"\n"
-"Visite http://www.kde.org para maiores informações sobre\n"
-"o Projeto KDE. Considere juntar-se à equipe KDE.\n"
-"\n"
-"Favor reportar bugs no site http://buglist.kde.org.\n"
+msgstr "\nO Ambiente Gráfico KDE foi desenvolvido pelo Time KDE,\n"
+       "uma rede mundial de engenheiros de software comprometidos\n"
+       "com o desenvolvimento de software gratuito.\n\n"
+       "Visite http://www.kde.org para maiores informações sobre\n"
+       "o Projeto KDE. Considere juntar-se à equipe KDE."
+       "\n\nFavor reportar bugs no site http://buglist.kde.org.\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416
 #: kdeui/keditcl1.cpp:477 kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573
@@ -74,7 +74,6 @@ msgstr "Ajuda"
 msgid "Cancel"
 msgstr "Cancelar"
 
-# libkdeui messages
 #: kdeui/kcolordlg.cpp:285
 msgid "Select Color"
 msgstr "Selecionar uma Cor"
@@ -119,89 +118,83 @@ msgstr "Aplicar"
 
 #: kdeui/kdatepik.cpp:102
 msgid "January"
-msgstr ""
+msgstr "Janeiro"
 
 #: kdeui/kdatepik.cpp:102
 msgid "February"
-msgstr ""
+msgstr "Fevereiro"
 
 #: kdeui/kdatepik.cpp:103
-#, fuzzy
 msgid "March"
-msgstr "Mar"
+msgstr "Março"
 
 #: kdeui/kdatepik.cpp:103
-#, fuzzy
 msgid "April"
-msgstr "Abr"
+msgstr "Abril"
 
 #: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:222
 msgid "May"
 msgstr "Maio"
 
 #: kdeui/kdatepik.cpp:104
-#, fuzzy
 msgid "June"
-msgstr "Jun"
+msgstr "Junho"
 
 #: kdeui/kdatepik.cpp:105
-#, fuzzy
 msgid "July"
-msgstr "Jul"
+msgstr "Julho"
 
 #: kdeui/kdatepik.cpp:105
-#, fuzzy
 msgid "August"
-msgstr "Ago"
+msgstr "Agosto"
 
 #: kdeui/kdatepik.cpp:106
 msgid "September"
-msgstr ""
+msgstr "Setembro"
 
 #: kdeui/kdatepik.cpp:106
 msgid "October"
-msgstr ""
+msgstr "Outubro"
 
 #: kdeui/kdatepik.cpp:107
 msgid "November"
-msgstr ""
+msgstr "Novembro"
 
 #: kdeui/kdatepik.cpp:107
 msgid "December"
-msgstr ""
+msgstr "Dezembro"
 
 #: kdeui/kdatepik.cpp:248
 msgid "(invalid)"
-msgstr ""
+msgstr "(inválido)"
 
 #: kdeui/kdatetbl.cpp:48
-#, fuzzy
 msgid "Sun"
-msgstr "Jun"
+msgstr "Dom"
 
 #: kdeui/kdatetbl.cpp:48
 msgid "Mon"
-msgstr ""
+msgstr "Seg"
 
 #: kdeui/kdatetbl.cpp:48
 msgid "Tue"
-msgstr ""
+msgstr "Ter"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Wed"
-msgstr ""
+msgstr "Qua"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Thu"
-msgstr ""
+msgstr "Qui"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Fri"
-msgstr ""
+msgstr "Sex"
 
 #: kdeui/kdatetbl.cpp:50
 msgid "Sat"
-msgstr ""
+msgstr "Sáb"
 
 #: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
 #: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:89
@@ -241,17 +234,15 @@ msgstr "Aviso:"
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
-msgstr ""
-"O Documento atual foi modificado.\n"
-"Gostaria de gravá-lo?"
+msgstr "O Documento atual foi modificado.\n"
+       "Gostaria de gravá-lo?"
 
 #: kdeui/keditcl1.cpp:414
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
-msgstr ""
-"Não consegui gravar o documento.\n"
-"Abrir um novo documento de qualquer modo?"
+msgstr "Não consegui gravar o documento.\n"
+       "Abrir um novo documento de qualquer modo?"
 
 #: kdeui/keditcl1.cpp:445
 msgid "Select Document to Open"
@@ -261,9 +252,8 @@ msgstr "Selecione documento a ser aberto"
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
-msgstr ""
-"Não consegui gravar o documento.\n"
-"Criar um novo documento de qualquer modo?"
+msgstr "Não consegui gravar o documento.\n"
+       "Criar um novo documento de qualquer modo?"
 
 #: kdeui/keditcl1.cpp:530 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
 msgid "Untitled"
@@ -281,9 +271,8 @@ msgstr "Salvar Documento Como"
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
-msgstr ""
-"Um Documento com este Nome já existe\n"
-"Quer sobrescrevê-lo ?"
+msgstr "Um Documento com este Nome já existe\n"
+       "Quer sobrescrevê-lo ?"
 
 #: kdeui/keditcl1.cpp:1628
 msgid "You do not have write permission to this file.\n"
@@ -299,18 +288,16 @@ msgstr "Procurar"
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
-msgstr ""
-"Fim do documento atingido.\n"
-"Continuar do princípio?"
+msgstr "Fim do documento atingido.\n"
+       "Continuar do princípio?"
 
 #: kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426
 #: kdeui/keditcl2.cpp:473
 msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
-msgstr ""
-"Inicio do documento atingido.\n"
-"Continuar do fim?"
+msgstr "Inicio do documento atingido.\n"
+       "Continuar do fim?"
 
 #: kdeui/keditcl2.cpp:425 kdeui/keditcl2.cpp:455 kdeui/keditcl2.cpp:472
 #: kdeui/keditcl2.cpp:791
@@ -457,25 +444,23 @@ msgstr "Retirar Flutuação"
 
 #: kdeui/knotebook.cpp:145
 msgid "Trying to add page when no KWizards are added!"
-msgstr ""
+msgstr "Tentando adicionar página quando nenhum KWizard foi adicionado!"
 
 #: kdeui/knotebook.cpp:178 kdeui/kwizard.cpp:120 po/texts.cpp:41
 msgid "&Cancel"
 msgstr "&Cancelar"
 
 #: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:143
-#, fuzzy
 msgid "&Default"
-msgstr "Padrão"
+msgstr "&Padrão"
 
 #: kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:166 po/texts.cpp:46
 msgid "&Help"
 msgstr "A&juda"
 
 #: kdeui/knotebook.cpp:247 kdeui/kwizard.cpp:189
-#, fuzzy
 msgid "&Ok"
-msgstr "Ok"
+msgstr "&Ok"
 
 #: kdeui/ktoolbar.cpp:178 kdeui/ktoolbar.cpp:297
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
@@ -492,7 +477,7 @@ msgstr "Direita"
 #: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
 #, c-format
 msgid "Page %d of %d"
-msgstr ""
+msgstr "Página %d de %d"
 
 #: kfile/bookmark.cpp:246
 msgid "<!-- Do not edit this file -->"
@@ -587,8 +572,8 @@ msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
 msgstr ""
-"O diretório especifico não é local\n"
-"mas a aplicação só aceita arquivos locais."
+       "O diretório especifico não é local\n"
+       "mas a aplicação só aceita arquivos locais."
 
 #: kfile/kfiledialog.cpp:502 kfile/kfiledialog.cpp:608
 msgid "Error: Cannot Open Directory"
@@ -599,8 +584,8 @@ msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
 msgstr ""
-"O arquivo especificado não existe\n"
-"ou não está acessível para leitura."
+       "O arquivo especificado não existe\n"
+       "ou não está acessível para leitura."
 
 #: kfile/kfiledialog.cpp:505 kfile/kfiledialog.cpp:611
 msgid "Dismiss"
@@ -685,16 +670,16 @@ msgid ""
 "Mario Weilguni <mweilguni@sime.com>\n"
 "and Martin Jones <mjones@kde.org>"
 msgstr ""
-"Seletor de Arquivos KDE por:\n"
-"\n"
-"Richard Moore <rich@kde.org>\n"
-"Stephan Kulow <coolo@kde.org>\n"
-"e Daniel Grana <grana@ie.iwi.unibe.ch>\n"
-"\n"
-"com contribuições de\n"
-"\n"
-"Mario Weilguni <mweilguni@sime.com>\n"
-"e Martin Jones <mjones@kde.org>"
+       "Seletor de Arquivos KDE por:\n"
+       "\n"
+       "Richard Moore <rich@kde.org>\n"
+       "Stephan Kulow <coolo@kde.org>\n"
+       "e Daniel Grana <grana@ie.iwi.unibe.ch>\n"
+       "\n"
+       "com contribuições de\n"
+       "\n"
+       "Mario Weilguni <mweilguni@sime.com>\n"
+       "e Martin Jones <mjones@kde.org>"
 
 #: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
 msgid "About"
@@ -829,22 +814,21 @@ msgstr "pasta"
 msgid ""
 "You dont have the file %s\n"
 "Could not do Authorization"
-msgstr ""
+msgstr "Você não tem o arquivo %s\n"
+       "Não posso proceder à Autorização"
 
-# general messages, that are often used
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
-#, fuzzy
 msgid "KFM Error"
-msgstr "Erro"
+msgstr "Erro do KFM"
 
 #: kfmlib/kfm.cpp:208
 #, c-format
 msgid ""
 "The file %s is corrupted\n"
 "Could not do Authorization"
-msgstr ""
+msgstr "O arquivo %s está corrompido\n"
+       "Não posso proceder à Autorização"
 
-# general messages, that are often used
 #: po/texts.cpp:24
 msgid "Error"
 msgstr "Erro"
@@ -958,9 +942,8 @@ msgid "New &Window..."
 msgstr "Nova &Janela..."
 
 #: po/texts.cpp:67
-#, fuzzy
 msgid "&New Window"
-msgstr "&Nova Janela..."
+msgstr "&Nova Janela"
 
 #: po/texts.cpp:68
 msgid "New Game"
@@ -987,9 +970,8 @@ msgid "Cut"
 msgstr "Cortar"
 
 #: po/texts.cpp:75
-#, fuzzy
 msgid "&Cut"
-msgstr "Cortar"
+msgstr "&Recortar"
 
 #: po/texts.cpp:76
 msgid "C&ut"
@@ -1100,164 +1082,149 @@ msgid "(none)"
 msgstr "(nenhum)"
 
 #: po/texts.cpp:107
-#, fuzzy
 msgid "None"
-msgstr "Feito"
+msgstr "Nenhum"
 
 #: po/texts.cpp:108
 msgid "Stop"
-msgstr ""
+msgstr "Parar"
 
 #: po/texts.cpp:109
-#, fuzzy
 msgid "&Remove"
-msgstr "Remover"
+msgstr "&Remover"
 
 #: po/texts.cpp:110
-#, fuzzy
 msgid "&Properties..."
-msgstr "Im&primir..."
+msgstr "&Propriedades..."
 
 #: po/texts.cpp:111
 msgid "Properties"
-msgstr ""
+msgstr "Propriedades"
 
 #: po/texts.cpp:112
 msgid "&Start"
-msgstr ""
+msgstr "&Iniciar"
 
 #: po/texts.cpp:113
 msgid "St&op"
-msgstr ""
+msgstr "&Parar"
 
 #: po/texts.cpp:114
 msgid "Move"
-msgstr ""
+msgstr "Mover"
 
 #: po/texts.cpp:115
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Miscelânea"
 
 #: po/texts.cpp:116
-#, fuzzy
 msgid "Font Size"
-msgstr "Tamanho"
+msgstr "Tamanho da Letra"
 
 #: po/texts.cpp:117
 msgid "Small"
-msgstr ""
+msgstr "Pequena"
 
 #: po/texts.cpp:118
 msgid "Medium"
-msgstr ""
+msgstr "Média"
 
 #: po/texts.cpp:119
 msgid "Large"
-msgstr ""
+msgstr "Grande"
 
 #: po/texts.cpp:120
-#, fuzzy
 msgid "Fonts"
-msgstr "Fonte"
+msgstr "Fontes"
 
 #: po/texts.cpp:121
-#, fuzzy
 msgid "&Fonts"
-msgstr "Fonte"
+msgstr "&Fontes"
 
 #: po/texts.cpp:122
-#, fuzzy
 msgid "&Reload"
-msgstr "Recarregar"
+msgstr "&Recarregar"
 
 #: po/texts.cpp:123
 msgid "&Previous"
-msgstr ""
+msgstr "&Anterior"
 
 #: po/texts.cpp:124
-#, fuzzy
 msgid "&Next"
-msgstr "&Novo"
+msgstr "&Próxima"
 
 #: po/texts.cpp:125
-#, fuzzy
 msgid "Files"
-msgstr "Arquivo"
+msgstr "Arquivos"
 
 #: po/texts.cpp:126
-#, fuzzy
 msgid "Continue"
-msgstr "Conteúdo"
+msgstr "Continuar"
 
 #: po/texts.cpp:127
-#, fuzzy
 msgid "Restore"
-msgstr "Remover"
+msgstr "Restaurar"
 
 #: po/texts.cpp:128
 msgid "Appearance"
-msgstr ""
+msgstr "Aparência"
 
 #: po/texts.cpp:129
-#, fuzzy
 msgid "Print"
-msgstr "Im&primir..."
+msgstr "Imprimir"
 
 #: po/texts.cpp:130
-#, fuzzy
 msgid "Monday"
-msgstr "Maio"
+msgstr "Segunda"
 
 #: po/texts.cpp:131
 msgid "Tuesday"
-msgstr ""
+msgstr "Terça"
 
 #: po/texts.cpp:132
 msgid "Wednesday"
-msgstr ""
+msgstr "Quarta"
 
 #: po/texts.cpp:133
 msgid "Thursday"
-msgstr ""
+msgstr "Quinta"
 
 #: po/texts.cpp:134
 msgid "Friday"
-msgstr ""
+msgstr "Sexta"
 
 #: po/texts.cpp:135
 msgid "Saturday"
-msgstr ""
+msgstr "Sábado"
 
 #: po/texts.cpp:136
 msgid "Sunday"
-msgstr ""
+msgstr "Domingo"
 
 #: po/texts.cpp:137
-#, fuzzy
 msgid "&Update"
-msgstr "Co&lar"
+msgstr "&Atualizar"
 
 #: po/texts.cpp:138
 msgid "Layout"
-msgstr ""
+msgstr "Layout"
 
 #: po/texts.cpp:139
 msgid "Highscore"
-msgstr ""
+msgstr "Escore"
 
 #: po/texts.cpp:140
-#, fuzzy
 msgid "&New View"
-msgstr "&Ver"
+msgstr "&Nova Visão"
 
 #: po/texts.cpp:141
 msgid "&Insert"
-msgstr ""
+msgstr "&Inserir"
 
 #: po/texts.cpp:144
 msgid "&Next >>"
-msgstr ""
+msgstr "&Próximo >>"
 
 #: po/texts.cpp:145
 msgid "<< &Previous"
-msgstr ""
+msgstr "<< &Anterior"
