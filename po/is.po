@@ -3,7 +3,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-11-24 01:00+0100\n"
+"POT-Creation-Date: 1998-11-28 14:05+0100\n"
 "PO-Revision-Date: 1998-10-23 23:31+0200\n"
 "Last-Translator: Logi Ragnarsson <logir@imf.au.dk>\n"
 "Language-Team: is\n"
@@ -973,6 +973,11 @@ msgstr "%d %s og %d %s"
 #: kfile/kfiledialog.cpp:1319
 msgid "one directory"
 msgstr "ein mappa"
+
+#: kfile/kfiledialog.cpp:1321
+#, fuzzy, c-format
+msgid "%d directories"
+msgstr "möppur"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"

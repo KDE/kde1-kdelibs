@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-11-24 01:00+0100\n"
+"POT-Creation-Date: 1998-11-28 14:05+0100\n"
 "PO-Revision-Date: 1998-06-25 01:00\n"
 "Last-Translator: LinuxKorea Co. <kde@linuxkorea.co.kr>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
@@ -983,6 +983,11 @@ msgstr "%d %s 와 %d %s"
 #: kfile/kfiledialog.cpp:1319
 msgid "one directory"
 msgstr "한개의 디렉토리"
+
+#: kfile/kfiledialog.cpp:1321
+#, fuzzy, c-format
+msgid "%d directories"
+msgstr "디렉토리"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1998-11-24 01:00+0100\n"
+"POT-Creation-Date: 1998-11-28 14:05+0100\n"
 "PO-Revision-Date: 1998-03-20 12:20 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -980,6 +980,11 @@ msgstr "%d %s a %d %s"
 #: kfile/kfiledialog.cpp:1319
 msgid "one directory"
 msgstr "prieèinok"
+
+#: kfile/kfiledialog.cpp:1321
+#, fuzzy, c-format
+msgid "%d directories"
+msgstr "prieèinky"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"

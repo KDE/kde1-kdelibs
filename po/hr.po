@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-11-24 01:00+0100\n"
+"POT-Creation-Date: 1998-11-28 14:05+0100\n"
 "PO-Revision-Date: 1998-03-15 20:00-0500\n"
 "Last-Translator:  Almir Uzunovic <auzunovi@sava.utic.net.ba> \n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -970,6 +970,11 @@ msgstr "%d %s i %d %s"
 #: kfile/kfiledialog.cpp:1319
 msgid "one directory"
 msgstr "jedan direktorij"
+
+#: kfile/kfiledialog.cpp:1321
+#, fuzzy, c-format
+msgid "%d directories"
+msgstr "direktoriji"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"

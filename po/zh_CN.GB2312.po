@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1998-11-24 01:00+0100\n"
+"POT-Creation-Date: 1998-11-28 14:05+0100\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -1003,6 +1003,11 @@ msgstr "%d %s 和 %d %s"
 #: kfile/kfiledialog.cpp:1319
 msgid "one directory"
 msgstr "一个目录"
+
+#: kfile/kfiledialog.cpp:1321
+#, fuzzy, c-format
+msgid "%d directories"
+msgstr "目录"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-24 01:00+0100\n"
+"POT-Creation-Date: 1998-11-28 14:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -950,6 +950,11 @@ msgstr ""
 
 #: kfile/kfiledialog.cpp:1319
 msgid "one directory"
+msgstr ""
+
+#: kfile/kfiledialog.cpp:1321
+#, c-format
+msgid "%d directories"
 msgstr ""
 
 #: kfile/kfiledialogconf.cpp:41
