@@ -2439,8 +2439,8 @@ msgid ""
 "Use the icons for drag and drop actions, since they refer to the cache files "
 "on your hard disk, while you should use the textual links for browsing"
 msgstr ""
-"Brug ikonerne til træk og slip handlinger da de refererer til cache filer på"
-"din harddisk, men brug tekst links til netsøgning"
+"Brug ikonerne til træk og slip handlinger da de refererer til cache filer "
+"pådin harddisk, men brug tekst links til netsøgning"
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"
