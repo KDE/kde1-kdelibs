@@ -15,19 +15,16 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: kdecore/kapp.cpp:410
-#, fuzzy
 msgid "&Help..."
-msgstr "Nápovìda"
+msgstr "&Nápovìda..."
 
 #: kdecore/kapp.cpp:415
-#, fuzzy
 msgid "&About"
-msgstr "Informace"
+msgstr "&Informace o aplikaci"
 
 #: kdecore/kapp.cpp:419
-#, fuzzy
 msgid "About &KDE..."
-msgstr "Informace o KDE"
+msgstr "Informace o &KDE ..."
 
 #: kdecore/kapp.cpp:440
 msgid "About KDE"
@@ -105,43 +102,44 @@ msgstr "Pøevzít"
 #: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
 #: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1470 po/texts.cpp:87
 msgid "Sorry"
-msgstr ""
+msgstr "Lituji"
 
 #: kdeui/keditcl1.cpp:128
 msgid "The specified File does not exist"
-msgstr ""
+msgstr "Specifikovaný soubor neexistuje"
 
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:494
 #: kdeui/keditcl1.cpp:1626
 msgid "Sorry:"
-msgstr ""
+msgstr "Lituji:"
 
 #: kdeui/keditcl1.cpp:142
 msgid "You have specificated a directory"
-msgstr ""
+msgstr "Zadal jste adresáø"
 
 #: kdeui/keditcl1.cpp:157 kdeui/keditcl1.cpp:178
 msgid "You do not have read permission to this file."
-msgstr ""
+msgstr "Nemáte práva ke ètení tohoto souboru."
 
 #: kdeui/keditcl1.cpp:191
 msgid "An Error occured while trying to open this Document"
-msgstr ""
+msgstr "Nastala chyba pøi otevírání tohoto dokumentu"
 
 #: kdeui/keditcl1.cpp:356
 msgid "Select Document to Insert"
-msgstr ""
+msgstr "Vyber dokument pro vlo¾ení"
 
 #: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1569
-#, fuzzy
 msgid "Warning:"
-msgstr "Varování"
+msgstr "Varování:"
 
 #: kdeui/keditcl1.cpp:393 kdeui/keditcl1.cpp:475
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
 msgstr ""
+"Souèasný dokument byl modifikován.\n"
+"Pøejete si ho ulo¾it?"
 
 #: kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416 kdeui/keditcl1.cpp:477
 #: kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1572 kdeui/keditcl2.cpp:108
@@ -164,16 +162,20 @@ msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
+"Není mo¾né ulo¾it dokument.\n"
+"Otevøít i pøesto nový dokument?"
 
 #: kdeui/keditcl1.cpp:445
 msgid "Select Document to Open"
-msgstr ""
+msgstr "Vyberte dokument k otevøení"
 
 #: kdeui/keditcl1.cpp:495
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
+"Není mo¾né ulo¾it dokument.\\n\n"
+"Vytvoøit i pøesto nový dokument?"
 
 #: kdeui/keditcl1.cpp:530 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
 msgid "Untitled"
@@ -181,34 +183,37 @@ msgstr "Nepojmenovaný"
 
 #: kdeui/keditcl1.cpp:1471
 msgid "Could not save the document\n"
-msgstr ""
+msgstr "Není mo¾né ulo¾it dokument\n"
 
 #: kdeui/keditcl1.cpp:1541
-#, fuzzy
 msgid "Save Document As"
-msgstr "Ulo¾it jako"
+msgstr "Ulo¾it dokument jako"
 
 #: kdeui/keditcl1.cpp:1570
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
 msgstr ""
+"Dokument s tímto jménem ji¾ existuje\n"
+"pøejete si ho pøepsat?"
 
 #: kdeui/keditcl1.cpp:1627
 msgid "You do not have write permission to this file.\n"
-msgstr ""
+msgstr "Nemáte práva k zápisu do tohoto souboru.\n"
 
 #: kdeui/keditcl2.cpp:105 kdeui/keditcl2.cpp:122 kdeui/keditcl2.cpp:362
 #: kdeui/keditcl2.cpp:379 kdeui/keditcl2.cpp:678 kdeui/keditcl2.cpp:687
 #: kdeui/keditcl2.cpp:788
 msgid "Find"
-msgstr ""
+msgstr "Nalézt"
 
 #: kdeui/keditcl2.cpp:106 kdeui/keditcl2.cpp:363 kdeui/keditcl2.cpp:456
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
 msgstr ""
+"Dosa¾eno konce dokumentu.\n"
+"Pokraèovat od zaèátku?"
 
 #: kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426
 #: kdeui/keditcl2.cpp:473
@@ -216,43 +221,45 @@ msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
 msgstr ""
+"Dosa¾eno zaèátku dokumentu.\n"
+"Pokraèovat od konce?"
 
 #: kdeui/keditcl2.cpp:425 kdeui/keditcl2.cpp:455 kdeui/keditcl2.cpp:472
 #: kdeui/keditcl2.cpp:791
 msgid "Replace"
-msgstr ""
+msgstr "Nahradit"
 
 #: kdeui/keditcl2.cpp:684 kdeui/keditcl2.cpp:782
 msgid "Case Sensitive"
-msgstr ""
+msgstr "Rozli¹ovat velikost"
 
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:785
 msgid "Find Backwards"
-msgstr ""
+msgstr "Hledej odzadu"
 
 #: kdeui/keditcl2.cpp:690 kdeui/keditcl2.cpp:797 po/texts.cpp:86
 msgid "Done"
-msgstr ""
+msgstr "Hotovo"
 
 #: kdeui/keditcl2.cpp:770
 msgid "Find:"
-msgstr ""
+msgstr "Nalézt:"
 
 #: kdeui/keditcl2.cpp:780
 msgid "Replace with:"
-msgstr ""
+msgstr "Nahradit s:"
 
 #: kdeui/keditcl2.cpp:794
 msgid "Replace All"
-msgstr ""
+msgstr "Nahradit v¹e"
 
 #: kdeui/keditcl2.cpp:891
 msgid "Goto Line"
-msgstr ""
+msgstr "Jdi na øádek"
 
 #: kdeui/keditcl2.cpp:896
 msgid "Go"
-msgstr ""
+msgstr "Jdi"
 
 #: kdeui/kfontdialog.cpp:164
 msgid "Select Font"
@@ -287,9 +294,8 @@ msgid "Style:"
 msgstr "Styl:"
 
 #: kdeui/kfontdialog.cpp:272
-#, fuzzy
 msgid "Charset"
-msgstr "Kódování:"
+msgstr "Kódování"
 
 #: kdeui/kfontdialog.cpp:284
 msgid "Size"
@@ -400,137 +406,124 @@ msgid "About"
 msgstr "Informace"
 
 #: po/texts.cpp:33
-#, fuzzy
 msgid "A&bout..."
-msgstr "Informace"
+msgstr "&Informace..."
 
 #: po/texts.cpp:36
-#, fuzzy
 msgid "&OK"
-msgstr "OK"
+msgstr "&OK"
 
 #: po/texts.cpp:38
-#, fuzzy
 msgid "On"
-msgstr "Otevøít"
+msgstr "Zapnout"
 
 #: po/texts.cpp:39
 msgid "Off"
-msgstr ""
+msgstr "Vypnout"
 
 #: po/texts.cpp:41
-#, fuzzy
 msgid "&Cancel"
-msgstr "Zru¹it"
+msgstr "&Zru¹it"
 
 #: po/texts.cpp:43
 msgid "File"
 msgstr "Soubor"
 
 #: po/texts.cpp:44
-#, fuzzy
 msgid "&File"
-msgstr "Soubor"
+msgstr "&Soubor"
 
 #: po/texts.cpp:46
-#, fuzzy
 msgid "&Help"
-msgstr "Nápovìda"
+msgstr "&Nápovìda"
 
 #: po/texts.cpp:47
 msgid "Edit"
 msgstr "Úpravy"
 
 #: po/texts.cpp:48
-#, fuzzy
 msgid "&Edit"
-msgstr "Úpravy"
+msgstr "Ú&pravy"
 
 #: po/texts.cpp:49
 msgid "&Options"
-msgstr ""
+msgstr "&Mo¾nosti"
 
 #: po/texts.cpp:50
 msgid "View"
-msgstr ""
+msgstr "Pohled"
 
 #: po/texts.cpp:51
-#, fuzzy
 msgid "&View"
-msgstr "Soubor"
+msgstr "&Pohled"
 
 #: po/texts.cpp:52
-#, fuzzy
 msgid "E&xit"
-msgstr "Úpravy"
+msgstr "&Ukonèit"
 
 #: po/texts.cpp:53
 msgid "Quit"
 msgstr "Ukonèit"
 
 #: po/texts.cpp:54
-#, fuzzy
 msgid "&Quit"
-msgstr "Ukonèit"
+msgstr "&Ukonèit"
 
 #: po/texts.cpp:55
 msgid "Reload"
-msgstr ""
+msgstr "Obnovit"
 
 #: po/texts.cpp:56
 msgid "Back"
-msgstr ""
+msgstr "Zpìt"
 
 #: po/texts.cpp:57
 msgid "Forward"
-msgstr ""
+msgstr "Dal¹í"
 
 #: po/texts.cpp:58
 msgid "Copy"
-msgstr ""
+msgstr "Kopírovat"
 
 #: po/texts.cpp:59
 msgid "&Copy"
-msgstr ""
+msgstr "&Kopírovat"
 
 #: po/texts.cpp:60
 msgid "Paste"
-msgstr ""
+msgstr "Vlo¾it"
 
 #: po/texts.cpp:61
 msgid "&Paste"
-msgstr ""
+msgstr "&Vlo¾it"
 
 #: po/texts.cpp:62
 msgid "New"
-msgstr ""
+msgstr "Nový"
 
 #: po/texts.cpp:63
 msgid "&New"
-msgstr ""
+msgstr "&Nový"
 
 #: po/texts.cpp:64
-#, fuzzy
 msgid "&New..."
-msgstr "Otevøít"
+msgstr "&Nový ..."
 
 #: po/texts.cpp:65
 msgid "&New Window..."
-msgstr ""
+msgstr "&Nové okno..."
 
 #: po/texts.cpp:66
 msgid "New &Window..."
-msgstr ""
+msgstr "Nové &okno..."
 
 #: po/texts.cpp:67
-#, fuzzy
 msgid "New Game"
-msgstr "Ulo¾it"
+msgstr "Nová hra"
 
 #: po/texts.cpp:68
-#, fuzzy
 msgid "&New Game"
-msgstr "Ulo¾it"
+msgstr "&Nová hra"
 
 #: po/texts.cpp:69
 msgid "Open"
@@ -541,144 +534,125 @@ msgid "Open a file"
 msgstr "Otevøít soubor"
 
 #: po/texts.cpp:71
-#, fuzzy
 msgid "Open..."
-msgstr "Otevøít"
+msgstr "Otevøít ..."
 
 #: po/texts.cpp:72
-#, fuzzy
 msgid "&Open..."
-msgstr "Otevøít"
+msgstr "&Otevøít ..."
 
 #: po/texts.cpp:73
 msgid "Cut"
-msgstr ""
+msgstr "Vyjmout"
 
 #: po/texts.cpp:74
-#, fuzzy
 msgid "C&ut"
-msgstr "Ukonèit"
+msgstr "Vyjmou&t"
 
 #: po/texts.cpp:75
-#, fuzzy
 msgid "Font"
-msgstr "Plovoucí"
+msgstr "Znaková sada"
 
 #: po/texts.cpp:76
 msgid "&Foreground Color"
-msgstr ""
+msgstr "Barva &textu"
 
 #: po/texts.cpp:77
 msgid "&Background Color"
-msgstr ""
+msgstr "Barva &pozadí"
 
 #: po/texts.cpp:78
 msgid "Save"
 msgstr "Ulo¾it"
 
 #: po/texts.cpp:79
-#, fuzzy
 msgid "&Save"
-msgstr "Ulo¾it"
+msgstr "U&lo¾it"
 
 #: po/texts.cpp:80
 msgid "Save As"
 msgstr "Ulo¾it jako"
 
 #: po/texts.cpp:81
-#, fuzzy
 msgid "Save as..."
-msgstr "Ulo¾it jako"
+msgstr "Ulo¾it jako ..."
 
 #: po/texts.cpp:82
-#, fuzzy
 msgid "S&ave as..."
-msgstr "Ulo¾it jako"
+msgstr "Ulo¾it &jako"
 
 #: po/texts.cpp:83
 msgid "Close"
 msgstr "Zavøít"
 
 #: po/texts.cpp:84
-#, fuzzy
 msgid "&Close"
-msgstr "Zavøít"
+msgstr "&Zavøít"
 
 #: po/texts.cpp:85
 msgid "&Print..."
-msgstr ""
+msgstr "&Tisknout ..."
 
 #: po/texts.cpp:88
 msgid "Options"
-msgstr ""
+msgstr "Mo¾nosti"
 
 #: po/texts.cpp:89
 msgid "Remove"
-msgstr ""
+msgstr "Odstranit"
 
 #: po/texts.cpp:90
 msgid "Add"
-msgstr ""
+msgstr "Pøidat"
 
 #: po/texts.cpp:91
-#, fuzzy
 msgid "Change"
-msgstr "Zru¹it"
+msgstr "Zmìnit"
 
 #: po/texts.cpp:92
 msgid "Delete"
-msgstr ""
+msgstr "Smazat"
 
 #: po/texts.cpp:93
 msgid "&Delete"
-msgstr ""
+msgstr "&Smazat"
 
 #: po/texts.cpp:94
-#, fuzzy
 msgid "Clear"
-msgstr "Zavøít"
+msgstr "Vyprázdnit"
 
 #: po/texts.cpp:95
-#, fuzzy
 msgid "Italic"
-msgstr "italic"
+msgstr "Italic"
 
 #: po/texts.cpp:96
-#, fuzzy
 msgid "Roman"
-msgstr "roman"
+msgstr "Roman"
 
 #: po/texts.cpp:97
 msgid "Undo"
-msgstr ""
+msgstr "Zpìt"
 
 #: po/texts.cpp:98
 msgid "&Undo"
-msgstr ""
+msgstr "&Zpìt"
 
 #: po/texts.cpp:99
 msgid "Redo"
-msgstr ""
+msgstr "Opakovat"
 
 #: po/texts.cpp:100
 msgid "&Redo"
-msgstr ""
+msgstr "&Opakovat"
 
 #: po/texts.cpp:101
-#, fuzzy
 msgid "&Game"
-msgstr "Ulo¾it"
+msgstr "&Hra"
 
 #: po/texts.cpp:102
 msgid "Information"
-msgstr ""
+msgstr "Informace"
 
 #: po/texts.cpp:103
 msgid "Browse..."
-msgstr ""
-
-#~ msgid "About "
-#~ msgstr "Informace o aplikaci "
-
-#~ msgid "ERROR: couldn't find icon: %s"
-#~ msgstr "Chyba: nemohu nalézt ikonu: %s"
+msgstr "Listuj ..."
