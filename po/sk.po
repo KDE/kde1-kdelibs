@@ -1160,9 +1160,8 @@ msgid "Keep dirs first"
 msgstr "Prieèinky najprv"
 
 #: kfile/kfilefilter.cpp:35
-#, fuzzy
 msgid "*|All Files"
-msgstr "Súbory"
+msgstr "*|V¹etky súbory"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"
@@ -1272,78 +1271,71 @@ msgstr ""
 
 #: kspell/ksconfig.cpp:66
 msgid "Create Root/Affix combinations not in the dictionary"
-msgstr ""
+msgstr "Vytvori» Root/Affix kombinácie, ktoré nie sú v slovníku"
 
 #: kspell/ksconfig.cpp:75
 msgid "Consider run-together words as spelling errors"
-msgstr ""
+msgstr "Pova¾ova» spojené slová ako chyby"
 
 #: kspell/ksconfig.cpp:92
-#, fuzzy
 msgid "Dictionary"
-msgstr "prieèinok"
+msgstr "Slovník"
 
 #: kspell/ksconfig.cpp:140
 msgid "Encoding:"
-msgstr ""
+msgstr "Kódovanie:"
 
 #: kspell/ksconfig.cpp:147
-#, fuzzy
 msgid "Latin1"
-msgstr "U&miestnenie:"
+msgstr "Latin1"
 
 #: kspell/ksconfig.cpp:148
 msgid "7-Bit/ASCII"
-msgstr ""
+msgstr "7-Bit/ASCII"
 
 #: kspell/ksconfig.cpp:292
 msgid "English"
-msgstr ""
+msgstr "Anglický"
 
 #: kspell/ksconfig.cpp:298
 msgid "Spanish"
-msgstr ""
+msgstr "©panielsky"
 
 #: kspell/ksconfig.cpp:304
-#, fuzzy
 msgid "German"
-msgstr "rímske"
+msgstr "Nemecký"
 
 #: kspell/ksconfig.cpp:311
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "Brazílsko-portugalský"
 
 #: kio/kio_cache.cc:422 kspell/ksconfig.cpp:317
 msgid "Unknown"
 msgstr "Neznámy"
 
 #: kspell/ksconfig.cpp:348
-#, fuzzy
 msgid "ISpell Default"
-msgstr "©tand."
+msgstr "ISpell ©tand."
 
 #: kspell/kspelldlg.cpp:58
 msgid "Misspelled Word:"
-msgstr ""
+msgstr "Chybné slovo:"
 
 #: kspell/kspelldlg.cpp:68
-#, fuzzy
 msgid "Replacement:"
-msgstr "Nahradi»"
+msgstr "Náhrada:"
 
 #: kspell/kspelldlg.cpp:77
 msgid "Suggestions:"
-msgstr ""
+msgstr "Odporúèania:"
 
 #: kspell/kspelldlg.cpp:88
-#, fuzzy
 msgid "Ignore"
-msgstr "&Ignorova»"
+msgstr "Ignorova»"
 
 #: kspell/kspelldlg.cpp:99
-#, fuzzy
 msgid "Ignore All"
-msgstr "&Ignorova»"
+msgstr "Ignorova» v¹etky"
 
 #: kspell/kspelldlg.cpp:120 po/texts.cpp:86
 msgid "Add"
@@ -1926,16 +1918,14 @@ msgid "Address:"
 msgstr "Adresa:"
 
 #: kab/editentry.cc:104
-#, fuzzy
 msgid "Town/City:"
-msgstr "Mesto:"
+msgstr "Obec/Mesto:"
 
 #: kab/editentry.cc:105
 msgid "State:"
 msgstr "©tát:"
 
 #: kab/editentry.cc:106
-#, fuzzy
 msgid "Zip/Postal Code:"
 msgstr "PSÈ/po¹tový kód:"
 
@@ -1952,18 +1942,16 @@ msgid "Organization:"
 msgstr "Organizácia:"
 
 #: kab/editentry.cc:146
-#, fuzzy
 msgid "Department:"
-msgstr "Nahradi»"
+msgstr "Oddelenie:"
 
 #: kab/editentry.cc:147
 msgid "Sub-Department:"
-msgstr ""
+msgstr "Sub-Oddelenie:"
 
 #: kab/editentry.cc:148
-#, fuzzy
 msgid "Job/Role:"
-msgstr "Funkcia:"
+msgstr "Práca/Funkcia:"
 
 #: kab/editentry.cc:169
 msgid "&Organization"
@@ -1998,9 +1986,8 @@ msgid "&Contact"
 msgstr "&Kontakt"
 
 #: kab/editentry.cc:239
-#, fuzzy
 msgid "Additional Comment:"
-msgstr "Ïal¹ie meno:"
+msgstr "Ïal¹ie komentáre:"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
