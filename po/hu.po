@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdehelp 0.5.2\n"
-"POT-Creation-Date: 1997-12-28 19:48+0100\n"
+"POT-Creation-Date: 1997-12-29 17:42+0100\n"
 "PO-Revision-Date: 1997-09-21 19:39+MET\n"
 "Last-Translator: Balazs Nagy <julian7@kva.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -13,22 +13,22 @@ msgstr ""
 "Content-Type: text/plain; charset=Latin2\n"
 "Content-Transfer-Encoding: iso-8859-2\n"
 
-#: kdecore/kapp.cpp:391 kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34
+#: kdecore/kapp.cpp:404 kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34
 #: po/texts.cpp:45
 msgid "Help"
 msgstr "Segítség"
 
-#: kdecore/kapp.cpp:396
+#: kdecore/kapp.cpp:409
 #, fuzzy
 msgid "About "
 msgstr "Névjegy"
 
-#: kdecore/kapp.cpp:400 kdecore/kapp.cpp:421
+#: kdecore/kapp.cpp:413 kdecore/kapp.cpp:434
 #, fuzzy
 msgid "About KDE"
 msgstr "Névjegy"
 
-#: kdecore/kapp.cpp:423
+#: kdecore/kapp.cpp:436
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
@@ -266,6 +266,160 @@ msgstr ""
 #: po/texts.cpp:46
 msgid "Edit"
 msgstr "Szerkesztés"
+
+#: po/texts.cpp:47
+#, fuzzy
+msgid "On"
+msgstr "Megnyitás"
+
+#: po/texts.cpp:48
+msgid "Off"
+msgstr ""
+
+#: po/texts.cpp:49
+#, fuzzy
+msgid "&File"
+msgstr "Szûrõ:"
+
+#: po/texts.cpp:50
+msgid "&Options"
+msgstr ""
+
+#: po/texts.cpp:51
+#, fuzzy
+msgid "&Help"
+msgstr "Segítség"
+
+#: po/texts.cpp:52
+#, fuzzy
+msgid "&Edit"
+msgstr "Szerkesztés"
+
+#: po/texts.cpp:53
+#, fuzzy
+msgid "E&xit"
+msgstr "Szerkesztés"
+
+#: po/texts.cpp:54
+#, fuzzy
+msgid "&Quit"
+msgstr "Kilép"
+
+#: po/texts.cpp:55
+msgid "Reload"
+msgstr ""
+
+#: po/texts.cpp:56
+msgid "Back"
+msgstr ""
+
+#: po/texts.cpp:57
+msgid "Forward"
+msgstr ""
+
+#: po/texts.cpp:58
+msgid "Copy"
+msgstr ""
+
+#: po/texts.cpp:59
+msgid "Paste"
+msgstr ""
+
+#: po/texts.cpp:60
+#, fuzzy
+msgid "Open..."
+msgstr "Megnyitás"
+
+#: po/texts.cpp:61
+#, fuzzy
+msgid "Save as..."
+msgstr "Mentés másként"
+
+#: po/texts.cpp:62
+msgid "Cut"
+msgstr ""
+
+#: po/texts.cpp:63
+#, fuzzy
+msgid "Font"
+msgstr "Lebegtetés"
+
+#: po/texts.cpp:64
+msgid "&Foreground Color"
+msgstr ""
+
+#: po/texts.cpp:65
+msgid "&Background Color"
+msgstr ""
+
+#: po/texts.cpp:66
+#, fuzzy
+msgid "&Save"
+msgstr "Mentés"
+
+#: po/texts.cpp:67
+#, fuzzy
+msgid "S&ave as..."
+msgstr "Mentés másként"
+
+#: po/texts.cpp:68
+#, fuzzy
+msgid "&Close"
+msgstr "Bezár"
+
+#: po/texts.cpp:69
+msgid "&Print..."
+msgstr ""
+
+#: po/texts.cpp:70
+msgid "&Copy"
+msgstr ""
+
+#: po/texts.cpp:71
+msgid "&Paste"
+msgstr ""
+
+#: po/texts.cpp:72
+#, fuzzy
+msgid "C&ut"
+msgstr "Kilép"
+
+#: po/texts.cpp:73
+msgid "Done"
+msgstr ""
+
+#: po/texts.cpp:74
+msgid "Sorry"
+msgstr ""
+
+#: po/texts.cpp:75
+msgid "Options"
+msgstr ""
+
+#: po/texts.cpp:76
+msgid "Remove"
+msgstr ""
+
+#: po/texts.cpp:77
+msgid "Add"
+msgstr ""
+
+#: po/texts.cpp:78
+msgid "View"
+msgstr ""
+
+#: po/texts.cpp:79
+#, fuzzy
+msgid "Change"
+msgstr "Mégsem"
+
+#: po/texts.cpp:80
+msgid "New"
+msgstr ""
+
+#: po/texts.cpp:81
+msgid "Delete"
+msgstr ""
 
 #~ msgid "ERROR: couldn't find icon: %s"
 #~ msgstr "HIBA: nem találtam a %s icont"

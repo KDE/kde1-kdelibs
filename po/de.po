@@ -1,24 +1,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1997-12-28 19:48+0100\n"
+"POT-Creation-Date: 1997-12-29 17:42+0100\n"
 "PO-Revision-Date: 1997-12-28 19:46+01\n"
 "Last-Translator: Stephan Kulow <coolo@kde.org>\n"
 
-#: kdecore/kapp.cpp:391 kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34
+#: kdecore/kapp.cpp:404 kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34
 #: po/texts.cpp:45
 msgid "Help"
 msgstr "Hilfe"
 
-#: kdecore/kapp.cpp:396
+#: kdecore/kapp.cpp:409
 msgid "About "
 msgstr "Über "
 
-#: kdecore/kapp.cpp:400 kdecore/kapp.cpp:421
+#: kdecore/kapp.cpp:413 kdecore/kapp.cpp:434
 msgid "About KDE"
 msgstr "Über KDE..."
 
-#: kdecore/kapp.cpp:423
+#: kdecore/kapp.cpp:436
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
@@ -100,7 +100,7 @@ msgstr "Familie:"
 
 #: kdeui/kfontdialog.cpp:188 kdeui/kfontdialog.cpp:194 po/texts.cpp:26
 msgid "Charset:"
-msgstr ""
+msgstr "Zeichensatz:"
 
 #: kdeui/kfontdialog.cpp:201 kdeui/kfontdialog.cpp:206
 msgid "Size:"
@@ -116,7 +116,7 @@ msgstr "Schnitt:"
 
 #: kdeui/kfontdialog.cpp:272
 msgid "Charset"
-msgstr ""
+msgstr "Zeichensatz"
 
 #: kdeui/kfontdialog.cpp:284
 msgid "Size"
@@ -270,3 +270,143 @@ msgstr "Datei"
 #: po/texts.cpp:46
 msgid "Edit"
 msgstr "Bearbeiten"
+
+#: po/texts.cpp:47
+msgid "On"
+msgstr "An"
+
+#: po/texts.cpp:48
+msgid "Off"
+msgstr "Aus"
+
+#: po/texts.cpp:49
+msgid "&File"
+msgstr "&Datei"
+
+#: po/texts.cpp:50
+msgid "&Options"
+msgstr "&Einstellungen"
+
+#: po/texts.cpp:51
+msgid "&Help"
+msgstr "&Hilfe"
+
+#: po/texts.cpp:52
+msgid "&Edit"
+msgstr "&Bearbeiten"
+
+#: po/texts.cpp:53
+msgid "E&xit"
+msgstr "&Beenden"
+
+#: po/texts.cpp:54
+msgid "&Quit"
+msgstr "&Beenden"
+
+#: po/texts.cpp:55
+msgid "Reload"
+msgstr "Neu laden"
+
+#: po/texts.cpp:56
+msgid "Back"
+msgstr "Zurück"
+
+#: po/texts.cpp:57
+msgid "Forward"
+msgstr "Weiter"
+
+#: po/texts.cpp:58
+msgid "Copy"
+msgstr "Kopieren"
+
+#: po/texts.cpp:59
+msgid "Paste"
+msgstr "Einfügen"
+
+#: po/texts.cpp:60
+msgid "Open..."
+msgstr "Öffnen..."
+
+#: po/texts.cpp:61
+msgid "Save as..."
+msgstr "Speichern unter..."
+
+#: po/texts.cpp:62
+msgid "Cut"
+msgstr "Ausschneiden"
+
+#: po/texts.cpp:63
+msgid "Font"
+msgstr "Schriftart"
+
+#: po/texts.cpp:64
+msgid "&Foreground Color"
+msgstr "&Vordergrund-Farbe"
+
+#: po/texts.cpp:65
+msgid "&Background Color"
+msgstr "&Hintergrund-Farbe"
+
+#: po/texts.cpp:66
+msgid "&Save"
+msgstr "&Speichern"
+
+#: po/texts.cpp:67
+msgid "S&ave as..."
+msgstr "Speichern &unter"
+
+#: po/texts.cpp:68
+msgid "&Close"
+msgstr "Sch&ließen"
+
+#: po/texts.cpp:69
+msgid "&Print..."
+msgstr "&Drucken"
+
+#: po/texts.cpp:70
+msgid "&Copy"
+msgstr "&Kopieren"
+
+#: po/texts.cpp:71
+msgid "&Paste"
+msgstr "&Einfügen"
+
+#: po/texts.cpp:72
+msgid "C&ut"
+msgstr "Aus&schneiden"
+
+#: po/texts.cpp:73
+msgid "Done"
+msgstr "Fertig"
+
+#: po/texts.cpp:74
+msgid "Sorry"
+msgstr "Sorry"
+
+#: po/texts.cpp:75
+msgid "Options"
+msgstr "Einstellungen"
+
+#: po/texts.cpp:76
+msgid "Remove"
+msgstr "Entfernen"
+
+#: po/texts.cpp:77
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: po/texts.cpp:78
+msgid "View"
+msgstr ""
+
+#: po/texts.cpp:79
+msgid "Change"
+msgstr "Ändern"
+
+#: po/texts.cpp:80
+msgid "New"
+msgstr "Neu"
+
+#: po/texts.cpp:81
+msgid "Delete"
+msgstr "Löschen"
