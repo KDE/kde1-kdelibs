@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1999-01-08 01:01+0100\n"
+"POT-Creation-Date: 1999-01-11 01:01+0100\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -338,23 +338,23 @@ msgstr ""
 msgid "ALT"
 msgstr ""
 
-#: kdecore/kapp.cpp:598 po/texts.cpp:137
+#: kdecore/kapp.cpp:601 po/texts.cpp:137
 msgid "&Contents"
 msgstr "内容[&C]"
 
-#: kdecore/kapp.cpp:604
+#: kdecore/kapp.cpp:607
 msgid "&About"
 msgstr "有关[&A]"
 
-#: kdecore/kapp.cpp:611
+#: kdecore/kapp.cpp:614
 msgid "About &KDE..."
 msgstr "关于 &KDE..."
 
-#: kdecore/kapp.cpp:632
+#: kdecore/kapp.cpp:635
 msgid "About KDE"
 msgstr "关于 KDE"
 
-#: kdecore/kapp.cpp:634
+#: kdecore/kapp.cpp:637
 #, fuzzy
 msgid ""
 "\n"

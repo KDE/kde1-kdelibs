@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE 1.0\n"
-"POT-Creation-Date: 1999-01-08 01:01+0100\n"
+"POT-Creation-Date: 1999-01-11 01:01+0100\n"
 "PO-Revision-Date: 1998-11-19 18:00+0200\n"
 "Last-Translator: Kerem ERZURUMLU & Zerrin ÜNAL <kerem@linux.org.tri & @>\n"
 "Language-Team: Hacettepe Linux Users Group <hacettepe@linux.org.tr>\n"
@@ -343,23 +343,23 @@ msgstr ""
 msgid "ALT"
 msgstr ""
 
-#: kdecore/kapp.cpp:598 po/texts.cpp:137
+#: kdecore/kapp.cpp:601 po/texts.cpp:137
 msgid "&Contents"
 msgstr "&Ýçerik"
 
-#: kdecore/kapp.cpp:604
+#: kdecore/kapp.cpp:607
 msgid "&About"
 msgstr "&Hakkýnda"
 
-#: kdecore/kapp.cpp:611
+#: kdecore/kapp.cpp:614
 msgid "About &KDE..."
 msgstr "&KDE Hakkýnda ..."
 
-#: kdecore/kapp.cpp:632
+#: kdecore/kapp.cpp:635
 msgid "About KDE"
 msgstr "KDE Hakkýnda"
 
-#: kdecore/kapp.cpp:634
+#: kdecore/kapp.cpp:637
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
