@@ -6,9 +6,8 @@ msgstr ""
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
 #: kdecore/kapp.cpp:439
-#, fuzzy
 msgid "&Contents"
-msgstr "Conteúdo"
+msgstr "&Conteúdo"
 
 #: kdecore/kapp.cpp:444
 msgid "&About"
@@ -654,6 +653,3 @@ msgstr "Explorar..."
 #: po/texts.cpp:104
 msgid "(none)"
 msgstr "(nenhum)"
-
-#~ msgid "&Help..."
-#~ msgstr "A&juda..."
