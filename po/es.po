@@ -450,11 +450,11 @@ msgstr "Edición"
 
 #: po/texts.cpp:49
 msgid "&Options"
-msgstr ""
+msgstr "&Opciones"
 
 #: po/texts.cpp:50
 msgid "View"
-msgstr ""
+msgstr "Ver"
 
 #: po/texts.cpp:51
 #, fuzzy
@@ -489,27 +489,27 @@ msgstr ""
 
 #: po/texts.cpp:58
 msgid "Copy"
-msgstr ""
+msgstr "Copiar"
 
 #: po/texts.cpp:59
 msgid "&Copy"
-msgstr ""
+msgstr "&Copiar"
 
 #: po/texts.cpp:60
 msgid "Paste"
-msgstr ""
+msgstr "Pegar"
 
 #: po/texts.cpp:61
 msgid "&Paste"
-msgstr ""
+msgstr "&Pegar"
 
 #: po/texts.cpp:62
 msgid "New"
-msgstr ""
+msgstr "Nuevo"
 
 #: po/texts.cpp:63
 msgid "&New"
-msgstr ""
+msgstr "&Nuevo"
 
 #: po/texts.cpp:64
 #, fuzzy
