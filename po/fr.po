@@ -1,10 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-12-10 01:01+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 1998-12-06 01:01+0100\n"
+"PO-Revision-Date: 1998-12-10 11:00 CET\n"
+"Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
+"Last-Translator: Francois-Xavier DURANCEAU <Francois-Xavier.Duranceau@loria.fr>\n"
+"Language-Team: Français <fr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
@@ -44,14 +45,14 @@ msgstr ""
 #: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:391
 #: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:277
 #: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:505
-#: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:407
+#: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:409
 #: po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
 
 #: kab/AssertDialog.cpp:140
 msgid "The following condition failed:\n"
-msgstr "La condition suivante a échoué:\n"
+msgstr "La condition suivante a échoué :\n"
 
 #: kab/AssertDialog.cpp:141
 msgid "In file "
@@ -63,7 +64,7 @@ msgstr ", ligne "
 
 #: kab/AssertDialog.cpp:212 kab/AssertDialog.cpp:217
 msgid "Error handling error"
-msgstr ""
+msgstr "Erreur dans la gestion d'une erreur"
 
 #: kab/AssertDialog.cpp:213
 msgid "Could not send message."
@@ -101,9 +102,8 @@ msgid "&OK"
 msgstr "&OK"
 
 #: kab/DialogBase.cpp:58
-#, fuzzy
 msgid "&Apply"
-msgstr "Appliquer"
+msgstr "&Appliquer"
 
 #: kab/DialogBase.cpp:59 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
 #: kdeui/kwizard.cpp:159 po/texts.cpp:40
@@ -112,23 +112,23 @@ msgstr "&Annuler"
 
 #: kab/PrintDialog.cpp:26
 msgid "Headline text:"
-msgstr ""
+msgstr "En-tête :"
 
 #: kab/PrintDialog.cpp:27
 msgid "Right footer text:"
-msgstr ""
+msgstr "Pied de page de droite :"
 
 #: kab/PrintDialog.cpp:28
 msgid "Left footer text:"
-msgstr ""
+msgstr "Pied de page de gauche :"
 
 #: kab/SearchDialog.cpp:47
 msgid "The title"
-msgstr ""
+msgstr "Le titre"
 
 #: kab/SearchDialog.cpp:48
 msgid "The first name"
-msgstr ""
+msgstr "Le prénom"
 
 #: kab/SearchDialog.cpp:49
 msgid "The additional name"
@@ -139,30 +139,28 @@ msgid "The name prefix"
 msgstr ""
 
 #: kab/SearchDialog.cpp:51
-#, fuzzy
 msgid "The name"
-msgstr "Le chemin"
+msgstr "Le nom"
 
 #: kab/SearchDialog.cpp:52
 msgid "The formatted name"
-msgstr ""
+msgstr "Le nom formaté"
 
 #: kab/SearchDialog.cpp:53
 msgid "The address"
-msgstr ""
+msgstr "L'adresse"
 
 #: kab/SearchDialog.cpp:54
-#, fuzzy
 msgid "The town"
-msgstr "Le chemin"
+msgstr "La ville"
 
 #: kab/SearchDialog.cpp:55
 msgid "The organization"
-msgstr ""
+msgstr "L'organisation"
 
 #: kab/SearchDialog.cpp:56
 msgid "The role"
-msgstr ""
+msgstr "Le rôle"
 
 #: kab/SearchDialog.cpp:57
 msgid "The org unit"
@@ -174,27 +172,27 @@ msgstr ""
 
 #: kab/SearchDialog.cpp:59
 msgid "The email address"
-msgstr ""
+msgstr "La première adresse email"
 
 #: kab/SearchDialog.cpp:60
 msgid "The second email address"
-msgstr ""
+msgstr "La deuxième adresse email"
 
 #: kab/SearchDialog.cpp:61
 msgid "The third email address"
-msgstr ""
+msgstr "La troisième adresse email"
 
 #: kab/SearchDialog.cpp:62
 msgid "The telephone number"
-msgstr ""
+msgstr "Le numéro de téléphone"
 
 #: kab/SearchDialog.cpp:63
 msgid "The fax number"
-msgstr ""
+msgstr "Le numéro de fax"
 
 #: kab/SearchDialog.cpp:64
 msgid "The modem number"
-msgstr ""
+msgstr "Le numéro de modem"
 
 #: kab/SearchDialog.cpp:65
 msgid "The homepage URL"
@@ -202,12 +200,11 @@ msgstr ""
 
 #: kab/SearchDialog.cpp:66
 msgid "The comment"
-msgstr ""
+msgstr "Le commentaire"
 
 #: kab/SearchDialog.cpp:74
-#, fuzzy
 msgid "kab: Search entries"
-msgstr "Rechercher un fichier"
+msgstr "kab : Recherche d'entrées"
 
 #: kab/SearchDialogMainWidget.cpp:22
 msgid "matches"
@@ -223,27 +220,27 @@ msgstr ""
 
 #: kab/StringListEditWidget.cpp:30
 msgid "Add a new string"
-msgstr ""
+msgstr "Ajout d'une nouvelle chaîne"
 
 #: kab/StringListEditWidget.cpp:31
 msgid "Move this string up"
-msgstr ""
+msgstr "Déplacement de cette chaîne vers le haut"
 
 #: kab/StringListEditWidget.cpp:32
 msgid "Move this string down"
-msgstr ""
+msgstr "Déplacement de cette chaîne vers le bas"
 
 #: kab/StringListEditWidget.cpp:33
 msgid "Delete this string"
-msgstr ""
+msgstr "Suppression de cette chaîne"
 
 #: kab/StringListSelectAndReorderSet.cpp:34
 msgid "Possible values:"
-msgstr ""
+msgstr "Valeurs possibles :"
 
 #: kab/StringListSelectAndReorderSet.cpp:35
 msgid "Selected values:"
-msgstr ""
+msgstr "Valeurs sélectionnées :"
 
 #: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:555 kfile/kfiledialog.cpp:1199
 #: kfile/kfiledialog.cpp:1358 kfile/kfiledialog.cpp:1392 po/texts.cpp:65
@@ -316,7 +313,7 @@ msgstr ""
 
 #: kdecore/kaccel.cpp:295
 msgid "Next"
-msgstr ""
+msgstr "Suivant"
 
 #: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
 #: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 po/texts.cpp:44
@@ -397,7 +394,7 @@ msgstr "Non"
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:394
 #: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:312
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:892
-#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:411 kio/kio_job.cc:703
+#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:413 kio/kio_job.cc:703
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
 #: po/texts.cpp:39
@@ -534,7 +531,7 @@ msgstr "Vous avez spécifié un répertoire"
 
 #: kdeui/keditcl1.cpp:169 kdeui/keditcl1.cpp:190
 msgid "You do not have read permission to this file."
-msgstr "Vous n'avez pas la permission de lire ce fichier"
+msgstr "Vous n'avez pas la permission de lire ce fichier."
 
 #: kdeui/keditcl1.cpp:203
 msgid "An Error occured while trying to open this Document"
@@ -737,7 +734,7 @@ msgstr "Filtre :"
 
 #: kdeui/kkeydialog.cpp:219
 msgid "Configure key bindings"
-msgstr ""
+msgstr "Configurer le clavier"
 
 #: kdeui/kkeydialog.cpp:232 kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:205
 #: po/texts.cpp:45
@@ -745,13 +742,12 @@ msgid "&Help"
 msgstr "&Aide"
 
 #: kdeui/kkeydialog.cpp:236 po/texts.cpp:136
-#, fuzzy
 msgid "&Defaults"
 msgstr "Par &défaut"
 
 #: kdeui/kkeydialog.cpp:320
 msgid "Current key"
-msgstr ""
+msgstr "Touche courante"
 
 #: kdeui/kkeydialog.cpp:331
 msgid "&Action"
@@ -759,16 +755,15 @@ msgstr "&Action"
 
 #: kdeui/kkeydialog.cpp:365
 msgid "Choose a key for the selected action"
-msgstr ""
+msgstr "Choisissez une touche pour l'action sélectionnée"
 
 #: kdeui/kkeydialog.cpp:392
 msgid "&No key"
-msgstr ""
+msgstr "Aucu&ne touche"
 
 #: kdeui/kkeydialog.cpp:400
-#, fuzzy
 msgid "&Default key"
-msgstr "Par &défaut"
+msgstr "Touche par &défaut"
 
 #: kdeui/kkeydialog.cpp:408
 msgid "&Custom key"
@@ -776,31 +771,31 @@ msgstr "Tou&ches personnalisées..."
 
 #: kdeui/kkeydialog.cpp:471
 msgid "No keys defined"
-msgstr ""
+msgstr "Aucune touche définie"
 
 #: kdeui/kkeydialog.cpp:473
 msgid "Not configurable"
-msgstr ""
+msgstr "Non configurable"
 
 #: kdeui/kkeydialog.cpp:528
 msgid "Global Keys"
-msgstr ""
+msgstr "Touches globales"
 
 #: kdeui/kkeydialog.cpp:560
 msgid "Keys"
-msgstr ""
+msgstr "Touches"
 
 #: kdeui/kkeydialog.cpp:635 kdeui/kkeydialog.cpp:968
 msgid "Attention : key already used"
-msgstr ""
+msgstr "Attention : touche déjà utilisée"
 
 #: kdeui/kkeydialog.cpp:918
 msgid "Press the wanted key"
-msgstr ""
+msgstr "Appuyez sur la touche souhaitée"
 
 #: kdeui/kkeydialog.cpp:941
 msgid "Undefined key"
-msgstr ""
+msgstr "Touche non définie"
 
 #: kdeui/kkeydialog.cpp:990
 msgid "Return to end edition"
@@ -808,7 +803,7 @@ msgstr ""
 
 #: kdeui/kkeydialog.cpp:1000
 msgid "Incorrect key"
-msgstr ""
+msgstr "Touche incorrecte"
 
 #: kdeui/kkeydialog.cpp:1026
 #, c-format
@@ -818,10 +813,14 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"La combinaison de touches %s est déjà utilisée par\n"
+"l'action globale %s.\n"
+"\n"
+"Choisissez une combinaison de touches unique."
 
 #: kdeui/kkeydialog.cpp:1030
 msgid "Global key conflict"
-msgstr ""
+msgstr "Conflit de touche globale"
 
 #: kdeui/kkeydialog.cpp:1053
 #, c-format
@@ -831,10 +830,14 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"La combinaison de touches %s est déjà utilisée par\n"
+"l'action standard %s.\n"
+"\n"
+"Choisissez une combinaison de touches unique."
 
 #: kdeui/kkeydialog.cpp:1057
 msgid "Standard key conflict"
-msgstr ""
+msgstr "Conflit de touche standard"
 
 #: kdeui/kkeydialog.cpp:1077
 #, c-format
@@ -844,28 +847,32 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"La combinaison de touches %s est déjà utilisée par\n"
+"l'action %s.\n"
+"\n"
+"Choisissez une combinaison de touches unique."
 
 #: kdeui/kkeydialog.cpp:1081
 msgid "Key conflict"
-msgstr ""
+msgstr "Conflit de touche"
 
-#: kdeui/kmenubar.cpp:256 kdeui/ktoolbar.cpp:847
+#: kdeui/kmenubar.cpp:244 kdeui/ktoolbar.cpp:844
 msgid "Top"
 msgstr "Haut"
 
-#: kdeui/kmenubar.cpp:257 kdeui/ktoolbar.cpp:849
+#: kdeui/kmenubar.cpp:245 kdeui/ktoolbar.cpp:846
 msgid "Bottom"
 msgstr "Bas"
 
-#: kdeui/kmenubar.cpp:258 kdeui/ktoolbar.cpp:850
+#: kdeui/kmenubar.cpp:246 kdeui/ktoolbar.cpp:847
 msgid "Floating"
 msgstr "Flottant"
 
-#: kdeui/kmenubar.cpp:408 kdeui/kmenubar.cpp:744 kdeui/ktoolbar.cpp:2161
+#: kdeui/kmenubar.cpp:396 kdeui/kmenubar.cpp:732 kdeui/ktoolbar.cpp:2158
 msgid "Float"
 msgstr "Flottant"
 
-#: kdeui/kmenubar.cpp:713 kdeui/ktoolbar.cpp:2142
+#: kdeui/kmenubar.cpp:701 kdeui/ktoolbar.cpp:2139
 msgid "UnFloat"
 msgstr "Rattacher"
 
@@ -880,17 +887,17 @@ msgstr "Par &défaut"
 
 #: kdeui/kquickhelp.cpp:203
 msgid "Quickhelp"
-msgstr ""
+msgstr "Aide rapide"
 
-#: kdeui/ktoolbar.cpp:275 kdeui/ktoolbar.cpp:327
+#: kdeui/ktoolbar.cpp:272 kdeui/ktoolbar.cpp:324
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr "KToolBarButton: pixmap vide, il manque probablement un fichier"
+msgstr "KToolBarButton : pixmap vide, il manque probablement un fichier"
 
-#: kdeui/ktoolbar.cpp:846
+#: kdeui/ktoolbar.cpp:843
 msgid "Left"
 msgstr "Gauche"
 
-#: kdeui/ktoolbar.cpp:848
+#: kdeui/ktoolbar.cpp:845
 msgid "Right"
 msgstr "Droite"
 
@@ -961,7 +968,7 @@ msgstr "Rechercher un fichier"
 
 #: kfile/kfiledialog.cpp:166
 msgid "Configure this dialog [development only]"
-msgstr "Configuration de ce dialogue [development only]"
+msgstr "Configuration de ce dialogue [développement seulement]"
 
 #: kfile/kfiledialog.cpp:174
 msgid "The path"
@@ -1062,9 +1069,9 @@ msgid "one directory"
 msgstr "un répertoire"
 
 #: kfile/kfiledialog.cpp:1321
-#, fuzzy, c-format
+#, c-format
 msgid "%d directories"
-msgstr "répertoires"
+msgstr "%d répertoires"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"
@@ -1341,7 +1348,7 @@ msgstr "Nouvelle &fenêtre..."
 
 #: po/texts.cpp:62
 msgid "&New Window"
-msgstr "Nouvelle &fenêtre"
+msgstr "&Nouvelle fenêtre"
 
 #: po/texts.cpp:63
 msgid "New Game"
@@ -1606,7 +1613,7 @@ msgstr ""
 
 #: kab/addressbook.cc:104
 msgid "The directory has been created.\n"
-msgstr ""
+msgstr "Le répertoire a été créé.\n"
 
 #: kab/addressbook.cc:138
 msgid "No addressbook database file, creating new one."
@@ -1650,7 +1657,7 @@ msgstr ""
 
 #: kab/addressbook.cc:925
 msgid "entry without name"
-msgstr ""
+msgstr "entrée sans nom"
 
 #: kab/addressbook.cc:943
 msgid ""
@@ -1679,7 +1686,7 @@ msgstr ""
 
 #: kab/addressbook.cc:1052
 msgid "First name"
-msgstr ""
+msgstr "Prénom"
 
 #: kab/addressbook.cc:1056
 msgid "Additional name"
@@ -1691,7 +1698,7 @@ msgstr ""
 
 #: kab/addressbook.cc:1064
 msgid "Formatted name"
-msgstr ""
+msgstr "Nom formaté"
 
 #: kab/addressbook.cc:1068
 msgid "Comment"
@@ -1702,13 +1709,12 @@ msgid "Organization"
 msgstr "Organisation"
 
 #: kab/addressbook.cc:1076
-#, fuzzy
 msgid "Unit"
 msgstr "Unité"
 
 #: kab/addressbook.cc:1080
 msgid "Subunit"
-msgstr ""
+msgstr "Sous-unité"
 
 #: kab/addressbook.cc:1084
 msgid "Title"
