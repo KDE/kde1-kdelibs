@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-16 01:03+0100\n"
+"POT-Creation-Date: 1999-01-19 01:03+0100\n"
 "PO-Revision-Date: 199-01-18 00:31+0200\n"
 "Last-Translator: Hasso C. Tepper <heathcliff@iname.com>\n"
 "Language-Team: Estonian <heathcliff@iname.com>\n"
@@ -45,10 +45,10 @@ msgstr "Saada e-mail rakenduse autorile"
 #: kdeui/kcolordlg.cpp:467 kdeui/kcontrol.cpp:46 kdeui/kcontrol.cpp:51
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:155 kdeui/keditcl1.cpp:170
 #: kdeui/keditcl1.cpp:191 kdeui/keditcl1.cpp:204 kdeui/keditcl1.cpp:1561
-#: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:397
-#: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:283
+#: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:400
+#: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:286
 #: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:509
-#: kfile/kfiledialog.cpp:890 kfile/kfiledialogconf.cpp:61 kfmlib/kfm.cpp:407
+#: kfile/kfiledialog.cpp:901 kfile/kfiledialogconf.cpp:61 kfmlib/kfm.cpp:407
 #: po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
@@ -255,8 +255,8 @@ msgstr "Võimalikud väärtused:"
 msgid "Selected values:"
 msgstr "Valitud väärtused:"
 
-#: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1206
-#: kfile/kfiledialog.cpp:1366 kfile/kfiledialog.cpp:1400 po/texts.cpp:65
+#: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1217
+#: kfile/kfiledialog.cpp:1377 kfile/kfiledialog.cpp:1411 po/texts.cpp:65
 msgid "Open"
 msgstr "Ava"
 
@@ -268,8 +268,8 @@ msgstr "Uus"
 msgid "Close"
 msgstr "Sulge"
 
-#: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1261
-#: kfile/kfiledialog.cpp:1421 po/texts.cpp:75
+#: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1272
+#: kfile/kfiledialog.cpp:1432 po/texts.cpp:75
 msgid "Save"
 msgstr "Salvesta"
 
@@ -304,7 +304,8 @@ msgid "Find"
 msgstr "Leia"
 
 #: kdecore/kaccel.cpp:275 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
-#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:133
+#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 kspell/kspelldlg.cpp:110
+#: po/texts.cpp:133
 msgid "Replace"
 msgstr "Asenda"
 
@@ -329,7 +330,8 @@ msgid "Next"
 msgstr "Järgmine"
 
 #: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
-#: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 po/texts.cpp:44
+#: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 kspell/ksconfig.cpp:212
+#: kspell/kspelldlg.cpp:131 po/texts.cpp:44
 msgid "Help"
 msgstr "Abi"
 
@@ -345,23 +347,23 @@ msgstr "CTRL"
 msgid "ALT"
 msgstr "ALT"
 
-#: kdecore/kapp.cpp:605 po/texts.cpp:137
+#: kdecore/kapp.cpp:608 po/texts.cpp:137
 msgid "&Contents"
 msgstr "&Sisukord"
 
-#: kdecore/kapp.cpp:611
+#: kdecore/kapp.cpp:614
 msgid "&About"
 msgstr "&Info"
 
-#: kdecore/kapp.cpp:618
+#: kdecore/kapp.cpp:621
 msgid "About &KDE..."
 msgstr "&KDE Info..."
 
-#: kdecore/kapp.cpp:639
+#: kdecore/kapp.cpp:642
 msgid "About KDE"
 msgstr "KDE Info"
 
-#: kdecore/kapp.cpp:641
+#: kdecore/kapp.cpp:644
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -388,7 +390,7 @@ msgstr ""
 #: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661
 #: kdeui/keditcl2.cpp:106 kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:363
 #: kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426 kdeui/keditcl2.cpp:456
-#: kdeui/keditcl2.cpp:473 kdeui/kmsgbox.cpp:300 kdeui/kmsgbox.cpp:316
+#: kdeui/keditcl2.cpp:473 kdeui/kmsgbox.cpp:303 kdeui/kmsgbox.cpp:319
 #: kio/kio_paste.cc:98 po/texts.cpp:27
 msgid "Yes"
 msgstr "Jah"
@@ -397,7 +399,7 @@ msgstr "Jah"
 #: kdeui/keditcl1.cpp:495 kdeui/keditcl1.cpp:515 kdeui/keditcl1.cpp:1662
 #: kdeui/keditcl2.cpp:107 kdeui/keditcl2.cpp:124 kdeui/keditcl2.cpp:364
 #: kdeui/keditcl2.cpp:381 kdeui/keditcl2.cpp:427 kdeui/keditcl2.cpp:457
-#: kdeui/keditcl2.cpp:474 kdeui/kmsgbox.cpp:298 kdeui/kmsgbox.cpp:314
+#: kdeui/keditcl2.cpp:474 kdeui/kmsgbox.cpp:301 kdeui/kmsgbox.cpp:317
 #: kio/kio_paste.cc:98 po/texts.cpp:28
 msgid "No"
 msgstr "Ei"
@@ -405,13 +407,13 @@ msgstr "Ei"
 #: kab/datepickerdialog.cc:26 kab/kabapi.cc:38 kab/widget.cc:1384
 #: kab/widget.cc:1426 kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:470
 #: kdeui/kcontrol.cpp:48 kdeui/kcontrol.cpp:55 kdeui/keditcl1.cpp:414
-#: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:400
-#: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:318
-#: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:895
+#: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:403
+#: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:321
+#: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:906
 #: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:697
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
-#: po/texts.cpp:39
+#: kspell/kspelldlg.cpp:143 po/texts.cpp:39
 msgid "Cancel"
 msgstr "Katkesta"
 
@@ -647,7 +649,7 @@ msgstr "Leia:"
 msgid "Replace with:"
 msgstr "Asenda:"
 
-#: kdeui/keditcl2.cpp:792
+#: kdeui/keditcl2.cpp:792 kspell/kspelldlg.cpp:38
 msgid "Replace All"
 msgstr "Asenda kõik"
 
@@ -659,81 +661,81 @@ msgstr "Mine reale"
 msgid "Go"
 msgstr "Mine"
 
-#: kdeui/kfontdialog.cpp:174
+#: kdeui/kfontdialog.cpp:177
 msgid "Select Font"
 msgstr "Vali font"
 
-#: kdeui/kfontdialog.cpp:178
+#: kdeui/kfontdialog.cpp:181
 msgid "Requested Font"
 msgstr "Soovitud font"
 
-#: kdeui/kfontdialog.cpp:179
+#: kdeui/kfontdialog.cpp:182
 msgid "Actual Font"
 msgstr "Tegelik font"
 
-#: kdeui/kfontdialog.cpp:199 kdeui/kfontdialog.cpp:204
+#: kdeui/kfontdialog.cpp:202 kdeui/kfontdialog.cpp:207
 msgid "Family:"
 msgstr "Perekond:"
 
-#: kdeui/kfontdialog.cpp:211 kdeui/kfontdialog.cpp:216 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:214 kdeui/kfontdialog.cpp:219 po/texts.cpp:26
 msgid "Charset:"
 msgstr "Kooditabel:"
 
-#: kdeui/kfontdialog.cpp:224 kdeui/kfontdialog.cpp:229 kfile/kpreview.cpp:196
+#: kdeui/kfontdialog.cpp:227 kdeui/kfontdialog.cpp:232 kfile/kpreview.cpp:196
 msgid "Size:"
 msgstr "Suurus:"
 
-#: kdeui/kfontdialog.cpp:236 kdeui/kfontdialog.cpp:241
+#: kdeui/kfontdialog.cpp:239 kdeui/kfontdialog.cpp:244
 msgid "Weight:"
 msgstr "Paksus:"
 
-#: kdeui/kfontdialog.cpp:248 kdeui/kfontdialog.cpp:253
+#: kdeui/kfontdialog.cpp:251 kdeui/kfontdialog.cpp:256
 msgid "Style:"
 msgstr "Stiil:"
 
-#: kdeui/kfontdialog.cpp:281 kfile/kfiledetaillist.cpp:38
+#: kdeui/kfontdialog.cpp:284 kfile/kfiledetaillist.cpp:38
 msgid "Size"
 msgstr "Suurus"
 
-#: kdeui/kfontdialog.cpp:319
+#: kdeui/kfontdialog.cpp:322
 msgid "Weight"
 msgstr "Paksus"
 
-#: kdeui/kfontdialog.cpp:322 kdeui/kfontdialog.cpp:481
+#: kdeui/kfontdialog.cpp:325 kdeui/kfontdialog.cpp:484
 msgid "normal"
 msgstr "normaalne"
 
-#: kdeui/kfontdialog.cpp:323 kdeui/kfontdialog.cpp:483
+#: kdeui/kfontdialog.cpp:326 kdeui/kfontdialog.cpp:486
 msgid "bold"
 msgstr "rasvane"
 
-#: kdeui/kfontdialog.cpp:333
+#: kdeui/kfontdialog.cpp:336
 msgid "Style"
 msgstr "Stiil"
 
-#: kdeui/kfontdialog.cpp:336 kdeui/kfontdialog.cpp:494
-#: kdeui/kfontdialog.cpp:523
+#: kdeui/kfontdialog.cpp:339 kdeui/kfontdialog.cpp:497
+#: kdeui/kfontdialog.cpp:526
 msgid "roman"
 msgstr "püstkiri"
 
-#: kdeui/kfontdialog.cpp:337 kdeui/kfontdialog.cpp:496
-#: kdeui/kfontdialog.cpp:521
+#: kdeui/kfontdialog.cpp:340 kdeui/kfontdialog.cpp:499
+#: kdeui/kfontdialog.cpp:524
 msgid "italic"
 msgstr "kaldkiri"
 
-#: kdeui/kfontdialog.cpp:345
+#: kdeui/kfontdialog.cpp:348
 msgid "Charset"
 msgstr "Kooditabel"
 
-#: kdeui/kfontdialog.cpp:364
+#: kdeui/kfontdialog.cpp:367
 msgid "Dolor Ipse"
 msgstr "Dolor Ipse"
 
-#: kdeui/kfontdialog.cpp:516
+#: kdeui/kfontdialog.cpp:519
 msgid "Bold"
 msgstr "Rasvane"
 
-#: kdeui/kfontdialog.cpp:518
+#: kdeui/kfontdialog.cpp:521
 msgid "Normal"
 msgstr "Normaalne"
 
@@ -869,23 +871,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr "Konflikt klahviga"
 
-#: kdeui/kmenubar.cpp:275 kdeui/ktoolbar.cpp:853
+#: kdeui/kmenubar.cpp:278 kdeui/ktoolbar.cpp:856
 msgid "Top"
 msgstr "Üleval"
 
-#: kdeui/kmenubar.cpp:276 kdeui/ktoolbar.cpp:855
+#: kdeui/kmenubar.cpp:279 kdeui/ktoolbar.cpp:858
 msgid "Bottom"
 msgstr "All"
 
-#: kdeui/kmenubar.cpp:277 kdeui/ktoolbar.cpp:856
+#: kdeui/kmenubar.cpp:280 kdeui/ktoolbar.cpp:859
 msgid "Floating"
 msgstr "Ujuv"
 
-#: kdeui/kmenubar.cpp:426 kdeui/kmenubar.cpp:768 kdeui/ktoolbar.cpp:2167
+#: kdeui/kmenubar.cpp:429 kdeui/kmenubar.cpp:771 kdeui/ktoolbar.cpp:2170
 msgid "Float"
 msgstr "Liikuv"
 
-#: kdeui/kmenubar.cpp:720 kdeui/ktoolbar.cpp:2148
+#: kdeui/kmenubar.cpp:723 kdeui/ktoolbar.cpp:2151
 msgid "UnFloat"
 msgstr "Liikumatu"
 
@@ -901,15 +903,15 @@ msgstr "&Vaikimisi"
 msgid "Quickhelp"
 msgstr "Kiirabi"
 
-#: kdeui/ktoolbar.cpp:281 kdeui/ktoolbar.cpp:333
+#: kdeui/ktoolbar.cpp:284 kdeui/ktoolbar.cpp:336
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: pikselraster on tühi, ilmselt mõni puuduv fail"
 
-#: kdeui/ktoolbar.cpp:852
+#: kdeui/ktoolbar.cpp:855
 msgid "Left"
 msgstr "Vasak"
 
-#: kdeui/ktoolbar.cpp:854
+#: kdeui/ktoolbar.cpp:857
 msgid "Right"
 msgstr "Parem"
 
@@ -1026,7 +1028,7 @@ msgstr ""
 msgid "Dismiss"
 msgstr "Heida kõrvale"
 
-#: kfile/kfiledialog.cpp:573 kfile/kfiledialog.cpp:1381 po/texts.cpp:77
+#: kfile/kfiledialog.cpp:573 kfile/kfiledialog.cpp:1392 po/texts.cpp:77
 msgid "Save As"
 msgstr "Salvesta kui"
 
@@ -1038,48 +1040,48 @@ msgstr "Juur kataloog"
 msgid "The specified directory does not exist or was not readable."
 msgstr "Soovitud kataloogi kas ei eksisteeri või ei ole ta lugemine lubatud."
 
-#: kfile/kfiledialog.cpp:875
+#: kfile/kfiledialog.cpp:886
 msgid "Create new directory in: "
 msgstr "Loo uus kataloog: "
 
-#: kfile/kfiledialog.cpp:878
+#: kfile/kfiledialog.cpp:889
 msgid "New Directory"
 msgstr "Uus kataloog"
 
-#: kfile/kfiledialog.cpp:950
+#: kfile/kfiledialog.cpp:961
 msgid "Add to bookmarks"
 msgstr "Lisa viitadesse"
 
-#: kfile/kfiledialog.cpp:1240
+#: kfile/kfiledialog.cpp:1251
 msgid "Choose Directory"
 msgstr "Vali kataloog"
 
-#: kfile/kfiledialog.cpp:1308
+#: kfile/kfiledialog.cpp:1319
 msgid "directory"
 msgstr "kataloog"
 
-#: kfile/kfiledialog.cpp:1310
+#: kfile/kfiledialog.cpp:1321
 msgid "directories"
 msgstr "kataloogi"
 
-#: kfile/kfiledialog.cpp:1312 kfile/kpreview.cpp:326
+#: kfile/kfiledialog.cpp:1323 kfile/kpreview.cpp:326
 msgid "file"
 msgstr "fail"
 
-#: kfile/kfiledialog.cpp:1314
+#: kfile/kfiledialog.cpp:1325
 msgid "files"
 msgstr "faili"
 
-#: kfile/kfiledialog.cpp:1316
+#: kfile/kfiledialog.cpp:1327
 #, c-format
 msgid "%d %s and %d %s"
 msgstr "%d %s ja %d %s"
 
-#: kfile/kfiledialog.cpp:1326
+#: kfile/kfiledialog.cpp:1337
 msgid "one directory"
 msgstr "üks kataloog"
 
-#: kfile/kfiledialog.cpp:1328
+#: kfile/kfiledialog.cpp:1339
 #, c-format
 msgid "%d directories"
 msgstr "%d kataloogi"
@@ -1160,8 +1162,8 @@ msgstr "Kataloogid ja failid segamini"
 msgid "Keep dirs first"
 msgstr "Hoia kataloogid eespool"
 
-#: kfile/kfilefilter.cpp:35
 #
+#: kfile/kfilefilter.cpp:35
 msgid "*|All Files"
 msgstr "*|Kõik failid"
 
@@ -1268,6 +1270,89 @@ msgid ""
 msgstr ""
 "Fail nimega %s on kahjustatud\n"
 "Ei suuda autoriseerida."
+
+#: kspell/ksconfig.cpp:66
+msgid "Create Root/Affix combinations not in the dictionary"
+msgstr ""
+
+#: kspell/ksconfig.cpp:75
+msgid "Consider run-together words as spelling errors"
+msgstr ""
+
+#: kspell/ksconfig.cpp:92
+#, fuzzy
+msgid "Dictionary"
+msgstr "kataloog"
+
+#: kspell/ksconfig.cpp:140
+msgid "Encoding:"
+msgstr ""
+
+#: kspell/ksconfig.cpp:147
+#, fuzzy
+msgid "Latin1"
+msgstr "&Asukoht:"
+
+#: kspell/ksconfig.cpp:148
+msgid "7-Bit/ASCII"
+msgstr ""
+
+#: kspell/ksconfig.cpp:292
+msgid "English"
+msgstr ""
+
+#: kspell/ksconfig.cpp:298
+msgid "Spanish"
+msgstr ""
+
+#: kspell/ksconfig.cpp:304
+#, fuzzy
+msgid "German"
+msgstr "püstkiri"
+
+#: kspell/ksconfig.cpp:311
+msgid "Brazilian Portuguese"
+msgstr ""
+
+#: kio/kio_cache.cc:422 kspell/ksconfig.cpp:317
+msgid "Unknown"
+msgstr "Tundmatu"
+
+#: kspell/ksconfig.cpp:348
+#, fuzzy
+msgid "ISpell Default"
+msgstr "Vaikimisi"
+
+#: kspell/kspelldlg.cpp:58
+msgid "Misspelled Word:"
+msgstr ""
+
+#: kspell/kspelldlg.cpp:68
+#, fuzzy
+msgid "Replacement:"
+msgstr "Asenda"
+
+#: kspell/kspelldlg.cpp:77
+msgid "Suggestions:"
+msgstr ""
+
+#: kspell/kspelldlg.cpp:88
+#, fuzzy
+msgid "Ignore"
+msgstr "&Ignoreeri"
+
+#: kspell/kspelldlg.cpp:99
+#, fuzzy
+msgid "Ignore All"
+msgstr "&Ignoreeri"
+
+#: kspell/kspelldlg.cpp:120 po/texts.cpp:86
+msgid "Add"
+msgstr "Lisa"
+
+#: kspell/kspelldlg.cpp:166 po/texts.cpp:100
+msgid "Stop"
+msgstr "Stop"
 
 #: kab/widget.cc:162 kab/widget.cc:1164 kab/widget.cc:1222 kab/widget.cc:1233
 #: kab/widget.cc:1936 kab/widget.cc:2028 kab/widget.cc:2112 kab/widget.cc:2157
@@ -1432,10 +1517,6 @@ msgstr "Valikud"
 msgid "Remove"
 msgstr "Eemalda"
 
-#: po/texts.cpp:86
-msgid "Add"
-msgstr "Lisa"
-
 #: po/texts.cpp:87
 msgid "Change"
 msgstr "Muuda"
@@ -1483,10 +1564,6 @@ msgstr "Informatsioon"
 #: po/texts.cpp:99
 msgid "Browse..."
 msgstr "Lehitse..."
-
-#: po/texts.cpp:100
-msgid "Stop"
-msgstr "Stop"
 
 #: po/texts.cpp:101
 msgid "&Remove"
@@ -1850,16 +1927,18 @@ msgid "Address:"
 msgstr "Aadress:"
 
 #: kab/editentry.cc:104
-msgid "Zip/postal code:"
-msgstr "Postiindeks:"
-
-#: kab/editentry.cc:105
-msgid "Town:"
+#, fuzzy
+msgid "Town/City:"
 msgstr "Linn:"
 
-#: kab/editentry.cc:106
+#: kab/editentry.cc:105
 msgid "State:"
 msgstr "Osariik:"
+
+#: kab/editentry.cc:106
+#, fuzzy
+msgid "Zip/Postal Code:"
+msgstr "Postiindeks:"
 
 #: kab/editentry.cc:107
 msgid "Country:"
@@ -1874,15 +1953,17 @@ msgid "Organization:"
 msgstr "Organisatsioon:"
 
 #: kab/editentry.cc:146
-msgid "Org Unit:"
-msgstr "Osakond:"
+#, fuzzy
+msgid "Department:"
+msgstr "Kuupäev:"
 
 #: kab/editentry.cc:147
-msgid "Org Subunit:"
-msgstr "Filiaal:"
+msgid "Sub-Department:"
+msgstr ""
 
 #: kab/editentry.cc:148
-msgid "Role:"
+#, fuzzy
+msgid "Job/Role:"
 msgstr "Amet:"
 
 #: kab/editentry.cc:169
@@ -1918,8 +1999,9 @@ msgid "&Contact"
 msgstr "&Kontakt"
 
 #: kab/editentry.cc:239
-msgid "Comment:"
-msgstr "Kommentaar:"
+#, fuzzy
+msgid "Additional Comment:"
+msgstr "Perekonnanimi"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
@@ -2377,10 +2459,6 @@ msgstr "Loomise kuupäev"
 #: kio/kio_cache.cc:357
 msgid "Expiration Date"
 msgstr "Aegumise kuupäev"
-
-#: kio/kio_cache.cc:422
-msgid "Unknown"
-msgstr "Tundmatu"
 
 #: kio/kio_cache.cc:428
 msgid "Never"
@@ -2983,3 +3061,12 @@ msgid ""
 msgstr ""
 "\n"
 "ei sialda kirjet Name=..."
+
+#~ msgid "Org Unit:"
+#~ msgstr "Osakond:"
+
+#~ msgid "Org Subunit:"
+#~ msgstr "Filiaal:"
+
+#~ msgid "Comment:"
+#~ msgstr "Kommentaar:"

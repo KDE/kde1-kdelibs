@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-01-18 01:00+0100\n"
+"POT-Creation-Date: 1999-01-19 01:03+0100\n"
 "PO-Revision-Date: 1998-10-10 16:33+0200\n"
 "Last-Translator: Stephan Kulow <coolo@kde.org>\n"
 
@@ -41,8 +41,8 @@ msgstr "Email an die für die Applikation zuständige Person schreiben."
 #: kdeui/kcolordlg.cpp:467 kdeui/kcontrol.cpp:46 kdeui/kcontrol.cpp:51
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:155 kdeui/keditcl1.cpp:170
 #: kdeui/keditcl1.cpp:191 kdeui/keditcl1.cpp:204 kdeui/keditcl1.cpp:1561
-#: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:397
-#: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:283
+#: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:400
+#: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:286
 #: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:509
 #: kfile/kfiledialog.cpp:901 kfile/kfiledialogconf.cpp:61 kfmlib/kfm.cpp:407
 #: po/texts.cpp:35
@@ -342,23 +342,23 @@ msgstr "STRG"
 msgid "ALT"
 msgstr "ALT"
 
-#: kdecore/kapp.cpp:605 po/texts.cpp:137
+#: kdecore/kapp.cpp:608 po/texts.cpp:137
 msgid "&Contents"
 msgstr "&Inhalt"
 
-#: kdecore/kapp.cpp:611
+#: kdecore/kapp.cpp:614
 msgid "&About"
 msgstr "Ü&ber"
 
-#: kdecore/kapp.cpp:618
+#: kdecore/kapp.cpp:621
 msgid "About &KDE..."
 msgstr "Über &KDE..."
 
-#: kdecore/kapp.cpp:639
+#: kdecore/kapp.cpp:642
 msgid "About KDE"
 msgstr "Über KDE"
 
-#: kdecore/kapp.cpp:641
+#: kdecore/kapp.cpp:644
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -385,7 +385,7 @@ msgstr ""
 #: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661
 #: kdeui/keditcl2.cpp:106 kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:363
 #: kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426 kdeui/keditcl2.cpp:456
-#: kdeui/keditcl2.cpp:473 kdeui/kmsgbox.cpp:300 kdeui/kmsgbox.cpp:316
+#: kdeui/keditcl2.cpp:473 kdeui/kmsgbox.cpp:303 kdeui/kmsgbox.cpp:319
 #: kio/kio_paste.cc:98 po/texts.cpp:27
 msgid "Yes"
 msgstr "Ja"
@@ -394,7 +394,7 @@ msgstr "Ja"
 #: kdeui/keditcl1.cpp:495 kdeui/keditcl1.cpp:515 kdeui/keditcl1.cpp:1662
 #: kdeui/keditcl2.cpp:107 kdeui/keditcl2.cpp:124 kdeui/keditcl2.cpp:364
 #: kdeui/keditcl2.cpp:381 kdeui/keditcl2.cpp:427 kdeui/keditcl2.cpp:457
-#: kdeui/keditcl2.cpp:474 kdeui/kmsgbox.cpp:298 kdeui/kmsgbox.cpp:314
+#: kdeui/keditcl2.cpp:474 kdeui/kmsgbox.cpp:301 kdeui/kmsgbox.cpp:317
 #: kio/kio_paste.cc:98 po/texts.cpp:28
 msgid "No"
 msgstr "Nein"
@@ -402,8 +402,8 @@ msgstr "Nein"
 #: kab/datepickerdialog.cc:26 kab/kabapi.cc:38 kab/widget.cc:1384
 #: kab/widget.cc:1426 kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:470
 #: kdeui/kcontrol.cpp:48 kdeui/kcontrol.cpp:55 kdeui/keditcl1.cpp:414
-#: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:400
-#: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:318
+#: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:403
+#: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:321
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:906
 #: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:697
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
@@ -656,81 +656,81 @@ msgstr "Gehe zu Zeile"
 msgid "Go"
 msgstr "Gehe zu"
 
-#: kdeui/kfontdialog.cpp:174
+#: kdeui/kfontdialog.cpp:177
 msgid "Select Font"
 msgstr "Schriftart auswählen"
 
-#: kdeui/kfontdialog.cpp:178
+#: kdeui/kfontdialog.cpp:181
 msgid "Requested Font"
 msgstr "Gewünschte Schrift"
 
-#: kdeui/kfontdialog.cpp:179
+#: kdeui/kfontdialog.cpp:182
 msgid "Actual Font"
 msgstr "Benutzte Schrift"
 
-#: kdeui/kfontdialog.cpp:199 kdeui/kfontdialog.cpp:204
+#: kdeui/kfontdialog.cpp:202 kdeui/kfontdialog.cpp:207
 msgid "Family:"
 msgstr "Familie:"
 
-#: kdeui/kfontdialog.cpp:211 kdeui/kfontdialog.cpp:216 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:214 kdeui/kfontdialog.cpp:219 po/texts.cpp:26
 msgid "Charset:"
 msgstr "Zeichensatz:"
 
-#: kdeui/kfontdialog.cpp:224 kdeui/kfontdialog.cpp:229 kfile/kpreview.cpp:196
+#: kdeui/kfontdialog.cpp:227 kdeui/kfontdialog.cpp:232 kfile/kpreview.cpp:196
 msgid "Size:"
 msgstr "Größe:"
 
-#: kdeui/kfontdialog.cpp:236 kdeui/kfontdialog.cpp:241
+#: kdeui/kfontdialog.cpp:239 kdeui/kfontdialog.cpp:244
 msgid "Weight:"
 msgstr "Stärke:"
 
-#: kdeui/kfontdialog.cpp:248 kdeui/kfontdialog.cpp:253
+#: kdeui/kfontdialog.cpp:251 kdeui/kfontdialog.cpp:256
 msgid "Style:"
 msgstr "Stil:"
 
-#: kdeui/kfontdialog.cpp:281 kfile/kfiledetaillist.cpp:38
+#: kdeui/kfontdialog.cpp:284 kfile/kfiledetaillist.cpp:38
 msgid "Size"
 msgstr "Größe"
 
-#: kdeui/kfontdialog.cpp:319
+#: kdeui/kfontdialog.cpp:322
 msgid "Weight"
 msgstr "Stärke"
 
-#: kdeui/kfontdialog.cpp:322 kdeui/kfontdialog.cpp:481
+#: kdeui/kfontdialog.cpp:325 kdeui/kfontdialog.cpp:484
 msgid "normal"
 msgstr "normal"
 
-#: kdeui/kfontdialog.cpp:323 kdeui/kfontdialog.cpp:483
+#: kdeui/kfontdialog.cpp:326 kdeui/kfontdialog.cpp:486
 msgid "bold"
 msgstr "fett"
 
-#: kdeui/kfontdialog.cpp:333
+#: kdeui/kfontdialog.cpp:336
 msgid "Style"
 msgstr "Schnitt"
 
-#: kdeui/kfontdialog.cpp:336 kdeui/kfontdialog.cpp:494
-#: kdeui/kfontdialog.cpp:523
+#: kdeui/kfontdialog.cpp:339 kdeui/kfontdialog.cpp:497
+#: kdeui/kfontdialog.cpp:526
 msgid "roman"
 msgstr "gerade"
 
-#: kdeui/kfontdialog.cpp:337 kdeui/kfontdialog.cpp:496
-#: kdeui/kfontdialog.cpp:521
+#: kdeui/kfontdialog.cpp:340 kdeui/kfontdialog.cpp:499
+#: kdeui/kfontdialog.cpp:524
 msgid "italic"
 msgstr "kursiv"
 
-#: kdeui/kfontdialog.cpp:345
+#: kdeui/kfontdialog.cpp:348
 msgid "Charset"
 msgstr "Zeichensatz"
 
-#: kdeui/kfontdialog.cpp:364
+#: kdeui/kfontdialog.cpp:367
 msgid "Dolor Ipse"
 msgstr "Dolor Ipse"
 
-#: kdeui/kfontdialog.cpp:516
+#: kdeui/kfontdialog.cpp:519
 msgid "Bold"
 msgstr "Fett"
 
-#: kdeui/kfontdialog.cpp:518
+#: kdeui/kfontdialog.cpp:521
 msgid "Normal"
 msgstr "Normal"
 
@@ -866,23 +866,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr "Konflikt"
 
-#: kdeui/kmenubar.cpp:275 kdeui/ktoolbar.cpp:853
+#: kdeui/kmenubar.cpp:278 kdeui/ktoolbar.cpp:856
 msgid "Top"
 msgstr "Oben"
 
-#: kdeui/kmenubar.cpp:276 kdeui/ktoolbar.cpp:855
+#: kdeui/kmenubar.cpp:279 kdeui/ktoolbar.cpp:858
 msgid "Bottom"
 msgstr "Unten"
 
-#: kdeui/kmenubar.cpp:277 kdeui/ktoolbar.cpp:856
+#: kdeui/kmenubar.cpp:280 kdeui/ktoolbar.cpp:859
 msgid "Floating"
 msgstr "Beweglich"
 
-#: kdeui/kmenubar.cpp:426 kdeui/kmenubar.cpp:768 kdeui/ktoolbar.cpp:2167
+#: kdeui/kmenubar.cpp:429 kdeui/kmenubar.cpp:771 kdeui/ktoolbar.cpp:2170
 msgid "Float"
 msgstr "Beweglich"
 
-#: kdeui/kmenubar.cpp:720 kdeui/ktoolbar.cpp:2148
+#: kdeui/kmenubar.cpp:723 kdeui/ktoolbar.cpp:2151
 msgid "UnFloat"
 msgstr "Fest"
 
@@ -899,16 +899,16 @@ msgstr "&Standard"
 msgid "Quickhelp"
 msgstr "Schnell-Hilfe"
 
-#: kdeui/ktoolbar.cpp:281 kdeui/ktoolbar.cpp:333
+#: kdeui/ktoolbar.cpp:284 kdeui/ktoolbar.cpp:336
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr ""
 "KToolBarButton: Ein Fehler ist aufgetreten, wahrscheinlich fehlt eine Datei"
 
-#: kdeui/ktoolbar.cpp:852
+#: kdeui/ktoolbar.cpp:855
 msgid "Left"
 msgstr "Links"
 
-#: kdeui/ktoolbar.cpp:854
+#: kdeui/ktoolbar.cpp:857
 msgid "Right"
 msgstr "Rechts"
 
@@ -1931,16 +1931,18 @@ msgid "Address:"
 msgstr "Adresse:"
 
 #: kab/editentry.cc:104
-msgid "Zip/postal code:"
-msgstr "Postleitzahl:"
-
-#: kab/editentry.cc:105
-msgid "Town:"
+#, fuzzy
+msgid "Town/City:"
 msgstr "Stadt:"
 
-#: kab/editentry.cc:106
+#: kab/editentry.cc:105
 msgid "State:"
 msgstr "Staat:"
+
+#: kab/editentry.cc:106
+#, fuzzy
+msgid "Zip/Postal Code:"
+msgstr "Postleitzahl:"
 
 #: kab/editentry.cc:107
 msgid "Country:"
@@ -1955,15 +1957,17 @@ msgid "Organization:"
 msgstr "Organisation:"
 
 #: kab/editentry.cc:146
-msgid "Org Unit:"
-msgstr "Abteilung:"
+#, fuzzy
+msgid "Department:"
+msgstr "Ersetzen"
 
 #: kab/editentry.cc:147
-msgid "Org Subunit:"
-msgstr "Bereich:"
+msgid "Sub-Department:"
+msgstr ""
 
 #: kab/editentry.cc:148
-msgid "Role:"
+#, fuzzy
+msgid "Job/Role:"
 msgstr "Position:"
 
 #: kab/editentry.cc:169
@@ -1999,8 +2003,9 @@ msgid "&Contact"
 msgstr "&Kontakte"
 
 #: kab/editentry.cc:239
-msgid "Comment:"
-msgstr "Kommentar:"
+#, fuzzy
+msgid "Additional Comment:"
+msgstr "Zweiter Name:"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
@@ -3055,3 +3060,12 @@ msgid ""
 msgstr ""
 "\n"
 "hat keinen Eintrag Name=..."
+
+#~ msgid "Org Unit:"
+#~ msgstr "Abteilung:"
+
+#~ msgid "Org Subunit:"
+#~ msgstr "Bereich:"
+
+#~ msgid "Comment:"
+#~ msgstr "Kommentar:"
