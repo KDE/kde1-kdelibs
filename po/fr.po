@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1998-01-18 13:27+0100\n"
-"PO-Revision-Date: 1998-01-17 19:32 CET\n"
+"PO-Revision-Date: 1998-01-19 21:47 CET\n"
 "Last-Translator: Bertrand Leconte <B.Leconte@mail.dotcom.fr>\n"
 "Language-Team: Français <fr@kde.org>\n"
 "MIME-Version: 1.0\n"
@@ -450,11 +450,11 @@ msgstr "&Options"
 
 #: po/texts.cpp:50
 msgid "View"
-msgstr "Vue"
+msgstr "Affichage"
 
 #: po/texts.cpp:51
 msgid "&View"
-msgstr "&Vue"
+msgstr "&Affichage"
 
 #: po/texts.cpp:52
 msgid "E&xit"
@@ -657,6 +657,5 @@ msgid "Browse..."
 msgstr "Parcourir..."
 
 #: po/texts.cpp:104
-#, fuzzy
 msgid "(none)"
-msgstr "Fait"
+msgstr "(aucun)"
