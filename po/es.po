@@ -459,7 +459,7 @@ msgstr ""
 #: po/texts.cpp:51
 #, fuzzy
 msgid "&View"
-msgstr "Archivo"
+msgstr "Ver"
 
 #: po/texts.cpp:52
 #, fuzzy
