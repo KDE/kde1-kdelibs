@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-03-04 17:50+0100\n"
-"PO-Revision-Date: 1999-01-29 23:30+0100\n"
+"POT-Creation-Date: 1999-03-04 01:00+0100\n"
+"PO-Revision-Date: 1999-03-04 23:30+0100\n"
 "Last-Translator: Francois-Xavier DURANCEAU "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
 "Language-Team: Français <fr@li.org>\n"
@@ -199,7 +199,7 @@ msgstr "Le numéro de téléphone"
 
 #: kab/SearchDialog.cpp:63
 msgid "The fax number"
-msgstr "Le numéro de Télécopie"
+msgstr "Le numéro de télécopie"
 
 #: kab/SearchDialog.cpp:64
 msgid "The modem number"
@@ -215,7 +215,7 @@ msgstr "Le commentaire"
 
 #: kab/SearchDialog.cpp:74
 msgid "kab: Search entries"
-msgstr "kab : Rechercher des entrées"
+msgstr "kab - Rechercher des entrées"
 
 #: kab/SearchDialogMainWidget.cpp:22
 msgid "matches"
@@ -374,12 +374,12 @@ msgid ""
 "Please report bugs at http://buglist.kde.org.\n"
 msgstr ""
 "\n"
-"L'Environnement de bureau KDE a été écrit par l'équipe KDE,\n"
-"un réseau mondial d'ingénieurs logiciels engagés dans le\n"
-"développement de logiciels libres.\n"
+"L'Environnement de Bureau KDE a été écrit par l'équipe KDE,\n"
+"un réseau mondial d'ingénieurs en développement logiciel\n"
+"engagés dans la réalisation de logiciels libres.\n"
 "\n"
 "Visitez http://www.kde.org pour plus d'informations sur\n"
-"le projet KDE. Rejoignez-nous et supportez KDE !\n"
+"le projet KDE. Rejoignez-nous et soutenez KDE !\n"
 "\n"
 "Veuillez signaler les bogues à http://buglist.kde.org.\n"
 
@@ -416,7 +416,7 @@ msgstr "Annuler"
 
 #: kdeui/kcolordlg.cpp:285
 msgid "Select Color"
-msgstr "Selection d'une couleur"
+msgstr "Sélection d'une couleur"
 
 #: kdeui/kcolordlg.cpp:297
 msgid "System Colors"
@@ -547,7 +547,7 @@ msgstr "Vous n'avez pas la permission de lire ce fichier."
 
 #: kdeui/keditcl1.cpp:203
 msgid "An Error occured while trying to open this Document"
-msgstr "Une erreur est survenue lors de l'ouverture de ce document"
+msgstr "Une erreur est survenue pendant l'ouverture de ce document"
 
 #: kdeui/keditcl1.cpp:373
 msgid "Select Document to Insert"
@@ -570,7 +570,7 @@ msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
-"Le document ne peut pas être enregistré.\n"
+"Impossible d'enregistrer le document.\n"
 "Ouvrir quand même un nouveau document ?"
 
 #: kdeui/keditcl1.cpp:462
@@ -582,7 +582,7 @@ msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
-"Le document ne peut pas être enregistré.\n"
+"Impossible d'enregistrer le document.\n"
 "Créer quand même un nouveau document ?"
 
 #: kdeui/keditcl1.cpp:547 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
@@ -632,7 +632,7 @@ msgstr "Respecter la casse"
 
 #: kdeui/keditcl2.cpp:683 kdeui/keditcl2.cpp:783
 msgid "Find Backwards"
-msgstr "Rechercher en arrière"
+msgstr "Chercher en arrière"
 
 #: kdeui/keditcl2.cpp:688 kdeui/keditcl2.cpp:795
 msgid "Done"
@@ -671,7 +671,7 @@ msgid "Actual Font"
 msgstr "Police actuelle"
 
 #: kdeui/kfontdialog.cpp:202 kdeui/kfontdialog.cpp:207
-msgid "Family:"
+msgid "Faily:"
 msgstr "Famille :"
 
 #: kdeui/kfontdialog.cpp:214 kdeui/kfontdialog.cpp:219 po/texts.cpp:26
@@ -759,7 +759,7 @@ msgstr "Par &défaut"
 
 #: kdeui/kkeydialog.cpp:320
 msgid "Current key"
-msgstr "Touche courante"
+msgstr "Raccourci courant"
 
 #: kdeui/kkeydialog.cpp:332
 msgid "&Action"
@@ -767,23 +767,23 @@ msgstr "&Action"
 
 #: kdeui/kkeydialog.cpp:366
 msgid "Choose a key for the selected action"
-msgstr "Choisir une touche pour l'action sélectionnée"
+msgstr "Choisir un raccourci pour l'action sélectionnée"
 
 #: kdeui/kkeydialog.cpp:393
 msgid "&No key"
-msgstr "Aucu&ne touche"
+msgstr "Aucu&n raccourci"
 
 #: kdeui/kkeydialog.cpp:401
 msgid "&Default key"
-msgstr "Touche par &défaut"
+msgstr "Raccourci par &défaut"
 
 #: kdeui/kkeydialog.cpp:409
 msgid "&Custom key"
-msgstr "Tou&che personnalisée..."
+msgstr "Ra&ccourci personnalisé..."
 
 #: kdeui/kkeydialog.cpp:472
 msgid "No keys defined"
-msgstr "Aucune touche définie"
+msgstr "Aucun raccourci défini"
 
 #: kdeui/kkeydialog.cpp:474
 msgid "Not configurable"
@@ -791,15 +791,15 @@ msgstr "Non configurable"
 
 #: kdeui/kkeydialog.cpp:530
 msgid "Global Keys"
-msgstr "Touches globales"
+msgstr "Raccourcis globaux"
 
 #: kdeui/kkeydialog.cpp:562
 msgid "Keys"
-msgstr "Touches"
+msgstr "Raccourcis"
 
 #: kdeui/kkeydialog.cpp:637 kdeui/kkeydialog.cpp:976
 msgid "Attention : key already used"
-msgstr "Attention : touche déjà utilisée"
+msgstr "Attention : raccourci déjà utilisé"
 
 #: kdeui/kkeydialog.cpp:926
 msgid "Press the wanted key"
@@ -807,7 +807,7 @@ msgstr "Appuyer sur la touche souhaitée"
 
 #: kdeui/kkeydialog.cpp:949
 msgid "Undefined key"
-msgstr "Touche non définie"
+msgstr "Raccourci non défini"
 
 #: kdeui/kkeydialog.cpp:999
 msgid "Return to end edition"
@@ -832,7 +832,7 @@ msgstr ""
 
 #: kdeui/kkeydialog.cpp:1039
 msgid "Global key conflict"
-msgstr "Conflit de touche globale"
+msgstr "Conflit de raccourci global"
 
 #: kdeui/kkeydialog.cpp:1062
 #, c-format
@@ -849,7 +849,7 @@ msgstr ""
 
 #: kdeui/kkeydialog.cpp:1066
 msgid "Standard key conflict"
-msgstr "Conflit de touche standard"
+msgstr "Conflit de raccourci standard"
 
 #: kdeui/kkeydialog.cpp:1086
 #, c-format
@@ -866,7 +866,7 @@ msgstr ""
 
 #: kdeui/kkeydialog.cpp:1090
 msgid "Key conflict"
-msgstr "Conflit de touche"
+msgstr "Conflit de raccourci"
 
 #: kdeui/kmenubar.cpp:281 kdeui/ktoolbar.cpp:856
 msgid "Top"
@@ -897,13 +897,13 @@ msgstr ""
 msgid "&Default"
 msgstr "Par &défaut"
 
-#: kdeui/kquickhelp.cpp:204
+#: kdeui/kquickhelp.cpp:203
 msgid "Quickhelp"
 msgstr "Aide rapide"
 
 #: kdeui/ktoolbar.cpp:284 kdeui/ktoolbar.cpp:336
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr "KToolBarButton: pixmap vide, il manque probablement un fichier"
+msgstr "KToolBarButton : pixmap vide, il manque probablement un fichier"
 
 #: kdeui/ktoolbar.cpp:855
 msgid "Left"
@@ -980,7 +980,7 @@ msgstr "Rechercher un fichier"
 
 #: kfile/kfiledialog.cpp:166
 msgid "Configure this dialog [development only]"
-msgstr "Configuration de ce dialogue [development only]"
+msgstr "Configuration de ce dialogue [développement seulement]"
 
 #: kfile/kfiledialog.cpp:174
 msgid "The path"
@@ -996,11 +996,11 @@ msgstr "&Filtre :"
 
 #: kfile/kfiledialog.cpp:226
 msgid "Show hidden"
-msgstr "Montrer les fichiers cachés"
+msgstr "Afficher les fichiers cachés"
 
 #: kfile/kfiledialog.cpp:504
 msgid "Error: Not local file"
-msgstr "Erreur : fichier non local"
+msgstr "Erreur : Fichier non local"
 
 #: kfile/kfiledialog.cpp:505
 msgid ""
@@ -1008,11 +1008,11 @@ msgid ""
 "But the application accepts just local files."
 msgstr ""
 "Le répertoire spécifié n'est pas un répertoire local,\n"
-"or l'application n'accepte que des fichiers locaux."
+"ou l'application n'accepte que des fichiers locaux."
 
 #: kfile/kfiledialog.cpp:519 kfile/kfiledialog.cpp:624
 msgid "Error: Cannot Open Directory"
-msgstr "Erreur : ouverture du répertoire impossible"
+msgstr "Erreur : Ouverture du répertoire impossible"
 
 #: kfile/kfiledialog.cpp:520
 msgid ""
@@ -1102,7 +1102,7 @@ msgid ""
 "Mario Weilguni <mweilguni@sime.com>\n"
 "and Martin Jones <mjones@kde.org>"
 msgstr ""
-"Sélecteur de fichiers KDE fait par:\n"
+"Sélecteur de fichiers de KDE par:\n"
 "\n"
 "Richard Moore <rich@kde.org>\n"
 "Stephan Kulow <coolo@kde.org>\n"
@@ -1321,11 +1321,11 @@ msgstr ""
 
 #: kspell/kspelldlg.cpp:58
 msgid "Misspelled Word:"
-msgstr ""
+msgstr "Mot inconnu :"
 
 #: kspell/kspelldlg.cpp:68
 msgid "Replacement:"
-msgstr ""
+msgstr "Remplacer par :"
 
 #: kspell/kspelldlg.cpp:77
 msgid "Suggestions:"
@@ -1364,7 +1364,7 @@ msgstr "URL mal formée"
 
 #: kio/kio_paste.cc:98 po/texts.cpp:29
 msgid "Warning"
-msgstr "Attention"
+msgstr "Avertissement"
 
 #: po/texts.cpp:30
 msgid "Save a file"
@@ -1476,7 +1476,7 @@ msgstr "Police"
 
 #: po/texts.cpp:73
 msgid "&Foreground Color"
-msgstr "Couleur de &premier plan"
+msgstr "Couleur du &texte"
 
 #: po/texts.cpp:74
 msgid "&Background Color"
@@ -1996,7 +1996,7 @@ msgstr "Commentaire supplémentaire :"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
-msgstr "Anniversaire:"
+msgstr "Anniversaire :"
 
 #: kab/editentry.cc:249
 msgid "Double click to set date"
@@ -2424,7 +2424,7 @@ msgstr "Programme de mail démarré."
 
 #: kio/kio_cache.cc:345
 msgid "KIO Cache"
-msgstr "Cache KIO"
+msgstr "Cache de KIO"
 
 #: kio/kio_cache.cc:347
 msgid "Contents of the cache"
@@ -2703,7 +2703,7 @@ msgid ""
 "%s"
 msgstr ""
 "Impossible de monter le périphérique.\n"
-"L'erreur reportée était:\n"
+"L'erreur reportée est :\n"
 "\n"
 "%s"
 
@@ -2716,7 +2716,7 @@ msgid ""
 "%s"
 msgstr ""
 "Impossible de démonter le périphérique.\n"
-"L'erreur reportée était:\n"
+"L'erreur reportée est :\n"
 "\n"
 "%s"
 
@@ -2829,7 +2829,7 @@ msgstr "sur"
 
 #: kio/kio_progress_dlg.cc:171 kio/kio_progress_dlg.cc:197
 msgid "Stalled"
-msgstr ""
+msgstr "Interrompu"
 
 #: kio/kio_progress_dlg.cc:179
 msgid " Bytes/s"
@@ -2861,7 +2861,7 @@ msgstr "%i:%i:%i"
 #: kio/kio_progress_dlg.cc:221
 #, c-format
 msgid "%i%s  Remaining time: %s"
-msgstr "%i%s  Temps restant :: %s"
+msgstr "%i%s  Temps restant : %s"
 
 #: kio/kio_progress_dlg.cc:227
 msgid "Scanning "
@@ -2929,7 +2929,7 @@ msgstr "existe déjà."
 
 #: kio/kio_rename_dlg.cc:124
 msgid "Do you want to rename it ?"
-msgstr "Voulez-vous le renommer?"
+msgstr "Voulez-vous le renommer ?"
 
 #: kio/kio_rename_dlg.cc:215
 msgid "Malformed URL\n"
