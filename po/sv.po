@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs 1.1\n"
 "POT-Creation-Date: 1999-01-27 01:01+0100\n"
-"PO-Revision-Date: 1998-12-12 17:44+01:00\n"
+"PO-Revision-Date: 1999-01-29 00:59+01:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -1165,9 +1165,8 @@ msgid "Keep dirs first"
 msgstr "Lista kataloger först"
 
 #: kfile/kfilefilter.cpp:35
-#, fuzzy
 msgid "*|All Files"
-msgstr "Filer"
+msgstr "*|Alla filer"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"
@@ -1277,78 +1276,71 @@ msgstr ""
 
 #: kspell/ksconfig.cpp:66
 msgid "Create Root/Affix combinations not in the dictionary"
-msgstr ""
+msgstr "Skapa stam-/ändelsekombinationer som inte finns i ordlistan"
 
 #: kspell/ksconfig.cpp:75
 msgid "Consider run-together words as spelling errors"
-msgstr ""
+msgstr "Betrakta ihopskrivna ord som stavfel"
 
 #: kspell/ksconfig.cpp:92
-#, fuzzy
 msgid "Dictionary"
-msgstr "katalog"
+msgstr "Ordlista"
 
 #: kspell/ksconfig.cpp:140
 msgid "Encoding:"
-msgstr ""
+msgstr "Kodning:"
 
 #: kspell/ksconfig.cpp:147
-#, fuzzy
 msgid "Latin1"
-msgstr "&Plats:"
+msgstr "Latin1"
 
 #: kspell/ksconfig.cpp:148
 msgid "7-Bit/ASCII"
-msgstr ""
+msgstr "7-Bit/ASCII"
 
 #: kspell/ksconfig.cpp:292
 msgid "English"
-msgstr ""
+msgstr "Engelska"
 
 #: kspell/ksconfig.cpp:298
 msgid "Spanish"
-msgstr ""
+msgstr "Spanska"
 
 #: kspell/ksconfig.cpp:304
-#, fuzzy
 msgid "German"
-msgstr "rak"
+msgstr "Tyska"
 
 #: kspell/ksconfig.cpp:311
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "Brasiliansk portugisiska"
 
 #: kio/kio_cache.cc:422 kspell/ksconfig.cpp:317
 msgid "Unknown"
 msgstr "Okänd"
 
 #: kspell/ksconfig.cpp:348
-#, fuzzy
 msgid "ISpell Default"
-msgstr "Standard"
+msgstr "ISpell standard"
 
 #: kspell/kspelldlg.cpp:58
 msgid "Misspelled Word:"
-msgstr ""
+msgstr "Felstavat ord:"
 
 #: kspell/kspelldlg.cpp:68
-#, fuzzy
 msgid "Replacement:"
-msgstr "Ersätt"
+msgstr "Ersätt med:"
 
 #: kspell/kspelldlg.cpp:77
 msgid "Suggestions:"
-msgstr ""
+msgstr "Förslag:"
 
 #: kspell/kspelldlg.cpp:88
-#, fuzzy
 msgid "Ignore"
-msgstr "&Ignorera"
+msgstr "Ignorera"
 
 #: kspell/kspelldlg.cpp:99
-#, fuzzy
 msgid "Ignore All"
-msgstr "&Ignorera"
+msgstr "Ignorera alla"
 
 #: kspell/kspelldlg.cpp:120 po/texts.cpp:86
 msgid "Add"
@@ -1929,7 +1921,6 @@ msgid "Address:"
 msgstr "Gatuadress:"
 
 #: kab/editentry.cc:104
-#, fuzzy
 msgid "Town/City:"
 msgstr "Postort:"
 
@@ -1938,7 +1929,6 @@ msgid "State:"
 msgstr "Delstat:"
 
 #: kab/editentry.cc:106
-#, fuzzy
 msgid "Zip/Postal Code:"
 msgstr "Postnummer:"
 
@@ -1955,16 +1945,14 @@ msgid "Organization:"
 msgstr "Organisation:"
 
 #: kab/editentry.cc:146
-#, fuzzy
 msgid "Department:"
-msgstr "Ersätt"
+msgstr "Avdelning:"
 
 #: kab/editentry.cc:147
 msgid "Sub-Department:"
-msgstr ""
+msgstr "Underavdelning:"
 
 #: kab/editentry.cc:148
-#, fuzzy
 msgid "Job/Role:"
 msgstr "Befattning:"
 
@@ -2001,9 +1989,8 @@ msgid "&Contact"
 msgstr "&Kontaktinfo"
 
 #: kab/editentry.cc:239
-#, fuzzy
 msgid "Additional Comment:"
-msgstr "Andranamn:"
+msgstr "Ytterligare kommentar:"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
