@@ -1,17 +1,21 @@
+# Danish translations for KDE Libs
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Steffen Hansen <stefh@nostromo>, 1998.
+#
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-01-27 01:01+0100\n"
-"Content-Type: text/plain; charset=\n"
-"Date: 1997-09-09 17:23:06+0200\n"
-"From: Steffen Hansen,Home,,66178676, <stefh@nostromo>\n"
-"Xgettext-Options: -s -C -ktranslate\n"
-"Files: chooser.cpp gif.cpp jpeg.cpp kdmconfig.cpp kdmdesktop.cpp "
-"kdmshutdown.cpp kdmview.cpp kfdialog.cpp kgreeter.cpp\n"
+"Project-Id-Version: KDE LIBS\n"
+"POT-Creation-Date: 1999-01-22 01:01+0100\n"
+"PO-Revision-Date: 1999-01-27 18:55-0500\n"
+"Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
+"Language-Team: da <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO_8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: kab/AssertDialog.cpp:29
-#, fuzzy
 msgid "(unknown file)"
-msgstr "ukendt"
+msgstr "(ukendt fil)"
 
 #: kab/AssertDialog.cpp:30
 msgid "(unknown line number)"
@@ -19,11 +23,11 @@ msgstr "(ukendt linie nummer)"
 
 #: kab/AssertDialog.cpp:31
 msgid "(unknown condition)"
-msgstr ""
+msgstr "(ukendt betingelse)"
 
 #: kab/AssertDialog.cpp:39
 msgid "You have found a bug in "
-msgstr "Du har fundet en bug i "
+msgstr "Du har fundet et problem i "
 
 #: kab/AssertDialog.cpp:45
 msgid "Ignore the error, possibly causing much more damage"
@@ -31,11 +35,11 @@ msgstr "Ignorer fejlen, hvilket kan resultere i større skade"
 
 #: kab/AssertDialog.cpp:47
 msgid "Kill the application, loosing all data"
-msgstr "Dø applikationen og mist alle data"
+msgstr "Slå programmet ihjel og mist alle data"
 
 #: kab/AssertDialog.cpp:49
 msgid "Send an email to the application maintainer"
-msgstr "Send en email til applikationens vedligeholder"
+msgstr "Send en e-post til programmets vedligeholder"
 
 #: kab/AssertDialog.cpp:51 kab/datepickerdialog.cc:25 kab/kabapi.cc:34
 #: kdeui/kcolordlg.cpp:467 kdeui/kcontrol.cpp:46 kdeui/kcontrol.cpp:51
@@ -51,10 +55,9 @@ msgstr "OK"
 
 #: kab/AssertDialog.cpp:140
 msgid "The following condition failed:\n"
-msgstr ""
+msgstr "Følgende tilstand mislykkedes:\n"
 
 #: kab/AssertDialog.cpp:141
-#, fuzzy
 msgid "In file "
 msgstr "I filen "
 
@@ -63,25 +66,24 @@ msgid ", line "
 msgstr ", linie "
 
 #: kab/AssertDialog.cpp:212 kab/AssertDialog.cpp:217
-#, fuzzy
 msgid "Error handling error"
 msgstr "Filhåndterings fejl"
 
 #: kab/AssertDialog.cpp:213
-#, fuzzy
 msgid "Could not send message."
-msgstr "Kunne ikke gemme dokumentet\n"
+msgstr "Kunne ikke sende brevet."
 
 #: kab/AssertDialog.cpp:218
-#, fuzzy
 msgid "The author did not publish an email address."
-msgstr "Den tertiære email-adresse"
+msgstr "Forfatteren publicerede ikke en e-post adresse"
 
 #: kab/DialogBase.cpp:36
 msgid ""
 "If you press the OK button, all changes\n"
 "you made will be used to proceed."
 msgstr ""
+"Hvis du trykker på OK knappen, vil alle\n"
+"ændringer du lavede blive brugt fremover."
 
 #: kab/DialogBase.cpp:39
 msgid ""
@@ -89,6 +91,10 @@ msgid ""
 "handed over to the program, but the dialog\n"
 "will not be closed.Use this to try different settings."
 msgstr ""
+"Når du klikker på anvend, vil indstillingerne\n"
+"bliver overgivet til programmet, men dialogen\n"
+"forbliver åben. Brug dette for at prøve\n"
+"forskellige indstillinger."
 
 #: kab/DialogBase.cpp:44
 msgid ""
@@ -98,6 +104,9 @@ msgid ""
 "The program will be in the state before\n"
 "opening the dialog."
 msgstr ""
+"Hvis du trykker på 'Annuller' knappen, vil alle\n"
+"ændringer du har lavet blive glemt, og dialogen vil\n"
+"blive lukket."
 
 #: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
 #: kdeui/kwizard.cpp:228 po/texts.cpp:36
@@ -105,9 +114,8 @@ msgid "&OK"
 msgstr "&OK"
 
 #: kab/DialogBase.cpp:58
-#, fuzzy
 msgid "&Apply"
-msgstr "Anvend"
+msgstr "&Anvend"
 
 #: kab/DialogBase.cpp:59 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
 #: kdeui/kwizard.cpp:159 po/texts.cpp:40
@@ -143,7 +151,6 @@ msgid "The name prefix"
 msgstr "Navne præfikset"
 
 #: kab/SearchDialog.cpp:51
-#, fuzzy
 msgid "The name"
 msgstr "Navnet"
 
@@ -156,7 +163,6 @@ msgid "The address"
 msgstr "Adressen"
 
 #: kab/SearchDialog.cpp:54
-#, fuzzy
 msgid "The town"
 msgstr "Byen"
 
@@ -178,15 +184,15 @@ msgstr "Organisations underenheden"
 
 #: kab/SearchDialog.cpp:59
 msgid "The email address"
-msgstr "Email adressen"
+msgstr "E-post adressen"
 
 #: kab/SearchDialog.cpp:60
 msgid "The second email address"
-msgstr "Den sekundære email-adresse"
+msgstr "Den sekundære e-post-adresse"
 
 #: kab/SearchDialog.cpp:61
 msgid "The third email address"
-msgstr "Den tertiære email-adresse"
+msgstr "Den tertiære e-post-adresse"
 
 #: kab/SearchDialog.cpp:62
 msgid "The telephone number"
@@ -209,37 +215,36 @@ msgid "The comment"
 msgstr "Kommentaren"
 
 #: kab/SearchDialog.cpp:74
-#, fuzzy
 msgid "kab: Search entries"
-msgstr "Søg efter"
+msgstr "kab: Søge indgange"
 
 #: kab/SearchDialogMainWidget.cpp:22
 msgid "matches"
-msgstr ""
+msgstr "# der passer"
 
 #: kab/SearchDialogMainWidget.cpp:23
 msgid "Use shell wildcard patterns here"
-msgstr ""
+msgstr "Brug skald vildkort mønster her"
 
 #: kab/SearchDialogMainWidget.cpp:24
 msgid "Select field to match the pattern"
-msgstr ""
+msgstr "Vælg felt der passer til mønster"
 
 #: kab/StringListEditWidget.cpp:30
 msgid "Add a new string"
-msgstr ""
+msgstr "Tilføj ny streng"
 
 #: kab/StringListEditWidget.cpp:31
 msgid "Move this string up"
-msgstr ""
+msgstr "Flyt denne streng op"
 
 #: kab/StringListEditWidget.cpp:32
 msgid "Move this string down"
-msgstr ""
+msgstr "Flyt denne streng ned"
 
 #: kab/StringListEditWidget.cpp:33
 msgid "Delete this string"
-msgstr ""
+msgstr "Slet denne streng"
 
 #: kab/StringListSelectAndReorderSet.cpp:34
 msgid "Possible values:"
@@ -249,100 +254,97 @@ msgstr "Mulige værdier:"
 msgid "Selected values:"
 msgstr "Valgte værdier:"
 
-#: kdecore/kaccel.cpp:223 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1217
+#: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1217
 #: kfile/kfiledialog.cpp:1377 kfile/kfiledialog.cpp:1411 po/texts.cpp:65
 msgid "Open"
 msgstr "Åbn"
 
-#: kdecore/kaccel.cpp:227
+#: kdecore/kaccel.cpp:235
 msgid "New"
 msgstr "Ny"
 
-#: kab/searchresults.cc:30 kdecore/kaccel.cpp:231 po/texts.cpp:80
+#: kab/searchresults.cc:30 kdecore/kaccel.cpp:239 po/texts.cpp:80
 msgid "Close"
 msgstr "Luk"
 
-#: kdecore/kaccel.cpp:235 kfile/kfiledialog.cpp:1272
+#: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1272
 #: kfile/kfiledialog.cpp:1432 po/texts.cpp:75
 msgid "Save"
 msgstr "Gem"
 
-#: kdecore/kaccel.cpp:239 po/texts.cpp:115
+#: kdecore/kaccel.cpp:247 po/texts.cpp:115
 msgid "Print"
 msgstr "Udskriv"
 
-#: kdecore/kaccel.cpp:243 po/texts.cpp:52
+#: kdecore/kaccel.cpp:251 po/texts.cpp:52
 msgid "Quit"
 msgstr "Afslut"
 
-#: kdecore/kaccel.cpp:247 po/texts.cpp:69
+#: kdecore/kaccel.cpp:255 po/texts.cpp:69
 msgid "Cut"
 msgstr "Klip"
 
-#: kdecore/kaccel.cpp:251 po/texts.cpp:56
+#: kdecore/kaccel.cpp:259 po/texts.cpp:56
 msgid "Copy"
 msgstr "Kopier"
 
-#: kdecore/kaccel.cpp:255 po/texts.cpp:58
+#: kdecore/kaccel.cpp:263 po/texts.cpp:58
 msgid "Paste"
 msgstr "Indsæt"
 
-#: kdecore/kaccel.cpp:259 po/texts.cpp:93
+#: kdecore/kaccel.cpp:267 po/texts.cpp:93
 msgid "Undo"
 msgstr "Fortryd"
 
-#: kdecore/kaccel.cpp:263 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
+#: kdecore/kaccel.cpp:271 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
 #: kdeui/keditcl2.cpp:360 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:676
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786
 msgid "Find"
 msgstr "Find"
 
-#: kdecore/kaccel.cpp:267 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
+#: kdecore/kaccel.cpp:275 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
 #: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 kspell/kspelldlg.cpp:110
 #: po/texts.cpp:133
 msgid "Replace"
 msgstr "Udskift"
 
-#: kdecore/kaccel.cpp:271 po/texts.cpp:134
-#, fuzzy
+#: kdecore/kaccel.cpp:279 po/texts.cpp:134
 msgid "Insert"
 msgstr "Indsæt"
 
-#: kdecore/kaccel.cpp:275 kfile/kfiledialog.cpp:131
+#: kdecore/kaccel.cpp:283 kfile/kfiledialog.cpp:131
 msgid "Home"
 msgstr "Hjem"
 
-#: kdecore/kaccel.cpp:279
+#: kdecore/kaccel.cpp:287
 msgid "End"
 msgstr "Slut"
 
-#: kdecore/kaccel.cpp:283
-#, fuzzy
+#: kdecore/kaccel.cpp:291
 msgid "Prior"
 msgstr "Forrige"
 
-#: kdecore/kaccel.cpp:287
-#, fuzzy
+#: kdecore/kaccel.cpp:295
 msgid "Next"
 msgstr "Næste"
 
-#: kdecore/kaccel.cpp:291 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
+#: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
 #: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 kspell/ksconfig.cpp:212
 #: kspell/kspelldlg.cpp:131 po/texts.cpp:44
 msgid "Help"
 msgstr "Hjælp"
 
-#: kdecore/kaccel.cpp:589 kdecore/kaccel.cpp:653
+#: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:661
 msgid "SHIFT"
-msgstr ""
+msgstr "SHIFT"
 
-#: kdecore/kaccel.cpp:593 kdecore/kaccel.cpp:655
+#: kdecore/kaccel.cpp:601 kdecore/kaccel.cpp:663
 msgid "CTRL"
-msgstr ""
+msgstr "CTRL"
 
-#: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:657
+#: kdecore/kaccel.cpp:605 kdecore/kaccel.cpp:665
 msgid "ALT"
-msgstr ""
+msgstr "ALT"
 
 #: kdecore/kapp.cpp:608 po/texts.cpp:137
 msgid "&Contents"
@@ -373,14 +375,14 @@ msgid ""
 "Please report bugs at http://buglist.kde.org.\n"
 msgstr ""
 "\n"
-"KDE Desktop Miljøet er skrevet af KDE Teamet,\n"
+"KDE Desktop Miljøet er skrevet af KDE Holdet,\n"
 "et verdensdækkende netværk af software udviklere dedikeret til\n"
 "fri software udvikling.\n"
 "\n"
 "Besøg http://www.kde.org for mere information om KDE\n"
-"Projektet. Overvej at være med og støtte KDE.\n"
+"Projektet. Overvej at være med til at støtte KDE.\n"
 "\n"
-"Rapporter bugs på http://buglist.kde.org.\n"
+"Rapporter problemer på http://buglist.kde.org.\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:412 kdeui/keditcl1.cpp:433
 #: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661
@@ -542,7 +544,7 @@ msgstr "Du har valgt en folder"
 
 #: kdeui/keditcl1.cpp:169 kdeui/keditcl1.cpp:190
 msgid "You do not have read permission to this file."
-msgstr "Du har ikke læse tilladelse til denne fil"
+msgstr "Du har ikke læse tilladelse til denne fil."
 
 #: kdeui/keditcl1.cpp:203
 msgid "An Error occured while trying to open this Document"
@@ -582,7 +584,7 @@ msgid ""
 "Create a new document anyways?"
 msgstr ""
 "Kunne ikke gemme det aktuelle dokument.\n"
-"Vil du oprette et ny alligevel?"
+"Vil du oprette et nyt alligevel?"
 
 #: kdeui/keditcl1.cpp:547 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
 msgid "Untitled"
@@ -675,7 +677,7 @@ msgstr "Familie:"
 
 #: kdeui/kfontdialog.cpp:214 kdeui/kfontdialog.cpp:219 po/texts.cpp:26
 msgid "Charset:"
-msgstr "Karakter sæt:"
+msgstr "Tegnsæt:"
 
 #: kdeui/kfontdialog.cpp:227 kdeui/kfontdialog.cpp:232 kfile/kpreview.cpp:196
 msgid "Size:"
@@ -721,7 +723,7 @@ msgstr "kursiv"
 
 #: kdeui/kfontdialog.cpp:348
 msgid "Charset"
-msgstr "Karakter sæt"
+msgstr "Tegnsæt"
 
 #: kdeui/kfontdialog.cpp:367
 msgid "Dolor Ipse"
@@ -745,7 +747,7 @@ msgstr "Filter:"
 
 #: kdeui/kkeydialog.cpp:219
 msgid "Configure key bindings"
-msgstr ""
+msgstr "Indstil tastebindinger"
 
 #: kdeui/kkeydialog.cpp:232 kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:205
 #: po/texts.cpp:45
@@ -753,73 +755,68 @@ msgid "&Help"
 msgstr "&Hjælp"
 
 #: kdeui/kkeydialog.cpp:236 po/texts.cpp:136
-#, fuzzy
 msgid "&Defaults"
 msgstr "&Standard"
 
 #: kdeui/kkeydialog.cpp:320
 msgid "Current key"
-msgstr "Aktuel tast"
+msgstr "Nuværende tast"
 
 #: kdeui/kkeydialog.cpp:332
-#, fuzzy
 msgid "&Action"
-msgstr "&Placering:"
+msgstr "&Formål"
 
 #: kdeui/kkeydialog.cpp:366
 msgid "Choose a key for the selected action"
-msgstr ""
+msgstr "Vælg en tast til det valgte formål"
 
 #: kdeui/kkeydialog.cpp:393
 msgid "&No key"
 msgstr "&Ingen tast"
 
 #: kdeui/kkeydialog.cpp:401
-#, fuzzy
 msgid "&Default key"
 msgstr "&Standard tast"
 
 #: kdeui/kkeydialog.cpp:409
-#, fuzzy
 msgid "&Custom key"
 msgstr "&Brugerdefineret tast"
 
 #: kdeui/kkeydialog.cpp:472
 msgid "No keys defined"
-msgstr ""
+msgstr "Ingen taster defineret"
 
 #: kdeui/kkeydialog.cpp:474
 msgid "Not configurable"
-msgstr ""
+msgstr "Kan ikke indstilles"
 
 #: kdeui/kkeydialog.cpp:530
 msgid "Global Keys"
-msgstr ""
+msgstr "Globale taster"
 
 #: kdeui/kkeydialog.cpp:562
 msgid "Keys"
-msgstr ""
+msgstr "Taster"
 
 #: kdeui/kkeydialog.cpp:637 kdeui/kkeydialog.cpp:976
 msgid "Attention : key already used"
-msgstr ""
+msgstr "Pas på : tast allerede i brug"
 
 #: kdeui/kkeydialog.cpp:926
 msgid "Press the wanted key"
-msgstr ""
+msgstr "Tryk på den ønskede tast"
 
 #: kdeui/kkeydialog.cpp:949
 msgid "Undefined key"
-msgstr ""
+msgstr "Udefineret tast"
 
 #: kdeui/kkeydialog.cpp:999
 msgid "Return to end edition"
-msgstr ""
+msgstr "Linieskift afslutter redigering"
 
 #: kdeui/kkeydialog.cpp:1009
-#, fuzzy
 msgid "Incorrect key"
-msgstr "Aktuel tast"
+msgstr "Forkert tast"
 
 #: kdeui/kkeydialog.cpp:1035
 #, c-format
@@ -829,10 +826,14 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"%s taste kombinationen bruges allerede til den\n"
+"globale hændelse %s.\n"
+"\n"
+"Vælg venligst en entydig kombination."
 
 #: kdeui/kkeydialog.cpp:1039
 msgid "Global key conflict"
-msgstr ""
+msgstr "Global tastekonflikt"
 
 #: kdeui/kkeydialog.cpp:1062
 #, c-format
@@ -842,10 +843,14 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"%s tastekombinationen bruges allerede til standard\n"
+"hændelsen %s.\n"
+"\n"
+"Vælg venligst en entydig kombination."
 
 #: kdeui/kkeydialog.cpp:1066
 msgid "Standard key conflict"
-msgstr ""
+msgstr "Standard tastekonflikt"
 
 #: kdeui/kkeydialog.cpp:1086
 #, c-format
@@ -855,10 +860,14 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"%s tastekombinationen bruges allerede til\n"
+"%s hændelsen.\n"
+"\n"
+"Vælg venligst en entydig tastekombination."
 
 #: kdeui/kkeydialog.cpp:1090
 msgid "Key conflict"
-msgstr ""
+msgstr "Tastekonflikt"
 
 #: kdeui/kmenubar.cpp:278 kdeui/ktoolbar.cpp:856
 msgid "Top"
@@ -894,7 +903,7 @@ msgstr "KvikHjælp"
 
 #: kdeui/ktoolbar.cpp:284 kdeui/ktoolbar.cpp:336
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr "KToolbarButton: Pixmap'en er tom, måske mangler der en fil?"
+msgstr "KToolbarButton: Pixmap'en er tom, måske mangler der en fil"
 
 #: kdeui/ktoolbar.cpp:855
 msgid "Left"
@@ -964,7 +973,7 @@ msgstr "Bogmærker"
 
 #: kfile/kfiledialog.cpp:160
 msgid "Create new folder"
-msgstr "Oprette ny folder"
+msgstr "Opret ny folder"
 
 #: kfile/kfiledialog.cpp:163
 msgid "Search for a file"
@@ -972,7 +981,7 @@ msgstr "Søg efter en fil"
 
 #: kfile/kfiledialog.cpp:166
 msgid "Configure this dialog [development only]"
-msgstr "Konfigurer denne dialog [kun udvikling]"
+msgstr "Indstil denne dialog [kun udvikling]"
 
 #: kfile/kfiledialog.cpp:174
 msgid "The path"
@@ -999,7 +1008,7 @@ msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
 msgstr ""
-"Den specificerede folder er ikke lokal\n"
+"Den angivne folder er ikke lokal\n"
 "men applikationen accepterer kun lokale filer."
 
 #: kfile/kfiledialog.cpp:519 kfile/kfiledialog.cpp:624
@@ -1073,9 +1082,9 @@ msgid "one directory"
 msgstr "en folder"
 
 #: kfile/kfiledialog.cpp:1339
-#, fuzzy, c-format
+#, c-format
 msgid "%d directories"
-msgstr "foldere"
+msgstr "%d foldere"
 
 #: kfile/kfiledialogconf.cpp:42
 msgid "Look and Feel"
@@ -1094,6 +1103,16 @@ msgid ""
 "Mario Weilguni <mweilguni@sime.com>\n"
 "and Martin Jones <mjones@kde.org>"
 msgstr ""
+"KDE Fil Vælger af:\n"
+"\n"
+"Richard Moore <rich@kde.org>\n"
+"Stephan Kulow <coolo@kde.org>\n"
+"og Daniel Grana <grana@ie.iwi.unibe.ch>\n"
+"\n"
+"Med bidrag af\n"
+"\n"
+"Mario Weilguni <mweilguni@sime.com>\n"
+"og Martin Jones <mjones@kde.org>"
 
 #: kfile/kfiledialogconf.cpp:57 po/texts.cpp:32
 msgid "About"
@@ -1103,12 +1122,10 @@ msgstr "Om"
 msgid "View style"
 msgstr "Vis stil"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:75
 msgid "Show Short View"
 msgstr "Vis kort stil"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:81
 msgid "Show Detail View"
 msgstr "Vis detaljeret stil"
@@ -1121,16 +1138,14 @@ msgstr "Diverse"
 msgid "Show Filter"
 msgstr "Vis filter"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:102
 msgid "Show List Labels"
-msgstr "Vis overskrift"
+msgstr "Vis overskriftliste"
 
 #: kfile/kfiledialogconf.cpp:108
 msgid "Show Hidden"
 msgstr "Vis skjulte"
 
-# , fuzzy
 #: kfile/kfiledialogconf.cpp:114
 msgid "Show Status Line"
 msgstr "Vis Statusbjælke"
@@ -1148,9 +1163,8 @@ msgid "Keep dirs first"
 msgstr "Foldere først"
 
 #: kfile/kfilefilter.cpp:35
-#, fuzzy
 msgid "*|All Files"
-msgstr "Filer"
+msgstr "*|alle filer"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"
@@ -1196,7 +1210,6 @@ msgstr "Okt"
 msgid "Nov"
 msgstr "Nov"
 
-# , fuzzy
 #: kfile/kfileinfo.cpp:232
 msgid "Dec"
 msgstr "Dec"
@@ -1240,6 +1253,8 @@ msgid ""
 "You dont have the file %s\n"
 "Could not do Authorization"
 msgstr ""
+"Du har ikke filen %s\n"
+"Kunne ikke autorisere"
 
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210 kio/kmimetypes.cc:62
 #: kio/kmimetypes.cc:89 kio/kmimetypes.cc:135 kio/kregfactories.cc:75
@@ -1254,80 +1269,76 @@ msgid ""
 "The file %s is corrupted\n"
 "Could not do Authorization"
 msgstr ""
+"Filen %s er korumperet\n"
+"Kunne ikke autorisere"
 
 #: kspell/ksconfig.cpp:66
 msgid "Create Root/Affix combinations not in the dictionary"
-msgstr ""
+msgstr "Lav Root/Affix kombinationer som ikke er i ordbog"
 
 #: kspell/ksconfig.cpp:75
 msgid "Consider run-together words as spelling errors"
-msgstr ""
+msgstr "Betragt sammenløbne ord som stavefejl"
 
 #: kspell/ksconfig.cpp:92
-#, fuzzy
 msgid "Dictionary"
-msgstr "folder"
+msgstr "Ordbog"
 
 #: kspell/ksconfig.cpp:140
 msgid "Encoding:"
-msgstr ""
+msgstr "Indkoder:"
 
 #: kspell/ksconfig.cpp:147
-#, fuzzy
 msgid "Latin1"
-msgstr "&Placering:"
+msgstr "Latin1"
 
 #: kspell/ksconfig.cpp:148
 msgid "7-Bit/ASCII"
-msgstr ""
+msgstr "7-Bit/ASCII"
 
 #: kspell/ksconfig.cpp:292
 msgid "English"
-msgstr ""
+msgstr "Engelsk"
 
 #: kspell/ksconfig.cpp:298
 msgid "Spanish"
-msgstr ""
+msgstr "Spansk"
 
 #: kspell/ksconfig.cpp:304
-#, fuzzy
 msgid "German"
-msgstr "roman"
+msgstr "Tysk"
 
 #: kspell/ksconfig.cpp:311
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "Brasiliansk portugisisk"
 
 #: kio/kio_cache.cc:422 kspell/ksconfig.cpp:317
-#, fuzzy
 msgid "Unknown"
-msgstr "ukendt"
+msgstr "Ukendt"
 
 #: kspell/ksconfig.cpp:348
-#, fuzzy
 msgid "ISpell Default"
-msgstr "Standard"
+msgstr "ISpell standard"
 
 #: kspell/kspelldlg.cpp:58
 msgid "Misspelled Word:"
-msgstr ""
+msgstr "Forkert stavet ord"
 
 #: kspell/kspelldlg.cpp:68
-#, fuzzy
 msgid "Replacement:"
-msgstr "Udskift"
+msgstr "Erstatning"
 
 #: kspell/kspelldlg.cpp:77
 msgid "Suggestions:"
-msgstr ""
+msgstr "Forslag:"
 
 #: kspell/kspelldlg.cpp:88
 msgid "Ignore"
-msgstr ""
+msgstr "Ignorer"
 
 #: kspell/kspelldlg.cpp:99
 msgid "Ignore All"
-msgstr ""
+msgstr "Ignorer alt"
 
 #: kspell/kspelldlg.cpp:120 po/texts.cpp:86
 msgid "Add"
@@ -1368,7 +1379,6 @@ msgstr "Indhold"
 msgid "A&bout..."
 msgstr "&Om..."
 
-# , fuzzy
 #: po/texts.cpp:37
 msgid "On"
 msgstr "Aktiveret"
@@ -1409,7 +1419,6 @@ msgstr "&Vis"
 msgid "E&xit"
 msgstr "&Afslut"
 
-# , fuzzy
 #: po/texts.cpp:53
 msgid "&Quit"
 msgstr "&Afslut"
@@ -1448,32 +1457,31 @@ msgstr "Åbn en fil"
 
 #: po/texts.cpp:67
 msgid "Open..."
-msgstr "Åben..."
+msgstr "Åbn..."
 
 #: po/texts.cpp:68
 msgid "&Open..."
-msgstr "&Åben..."
+msgstr "&Åbn..."
 
 #: po/texts.cpp:70
 msgid "&Cut"
 msgstr "&Klip"
 
-# , fuzzy
 #: po/texts.cpp:71
 msgid "C&ut"
 msgstr "Kl&ip"
 
 #: po/texts.cpp:72
 msgid "Font"
-msgstr "Skriftsnit"
+msgstr "Skrift"
 
 #: po/texts.cpp:73
 msgid "&Foreground Color"
-msgstr "&Forgrunds farve"
+msgstr "&Forgrundsfarve"
 
 #: po/texts.cpp:74
 msgid "&Background Color"
-msgstr "&Baggrunds farve"
+msgstr "&Baggrundsfarve"
 
 #: po/texts.cpp:76
 msgid "&Save"
@@ -1543,7 +1551,6 @@ msgstr "&Gendan"
 msgid "&Game"
 msgstr "&Spil"
 
-# , fuzzy
 #: kio/kio_rename_dlg.cc:28 kio/kio_skip_dlg.cc:18 po/texts.cpp:98
 msgid "Information"
 msgstr "Information"
@@ -1578,19 +1585,19 @@ msgstr "Forskelligt"
 
 #: po/texts.cpp:107
 msgid "Font Size"
-msgstr "Skrift størrelse"
+msgstr "Skriftstørrelse"
 
 #: po/texts.cpp:108
 msgid "Fonts"
-msgstr "Skriftsnit"
+msgstr "Skrifter"
 
 #: po/texts.cpp:109
 msgid "&Fonts"
-msgstr "&Skriftsnit"
+msgstr "&Skrifter"
 
 #: po/texts.cpp:110
 msgid "&Reload"
-msgstr "&Genlæs"
+msgstr "&Genindlæs"
 
 #: po/texts.cpp:111
 msgid "Files"
@@ -1646,7 +1653,7 @@ msgstr "Typografi"
 
 #: po/texts.cpp:125
 msgid "Highscore"
-msgstr ""
+msgstr "Topresultat"
 
 #: po/texts.cpp:126
 msgid "&New View"
@@ -1665,7 +1672,6 @@ msgid "<< &Previous"
 msgstr "<< &Forrige"
 
 #: po/texts.cpp:138
-#, fuzzy
 msgid "&About..."
 msgstr "&Om..."
 
@@ -1674,12 +1680,14 @@ msgid ""
 "The directory where user specific data for the\n"
 "addressbook application is stored does not exist.\n"
 "The program will try to create\n"
-"         "
 msgstr ""
+"Den folder hvor brugerspecifikke data for\n"
+"adressebogsprogrammet gemmes findes ikke.\n"
+"Programmet forsøger at lave den.\n"
 
 #: kab/addressbook.cc:94
 msgid "and store all local files in this directory."
-msgstr ""
+msgstr "og gemme alle lokale filer i denne folder"
 
 #: kab/addressbook.cc:98
 msgid ""
@@ -1689,79 +1697,87 @@ msgid ""
 "in your home directory. Run the KDE filemanager\n"
 "kfm once to automatically create it."
 msgstr ""
+"Kunne ikke lave folderen.\n"
+"Måske har du ikke brugt KDE før, så du ikke\n"
+"har en lokal \".kde\"-folder i din hjemme-\n"
+"folder. Kør KDE filemanager kfm een gang for\n"
+"at lave den automatisk."
 
 #: kab/addressbook.cc:106
 msgid "The directory has been created.\n"
-msgstr ""
+msgstr "Folderen blev lavet\n"
 
 #: kab/addressbook.cc:140
 msgid "No addressbook database file, creating new one."
-msgstr ""
+msgstr "Ingen adressebogs databasefil. Laver en nu"
 
 #: kab/addressbook.cc:159
 msgid "Tried to load database for creating backup, but failed"
 msgstr ""
+"Prøvede at indlæse database for at lave sikkerhedskopi\n"
+"men det mislykkedes"
 
 #: kab/addressbook.cc:194
 msgid "Unable to save to backup file."
-msgstr ""
+msgstr "Kunne ikke lave sikkerhedskopi."
 
 #: kab/addressbook.cc:200
 msgid "Unable to reset filename after creating backup."
-msgstr ""
+msgstr "Kunne ikke nulstille filnavn efter sikkerhedskopi"
 
 #: kab/addressbook.cc:205
 msgid "Unable to create backup file"
-msgstr ""
+msgstr "Kunne ikke lave sikkerhedskopi"
 
 #: kab/addressbook.cc:263
 msgid "Unable to insert \""
-msgstr ""
+msgstr "Kunne ikke indsætte \""
 
 #: kab/addressbook.cc:264
 msgid "\" into configuration section (ignored)."
-msgstr ""
+msgstr "\" i indstillings sektionen (ignoreret)."
 
 #: kab/addressbook.cc:666
 msgid "Unable to add a new entry with available key."
-msgstr ""
+msgstr "Kunne ikke tilføje indgang med tilgængelig taste."
 
 #: kab/addressbook.cc:672
 msgid "Cannot find previously created section."
-msgstr ""
+msgstr "Kan ikke finde tidligere lavet sektion"
 
 #: kab/addressbook.cc:703
 msgid "Unable to create key-value-map for entry."
-msgstr ""
+msgstr "Kunne ikke lave tast-værdi-kort som indgang"
 
 #: kab/addressbook.cc:932
 msgid "entry without name"
-msgstr ""
+msgstr "indgang uden navn"
 
 #: kab/addressbook.cc:950
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
 msgstr ""
+"Kunne ikke lave ny databasefil (formodentlig tilladelse nægtet), afslutter."
 
 #: kab/addressbook.cc:956
 msgid "Cannot create configuration section, exiting."
-msgstr ""
+msgstr "Kan ikke lave indstillingssektion, afslutter."
 
 #: kab/addressbook.cc:961
 msgid "Cannot create entries section, exiting."
-msgstr ""
+msgstr "Kan ikke lave indgangs sektion, afslutter"
 
 #: kab/addressbook.cc:966
 msgid "Unable to find previously created section, exiting."
-msgstr ""
+msgstr "Kan ikke finde tidligere lavet sektion, afslutter"
 
 #: kab/addressbook.cc:974
 msgid "Cannot save newly created database."
-msgstr ""
+msgstr "Kan ikke gemme den nyskabte database"
 
 #: kab/addressbook.cc:980
 msgid "Cannot erase database contents."
-msgstr ""
+msgstr "Kan ikke slette databaseindholds"
 
 #: kab/addressbook.cc:1059
 msgid "First name"
@@ -1780,7 +1796,6 @@ msgid "Formatted name"
 msgstr "Formateret navn"
 
 #: kab/addressbook.cc:1075
-#, fuzzy
 msgid "Comment"
 msgstr "Kommentar"
 
@@ -1789,22 +1804,18 @@ msgid "Organization"
 msgstr "Organisation"
 
 #: kab/addressbook.cc:1083
-#, fuzzy
 msgid "Unit"
 msgstr "Enhed"
 
 #: kab/addressbook.cc:1087
-#, fuzzy
 msgid "Subunit"
 msgstr "Underenhed"
 
 #: kab/addressbook.cc:1091
-#, fuzzy
 msgid "Title"
 msgstr "Titel"
 
 #: kab/addressbook.cc:1095
-#, fuzzy
 msgid "Role"
 msgstr "Rolle"
 
@@ -1814,7 +1825,7 @@ msgstr "Fødselsdag"
 
 #: kab/addressbook.cc:1103
 msgid "Talk addresses"
-msgstr "Talk adresse"
+msgstr "Talk adresser"
 
 #: kab/addressbook.cc:1107
 msgid "Delivery label"
@@ -1822,22 +1833,21 @@ msgstr "Afleverings mærkat"
 
 #: kab/addressbook.cc:1111
 msgid "Email address"
-msgstr "Email-adresse"
+msgstr "E-post adresse"
 
 #: kab/addressbook.cc:1115
 msgid "Second email address"
-msgstr "Sekundær email-adresse"
+msgstr "Sekundær e-post adresse"
 
 #: kab/addressbook.cc:1119
 msgid "Third email address"
-msgstr "Tertiær email-adresse"
+msgstr "Tertiær e-post adresse"
 
 #: kab/addressbook.cc:1123
 msgid "Email addresses"
-msgstr "Email-adresser"
+msgstr "E-post adresser"
 
 #: kab/addressbook.cc:1127
-#, fuzzy
 msgid "Address"
 msgstr "Adresse"
 
@@ -1851,12 +1861,11 @@ msgstr "Telefon"
 
 #: kab/addressbook.cc:1139
 msgid "Fax number"
-msgstr "Fax"
+msgstr "Faxnummer"
 
 #: kab/addressbook.cc:1143
-#, fuzzy
 msgid "Modem number"
-msgstr "Modem"
+msgstr "Modemnummer"
 
 #: kab/addressbook.cc:1147
 msgid "Homepage URL"
@@ -1871,25 +1880,22 @@ msgid "State/province"
 msgstr "Stat/provins"
 
 #: kab/addressbook.cc:1159
-#, fuzzy
 msgid "Country"
 msgstr "Land"
 
 #: kab/addressbook.cc:1326
 msgid "(unnamed entry)"
-msgstr "(unavngiven)"
+msgstr "(unavngiven indgang)"
 
 #: kab/datepickerdialog.cc:34
-#, fuzzy
 msgid "Select birthday"
 msgstr "Vælg fødselsdag"
 
 #: kab/editentry.cc:38
 msgid "Edit the current entry"
-msgstr "Redigér aktuel"
+msgstr "Redigér aktuel indgang"
 
 #: kab/editentry.cc:61
-#, fuzzy
 msgid "Title:"
 msgstr "Titel:"
 
@@ -1906,7 +1912,6 @@ msgid "Formatted Name:"
 msgstr "Formateret navn:"
 
 #: kab/editentry.cc:88
-#, fuzzy
 msgid "&Name"
 msgstr "&Navn"
 
@@ -1915,17 +1920,14 @@ msgid "Address:"
 msgstr "Adresse:"
 
 #: kab/editentry.cc:104
-#, fuzzy
 msgid "Town/City:"
 msgstr "By:"
 
 #: kab/editentry.cc:105
-#, fuzzy
 msgid "State:"
 msgstr "Stat:"
 
 #: kab/editentry.cc:106
-#, fuzzy
 msgid "Zip/Postal Code:"
 msgstr "Postnummer:"
 
@@ -1942,16 +1944,14 @@ msgid "Organization:"
 msgstr "Organisation:"
 
 #: kab/editentry.cc:146
-#, fuzzy
 msgid "Department:"
-msgstr "Udskift"
+msgstr "Afdeling:"
 
 #: kab/editentry.cc:147
 msgid "Sub-Department:"
-msgstr ""
+msgstr "Underafdeling:"
 
 #: kab/editentry.cc:148
-#, fuzzy
 msgid "Job/Role:"
 msgstr "Rolle:"
 
@@ -1968,7 +1968,6 @@ msgid "Fax:"
 msgstr "Fax:"
 
 #: kab/editentry.cc:186
-#, fuzzy
 msgid "Modem:"
 msgstr "Modem:"
 
@@ -1978,21 +1977,19 @@ msgstr "Hjemmeside (URL):"
 
 #: kab/editentry.cc:200 kab/editentry.cc:418
 msgid "Edit email addresses"
-msgstr "Rediger email-adresser"
+msgstr "Rediger e-post adresser"
 
 #: kab/editentry.cc:206 kab/editentry.cc:400
 msgid "Edit talk addresses"
 msgstr "Rediger talk-adresser"
 
 #: kab/editentry.cc:218
-#, fuzzy
 msgid "&Contact"
 msgstr "&Kontakt"
 
 #: kab/editentry.cc:239
-#, fuzzy
 msgid "Additional Comment:"
-msgstr "Mellemnavn"
+msgstr "Ekstra kommentar:"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
@@ -2000,7 +1997,7 @@ msgstr "Fødselsdag:"
 
 #: kab/editentry.cc:249
 msgid "Double click to set date"
-msgstr ""
+msgstr "Dobbeltklik for at sætte dato"
 
 #: kab/editentry.cc:256
 msgid "O&thers"
@@ -2008,7 +2005,7 @@ msgstr "&Andre"
 
 #: kab/kabapi.cc:138
 msgid "Your new entry could not be added."
-msgstr ""
+msgstr "Din nye indgang kunne ikke tilføjes."
 
 #: kab/searchresults.cc:33
 msgid "search results"
@@ -2025,16 +2022,22 @@ msgid ""
 "You can use it, but not all features will be\n"
 "supported."
 msgstr ""
+"Kab kunne ikke konvertere din database til det \n"
+"nuværende filformat.\n"
+"Du kan bruge den, men ikke alle egenskaber vil\n"
+"være understøttet."
 
 #: kab/widget.cc:163
 msgid ""
 "The application saved the last current entry,\n"
 "but this entry does not exist anymore."
 msgstr ""
+"Programmet gemte den sidste aktuelle indgang,\n"
+"men denne indgang eksisterer ikke mere."
 
 #: kab/widget.cc:229
 msgid "kab: Removed bug warning"
-msgstr ""
+msgstr "kab: Fjernede problemadvarsel"
 
 #: kab/widget.cc:230
 msgid ""
@@ -2045,6 +2048,12 @@ msgid ""
 "All configuration values have been reset to\n"
 "its default settings."
 msgstr ""
+"Den version af kab du brugte tidligere havde en\n"
+"fejl med hensyn til opgraduering af databasen\n"
+"for nye versioner. Denne fejl er nu fjernet og\n"
+"vil ikke længere påvirke dig.\n"
+"Alle indstillingsværdier er blevet sat til standard\n"
+"igen."
 
 #: kab/widget.cc:248 kab/widget.cc:312 kab/widget.cc:320
 msgid "File handling error"
@@ -2052,11 +2061,11 @@ msgstr "Filhåndterings fejl"
 
 #: kab/widget.cc:249
 msgid "Unable to open database file r/w."
-msgstr ""
+msgstr "Ikke i stand til at åbne databasefilen l/s."
 
 #: kab/widget.cc:257
 msgid "Email storage conversion"
-msgstr ""
+msgstr "E-post opbevarings ændring"
 
 #: kab/widget.cc:258
 msgid ""
@@ -2064,10 +2073,13 @@ msgid ""
 "the new style supporting unlimited numbers\n"
 "of email addresses per entry."
 msgstr ""
+"Kab vil flytte alle dine e-post adresser til\n"
+"den ny stil der understøtter et ubegrænset\n"
+"antal e-post adresser pr indgang."
 
 #: kab/widget.cc:291
 msgid "kab database update"
-msgstr ""
+msgstr "kab database opdatering"
 
 #: kab/widget.cc:292
 msgid ""
@@ -2080,101 +2092,102 @@ msgid ""
 "You will probably need to edit some of your\n"
 "entries to make use of it."
 msgstr ""
+"Bemærk at kab nu støtter nogle nye felter\n"
+"i sine addresser. Disse nye felter er:\n"
+"° stat feltet,\n"
+"° land feltet og\n"
+"° postnummer feltet.\n"
+"Du må formodentlig redigere nogle af dine\n"
+"indgange for at gøre brug af det."
 
 #: kab/widget.cc:313
-#, fuzzy
 msgid "Could not save database after update."
-msgstr "Kunne ikke gemme database efter opdatéring\n"
+msgstr "Kunne ikke gemme database efter opdatering."
 
 #: kab/widget.cc:321
 msgid "Unable to reopen database file r/o."
-msgstr ""
+msgstr "Ude af stand til at åbne databasefilen læs/kun."
 
 #: kab/widget.cc:482
-#, fuzzy
 msgid "first entry"
-msgstr "første"
+msgstr "første indgang"
 
 #: kab/widget.cc:483
-#, fuzzy
 msgid "previous entry"
-msgstr "forrige"
+msgstr "forrige indgang"
 
 #: kab/widget.cc:484
-#, fuzzy
 msgid "next entry"
-msgstr "næste"
+msgstr "næste indgang"
 
 #: kab/widget.cc:485
 msgid "last entry"
-msgstr "sidste"
+msgstr "sidste indgang"
 
 #: kab/widget.cc:486
 msgid "search entries"
-msgstr ""
+msgstr "søg indgange"
 
 #: kab/widget.cc:487
 msgid "add a new entry"
-msgstr ""
+msgstr "tilføj ny indgang"
 
 #: kab/widget.cc:488
 msgid "change this entry"
-msgstr ""
+msgstr "ændr denne indgang"
 
 #: kab/widget.cc:489
 msgid "remove this entry"
-msgstr ""
+msgstr "fjern denne indgang"
 
 #: kab/widget.cc:528
 msgid "Switched to first entry."
-msgstr ""
+msgstr "Skiftede til første indgang."
 
 #: kab/widget.cc:560
 msgid "Switched to last entry."
-msgstr ""
+msgstr "Skiftede til sidste indgang"
 
 #: kab/widget.cc:621 kab/widget.cc:678 kab/widget.cc:860 kab/widget.cc:922
 msgid "Sorry, file changed."
-msgstr ""
+msgstr "Undskyld, filen er ændret."
 
 #: kab/widget.cc:625 kab/widget.cc:682 kab/widget.cc:926
-#, fuzzy
 msgid "Permission denied."
-msgstr "Tilladelser"
+msgstr "Tilladelse nægtet"
 
 #: kab/widget.cc:636
-#, fuzzy
 msgid "Remove entry?"
-msgstr "Fjern"
+msgstr "Fjern indgang?"
 
 #: kab/widget.cc:637
 msgid "Really remove this entry?"
-msgstr ""
+msgstr "Virkelig fjerne denne indgang?"
 
 #: kab/widget.cc:655
 msgid "Entry deleted."
-msgstr ""
+msgstr "Indgang slettet."
 
 #: kab/widget.cc:694
 msgid "Added a new entry."
-msgstr ""
+msgstr "Tilføjede en ny indgang."
 
 #: kab/widget.cc:821
 msgid "Opened browser window."
-msgstr ""
+msgstr "Åbnet søgervindue."
 
 #: kab/widget.cc:824
 msgid "No URL."
-msgstr ""
+msgstr "Ingen URL."
 
 #: kab/widget.cc:828 kab/widget.cc:997 kab/widget.cc:1176 kab/widget.cc:1789
 #: kab/widget.cc:1967 kab/widget.cc:2051
 msgid "No entries."
-msgstr ""
+msgstr "Ingen indgange."
 
 #: kab/widget.cc:833
 msgid "The filemanager is busy, please try again."
-msgstr ""
+msgstr "Filmanageren har travlt, prøv igen."
 
 #: kab/widget.cc:853
 msgid ""
@@ -2182,259 +2195,262 @@ msgid ""
 "locked by another application.\n"
 "kab cannot save it."
 msgstr ""
+"Addressebogsfilen er for øjeblikket\n"
+"låst af et andet program.\n"
+"kab kan ikke gemme den."
 
 #: kab/widget.cc:870
 msgid "Database saved successfully."
-msgstr ""
+msgstr "Databasen blev gemt."
 
 #: kab/widget.cc:875
 msgid "kab: File error"
-msgstr ""
+msgstr "kab: Fil fejl"
 
 #: kab/widget.cc:875
-#, fuzzy
 msgid "Could not save database."
-msgstr "Kunne ikke gemme dokumentet\n"
+msgstr "Kunne ikke gemme databasen."
 
 #: kab/widget.cc:876
-#, fuzzy
 msgid "&Retry"
-msgstr "Gendan"
+msgstr "P&røv igen"
 
 #: kab/widget.cc:876
 msgid "&Ignore"
-msgstr ""
+msgstr "&Ignorer"
 
 #: kab/widget.cc:879
-#, fuzzy
 msgid "Saving cancelled.\n"
-msgstr "Annuller"
+msgstr "Annuller forsøg på at gemme.\n"
 
 #: kab/widget.cc:945
 msgid "Entry changed."
-msgstr ""
+msgstr "Indgang ændret."
 
 #: kab/widget.cc:1041
 msgid "Results"
-msgstr ""
+msgstr "Resultater"
 
 #: kab/widget.cc:1041
 msgid "No entry matches this."
-msgstr ""
+msgstr "Ingen indgang passer med dette."
 
 #: kab/widget.cc:1050 kab/widget.cc:1696 kab/widget.cc:1831 kab/widget.cc:1996
 #: kab/widget.cc:2019 kab/widget.cc:2076
 msgid "Rejected."
-msgstr ""
+msgstr "Afslået."
 
 #: kab/widget.cc:1066
 msgid "Search results window closed."
-msgstr ""
+msgstr "Søgeresultater lukket vindue."
 
 #: kab/widget.cc:1165
 msgid "The talk command must be configured before!"
-msgstr ""
+msgstr "Talk kommandoen skal først indstilles!"
 
 #: kab/widget.cc:1170
 msgid "Talk configuration"
-msgstr ""
+msgstr "Talk indstillinger"
 
 #: kab/widget.cc:1171
 msgid "Please configure the parameters for the talk command."
-msgstr ""
+msgstr "Indstil venligst parametrene for talk kommandoen."
 
 #: kab/widget.cc:1184
 msgid "No talk address."
-msgstr ""
+msgstr "Ingen talk addresser."
 
 #: kab/widget.cc:1192
 msgid "kab: Talk addresses"
-msgstr ""
+msgstr "kab: Talk addresser"
 
 #: kab/widget.cc:1193
 msgid "Available talk addresses:"
-msgstr ""
+msgstr "Tilgængelige talk addresser:"
 
 #: kab/widget.cc:1199 kab/widget.cc:1927
-#, fuzzy
 msgid "Cancelled."
-msgstr "Annuller"
+msgstr "Annulleret."
 
 #: kab/widget.cc:1222
 msgid "The talk command parameters are wrong."
-msgstr ""
+msgstr "Talk kommandoens parametre er forkerte."
 
 #: kab/widget.cc:1234
 msgid ""
 "Talk command failed.\n"
 "Make sure you did setup your talk command and parameter!"
 msgstr ""
+"Talk kommando mislykkedes.\n"
+"Undersøg hvordan du indstilled talk kommando og parametre!"
 
 #: kab/widget.cc:1237
 msgid "Talk program started."
-msgstr ""
+msgstr "Talk program startet"
 
 #: kab/widget.cc:1285
 msgid "Attention: printing is still experimental!"
-msgstr ""
+msgstr "Pas på: udskrift er stadig et eksperiment!"
 
 #: kab/widget.cc:1381 kab/widget.cc:1423
 msgid "Page size problem"
-msgstr ""
+msgstr "Sidestørrelsesproblem"
 
 #: kab/widget.cc:1382 kab/widget.cc:1424
 msgid ""
 "The fields you requested to print do\n"
 "not fit into the page width."
 msgstr ""
+"De felter du vil udskrive passer ikke\n"
+"til sidebredden."
 
 #: kab/widget.cc:1601 kab/widget.cc:2030
 msgid "Printing finished successfully."
-msgstr ""
+msgstr "Udskrift lykkedes."
 
 #: kab/widget.cc:1627
 msgid "kab: Email addresses"
-msgstr ""
+msgstr "kab: E-post addresser"
 
 #: kab/widget.cc:1628
 msgid "Available email addresses:"
-msgstr ""
+msgstr "Tilgængelige e-post addresser:"
 
 #: kab/widget.cc:1693
 msgid "kab: Select fields to copy"
-msgstr ""
+msgstr "kab: Vælg felter til kopiering"
 
 #: kab/widget.cc:1703
 msgid "Nothing selected."
-msgstr ""
+msgstr "Intet valgt."
 
 #: kab/widget.cc:1761 kab/widget.cc:2013
 msgid "KDE addressbook overview"
-msgstr ""
+msgstr "KDE addresebogsoverblik"
 
 #: kab/widget.cc:1805
 msgid "Name-Email-Link (!!)"
-msgstr ""
+msgstr "Navn-Epost-link (!!)"
 
 #: kab/widget.cc:1807
-#, fuzzy
 msgid "Select table columns"
-msgstr "Vælg ikon"
+msgstr "Vælg tabel søjler"
 
 #: kab/widget.cc:1812
 msgid "Nothing to export."
-msgstr ""
+msgstr "Intet at udføre."
 
 #: kab/widget.cc:1841
 msgid "Email link"
-msgstr ""
+msgstr "E-post link"
 
 #: kab/widget.cc:1916
 msgid "Could not find the users home directory."
-msgstr ""
+msgstr "Kunne ikke finde brugernes hjemmefolder"
 
 #: kab/widget.cc:1917
 msgid "Intern error!"
-msgstr ""
+msgstr "Indre fejl!"
 
 #: kab/widget.cc:1937
 msgid "Could not open the file to create the HTML table."
-msgstr ""
+msgstr "Kunne ikke åbne fil til at lave HTML tabel."
 
 #: kab/widget.cc:1973
 msgid "Printing cancelled."
-msgstr ""
+msgstr "Udskrift annulleret."
 
 #: kab/widget.cc:1989
 msgid "kab: Select columns for printing"
-msgstr ""
+msgstr "kab: Vælg søjler til udskrift"
 
 #: kab/widget.cc:2002
 msgid "Nothing to print."
-msgstr ""
+msgstr "Intet at udskrive."
 
 #: kab/widget.cc:2014
 msgid "Page <p>"
-msgstr ""
+msgstr "Side <p>"
 
 #: kab/widget.cc:2015
 msgid "KDE - the professionals choice."
-msgstr ""
+msgstr "KDE - det professionelle valg."
 
 #: kab/widget.cc:2028
 msgid "Printing failed!"
-msgstr ""
+msgstr "Udskrift mislykkedes!"
 
 #: kab/widget.cc:2059
 msgid "Empty email address."
-msgstr ""
+msgstr "Tom e-post addresse."
 
 #: kab/widget.cc:2078
-#, fuzzy
 msgid "No email address."
-msgstr "Email adressen"
+msgstr "Ingen e-post adresse."
 
 #: kab/widget.cc:2088
-#, fuzzy
 msgid "Error calling mailer."
-msgstr "Fejl: Ikke lokal fil"
+msgstr "Fejl ved kald af postprogram."
 
 #: kab/widget.cc:2090
 msgid "Mailer called."
-msgstr ""
+msgstr "Postprogram kaldet."
 
 #: kab/widget.cc:2113
 msgid "The mail command must be configured before!"
-msgstr ""
+msgstr "Post kommandoen skal først indstilles!"
 
 #: kab/widget.cc:2118
 msgid "Mail configuration"
-msgstr ""
+msgstr "Post indstillinger"
 
 #: kab/widget.cc:2119
 msgid "Please configure the parameters for the email command."
-msgstr ""
+msgstr "Indstil venligst parametrene for e-post kommandoen."
 
 #: kab/widget.cc:2157
 msgid "The email command parameters are wrong."
-msgstr ""
+msgstr "E-post kommandoparametrene er forkerte."
 
 #: kab/widget.cc:2169
 msgid ""
 "Email command failed.\n"
 "Make sure you did setup your email command and parameter!"
 msgstr ""
+"E-post kommando mislykkedes.\n"
+"Undersøg om du indstillede din e-post kommando og parametrene!"
 
 #: kab/widget.cc:2173
 msgid "Mail program started."
-msgstr ""
+msgstr "Postprogram startet."
 
 #: kio/kio_cache.cc:345
 msgid "KIO Cache"
-msgstr ""
+msgstr "KIO cache"
 
 #: kio/kio_cache.cc:347
 msgid "Contents of the cache"
-msgstr ""
+msgstr "Indhold af cachen"
 
 #: kio/kio_cache.cc:352
 msgid ""
 "Use the icons for drag and drop actions, since they refer to the cache files "
 "on your hard disk, while you should use the textual links for browsing"
 msgstr ""
+"Brug ikonerne til træk og slip handlinger da de refererer til cache filerpå "
+"din harddisk, men brug tekst links til netsøgning"
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"
-msgstr ""
+msgstr "Dato lavet"
 
 #: kio/kio_cache.cc:357
 msgid "Expiration Date"
-msgstr ""
+msgstr "Udløbsdato"
 
 #: kio/kio_cache.cc:428
-#, fuzzy
 msgid "Never"
-msgstr "November"
+msgstr "Aldrig"
 
 #: kio/kio_error.cc:16
 #, c-format
@@ -2442,20 +2458,26 @@ msgid ""
 "Could not read\n"
 "%s"
 msgstr ""
+"Kunne ikke læse\n"
+"%s"
 
 #: kio/kio_error.cc:19
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not write to\n"
 "%s"
-msgstr "Kunne ikke gemme dokumentet\n"
+msgstr ""
+"Kunne ikke skrive til\n"
+"%s"
 
 #: kio/kio_error.cc:22
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not start process\n"
 "%s"
-msgstr "Kunne ikke gemme dokumentet\n"
+msgstr ""
+"Kunne ikke starte processen\n"
+"%s"
 
 #: kio/kio_error.cc:25
 #, c-format
@@ -2465,13 +2487,19 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Intern fejl\n"
+"Send venligst en problemrapport til kde-bugs@kde.org\n"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:28
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Malformed URL\n"
 "%s"
-msgstr "Misformet URL"
+msgstr ""
+"Misformet URL\n"
+"%s"
 
 #: kio/kio_error.cc:31
 #, c-format
@@ -2479,6 +2507,8 @@ msgid ""
 "The protocol %s\n"
 " is not supported"
 msgstr ""
+"Protokollen %s\n"
+" er ikke understøttet"
 
 #: kio/kio_error.cc:34
 #, c-format
@@ -2486,6 +2516,8 @@ msgid ""
 "The protocol %s\n"
 "is only a filter protocol.\n"
 msgstr ""
+"Protokollen %s\n"
+"er kun en filterprotokol.\n"
 
 #: kio/kio_error.cc:37
 #, c-format
@@ -2493,14 +2525,19 @@ msgid ""
 "Unsupported action\n"
 "%s"
 msgstr ""
+"Ikke understøttet handling\n"
+"%s"
 
 #: kio/kio_error.cc:40
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The file or directory\n"
 "%s\n"
 "does not exist"
-msgstr "Den valgte fil eksisterer ikke"
+msgstr ""
+"Filen eller folderen\n"
+"%s\n"
+"eksisterer ikke"
 
 #: kio/kio_error.cc:43
 #, c-format
@@ -2509,13 +2546,16 @@ msgid ""
 " is a directory,\n"
 "but a file was expected"
 msgstr ""
+"%s\n"
+" er en folder,\n"
+"men en fil var forventet"
 
 #: kio/kio_error.cc:46
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not make directory\n"
 "%s"
-msgstr "en folder"
+msgstr "Kunne ikke lave folderen%s"
 
 #: kio/kio_error.cc:49
 #, c-format
@@ -2524,6 +2564,9 @@ msgid ""
 "%s\n"
 "does already exist"
 msgstr ""
+"Filen eller folderen\n"
+"%s\n"
+"eksisterer allerede"
 
 #: kio/kio_error.cc:52
 #, c-format
@@ -2531,13 +2574,17 @@ msgid ""
 "%s\n"
 "Access denied"
 msgstr ""
+"%s\n"
+"Adgang nægtet"
 
 #: kio/kio_error.cc:55
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not enter directory\n"
 "%s"
-msgstr "Kunne ikke gemme dokumentet\n"
+msgstr ""
+"Kunne ikke gå ind i folderen\n"
+"%s"
 
 #: kio/kio_error.cc:58
 #, c-format
@@ -2545,6 +2592,8 @@ msgid ""
 "The protocol %s\n"
 "does not implement a directory service"
 msgstr ""
+"Protokollen %s\n"
+"implementerer ikke en folder service"
 
 #: kio/kio_error.cc:61
 #, c-format
@@ -2552,13 +2601,17 @@ msgid ""
 "Found a cyclic link in\n"
 "%s"
 msgstr ""
+"Fandt et cyklisk link i\n"
+"%s"
 
 #: kio/kio_error.cc:64
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not change permissions for\n"
 "%s"
-msgstr "Du har ikke skriveadgang til dette dokument.\n"
+msgstr ""
+"Kunne ikke ændre tilladelser for\n"
+"%s"
 
 #: kio/kio_error.cc:67
 #, c-format
@@ -2567,12 +2620,17 @@ msgid ""
 "Could not write to\n"
 "%s"
 msgstr ""
+"Adgang nægtet\n"
+"Kunne ikke skrive til\n"
+"%s"
 
 #: kio/kio_error.cc:70
 msgid ""
 "Action has been\n"
 "canceled by the user"
 msgstr ""
+"Aktionen er blevet\n"
+"annulleret af brugeren"
 
 #: kio/kio_error.cc:73
 #, c-format
@@ -2580,6 +2638,8 @@ msgid ""
 "Found a cyclic link while copying\n"
 "%s"
 msgstr ""
+"Fandt et cyklisk link ved kopierring\n"
+"%s"
 
 #: kio/kio_error.cc:76
 #, c-format
@@ -2587,13 +2647,17 @@ msgid ""
 "Could not create socket for accessing\n"
 "%s"
 msgstr ""
+"Kunne ikke lave socket for adgang til\n"
+"%s"
 
 #: kio/kio_error.cc:79
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not connect to host\n"
 "%s"
-msgstr "Kunne ikke gemme dokumentet\n"
+msgstr ""
+"Kunne ikke forbinde til vært\n"
+"%s"
 
 #: kio/kio_error.cc:82
 #, c-format
@@ -2601,6 +2665,8 @@ msgid ""
 "Unknown host\n"
 "%s"
 msgstr ""
+"Ukendt vært\n"
+"%s"
 
 #: kio/kio_error.cc:85
 #, c-format
@@ -2609,6 +2675,9 @@ msgid ""
 "%s\n"
 "is broken"
 msgstr ""
+"Forbindelsen til vært\n"
+"%s\n"
+"er afbrudt"
 
 #: kio/kio_error.cc:88
 #, c-format
@@ -2616,6 +2685,8 @@ msgid ""
 "The protocol %s\n"
 "is not a filter protocol"
 msgstr ""
+"Protokollen %s\n"
+"er ikke en filterprotokol"
 
 #: kio/kio_error.cc:91
 #, c-format
@@ -2624,6 +2695,9 @@ msgid ""
 "is a file,\n"
 "but a directory was expected"
 msgstr ""
+"%s\n"
+"er en fil,\n"
+"men en folder var forventet"
 
 #: kio/kio_error.cc:94
 #, c-format
@@ -2633,6 +2707,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Kunne ikke montere enheden.\n"
+"Den rapporterede fejl var:\n"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:97
 #, c-format
@@ -2642,6 +2720,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Kunne ikke afmontere enheden.\n"
+"Den rapporterede fejl var:\n"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:100
 #, c-format
@@ -2650,13 +2732,18 @@ msgid ""
 "%s protocol\n"
 "died unexpectedly"
 msgstr ""
+"Processen for \n"
+"%s protokollen\n"
+"døde uventet"
 
 #: kio/kio_error.cc:103
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not access\n"
 "%s"
-msgstr "Kunne ikke gemme dokumentet\n"
+msgstr ""
+"Kunne ikke få adgang til\n"
+"%s"
 
 #: kio/kio_error.cc:106
 #, c-format
@@ -2666,6 +2753,10 @@ msgid ""
 "\n"
 "Please send a full bugreport to kde-bugs@kde.org"
 msgstr ""
+"Ukendt fejlkode %i\n"
+"%s\n"
+"\n"
+"Send venligst en problemrapport til kde-bugs@kde.org"
 
 #: kio/kio_error.cc:118 kio/kio_linedit_dlg.cc:42 kio/kio_openwith.cc:260
 #: kio/kio_pass_dlg.cc:75 kio/kio_paste.cc:48 kio/kio_paste.cc:60
@@ -2681,202 +2772,193 @@ msgstr "Ok"
 #: kio/kio_job.cc:138
 #, c-format
 msgid "Mounting %s ..."
-msgstr ""
+msgstr "Monterer %s ..."
 
 #: kio/kio_job.cc:158
 #, c-format
 msgid "Unmounting %s ..."
-msgstr ""
+msgstr "Afmonterer %s ..."
 
 #: kio/kio_openwith.cc:133
 msgid "This group is empty!"
-msgstr ""
+msgstr "Denne gruppe er tom!"
 
 #: kio/kio_openwith.cc:264
-#, fuzzy
 msgid "&Browser"
-msgstr "Gennemsøg..."
+msgstr "&Gennemsøger"
 
 #: kio/kio_pass_dlg.cc:33
 msgid "User"
-msgstr ""
+msgstr "Bruger"
 
 #: kio/kio_pass_dlg.cc:44 kio/kio_pass_dlg.cc:88
 msgid "Password"
-msgstr ""
+msgstr "Kodeord"
 
 #: kio/kio_paste.cc:48 kio/kio_paste.cc:60
 msgid "The clipboard is empty"
-msgstr ""
+msgstr "Klippebordet er tomt"
 
 #: kio/kio_paste.cc:75
 msgid ""
 "Pasting clipboard data is only supported on the local hard disk currently"
 msgstr ""
+"Indsætning af klippebordsdata virker for øjeblikket kun på den lokale disk"
 
 #: kio/kio_paste.cc:80
 msgid "Filename for clipboard content:"
-msgstr ""
+msgstr "Filnavn for klippebordsindhold:"
 
 #: kio/kio_paste.cc:87
 msgid "You did not enter a filename"
-msgstr ""
+msgstr "Du indgav ikk et filnavn"
 
 #: kio/kio_paste.cc:97
-#, fuzzy, c-format
+#, c-format
 msgid "The file %s does already exist. Do you really want to overwrite it ?"
 msgstr ""
 "Et dokument med dette navn eksisterer allerede.\n"
-"Vil du overskrive det?"
+"Vil du virkelig overskrive det?"
 
 #: kio/kio_progress_dlg.cc:92 kio/kio_progress_dlg.cc:108
 msgid " Bytes"
-msgstr ""
+msgstr " Bytes"
 
 #: kio/kio_progress_dlg.cc:97 kio/kio_progress_dlg.cc:113
 msgid " Kb"
-msgstr ""
+msgstr " Kb"
 
 #: kio/kio_progress_dlg.cc:102 kio/kio_progress_dlg.cc:118
 msgid " Mb"
-msgstr ""
+msgstr " Mb"
 
 #: kio/kio_progress_dlg.cc:151 kio/kio_progress_dlg.cc:177
-#, fuzzy
 msgid "Stalled"
-msgstr "Stil"
+msgstr "Hænger"
 
 #: kio/kio_progress_dlg.cc:159
 msgid " Bytes/s"
-msgstr ""
+msgstr "Bytes/s"
 
 #: kio/kio_progress_dlg.cc:164
 msgid " Kb/s"
-msgstr ""
+msgstr "Kb/s"
 
 #: kio/kio_progress_dlg.cc:169
 msgid " Mb/s"
-msgstr ""
+msgstr "Mb/s"
 
 #: kio/kio_progress_dlg.cc:184
 #, c-format
 msgid "%i seconds"
-msgstr ""
+msgstr "%i sekunder"
 
 #: kio/kio_progress_dlg.cc:190
 #, c-format
 msgid "%i:%i"
-msgstr ""
+msgstr "%i:%i"
 
 #: kio/kio_progress_dlg.cc:197
 #, c-format
 msgid "%i:%i:%i"
-msgstr ""
+msgstr "%i:%i:%i"
 
 #: kio/kio_progress_dlg.cc:201
 #, c-format
 msgid "%i%s  Remaining time: %s"
-msgstr ""
+msgstr "%i%s Tid tilbage: %s"
 
 #: kio/kio_progress_dlg.cc:207
-#, fuzzy
 msgid "Scanning "
-msgstr "Advarsel"
+msgstr "Undersøger"
 
 #: kio/kio_progress_dlg.cc:222
-#, fuzzy
 msgid "Creating dir "
-msgstr "Oprette ny folder"
+msgstr "Opretter folder"
 
 #: kio/kio_progress_dlg.cc:229
 msgid "Fetching file"
-msgstr ""
+msgstr "Henter fil"
 
 #: kio/kio_rename_dlg.cc:33
-#, fuzzy
 msgid "Rename"
-msgstr "Fjern"
+msgstr "Omdøb"
 
 #: kio/kio_rename_dlg.cc:38 kio/kio_skip_dlg.cc:23
 msgid "Skip"
-msgstr ""
+msgstr "Overspring"
 
 #: kio/kio_rename_dlg.cc:41 kio/kio_skip_dlg.cc:28
 msgid "Auto Skip"
-msgstr ""
+msgstr "Auto overspring"
 
 #: kio/kio_rename_dlg.cc:47
 msgid "Overwrite"
-msgstr ""
+msgstr "Overskriv"
 
 #: kio/kio_rename_dlg.cc:52
 msgid "Overwrite All"
-msgstr ""
+msgstr "Overskriv alt"
 
 #: kio/kio_rename_dlg.cc:59
-#, fuzzy
 msgid "Resume"
-msgstr "Fjern"
+msgstr "Genoptag"
 
 #: kio/kio_rename_dlg.cc:64
-#, fuzzy
 msgid "Resume All"
-msgstr "Udskift alle"
+msgstr "Genoptag alle"
 
 #: kio/kio_rename_dlg.cc:75
 msgid "You try to overwrite"
-msgstr ""
+msgstr "Du prøver at overskrive"
 
 #: kio/kio_rename_dlg.cc:96
 msgid "already exists. Overwrite with"
-msgstr ""
+msgstr "findes allerede. Overskriv med"
 
 #: kio/kio_rename_dlg.cc:108
 msgid "Or rename to"
-msgstr ""
+msgstr "Eller omdøb til"
 
 #: kio/kio_rename_dlg.cc:119
 msgid "already exists."
-msgstr ""
+msgstr "findes allerede."
 
 #: kio/kio_rename_dlg.cc:124
 msgid "Do you want to rename it ?"
-msgstr ""
+msgstr "Vil du omdøbe den ?"
 
 #: kio/kio_rename_dlg.cc:215
-#, fuzzy
 msgid "Malformed URL\n"
-msgstr "Misformet URL"
+msgstr "Misformet URL\n"
 
 #: kio/kio_rename_dlg.cc:224
 msgid "You must not change the protocol"
-msgstr ""
+msgstr "Du må ikke ændre protokol"
 
 #: kio/kio_skip_dlg.cc:35
-#, fuzzy
 msgid "Can not write"
-msgstr "Kunne ikke gemme dokumentet\n"
+msgstr "Kan ikke skrive"
 
 #: kio/kio_skip_dlg.cc:46
-#, fuzzy
 msgid "Permission denied!"
-msgstr "Tilladelser"
+msgstr "Tilladelse nægtet!"
 
 #: kio/kmimetypes.cc:62
 msgid "No mime types installed!"
-msgstr ""
+msgstr "Ingen mime typer installeret!"
 
 #: kio/kmimetypes.cc:86
 msgid "Could not find mime type\n"
-msgstr ""
+msgstr "Kunne ikke finde mime type\n"
 
 #: kio/kmimetypes.cc:132
 msgid "The mime type config file "
-msgstr ""
+msgstr "mimetype config filen"
 
 #: kio/kmimetypes.cc:134 kio/kregfactories.cc:74
 msgid "does not conatain a MimeType=... entry"
-msgstr ""
+msgstr "indeholder ikke en Mimetype=... indgang"
 
 #: kio/kmimetypes.cc:487
 #, c-format
@@ -2885,6 +2967,9 @@ msgid ""
 "%s\n"
 "has no Type=... entry"
 msgstr ""
+"kdelink filen\n"
+"%s\n"
+"Har ingen Type=... indgang"
 
 #: kio/kmimetypes.cc:505
 #, c-format
@@ -2893,6 +2978,9 @@ msgid ""
 "%s\n"
 "is unknown"
 msgstr ""
+"kdelink filen\n"
+"%s\n"
+"er ukendt"
 
 #: kio/kmimetypes.cc:519 kio/kmimetypes.cc:599 kio/kmimetypes.cc:691
 #, c-format
@@ -2901,6 +2989,9 @@ msgid ""
 "%s\n"
 "is of type FSDevice but has no Dev=... entry"
 msgstr ""
+"kdelink filen\n"
+"%s\n"
+"er af type FSDevice men har ingen Dev=... indgang"
 
 #: kio/kmimetypes.cc:566
 #, c-format
@@ -2909,15 +3000,17 @@ msgid ""
 "%s\n"
 "is of type Link but has no URL=... entry"
 msgstr ""
+"kdelink filen\n"
+"%s\n"
+"er af type Link men har ingen URL=... indgang"
 
 #: kio/kmimetypes.cc:609
-#, fuzzy
 msgid "Mount"
-msgstr "Man"
+msgstr "Monter"
 
 #: kio/kmimetypes.cc:616
 msgid "Unmount"
-msgstr ""
+msgstr "Afmonter"
 
 #: kio/kmimetypes.cc:659
 #, c-format
@@ -2927,10 +3020,14 @@ msgid ""
 " has an invalid menu entry\n"
 "%s"
 msgstr ""
+"kdelnk filen\n"
+"%s\n"
+" har en ugyldig menu indgang\n"
+"%s"
 
 #: kio/kregfactories.cc:72
 msgid "The mime type _cfg file "
-msgstr ""
+msgstr "Mimetype _cfg fil"
 
 #: kio/krun.cc:39
 #, c-format
@@ -2939,64 +3036,18 @@ msgid ""
 "%s\n"
 "Access denied"
 msgstr ""
+"Kan ikke gå ind i\n"
+"%s\n"
+"Adgang nægtet"
 
 #: kio/kservices.cc:111
 msgid "The application config file\n"
-msgstr ""
+msgstr "Andvendelsens configfil\n"
 
 #: kio/kservices.cc:113
 msgid ""
 "\n"
 "does not conatain a Name=... entry"
 msgstr ""
-
-#~ msgid "Org Unit:"
-#~ msgstr "Org. enhed:"
-
-#~ msgid "Org Subunit:"
-#~ msgstr "Org. underenhed:"
-
-#, fuzzy
-#~ msgid "Comment:"
-#~ msgstr "Kommentar:"
-
-#, fuzzy
-#~ msgid "Search"
-#~ msgstr "Søg"
-
-#, fuzzy
-#~ msgid "contains"
-#~ msgstr "indholder"
-
-#~ msgid "&New"
-#~ msgstr "&Ny"
-
-#~ msgid "&New..."
-#~ msgstr "&Ny..."
-
-#~ msgid "Move"
-#~ msgstr "Flyt"
-
-#~ msgid "&Previous"
-#~ msgstr "&Forrige"
-
-#~ msgid "&Next"
-#~ msgstr "&Næste"
-
-#~ msgid "Small"
-#~ msgstr "Lille"
-
-#~ msgid "Medium"
-#~ msgstr "Medium"
-
-#~ msgid "Large"
-#~ msgstr "Stor"
-
-#~ msgid "(none)"
-#~ msgstr "(ingen)"
-
-#~ msgid "None"
-#~ msgstr "Ingen"
-
-#~ msgid "&Ok"
-#~ msgstr "&Ok"
+"\n"
+"indeholder ikke en Navn=... indgang"
