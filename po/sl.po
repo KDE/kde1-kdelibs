@@ -1,34 +1,35 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# KDELIBS translation to Slovene language
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Bla¾ Zupanèiè <Blaz.Zupancic@guest.arnes.si>, 1998.
 #
-# , fuzzy
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1998-06-15 18:34+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 1998-05-01 12:12+0100\n"
+"Last-Translator: Bla¾ Zupanèiè <Blaz.Zupancic@guest.arnes.si>\n"
+"Language-Team: Slovenian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: iso-8859-2\n"
 
 #: kdecore/kapp.cpp:490
+#, fuzzy
 msgid "&Contents"
-msgstr ""
+msgstr "Vsebina"
 
 #: kdecore/kapp.cpp:496
 msgid "&About"
-msgstr ""
+msgstr "&O programu"
 
 #: kdecore/kapp.cpp:503
 msgid "About &KDE..."
-msgstr ""
+msgstr "O &KDE..."
 
 #: kdecore/kapp.cpp:524
 msgid "About KDE"
-msgstr ""
+msgstr "O KDE"
 
 #: kdecore/kapp.cpp:526
 msgid ""
@@ -50,7 +51,7 @@ msgstr ""
 #: kdeui/keditcl2.cpp:475 kdeui/kmsgbox.cpp:488 kdeui/kmsgbox.cpp:503
 #: po/texts.cpp:27
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: kdetest/klocaletest.cpp:101 kdeui/keditcl1.cpp:396 kdeui/keditcl1.cpp:417
 #: kdeui/keditcl1.cpp:478 kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1574
@@ -59,12 +60,12 @@ msgstr ""
 #: kdeui/keditcl2.cpp:476 kdeui/kmsgbox.cpp:486 kdeui/kmsgbox.cpp:501
 #: po/texts.cpp:28
 msgid "No"
-msgstr ""
+msgstr "Ne"
 
 #: kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34
 #: kfile/kfiledialog.cpp:252 po/texts.cpp:45
 msgid "Help"
-msgstr ""
+msgstr "Pomoè"
 
 #: kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:46
 #: kdeui/keditcl1.cpp:397 kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897
@@ -72,37 +73,38 @@ msgstr ""
 #: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:877
 #: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:407 po/texts.cpp:40
 msgid "Cancel"
-msgstr ""
+msgstr "Preklièi"
 
 #: kdeui/kcolordlg.cpp:285
 msgid "Select Color"
-msgstr ""
+msgstr "Izberi barvo"
 
 #: kdeui/kcolordlg.cpp:297
 msgid "System Colors"
-msgstr ""
+msgstr "Sistemske barve"
 
 #: kdeui/kcolordlg.cpp:328
 msgid "Custom Colors"
-msgstr ""
+msgstr "Izbrane barve"
 
 #: kdeui/kcolordlg.cpp:341
 msgid "Add to Custom Colors"
-msgstr ""
+msgstr "Dodaj izbranim barvam"
 
 #: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:360
 #: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872
 #: kfmlib/kfm.cpp:403 po/texts.cpp:37
 msgid "Ok"
-msgstr ""
+msgstr "V redu"
 
 #: kdeui/kcolordlg.cpp:788 kdeui/kcolordlg.cpp:840
 msgid "Custom..."
-msgstr ""
+msgstr "Izbrano..."
 
 #: kdeui/kcontrol.cpp:39
+#, fuzzy
 msgid "Default"
-msgstr ""
+msgstr "Izbri¹i"
 
 #: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
@@ -110,11 +112,11 @@ msgstr ""
 #: kfile/kfiledialog.cpp:240 kfile/kfiledialog.cpp:492
 #: kfile/kfiledialogconf.cpp:60 po/texts.cpp:35
 msgid "OK"
-msgstr ""
+msgstr "V redu"
 
 #: kdeui/kcontrol.cpp:45 kfile/kfiledialogconf.cpp:59 po/texts.cpp:42
 msgid "Apply"
-msgstr ""
+msgstr "Uporabi"
 
 #: kdeui/kdatepik.cpp:102
 msgid "January"
@@ -199,92 +201,102 @@ msgstr ""
 #: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
 #: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:89
 msgid "Sorry"
-msgstr ""
+msgstr "Oprostite"
 
 #: kdeui/keditcl1.cpp:128
 msgid "The specified File does not exist"
-msgstr ""
+msgstr "®eljena datoteka ne obstaja"
 
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:494
 #: kdeui/keditcl1.cpp:1627
 msgid "Sorry:"
-msgstr ""
+msgstr "Oprostite:"
 
 #: kdeui/keditcl1.cpp:142
 msgid "You have specificated a directory"
-msgstr ""
+msgstr "Oznaèili ste imenik"
 
 #: kdeui/keditcl1.cpp:157 kdeui/keditcl1.cpp:178
 msgid "You do not have read permission to this file."
-msgstr ""
+msgstr "Za branje te datoteke nimate dovoljenja."
 
 #: kdeui/keditcl1.cpp:191
 msgid "An Error occured while trying to open this Document"
-msgstr ""
+msgstr "Pri odpiranju dokumenta je pri¹lo do napake"
 
 #: kdeui/keditcl1.cpp:356
 msgid "Select Document to Insert"
-msgstr ""
+msgstr "Izberite dokument, ki ga ¾elite vstaviti"
 
 #: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1570
 msgid "Warning:"
-msgstr ""
+msgstr "Pozor:"
 
 #: kdeui/keditcl1.cpp:393 kdeui/keditcl1.cpp:475
 msgid ""
 "The current Document has been modified.\n"
 "Would you like to save it?"
 msgstr ""
+"Sedanji dokument je bil spremenjen.\n"
+"Ga ¾elite shraniti?"
 
 #: kdeui/keditcl1.cpp:414
 msgid ""
 "Could not save the document.\n"
 "Open a new document anyways?"
 msgstr ""
+"Dokumenta mi ni uspelo shraniti.\n"
+"®elite kljub temu odpreti nov dokument?"
 
 #: kdeui/keditcl1.cpp:445
 msgid "Select Document to Open"
-msgstr ""
+msgstr "Izberite dokument, ki ga ¾elite odpreti"
 
 #: kdeui/keditcl1.cpp:495
 msgid ""
 "Could not save the document.\n"
 "Create a new document anyways?"
 msgstr ""
+"Dokumenta mi ni uspelo shraniti.\n"
+"®elite kljub temu narediti nov dokument?"
 
 #: kdeui/keditcl1.cpp:530 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
 msgid "Untitled"
-msgstr ""
+msgstr "Brez naslova"
 
 #: kdeui/keditcl1.cpp:1472
 msgid "Could not save the document\n"
-msgstr ""
+msgstr "Dokumenta mi ni uspelo shraniti.\n"
 
 #: kdeui/keditcl1.cpp:1542
 msgid "Save Document As"
-msgstr ""
+msgstr "Shrani dokument kot"
 
 #: kdeui/keditcl1.cpp:1571
 msgid ""
 "A Document with this Name exists already\n"
 "Do you want to overwrite it ?"
 msgstr ""
+"Dokument s tem imenom ¾e obstaja\n"
+"Ga ¾elite prepisati?"
 
 #: kdeui/keditcl1.cpp:1628
 msgid "You do not have write permission to this file.\n"
-msgstr ""
+msgstr "Za pisanje v to datoteko nimate dovoljenja.\n"
 
 #: kdeui/keditcl2.cpp:105 kdeui/keditcl2.cpp:122 kdeui/keditcl2.cpp:362
 #: kdeui/keditcl2.cpp:379 kdeui/keditcl2.cpp:678 kdeui/keditcl2.cpp:687
 #: kdeui/keditcl2.cpp:788
 msgid "Find"
-msgstr ""
+msgstr "Najdi"
 
 #: kdeui/keditcl2.cpp:106 kdeui/keditcl2.cpp:363 kdeui/keditcl2.cpp:456
 msgid ""
 "End of document reached.\n"
 "Continue from the beginning?"
 msgstr ""
+"Pri¹li ste do konca dokumenta.\n"
+"®elite nadaljevati od zaèetka?"
 
 #: kdeui/keditcl2.cpp:123 kdeui/keditcl2.cpp:380 kdeui/keditcl2.cpp:426
 #: kdeui/keditcl2.cpp:473
@@ -292,149 +304,151 @@ msgid ""
 "Beginning of document reached.\n"
 "Continue from the end?"
 msgstr ""
+"Pri¹li ste do zaèetka dokumenta.\n"
+"®elite nadaljevati od konca?"
 
 #: kdeui/keditcl2.cpp:425 kdeui/keditcl2.cpp:455 kdeui/keditcl2.cpp:472
 #: kdeui/keditcl2.cpp:791
 msgid "Replace"
-msgstr ""
+msgstr "Zamenjaj"
 
 #: kdeui/keditcl2.cpp:684 kdeui/keditcl2.cpp:782
 msgid "Case Sensitive"
-msgstr ""
+msgstr "Loèi velike in male èrke"
 
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:785
 msgid "Find Backwards"
-msgstr ""
+msgstr "Najdi vzvratno"
 
 #: kdeui/keditcl2.cpp:690 kdeui/keditcl2.cpp:797 po/texts.cpp:88
 msgid "Done"
-msgstr ""
+msgstr "Opravljeno"
 
 #: kdeui/keditcl2.cpp:770
 msgid "Find:"
-msgstr ""
+msgstr "Najdi:"
 
 #: kdeui/keditcl2.cpp:780
 msgid "Replace with:"
-msgstr ""
+msgstr "Zamenjaj z:"
 
 #: kdeui/keditcl2.cpp:794
 msgid "Replace All"
-msgstr ""
+msgstr "Zamenjaj vse"
 
 #: kdeui/keditcl2.cpp:891
 msgid "Goto Line"
-msgstr ""
+msgstr "Pojdi v vrstico"
 
 #: kdeui/keditcl2.cpp:896
 msgid "Go"
-msgstr ""
+msgstr "Gremo"
 
 #: kdeui/kfontdialog.cpp:171
 msgid "Select Font"
-msgstr ""
+msgstr "Izberi pisavo"
 
 #: kdeui/kfontdialog.cpp:175
 msgid "Requested Font"
-msgstr ""
+msgstr "Zahtevana pisava"
 
 #: kdeui/kfontdialog.cpp:180
 msgid "Actual Font"
-msgstr ""
+msgstr "Dejanska pisava"
 
 #: kdeui/kfontdialog.cpp:184 kdeui/kfontdialog.cpp:188
 msgid "Family:"
-msgstr ""
+msgstr "Rod:"
 
 #: kdeui/kfontdialog.cpp:195 kdeui/kfontdialog.cpp:201 po/texts.cpp:26
 msgid "Charset:"
-msgstr ""
+msgstr "Nabor z.:"
 
 #: kdeui/kfontdialog.cpp:208 kdeui/kfontdialog.cpp:213 kfile/kpreview.cpp:196
 msgid "Size:"
-msgstr ""
+msgstr "Mera:"
 
 #: kdeui/kfontdialog.cpp:220 kdeui/kfontdialog.cpp:225
 msgid "Weight:"
-msgstr ""
+msgstr "Oblika:"
 
 #: kdeui/kfontdialog.cpp:233 kdeui/kfontdialog.cpp:240
 msgid "Style:"
-msgstr ""
+msgstr "Slog:"
 
 #: kdeui/kfontdialog.cpp:276
 msgid "Charset"
-msgstr ""
+msgstr "Nabor z."
 
 #: kdeui/kfontdialog.cpp:287 kfile/kfiledetaillist.cpp:38
 msgid "Size"
-msgstr ""
+msgstr "Mera"
 
 #: kdeui/kfontdialog.cpp:328
 msgid "Weight"
-msgstr ""
+msgstr "Oblika"
 
 #: kdeui/kfontdialog.cpp:329 kdeui/kfontdialog.cpp:470
 msgid "normal"
-msgstr ""
+msgstr "navadna"
 
 #: kdeui/kfontdialog.cpp:330 kdeui/kfontdialog.cpp:472
 msgid "bold"
-msgstr ""
+msgstr "krepka"
 
 #: kdeui/kfontdialog.cpp:341
 msgid "Style"
-msgstr ""
+msgstr "Slog"
 
 #: kdeui/kfontdialog.cpp:342 kdeui/kfontdialog.cpp:483
 #: kdeui/kfontdialog.cpp:512
 msgid "roman"
-msgstr ""
+msgstr "roman"
 
 #: kdeui/kfontdialog.cpp:343 kdeui/kfontdialog.cpp:485
 #: kdeui/kfontdialog.cpp:510
 msgid "italic"
-msgstr ""
+msgstr "po¹even"
 
 #: kdeui/kfontdialog.cpp:373
 msgid "Dolor Ipse"
-msgstr ""
+msgstr "Ta suhi ¹kafec pu¹èa."
 
 #: kdeui/kfontdialog.cpp:505
 msgid "Bold"
-msgstr ""
+msgstr "Krepko"
 
 #: kdeui/kfontdialog.cpp:507
 msgid "Normal"
-msgstr ""
+msgstr "Navadno"
 
 #: kdeui/kiconloaderdialog.cpp:237
 msgid "Select Icon"
-msgstr ""
+msgstr "Izberi ikono"
 
 #: kdeui/kiconloaderdialog.cpp:242
 msgid "Filter:"
-msgstr ""
+msgstr "Filter:"
 
 #: kdeui/kmenubar.cpp:168 kdeui/ktoolbar.cpp:453
 msgid "Top"
-msgstr ""
+msgstr "Na vrh"
 
 #: kdeui/kmenubar.cpp:169 kdeui/ktoolbar.cpp:455
 msgid "Bottom"
-msgstr ""
+msgstr "Na dno"
 
 #: kdeui/kmenubar.cpp:170 kdeui/ktoolbar.cpp:456
 msgid "Floating"
-msgstr ""
+msgstr "Lebdeèe"
 
 #: kdeui/kmenubar.cpp:284 kdeui/kmenubar.cpp:434 kdeui/ktoolbar.cpp:1588
 msgid "Float"
-msgstr ""
+msgstr "Lebdeèe"
 
 #: kdeui/kmenubar.cpp:423 kdeui/ktoolbar.cpp:1570
 msgid "UnFloat"
-msgstr ""
+msgstr "Nelebdeèe"
 
 #: kdeui/knotebook.cpp:145
 msgid "Trying to add page when no KWizards are added!"
@@ -442,33 +456,34 @@ msgstr ""
 
 #: kdeui/knotebook.cpp:178 kdeui/kwizard.cpp:120 po/texts.cpp:41
 msgid "&Cancel"
-msgstr ""
+msgstr "&Preklièi"
 
 #: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:143
+#, fuzzy
 msgid "&Default"
-msgstr ""
+msgstr "&Izbri¹i"
 
 #: kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:166 po/texts.cpp:46
 msgid "&Help"
-msgstr ""
+msgstr "&Pomoè"
 
 #: kdeui/knotebook.cpp:247 kdeui/kwizard.cpp:189
+#, fuzzy
 msgid "&Ok"
-msgstr ""
+msgstr "V redu"
 
 #: kdeui/ktoolbar.cpp:164 kdeui/ktoolbar.cpp:283
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-msgstr ""
+msgstr "KToolBarButton: ikone ni; mogoèe manjka katera datoteka"
 
 #: kdeui/ktoolbar.cpp:452
 msgid "Left"
-msgstr ""
+msgstr "Levo"
 
 #: kdeui/ktoolbar.cpp:454
 msgid "Right"
-msgstr ""
+msgstr "Desno"
 
-# , c-format
 #: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
 #, c-format
 msgid "Page %d of %d"
@@ -479,24 +494,28 @@ msgid "<!-- Do not edit this file -->"
 msgstr ""
 
 #: kfile/kcombiview.cpp:80
+#, fuzzy
 msgid "Folders:"
-msgstr ""
+msgstr "Filter:"
 
 #: kfile/kcombiview.cpp:81
+#, fuzzy
 msgid "Contents:"
-msgstr ""
+msgstr "Vsebina"
 
 #: kfile/kfiledetaillist.cpp:36
+#, fuzzy
 msgid "Name"
-msgstr ""
+msgstr "Nova igra"
 
 #: kfile/kfiledetaillist.cpp:40
 msgid "Permissions"
 msgstr ""
 
 #: kfile/kfiledetaillist.cpp:42
+#, fuzzy
 msgid "Date"
-msgstr ""
+msgstr "Prilepi"
 
 #: kfile/kfiledetaillist.cpp:45
 msgid "Owner"
@@ -508,11 +527,11 @@ msgstr ""
 
 #: kfile/kfiledialog.cpp:122 po/texts.cpp:56
 msgid "Back"
-msgstr ""
+msgstr "Nazaj"
 
 #: kfile/kfiledialog.cpp:125 po/texts.cpp:57
 msgid "Forward"
-msgstr ""
+msgstr "Naprej"
 
 #: kfile/kfiledialog.cpp:128
 msgid "Up to parent"
@@ -524,7 +543,7 @@ msgstr ""
 
 #: kfile/kfiledialog.cpp:134 po/texts.cpp:55
 msgid "Reload"
-msgstr ""
+msgstr "Ponovno nalo¾i"
 
 #: kfile/kfiledialog.cpp:150
 msgid "Bookmarks"
@@ -535,8 +554,9 @@ msgid "Create new folder"
 msgstr ""
 
 #: kfile/kfiledialog.cpp:157
+#, fuzzy
 msgid "Search for a file"
-msgstr ""
+msgstr "Shrani datoteko"
 
 #: kfile/kfiledialog.cpp:160
 msgid "Configure this dialog [development only]"
@@ -551,8 +571,9 @@ msgid "&Location:"
 msgstr ""
 
 #: kfile/kfiledialog.cpp:206
+#, fuzzy
 msgid "&Filter:"
-msgstr ""
+msgstr "Filter:"
 
 #: kfile/kfiledialog.cpp:220
 msgid "Show hidden"
@@ -573,10 +594,11 @@ msgid "Error: Cannot Open Directory"
 msgstr ""
 
 #: kfile/kfiledialog.cpp:503
+#, fuzzy
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
-msgstr ""
+msgstr "®eljena datoteka ne obstaja"
 
 #: kfile/kfiledialog.cpp:505 kfile/kfiledialog.cpp:611
 msgid "Dismiss"
@@ -585,19 +607,20 @@ msgstr ""
 #: kfile/kfiledialog.cpp:542 kfile/kfiledialog.cpp:1179
 #: kfile/kfiledialog.cpp:1338 kfile/kfiledialog.cpp:1372 po/texts.cpp:70
 msgid "Open"
-msgstr ""
+msgstr "Odpri"
 
 #: kfile/kfiledialog.cpp:557 kfile/kfiledialog.cpp:1353 po/texts.cpp:82
 msgid "Save As"
-msgstr ""
+msgstr "Shrani kot"
 
 #: kfile/kfiledialog.cpp:580
 msgid "Root Directory"
 msgstr ""
 
 #: kfile/kfiledialog.cpp:609
+#, fuzzy
 msgid "The specified directory does not exist or was not readable."
-msgstr ""
+msgstr "®eljena datoteka ne obstaja"
 
 #: kfile/kfiledialog.cpp:857
 msgid "Create new directory in: "
@@ -608,8 +631,9 @@ msgid "New Directory"
 msgstr ""
 
 #: kfile/kfiledialog.cpp:932
+#, fuzzy
 msgid "Add to bookmarks"
-msgstr ""
+msgstr "Dodaj izbranim barvam"
 
 #: kfile/kfiledialog.cpp:1213
 msgid "Choose Directory"
@@ -617,7 +641,7 @@ msgstr ""
 
 #: kfile/kfiledialog.cpp:1234 kfile/kfiledialog.cpp:1393 po/texts.cpp:80
 msgid "Save"
-msgstr ""
+msgstr "Shrani"
 
 #: kfile/kfiledialog.cpp:1281
 msgid "directory"
@@ -628,14 +652,15 @@ msgid "directories"
 msgstr ""
 
 #: kfile/kfiledialog.cpp:1285 kfile/kpreview.cpp:326
+#, fuzzy
 msgid "file"
-msgstr ""
+msgstr "Datoteka"
 
 #: kfile/kfiledialog.cpp:1287
+#, fuzzy
 msgid "files"
-msgstr ""
+msgstr "Datoteka"
 
-# , c-format
 #: kfile/kfiledialog.cpp:1289
 #, c-format
 msgid "%d %s and %d %s"
@@ -665,7 +690,7 @@ msgstr ""
 
 #: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
 msgid "About"
-msgstr ""
+msgstr "O programu"
 
 #: kfile/kfiledialogconf.cpp:70
 msgid "View style"
@@ -684,8 +709,9 @@ msgid "Misc"
 msgstr ""
 
 #: kfile/kfiledialogconf.cpp:95
+#, fuzzy
 msgid "Show Filter"
-msgstr ""
+msgstr "Filter:"
 
 #: kfile/kfiledialogconf.cpp:101
 msgid "Show List Labels"
@@ -752,16 +778,18 @@ msgid "Oct"
 msgstr ""
 
 #: kfile/kfileinfo.cpp:228
+#, fuzzy
 msgid "Nov"
-msgstr ""
+msgstr "Ne"
 
 #: kfile/kfileinfo.cpp:229
 msgid "Dec"
 msgstr ""
 
 #: kfile/kpreview.cpp:187
+#, fuzzy
 msgid "Name:"
-msgstr ""
+msgstr "Nova igra"
 
 #: kfile/kpreview.cpp:205
 msgid "Date:"
@@ -791,7 +819,6 @@ msgstr ""
 msgid "folder"
 msgstr ""
 
-# , c-format
 #: kfmlib/kfm.cpp:197
 #, c-format
 msgid ""
@@ -800,10 +827,10 @@ msgid ""
 msgstr ""
 
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
+#, fuzzy
 msgid "KFM Error"
-msgstr ""
+msgstr "Napaka"
 
-# , c-format
 #: kfmlib/kfm.cpp:208
 #, c-format
 msgid ""
@@ -813,271 +840,276 @@ msgstr ""
 
 #: po/texts.cpp:24
 msgid "Error"
-msgstr ""
+msgstr "Napaka"
 
 #: po/texts.cpp:25
 msgid "Malformed URL"
-msgstr ""
+msgstr "Narobe vpisan URL"
 
 #: po/texts.cpp:29
 msgid "Warning"
-msgstr ""
+msgstr "Pozor"
 
 #: po/texts.cpp:30
 msgid "Save a file"
-msgstr ""
+msgstr "Shrani datoteko"
 
 #: po/texts.cpp:31
 msgid "Contents"
-msgstr ""
+msgstr "Vsebina"
 
 #: po/texts.cpp:33
 msgid "A&bout..."
-msgstr ""
+msgstr "O &programu"
 
 #: po/texts.cpp:36
 msgid "&OK"
-msgstr ""
+msgstr "&V redu"
 
 #: po/texts.cpp:38
 msgid "On"
-msgstr ""
+msgstr "Vklopi"
 
 #: po/texts.cpp:39
 msgid "Off"
-msgstr ""
+msgstr "Izklopi"
 
 #: po/texts.cpp:43
 msgid "File"
-msgstr ""
+msgstr "Datoteka"
 
 #: po/texts.cpp:44
 msgid "&File"
-msgstr ""
+msgstr "&Datoteka"
 
 #: po/texts.cpp:47
 msgid "Edit"
-msgstr ""
+msgstr "Uredi"
 
 #: po/texts.cpp:48
 msgid "&Edit"
-msgstr ""
+msgstr "&Uredi"
 
 #: po/texts.cpp:49
 msgid "&Options"
-msgstr ""
+msgstr "&Mo¾nosti"
 
 #: po/texts.cpp:50
 msgid "View"
-msgstr ""
+msgstr "Pogled"
 
 #: po/texts.cpp:51
 msgid "&View"
-msgstr ""
+msgstr "Po&gled"
 
 #: po/texts.cpp:52
 msgid "E&xit"
-msgstr ""
+msgstr "&Izhod"
 
 #: po/texts.cpp:53
 msgid "Quit"
-msgstr ""
+msgstr "Odidi"
 
 #: po/texts.cpp:54
 msgid "&Quit"
-msgstr ""
+msgstr "Od&idi"
 
 #: po/texts.cpp:58
 msgid "Copy"
-msgstr ""
+msgstr "Kopiraj"
 
 #: po/texts.cpp:59
 msgid "&Copy"
-msgstr ""
+msgstr "&Kopiraj"
 
 #: po/texts.cpp:60
 msgid "Paste"
-msgstr ""
+msgstr "Prilepi"
 
 #: po/texts.cpp:61
 msgid "&Paste"
-msgstr ""
+msgstr "&Prilepi"
 
 #: po/texts.cpp:62
 msgid "New"
-msgstr ""
+msgstr "Nov"
 
 #: po/texts.cpp:63
 msgid "&New"
-msgstr ""
+msgstr "&Nov"
 
 #: po/texts.cpp:64
 msgid "&New..."
-msgstr ""
+msgstr "&Nov..."
 
 #: po/texts.cpp:65
 msgid "&New Window..."
-msgstr ""
+msgstr "&Novo okno..."
 
 #: po/texts.cpp:66
 msgid "New &Window..."
-msgstr ""
+msgstr "Novo &okno..."
 
 #: po/texts.cpp:67
+#, fuzzy
 msgid "&New Window"
-msgstr ""
+msgstr "&Novo okno..."
 
 #: po/texts.cpp:68
 msgid "New Game"
-msgstr ""
+msgstr "Nova igra"
 
 #: po/texts.cpp:69
 msgid "&New Game"
-msgstr ""
+msgstr "&Nova igra"
 
 #: po/texts.cpp:71
 msgid "Open a file"
-msgstr ""
+msgstr "Odpri datoteko"
 
 #: po/texts.cpp:72
 msgid "Open..."
-msgstr ""
+msgstr "Odpri..."
 
 #: po/texts.cpp:73
 msgid "&Open..."
-msgstr ""
+msgstr "&Odpri..."
 
 #: po/texts.cpp:74
 msgid "Cut"
-msgstr ""
+msgstr "Izre¾i"
 
 #: po/texts.cpp:75
+#, fuzzy
 msgid "&Cut"
-msgstr ""
+msgstr "Izre¾i"
 
 #: po/texts.cpp:76
 msgid "C&ut"
-msgstr ""
+msgstr "&Izre¾i"
 
 #: po/texts.cpp:77
 msgid "Font"
-msgstr ""
+msgstr "Pisava"
 
 #: po/texts.cpp:78
 msgid "&Foreground Color"
-msgstr ""
+msgstr "Barva o&spredja"
 
 #: po/texts.cpp:79
 msgid "&Background Color"
-msgstr ""
+msgstr "Barva o&zadja"
 
 #: po/texts.cpp:81
 msgid "&Save"
-msgstr ""
+msgstr "&Shrani"
 
 #: po/texts.cpp:83
 msgid "Save as..."
-msgstr ""
+msgstr "Shrani kot..."
 
 #: po/texts.cpp:84
 msgid "S&ave as..."
-msgstr ""
+msgstr "S&hrani kot"
 
 #: po/texts.cpp:85
 msgid "Close"
-msgstr ""
+msgstr "Zapri"
 
 #: po/texts.cpp:86
 msgid "&Close"
-msgstr ""
+msgstr "&Zapri"
 
 #: po/texts.cpp:87
 msgid "&Print..."
-msgstr ""
+msgstr "&Tiskaj..."
 
 #: po/texts.cpp:90
 msgid "Options"
-msgstr ""
+msgstr "Mo¾nosti"
 
 #: po/texts.cpp:91
 msgid "Remove"
-msgstr ""
+msgstr "Odstrani"
 
 #: po/texts.cpp:92
 msgid "Add"
-msgstr ""
+msgstr "Dodaj"
 
 #: po/texts.cpp:93
 msgid "Change"
-msgstr ""
+msgstr "Spremeni"
 
 #: po/texts.cpp:94
 msgid "Delete"
-msgstr ""
+msgstr "Izbri¹i"
 
 #: po/texts.cpp:95
 msgid "&Delete"
-msgstr ""
+msgstr "&Izbri¹i"
 
 #: po/texts.cpp:96
 msgid "Clear"
-msgstr ""
+msgstr "Poèisti"
 
 #: po/texts.cpp:97
 msgid "Italic"
-msgstr ""
+msgstr "Po¹evno"
 
 #: po/texts.cpp:98
 msgid "Roman"
-msgstr ""
+msgstr "Roman"
 
 #: po/texts.cpp:99
 msgid "Undo"
-msgstr ""
+msgstr "Razveljavi"
 
 #: po/texts.cpp:100
 msgid "&Undo"
-msgstr ""
+msgstr "&Razveljavi"
 
 #: po/texts.cpp:101
 msgid "Redo"
-msgstr ""
+msgstr "Obnovi"
 
 #: po/texts.cpp:102
 msgid "&Redo"
-msgstr ""
+msgstr "&Obnovi"
 
 #: po/texts.cpp:103
 msgid "&Game"
-msgstr ""
+msgstr "&Igra"
 
 #: po/texts.cpp:104
 msgid "Information"
-msgstr ""
+msgstr "Obvestilo"
 
 #: po/texts.cpp:105
 msgid "Browse..."
-msgstr ""
+msgstr "Brskaj..."
 
 #: po/texts.cpp:106
 msgid "(none)"
 msgstr ""
 
 #: po/texts.cpp:107
+#, fuzzy
 msgid "None"
-msgstr ""
+msgstr "Opravljeno"
 
 #: po/texts.cpp:108
 msgid "Stop"
 msgstr ""
 
 #: po/texts.cpp:109
+#, fuzzy
 msgid "&Remove"
-msgstr ""
+msgstr "Odstrani"
 
 #: po/texts.cpp:110
+#, fuzzy
 msgid "&Properties..."
-msgstr ""
+msgstr "&Tiskaj..."
 
 #: po/texts.cpp:111
 msgid "Properties"
@@ -1100,8 +1132,9 @@ msgid "Miscellaneous"
 msgstr ""
 
 #: po/texts.cpp:116
+#, fuzzy
 msgid "Font Size"
-msgstr ""
+msgstr "Mera"
 
 #: po/texts.cpp:117
 msgid "Small"
@@ -1116,44 +1149,52 @@ msgid "Large"
 msgstr ""
 
 #: po/texts.cpp:120
+#, fuzzy
 msgid "Fonts"
-msgstr ""
+msgstr "Pisava"
 
 #: po/texts.cpp:121
+#, fuzzy
 msgid "&Fonts"
-msgstr ""
+msgstr "Pisava"
 
 #: po/texts.cpp:122
+#, fuzzy
 msgid "&Reload"
-msgstr ""
+msgstr "Ponovno nalo¾i"
 
 #: po/texts.cpp:123
 msgid "&Previous"
 msgstr ""
 
 #: po/texts.cpp:124
+#, fuzzy
 msgid "&Next"
-msgstr ""
+msgstr "&Nov"
 
 #: po/texts.cpp:125
+#, fuzzy
 msgid "Files"
-msgstr ""
+msgstr "Datoteka"
 
 #: po/texts.cpp:126
+#, fuzzy
 msgid "Continue"
-msgstr ""
+msgstr "Vsebina"
 
 #: po/texts.cpp:127
+#, fuzzy
 msgid "Restore"
-msgstr ""
+msgstr "Odstrani"
 
 #: po/texts.cpp:128
 msgid "Appearance"
 msgstr ""
 
 #: po/texts.cpp:129
+#, fuzzy
 msgid "Print"
-msgstr ""
+msgstr "&Tiskaj..."
 
 #: po/texts.cpp:130
 msgid "Monday"
@@ -1184,8 +1225,9 @@ msgid "Sunday"
 msgstr ""
 
 #: po/texts.cpp:137
+#, fuzzy
 msgid "&Update"
-msgstr ""
+msgstr "&Prilepi"
 
 #: po/texts.cpp:138
 msgid "Layout"
@@ -1196,8 +1238,9 @@ msgid "Highscore"
 msgstr ""
 
 #: po/texts.cpp:140
+#, fuzzy
 msgid "&New View"
-msgstr ""
+msgstr "Po&gled"
 
 #: po/texts.cpp:141
 msgid "&Insert"
@@ -1210,3 +1253,27 @@ msgstr ""
 #: po/texts.cpp:145
 msgid "<< &Previous"
 msgstr ""
+
+#~ msgid "&Help..."
+#~ msgstr "&Pomoè..."
+
+#~ msgid ""
+#~ "The KDE Desktop Environment was written by the KDE team.\n"
+#~ "\n"
+#~ "Please report bugs at http://buglist.kde.org.\n"
+#~ "\n"
+#~ "\n"
+#~ "KDE was developed with Qt, a cross-platform GUI library.\n"
+#~ "\n"
+#~ "Qt is a product of Troll Tech (http://www.troll.no, info@troll.no).\n"
+#~ "Qt may be used freely to develop free software on the X Window System.\n"
+#~ msgstr ""
+#~ "KDE namizno okolje je napisala KDE ekipa.\n"
+#~ "\n"
+#~ "Prosimo, da poroèate o hro¹èih na naslovu http://buglist.kde.org.\n"
+#~ "\n"
+#~ "\n"
+#~ "KDE je bil razvit s Qt, GUI knji¾nico za veè platform.\n"
+#~ "\n"
+#~ "Qt je proizvod Troll Techa (http://www.troll.no, info@troll.no).\n"
+#~ "Lahko ga zastonj uporabljate za pisanje brezplaènih programov v X Oknih.\n"
