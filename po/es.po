@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1998-04-17 23:25+0200\n"
-"PO-Revision-Date: 1998-04-21 18:39+0200\n"
+"PO-Revision-Date: 1998-05-09 18:39+0200\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
 #: kdecore/kapp.cpp:494
@@ -565,6 +565,16 @@ msgid ""
 "Mario Weilguni <mweilguni@sime.com>\n"
 "and Martin Jones <mjones@kde.org>"
 msgstr ""
+"Selector de fischeros de KDE por:\n"
+"\n"
+"Richard Moore <rich@kde.org>\n"
+"Stephan Kulow <coolo@kde.org>\n"
+"y Daniel Grana <grana@ie.iwi.unibe.ch>\n"
+"\n"
+"con contribuciones de\n"
+"\n"
+"Mario Weilguni <mweilguni@sime.com>\n"
+"y Martin Jones <mjones@kde.org>"
 
 #: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
 msgid "About"
@@ -620,52 +630,51 @@ msgstr "desconocido"
 
 #: kfile/kfileinfo.cpp:217
 msgid "Jan"
-msgstr ""
+msgstr "Ene"
 
 #: kfile/kfileinfo.cpp:218
 msgid "Feb"
-msgstr ""
+msgstr "Feb"
 
 #: kfile/kfileinfo.cpp:219
 msgid "Mar"
-msgstr ""
+msgstr "Mar"
 
 #: kfile/kfileinfo.cpp:220
 msgid "Apr"
-msgstr ""
+msgstr "Abr"
 
 #: kfile/kfileinfo.cpp:221
 msgid "May"
-msgstr ""
+msgstr "May"
 
 #: kfile/kfileinfo.cpp:222
 msgid "Jun"
-msgstr ""
+msgstr "Jun"
 
 #: kfile/kfileinfo.cpp:223
 msgid "Jul"
-msgstr ""
+msgstr "Jul"
 
 #: kfile/kfileinfo.cpp:224
 msgid "Aug"
-msgstr ""
+msgstr "Ago"
 
 #: kfile/kfileinfo.cpp:225
 msgid "Sep"
-msgstr ""
+msgstr "Sep"
 
 #: kfile/kfileinfo.cpp:226
 msgid "Oct"
-msgstr ""
+msgstr "Oct"
 
 #: kfile/kfileinfo.cpp:227
-#, fuzzy
 msgid "Nov"
-msgstr "No"
+msgstr "Nov"
 
 #: kfile/kfileinfo.cpp:228
 msgid "Dec"
-msgstr ""
+msgstr "Dic"
 
 #: kfile/kpreview.cpp:187
 msgid "Name:"
@@ -729,11 +738,11 @@ msgstr "&OK"
 
 #: po/texts.cpp:38
 msgid "On"
-msgstr "Prendido"
+msgstr "Activado"
 
 #: po/texts.cpp:39
 msgid "Off"
-msgstr "Apagado"
+msgstr "Desactivado"
 
 #: po/texts.cpp:41
 msgid "&Cancel"
@@ -745,11 +754,11 @@ msgstr "Archivo"
 
 #: po/texts.cpp:44
 msgid "&File"
-msgstr "&Archivo"
+msgstr "&Fichero"
 
 #: po/texts.cpp:46
 msgid "&Help"
-msgstr "A&yuda"
+msgstr "&Ayuda"
 
 #: po/texts.cpp:47
 msgid "Edit"
@@ -950,9 +959,3 @@ msgstr "Examinar..."
 #: po/texts.cpp:104
 msgid "(none)"
 msgstr "(ninguno)"
-
-#~ msgid "Width"
-#~ msgstr "Ancho"
-
-#~ msgid "Height"
-#~ msgstr "Alto"
