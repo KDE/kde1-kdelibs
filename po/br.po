@@ -384,7 +384,7 @@ msgstr ""
 "Gweladennit http://www.kde.org evit muioc'h a ditouro? war ar\n"
 "raktres KDE. Bezit ur preder a-zivout emellout ha skoazell KDE.\n"
 "\n"
-"Mar plij kemennit an drein kavet da http://buglist.kde.org."
+"Mar plij kemennit an drein kavet da http://buglist.kde.org.\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:412 kdeui/keditcl1.cpp:433
 #: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661
