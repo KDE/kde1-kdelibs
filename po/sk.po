@@ -1462,10 +1462,15 @@ msgid ""
 "The program will try to create\n"
 "         "
 msgstr ""
+"Prieèinok, kde sa ukladajú dáta ¹pecifické pre\n"
+"daného u¾ívateµa v aplikácii kniha adries neexistuje.\n"
+"Program sa pokúsi vytvori»\n"
+"         "
+
 
 #: kab/addressbook.cc:97
 msgid "and store all local files in this directory."
-msgstr ""
+msgstr "a uklada» v¹etky lokálne súbory do tohto prieèinku."
 
 #: kab/addressbook.cc:102
 msgid ""
@@ -1475,91 +1480,97 @@ msgid ""
 "in your home directory. Run the KDE filemanager\n"
 "kfm once to automatically create it."
 msgstr ""
+"Prieèinok nemohol by» vytvorený.\n"
+"Pravdepodobne ste nepou¾ívali predtým KDE, tak¾e\n"
+"nemáte lokálny \".kde\" prieèinok vo va¹om domovskom\n"
+"prieèinku. Prosím spustite raz kfm, aby sa automaticky\n"
+"vytvoril."
 
 #: kab/addressbook.cc:112
 msgid "The directory has been created.\n"
-msgstr ""
+msgstr "Prieèinok bol vytvorený.\n"
 
 #: kab/addressbook.cc:150
 msgid "No addressbook database file, creating new one."
-msgstr ""
+msgstr "Nemáte databázový súbor knihy adries, vytváram ho."
 
 #: kab/addressbook.cc:171
 msgid "Tried to load database for creating backup, but failed"
-msgstr ""
+msgstr "Sna¾il som sa naèíta» databázu na vytvorenie zálohy, ale zlyhal som"
 
 #: kab/addressbook.cc:210
 msgid "Unable to save to backup file."
-msgstr ""
+msgstr "Nemô¾em ulo¾i» súbor so zálohou."
 
 #: kab/addressbook.cc:217
 msgid "Unable to reset filename after creating backup."
-msgstr ""
+msgstr "Nemô¾em resetnú» meno súboru po vytvorení zálohy."
 
 #: kab/addressbook.cc:223
 msgid "Unable to create backup file"
-msgstr ""
+msgstr "Nemô¾em vytvori» zálo¾ný súbor."
 
 #: kab/addressbook.cc:285
 msgid "Unable to insert \""
-msgstr ""
+msgstr "Nemô¾em vlo¾i» \""
 
 #: kab/addressbook.cc:288
 msgid "\" into configuration section (ignored)."
-msgstr ""
+msgstr "\" do konfiguraènej sekcie (ignorované)."
 
 #: kab/addressbook.cc:706
 msgid "Unable to add a new entry with available key."
-msgstr ""
+msgstr "Nemô¾em prida» novú polo¾ku s dostupným kµúèom."
 
 #: kab/addressbook.cc:714
 msgid "Cannot find previously created section."
-msgstr ""
+msgstr "Nemô¾em nájs» u¾ vytvorenú sekciu."
 
 #: kab/addressbook.cc:984
 msgid "entry without name"
-msgstr ""
+msgstr "polo¾ka bez mena"
 
 #: kab/addressbook.cc:1004
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
 msgstr ""
+"Nemô¾em vytvori» nový databázový súbor (pravdepodobne nemám práva), odchádzam."
 
 #: kab/addressbook.cc:1012
 msgid "Cannot create configuration section, exiting."
-msgstr ""
+msgstr "Nemô¾em vytvori» konfiguraènú sekciu, odchádzam."
 
 #: kab/addressbook.cc:1018
 msgid "Cannot create entries section, exiting."
-msgstr ""
+msgstr "Nemô¾em vytvori» sekciu s polo¾kami, odchádzam."
 
 #: kab/addressbook.cc:1024
 msgid "Unable to find previously created section, exiting."
-msgstr ""
+msgstr "Nemô¾em nájs» u¾ vytvorenú sekciu, odchádzam."
 
 #: kab/addressbook.cc:1033
 msgid "Cannot save newly created database."
-msgstr ""
+msgstr "Nemô¾em ulo¾i» novovytvorenú databázu."
 
 #: kab/addressbook.cc:1041
 msgid "Cannot erase database contents."
-msgstr ""
+msgstr "Nemô¾em zmaza» obsah databázy."
 
 #: kab/addressbook.cc:1126
 msgid "First name"
-msgstr ""
+msgstr "Prvé meno"
 
 #: kab/addressbook.cc:1130
 msgid "Additional name"
-msgstr ""
+msgstr "Ïal¹ie mená"
 
 #: kab/addressbook.cc:1134
 msgid "Name prefix"
-msgstr ""
+msgstr "Prefix mena"
 
 #: kab/addressbook.cc:1138
 msgid "Formatted name"
-msgstr ""
+msgstr "Preformátované meno"
 
 #: kab/addressbook.cc:1142
 msgid "Comment"
@@ -1591,27 +1602,27 @@ msgstr "Narodeniny"
 
 #: kab/addressbook.cc:1170
 msgid "Talk addresses"
-msgstr ""
+msgstr "Adresa pre talk"
 
 #: kab/addressbook.cc:1174
 msgid "Delivery label"
-msgstr ""
+msgstr "Menovka doruèenia"
 
 #: kab/addressbook.cc:1178
 msgid "Email address"
-msgstr ""
+msgstr "E-mail adresa"
 
 #: kab/addressbook.cc:1182
 msgid "Second email address"
-msgstr ""
+msgstr "Druhá e-mail adresa"
 
 #: kab/addressbook.cc:1186
 msgid "Third email address"
-msgstr ""
+msgstr "Tretia e-mail adresa"
 
 #: kab/addressbook.cc:1190
 msgid "Email addresses"
-msgstr ""
+msgstr "Email adresy"
 
 #: kab/addressbook.cc:1194
 msgid "Address"
@@ -1619,15 +1630,15 @@ msgstr "Adresa"
 
 #: kab/addressbook.cc:1198
 msgid "City/Town"
-msgstr ""
+msgstr "Mesto"
 
 #: kab/addressbook.cc:1202
 msgid "Telephone"
-msgstr ""
+msgstr "Telefón"
 
 #: kab/addressbook.cc:1206
 msgid "Fax number"
-msgstr ""
+msgstr "Faxové èíslo"
 
 #: kab/addressbook.cc:1210
 msgid "Modem number"
@@ -1635,15 +1646,15 @@ msgstr "Èíslo na modem"
 
 #: kab/addressbook.cc:1214
 msgid "Homepage URL"
-msgstr ""
+msgstr "URL dom. stránky"
 
 #: kab/addressbook.cc:1218
 msgid "Zip/postal code"
-msgstr ""
+msgstr "PSÈ/po¹tový kód"
 
 #: kab/addressbook.cc:1222
 msgid "State/province"
-msgstr ""
+msgstr "©tát/provincia"
 
 #: kab/addressbook.cc:1226
 msgid "Country"
@@ -1651,7 +1662,7 @@ msgstr "Krajina"
 
 #: kab/addressbook.cc:1406
 msgid "(unnamed entry)"
-msgstr ""
+msgstr "(nepomenovaná polo¾ka)"
 
 #: kab/datepickerdialog.cc:35
 msgid "Select birthday"
@@ -1659,7 +1670,7 @@ msgstr "Deò narodenia.."
 
 #: kab/editentry.cc:41
 msgid "Edit the current entry"
-msgstr ""
+msgstr "Editova» aktuálnu polo¾ku"
 
 #: kab/editentry.cc:67
 msgid "Title:"
@@ -1667,15 +1678,15 @@ msgstr "Titulok:"
 
 #: kab/editentry.cc:68
 msgid "First name:"
-msgstr ""
+msgstr "Prvé meno:"
 
 #: kab/editentry.cc:69
 msgid "Additional Name:"
-msgstr ""
+msgstr "Ïal¹ie meno:"
 
 #: kab/editentry.cc:71
 msgid "Formatted Name:"
-msgstr ""
+msgstr "Preformátované meno:"
 
 #: kab/editentry.cc:94
 msgid "&Name"
@@ -1683,15 +1694,15 @@ msgstr "&Meno"
 
 #: kab/editentry.cc:114
 msgid "Address:"
-msgstr ""
+msgstr "Adresa:"
 
 #: kab/editentry.cc:115
 msgid "Zip/postal code:"
-msgstr ""
+msgstr "PSÈ/po¹tový kód:"
 
 #: kab/editentry.cc:116
 msgid "Town:"
-msgstr ""
+msgstr "Mesto:"
 
 #: kab/editentry.cc:117
 msgid "State:"
@@ -1699,23 +1710,23 @@ msgstr "©tát:"
 
 #: kab/editentry.cc:118
 msgid "Country:"
-msgstr ""
+msgstr "©tát:"
 
 #: kab/editentry.cc:141
 msgid "&Address"
-msgstr ""
+msgstr "&Adresa"
 
 #: kab/editentry.cc:161
 msgid "Organization:"
-msgstr ""
+msgstr "Organizácia:"
 
 #: kab/editentry.cc:162
 msgid "Org Unit:"
-msgstr ""
+msgstr "Divízia:"
 
 #: kab/editentry.cc:163
 msgid "Org Subunit:"
-msgstr ""
+msgstr "Oddelenie div.:"
 
 #: kab/editentry.cc:164
 msgid "Role:"
@@ -1723,15 +1734,15 @@ msgstr "Funkcia:"
 
 #: kab/editentry.cc:185
 msgid "&Organization"
-msgstr ""
+msgstr "&Organizácia"
 
 #: kab/editentry.cc:205
 msgid "Telephone:"
-msgstr ""
+msgstr "Telefón:"
 
 #: kab/editentry.cc:206
 msgid "Fax:"
-msgstr ""
+msgstr "Fax:"
 
 #: kab/editentry.cc:207
 msgid "Modem:"
@@ -1739,15 +1750,15 @@ msgstr "Modem"
 
 #: kab/editentry.cc:208
 msgid "Homepage (URL):"
-msgstr ""
+msgstr "Dom. stránka:"
 
 #: kab/editentry.cc:222 kab/editentry.cc:455
 msgid "Edit email addresses"
-msgstr ""
+msgstr "Editova» e-mail adresy"
 
 #: kab/editentry.cc:228 kab/editentry.cc:438
 msgid "Edit talk addresses"
-msgstr ""
+msgstr "Editova» talk adresy"
 
 #: kab/editentry.cc:240
 msgid "&Contact"
@@ -1759,23 +1770,23 @@ msgstr "Komentár:"
 
 #: kab/editentry.cc:273
 msgid "Birthday:"
-msgstr ""
+msgstr "Narodeniny:"
 
 #: kab/editentry.cc:283
 msgid "O&thers"
-msgstr ""
+msgstr "Os&tatné"
 
 #: kab/kabapi.cc:144
 msgid "Your new entry could not be added."
-msgstr ""
+msgstr "Va¹a nová polo¾ka nemohla by» pridaná."
 
 #: kab/searchresults.cc:38
 msgid "search results"
-msgstr ""
+msgstr "výsledky hµadania"
 
 #: kab/widget.cc:153
 msgid "Conversion problem"
-msgstr ""
+msgstr "Problém konverzie"
 
 #: kab/widget.cc:154
 msgid ""
@@ -1784,24 +1795,31 @@ msgid ""
 "You can use it, but not all features will be\n"
 "supported."
 msgstr ""
+"Kab nemohol skonvertova» va¹u databázu do\n"
+"súèasného formátu.\n"
+"Mô¾ete ju pou¾íva», ale nebudú podporované\n"
+"v¹etky mo¾nosti."
 
 #: kab/widget.cc:173
 msgid ""
 "The application saved the last current entry,\n"
 "but this entry does not exist anymore."
 msgstr ""
+"Aplikácia ulo¾ila poslednú aktuálnu polo¾ku,\n"
+"ale táto polo¾ka u¾ neexistuje."
+
 
 #: kab/widget.cc:236 kab/widget.cc:301 kab/widget.cc:309
 msgid "File handling error"
-msgstr ""
+msgstr "Chyba pri práci so súbormi"
 
 #: kab/widget.cc:237
 msgid "Unable to open database file r/w."
-msgstr ""
+msgstr "Nemô¾em otvori» databázový súbor r/w."
 
 #: kab/widget.cc:245
 msgid "Email storage conversion"
-msgstr ""
+msgstr "Konverzia emailov"
 
 #: kab/widget.cc:246
 msgid ""
@@ -1809,10 +1827,13 @@ msgid ""
 "the new style supporting unlimited numbers\n"
 "of email addresses per entry."
 msgstr ""
+"Kab skonvertuje v¹etky va¹e emailové adresy\n"
+"do nového formátu podporujúceho nekoneèný\n"
+"poèet adries na polo¾ku."
 
 #: kab/widget.cc:280
 msgid "kab database update"
-msgstr ""
+msgstr "obnovenie databázy kab"
 
 #: kab/widget.cc:281
 msgid ""
@@ -1825,6 +1846,15 @@ msgid ""
 "You will probably need to edit some of your\n"
 "entries to make use of it."
 msgstr ""
+"Prosím nezabudnite, ¾e kab teraz podporuje\n"
+"aj niektoré nové polo¾ky v adresách. Sú\n"
+"to :\n"
+"° ¹tát,\n"
+"° krajina a\n"
+"° PSÈ/po¹tový kód.\n"
+"Asi budete musie» zmeni» niektoré polo¾ky,\n"
+"aby ste to vyu¾ili."
+
 
 #: kab/widget.cc:302
 msgid "Could not save database after update."
@@ -1832,7 +1862,7 @@ msgstr "Nie je mo¾né ulo¾i» databázu po zmene."
 
 #: kab/widget.cc:310
 msgid "Unable to reopen database file r/o."
-msgstr ""
+msgstr "Nemô¾em otvori» databázový súbor r/o."
 
 #: kab/widget.cc:464
 msgid "first entry"
@@ -1848,35 +1878,35 @@ msgstr "nasledujúca polo¾ka"
 
 #: kab/widget.cc:467
 msgid "last entry"
-msgstr ""
+msgstr "posledná polo¾ka"
 
 #: kab/widget.cc:468
 msgid "search entries"
-msgstr ""
+msgstr "hµada» polo¾ky"
 
 #: kab/widget.cc:469
 msgid "add a new entry"
-msgstr ""
+msgstr "prida» polo¾ku"
 
 #: kab/widget.cc:470
 msgid "change this entry"
-msgstr ""
+msgstr "zmeni» polo¾ku"
 
 #: kab/widget.cc:471
 msgid "remove this entry"
-msgstr ""
+msgstr "zmaza» polo¾ku"
 
 #: kab/widget.cc:513
 msgid "Switched to first entry."
-msgstr ""
+msgstr "Prepnutý na prvú polo¾ku."
 
 #: kab/widget.cc:545
 msgid "Switched to last entry."
-msgstr ""
+msgstr "Prepnutý na poslednú polo¾ku."
 
 #: kab/widget.cc:607 kab/widget.cc:662 kab/widget.cc:948 kab/widget.cc:998
 msgid "Sorry, file changed."
-msgstr ""
+msgstr "Prepáète, súbor sa zmenil."
 
 #: kab/widget.cc:611 kab/widget.cc:666 kab/widget.cc:1002
 msgid "Permission denied."
@@ -1888,67 +1918,69 @@ msgstr "Odstráni» polo¾ku?"
 
 #: kab/widget.cc:623
 msgid "Really remove this entry?"
-msgstr ""
+msgstr "Skutoène chcete vymaza» túto polo¾ku?"
 
 #: kab/widget.cc:642
 msgid "Entry deleted."
-msgstr ""
+msgstr "Polo¾ka vymazaná."
 
 #: kab/widget.cc:676
 msgid "Added a new entry."
-msgstr ""
+msgstr "Pridal som novú polo¾ku."
 
 #: kab/widget.cc:799
 msgid "The mail command must be configured before!"
-msgstr ""
+msgstr "Najprv musíte nastavi» príkaz pre mail!"
 
 #: kab/widget.cc:803 kab/widget.cc:916 kab/widget.cc:1273 kab/widget.cc:1953
 #: kab/widgets.cc:47
 msgid "No entries."
-msgstr ""
+msgstr "®iadne polo¾ky."
 
 #: kab/widget.cc:822
 msgid "Empty email address."
-msgstr ""
+msgstr "Prázdna e-mail adresa."
 
 #: kab/widget.cc:832 kab/widget.cc:1860 kab/widget.cc:1996 kab/widgets.cc:75
 #: kab/widgets.cc:99
 msgid "Rejected."
-msgstr ""
+msgstr "Odopreté."
 
 #: kab/widget.cc:842
 msgid "Mail configuration"
-msgstr ""
+msgstr "Konfigurácia mailu"
 
 #: kab/widget.cc:843
 msgid "Please configure the parameters for the email command."
-msgstr ""
+msgstr "Prosím nastavte parametre pre e-mail príkaz."
 
 #: kab/widget.cc:869
 msgid "The email command parameters are wrong."
-msgstr ""
+msgstr "Parametre e-mail príkazu sú zlé."
 
 #: kab/widget.cc:881
 msgid ""
 "Email command failed.\n"
 "Make sure you did setup your email command and parameter!"
 msgstr ""
+"Email príkaz zlyhal.\n"
+"Uistite sa, ¾e ste nastavili vá¹ email príkaz a parametre!"
 
 #: kab/widget.cc:885
 msgid "Mail program started."
-msgstr ""
+msgstr "Mail program spustený."
 
 #: kab/widget.cc:909
 msgid "Opened browser window."
-msgstr ""
+msgstr "Okno prehliadaèa otvorené."
 
 #: kab/widget.cc:912
 msgid "No URL."
-msgstr ""
+msgstr "®iadne URL."
 
 #: kab/widget.cc:921
 msgid "The filemanager is busy, please try again."
-msgstr ""
+msgstr "Súborový mana¾ér je zaneprázdnený, prosím skúste znova."
 
 #: kab/widget.cc:941
 msgid ""
@@ -1956,6 +1988,9 @@ msgid ""
 "locked by another application.\n"
 "kab cannot save it."
 msgstr ""
+"Súbor knihy adries je momentálne\n"
+"zamknutý inou aplikáciou.\n"
+"kab ho nemô¾e ulo¾i»."
 
 #: kab/widget.cc:959
 msgid "Could not save database."
@@ -1963,47 +1998,47 @@ msgstr "Nie je mo¾né ulo¾i» databázu."
 
 #: kab/widget.cc:961
 msgid "Database saved successfully."
-msgstr ""
+msgstr "Databáza úspe¹ne ulo¾ená."
 
 #: kab/widget.cc:1021
 msgid "Entry changed."
-msgstr ""
+msgstr "Polo¾ka sa zmenila."
 
 #: kab/widget.cc:1121
 msgid "Results"
-msgstr ""
+msgstr "Výsledky"
 
 #: kab/widget.cc:1122
 msgid "No entry matches this."
-msgstr ""
+msgstr "®iadna polo¾ka nevyhovuje."
 
 #: kab/widget.cc:1147
 msgid "Search results window closed."
-msgstr ""
+msgstr "Uzavreté okno výsledkov hµadania."
 
 #: kab/widget.cc:1261
 msgid "The talk command must be configured before!"
-msgstr ""
+msgstr "Najprv musíte nastavi» talk príkaz !"
 
 #: kab/widget.cc:1266
 msgid "Talk configuration"
-msgstr ""
+msgstr "Konfigurácia talku"
 
 #: kab/widget.cc:1267
 msgid "Please configure the parameters for the talk command."
-msgstr ""
+msgstr "Prosím nastavte parametre pre príkaz talk."
 
 #: kab/widget.cc:1282
 msgid "No talk address."
-msgstr ""
+msgstr "®iadna talk adresa."
 
 #: kab/widget.cc:1298
 msgid "kab: Talk addresses"
-msgstr ""
+msgstr "kab: talk adresy"
 
 #: kab/widget.cc:1299
 msgid "Available talk addresses:"
-msgstr ""
+msgstr "Dostupné talk adresy:"
 
 #: kab/widget.cc:1305 kab/widget.cc:2101
 msgid "Cancelled."
@@ -2011,59 +2046,63 @@ msgstr "Zru¹ené."
 
 #: kab/widget.cc:1331
 msgid "The talk command parameters are wrong."
-msgstr ""
+msgstr "Parametre príkazu talk sú zlé."
 
 #: kab/widget.cc:1343
 msgid ""
 "Talk command failed.\n"
 "Make sure you did setup your talk command and parameter!"
 msgstr ""
+"Talk príkaz zlyhal.\n"
+"Prosím uistite sa, ¾e ste ho správne nastavili !"
 
 #: kab/widget.cc:1347
 msgid "Talk program started."
-msgstr ""
+msgstr "Talk program spustený."
 
 #: kab/widget.cc:1399
 msgid "Attention: printing is still experimental!"
-msgstr ""
+msgstr "Varovanie: tlaè je stále experimentálna !"
 
 #: kab/widget.cc:1504 kab/widget.cc:1552
 msgid "Page size problem"
-msgstr ""
+msgstr "Problém s veµkos»ou strany"
 
 #: kab/widget.cc:1505 kab/widget.cc:1553
 msgid ""
 "The fields you requested to print do\n"
 "not fit into the page width."
 msgstr ""
+"Polo¾ky, ktoré ste chceli vytlaèi»\n"
+"sa nezmestia na ¹írku strany."
 
 #: kab/widget.cc:1760 kab/widgets.cc:113
 msgid "Printing finished successfully."
-msgstr ""
+msgstr "Tlaè skonèila úspe¹ne."
 
 #: kab/widget.cc:1791
 msgid "kab: Email addresses"
-msgstr ""
+msgstr "kab: email adresy"
 
 #: kab/widget.cc:1792
 msgid "Available email addresses:"
-msgstr ""
+msgstr "Dostupné e-mail adresy:"
 
 #: kab/widget.cc:1857
 msgid "kab: Select fields to copy"
-msgstr ""
+msgstr "kab: Zvoµte polo¾ky na skopírovanie"
 
 #: kab/widget.cc:1867
 msgid "Nothing selected."
-msgstr ""
+msgstr "Niè nie je zvolené."
 
 #: kab/widget.cc:1925 kab/widgets.cc:92
 msgid "KDE addressbook overview"
-msgstr ""
+msgstr "Popis knihy adries KDE"
 
 #: kab/widget.cc:1970
 msgid "Name-Email-Link (recommended!)"
-msgstr ""
+msgstr "Meno-Email-Odkaz (odporúèané!)"
 
 #: kab/widget.cc:1972
 msgid "Select table columns"
@@ -2071,69 +2110,71 @@ msgstr "Vybra» ståpce tabuµky"
 
 #: kab/widget.cc:1977
 msgid "Nothing to export."
-msgstr ""
+msgstr "Nemám èo exportnú»."
 
 #: kab/widget.cc:2008
 msgid "Email link"
-msgstr ""
+msgstr "Email odkaz"
 
 #: kab/widget.cc:2088
 msgid "Could not find the users home directory."
-msgstr ""
+msgstr "Nemô¾em nájs» domovský prieèinok u¾ívateµa."
 
 #: kab/widget.cc:2089
 msgid "Intern error!"
-msgstr ""
+msgstr "Interná chyba!"
 
 #: kab/widget.cc:2111
 msgid "Could not open the file to create the HTML table."
-msgstr ""
+msgstr "Nemô¾em otvori» súbor, aby som vytvoril HTML tabuµku."
 
 #: kab/widgets.cc:52
 msgid "Printing cancelled."
-msgstr ""
+msgstr "Tlaè zru¹ená."
 
 #: kab/widgets.cc:67
 msgid "kab: Select columns for printing"
-msgstr ""
+msgstr "kab: Zvoµte ståpce pre tlaè"
 
 #: kab/widgets.cc:81
 msgid "Nothing to print."
-msgstr ""
+msgstr "Nemám èo tlaèi»."
 
 #: kab/widgets.cc:93
 msgid "Page <p>"
-msgstr ""
+msgstr "Strana <p>"
 
 #: kab/widgets.cc:94
 msgid "KDE - the professionals choice."
-msgstr ""
+msgstr "KDE - voµba profesionálov."
 
 #: kab/widgets.cc:110
 msgid "Printing failed!"
-msgstr ""
+msgstr "Tlaè zlyhala!"
 
 #: kio/kio_cache.cc:345
 msgid "KIO Cache"
-msgstr ""
+msgstr "KIO ke¹"
 
 #: kio/kio_cache.cc:347
 msgid "Contents of the cache"
-msgstr ""
+msgstr "Obsah ke¹e"
 
 #: kio/kio_cache.cc:352
 msgid ""
 "Use the icons for drag and drop actions, since they refer to the cache files "
 "on your hard disk, while you should use the textual links for browsing"
 msgstr ""
+"Pou¾ite ikonky pre akcie »ahaj a pusti, preto¾e odkazujú na ke¹ové súbory "
+"na va¹om hard disku, zatiaµèo by ste mali pou¾íva» textové odkazy na prehl."
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"
-msgstr ""
+msgstr "Dátum vytvorenia"
 
 #: kio/kio_cache.cc:357
 msgid "Expiration Date"
-msgstr ""
+msgstr "Dátum expirácie"
 
 #: kio/kio_cache.cc:422
 msgid "Unknown"
@@ -2149,6 +2190,9 @@ msgid ""
 "Could not read\n"
 "%s"
 msgstr ""
+"Nemô¾em èíta»\n"
+"%s"
+
 
 #: kio/kio_error.cc:19
 msgid ""
@@ -2174,6 +2218,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Interná chyba\n"
+"Prosím po¹lite kompletný popis chyby na kde-bugs@kde.org\n"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:28
 msgid ""
@@ -2189,6 +2237,8 @@ msgid ""
 "The protocol %s\n"
 " is not supported"
 msgstr ""
+"Protokol %s\n"
+" nie je podporovaný"
 
 #: kio/kio_error.cc:34
 #, c-format
@@ -2196,6 +2246,8 @@ msgid ""
 "The protocol %s\n"
 "is only a filter protocol.\n"
 msgstr ""
+"Protokol %s\n"
+"je iba protokol pre filtrovanie.\n"
 
 #: kio/kio_error.cc:37
 #, c-format
@@ -2203,6 +2255,8 @@ msgid ""
 "Unsupported action\n"
 "%s"
 msgstr ""
+"Nepodporovaná akcia\n"
+"%s"
 
 #: kio/kio_error.cc:40
 msgid ""
@@ -2221,6 +2275,9 @@ msgid ""
 " is a directory,\n"
 "but a file was expected"
 msgstr ""
+"%s\n"
+" je prieèinok,\n"
+"ale oèakával som súbor"
 
 #: kio/kio_error.cc:46
 msgid ""
@@ -2237,6 +2294,9 @@ msgid ""
 "%s\n"
 "does already exist"
 msgstr ""
+"Súbor alebo prieèinok\n"
+"%s\n"
+"u¾ existuje"
 
 #: kio/kio_error.cc:52
 #, c-format
@@ -2244,12 +2304,16 @@ msgid ""
 "%s\n"
 "Access denied"
 msgstr ""
+"%s\n"
+"Prístup zamietnutý"
 
 #: kio/kio_error.cc:55
 msgid ""
 "Could not enter directory\n"
 "%s"
 msgstr ""
+"Nemô¾em vojs» do prieèinka\n"
+"%s"
 "Nemô¾em vstúpi» do prieèinku\n"
 "%s"
 
@@ -2259,6 +2323,8 @@ msgid ""
 "The protocol %s\n"
 "does not implement a directory service"
 msgstr ""
+"Protokol %s\n"
+"neimplementuje adresárovú slu¾bu"
 
 #: kio/kio_error.cc:61
 #, c-format
@@ -2266,6 +2332,9 @@ msgid ""
 "Found a cyclic link in\n"
 "%s"
 msgstr ""
+"Na¹iel som zacyklený odkaz v\n"
+"%s"
+
 
 #: kio/kio_error.cc:64
 msgid ""
@@ -2282,12 +2351,17 @@ msgid ""
 "Could not write to\n"
 "%s"
 msgstr ""
+"Prísutp zamietnutý\n"
+"Nemô¾em zapisova» do\n"
+"%s"
 
 #: kio/kio_error.cc:70
 msgid ""
 "Action has been\n"
 "canceled by the user"
 msgstr ""
+"Akcia bola zru¹ená\n"
+"u¾ívateµom"
 
 #: kio/kio_error.cc:73
 #, c-format
@@ -2295,6 +2369,8 @@ msgid ""
 "Found a cyclic link while copying\n"
 "%s"
 msgstr ""
+"Na¹iel som zacyklený odkaz poèas kopírovania\n"
+"%s"
 
 #: kio/kio_error.cc:76
 #, c-format
@@ -2302,6 +2378,8 @@ msgid ""
 "Could not create socket for accessing\n"
 "%s"
 msgstr ""
+"Nemô¾em vytvori» socket pre prístup k\n"
+"%s"
 
 #: kio/kio_error.cc:79
 msgid ""
@@ -2317,6 +2395,8 @@ msgid ""
 "Unknown host\n"
 "%s"
 msgstr ""
+"Neznámy hostiteµ\n"
+"%s"
 
 #: kio/kio_error.cc:85
 #, c-format
@@ -2325,6 +2405,9 @@ msgid ""
 "%s\n"
 "is broken"
 msgstr ""
+"Spojenie na hostiteµa\n"
+"%s\n"
+"je po¹kodené"
 
 #: kio/kio_error.cc:88
 #, c-format
@@ -2332,6 +2415,8 @@ msgid ""
 "The protocol %s\n"
 "is not a filter protocol"
 msgstr ""
+"Protokol %s\n"
+"nie je filtrovací protokol"
 
 #: kio/kio_error.cc:91
 #, c-format
@@ -2340,6 +2425,9 @@ msgid ""
 "is a file,\n"
 "but a directory was expected"
 msgstr ""
+"%s\n"
+"je súbor,\n"
+"ale bol oèakávaný prieèinok"
 
 #: kio/kio_error.cc:94
 #, c-format
@@ -2349,6 +2437,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Nemô¾em pripoji» zariadenie.\n"
+"Nahlásená chyba bola:\n"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:97
 #, c-format
@@ -2358,6 +2450,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Nemô¾em odpoji» zariadenie.\n"
+"Nahlásená chyba bola:\n"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:100
 #, c-format
@@ -2366,6 +2462,9 @@ msgid ""
 "%s protocol\n"
 "died unexpectedly"
 msgstr ""
+"Proces pre protokol\n"
+"%s"
+"neoèakávane skonèil"
 
 #: kio/kio_error.cc:111 kio/kio_linedit_dlg.cc:42 kio/kio_openwith.cc:260
 #: kio/kio_pass_dlg.cc:75 kio/kio_paste.cc:35 kio/kio_paste.cc:47
@@ -2381,16 +2480,16 @@ msgstr "Ok"
 #: kio/kio_job.cc:137
 #, c-format
 msgid "Mounting %s ..."
-msgstr ""
+msgstr "Prípájam %s ..."
 
 #: kio/kio_job.cc:157
 #, c-format
 msgid "Unmounting %s ..."
-msgstr ""
+msgstr "Odpájam %s ..."
 
 #: kio/kio_openwith.cc:133
 msgid "This group is empty!"
-msgstr ""
+msgstr "Táto skupina je prázdna!"
 
 #: kio/kio_openwith.cc:264
 msgid "&Browser"
@@ -2412,14 +2511,15 @@ msgstr "Schránka je prázdna"
 msgid ""
 "Pasting clipboard data is only supported on the local hard disk currently"
 msgstr ""
+"Vkladanie dát zo schránky je momentálne podporované len na lokálnom disku"
 
 #: kio/kio_paste.cc:67
 msgid "Filename for clipboard content:"
-msgstr ""
+msgstr "Názov súboru pre obsah schránky:"
 
 #: kio/kio_paste.cc:74
 msgid "You did not enter a filename"
-msgstr ""
+msgstr "Nezadali ste názov súboru"
 
 #: kio/kio_paste.cc:84
 msgid "The file %s does already exist. Do you really want to overwrite it ?"
@@ -2461,17 +2561,17 @@ msgstr "%i sekúnd"
 #: kio/kio_progress_dlg.cc:190
 #, c-format
 msgid "%i:%i"
-msgstr ""
+msgstr "%i:%i"
 
 #: kio/kio_progress_dlg.cc:197
 #, c-format
 msgid "%i:%i:%i"
-msgstr ""
+msgstr "%i:%i:%i"
 
 #: kio/kio_progress_dlg.cc:201
 #, c-format
 msgid "%i%s  Remaining time: %s"
-msgstr ""
+msgstr "%i%s  Zostávajúci èas: %s"
 
 #: kio/kio_progress_dlg.cc:207
 msgid "Scanning "
@@ -2483,7 +2583,7 @@ msgstr "Vytváram prieèinok "
 
 #: kio/kio_progress_dlg.cc:229
 msgid "Fetching file"
-msgstr ""
+msgstr "S»ahujem súbor"
 
 #: kio/kio_rename_dlg.cc:27
 msgid "Rename"
@@ -2491,39 +2591,39 @@ msgstr "Premenova»"
 
 #: kio/kio_rename_dlg.cc:32 kio/kio_skip_dlg.cc:23
 msgid "Skip"
-msgstr ""
+msgstr "Preskoèi»"
 
 #: kio/kio_rename_dlg.cc:35 kio/kio_skip_dlg.cc:28
 msgid "Auto Skip"
-msgstr ""
+msgstr "Auto preskoè."
 
 #: kio/kio_rename_dlg.cc:41
 msgid "Overwrite"
-msgstr ""
+msgstr "Prepísa»"
 
 #: kio/kio_rename_dlg.cc:46
 msgid "Overwrite All"
-msgstr ""
+msgstr "Prepísa» v¹etky"
 
 #: kio/kio_rename_dlg.cc:57
 msgid "You try to overwrite"
-msgstr ""
+msgstr "Sna¾íte sa prepísa»"
 
 #: kio/kio_rename_dlg.cc:78
 msgid "already exists. Overwrite with"
-msgstr ""
+msgstr "u¾ existuje. Prepísa» s"
 
 #: kio/kio_rename_dlg.cc:90
 msgid "Or rename to"
-msgstr ""
+msgstr "Alebo premenova» na"
 
 #: kio/kio_rename_dlg.cc:101
 msgid "already exists."
-msgstr ""
+msgstr "u¾ existuje."
 
 #: kio/kio_rename_dlg.cc:106
 msgid "Do you want to rename it ?"
-msgstr ""
+msgstr "Chcete ho premenova» ?"
 
 #: kio/kio_rename_dlg.cc:185
 msgid "Malformed URL\n"
@@ -2531,27 +2631,27 @@ msgstr "URL má chybný formát\n"
 
 #: kio/kio_rename_dlg.cc:194
 msgid "You must not change the protocol"
-msgstr ""
+msgstr "Nesmiete zmeni» protokol"
 
 #: kio/kio_skip_dlg.cc:35
 msgid "Can not overwrite"
-msgstr ""
+msgstr "Nemô¾em prepísa»"
 
 #: kio/kmimetypes.cc:61
 msgid "No mime types installed!"
-msgstr ""
+msgstr "Nemáte nain¹talované mime typy!"
 
 #: kio/kmimetypes.cc:85
 msgid "Could not find mime type\n"
-msgstr ""
+msgstr "Nemô¾em nájs» mime typ\n"
 
 #: kio/kmimetypes.cc:131
 msgid "The mime type config file "
-msgstr ""
+msgstr "Konfiguraèný súbor mime typov "
 
 #: kio/kmimetypes.cc:133 kio/kregfactories.cc:74
 msgid "does not conatain a MimeType=... entry"
-msgstr ""
+msgstr "neobsahuje MimeType=... polo¾ku"
 
 #: kio/kmimetypes.cc:486
 #, c-format
@@ -2560,6 +2660,9 @@ msgid ""
 "%s\n"
 "has no Type=... entry"
 msgstr ""
+"kdelnk súbor\n"
+"%s\n"
+"nemá polo¾ku Type=..."
 
 #: kio/kmimetypes.cc:504
 #, c-format
@@ -2568,6 +2671,9 @@ msgid ""
 "%s\n"
 "is unknown"
 msgstr ""
+"kdelnk typ\n"
+"%s\n"
+"je neznámy"
 
 #: kio/kmimetypes.cc:518 kio/kmimetypes.cc:598 kio/kmimetypes.cc:690
 #, c-format
@@ -2576,6 +2682,9 @@ msgid ""
 "%s\n"
 "is of type FSDevice but has no Dev=... entry"
 msgstr ""
+"kdelnk súbor\n"
+"%s\n"
+"je typu FSDevice, ale nemá polo¾ku Dev=..."
 
 #: kio/kmimetypes.cc:565
 #, c-format
@@ -2584,6 +2693,9 @@ msgid ""
 "%s\n"
 "is of type Link but has no URL=... entry"
 msgstr ""
+"kdelnk súbor\n"
+"%s\n"
+"je typu Odkaz, ale nemá URL=... polo¾ku"
 
 #: kio/kmimetypes.cc:608
 msgid "Mount"
@@ -2601,10 +2713,14 @@ msgid ""
 " has an invalid menu entry\n"
 "%s"
 msgstr ""
+"kdelnk súbor\n"
+"%s\n"
+" má chybnú polo¾ku menu\n"
+"%s"
 
 #: kio/kregfactories.cc:72
 msgid "The mime type _cfg file "
-msgstr ""
+msgstr "Mime typ _cfg súboru "
 
 #: kio/krun.cc:39
 #, c-format
@@ -2613,31 +2729,19 @@ msgid ""
 "%s\n"
 "Access denied"
 msgstr ""
+"Nemô¾em vstúpi»\n"
+"%s\n"
+"Prístup zamietnutý"
 
 #: kio/kservices.cc:111
 msgid "The application config file\n"
-msgstr ""
+msgstr "Konfiguraèný súbor aplikácie\n"
 
 #: kio/kservices.cc:113
 msgid ""
 "\n"
 "does not conatain a Name=... entry"
 msgstr ""
+"\n"
+"neobsahuje Name=... polo¾ku"
 
-#~ msgid "Small"
-#~ msgstr "Malý"
-
-#~ msgid "Medium"
-#~ msgstr "Stredný"
-
-#~ msgid "Large"
-#~ msgstr "Veµký"
-
-#~ msgid "(none)"
-#~ msgstr "(¾iadny)"
-
-#~ msgid "None"
-#~ msgstr "®iadna"
-
-#~ msgid "&Ok"
-#~ msgstr "&Ok"
