@@ -2191,7 +2191,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:25
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Internal Error\n"
 "Please send a full bugreport to kde-bugs@kde.org\n"
