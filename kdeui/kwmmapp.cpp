@@ -22,6 +22,8 @@
     Boston, MA 02111-1307, USA.
 
     $Log$
+    Revision 1.13  1998/03/08 05:51:02  wuebben
+    Bernd: several small fixes
 
 
 */
