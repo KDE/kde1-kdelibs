@@ -2,11 +2,11 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+# , fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-15 18:30+0200\n"
+"POT-Creation-Date: 1998-06-15 18:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -468,6 +468,7 @@ msgstr ""
 msgid "Right"
 msgstr ""
 
+# , c-format
 #: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
 #, c-format
 msgid "Page %d of %d"
@@ -634,6 +635,7 @@ msgstr ""
 msgid "files"
 msgstr ""
 
+# , c-format
 #: kfile/kfiledialog.cpp:1289
 #, c-format
 msgid "%d %s and %d %s"
@@ -789,6 +791,7 @@ msgstr ""
 msgid "folder"
 msgstr ""
 
+# , c-format
 #: kfmlib/kfm.cpp:197
 #, c-format
 msgid ""
@@ -800,6 +803,7 @@ msgstr ""
 msgid "KFM Error"
 msgstr ""
 
+# , c-format
 #: kfmlib/kfm.cpp:208
 #, c-format
 msgid ""

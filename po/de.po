@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kuser 0.1\n"
-"POT-Creation-Date: 1998-06-15 18:30+0200\n"
+"POT-Creation-Date: 1998-06-15 18:34+0200\n"
 "PO-Revision-Date: 1998-01-24 16:50+0100\n"
 "Last-Translator: Oliver Hensel <oliver.hensel@gmx.de>\n"
 
@@ -483,6 +483,7 @@ msgstr "Links"
 msgid "Right"
 msgstr "Rechts"
 
+# , c-format
 #: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
 #, c-format
 msgid "Page %d of %d"
@@ -653,6 +654,7 @@ msgstr "Datei"
 msgid "files"
 msgstr "Dateien"
 
+# , c-format
 #: kfile/kfiledialog.cpp:1289
 #, c-format
 msgid "%d %s and %d %s"
@@ -818,6 +820,7 @@ msgstr "Bild"
 msgid "folder"
 msgstr "Verzeichnis"
 
+# , c-format
 #: kfmlib/kfm.cpp:197
 #, c-format
 msgid ""
@@ -831,6 +834,7 @@ msgstr ""
 msgid "KFM Error"
 msgstr "KFM Fehler"
 
+# , c-format
 #: kfmlib/kfm.cpp:208
 #, c-format
 msgid ""

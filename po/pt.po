@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1998-06-15 18:30+0200\n"
+"POT-Creation-Date: 1998-06-15 18:34+0200\n"
 "PO-Revision-Date: 1998-01-22 00:00+0100\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
@@ -170,23 +170,23 @@ msgstr "Dezembro"
 msgid "(invalid)"
 msgstr ""
 
+# , fuzzy
 #: kdeui/kdatetbl.cpp:48
-#, fuzzy
 msgid "Sun"
 msgstr "&Som"
 
+# , fuzzy
 #: kdeui/kdatetbl.cpp:48
-#, fuzzy
 msgid "Mon"
 msgstr "Montar"
 
+# , fuzzy
 #: kdeui/kdatetbl.cpp:48
-#, fuzzy
 msgid "Tue"
 msgstr "Dez"
 
+# , fuzzy
 #: kdeui/kdatetbl.cpp:49
-#, fuzzy
 msgid "Wed"
 msgstr "Vermelho"
 
@@ -198,8 +198,8 @@ msgstr ""
 msgid "Fri"
 msgstr ""
 
+# , fuzzy
 #: kdeui/kdatetbl.cpp:50
-#, fuzzy
 msgid "Sat"
 msgstr "em"
 
@@ -463,8 +463,8 @@ msgstr ""
 msgid "&Cancel"
 msgstr "&Cancelar"
 
+# , fuzzy
 #: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:143
-#, fuzzy
 msgid "&Default"
 msgstr "Valores por &omissão"
 
@@ -488,8 +488,9 @@ msgstr "Esquerda"
 msgid "Right"
 msgstr "Direita"
 
+# , fuzzy, c-format
 #: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
-#, fuzzy, c-format
+#, c-format
 msgid "Page %d of %d"
 msgstr "Linha: %d Col: %d"
 
@@ -658,6 +659,7 @@ msgstr "ficheiro"
 msgid "files"
 msgstr "ficheiros"
 
+# , c-format
 #: kfile/kfiledialog.cpp:1289
 #, c-format
 msgid "%d %s and %d %s"
@@ -823,6 +825,7 @@ msgstr "imagem"
 msgid "folder"
 msgstr "pasta"
 
+# , c-format
 #: kfmlib/kfm.cpp:197
 #, c-format
 msgid ""
@@ -830,11 +833,12 @@ msgid ""
 "Could not do Authorization"
 msgstr ""
 
+# , fuzzy
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
-#, fuzzy
 msgid "KFM Error"
 msgstr "Erro"
 
+# , c-format
 #: kfmlib/kfm.cpp:208
 #, c-format
 msgid ""
@@ -1186,8 +1190,8 @@ msgstr "Aparência"
 msgid "Print"
 msgstr "Imprimir"
 
+# , fuzzy
 #: po/texts.cpp:130
-#, fuzzy
 msgid "Monday"
 msgstr "Mai"
 
@@ -1199,13 +1203,13 @@ msgstr ""
 msgid "Wednesday"
 msgstr ""
 
+# , fuzzy
 #: po/texts.cpp:133
-#, fuzzy
 msgid "Thursday"
 msgstr "Terceira"
 
+# , fuzzy
 #: po/texts.cpp:134
-#, fuzzy
 msgid "Friday"
 msgstr "Procurar"
 
@@ -1213,18 +1217,18 @@ msgstr "Procurar"
 msgid "Saturday"
 msgstr ""
 
+# , fuzzy
 #: po/texts.cpp:136
-#, fuzzy
 msgid "Sunday"
 msgstr "&Som"
 
+# , fuzzy
 #: po/texts.cpp:137
-#, fuzzy
 msgid "&Update"
 msgstr "Actualizar"
 
+# , fuzzy
 #: po/texts.cpp:138
-#, fuzzy
 msgid "Layout"
 msgstr "Sair"
 
@@ -1232,8 +1236,8 @@ msgstr "Sair"
 msgid "Highscore"
 msgstr ""
 
+# , fuzzy
 #: po/texts.cpp:140
-#, fuzzy
 msgid "&New View"
 msgstr "&Ver"
 
@@ -1241,12 +1245,12 @@ msgstr "&Ver"
 msgid "&Insert"
 msgstr ""
 
+# , fuzzy
 #: po/texts.cpp:144
-#, fuzzy
 msgid "&Next >>"
 msgstr "&Seguinte"
 
+# , fuzzy
 #: po/texts.cpp:145
-#, fuzzy
 msgid "<< &Previous"
 msgstr "&Anterior"

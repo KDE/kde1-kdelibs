@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-15 18:30+0200\n"
+"POT-Creation-Date: 1998-06-15 18:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -104,8 +104,8 @@ msgstr "Ok"
 msgid "Custom..."
 msgstr "Omat ..."
 
+# , fuzzy
 #: kdeui/kcontrol.cpp:39
-#, fuzzy
 msgid "Default"
 msgstr "Oletus:"
 
@@ -173,23 +173,23 @@ msgstr "Joulukuu"
 msgid "(invalid)"
 msgstr ""
 
+# , fuzzy
 #: kdeui/kdatetbl.cpp:48
-#, fuzzy
 msgid "Sun"
 msgstr "&Äänet"
 
+# , fuzzy
 #: kdeui/kdatetbl.cpp:48
-#, fuzzy
 msgid "Mon"
 msgstr "Liitä"
 
+# , fuzzy
 #: kdeui/kdatetbl.cpp:48
-#, fuzzy
 msgid "Tue"
 msgstr "Kymmenen"
 
+# , fuzzy
 #: kdeui/kdatetbl.cpp:49
-#, fuzzy
 msgid "Wed"
 msgstr "Punainen"
 
@@ -201,8 +201,8 @@ msgstr ""
 msgid "Fri"
 msgstr ""
 
+# , fuzzy
 #: kdeui/kdatetbl.cpp:50
-#, fuzzy
 msgid "Sat"
 msgstr " "
 
@@ -466,8 +466,8 @@ msgstr ""
 msgid "&Cancel"
 msgstr "&Peruuta"
 
+# , fuzzy
 #: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:143
-#, fuzzy
 msgid "&Default"
 msgstr "&Oletukset"
 
@@ -491,8 +491,9 @@ msgstr "Vasemmalla"
 msgid "Right"
 msgstr "Oikealla"
 
+# , fuzzy, c-format
 #: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
-#, fuzzy, c-format
+#, c-format
 msgid "Page %d of %d"
 msgstr "Rivi: %d Sarake: %d"
 
@@ -661,6 +662,7 @@ msgstr "tiedosto"
 msgid "files"
 msgstr "tiedostoa"
 
+# , c-format
 #: kfile/kfiledialog.cpp:1289
 #, c-format
 msgid "%d %s and %d %s"
@@ -826,6 +828,7 @@ msgstr "kuva"
 msgid "folder"
 msgstr "kansio"
 
+# , c-format
 #: kfmlib/kfm.cpp:197
 #, c-format
 msgid ""
@@ -833,11 +836,12 @@ msgid ""
 "Could not do Authorization"
 msgstr ""
 
+# , fuzzy
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
-#, fuzzy
 msgid "KFM Error"
 msgstr "Virhe"
 
+# , c-format
 #: kfmlib/kfm.cpp:208
 #, c-format
 msgid ""
@@ -1109,8 +1113,8 @@ msgstr "Pysäytä"
 msgid "&Remove"
 msgstr "&Poista"
 
+# , fuzzy
 #: po/texts.cpp:110
-#, fuzzy
 msgid "&Properties..."
 msgstr "Ominaisuudet..."
 
@@ -1122,8 +1126,8 @@ msgstr "Ominaisuudet"
 msgid "&Start"
 msgstr "&Käynnistä"
 
+# , fuzzy
 #: po/texts.cpp:113
-#, fuzzy
 msgid "St&op"
 msgstr "Pysäytä"
 
@@ -1191,8 +1195,8 @@ msgstr "Ulkonäkö"
 msgid "Print"
 msgstr "Tulosta"
 
+# , fuzzy
 #: po/texts.cpp:130
-#, fuzzy
 msgid "Monday"
 msgstr "Touko"
 
@@ -1204,13 +1208,13 @@ msgstr ""
 msgid "Wednesday"
 msgstr ""
 
+# , fuzzy
 #: po/texts.cpp:133
-#, fuzzy
 msgid "Thursday"
 msgstr "Kolmas"
 
+# , fuzzy
 #: po/texts.cpp:134
-#, fuzzy
 msgid "Friday"
 msgstr "Ensisijainen"
 
@@ -1218,18 +1222,18 @@ msgstr "Ensisijainen"
 msgid "Saturday"
 msgstr ""
 
+# , fuzzy
 #: po/texts.cpp:136
-#, fuzzy
 msgid "Sunday"
 msgstr "&Äänet"
 
+# , fuzzy
 #: po/texts.cpp:137
-#, fuzzy
 msgid "&Update"
 msgstr "Päivitä"
 
+# , fuzzy
 #: po/texts.cpp:138
-#, fuzzy
 msgid "Layout"
 msgstr "Tyyli "
 
@@ -1237,8 +1241,8 @@ msgstr "Tyyli "
 msgid "Highscore"
 msgstr ""
 
+# , fuzzy
 #: po/texts.cpp:140
-#, fuzzy
 msgid "&New View"
 msgstr "&Näytä"
 
@@ -1246,22 +1250,12 @@ msgstr "&Näytä"
 msgid "&Insert"
 msgstr ""
 
+# , fuzzy
 #: po/texts.cpp:144
-#, fuzzy
 msgid "&Next >>"
 msgstr "&Seuraavaan"
 
+# , fuzzy
 #: po/texts.cpp:145
-#, fuzzy
 msgid "<< &Previous"
 msgstr "E&delliseen"
-
-#~ msgid "Width"
-#~ msgstr "Leveys"
-
-#~ msgid "Height"
-#~ msgstr "Korkeus"
-
-#, fuzzy
-#~ msgid "Panner"
-#~ msgstr "Viesti"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1998-06-15 18:30+0200\n"
+"POT-Creation-Date: 1998-06-15 18:34+0200\n"
 "PO-Revision-Date: 1998-03-20 12:20 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -483,6 +483,7 @@ msgstr "Vµavo"
 msgid "Right"
 msgstr "Vpravo"
 
+# , c-format
 #: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
 #, c-format
 msgid "Page %d of %d"
@@ -653,6 +654,7 @@ msgstr "do súboru"
 msgid "files"
 msgstr "súbory"
 
+# , c-format
 #: kfile/kfiledialog.cpp:1289
 #, c-format
 msgid "%d %s and %d %s"
@@ -819,6 +821,7 @@ msgstr "obrázok"
 msgid "folder"
 msgstr "prieèinok"
 
+# , c-format
 #: kfmlib/kfm.cpp:197
 #, c-format
 msgid ""
@@ -832,6 +835,7 @@ msgstr ""
 msgid "KFM Error"
 msgstr "Chyba KFM"
 
+# , c-format
 #: kfmlib/kfm.cpp:208
 #, c-format
 msgid ""
@@ -1225,8 +1229,8 @@ msgstr "Rozmiestnenie"
 msgid "Highscore"
 msgstr "©tatistika"
 
+# , fuzzy
 #: po/texts.cpp:140
-#, fuzzy
 msgid "&New View"
 msgstr "&Zobraz"
 
@@ -1234,12 +1238,12 @@ msgstr "&Zobraz"
 msgid "&Insert"
 msgstr ""
 
+# , fuzzy
 #: po/texts.cpp:144
-#, fuzzy
 msgid "&Next >>"
 msgstr "&Nasledujúci uzol"
 
+# , fuzzy
 #: po/texts.cpp:145
-#, fuzzy
 msgid "<< &Previous"
 msgstr "&Predchádzajúci uzol"

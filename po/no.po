@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-15 18:30+0200\n"
+"POT-Creation-Date: 1998-06-15 18:34+0200\n"
 "PO-Revision-Date: 1998-04-20 18:55+0100\n"
 "Last-Translator: Svein Olav Aasen <svein.aasen@caa.no / soaasen@online.no\n"
 "Language-Team: no <LL@li.org>\n"
@@ -484,6 +484,7 @@ msgstr "Venstre"
 msgid "Right"
 msgstr "Høyre"
 
+# , c-format
 #: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
 #, c-format
 msgid "Page %d of %d"
@@ -654,6 +655,7 @@ msgstr "fil"
 msgid "files"
 msgstr "filer"
 
+# , c-format
 #: kfile/kfiledialog.cpp:1289
 #, c-format
 msgid "%d %s and %d %s"
@@ -819,6 +821,7 @@ msgstr "bilde"
 msgid "folder"
 msgstr "mappe"
 
+# , c-format
 #: kfmlib/kfm.cpp:197
 #, c-format
 msgid ""
@@ -832,6 +835,7 @@ msgstr ""
 msgid "KFM Error"
 msgstr "KFM-feil"
 
+# , c-format
 #: kfmlib/kfm.cpp:208
 #, c-format
 msgid ""
@@ -1225,8 +1229,8 @@ msgstr "Stil"
 msgid "Highscore"
 msgstr "Liste over de beste"
 
+# , fuzzy
 #: po/texts.cpp:140
-#, fuzzy
 msgid "&New View"
 msgstr "Se p&å"
 
@@ -1234,12 +1238,12 @@ msgstr "Se p&å"
 msgid "&Insert"
 msgstr ""
 
+# , fuzzy
 #: po/texts.cpp:144
-#, fuzzy
 msgid "&Next >>"
 msgstr "&Neste"
 
+# , fuzzy
 #: po/texts.cpp:145
-#, fuzzy
 msgid "<< &Previous"
 msgstr "&Forrige"
