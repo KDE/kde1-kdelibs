@@ -1229,21 +1229,18 @@ msgstr "Rozmiestnenie"
 msgid "Highscore"
 msgstr "©tatistika"
 
-# , fuzzy
 #: po/texts.cpp:140
 msgid "&New View"
-msgstr "&Zobraz"
+msgstr "&Nové zobrazenie"
 
 #: po/texts.cpp:141
 msgid "&Insert"
-msgstr ""
+msgstr "&Vlo¾i»"
 
-# , fuzzy
 #: po/texts.cpp:144
 msgid "&Next >>"
-msgstr "&Nasledujúci uzol"
+msgstr "Ï&al¹í >>"
 
-# , fuzzy
 #: po/texts.cpp:145
 msgid "<< &Previous"
-msgstr "&Predchádzajúci uzol"
+msgstr "<< &Predchádzajúci"
