@@ -641,7 +641,7 @@ msgstr "Den angivna filen finns inte"
 # , fuzzy
 #: kfile/kfiledialog.cpp:857
 msgid "Create new directory in: "
-msgstr "Skapar katalog:\n"
+msgstr "Skapar katalog:"
 
 # , fuzzy
 #: kfile/kfiledialog.cpp:860

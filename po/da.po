@@ -650,7 +650,7 @@ msgstr "Den valgte fil eksisterer ikke"
 # , fuzzy
 #: kfile/kfiledialog.cpp:857
 msgid "Create new directory in: "
-msgstr "Opretter folder:\n"
+msgstr "Opretter folder:"
 
 # , fuzzy
 #: kfile/kfiledialog.cpp:860

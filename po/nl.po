@@ -235,7 +235,7 @@ msgstr ""
 # , fuzzy
 #: kdeui/keditcl1.cpp:191
 msgid "An Error occured while trying to open this Document"
-msgstr "Fout bij het bepalen van de wijze van aansluiting van floppy\n"
+msgstr "Fout bij het bepalen van de wijze van aansluiting van floppy"
 
 # , fuzzy
 #: kdeui/keditcl1.cpp:356
@@ -285,7 +285,7 @@ msgstr "Naamloos"
 # , fuzzy
 #: kdeui/keditcl1.cpp:1472
 msgid "Could not save the document\n"
-msgstr "Kon dokument niet invoegen"
+msgstr "Kon dokument niet invoegen\n"
 
 # , fuzzy
 #: kdeui/keditcl1.cpp:1542
@@ -303,7 +303,6 @@ msgstr ""
 msgid "You do not have write permission to this file.\n"
 msgstr ""
 "U hebt geen lees rechten voor het bestand:\n"
-"%s"
 
 #: kdeui/keditcl2.cpp:105 kdeui/keditcl2.cpp:122 kdeui/keditcl2.cpp:362
 #: kdeui/keditcl2.cpp:379 kdeui/keditcl2.cpp:678 kdeui/keditcl2.cpp:687

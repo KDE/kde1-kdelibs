@@ -286,7 +286,7 @@ msgstr "Χωρίς τίτλο"
 # , fuzzy
 #: kdeui/keditcl1.cpp:1472
 msgid "Could not save the document\n"
-msgstr "Δεν μπορώ να αποθηκεύσω το αρχείο"
+msgstr "Δεν μπορώ να αποθηκεύσω το αρχείο\n"
 
 # , fuzzy
 #: kdeui/keditcl1.cpp:1542
@@ -304,7 +304,6 @@ msgstr ""
 msgid "You do not have write permission to this file.\n"
 msgstr ""
 "Δεν έχετε δικαιώματα πρόσβασης στο αρχείο:\n"
-"%s"
 
 # , fuzzy
 #: kdeui/keditcl2.cpp:105 kdeui/keditcl2.cpp:122 kdeui/keditcl2.cpp:362
@@ -668,7 +667,7 @@ msgstr ""
 # , fuzzy
 #: kfile/kfiledialog.cpp:857
 msgid "Create new directory in: "
-msgstr "Δημιουργώ τον κατάλογο:\n"
+msgstr "Δημιουργώ τον κατάλογο:"
 
 # , fuzzy
 #: kfile/kfiledialog.cpp:860

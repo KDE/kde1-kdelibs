@@ -637,7 +637,7 @@ msgstr "Opredelenoto Dosie ne postoi"
 # , fuzzy
 #: kfile/kfiledialog.cpp:857
 msgid "Create new directory in: "
-msgstr "Sozdavam direktorium:\n"
+msgstr "Sozdavam direktorium:"
 
 # , fuzzy
 #: kfile/kfiledialog.cpp:860

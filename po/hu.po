@@ -640,7 +640,7 @@ msgstr "A megadott file nem létezik"
 # , fuzzy
 #: kfile/kfiledialog.cpp:857
 msgid "Create new directory in: "
-msgstr "Könyvtár létrehozása:\n"
+msgstr "Könyvtár létrehozása:"
 
 # , fuzzy
 #: kfile/kfiledialog.cpp:860
