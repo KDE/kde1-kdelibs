@@ -8,33 +8,32 @@ msgstr ""
 "--keyword=_ --keyword=N_ --files-from=../../po/POTFILES.in\n"
 
 #: kab/AssertDialog.cpp:29
-#, fuzzy
 msgid "(unknown file)"
-msgstr "неизвестно"
+msgstr "(неизвестный файл)"
 
 #: kab/AssertDialog.cpp:30
 msgid "(unknown line number)"
-msgstr ""
+msgstr "(неизвестный номер строки)"
 
 #: kab/AssertDialog.cpp:31
 msgid "(unknown condition)"
-msgstr ""
+msgstr "(неизвестное условие)"
 
 #: kab/AssertDialog.cpp:39
 msgid "You have found a bug in "
-msgstr ""
+msgstr "Вы нашли ошибку в "
 
 #: kab/AssertDialog.cpp:45
 msgid "Ignore the error, possibly causing much more damage"
-msgstr ""
+msgstr "Возможно, что игнорирование ошибки нанесет еще больший ущерб"
 
 #: kab/AssertDialog.cpp:47
 msgid "Kill the application, loosing all data"
-msgstr ""
+msgstr "Убить приложение, с потерей данных"
 
 #: kab/AssertDialog.cpp:49
 msgid "Send an email to the application maintainer"
-msgstr ""
+msgstr "Послать E-mail автору приложения"
 
 #: kab/AssertDialog.cpp:51 kab/StringListDialog.cpp:34
 #: kab/datepickerdialog.cc:25 kab/kabapi.cc:35 kdeui/kcolordlg.cpp:463
@@ -50,36 +49,36 @@ msgstr "ОК"
 
 #: kab/AssertDialog.cpp:140
 msgid "The following condition failed:\n"
-msgstr ""
+msgstr "Не выполнен следующее условие:\n"
 
 #
 #: kab/AssertDialog.cpp:141
-#, fuzzy
 msgid "In file "
-msgstr "файл"
+msgstr "В файле "
 
 #: kab/AssertDialog.cpp:141
 msgid ", line "
-msgstr ""
+msgstr ", строчка "
 
 #: kab/AssertDialog.cpp:212 kab/AssertDialog.cpp:217
 msgid "Error handling error"
-msgstr ""
+msgstr "Ошибка обработки ошибки"
 
 #: kab/AssertDialog.cpp:213
-#, fuzzy
 msgid "Could not send message."
-msgstr "Не могу записать документ.\n"
+msgstr "Не могу послать сообщение."
 
 #: kab/AssertDialog.cpp:218
 msgid "The author did not publish an email address."
-msgstr ""
+msgstr "Автор не указал свой E-mail."
 
 #: kab/DialogBase.cpp:36
 msgid ""
 "If you press the OK button, all changes\n"
 "you made will be used to proceed."
 msgstr ""
+"Если вы нажмете кнопку OK, все изменения, которые\n"
+"вы произвели, будут обработаны."
 
 #: kab/DialogBase.cpp:39
 msgid ""
@@ -87,6 +86,9 @@ msgid ""
 "handed over to the program, but the dialog\n"
 "will not be closed.Use this to try different settings."
 msgstr ""
+"Когда вы нажмете Применить, установки будут\n"
+"обработаны программой, но диалог не будет закрыт.\n"
+"Используйте это для того, чтобы попробовать разные установки."
 
 #: kab/DialogBase.cpp:44
 msgid ""
@@ -96,6 +98,11 @@ msgid ""
 "The program will be in the state before\n"
 "opening the dialog."
 msgstr ""
+"Если вы нажмете кнопку Отмена, все изменения\n"
+"будут утеряны и диалог будет закрыт.\n"
+"Программа будет в том состоянии, в котором она была\n"
+"до отрытия диалога."
+
 
 #: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
 #: kdeui/kwizard.cpp:228 po/texts.cpp:36
@@ -103,9 +110,8 @@ msgid "&OK"
 msgstr "&ОК"
 
 #: kab/DialogBase.cpp:58
-#, fuzzy
 msgid "&Apply"
-msgstr "Применить"
+msgstr "&Применить"
 
 #: kab/DialogBase.cpp:59 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
 #: kdeui/kwizard.cpp:159 po/texts.cpp:40
@@ -114,115 +120,111 @@ msgstr "&Отмена"
 
 #: kab/PrintDialog.cpp:26
 msgid "Headline text:"
-msgstr ""
+msgstr "Текст заголовка:"
 
 #: kab/PrintDialog.cpp:27
 msgid "Right footer text:"
-msgstr ""
+msgstr "Текст правого нижнего колонтитула:"
 
 #: kab/PrintDialog.cpp:28
 msgid "Left footer text:"
-msgstr ""
+msgstr "Текст левого нижнего колонтитула:"
 
 #: kab/SearchDialog.cpp:47
 msgid "The title"
-msgstr ""
+msgstr "Заголовок"
 
 #: kab/SearchDialog.cpp:48
 msgid "The first name"
-msgstr ""
+msgstr "Имя"
 
 #: kab/SearchDialog.cpp:49
 msgid "The additional name"
-msgstr ""
+msgstr "Фамилия"
 
 #: kab/SearchDialog.cpp:50
 msgid "The name prefix"
-msgstr ""
+msgstr "Префикс имени"
 
 #: kab/SearchDialog.cpp:51
-#, fuzzy
 msgid "The name"
-msgstr "Путь"
+msgstr "Полное имя"
 
 #: kab/SearchDialog.cpp:52
 msgid "The formatted name"
-msgstr ""
+msgstr "Форматированное имя"
 
 #: kab/SearchDialog.cpp:53
 msgid "The address"
-msgstr ""
+msgstr "Адрес"
 
 #: kab/SearchDialog.cpp:54
-#, fuzzy
 msgid "The town"
-msgstr "Путь"
+msgstr "Город"
 
 #: kab/SearchDialog.cpp:55
 msgid "The organization"
-msgstr ""
+msgstr "Организация"
 
 #: kab/SearchDialog.cpp:56
 msgid "The role"
-msgstr ""
+msgstr "Роль"
 
 #: kab/SearchDialog.cpp:57
 msgid "The org unit"
-msgstr ""
+msgstr "Отдел"
 
 #: kab/SearchDialog.cpp:58
 msgid "The org subunit"
-msgstr ""
+msgstr "Подотдел"
 
 #: kab/SearchDialog.cpp:59
 msgid "The email address"
-msgstr ""
+msgstr "E-mail"
 
 #: kab/SearchDialog.cpp:60
 msgid "The second email address"
-msgstr ""
+msgstr "Второй E-mail"
 
 #: kab/SearchDialog.cpp:61
 msgid "The third email address"
-msgstr ""
+msgstr "Третий E-mail"
 
 #: kab/SearchDialog.cpp:62
 msgid "The telephone number"
-msgstr ""
+msgstr "Телефонный номер"
 
 #: kab/SearchDialog.cpp:63
 msgid "The fax number"
-msgstr ""
+msgstr "Номер факса"
 
 #: kab/SearchDialog.cpp:64
 msgid "The modem number"
-msgstr ""
+msgstr "Номер модема"
 
 #: kab/SearchDialog.cpp:65
 msgid "The homepage URL"
-msgstr ""
+msgstr "URL домашней странички"
 
 #: kab/SearchDialog.cpp:66
 msgid "The comment"
-msgstr ""
+msgstr "Комментарий"
 
-#
 #: kab/SearchDialog.cpp:74
-#, fuzzy
 msgid "kab: Search entries"
-msgstr "Искать файл"
+msgstr "kab: Искать элементы"
 
 #: kab/SearchDialogMainWidget.cpp:22
 msgid "matches"
-msgstr ""
+msgstr "совпадений"
 
 #: kab/SearchDialogMainWidget.cpp:23
 msgid "Use shell wildcard patterns here"
-msgstr ""
+msgstr "Здесь используйте маску оболочки"
 
 #: kab/SearchDialogMainWidget.cpp:24
 msgid "Select field to match the pattern"
-msgstr ""
+msgstr "Выберите поля, по которому искать"
 
 #: kab/StringListDialog.cpp:35 kab/datepickerdialog.cc:26 kab/kabapi.cc:38
 #: kab/widget.cc:1361 kab/widget.cc:1403 kdetest/klocaletest.cpp:103
@@ -239,11 +241,11 @@ msgstr "Отмена"
 
 #: kab/StringListSelectAndReorderSet.cpp:34
 msgid "Possible values:"
-msgstr ""
+msgstr "Возможные значения:"
 
 #: kab/StringListSelectAndReorderSet.cpp:35
 msgid "Selected values:"
-msgstr ""
+msgstr "Выбранные значения:"
 
 #: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:549 kfile/kfiledialog.cpp:1193
 #: kfile/kfiledialog.cpp:1352 kfile/kfiledialog.cpp:1386 po/texts.cpp:65
@@ -299,9 +301,8 @@ msgid "Replace"
 msgstr "Заменить"
 
 #: kdecore/kaccel.cpp:279 po/texts.cpp:134
-#, fuzzy
 msgid "Insert"
-msgstr "&Вставить"
+msgstr "Вставить"
 
 #
 #: kdecore/kaccel.cpp:283 kfile/kfiledialog.cpp:131
@@ -310,15 +311,13 @@ msgstr "Мой домашний каталог"
 
 #: kdecore/kaccel.cpp:287
 msgid "End"
-msgstr ""
+msgstr "Конец"
 
 #: kdecore/kaccel.cpp:291
-#, fuzzy
 msgid "Prior"
-msgstr "Ошибка"
+msgstr "Предыдущий"
 
 #: kdecore/kaccel.cpp:295
-#, fuzzy
 msgid "Next"
 msgstr "Следующий"
 
@@ -329,15 +328,15 @@ msgstr "Помощь"
 
 #: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:661
 msgid "SHIFT"
-msgstr ""
+msgstr "SHIFT"
 
 #: kdecore/kaccel.cpp:601 kdecore/kaccel.cpp:663
 msgid "CTRL"
-msgstr ""
+msgstr "CTRL"
 
 #: kdecore/kaccel.cpp:605 kdecore/kaccel.cpp:665
 msgid "ALT"
-msgstr ""
+msgstr "ALT"
 
 #: kdecore/kapp.cpp:551 po/texts.cpp:137
 msgid "&Contents"
@@ -739,34 +738,30 @@ msgstr "&Помощь"
 
 #
 #: kdeui/kkeydialog.cpp:236 po/texts.cpp:136
-#, fuzzy
 msgid "&Defaults"
-msgstr "&По умолчанию:"
+msgstr "&Умолчания"
 
 #: kdeui/kkeydialog.cpp:320
 msgid "Current key"
-msgstr ""
+msgstr "Текущая клавиша"
 
 #
 #: kdeui/kkeydialog.cpp:331
-#, fuzzy
 msgid "&Action"
-msgstr "&Расположение"
+msgstr "&Действие"
 
 #: kdeui/kkeydialog.cpp:392
 msgid "&No key"
-msgstr ""
+msgstr "Нет клавиши"
 
 #
 #: kdeui/kkeydialog.cpp:400
-#, fuzzy
 msgid "&Default key"
-msgstr "&По умолчанию:"
+msgstr "&Клавиша по умолчанию"
 
 #: kdeui/kkeydialog.cpp:408
-#, fuzzy
 msgid "&Custom key"
-msgstr "Настройки"
+msgstr "Своя клавиша"
 
 #: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:731
 msgid "Top"
@@ -799,7 +794,7 @@ msgstr "&По умолчанию:"
 
 #: kdeui/kquickhelp.cpp:203
 msgid "Quickhelp"
-msgstr ""
+msgstr "Быстрая помощь"
 
 #: kdeui/ktoolbar.cpp:237 kdeui/ktoolbar.cpp:288
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
@@ -1560,7 +1555,6 @@ msgid "<< &Previous"
 msgstr "<< &Предыдущий"
 
 #: po/texts.cpp:138
-#, fuzzy
 msgid "&About..."
 msgstr "О &программе..."
 
@@ -1571,10 +1565,13 @@ msgid ""
 "The program will try to create\n"
 "         "
 msgstr ""
+"Каталог, где хранится адресная книга не существует.\n"
+"Программа попытается его создать\n"
+" "
 
 #: kab/addressbook.cc:92
 msgid "and store all local files in this directory."
-msgstr ""
+msgstr "и хранить все локальные фалы в этом каталоге"
 
 #: kab/addressbook.cc:96
 msgid ""
@@ -1584,87 +1581,93 @@ msgid ""
 "in your home directory. Run the KDE filemanager\n"
 "kfm once to automatically create it."
 msgstr ""
+"Ошибка создания каталога.\n"
+"Возможно вы не использовали до этого KDE, поэтому"
+"у вас нет локального каталога \".kde\"\n в вашем"
+"домашнем каталоге. Запустите один раз файл менеджер\n"
+"KDE kfm для того чтобы автоматически создать его."
 
 #: kab/addressbook.cc:104
 msgid "The directory has been created.\n"
-msgstr ""
+msgstr "Каталог создан.\n"
 
 #: kab/addressbook.cc:138
 msgid "No addressbook database file, creating new one."
-msgstr ""
+msgstr "Нет базы данных адресной книги, создаю."
 
 #: kab/addressbook.cc:157
 msgid "Tried to load database for creating backup, but failed"
-msgstr ""
+msgstr "Не удалось загрузить базу данных, для создания резервной копии"
 
 #: kab/addressbook.cc:192
 msgid "Unable to save to backup file."
-msgstr ""
+msgstr "Ошибка сохранения резервной копии"
 
 #: kab/addressbook.cc:198
 msgid "Unable to reset filename after creating backup."
-msgstr ""
+msgstr "Ошибка восстановления имени файла после создания резервной копии"
 
 #: kab/addressbook.cc:203
 msgid "Unable to create backup file"
-msgstr ""
+msgstr "Ошибка создания файла резервной копии"
 
 #: kab/addressbook.cc:256
 msgid "Unable to insert \""
-msgstr ""
+msgstr "Не могу вставить \""
 
 #: kab/addressbook.cc:257
 msgid "\" into configuration section (ignored)."
-msgstr ""
+msgstr "\" в секцию конфигурации (проигнорировано)."
 
 #: kab/addressbook.cc:659
 msgid "Unable to add a new entry with available key."
-msgstr ""
+msgstr "Ошибка добавления новго элемента с существующим ключом."
 
 #: kab/addressbook.cc:665
 msgid "Cannot find previously created section."
-msgstr ""
+msgstr "Не могу найти предварительно созданной секции."
 
 #: kab/addressbook.cc:696
 msgid "Unable to create key-value-map for entry."
-msgstr ""
+msgstr "Ошибка создания карты ключевых значений для элемента."
 
 #: kab/addressbook.cc:925
 msgid "entry without name"
-msgstr ""
+msgstr "элемент без имени"
 
 #: kab/addressbook.cc:943
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
 msgstr ""
+"Ошибка создания нового файла базы данных (возможно доступ запрещен), выхожу."
 
 #: kab/addressbook.cc:949
 msgid "Cannot create configuration section, exiting."
-msgstr ""
+msgstr "Ошибка создания конфигурационной секции, выхожу."
 
 #: kab/addressbook.cc:954
 msgid "Cannot create entries section, exiting."
-msgstr ""
+msgstr "Ошибка создания элементов секции, выхожу."
 
 #: kab/addressbook.cc:959
 msgid "Unable to find previously created section, exiting."
-msgstr ""
+msgstr "Не могу найти созданной секции, выхожу."
 
 #: kab/addressbook.cc:967
 msgid "Cannot save newly created database."
-msgstr ""
+msgstr "Ошибка записи только что созданной базы данных."
 
 #: kab/addressbook.cc:973
 msgid "Cannot erase database contents."
-msgstr ""
+msgstr "Ошибка удаления содержимого базы данных."
 
 #: kab/addressbook.cc:1052
 msgid "First name"
-msgstr ""
+msgstr "Имя"
 
 #: kab/addressbook.cc:1056
 msgid "Additional name"
-msgstr ""
+msgstr "Фамилия"
 
 #: kab/addressbook.cc:1060
 msgid "Name prefix"
@@ -1672,250 +1675,230 @@ msgstr ""
 
 #: kab/addressbook.cc:1064
 msgid "Formatted name"
-msgstr ""
+msgstr "Форматированное имя"
 
 #: kab/addressbook.cc:1068
-#, fuzzy
 msgid "Comment"
-msgstr "Содержимое"
+msgstr "Комментарий"
 
 #: kab/addressbook.cc:1072
 msgid "Organization"
-msgstr ""
+msgstr "Организация"
 
 #: kab/addressbook.cc:1076
-#, fuzzy
 msgid "Unit"
-msgstr "Беззаголовка"
+msgstr "Отдел"
 
 #
 #: kab/addressbook.cc:1080
-#, fuzzy
 msgid "Subunit"
-msgstr "Вос"
+msgstr "Подотдел"
 
-#
 #: kab/addressbook.cc:1084
-#, fuzzy
 msgid "Title"
-msgstr "файл"
+msgstr "Заголовок"
 
-#
 #: kab/addressbook.cc:1088
-#, fuzzy
 msgid "Role"
-msgstr "папка"
+msgstr "Роль"
 
 #: kab/addressbook.cc:1092
 msgid "Birthday"
-msgstr ""
+msgstr "День рождения"
 
 #: kab/addressbook.cc:1096
 msgid "Talk addresses"
-msgstr ""
+msgstr "Адреса"
 
 #: kab/addressbook.cc:1100
 msgid "Delivery label"
-msgstr ""
+msgstr "Ярлык для почты"
 
 #: kab/addressbook.cc:1104
 msgid "Email address"
-msgstr ""
+msgstr "E-mail"
 
 #: kab/addressbook.cc:1108
 msgid "Second email address"
-msgstr ""
+msgstr "Второй E-mail"
 
 #: kab/addressbook.cc:1112
 msgid "Third email address"
-msgstr ""
+msgstr "Третий E-mail"
 
 #: kab/addressbook.cc:1116
 msgid "Email addresses"
-msgstr ""
+msgstr "E-mail адреса"
 
 #: kab/addressbook.cc:1120
-#, fuzzy
 msgid "Address"
-msgstr "Добавить"
+msgstr "Адрес"
 
 #: kab/addressbook.cc:1124
 msgid "City/Town"
-msgstr ""
+msgstr "Город"
 
 #: kab/addressbook.cc:1128
 msgid "Telephone"
-msgstr ""
+msgstr "Телефон"
 
 #: kab/addressbook.cc:1132
 msgid "Fax number"
-msgstr ""
+msgstr "Номер факса"
 
 #: kab/addressbook.cc:1136
-#, fuzzy
 msgid "Modem number"
-msgstr "Ноябрь"
+msgstr "Номер модема"
 
 #: kab/addressbook.cc:1140
 msgid "Homepage URL"
-msgstr ""
+msgstr "URL домашней странички"
 
 #: kab/addressbook.cc:1144
 msgid "Zip/postal code"
-msgstr ""
+msgstr "Почтовый код"
 
 #: kab/addressbook.cc:1148
 msgid "State/province"
-msgstr ""
+msgstr "Штат/область"
 
 #: kab/addressbook.cc:1152
-#, fuzzy
 msgid "Country"
-msgstr "Вырезать"
+msgstr "Страна"
 
 #: kab/addressbook.cc:1319
 msgid "(unnamed entry)"
-msgstr ""
+msgstr "(безымянный елемент)"
 
 #: kab/datepickerdialog.cc:34
-#, fuzzy
 msgid "Select birthday"
-msgstr "Выберите шрифт"
+msgstr "Выбрать день рождения"
 
 #: kab/editentry.cc:38
 msgid "Edit the current entry"
-msgstr ""
+msgstr "Редактировать текущий элемент"
 
 #: kab/editentry.cc:61
-#, fuzzy
 msgid "Title:"
-msgstr "Стиль:"
+msgstr "Заголовок:"
 
 #: kab/editentry.cc:62
 msgid "First name:"
-msgstr ""
+msgstr "Имя"
 
 #: kab/editentry.cc:63
 msgid "Additional Name:"
-msgstr ""
+msgstr "Фамилия"
 
 #: kab/editentry.cc:65
 msgid "Formatted Name:"
-msgstr ""
+msgstr "Форматированное имя"
 
 #
 #: kab/editentry.cc:88
-#, fuzzy
 msgid "&Name"
-msgstr "Имя"
+msgstr "Полное имя"
 
 #: kab/editentry.cc:103
 msgid "Address:"
-msgstr ""
+msgstr "Адрес:"
 
 #: kab/editentry.cc:104
 msgid "Zip/postal code:"
-msgstr ""
+msgstr "Почтовый код:"
 
 #: kab/editentry.cc:105
 msgid "Town:"
-msgstr ""
+msgstr "Город:"
 
-#
 #: kab/editentry.cc:106
-#, fuzzy
 msgid "State:"
-msgstr "Дата:"
+msgstr "Штат:"
 
 #: kab/editentry.cc:107
 msgid "Country:"
-msgstr ""
+msgstr "Страна:"
 
 #: kab/editentry.cc:130
 msgid "&Address"
-msgstr ""
+msgstr "Адрес"
 
 #: kab/editentry.cc:145
 msgid "Organization:"
-msgstr ""
+msgstr "Организация:"
 
 #: kab/editentry.cc:146
 msgid "Org Unit:"
-msgstr ""
+msgstr "Отдел"
 
 #: kab/editentry.cc:147
 msgid "Org Subunit:"
-msgstr ""
+msgstr "Подотдел"
 
-#
 #: kab/editentry.cc:148
-#, fuzzy
 msgid "Role:"
-msgstr "Папка:"
+msgstr "Роль:"
 
 #: kab/editentry.cc:169
 msgid "&Organization"
-msgstr ""
+msgstr "Организация"
 
 #: kab/editentry.cc:184
 msgid "Telephone:"
-msgstr ""
+msgstr "Телефон:"
 
 #: kab/editentry.cc:185
 msgid "Fax:"
-msgstr ""
+msgstr "Факс:"
 
 #: kab/editentry.cc:186
-#, fuzzy
 msgid "Modem:"
-msgstr "Перемещать"
+msgstr "Модем:"
 
 #: kab/editentry.cc:187
 msgid "Homepage (URL):"
-msgstr ""
+msgstr "Домашняя страничка (URL):"
 
 #: kab/editentry.cc:200 kab/editentry.cc:416
 msgid "Edit email addresses"
-msgstr ""
+msgstr "Редактировать E-mail адреса"
 
 #: kab/editentry.cc:206 kab/editentry.cc:398
 msgid "Edit talk addresses"
-msgstr ""
+msgstr "Редактировать адреса"
 
 #: kab/editentry.cc:218
-#, fuzzy
 msgid "&Contact"
-msgstr "Содержимое"
+msgstr "Контактая информация"
 
 #
 #: kab/editentry.cc:239
-#, fuzzy
 msgid "Comment:"
-msgstr "Содержимое:"
+msgstr "Комментарий"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
-msgstr ""
+msgstr "День рождения:"
 
 #: kab/editentry.cc:249
 msgid "Double click to set date"
-msgstr ""
+msgstr "Двойной щелчок, чтобы установить дату"
 
 #: kab/editentry.cc:256
 msgid "O&thers"
-msgstr ""
+msgstr "Разное"
 
 #: kab/kabapi.cc:134
 msgid "Your new entry could not be added."
-msgstr ""
+msgstr "Нельзя добавить новый элемент."
 
 #: kab/searchresults.cc:33
 msgid "search results"
-msgstr ""
+msgstr "результаты поиска"
 
 #: kab/widget.cc:139
 msgid "Conversion problem"
-msgstr ""
+msgstr "Проблема преобразования"
 
 #: kab/widget.cc:140
 msgid ""
@@ -1924,16 +1907,22 @@ msgid ""
 "You can use it, but not all features will be\n"
 "supported."
 msgstr ""
+"Kab не может преобразовать вашу базу данных\n"
+"в текущий формат.\n"
+"Вы можете его использовать, но не все возможности\n"
+"будут использованы."
 
 #: kab/widget.cc:158
 msgid ""
 "The application saved the last current entry,\n"
 "but this entry does not exist anymore."
 msgstr ""
+"Приложение сохранило последий текущий элемент,\n"
+"но этот элемент больше не существует."
 
 #: kab/widget.cc:224
 msgid "kab: Removed bug warning"
-msgstr ""
+msgstr "kab: предупреждение об удалении ошибки"
 
 #: kab/widget.cc:225
 msgid ""
@@ -1944,18 +1933,21 @@ msgid ""
 "All configuration values have been reset to\n"
 "its default settings."
 msgstr ""
+"Вы использовали версию kab, в которой была ошибка\n"
+"обновления базы данных. Эта ошибка устранена.\n"
+"Все установки были установлены по умолчанию."
 
 #: kab/widget.cc:243 kab/widget.cc:307 kab/widget.cc:315
 msgid "File handling error"
-msgstr ""
+msgstr "Ошибка работы с файлами"
 
 #: kab/widget.cc:244
 msgid "Unable to open database file r/w."
-msgstr ""
+msgstr "Ошибка открытия базы данных на чтение/запись."
 
 #: kab/widget.cc:252
 msgid "Email storage conversion"
-msgstr ""
+msgstr "Преобразование хранилища E-mail адресов"
 
 #: kab/widget.cc:253
 msgid ""
@@ -1981,9 +1973,8 @@ msgid ""
 msgstr ""
 
 #: kab/widget.cc:308
-#, fuzzy
 msgid "Could not save database after update."
-msgstr "Не могу записать документ.\n"
+msgstr "Не могу записать базу данных после обновления."
 
 #: kab/widget.cc:316
 msgid "Unable to reopen database file r/o."
@@ -1991,20 +1982,17 @@ msgstr ""
 
 #
 #: kab/widget.cc:477
-#, fuzzy
 msgid "first entry"
-msgstr "каталог"
+msgstr "первый элемент"
 
 #: kab/widget.cc:478
-#, fuzzy
 msgid "previous entry"
-msgstr "Предыдущий"
+msgstr "предыдущий элемент"
 
 #
 #: kab/widget.cc:479
-#, fuzzy
 msgid "next entry"
-msgstr "один каталог"
+msgstr "следующий элемент"
 
 #: kab/widget.cc:480
 msgid "last entry"
@@ -2040,14 +2028,12 @@ msgstr ""
 
 #
 #: kab/widget.cc:620 kab/widget.cc:674 kab/widget.cc:911
-#, fuzzy
 msgid "Permission denied."
-msgstr "Права"
+msgstr "Доступ запрещен."
 
 #: kab/widget.cc:631
-#, fuzzy
 msgid "Remove entry?"
-msgstr "Удалить"
+msgstr "Удалить элемент?"
 
 #: kab/widget.cc:632
 msgid "Really remove this entry?"
@@ -2094,23 +2080,20 @@ msgid "kab: File error"
 msgstr ""
 
 #: kab/widget.cc:860
-#, fuzzy
 msgid "Could not save database."
-msgstr "Не могу записать документ.\n"
+msgstr "Не могу записать базу данных."
 
 #: kab/widget.cc:861
-#, fuzzy
 msgid "&Retry"
-msgstr "Восстановить"
+msgstr "Повторить"
 
 #: kab/widget.cc:861
 msgid "&Ignore"
 msgstr ""
 
 #: kab/widget.cc:864
-#, fuzzy
 msgid "Saving cancelled.\n"
-msgstr "Отмена"
+msgstr "Запись отменена.\n"
 
 #: kab/widget.cc:930
 msgid "Entry changed."
@@ -2153,9 +2136,8 @@ msgid "Available talk addresses:"
 msgstr ""
 
 #: kab/widget.cc:1176 kab/widget.cc:1904
-#, fuzzy
 msgid "Cancelled."
-msgstr "Отмена"
+msgstr "Отменена."
 
 #: kab/widget.cc:1199
 msgid "The talk command parameters are wrong."
@@ -2219,9 +2201,8 @@ msgid "Name-Email-Link (!!)"
 msgstr ""
 
 #: kab/widget.cc:1784
-#, fuzzy
 msgid "Select table columns"
-msgstr "Выберите пиктограмму"
+msgstr "Выберите колонку таблицы"
 
 #: kab/widget.cc:1789
 msgid "Nothing to export."
@@ -2277,9 +2258,8 @@ msgstr ""
 
 #
 #: kab/widget.cc:2060
-#, fuzzy
 msgid "Error calling mailer."
-msgstr "Ошибка: не локальный файл"
+msgstr "Ошибка вызова постовой программы."
 
 #: kab/widget.cc:2062
 msgid "Mailer called."
@@ -2334,14 +2314,12 @@ msgid "Expiration Date"
 msgstr ""
 
 #: kio/kio_cache.cc:422
-#, fuzzy
 msgid "Unknown"
-msgstr "неизвестно"
+msgstr "Неизвестно"
 
 #: kio/kio_cache.cc:428
-#, fuzzy
 msgid "Never"
-msgstr "Ноябрь"
+msgstr "Никогда"
 
 #: kio/kio_error.cc:16
 #, c-format
@@ -2351,18 +2329,20 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:19
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not write to\n"
 "%s"
-msgstr "Не могу записать документ.\n"
+msgstr "Не могу писать в\n"
+"%s"
 
 #: kio/kio_error.cc:22
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not start process\n"
 "%s"
-msgstr "Не могу записать документ.\n"
+msgstr "Не могу запустить процесс\n"
+"%s"
 
 #: kio/kio_error.cc:25
 #, c-format
@@ -2374,11 +2354,12 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:28
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Malformed URL\n"
 "%s"
-msgstr "Неверный URL"
+msgstr "Неверный URL\n"
+"%s"
 
 #: kio/kio_error.cc:31
 #, c-format
@@ -2402,12 +2383,15 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:40
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The file or directory\n"
 "%s\n"
 "does not exist"
-msgstr "Указанный файл не существует"
+msgstr ""
+"Файл или каталог\n"
+"%s\n"
+"не существует"
 
 #: kio/kio_error.cc:43
 #, c-format
@@ -2419,11 +2403,13 @@ msgstr ""
 
 #
 #: kio/kio_error.cc:46
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not make directory\n"
 "%s"
-msgstr "один каталог"
+msgstr ""
+"Ошибка создания каталогф\n"
+"%s"
 
 #: kio/kio_error.cc:49
 #, c-format
@@ -2441,11 +2427,13 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:55
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not enter directory\n"
 "%s"
-msgstr "Не могу записать документ.\n"
+msgstr ""
+"Не могу войти в каталог\n"
+"%s"
 
 #: kio/kio_error.cc:58
 #, c-format
@@ -2462,11 +2450,13 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:64
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not change permissions for\n"
 "%s"
-msgstr "Вы не имеете прав на запись данного файла.\n"
+msgstr ""
+"Ошибка изменения прав доступа для\n"
+"%s"
 
 #: kio/kio_error.cc:67
 #, c-format
@@ -2497,11 +2487,13 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:79
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not connect to host\n"
 "%s"
-msgstr "Не могу записать документ.\n"
+msgstr ""
+"Ошибка связи с сервером\n"
+"%s"
 
 #: kio/kio_error.cc:82
 #, c-format
@@ -2585,21 +2577,20 @@ msgid "This group is empty!"
 msgstr ""
 
 #: kio/kio_openwith.cc:264
-#, fuzzy
 msgid "&Browser"
-msgstr "Просмотр..."
+msgstr "Просмотрщик"
 
 #: kio/kio_pass_dlg.cc:33
 msgid "User"
-msgstr ""
+msgstr "Пользователь"
 
 #: kio/kio_pass_dlg.cc:44 kio/kio_pass_dlg.cc:88
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #: kio/kio_paste.cc:35 kio/kio_paste.cc:47
 msgid "The clipboard is empty"
-msgstr ""
+msgstr "Буфер обмена пуст"
 
 #: kio/kio_paste.cc:62
 msgid ""
@@ -2615,11 +2606,9 @@ msgid "You did not enter a filename"
 msgstr ""
 
 #: kio/kio_paste.cc:84
-#, fuzzy, c-format
+#, c-format
 msgid "The file %s does already exist. Do you really want to overwrite it ?"
-msgstr ""
-"Документ с данным именем существует\n"
-"Переписать?"
+msgstr "Документ с данным именем существует. Переписать?"
 
 #: kio/kio_progress_dlg.cc:92 kio/kio_progress_dlg.cc:108
 msgid " Bytes"
@@ -2634,9 +2623,8 @@ msgid " Mb"
 msgstr ""
 
 #: kio/kio_progress_dlg.cc:151 kio/kio_progress_dlg.cc:177
-#, fuzzy
 msgid "Stalled"
-msgstr "Стиль"
+msgstr "Замерло"
 
 #: kio/kio_progress_dlg.cc:159
 msgid " Bytes/s"
@@ -2671,22 +2659,19 @@ msgid "%i%s  Remaining time: %s"
 msgstr ""
 
 #: kio/kio_progress_dlg.cc:207
-#, fuzzy
 msgid "Scanning "
-msgstr "Предупреждение"
+msgstr "Сканирую "
 
 #
 #: kio/kio_progress_dlg.cc:222
-#, fuzzy
 msgid "Creating dir "
-msgstr "Создать новую папку"
+msgstr "Создаю каталог "
 
 #: kio/kio_progress_dlg.cc:229
 msgid "Fetching file"
 msgstr ""
 
 #: kio/kio_rename_dlg.cc:27
-#, fuzzy
 msgid "Rename"
 msgstr "Удалить"
 
@@ -2727,9 +2712,8 @@ msgid "Do you want to rename it ?"
 msgstr ""
 
 #: kio/kio_rename_dlg.cc:185
-#, fuzzy
 msgid "Malformed URL\n"
-msgstr "Неверный URL"
+msgstr "Неверный URL\n"
 
 #: kio/kio_rename_dlg.cc:194
 msgid "You must not change the protocol"
@@ -2789,13 +2773,12 @@ msgstr ""
 
 #
 #: kio/kmimetypes.cc:608
-#, fuzzy
 msgid "Mount"
-msgstr "Пон"
+msgstr "Подллючить"
 
 #: kio/kmimetypes.cc:615
 msgid "Unmount"
-msgstr ""
+msgstr "Отключить"
 
 #: kio/kmimetypes.cc:658
 #, c-format
@@ -2828,44 +2811,3 @@ msgid ""
 "does not conatain a Name=... entry"
 msgstr ""
 
-#, fuzzy
-#~ msgid "Search"
-#~ msgstr "Март"
-
-#, fuzzy
-#~ msgid "contains"
-#~ msgstr "Содержимое"
-
-#~ msgid "&New"
-#~ msgstr "&Новый"
-
-#~ msgid "&New..."
-#~ msgstr "&Новый..."
-
-#~ msgid "Move"
-#~ msgstr "Перемещать"
-
-#~ msgid "&Previous"
-#~ msgstr "Предыдущий"
-
-#~ msgid "&Next"
-#~ msgstr "Следующий"
-
-#~ msgid "Small"
-#~ msgstr "Маленький"
-
-#~ msgid "Medium"
-#~ msgstr "Средний"
-
-#~ msgid "Large"
-#~ msgstr "Большой"
-
-#~ msgid "(none)"
-#~ msgstr "(ничего)"
-
-#~ msgid "None"
-#~ msgstr "Нет"
-
-#
-#~ msgid "&Ok"
-#~ msgstr "&Ок"
