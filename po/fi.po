@@ -1158,9 +1158,8 @@ msgid "Keep dirs first"
 msgstr "Hakemistot ensin"
 
 #: kfile/kfilefilter.cpp:35
-#, fuzzy
 msgid "*|All Files"
-msgstr "Tiedostot"
+msgstr "*|Kaikki tiedostot"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"
@@ -1270,78 +1269,71 @@ msgstr ""
 
 #: kspell/ksconfig.cpp:66
 msgid "Create Root/Affix combinations not in the dictionary"
-msgstr ""
+msgstr "Luo Perus/liitosyhdistelmät joita ei ole sanakirjassa"
 
 #: kspell/ksconfig.cpp:75
 msgid "Consider run-together words as spelling errors"
-msgstr ""
+msgstr "Pidä yhteenkirjoitettuja sanoja virheinä"
 
 #: kspell/ksconfig.cpp:92
-#, fuzzy
 msgid "Dictionary"
-msgstr "hakemisto"
+msgstr "Sanakirja"
 
 #: kspell/ksconfig.cpp:140
 msgid "Encoding:"
-msgstr ""
+msgstr "Merkistö:"
 
 #: kspell/ksconfig.cpp:147
-#, fuzzy
 msgid "Latin1"
-msgstr "&Sijainti:"
+msgstr "Latin1"
 
 #: kspell/ksconfig.cpp:148
 msgid "7-Bit/ASCII"
-msgstr ""
+msgstr "7-Bit/ASCII"
 
 #: kspell/ksconfig.cpp:292
 msgid "English"
-msgstr ""
+msgstr "Englanti"
 
 #: kspell/ksconfig.cpp:298
 msgid "Spanish"
-msgstr ""
+msgstr "Espanja"
 
 #: kspell/ksconfig.cpp:304
-#, fuzzy
 msgid "German"
-msgstr "roman"
+msgstr "Saksa"
 
 #: kspell/ksconfig.cpp:311
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "Brasilian portugal"
 
 #: kio/kio_cache.cc:422 kspell/ksconfig.cpp:317
 msgid "Unknown"
 msgstr "Tuntematon"
 
 #: kspell/ksconfig.cpp:348
-#, fuzzy
 msgid "ISpell Default"
-msgstr "Oletus"
+msgstr "ISpell Oletus"
 
 #: kspell/kspelldlg.cpp:58
 msgid "Misspelled Word:"
-msgstr ""
+msgstr "Väärä sana:"
 
 #: kspell/kspelldlg.cpp:68
-#, fuzzy
 msgid "Replacement:"
-msgstr "Korvaa"
+msgstr "Korvaava:"
 
 #: kspell/kspelldlg.cpp:77
 msgid "Suggestions:"
-msgstr ""
+msgstr "Ehdotukset:"
 
 #: kspell/kspelldlg.cpp:88
-#, fuzzy
 msgid "Ignore"
-msgstr "&Peru"
+msgstr "Peru"
 
 #: kspell/kspelldlg.cpp:99
-#, fuzzy
 msgid "Ignore All"
-msgstr "&Peru"
+msgstr "Peru Kaikki"
 
 #: kspell/kspelldlg.cpp:120 po/texts.cpp:86
 msgid "Add"
@@ -1924,7 +1916,6 @@ msgid "Address:"
 msgstr "Osoite:"
 
 #: kab/editentry.cc:104
-#, fuzzy
 msgid "Town/City:"
 msgstr "Kaupunki:"
 
@@ -1933,7 +1924,6 @@ msgid "State:"
 msgstr "Osavaltio:"
 
 #: kab/editentry.cc:106
-#, fuzzy
 msgid "Zip/Postal Code:"
 msgstr "Postinumero:"
 
@@ -1950,18 +1940,16 @@ msgid "Organization:"
 msgstr "Organisaatio:"
 
 #: kab/editentry.cc:146
-#, fuzzy
 msgid "Department:"
-msgstr "Päiväys:"
+msgstr "Osasto:"
 
 #: kab/editentry.cc:147
 msgid "Sub-Department:"
-msgstr ""
+msgstr "Alaosasto:"
 
 #: kab/editentry.cc:148
-#, fuzzy
 msgid "Job/Role:"
-msgstr "Rooli:"
+msgstr "Työ/Rooli:"
 
 #: kab/editentry.cc:169
 msgid "&Organization"
@@ -1996,9 +1984,8 @@ msgid "&Contact"
 msgstr "&Yhteystiedot"
 
 #: kab/editentry.cc:239
-#, fuzzy
 msgid "Additional Comment:"
-msgstr "Toinen nimi:"
+msgstr "Lisäkommentti:"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
@@ -3058,12 +3045,3 @@ msgid ""
 msgstr ""
 "\n"
 "ei sisällä Name=... tietuetta"
-
-#~ msgid "Org Unit:"
-#~ msgstr "Yksikkö:"
-
-#~ msgid "Org Subunit:"
-#~ msgstr "Alayksikkö:"
-
-#~ msgid "Comment:"
-#~ msgstr "Kommentti:"
