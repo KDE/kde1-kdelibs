@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-01-13 01:01+0100\n"
+"POT-Creation-Date: 1999-01-15 01:01+0100\n"
 "PO-Revision-Date: 1998-12-02 19:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -48,8 +48,8 @@ msgstr "Sendu retpoþton al la fleganto de la aplika¼o"
 #: kdeui/keditcl1.cpp:191 kdeui/keditcl1.cpp:204 kdeui/keditcl1.cpp:1561
 #: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:391
 #: kdeui/kiconloaderdialog.cpp:264 kdeui/kmsgbox.cpp:277
-#: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:507
-#: kfile/kfiledialog.cpp:888 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:407
+#: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:509
+#: kfile/kfiledialog.cpp:890 kfile/kfiledialogconf.cpp:61 kfmlib/kfm.cpp:407
 #: po/texts.cpp:35
 msgid "OK"
 msgstr "Konfirmu"
@@ -255,8 +255,8 @@ msgstr "Eblaj valoroj:"
 msgid "Selected values:"
 msgstr "Elektita valoro:"
 
-#: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:556 kfile/kfiledialog.cpp:1202
-#: kfile/kfiledialog.cpp:1361 kfile/kfiledialog.cpp:1395 po/texts.cpp:65
+#: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1206
+#: kfile/kfiledialog.cpp:1366 kfile/kfiledialog.cpp:1400 po/texts.cpp:65
 msgid "Open"
 msgstr "Malfermu"
 
@@ -268,8 +268,8 @@ msgstr "Nova"
 msgid "Close"
 msgstr "Fermu"
 
-#: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1257
-#: kfile/kfiledialog.cpp:1416 po/texts.cpp:75
+#: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1261
+#: kfile/kfiledialog.cpp:1421 po/texts.cpp:75
 msgid "Save"
 msgstr "Sekurigu"
 
@@ -407,8 +407,8 @@ msgstr "Ne"
 #: kdeui/kcontrol.cpp:48 kdeui/kcontrol.cpp:55 kdeui/keditcl1.cpp:414
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:394
 #: kdeui/kiconloaderdialog.cpp:265 kdeui/kmsgbox.cpp:312
-#: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:893
-#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:411 kio/kio_job.cc:697
+#: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:895
+#: kfile/kfiledialogconf.cpp:59 kfmlib/kfm.cpp:411 kio/kio_job.cc:697
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
 #: po/texts.cpp:39
@@ -439,8 +439,7 @@ msgstr "Adaptu..."
 msgid "Default"
 msgstr "Implicita"
 
-#: kdeui/kcontrol.cpp:47 kdeui/kcontrol.cpp:53 kfile/kfiledialogconf.cpp:59
-#: po/texts.cpp:41
+#: kdeui/kcontrol.cpp:47 kdeui/kcontrol.cpp:53 po/texts.cpp:41
 msgid "Apply"
 msgstr "Apliku"
 
@@ -909,11 +908,11 @@ msgstr "Dekstre"
 msgid "Page %d of %d"
 msgstr "Paøo %d de %d"
 
-#: kfile/kcombiview.cpp:80
+#: kfile/kcombiview.cpp:81
 msgid "Folders:"
 msgstr "Dosierujoj:"
 
-#: kfile/kcombiview.cpp:81
+#: kfile/kcombiview.cpp:82
 msgid "Contents:"
 msgstr "Enhavo:"
 
@@ -989,11 +988,11 @@ msgstr "&Filtrilo:"
 msgid "Show hidden"
 msgstr "Montru kaþitajn"
 
-#: kfile/kfiledialog.cpp:502
+#: kfile/kfiledialog.cpp:504
 msgid "Error: Not local file"
 msgstr "Eraro: Ne estas loka dosiero"
 
-#: kfile/kfiledialog.cpp:503
+#: kfile/kfiledialog.cpp:505
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
@@ -1001,11 +1000,11 @@ msgstr ""
 "La indikita dosierujo ne estas loka dosierujo\n"
 "Se la aplika¼o akceptas nur lokajn dosierojn."
 
-#: kfile/kfiledialog.cpp:517 kfile/kfiledialog.cpp:622
+#: kfile/kfiledialog.cpp:519 kfile/kfiledialog.cpp:624
 msgid "Error: Cannot Open Directory"
 msgstr "Eraro: Ne eblis malfermi la dosierujon"
 
-#: kfile/kfiledialog.cpp:518
+#: kfile/kfiledialog.cpp:520
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
@@ -1013,73 +1012,73 @@ msgstr ""
 "La indikita dosierujo ne ekzistas\n"
 "aý ne estis legebla."
 
-#: kfile/kfiledialog.cpp:520 kfile/kfiledialog.cpp:625
+#: kfile/kfiledialog.cpp:522 kfile/kfiledialog.cpp:627
 msgid "Dismiss"
 msgstr "Foriru"
 
-#: kfile/kfiledialog.cpp:571 kfile/kfiledialog.cpp:1376 po/texts.cpp:77
+#: kfile/kfiledialog.cpp:573 kfile/kfiledialog.cpp:1381 po/texts.cpp:77
 msgid "Save As"
 msgstr "Sekurigu kiel"
 
-#: kfile/kfiledialog.cpp:594
+#: kfile/kfiledialog.cpp:596
 msgid "Root Directory"
 msgstr "Radika dosierujo"
 
-#: kfile/kfiledialog.cpp:623
+#: kfile/kfiledialog.cpp:625
 msgid "The specified directory does not exist or was not readable."
 msgstr "La indikita dosierujo ne ekzistas aý ne estis legebla."
 
-#: kfile/kfiledialog.cpp:873
+#: kfile/kfiledialog.cpp:875
 msgid "Create new directory in: "
 msgstr "Kreu novan dosierujon en: "
 
-#: kfile/kfiledialog.cpp:876
+#: kfile/kfiledialog.cpp:878
 msgid "New Directory"
 msgstr "Nova dosierujo"
 
-#: kfile/kfiledialog.cpp:948
+#: kfile/kfiledialog.cpp:950
 msgid "Add to bookmarks"
 msgstr "Aldonu al legosignoj"
 
-#: kfile/kfiledialog.cpp:1236
+#: kfile/kfiledialog.cpp:1240
 msgid "Choose Directory"
 msgstr "Elektu dosierujon"
 
-#: kfile/kfiledialog.cpp:1304
+#: kfile/kfiledialog.cpp:1308
 msgid "directory"
 msgstr "dosierujo"
 
-#: kfile/kfiledialog.cpp:1306
+#: kfile/kfiledialog.cpp:1310
 msgid "directories"
 msgstr "dosierujoj"
 
-#: kfile/kfiledialog.cpp:1308 kfile/kpreview.cpp:326
+#: kfile/kfiledialog.cpp:1312 kfile/kpreview.cpp:326
 msgid "file"
 msgstr "dosiero"
 
-#: kfile/kfiledialog.cpp:1310
+#: kfile/kfiledialog.cpp:1314
 msgid "files"
 msgstr "dosieroj"
 
-#: kfile/kfiledialog.cpp:1312
+#: kfile/kfiledialog.cpp:1316
 #, c-format
 msgid "%d %s and %d %s"
 msgstr "%d %s kaj %d %s"
 
-#: kfile/kfiledialog.cpp:1322
+#: kfile/kfiledialog.cpp:1326
 msgid "one directory"
 msgstr "unu dosierujo"
 
-#: kfile/kfiledialog.cpp:1324
+#: kfile/kfiledialog.cpp:1328
 #, fuzzy, c-format
 msgid "%d directories"
 msgstr "dosierujoj"
 
-#: kfile/kfiledialogconf.cpp:41
+#: kfile/kfiledialogconf.cpp:42
 msgid "Look and Feel"
 msgstr "Aspekto kaj Sento"
 
-#: kfile/kfiledialogconf.cpp:43
+#: kfile/kfiledialogconf.cpp:44
 msgid ""
 "KDE File Selector by:\n"
 "\n"
@@ -1103,51 +1102,51 @@ msgstr ""
 "Mario Weilguni <mweilguni@sime.com>\n"
 "kaj Martin Jones <mjones@kde.org>"
 
-#: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
+#: kfile/kfiledialogconf.cpp:57 po/texts.cpp:32
 msgid "About"
 msgstr "Pri"
 
-#: kfile/kfiledialogconf.cpp:70
+#: kfile/kfiledialogconf.cpp:71
 msgid "View style"
 msgstr "Aspekto"
 
-#: kfile/kfiledialogconf.cpp:74
+#: kfile/kfiledialogconf.cpp:75
 msgid "Show Short View"
 msgstr "Montru koncize"
 
-#: kfile/kfiledialogconf.cpp:80
+#: kfile/kfiledialogconf.cpp:81
 msgid "Show Detail View"
 msgstr "Montru detale"
 
-#: kfile/kfiledialogconf.cpp:89
+#: kfile/kfiledialogconf.cpp:90
 msgid "Misc"
 msgstr "Diverse"
 
-#: kfile/kfiledialogconf.cpp:95
+#: kfile/kfiledialogconf.cpp:96
 msgid "Show Filter"
 msgstr "Montru filtrilon"
 
-#: kfile/kfiledialogconf.cpp:101
+#: kfile/kfiledialogconf.cpp:102
 msgid "Show List Labels"
 msgstr "Montru listotitolojn"
 
-#: kfile/kfiledialogconf.cpp:107
+#: kfile/kfiledialogconf.cpp:108
 msgid "Show Hidden"
 msgstr "Montru kaþitajn"
 
-#: kfile/kfiledialogconf.cpp:113
+#: kfile/kfiledialogconf.cpp:114
 msgid "Show Status Line"
 msgstr "Montru statolistelon"
 
-#: kfile/kfiledialogconf.cpp:119
+#: kfile/kfiledialogconf.cpp:120
 msgid "Use single Click"
 msgstr "Uzu solan klikon"
 
-#: kfile/kfiledialogconf.cpp:125
+#: kfile/kfiledialogconf.cpp:126
 msgid "Mix dirs and files"
 msgstr "Miksu ujojn kaj dosierojn"
 
-#: kfile/kfiledialogconf.cpp:131
+#: kfile/kfiledialogconf.cpp:132
 msgid "Keep dirs first"
 msgstr "Dosierujoj unue"
 
