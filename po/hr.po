@@ -26,7 +26,6 @@ msgid "About KDE"
 msgstr "O KDE"
 
 #: kdecore/kapp.cpp:530
-#, fuzzy
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -39,7 +38,7 @@ msgid ""
 "Please report bugs at http://buglist.kde.org.\n"
 msgstr ""
 "\n"
-"KDE Desktop Environment napisan je od strane KDE Tima,\n"
+"KDE Desktop Environment napisan je od strane KDE tima,\n"
 "svjetske mre¾e programera koji rade na razvoju\n"
 "besplatnog softvera.\n"
 "\n"
