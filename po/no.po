@@ -2623,7 +2623,7 @@ msgstr "Denne gruppen er tom!"
 
 #: kio/kio_openwith.cc:264
 msgid "&Browser"
-msgstr "Gjennom&blaer"
+msgstr "&Bla gjennom"
 
 #: kio/kio_pass_dlg.cc:33
 msgid "User"
