@@ -213,16 +213,18 @@ while (!src.iteratorAtEnd())
 if (src.active!=NULL) active=getSongid(src.active->id);
 };
 
-void SongList::next(void)
+int SongList::next(void)
 {
-if (list==NULL) {active=NULL;return;};
+if (list==NULL) {active=NULL;return 0;};
 if (active!=NULL) active=active->next;
 if (active==NULL) 
 	{
 	Song *tmp=list;
 	while (tmp->next!=NULL) tmp=tmp->next;
 	active=tmp;
-	};
+        return 0;
+        };
+return 1;
 };
 
 
