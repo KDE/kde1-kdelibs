@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-12-15 01:01+0100\n"
+"POT-Creation-Date: 1998-12-16 01:00+0100\n"
 "Content-Type: text/plain; charset=koi8-r\n"
 "Date: 1997-11-20 18:24:38+0600\n"
 "From: Denis Y. Pershin <dyp@inetlab.com>\n"
@@ -802,27 +802,27 @@ msgstr "Общие клавиши"
 msgid "Keys"
 msgstr "Клавиши"
 
-#: kdeui/kkeydialog.cpp:637 kdeui/kkeydialog.cpp:970
+#: kdeui/kkeydialog.cpp:637 kdeui/kkeydialog.cpp:976
 msgid "Attention : key already used"
 msgstr "Осторожно: клавиша уже используется"
 
-#: kdeui/kkeydialog.cpp:920
+#: kdeui/kkeydialog.cpp:926
 msgid "Press the wanted key"
 msgstr "Нажмите желаемую клавишу"
 
-#: kdeui/kkeydialog.cpp:943
+#: kdeui/kkeydialog.cpp:949
 msgid "Undefined key"
 msgstr "Неопределенная клавиша"
 
-#: kdeui/kkeydialog.cpp:992
+#: kdeui/kkeydialog.cpp:999
 msgid "Return to end edition"
 msgstr "Заканчиваю редактирование"
 
-#: kdeui/kkeydialog.cpp:1002
+#: kdeui/kkeydialog.cpp:1009
 msgid "Incorrect key"
 msgstr "Некорректная клавиша"
 
-#: kdeui/kkeydialog.cpp:1028
+#: kdeui/kkeydialog.cpp:1035
 #, c-format
 msgid ""
 "The %s key combination has already been allocated\n"
@@ -835,11 +835,11 @@ msgstr ""
 "\n"
 "Пожайлуста выберите уникальную комбинацию клавиш."
 
-#: kdeui/kkeydialog.cpp:1032
+#: kdeui/kkeydialog.cpp:1039
 msgid "Global key conflict"
 msgstr "Конфликт общих клавиш"
 
-#: kdeui/kkeydialog.cpp:1055
+#: kdeui/kkeydialog.cpp:1062
 #, c-format
 msgid ""
 "The %s key combination has already been allocated\n"
@@ -852,11 +852,11 @@ msgstr ""
 "\n"
 "Пожайлуста выберите уникальную комбинацию клавиш."
 
-#: kdeui/kkeydialog.cpp:1059
+#: kdeui/kkeydialog.cpp:1066
 msgid "Standard key conflict"
 msgstr "Конфликт стандартных клавиш"
 
-#: kdeui/kkeydialog.cpp:1079
+#: kdeui/kkeydialog.cpp:1086
 #, c-format
 msgid ""
 "The %s key combination has already been allocated\n"
@@ -869,7 +869,7 @@ msgstr ""
 "\n"
 "Пожайлуста выберите уникальную комбинацию клавиш."
 
-#: kdeui/kkeydialog.cpp:1083
+#: kdeui/kkeydialog.cpp:1090
 msgid "Key conflict"
 msgstr "Конфликт клавиш"
 
