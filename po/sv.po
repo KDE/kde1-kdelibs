@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs 1.1\n"
-"POT-Creation-Date: 1998-11-28 14:05+0100\n"
+"POT-Creation-Date: 1998-12-01 01:01+0100\n"
 "PO-Revision-Date: 1998-11-13 22:35+01:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
@@ -43,10 +43,10 @@ msgid "Send an email to the application maintainer"
 msgstr "Skicka E-post till den som underhåller programmet"
 
 #: kab/AssertDialog.cpp:51 kab/datepickerdialog.cc:25 kab/kabapi.cc:35
-#: kdeui/kcolordlg.cpp:463 kdeui/kcontrol.cpp:46 kdeui/kcontrol.cpp:51
+#: kdeui/kcolordlg.cpp:467 kdeui/kcontrol.cpp:46 kdeui/kcontrol.cpp:51
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:155 kdeui/keditcl1.cpp:170
 #: kdeui/keditcl1.cpp:191 kdeui/keditcl1.cpp:204 kdeui/keditcl1.cpp:1561
-#: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:370
+#: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:391
 #: kdeui/kiconloaderdialog.cpp:254 kdeui/kmsgbox.cpp:277
 #: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:505
 #: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:409
@@ -329,7 +329,7 @@ msgstr "Föregående"
 msgid "Next"
 msgstr "Nästa"
 
-#: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471
+#: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
 #: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 po/texts.cpp:44
 msgid "Help"
 msgstr "Hjälp"
@@ -403,9 +403,9 @@ msgid "No"
 msgstr "Nej"
 
 #: kab/datepickerdialog.cc:26 kab/kabapi.cc:38 kab/widget.cc:1373
-#: kab/widget.cc:1415 kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466
+#: kab/widget.cc:1415 kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:470
 #: kdeui/kcontrol.cpp:48 kdeui/kcontrol.cpp:55 kdeui/keditcl1.cpp:414
-#: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:365
+#: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:394
 #: kdeui/kiconloaderdialog.cpp:255 kdeui/kmsgbox.cpp:312
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:892
 #: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:413 kio/kio_job.cc:693
@@ -431,7 +431,7 @@ msgstr "Egna färger"
 msgid "Add to Custom Colors"
 msgstr "Lägg till bland egna färger"
 
-#: kdeui/kcolordlg.cpp:788 kdeui/kcolordlg.cpp:840
+#: kdeui/kcolordlg.cpp:789 kdeui/kcolordlg.cpp:841
 msgid "Custom..."
 msgstr "Egna..."
 
@@ -660,23 +660,23 @@ msgstr "Gå till rad"
 msgid "Go"
 msgstr "Gå"
 
-#: kdeui/kfontdialog.cpp:181
+#: kdeui/kfontdialog.cpp:168
 msgid "Select Font"
 msgstr "Välj typsnitt"
 
-#: kdeui/kfontdialog.cpp:185
+#: kdeui/kfontdialog.cpp:172
 msgid "Requested Font"
 msgstr "Valt typsnitt"
 
-#: kdeui/kfontdialog.cpp:190
+#: kdeui/kfontdialog.cpp:173
 msgid "Actual Font"
 msgstr "Faktiskt typsnitt"
 
-#: kdeui/kfontdialog.cpp:194 kdeui/kfontdialog.cpp:198
+#: kdeui/kfontdialog.cpp:193 kdeui/kfontdialog.cpp:198
 msgid "Family:"
 msgstr "Familj:"
 
-#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:211 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:210 po/texts.cpp:26
 msgid "Charset:"
 msgstr "Kodning:"
 
@@ -688,53 +688,53 @@ msgstr "Storlek:"
 msgid "Weight:"
 msgstr "Vikt:"
 
-#: kdeui/kfontdialog.cpp:243 kdeui/kfontdialog.cpp:250
+#: kdeui/kfontdialog.cpp:242 kdeui/kfontdialog.cpp:247
 msgid "Style:"
 msgstr "Stil:"
 
-#: kdeui/kfontdialog.cpp:286
-msgid "Charset"
-msgstr "Kodning"
-
-#: kdeui/kfontdialog.cpp:297 kfile/kfiledetaillist.cpp:38
+#: kdeui/kfontdialog.cpp:275 kfile/kfiledetaillist.cpp:38
 msgid "Size"
 msgstr "Storlek"
 
-#: kdeui/kfontdialog.cpp:338
+#: kdeui/kfontdialog.cpp:313
 msgid "Weight"
 msgstr "Vikt"
 
-#: kdeui/kfontdialog.cpp:339 kdeui/kfontdialog.cpp:480
+#: kdeui/kfontdialog.cpp:316 kdeui/kfontdialog.cpp:475
 msgid "normal"
 msgstr "normal"
 
-#: kdeui/kfontdialog.cpp:340 kdeui/kfontdialog.cpp:482
+#: kdeui/kfontdialog.cpp:317 kdeui/kfontdialog.cpp:477
 msgid "bold"
 msgstr "fet"
 
-#: kdeui/kfontdialog.cpp:351
+#: kdeui/kfontdialog.cpp:327
 msgid "Style"
 msgstr "Stil"
 
-#: kdeui/kfontdialog.cpp:352 kdeui/kfontdialog.cpp:493
-#: kdeui/kfontdialog.cpp:522
+#: kdeui/kfontdialog.cpp:330 kdeui/kfontdialog.cpp:488
+#: kdeui/kfontdialog.cpp:517
 msgid "roman"
 msgstr "rak"
 
-#: kdeui/kfontdialog.cpp:353 kdeui/kfontdialog.cpp:495
-#: kdeui/kfontdialog.cpp:520
+#: kdeui/kfontdialog.cpp:331 kdeui/kfontdialog.cpp:490
+#: kdeui/kfontdialog.cpp:515
 msgid "italic"
 msgstr "kursiv"
 
-#: kdeui/kfontdialog.cpp:383
+#: kdeui/kfontdialog.cpp:339
+msgid "Charset"
+msgstr "Kodning"
+
+#: kdeui/kfontdialog.cpp:358
 msgid "Dolor Ipse"
 msgstr "Bröder, gutår!"
 
-#: kdeui/kfontdialog.cpp:515
+#: kdeui/kfontdialog.cpp:510
 msgid "Bold"
 msgstr "fet"
 
-#: kdeui/kfontdialog.cpp:517
+#: kdeui/kfontdialog.cpp:512
 msgid "Normal"
 msgstr "normal"
 
