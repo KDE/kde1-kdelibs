@@ -2820,23 +2820,20 @@ msgid "The file %s does already exist. Do you really want to overwrite it ?"
 msgstr "Súbor %s u¾ existuje. Naozaj ho chcete prepísa» ?"
 
 #: kio/kio_progress_dlg.cc:108 kio/kio_progress_dlg.cc:124
-#, fuzzy
 msgid "Bytes"
-msgstr " Bajtov"
+msgstr "Bajtov"
 
 #: kio/kio_progress_dlg.cc:113 kio/kio_progress_dlg.cc:129
-#, fuzzy
 msgid "Kb"
-msgstr " Kb"
+msgstr "Kb"
 
 #: kio/kio_progress_dlg.cc:118 kio/kio_progress_dlg.cc:134
-#, fuzzy
 msgid "Mb"
-msgstr " Mb"
+msgstr "Mb"
 
 #: kio/kio_progress_dlg.cc:139 kio/kio_progress_dlg.cc:146
 msgid "of"
-msgstr ""
+msgstr "z"
 
 #: kio/kio_progress_dlg.cc:171 kio/kio_progress_dlg.cc:197
 msgid "Stalled"
@@ -2880,11 +2877,11 @@ msgstr "Skenujem "
 
 #: kio/kio_progress_dlg.cc:234
 msgid "From : "
-msgstr ""
+msgstr "Z : "
 
 #: kio/kio_progress_dlg.cc:238
 msgid "To: "
-msgstr ""
+msgstr "Do: "
 
 #: kio/kio_progress_dlg.cc:245
 msgid "Creating dir "
