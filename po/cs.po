@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: kuser\n"
+"Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1998-10-13 13:32+0200\n"
-"PO-Revision-Date: 1998-07-20 09:17 MET DST\n"
+"PO-Revision-Date: 1998-10-24 16:13 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <flidr@kky.cu.cz>\n"
 "MIME-Version: 1.0\n"
@@ -10,33 +10,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: kab/AssertDialog.cpp:24
-#, fuzzy
 msgid "(unknown file)"
-msgstr "neznámé"
+msgstr "{neznámý soubor)"
 
 #: kab/AssertDialog.cpp:25
 msgid "(unknown line number)"
-msgstr ""
+msgstr "(neznámé èíslo øádku)"
 
 #: kab/AssertDialog.cpp:26
 msgid "(unknown condition)"
-msgstr ""
+msgstr "(neznámá podmínka)"
 
 #: kab/AssertDialog.cpp:34
 msgid "You have found a bug in "
-msgstr ""
+msgstr "Nalezl(a) jste chybu v "
 
 #: kab/AssertDialog.cpp:41
 msgid "Ignore the error, possibly causing much more damage"
-msgstr ""
+msgstr "Ignorovat chybu, s pravdìpodobným zpùsobením vìt¹í ¹kody"
 
 #: kab/AssertDialog.cpp:43
 msgid "Kill the application, loosing all data"
-msgstr ""
+msgstr "Zru¹it aplikaci (se ztrátou v¹ech dat)"
 
 #: kab/AssertDialog.cpp:45
 msgid "Send an email to the application maintainer"
-msgstr ""
+msgstr "Poslat e-mail programátoru aplikace"
 
 #: kab/AssertDialog.cpp:47 kab/StringListDialog.cpp:40
 #: kab/StringListSelectAndReorderSet.cpp:572
@@ -54,38 +53,35 @@ msgstr "OK"
 
 #: kab/AssertDialog.cpp:134
 msgid "The following condition failed:\n"
-msgstr ""
+msgstr "Následující podmínka selhala:\n"
 
 #: kab/AssertDialog.cpp:135
-#, fuzzy
 msgid "In file "
-msgstr "soubor"
+msgstr "V souboru "
 
 #: kab/AssertDialog.cpp:135
 msgid ", line "
-msgstr ""
+msgstr ", na øádce "
 
 #: kab/PrintDialog.cpp:22
 msgid "Headline text:"
-msgstr ""
+msgstr "Text titulku:"
 
 #: kab/PrintDialog.cpp:23
 msgid "Right footer text:"
-msgstr ""
+msgstr "Pravé dolní záhlaví textu:"
 
 #: kab/PrintDialog.cpp:24
 msgid "Left footer text:"
-msgstr ""
+msgstr "Levé dolní záhlaví textu:"
 
 #: kab/SearchDialog.cpp:54
-#, fuzzy
 msgid "Search entries"
-msgstr "Hledat soubor"
+msgstr "Hledat polo¾ky"
 
 #: kab/SearchDialog.cpp:55
-#, fuzzy
 msgid "Search"
-msgstr "Bøezen"
+msgstr "Hledat"
 
 #: kab/SearchDialog.cpp:56 kab/StringListDialog.cpp:41
 #: kab/StringListSelectAndReorderSet.cpp:573
@@ -104,99 +100,96 @@ msgid "Cancel"
 msgstr "Zru¹it"
 
 #: kab/SearchDialog.cpp:57
-#, fuzzy
 msgid "contains"
-msgstr "Obsah"
+msgstr "obsahuje"
 
 #: kab/SearchDialog.cpp:60
 msgid "The title"
-msgstr ""
+msgstr "Titulek"
 
 #: kab/SearchDialog.cpp:61
 msgid "The first name"
-msgstr ""
+msgstr "Køestní jméno"
 
 #: kab/SearchDialog.cpp:62
 msgid "The additional name"
-msgstr ""
+msgstr "Dal¹í jméno"
 
 #: kab/SearchDialog.cpp:63
 msgid "The name prefix"
-msgstr ""
+msgstr "Prefix jména"
 
 #: kab/SearchDialog.cpp:64
-#, fuzzy
 msgid "The name"
-msgstr "Cesta"
+msgstr "Jméno"
 
 #: kab/SearchDialog.cpp:65
 msgid "The formatted name"
-msgstr ""
+msgstr "Zformátované jméno"
 
 #: kab/SearchDialog.cpp:66
 msgid "The address"
-msgstr ""
+msgstr "Adresa"
 
 #: kab/SearchDialog.cpp:67
-#, fuzzy
 msgid "The town"
-msgstr "Cesta"
+msgstr "Mìsto"
 
 #: kab/SearchDialog.cpp:68
 msgid "The organization"
-msgstr ""
+msgstr "Organizace"
 
 #: kab/SearchDialog.cpp:69
 msgid "The role"
-msgstr ""
+msgstr "Funkce"
 
 #: kab/SearchDialog.cpp:70
 msgid "The org unit"
-msgstr ""
+msgstr "Organizaèní jednotka"
 
 #: kab/SearchDialog.cpp:71
 msgid "The org subunit"
-msgstr ""
+msgstr "Organizaèní podjednotka"
 
 #: kab/SearchDialog.cpp:72
 msgid "The email address"
-msgstr ""
+msgstr "E-mail adresa"
 
 #: kab/SearchDialog.cpp:73
 msgid "The second email address"
-msgstr ""
+msgstr "Druhá e-mail adresa"
 
 #: kab/SearchDialog.cpp:74
 msgid "The third email address"
-msgstr ""
+msgstr "Tøetí e-mail adresa"
 
 #: kab/SearchDialog.cpp:75
 msgid "The telephone number"
-msgstr ""
+msgstr "Telefonní èíslo"
 
 #: kab/SearchDialog.cpp:76
 msgid "The fax number"
-msgstr ""
+msgstr "Faxové èíslo"
 
 #: kab/SearchDialog.cpp:77
 msgid "The modem number"
-msgstr ""
+msgstr "Modemové èíslo"
 
 #: kab/SearchDialog.cpp:78
 msgid "The homepage URL"
-msgstr ""
+msgstr "URL domovské stránky"
 
 #: kab/SearchDialog.cpp:79
 msgid "The comment"
-msgstr ""
+msgstr "Komentáø"
 
 #: kab/StringListSelectAndReorderSet.cpp:43
 msgid "Possible values:"
-msgstr ""
+msgstr "Mo¾né hodnoty:"
 
 #: kab/StringListSelectAndReorderSet.cpp:44
 msgid "Selected values:"
-msgstr ""
+msgstr "Vybrané hodnoty:"
 
 #: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:549 kfile/kfiledialog.cpp:1193
 #: kfile/kfiledialog.cpp:1352 kfile/kfiledialog.cpp:1386 po/texts.cpp:65
@@ -252,9 +245,8 @@ msgid "Replace"
 msgstr "Nahradit"
 
 #: kdecore/kaccel.cpp:279 po/texts.cpp:134
-#, fuzzy
 msgid "Insert"
-msgstr "&Vlo¾it"
+msgstr "Vlo¾it"
 
 #: kdecore/kaccel.cpp:283 kfile/kfiledialog.cpp:131
 msgid "Home"
@@ -262,17 +254,15 @@ msgstr "Domù"
 
 #: kdecore/kaccel.cpp:287
 msgid "End"
-msgstr ""
+msgstr "Konec"
 
 #: kdecore/kaccel.cpp:291
-#, fuzzy
 msgid "Prior"
-msgstr "Chyba"
+msgstr "Pøede¹lý"
 
 #: kdecore/kaccel.cpp:295
-#, fuzzy
 msgid "Next"
-msgstr "Nás&ledující"
+msgstr "Následující"
 
 #: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471
 #: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:240 po/texts.cpp:44
@@ -281,19 +271,19 @@ msgstr "Nápovìda"
 
 #: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:661
 msgid "SHIFT"
-msgstr ""
+msgstr "SHIFT"
 
 #: kdecore/kaccel.cpp:601 kdecore/kaccel.cpp:663
 msgid "CTRL"
-msgstr ""
+msgstr "CTRL"
 
 #: kdecore/kaccel.cpp:605 kdecore/kaccel.cpp:665
 msgid "ALT"
-msgstr ""
+msgstr "ALT"
 
 #: kdecore/kapp.cpp:551 po/texts.cpp:137
 msgid "&Contents"
-msgstr "&Nápovìda"
+msgstr "&Obsah"
 
 #: kdecore/kapp.cpp:557
 msgid "&About"
@@ -394,7 +384,7 @@ msgstr "Duben"
 
 #: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:224
 msgid "May"
-msgstr "Kvì"
+msgstr "Kvìten"
 
 #: kdeui/kdatepik.cpp:104
 msgid "June"
@@ -700,26 +690,23 @@ msgstr "&Zru¹it"
 
 #: kdeui/kkeydialog.cpp:320
 msgid "Current key"
-msgstr ""
+msgstr "Aktuální klávesová zkratka"
 
 #: kdeui/kkeydialog.cpp:331
-#, fuzzy
 msgid "&Action"
-msgstr "&Umístìní"
+msgstr "È&innost"
 
 #: kdeui/kkeydialog.cpp:392
 msgid "&No key"
-msgstr ""
+msgstr "®ád&ná klávesa"
 
 #: kdeui/kkeydialog.cpp:400
-#, fuzzy
 msgid "&Default key"
-msgstr "Impli&citní"
+msgstr "Impli&citní klávesa"
 
 #: kdeui/kkeydialog.cpp:408
-#, fuzzy
 msgid "&Custom key"
-msgstr "Vlastní..."
+msgstr "&Vlastní klávesa"
 
 #: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:731
 msgid "Top"
@@ -751,7 +738,7 @@ msgstr "Impli&citní"
 
 #: kdeui/kquickhelp.cpp:203
 msgid "Quickhelp"
-msgstr ""
+msgstr "Rychlá nápovìda"
 
 #: kdeui/ktoolbar.cpp:237 kdeui/ktoolbar.cpp:288
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
@@ -1447,7 +1434,6 @@ msgid "<< &Previous"
 msgstr "<< &Pøedchozí"
 
 #: po/texts.cpp:138
-#, fuzzy
 msgid "&About..."
 msgstr "&Informace..."
 
@@ -1458,10 +1444,14 @@ msgid ""
 "The program will try to create\n"
 "         "
 msgstr ""
+"Adresáø, kde jsou pro aplikaci knihy adres\n"
+"ukládána urèitá data u¾ivatele, neexistuje.\n"
+"Program se pokusí vytvoøit\n"
+"         "
 
 #: kab/addressbook.cc:95
 msgid "and store all local files in this directory."
-msgstr ""
+msgstr "a ukládat v¹echny lokální soubory do tohoto adresáøe."
 
 #: kab/addressbook.cc:100
 msgid ""
@@ -1471,323 +1461,312 @@ msgid ""
 "in your home directory. Run the KDE filemanager\n"
 "kfm once to automatically create it."
 msgstr ""
+"Nebylo mo¾né vytvoøit adresáø.\n"
+"Pravdìpodobnì jste dosud nepou¾ívaly KDE,\n"
+"a proto nemáte lokální adresáø \".kde\"\n"
+"ve va¹em domovském adresáøi. Spus»te jednou správce\n"
+"souborù \"kfm\", aby se automaticky vytvoøil."
 
 #: kab/addressbook.cc:110
 msgid "The directory has been created.\n"
-msgstr ""
+msgstr "Adresáø byl vytvoøen.\n"
 
 #: kab/addressbook.cc:148
 msgid "No addressbook database file, creating new one."
-msgstr ""
+msgstr "Nemáte ¾ádný databázový soubor knihy adres, vytváøím jej."
 
 #: kab/addressbook.cc:169
 msgid "Tried to load database for creating backup, but failed"
-msgstr ""
+msgstr "Neuspì¹ný pokus naètení databáze pro vytvoøení zálohy"
 
 #: kab/addressbook.cc:208
 msgid "Unable to save to backup file."
-msgstr ""
+msgstr "Není mo¾né ulo¾it zálo¾ní soubor."
 
 #: kab/addressbook.cc:215
 msgid "Unable to reset filename after creating backup."
-msgstr ""
+msgstr "Není mo¾né obnovit jméno souboru po vytvoøení zálohy."
 
 #: kab/addressbook.cc:221
 msgid "Unable to create backup file"
-msgstr ""
+msgstr "Není mo¾né vytvoøit zálo¾ní soubor"
 
 #: kab/addressbook.cc:283
 msgid "Unable to insert \""
-msgstr ""
+msgstr "Není mo¾né vlo¾it \""
 
 #: kab/addressbook.cc:286
 msgid "\" into configuration section (ignored)."
-msgstr ""
+msgstr "\" do konfiguraèní sekce (ignorované)."
 
 #: kab/addressbook.cc:704
 msgid "Unable to add a new entry with available key."
-msgstr ""
+msgstr "Není mo¾né pøidat novou polo¾ku s dostupným klièem."
 
 #: kab/addressbook.cc:712
 msgid "Cannot find previously created section."
-msgstr ""
+msgstr "Není mo¾né nalézt døíve vytvoøenou sekci."
 
 #: kab/addressbook.cc:982
 msgid "entry without name"
-msgstr ""
+msgstr "polo¾ka beze jména"
 
 #: kab/addressbook.cc:1002
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
-msgstr ""
+msgstr "Není mo¾né vytvoøit nový databázový soubor (pravdìpodobnì nejsou pøístupová práva), ukonèuji."
 
 #: kab/addressbook.cc:1010
 msgid "Cannot create configuration section, exiting."
-msgstr ""
+msgstr "Není mo¾né vytvoøit konfiguraèní sekci, ukonèuji."
 
 #: kab/addressbook.cc:1016
 msgid "Cannot create entries section, exiting."
-msgstr ""
+msgstr "Není mo¾né vytvoøit sekci polo¾ek, ukonèuji."
 
 #: kab/addressbook.cc:1022
 msgid "Unable to find previously created section, exiting."
-msgstr ""
+msgstr "Není mo¾né nalézt døíve vytvoøenou sekci, ukonèuji."
 
 #: kab/addressbook.cc:1031
 msgid "Cannot save newly created database."
-msgstr ""
+msgstr "Není mo¾né ulo¾it èerstvì vytvoøenou databázi."
 
 #: kab/addressbook.cc:1039
 msgid "Cannot erase database contents."
-msgstr ""
+msgstr "Není mo¾né vymazat obsah databáze."
 
 #: kab/addressbook.cc:1124
 msgid "First name"
-msgstr ""
+msgstr "Køestní jméno"
 
 #: kab/addressbook.cc:1128
 msgid "Additional name"
-msgstr ""
+msgstr "Dal¹í jméno"
 
 #: kab/addressbook.cc:1132
 msgid "Name prefix"
-msgstr ""
+msgstr "Prefix jména"
 
 #: kab/addressbook.cc:1136
 msgid "Formatted name"
-msgstr ""
+msgstr "Zformátované jméno"
 
 #: kab/addressbook.cc:1140
-#, fuzzy
 msgid "Comment"
-msgstr "Obsah"
+msgstr "Komentáø"
 
 #: kab/addressbook.cc:1144
 msgid "Organization"
-msgstr ""
+msgstr "Organizace"
 
 #: kab/addressbook.cc:1148
-#, fuzzy
 msgid "Unit"
-msgstr "Nepojmenovaný"
+msgstr "Jednotka"
 
 #: kab/addressbook.cc:1152
-#, fuzzy
 msgid "Subunit"
-msgstr "Ned"
+msgstr "Podjednotka"
 
 #: kab/addressbook.cc:1156
-#, fuzzy
 msgid "Title"
-msgstr "soubor"
+msgstr "Titul"
 
 #: kab/addressbook.cc:1160
-#, fuzzy
 msgid "Role"
-msgstr "adresáø"
+msgstr "Funkce"
 
 #: kab/addressbook.cc:1164
 msgid "Birthday"
-msgstr ""
+msgstr "Narozeniny"
 
 #: kab/addressbook.cc:1168
 msgid "Talk addresses"
-msgstr ""
+msgstr "Adresa pro talk"
 
 #: kab/addressbook.cc:1172
 msgid "Delivery label"
-msgstr ""
+msgstr "Doruèovací pojmenování"
 
 #: kab/addressbook.cc:1176
 msgid "Email address"
-msgstr ""
+msgstr "E-mail adresa"
 
 #: kab/addressbook.cc:1180
 msgid "Second email address"
-msgstr ""
+msgstr "Druhá e-mail adresa"
 
 #: kab/addressbook.cc:1184
 msgid "Third email address"
-msgstr ""
+msgstr "Tøetí e-mail adresa"
 
 #: kab/addressbook.cc:1188
 msgid "Email addresses"
-msgstr ""
+msgstr "E-mail adresy"
 
 #: kab/addressbook.cc:1192
-#, fuzzy
 msgid "Address"
-msgstr "Pøidat"
+msgstr "Adresa"
 
 #: kab/addressbook.cc:1196
 msgid "City/Town"
-msgstr ""
+msgstr "Mìsto"
 
 #: kab/addressbook.cc:1200
 msgid "Telephone"
-msgstr ""
+msgstr "Telefon"
 
 #: kab/addressbook.cc:1204
 msgid "Fax number"
-msgstr ""
+msgstr "Faxové èíslo"
 
 #: kab/addressbook.cc:1208
-#, fuzzy
 msgid "Modem number"
-msgstr "Listopad"
+msgstr "Modemové èíslo"
 
 #: kab/addressbook.cc:1212
 msgid "Homepage URL"
-msgstr ""
+msgstr "URL domovské stránky"
 
 #: kab/addressbook.cc:1216
 msgid "Zip/postal code"
-msgstr ""
+msgstr "Po¹tovní smìrovací èíslo"
 
 #: kab/addressbook.cc:1220
 msgid "State/province"
-msgstr ""
+msgstr "Stát/provincie"
 
 #: kab/addressbook.cc:1224
-#, fuzzy
 msgid "Country"
-msgstr "Vyjmout"
+msgstr "Zemì"
 
 #: kab/addressbook.cc:1404
 msgid "(unnamed entry)"
-msgstr ""
+msgstr "(nepojmenovaná polo¾ka)"
 
 #: kab/datepickerdialog.cc:35
-#, fuzzy
 msgid "Select birthday"
-msgstr "Vyber znakovou sadu"
+msgstr "Vyber den narození"
 
 #: kab/editentry.cc:41
 msgid "Edit the current entry"
-msgstr ""
+msgstr "Uprava aktuální polo¾ky"
 
 #: kab/editentry.cc:67
-#, fuzzy
 msgid "Title:"
-msgstr "Styl:"
+msgstr "Titul:"
 
 #: kab/editentry.cc:68
 msgid "First name:"
-msgstr ""
+msgstr "Køestní jméno:"
 
 #: kab/editentry.cc:69
 msgid "Additional Name:"
-msgstr ""
+msgstr "Dal¹í jméno:"
 
 #: kab/editentry.cc:71
 msgid "Formatted Name:"
-msgstr ""
+msgstr "Formátované jméno:"
 
 #: kab/editentry.cc:94
-#, fuzzy
 msgid "&Name"
-msgstr "Jméno"
+msgstr "&Jméno"
 
 #: kab/editentry.cc:114
 msgid "Address:"
-msgstr ""
+msgstr "Adresa:"
 
 #: kab/editentry.cc:115
 msgid "Zip/postal code:"
-msgstr ""
+msgstr "Po¹t. smìrovací èíslo:"
 
 #: kab/editentry.cc:116
 msgid "Town:"
-msgstr ""
+msgstr "Mìsto:"
 
 #: kab/editentry.cc:117
-#, fuzzy
 msgid "State:"
-msgstr "Datum:"
+msgstr "Stát:"
 
 #: kab/editentry.cc:118
 msgid "Country:"
-msgstr ""
+msgstr "Zemì:"
 
 #: kab/editentry.cc:141
 msgid "&Address"
-msgstr ""
+msgstr "&Adresa"
 
 #: kab/editentry.cc:161
 msgid "Organization:"
-msgstr ""
+msgstr "Organizace:"
 
 #: kab/editentry.cc:162
 msgid "Org Unit:"
-msgstr ""
+msgstr "Org. jednotka:"
 
 #: kab/editentry.cc:163
 msgid "Org Subunit:"
-msgstr ""
+msgstr "Org. podjednotka:"
 
 #: kab/editentry.cc:164
-#, fuzzy
 msgid "Role:"
-msgstr "Adresáøe:"
+msgstr "Funkce:"
 
 #: kab/editentry.cc:185
 msgid "&Organization"
-msgstr ""
+msgstr "&Organizace"
 
 #: kab/editentry.cc:205
 msgid "Telephone:"
-msgstr ""
+msgstr "Telefon:"
 
 #: kab/editentry.cc:206
 msgid "Fax:"
-msgstr ""
+msgstr "Fax:"
 
 #: kab/editentry.cc:207
-#, fuzzy
 msgid "Modem:"
-msgstr "Pøesunout"
+msgstr "Modem:"
 
 #: kab/editentry.cc:208
 msgid "Homepage (URL):"
-msgstr ""
+msgstr "Domovská stránka (URL):"
 
 #: kab/editentry.cc:222 kab/editentry.cc:455
 msgid "Edit email addresses"
-msgstr ""
+msgstr "Upravit e-mail adresy"
 
 #: kab/editentry.cc:228 kab/editentry.cc:438
 msgid "Edit talk addresses"
-msgstr ""
+msgstr "Upravit talk adresy"
 
 #: kab/editentry.cc:240
-#, fuzzy
 msgid "&Contact"
-msgstr "&Nápovìda"
+msgstr "&Kontakt"
 
 #: kab/editentry.cc:265
-#, fuzzy
 msgid "Comment:"
-msgstr "Obsah:"
+msgstr "Komentáø:"
 
 #: kab/editentry.cc:273
 msgid "Birthday:"
-msgstr ""
+msgstr "Narozeniny:"
 
 #: kab/editentry.cc:283
 msgid "O&thers"
-msgstr ""
+msgstr "Os&tatní"
 
 #: kab/kabapi.cc:144
 msgid "Your new entry could not be added."
-msgstr ""
+msgstr "Vá¹í novou polo¾ku bylo mo¾né pøifat."
 
 #: kab/searchresults.cc:38
 msgid "search results"
-msgstr ""
+msgstr "výsleky hledání"
 
 #: kab/widget.cc:153
 msgid "Conversion problem"
-msgstr ""
+msgstr "Konverzní problém"
 
 #: kab/widget.cc:154
 msgid ""
@@ -2136,35 +2115,33 @@ msgstr ""
 
 #: kio/kio_cache.cc:345
 msgid "KIO Cache"
-msgstr ""
+msgstr "KIO Cache"
 
 #: kio/kio_cache.cc:347
 msgid "Contents of the cache"
-msgstr ""
+msgstr "Obsah cache"
 
 #: kio/kio_cache.cc:352
 msgid ""
 "Use the icons for drag and drop actions, since they refer to the cache files "
 "on your hard disk, while you should use the textual links for browsing"
-msgstr ""
+msgstr "Pou¾ijte ikony pro drag&drop èinnosti, proto¾e odkazují na ke¹ované soubory na va¹em pevném disku, zatímco pro procházení by jste mìli pou¾ivat textové odkazy."
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"
-msgstr ""
+msgstr "Datum vytvoøení"
 
 #: kio/kio_cache.cc:357
 msgid "Expiration Date"
-msgstr ""
+msgstr "Datum expirace"
 
 #: kio/kio_cache.cc:422
-#, fuzzy
 msgid "Unknown"
-msgstr "neznámé"
+msgstr "Neznámý"
 
 #: kio/kio_cache.cc:428
-#, fuzzy
 msgid "Never"
-msgstr "Listopad"
+msgstr "Nikdy"
 
 #: kio/kio_error.cc:16
 #, c-format
@@ -2172,20 +2149,26 @@ msgid ""
 "Could not read\n"
 "%s"
 msgstr ""
+"Není mo¾né èíst\n"
+"%s"
 
 #: kio/kio_error.cc:19
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not write to\n"
 "%s"
-msgstr "Není mo¾né ulo¾it dokument\n"
+msgstr ""
+"Není mo¾né ulo¾it do\n"
+"%s"
 
 #: kio/kio_error.cc:22
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not start process\n"
 "%s"
-msgstr "Není mo¾né ulo¾it dokument\n"
+msgstr ""
+"Není mo¾né spustit proces\n"
+"%s"
 
 #: kio/kio_error.cc:25
 #, c-format
@@ -2195,13 +2178,19 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Vnitøní chyba\n"
+"Prosím po¹lete úplný popis chyby na kde-bugs@kde.org\n"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:28
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Malformed URL\n"
 "%s"
-msgstr "URL má chybný formát"
+msgstr ""
+"Chybný formát URL\n"
+"%s"
 
 #: kio/kio_error.cc:31
 #, c-format
@@ -2209,6 +2198,8 @@ msgid ""
 "The protocol %s\n"
 " is not supported"
 msgstr ""
+"Protokol %s\n"
+"není podporován"
 
 #: kio/kio_error.cc:34
 #, c-format
@@ -2216,6 +2207,8 @@ msgid ""
 "The protocol %s\n"
 "is only a filter protocol.\n"
 msgstr ""
+"Protokol %s\n"
+"je pouze pro filtrování.\n"
 
 #: kio/kio_error.cc:37
 #, c-format
@@ -2223,14 +2216,19 @@ msgid ""
 "Unsupported action\n"
 "%s"
 msgstr ""
+"Nepodporovaná èinnost\n"
+"%s"
 
 #: kio/kio_error.cc:40
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The file or directory\n"
 "%s\n"
 "does not exist"
-msgstr "Specifikovaný soubor neexistuje"
+msgstr ""
+"Soubor nebo adresáø\n"
+"%s\n"
+"neexistuje"
 
 #: kio/kio_error.cc:43
 #, c-format
@@ -2239,13 +2237,18 @@ msgid ""
 " is a directory,\n"
 "but a file was expected"
 msgstr ""
+"%s\n"
+"je adresáø, ale\n"
+"byl oèekáván soubor"
 
 #: kio/kio_error.cc:46
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not make directory\n"
 "%s"
-msgstr "jeden adresáø"
+msgstr ""
+"Není mo¾né vutvoøit adresáø\n"
+"%s"
 
 #: kio/kio_error.cc:49
 #, c-format
@@ -2254,6 +2257,9 @@ msgid ""
 "%s\n"
 "does already exist"
 msgstr ""
+"Soubor nebo adresáø\n"
+"%s\n"
+"ji¾ existuje"
 
 #: kio/kio_error.cc:52
 #, c-format
@@ -2261,13 +2267,17 @@ msgid ""
 "%s\n"
 "Access denied"
 msgstr ""
+"%s\n"
+"Odmítnutý pøístup"
 
 #: kio/kio_error.cc:55
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not enter directory\n"
 "%s"
-msgstr "Není mo¾né ulo¾it dokument\n"
+msgstr ""
+"Není mo¾né vstoupit do adresáøe\n"
+"%s"
 
 #: kio/kio_error.cc:58
 #, c-format
@@ -2275,6 +2285,8 @@ msgid ""
 "The protocol %s\n"
 "does not implement a directory service"
 msgstr ""
+"Protokol %s\n"
+"neimplementuje adresáøovou slu¾bu"
 
 #: kio/kio_error.cc:61
 #, c-format
@@ -2282,13 +2294,17 @@ msgid ""
 "Found a cyclic link in\n"
 "%s"
 msgstr ""
+"Nalezen cyklický odkaz v\n"
+"%s"
 
 #: kio/kio_error.cc:64
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not change permissions for\n"
 "%s"
-msgstr "Nemáte práva k zápisu do tohoto souboru.\n"
+msgstr ""
+"Není mo¾né zmìnit pøístupová  práva k\n"
+"%s"
 
 #: kio/kio_error.cc:67
 #, c-format
@@ -2297,12 +2313,17 @@ msgid ""
 "Could not write to\n"
 "%s"
 msgstr ""
+"Odmítnutý pøístup\n"
+"NEní mo¾né zapisovat do\n"
+"%s"
 
 #: kio/kio_error.cc:70
 msgid ""
 "Action has been\n"
 "canceled by the user"
 msgstr ""
+"Èinnost byla \n"
+"pøeru¹ena u¾ivatelem"
 
 #: kio/kio_error.cc:73
 #, c-format
@@ -2310,6 +2331,8 @@ msgid ""
 "Found a cyclic link while copying\n"
 "%s"
 msgstr ""
+"Nalezen cyklický odkaz bìhem kopírování\n"
+"%s"
 
 #: kio/kio_error.cc:76
 #, c-format
@@ -2317,13 +2340,17 @@ msgid ""
 "Could not create socket for accessing\n"
 "%s"
 msgstr ""
+"Není o¾né vytvoøit soket pro pøstup k\n"
+"%s"
 
 #: kio/kio_error.cc:79
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not connect to host\n"
 "%s"
-msgstr "Není mo¾né ulo¾it dokument\n"
+msgstr ""
+"Není mo¾né se spojit s hostitelem\n"
+"%s"
 
 #: kio/kio_error.cc:82
 #, c-format
@@ -2331,6 +2358,8 @@ msgid ""
 "Unknown host\n"
 "%s"
 msgstr ""
+"Neznámý hostitel\n"
+"%s"
 
 #: kio/kio_error.cc:85
 #, c-format
@@ -2339,6 +2368,9 @@ msgid ""
 "%s\n"
 "is broken"
 msgstr ""
+"Spojení s hostitelem\n"
+"%s\n"
+"je pøeru¹ené"
 
 #: kio/kio_error.cc:88
 #, c-format
@@ -2346,6 +2378,8 @@ msgid ""
 "The protocol %s\n"
 "is not a filter protocol"
 msgstr ""
+"Protokol %s\n"
+"není filtrovací"
 
 #: kio/kio_error.cc:91
 #, c-format
@@ -2354,6 +2388,9 @@ msgid ""
 "is a file,\n"
 "but a directory was expected"
 msgstr ""
+"%s\n"
+"je soubor,\n"
+"ale byl oèekáván adresáø"
 
 #: kio/kio_error.cc:94
 #, c-format
@@ -2363,6 +2400,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Není mo¾né pøipojit zaøízení.\n"
+"Nahlá¹enou chybou je:\n"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:97
 #, c-format
@@ -2372,6 +2413,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Není mo¾né odpojit zaøízení.\n"
+"Nahlá¹enou chybou je:\n"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:100
 #, c-format
@@ -2380,6 +2425,8 @@ msgid ""
 "%s protocol\n"
 "died unexpectedly"
 msgstr ""
+"Proces pro protokol\n"
+"%s neoèekávanì skonèil"
 
 #: kio/kio_error.cc:111 kio/kio_linedit_dlg.cc:42 kio/kio_openwith.cc:260
 #: kio/kio_pass_dlg.cc:75 kio/kio_paste.cc:35 kio/kio_paste.cc:47
@@ -2395,186 +2442,178 @@ msgstr "Ok"
 #: kio/kio_job.cc:137
 #, c-format
 msgid "Mounting %s ..."
-msgstr ""
+msgstr "Pøipojuji %s ..."
 
 #: kio/kio_job.cc:157
 #, c-format
 msgid "Unmounting %s ..."
-msgstr ""
+msgstr "Odpojuji %s ..."
 
 #: kio/kio_openwith.cc:133
 msgid "This group is empty!"
-msgstr ""
+msgstr "Skupina je prázdná!"
 
 #: kio/kio_openwith.cc:264
-#, fuzzy
 msgid "&Browser"
-msgstr "Listuj..."
+msgstr "&Prohlí¾eè"
 
 #: kio/kio_pass_dlg.cc:33
 msgid "User"
-msgstr ""
+msgstr "U¾ivatel"
 
 #: kio/kio_pass_dlg.cc:44 kio/kio_pass_dlg.cc:88
 msgid "Password"
-msgstr ""
+msgstr "Heslo"
 
 #: kio/kio_paste.cc:35 kio/kio_paste.cc:47
 msgid "The clipboard is empty"
-msgstr ""
+msgstr "Schránka je prázdná"
 
 #: kio/kio_paste.cc:62
 msgid ""
 "Pasting clipboard data is only supported on the local hard disk currently"
-msgstr ""
+msgstr "Vkládání dat ze schránky je podporované pouze na lokálním disku."
 
 #: kio/kio_paste.cc:67
 msgid "Filename for clipboard content:"
-msgstr ""
+msgstr "Název souboru pro obsah schránky:"
 
 #: kio/kio_paste.cc:74
 msgid "You did not enter a filename"
-msgstr ""
+msgstr "Nevlo¾il(a) jste jméno souboru"
 
 #: kio/kio_paste.cc:84
-#, fuzzy, c-format
+#, c-format
 msgid "The file %s does already exist. Do you really want to overwrite it ?"
-msgstr ""
-"Dokument s tímto jménem ji¾ existuje\n"
-"pøejete si ho pøepsat?"
+msgstr "Soubor %s ji¾ existuje. Opravdu si jej pøejete pøepsat?"
 
 #: kio/kio_progress_dlg.cc:92 kio/kio_progress_dlg.cc:108
 msgid " Bytes"
-msgstr ""
+msgstr "Bajtù"
 
 #: kio/kio_progress_dlg.cc:97 kio/kio_progress_dlg.cc:113
 msgid " Kb"
-msgstr ""
+msgstr "Kb"
 
 #: kio/kio_progress_dlg.cc:102 kio/kio_progress_dlg.cc:118
 msgid " Mb"
-msgstr ""
+msgstr "Mb"
 
 #: kio/kio_progress_dlg.cc:151 kio/kio_progress_dlg.cc:177
-#, fuzzy
 msgid "Stalled"
-msgstr "Styl"
+msgstr "Stojící"
 
 #: kio/kio_progress_dlg.cc:159
 msgid " Bytes/s"
-msgstr ""
+msgstr "Bajtù/s"
 
 #: kio/kio_progress_dlg.cc:164
 msgid " Kb/s"
-msgstr ""
+msgstr "Kb/s"
 
 #: kio/kio_progress_dlg.cc:169
 msgid " Mb/s"
-msgstr ""
+msgstr "Mb/s"
 
 #: kio/kio_progress_dlg.cc:184
 #, c-format
 msgid "%i seconds"
-msgstr ""
+msgstr "%i sekund"
 
 #: kio/kio_progress_dlg.cc:190
 #, c-format
 msgid "%i:%i"
-msgstr ""
+msgstr "%i:%i"
 
 #: kio/kio_progress_dlg.cc:197
 #, c-format
 msgid "%i:%i:%i"
-msgstr ""
+msgstr "%i:%i:%i"
 
 #: kio/kio_progress_dlg.cc:201
 #, c-format
 msgid "%i%s  Remaining time: %s"
-msgstr ""
+msgstr "%i%s Zbývající èas: %s"
 
 #: kio/kio_progress_dlg.cc:207
-#, fuzzy
 msgid "Scanning "
-msgstr "Pozor"
+msgstr "Prohlí¾ení "
 
 #: kio/kio_progress_dlg.cc:222
-#, fuzzy
 msgid "Creating dir "
-msgstr "Vytvoøit nový adresáø"
+msgstr "Vytvoøení adresáøe"
 
 #: kio/kio_progress_dlg.cc:229
 msgid "Fetching file"
-msgstr ""
+msgstr "Pøená¹ím soubor"
 
 #: kio/kio_rename_dlg.cc:27
-#, fuzzy
 msgid "Rename"
-msgstr "Odstranit"
+msgstr "Pøejmenovat"
 
 #: kio/kio_rename_dlg.cc:32 kio/kio_skip_dlg.cc:23
 msgid "Skip"
-msgstr ""
+msgstr "Pøeskoèit"
 
 #: kio/kio_rename_dlg.cc:35 kio/kio_skip_dlg.cc:28
 msgid "Auto Skip"
-msgstr ""
+msgstr "Automaticky pøeskoèit"
 
 #: kio/kio_rename_dlg.cc:41
 msgid "Overwrite"
-msgstr ""
+msgstr "Pøepsat"
 
 #: kio/kio_rename_dlg.cc:46
 msgid "Overwrite All"
-msgstr ""
+msgstr "Pøepsat v¹e"
 
 #: kio/kio_rename_dlg.cc:57
 msgid "You try to overwrite"
-msgstr ""
+msgstr "Pokou¹íte se pøespat"
 
 #: kio/kio_rename_dlg.cc:78
 msgid "already exists. Overwrite with"
-msgstr ""
+msgstr "ji¾ existuje. Pøepsat s"
 
 #: kio/kio_rename_dlg.cc:90
 msgid "Or rename to"
-msgstr ""
+msgstr "Nebo pøejmenovat na"
 
 #: kio/kio_rename_dlg.cc:101
 msgid "already exists."
-msgstr ""
+msgstr "ji¾ existuje."
 
 #: kio/kio_rename_dlg.cc:106
 msgid "Do you want to rename it ?"
-msgstr ""
+msgstr "Pøejete si ho pøejmenovat ?"
 
 #: kio/kio_rename_dlg.cc:185
-#, fuzzy
 msgid "Malformed URL\n"
-msgstr "URL má chybný formát"
+msgstr "URL má chybný formát\n"
 
 #: kio/kio_rename_dlg.cc:194
 msgid "You must not change the protocol"
-msgstr ""
+msgstr "Není mo¾né zmìnit protokol"
 
 #: kio/kio_skip_dlg.cc:35
 msgid "Can not overwrite"
-msgstr ""
+msgstr "Není mo¾né pøepsat"
 
 #: kio/kmimetypes.cc:61
 msgid "No mime types installed!"
-msgstr ""
+msgstr "Nejsou naistalovány mime typy!"
 
 #: kio/kmimetypes.cc:85
 msgid "Could not find mime type\n"
-msgstr ""
+msgstr "Není mo¾né nalézt mime typ\n"
 
 #: kio/kmimetypes.cc:131
 msgid "The mime type config file "
-msgstr ""
+msgstr "Konfiguraèní soubor mime typu "
 
 #: kio/kmimetypes.cc:133 kio/kregfactories.cc:74
 msgid "does not conatain a MimeType=... entry"
-msgstr ""
+msgstr "neobsahuje polo¾ku MimeType=..."
 
 #: kio/kmimetypes.cc:486
 #, c-format
@@ -2583,6 +2622,9 @@ msgid ""
 "%s\n"
 "has no Type=... entry"
 msgstr ""
+"kdelnk soubor\n"
+"%s\n"
+"neobsahuje polo¾ku Type=..."
 
 #: kio/kmimetypes.cc:504
 #, c-format
@@ -2591,6 +2633,9 @@ msgid ""
 "%s\n"
 "is unknown"
 msgstr ""
+"kdelnk typ\n"
+"%s\n"
+"je neznámý"
 
 #: kio/kmimetypes.cc:518 kio/kmimetypes.cc:598 kio/kmimetypes.cc:690
 #, c-format
@@ -2599,6 +2644,9 @@ msgid ""
 "%s\n"
 "is of type FSDevice but has no Dev=... entry"
 msgstr ""
+"kdelnk soubor\n"
+"%s\n"
+"je typu FSDevice, ale nemá polo¾ku Dev=..."
 
 #: kio/kmimetypes.cc:565
 #, c-format
@@ -2607,15 +2655,17 @@ msgid ""
 "%s\n"
 "is of type Link but has no URL=... entry"
 msgstr ""
+"kdelnk soubor\n"
+"%s\n"
+"je typu Odkaz, ale neobsahuje polo¾ku URL=..."
 
 #: kio/kmimetypes.cc:608
-#, fuzzy
 msgid "Mount"
-msgstr "Pon"
+msgstr "Pøipojit"
 
 #: kio/kmimetypes.cc:615
 msgid "Unmount"
-msgstr ""
+msgstr "Odpojit"
 
 #: kio/kmimetypes.cc:658
 #, c-format
@@ -2625,10 +2675,14 @@ msgid ""
 " has an invalid menu entry\n"
 "%s"
 msgstr ""
+"kdelnk soubor\n"
+"%s\n"
+"má chybnou polo¾ku menu\n"
+"%s"
 
 #: kio/kregfactories.cc:72
 msgid "The mime type _cfg file "
-msgstr ""
+msgstr "Mime typ _cfg soubor"
 
 #: kio/krun.cc:39
 #, c-format
@@ -2637,16 +2691,19 @@ msgid ""
 "%s\n"
 "Access denied"
 msgstr ""
+"Není mo¾né vstoupit do\n"
+"%s\n"
+"Pøístup zamezen"
 
 #: kio/kservices.cc:111
 msgid "The application config file\n"
-msgstr ""
+msgstr "Konfiguraèní soubor aplikace\n"
 
 #: kio/kservices.cc:113
 msgid ""
 "\n"
 "does not conatain a Name=... entry"
-msgstr ""
+msgstr "\nneobsahuje polo¾ku Name=..."
 
 #~ msgid "&New"
 #~ msgstr "&Nový"
