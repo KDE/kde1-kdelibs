@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-15 18:34+0200\n"
+"POT-Creation-Date: 1998-06-21 18:14+0200\n"
 "PO-Revision-Date: 1998-03-15 20:00-0500\n"
 "Last-Translator:  Almir Uzunovic <auzunovi@sava.utic.net.ba> \n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -9,27 +9,28 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: kdecore/kapp.cpp:490
+#: kdecore/kapp.cpp:494
 msgid "&Contents"
 msgstr "&Sadr¾aj"
 
-#: kdecore/kapp.cpp:496
+#: kdecore/kapp.cpp:500
 msgid "&About"
 msgstr "&O programu"
 
-#: kdecore/kapp.cpp:503
+#: kdecore/kapp.cpp:507
 msgid "About &KDE..."
 msgstr "O &KDE..."
 
-#: kdecore/kapp.cpp:524
+#: kdecore/kapp.cpp:528
 msgid "About KDE"
 msgstr "O KDE"
 
-#: kdecore/kapp.cpp:526
+#: kdecore/kapp.cpp:530
+#, fuzzy
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
-"a world-wide network of software engineers commited to\n"
+"a world-wide network of software engineers committed to\n"
 "free software development.\n"
 "\n"
 "Visit http://www.kde.org for more information on the KDE\n"
@@ -66,14 +67,14 @@ msgid "No"
 msgstr "Ne"
 
 #: kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34
-#: kfile/kfiledialog.cpp:252 po/texts.cpp:45
+#: kfile/kfiledialog.cpp:240 po/texts.cpp:45
 msgid "Help"
 msgstr "Pomoæ"
 
 #: kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:46
 #: kdeui/keditcl1.cpp:397 kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897
 #: kdeui/kfontdialog.cpp:355 kdeui/kiconloaderdialog.cpp:255
-#: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:877
+#: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:877
 #: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:407 po/texts.cpp:40
 msgid "Cancel"
 msgstr "Poni¹ti"
@@ -111,7 +112,7 @@ msgstr "Podrazumijevano"
 #: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
 #: kdeui/keditcl1.cpp:1473 kdeui/keditcl1.cpp:1630 kdeui/kmsgbox.cpp:473
-#: kfile/kfiledialog.cpp:240 kfile/kfiledialog.cpp:492
+#: kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:492
 #: kfile/kfiledialogconf.cpp:60 po/texts.cpp:35
 msgid "OK"
 msgstr "U redu"
@@ -432,23 +433,23 @@ msgstr "Odaberi ikonu"
 msgid "Filter:"
 msgstr "Filter:"
 
-#: kdeui/kmenubar.cpp:168 kdeui/ktoolbar.cpp:453
+#: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:470
 msgid "Top"
 msgstr "Vrh"
 
-#: kdeui/kmenubar.cpp:169 kdeui/ktoolbar.cpp:455
+#: kdeui/kmenubar.cpp:172 kdeui/ktoolbar.cpp:472
 msgid "Bottom"
 msgstr "Dno"
 
-#: kdeui/kmenubar.cpp:170 kdeui/ktoolbar.cpp:456
+#: kdeui/kmenubar.cpp:173 kdeui/ktoolbar.cpp:473
 msgid "Floating"
 msgstr "Plutajuæi"
 
-#: kdeui/kmenubar.cpp:284 kdeui/kmenubar.cpp:434 kdeui/ktoolbar.cpp:1588
+#: kdeui/kmenubar.cpp:287 kdeui/kmenubar.cpp:437 kdeui/ktoolbar.cpp:1605
 msgid "Float"
 msgstr "Plutaj"
 
-#: kdeui/kmenubar.cpp:423 kdeui/ktoolbar.cpp:1570
+#: kdeui/kmenubar.cpp:426 kdeui/ktoolbar.cpp:1587
 msgid "UnFloat"
 msgstr "Pristani"
 
@@ -472,15 +473,15 @@ msgstr "Po&moæ"
 msgid "&Ok"
 msgstr "&U redu"
 
-#: kdeui/ktoolbar.cpp:164 kdeui/ktoolbar.cpp:283
+#: kdeui/ktoolbar.cpp:178 kdeui/ktoolbar.cpp:297
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: slika je prazna, vjerojatno nedostaje datoteka"
 
-#: kdeui/ktoolbar.cpp:452
+#: kdeui/ktoolbar.cpp:469
 msgid "Left"
 msgstr "Lijevo"
 
-#: kdeui/ktoolbar.cpp:454
+#: kdeui/ktoolbar.cpp:471
 msgid "Right"
 msgstr "Desno"
 
