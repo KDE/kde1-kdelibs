@@ -725,7 +725,7 @@ msgstr "Table de caractères"
 
 #: kdeui/kfontdialog.cpp:367
 msgid "Dolor Ipse"
-msgstr "Dolor Ipse"
+msgstr "L'élève a dépassé le Maître"
 
 #: kdeui/kfontdialog.cpp:519
 msgid "Bold"
