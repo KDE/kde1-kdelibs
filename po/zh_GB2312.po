@@ -427,58 +427,60 @@ msgstr "重新载入"
 
 #: kfile/kfiledialog.cpp:174
 msgid "Bookmarks"
-msgstr ""
+msgstr "书签"
 
 #: kfile/kfiledialog.cpp:178
 msgid "Create new folder"
-msgstr ""
+msgstr "建立新的文件夹"
 
 #: kfile/kfiledialog.cpp:181
-#, fuzzy
+#
 msgid "Search for a file"
-msgstr "存成文件"
+msgstr "搜寻文件"
 
 #: kfile/kfiledialog.cpp:184
 msgid "Configure this dialog [development only]"
-msgstr ""
+msgstr "配置此对话框 [仅用于开发]"
 
 #: kfile/kfiledialog.cpp:192
 msgid "The path"
-msgstr ""
+msgstr "路径"
 
 #: kfile/kfiledialog.cpp:217
 msgid "&Location:"
-msgstr ""
+msgstr "位置[&L]"
 
 #: kfile/kfiledialog.cpp:229
-#, fuzzy
+#
 msgid "&Filter:"
-msgstr "过滤:"
+msgstr "过滤[&F]"
 
 #: kfile/kfiledialog.cpp:262
 msgid "Show hidden"
-msgstr ""
+msgstr "显示隐藏文件"
 
 #: kfile/kfiledialog.cpp:511
 msgid "Error: Not local file"
-msgstr ""
+msgstr "错误: 不是本地文件"
 
 #: kfile/kfiledialog.cpp:512
 msgid ""
 "The specified directory is not a local directory\n"
 "But the application accepts just local files."
 msgstr ""
+"指定的目录不是一个本地目录,\n"
+"而这个应用程序只能使用本地文件."
 
 #: kfile/kfiledialog.cpp:526 kfile/kfiledialog.cpp:628
 msgid "Error: Cannot Open Directory"
-msgstr ""
+msgstr "错误: 不能打开目录"
 
 #: kfile/kfiledialog.cpp:527
-#, fuzzy
+#
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
-msgstr "指定的文件不存在"
+msgstr "指定的目录不存在或不可读"
 
 #: kfile/kfiledialog.cpp:529 kfile/kfiledialog.cpp:631
 msgid "Dismiss"
@@ -495,29 +497,29 @@ msgstr "另存新文件"
 
 #: kfile/kfiledialog.cpp:604
 msgid "Root Directory"
-msgstr ""
+msgstr "根目录"
 
 #: kfile/kfiledialog.cpp:629
-#, fuzzy
+#
 msgid "The specified directory does not exist or was not readable."
-msgstr "指定的文件不存在"
+msgstr "指定的目录不存在或不可读"
 
 #: kfile/kfiledialog.cpp:874
 msgid "Create new directory in: "
-msgstr ""
+msgstr "建立一个新的目录在 :"
 
 #: kfile/kfiledialog.cpp:877
 msgid "New Directory"
-msgstr ""
+msgstr "建立新目录"
 
 #: kfile/kfiledialog.cpp:949
-#, fuzzy
+#
 msgid "Add to bookmarks"
-msgstr "加在自定义颜色中"
+msgstr "添加到书签中"
 
 #: kfile/kfiledialog.cpp:1180
 msgid "Choose Directory"
-msgstr ""
+msgstr "选择目录"
 
 #: kfile/kfiledialog.cpp:1201 kfile/kfiledialog.cpp:1360 po/texts.cpp:78
 msgid "Save"
@@ -525,34 +527,34 @@ msgstr "保存"
 
 #: kfile/kfiledialog.cpp:1248
 msgid "directory"
-msgstr ""
+msgstr "目录"
 
 #: kfile/kfiledialog.cpp:1250
 msgid "directories"
-msgstr ""
+msgstr "目录"
 
 #: kfile/kfiledialog.cpp:1252 kfile/kpreview.cpp:326
-#, fuzzy
+#
 msgid "file"
 msgstr "文件"
 
 #: kfile/kfiledialog.cpp:1254
-#, fuzzy
+#
 msgid "files"
 msgstr "文件"
 
 #: kfile/kfiledialog.cpp:1256
 #, c-format
 msgid "%d %s and %d %s"
-msgstr ""
+msgstr "%d %s 和 %d %s"
 
 #: kfile/kfiledialog.cpp:1266
 msgid "one directory"
-msgstr ""
+msgstr "一个目录"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"
-msgstr ""
+msgstr "观感"
 
 #: kfile/kfiledialogconf.cpp:43
 msgid ""
@@ -567,6 +569,17 @@ msgid ""
 "Mario Weilguni <mweilguni@sime.com>\n"
 "and Martin Jones <mjones@kde.org>"
 msgstr ""
+"KDE 文件选择器由\n"
+"\n"
+"Richard Moore <rich@kde.org>\n"
+"Stephan Kulow <coolo@kde.org>\n"
+"和 Daniel Grana <grana@ie.iwi.unibe.ch>\n"
+"\n"
+"完成 , 并由"
+"\n"
+"Mario Weilguni <mweilguni@sime.com>\n"
+"and Martin Jones <mjones@kde.org>\n"
+"协助"
 
 #: kfile/kfiledialogconf.cpp:56 po/texts.cpp:32
 msgid "About"
@@ -574,101 +587,101 @@ msgstr "关于"
 
 #: kfile/kfiledialogconf.cpp:70
 msgid "View style"
-msgstr ""
+msgstr "视图风格"
 
 #: kfile/kfiledialogconf.cpp:74
 msgid "Show Short View"
-msgstr ""
+msgstr "简洁方式"
 
 #: kfile/kfiledialogconf.cpp:80
 msgid "Show Detail View"
-msgstr ""
+msgstr "详细方式"
 
 #: kfile/kfiledialogconf.cpp:89
 msgid "Misc"
-msgstr ""
+msgstr "其他"
 
 #: kfile/kfiledialogconf.cpp:95
-#, fuzzy
+#
 msgid "Show Filter"
-msgstr "过滤:"
+msgstr "显示过滤符"
 
 #: kfile/kfiledialogconf.cpp:101
 msgid "Show List Labels"
-msgstr ""
+msgstr "显示列表标号"
 
 #: kfile/kfiledialogconf.cpp:107
 msgid "Show Hidden"
-msgstr ""
+msgstr "显示隐藏文件"
 
 #: kfile/kfiledialogconf.cpp:113
 msgid "Show Status Line"
-msgstr ""
+msgstr "显示状态行"
 
 #: kfile/kfiledialogconf.cpp:119
 msgid "Use single Click"
-msgstr ""
+msgstr "使用单击"
 
 #: kfile/kfiledialogconf.cpp:125
 msgid "Mix dirs and files"
-msgstr ""
+msgstr "目录和文件混和显示"
 
 #: kfile/kfiledialogconf.cpp:131
 msgid "Keep dirs first"
-msgstr ""
+msgstr "先显示目录"
 
 #: kfile/kfileinfo.cpp:95 kfile/kfileinfo.cpp:99
 msgid "unknown"
-msgstr ""
+msgstr "未知"
 
 #: kfile/kfileinfo.cpp:218
 msgid "Jan"
-msgstr ""
+msgstr "一月"
 
 #: kfile/kfileinfo.cpp:219
 msgid "Feb"
-msgstr ""
+msgstr "二月"
 
 #: kfile/kfileinfo.cpp:220
 msgid "Mar"
-msgstr ""
+msgstr "三月"
 
 #: kfile/kfileinfo.cpp:221
 msgid "Apr"
-msgstr ""
+msgstr "四月"
 
 #: kfile/kfileinfo.cpp:222
 msgid "May"
-msgstr ""
+msgstr "五月"
 
 #: kfile/kfileinfo.cpp:223
 msgid "Jun"
-msgstr ""
+msgstr "六月"
 
 #: kfile/kfileinfo.cpp:224
 msgid "Jul"
-msgstr ""
+msgstr "七月"
 
 #: kfile/kfileinfo.cpp:225
 msgid "Aug"
-msgstr ""
+msgstr "八月"
 
 #: kfile/kfileinfo.cpp:226
 msgid "Sep"
-msgstr ""
+msgstr "九月"
 
 #: kfile/kfileinfo.cpp:227
 msgid "Oct"
-msgstr ""
+msgstr "十月"
 
 #: kfile/kfileinfo.cpp:228
-#, fuzzy
+#
 msgid "Nov"
-msgstr "否"
+msgstr "十一月"
 
 #: kfile/kfileinfo.cpp:229
 msgid "Dec"
-msgstr ""
+msgstr "十二月"
 
 #: kfile/kpreview.cpp:187
 msgid "Name:"
@@ -676,17 +689,17 @@ msgstr "名称:"
 
 #: kfile/kpreview.cpp:205
 msgid "Date:"
-msgstr ""
+msgstr "日期:"
 
 #: kfile/kpreview.cpp:214
-#, fuzzy
+#
 msgid "Owner:"
-msgstr "所有者"
+msgstr "所有者:"
 
 #: kfile/kpreview.cpp:223
-#, fuzzy
+#
 msgid "Group:"
-msgstr "用户组"
+msgstr "工作组:"
 
 #: kfile/kpreview.cpp:232
 msgid "Type:"
@@ -694,15 +707,15 @@ msgstr "类型:"
 
 #: kfile/kpreview.cpp:287
 msgid "locked"
-msgstr ""
+msgstr "锁住"
 
 #: kfile/kpreview.cpp:311
 msgid "picture"
-msgstr ""
+msgstr "图片"
 
 #: kfile/kpreview.cpp:343
 msgid "folder"
-msgstr ""
+msgstr "文件夹"
 
 #: po/texts.cpp:24
 msgid "Error"
@@ -739,7 +752,7 @@ msgstr "打开"
 
 #: po/texts.cpp:39
 msgid "Off"
-msgstr ""
+msgstr "关上"
 
 #: po/texts.cpp:41
 msgid "&Cancel"
@@ -899,7 +912,7 @@ msgstr "去除"
 
 #: po/texts.cpp:90
 msgid "Add"
-msgstr "加入"
+msgstr "添加"
 
 #: po/texts.cpp:91
 msgid "Change"
