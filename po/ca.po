@@ -9,7 +9,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-11-16 01:02+0100\n"
+"POT-Creation-Date: 1998-12-01 01:01+0100\n"
 "PO-Revision-Date: 1998-11-17 01:00\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
@@ -46,10 +46,10 @@ msgid "Send an email to the application maintainer"
 msgstr "Envia un correu al mantenidor de l'aplicació"
 
 #: kab/AssertDialog.cpp:51 kab/datepickerdialog.cc:25 kab/kabapi.cc:35
-#: kdeui/kcolordlg.cpp:463 kdeui/kcontrol.cpp:46 kdeui/kcontrol.cpp:51
+#: kdeui/kcolordlg.cpp:467 kdeui/kcontrol.cpp:46 kdeui/kcontrol.cpp:51
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:155 kdeui/keditcl1.cpp:170
 #: kdeui/keditcl1.cpp:191 kdeui/keditcl1.cpp:204 kdeui/keditcl1.cpp:1561
-#: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:370
+#: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:391
 #: kdeui/kiconloaderdialog.cpp:254 kdeui/kmsgbox.cpp:277
 #: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:505
 #: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:409
@@ -332,7 +332,7 @@ msgstr "Anterior"
 msgid "Next"
 msgstr "Següent"
 
-#: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471
+#: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
 #: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 po/texts.cpp:44
 msgid "Help"
 msgstr "Ajut"
@@ -408,9 +408,9 @@ msgid "No"
 msgstr "No"
 
 #: kab/datepickerdialog.cc:26 kab/kabapi.cc:38 kab/widget.cc:1373
-#: kab/widget.cc:1415 kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466
+#: kab/widget.cc:1415 kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:470
 #: kdeui/kcontrol.cpp:48 kdeui/kcontrol.cpp:55 kdeui/keditcl1.cpp:414
-#: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:365
+#: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:394
 #: kdeui/kiconloaderdialog.cpp:255 kdeui/kmsgbox.cpp:312
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:892
 #: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:413 kio/kio_job.cc:693
@@ -436,7 +436,7 @@ msgstr "Colors a mida"
 msgid "Add to Custom Colors"
 msgstr "Afegeix als colors a mida"
 
-#: kdeui/kcolordlg.cpp:788 kdeui/kcolordlg.cpp:840
+#: kdeui/kcolordlg.cpp:789 kdeui/kcolordlg.cpp:841
 msgid "Custom..."
 msgstr "A mida..."
 
@@ -665,23 +665,23 @@ msgstr "Ves a línia"
 msgid "Go"
 msgstr "Ves-hi"
 
-#: kdeui/kfontdialog.cpp:181
+#: kdeui/kfontdialog.cpp:168
 msgid "Select Font"
 msgstr "Trieu font"
 
-#: kdeui/kfontdialog.cpp:185
+#: kdeui/kfontdialog.cpp:172
 msgid "Requested Font"
 msgstr "Font demanada"
 
-#: kdeui/kfontdialog.cpp:190
+#: kdeui/kfontdialog.cpp:173
 msgid "Actual Font"
 msgstr "Font actual"
 
-#: kdeui/kfontdialog.cpp:194 kdeui/kfontdialog.cpp:198
+#: kdeui/kfontdialog.cpp:193 kdeui/kfontdialog.cpp:198
 msgid "Family:"
 msgstr "Família:"
 
-#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:211 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:210 po/texts.cpp:26
 msgid "Charset:"
 msgstr "Joc:"
 
@@ -693,53 +693,53 @@ msgstr "Mida:"
 msgid "Weight:"
 msgstr "Gruix:"
 
-#: kdeui/kfontdialog.cpp:243 kdeui/kfontdialog.cpp:250
+#: kdeui/kfontdialog.cpp:242 kdeui/kfontdialog.cpp:247
 msgid "Style:"
 msgstr "Estil:"
 
-#: kdeui/kfontdialog.cpp:286
-msgid "Charset"
-msgstr "Joc"
-
-#: kdeui/kfontdialog.cpp:297 kfile/kfiledetaillist.cpp:38
+#: kdeui/kfontdialog.cpp:275 kfile/kfiledetaillist.cpp:38
 msgid "Size"
 msgstr "Grandària"
 
-#: kdeui/kfontdialog.cpp:338
+#: kdeui/kfontdialog.cpp:313
 msgid "Weight"
 msgstr "Gruix"
 
-#: kdeui/kfontdialog.cpp:339 kdeui/kfontdialog.cpp:480
+#: kdeui/kfontdialog.cpp:316 kdeui/kfontdialog.cpp:475
 msgid "normal"
 msgstr "normal"
 
-#: kdeui/kfontdialog.cpp:340 kdeui/kfontdialog.cpp:482
+#: kdeui/kfontdialog.cpp:317 kdeui/kfontdialog.cpp:477
 msgid "bold"
 msgstr "negreta"
 
-#: kdeui/kfontdialog.cpp:351
+#: kdeui/kfontdialog.cpp:327
 msgid "Style"
 msgstr "Estil"
 
-#: kdeui/kfontdialog.cpp:352 kdeui/kfontdialog.cpp:493
-#: kdeui/kfontdialog.cpp:522
+#: kdeui/kfontdialog.cpp:330 kdeui/kfontdialog.cpp:488
+#: kdeui/kfontdialog.cpp:517
 msgid "roman"
 msgstr "roman"
 
-#: kdeui/kfontdialog.cpp:353 kdeui/kfontdialog.cpp:495
-#: kdeui/kfontdialog.cpp:520
+#: kdeui/kfontdialog.cpp:331 kdeui/kfontdialog.cpp:490
+#: kdeui/kfontdialog.cpp:515
 msgid "italic"
 msgstr "cursiva"
 
-#: kdeui/kfontdialog.cpp:383
+#: kdeui/kfontdialog.cpp:339
+msgid "Charset"
+msgstr "Joc"
+
+#: kdeui/kfontdialog.cpp:358
 msgid "Dolor Ipse"
 msgstr "Dolor Ipse"
 
-#: kdeui/kfontdialog.cpp:515
+#: kdeui/kfontdialog.cpp:510
 msgid "Bold"
 msgstr "Negreta"
 
-#: kdeui/kfontdialog.cpp:517
+#: kdeui/kfontdialog.cpp:512
 msgid "Normal"
 msgstr "Normal"
 
@@ -989,6 +989,11 @@ msgstr "%d %s i %d %s"
 #: kfile/kfiledialog.cpp:1319
 msgid "one directory"
 msgstr "un directori"
+
+#: kfile/kfiledialog.cpp:1321
+#, fuzzy, c-format
+msgid "%d directories"
+msgstr "directoris"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"
@@ -1533,7 +1538,7 @@ msgstr ""
 "Probablement no heu emprat KDE abans, per tant\n"
 "no teniu un directori local \".kde\" al vostre\n"
 "directori llar. Engegueu un cop el gestor de fitxers\n"
-"del KDE per crear-lo automàticament." 
+"del KDE per crear-lo automàticament."
 
 #: kab/addressbook.cc:104
 msgid "The directory has been created.\n"
@@ -1553,7 +1558,8 @@ msgstr "No s'ha pogut desar al fitxer de còpia."
 
 #: kab/addressbook.cc:198
 msgid "Unable to reset filename after creating backup."
-msgstr "No s'ha pogut inicialitzar el nom del fitxer desprès de crear la còpia."
+msgstr ""
+"No s'ha pogut inicialitzar el nom del fitxer desprès de crear la còpia."
 
 #: kab/addressbook.cc:203
 msgid "Unable to create backup file"
@@ -1587,7 +1593,8 @@ msgstr "entrada sense nom"
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
 msgstr ""
-"No s'ha pogut crear un nou fitxer (probablement s'ha denegat el permís), plego."
+"No s'ha pogut crear un nou fitxer (probablement s'ha denegat el permís), "
+"plego."
 
 #: kab/addressbook.cc:949
 msgid "Cannot create configuration section, exiting."
@@ -2298,6 +2305,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:19
+#, c-format
 msgid ""
 "Could not write to\n"
 "%s"
@@ -2306,6 +2314,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:22
+#, c-format
 msgid ""
 "Could not start process\n"
 "%s"
@@ -2327,6 +2336,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:28
+#, c-format
 msgid ""
 "Malformed URL\n"
 "%s"
@@ -2362,6 +2372,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:40
+#, c-format
 msgid ""
 "The file or directory\n"
 "%s\n"
@@ -2383,6 +2394,7 @@ msgstr ""
 "pero s'esperava un fitxer"
 
 #: kio/kio_error.cc:46
+#, c-format
 msgid ""
 "Could not make directory\n"
 "%s"
@@ -2411,6 +2423,7 @@ msgstr ""
 "S'ha denegat l'accés"
 
 #: kio/kio_error.cc:55
+#, c-format
 msgid ""
 "Could not enter directory\n"
 "%s"
@@ -2437,6 +2450,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:64
+#, c-format
 msgid ""
 "Could not change permissions for\n"
 "%s"
@@ -2482,6 +2496,7 @@ msgstr ""
 "%s"
 
 #: kio/kio_error.cc:79
+#, c-format
 msgid ""
 "Could not connect to host\n"
 "%s"
@@ -2567,6 +2582,7 @@ msgstr ""
 "ha mort inesperadament"
 
 #: kio/kio_error.cc:103
+#, c-format
 msgid ""
 "Could not access\n"
 "%s"
@@ -2631,8 +2647,7 @@ msgstr "La taula d'enganxar està buida"
 #: kio/kio_paste.cc:75
 msgid ""
 "Pasting clipboard data is only supported on the local hard disk currently"
-msgstr ""
-"Actualment només es poden enganxar dades al disc dur local"
+msgstr "Actualment només es poden enganxar dades al disc dur local"
 
 #: kio/kio_paste.cc:80
 msgid "Filename for clipboard content:"
@@ -2643,6 +2658,7 @@ msgid "You did not enter a filename"
 msgstr "No heu entrat un nom de fitxer"
 
 #: kio/kio_paste.cc:97
+#, c-format
 msgid "The file %s does already exist. Do you really want to overwrite it ?"
 msgstr "El fitxer %s ja existeix. De veres voleu escriure-hi a sobre ?"
 
@@ -2876,11 +2892,3 @@ msgid ""
 msgstr ""
 "\n"
 "no conté una entrada Name=..."
-
-
-
-
-
-
-
-
