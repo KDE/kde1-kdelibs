@@ -1,5 +1,4 @@
 # KTranslator Generated File
-# KTranslator Generated File
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -722,7 +721,7 @@ msgstr "romano"
 #: kdeui/kfontdialog.cpp:331 kdeui/kfontdialog.cpp:490
 #: kdeui/kfontdialog.cpp:515
 msgid "italic"
-msgstr "italico"
+msgstr "corsivo"
 
 #: kdeui/kfontdialog.cpp:339
 msgid "Charset"
@@ -1447,7 +1446,7 @@ msgstr "Pulisci"
 
 #: po/texts.cpp:91
 msgid "Italic"
-msgstr "Italico"
+msgstr "Corsivo"
 
 #: po/texts.cpp:92
 msgid "Roman"
