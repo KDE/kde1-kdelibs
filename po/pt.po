@@ -724,7 +724,7 @@ msgstr "Mostrar Escondidos"
 
 #: kfile/kfiledialogconf.cpp:113
 msgid "Show Status Line"
-msgstr "Mostrar Linha de Status"
+msgstr "Mostrar Linha de Estado"
 
 #: kfile/kfiledialogconf.cpp:119
 msgid "Use single Click"
