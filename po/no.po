@@ -84,7 +84,7 @@ msgstr "Velg farge"
 
 #: kdeui/kcolordlg.cpp:297
 msgid "System Colors"
-msgstr "System farger"
+msgstr "Systemfarger"
 
 #: kdeui/kcolordlg.cpp:328
 msgid "Custom Colors"
@@ -232,7 +232,7 @@ msgstr "Velg dokument som skal insettes"
 
 #: kdeui/keditcl1.cpp:392 kdeui/keditcl1.cpp:474 kdeui/keditcl1.cpp:1570
 msgid "Warning:"
-msgstr "Advarsel"
+msgstr "Advarsel:"
 
 #: kdeui/keditcl1.cpp:393 kdeui/keditcl1.cpp:475
 msgid ""
