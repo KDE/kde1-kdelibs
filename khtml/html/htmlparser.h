@@ -191,7 +191,7 @@ protected:
     /*
      * parse table
      */
-    const char* parseTable( HTMLClue *_clue, int _max_width, const char * );
+    const char* parseTable( HTMLClue *_clue, const char * );
 
     /*
      * parse input
