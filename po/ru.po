@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE 0.2\n"
-"POT-Creation-Date: 1998-04-10 11:17+0200\n"
+"POT-Creation-Date: 1998-04-14 21:36+0200\n"
 "PO-Revision-Date: 1998-04-05 11:51+0600\n"
 "Last-Translator: Denis Pershin <dyp@inetlab.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -15,26 +15,26 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 
 #
-#: kdecore/kapp.cpp:484
+#: kdecore/kapp.cpp:494
 msgid "&Contents"
 msgstr "Содержимое"
 
 #
-#: kdecore/kapp.cpp:490
+#: kdecore/kapp.cpp:500
 msgid "&About"
 msgstr "&О программе"
 
 #
-#: kdecore/kapp.cpp:497
+#: kdecore/kapp.cpp:507
 msgid "About &KDE..."
 msgstr "О &KDE"
 
 #
-#: kdecore/kapp.cpp:518
+#: kdecore/kapp.cpp:528
 msgid "About KDE"
 msgstr "О KDE"
 
-#: kdecore/kapp.cpp:520
+#: kdecore/kapp.cpp:530
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -64,13 +64,13 @@ msgstr "Собственные цвета"
 msgid "Add to Custom Colors"
 msgstr "Добавить собственный цвет"
 
-#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:339
+#: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:337
 #: kdeui/kiconloaderdialog.cpp:210 kfile/kfiledialog.cpp:886 po/texts.cpp:37
 msgid "Ok"
 msgstr "Ок"
 
 #: kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:41 kdeui/keditcl1.cpp:397
-#: kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897 kdeui/kfontdialog.cpp:334
+#: kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897 kdeui/kfontdialog.cpp:332
 #: kdeui/kiconloaderdialog.cpp:211 kdeui/kmsgbox.cpp:505
 #: kfile/kfiledialog.cpp:288 kfile/kfiledialog.cpp:891 po/texts.cpp:40
 msgid "Cancel"
@@ -260,82 +260,82 @@ msgstr "На строку"
 msgid "Go"
 msgstr "Идти"
 
-#: kdeui/kfontdialog.cpp:141
+#: kdeui/kfontdialog.cpp:145
 msgid "Select Font"
 msgstr "Выберите шрифт"
 
-#: kdeui/kfontdialog.cpp:145
+#: kdeui/kfontdialog.cpp:149
 msgid "Requested Font"
 msgstr "Запрошенные шрифты"
 
-#: kdeui/kfontdialog.cpp:150
+#: kdeui/kfontdialog.cpp:154
 msgid "Actual Font"
 msgstr "Существующие шрифты"
 
-#: kdeui/kfontdialog.cpp:154 kdeui/kfontdialog.cpp:158
+#: kdeui/kfontdialog.cpp:158 kdeui/kfontdialog.cpp:162
 msgid "Family:"
 msgstr "Семейство:"
 
-#: kdeui/kfontdialog.cpp:165 kdeui/kfontdialog.cpp:171 po/texts.cpp:26
+#: kdeui/kfontdialog.cpp:169 kdeui/kfontdialog.cpp:175 po/texts.cpp:26
 msgid "Charset:"
 msgstr "Кодировка:"
 
-#: kdeui/kfontdialog.cpp:178 kdeui/kfontdialog.cpp:183 kfile/kpreview.cpp:173
+#: kdeui/kfontdialog.cpp:182 kdeui/kfontdialog.cpp:187 kfile/kpreview.cpp:196
 msgid "Size:"
 msgstr "Размер:"
 
-#: kdeui/kfontdialog.cpp:191 kdeui/kfontdialog.cpp:196
+#: kdeui/kfontdialog.cpp:195 kdeui/kfontdialog.cpp:200
 msgid "Weight:"
 msgstr "Ширина:"
 
-#: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:212
+#: kdeui/kfontdialog.cpp:209 kdeui/kfontdialog.cpp:216
 msgid "Style:"
 msgstr "Стиль:"
 
 #
-#: kdeui/kfontdialog.cpp:249
+#: kdeui/kfontdialog.cpp:253
 msgid "Charset"
 msgstr "Кодировка"
 
-#: kdeui/kfontdialog.cpp:266 kfile/kfiledetaillist.cpp:35
+#: kdeui/kfontdialog.cpp:264 kfile/kfiledetaillist.cpp:35
 msgid "Size"
 msgstr "Размер"
 
-#: kdeui/kfontdialog.cpp:307
+#: kdeui/kfontdialog.cpp:305
 msgid "Weight"
 msgstr "Ширина"
 
-#: kdeui/kfontdialog.cpp:308 kdeui/kfontdialog.cpp:430
+#: kdeui/kfontdialog.cpp:306 kdeui/kfontdialog.cpp:433
 msgid "normal"
 msgstr "нормальный"
 
-#: kdeui/kfontdialog.cpp:309 kdeui/kfontdialog.cpp:432
+#: kdeui/kfontdialog.cpp:307 kdeui/kfontdialog.cpp:435
 msgid "bold"
 msgstr "жирный"
 
-#: kdeui/kfontdialog.cpp:320
+#: kdeui/kfontdialog.cpp:318
 msgid "Style"
 msgstr "Стиль"
 
-#: kdeui/kfontdialog.cpp:321 kdeui/kfontdialog.cpp:443
-#: kdeui/kfontdialog.cpp:472
+#: kdeui/kfontdialog.cpp:319 kdeui/kfontdialog.cpp:446
+#: kdeui/kfontdialog.cpp:475
 msgid "roman"
 msgstr "роман"
 
-#: kdeui/kfontdialog.cpp:322 kdeui/kfontdialog.cpp:445
-#: kdeui/kfontdialog.cpp:470
+#: kdeui/kfontdialog.cpp:320 kdeui/kfontdialog.cpp:448
+#: kdeui/kfontdialog.cpp:473
 msgid "italic"
 msgstr "наклонный"
 
-#: kdeui/kfontdialog.cpp:352
+#: kdeui/kfontdialog.cpp:350
 msgid "Dolor Ipse"
 msgstr "Тестируем"
 
-#: kdeui/kfontdialog.cpp:465
+#: kdeui/kfontdialog.cpp:468
 msgid "Bold"
 msgstr "Жирный"
 
-#: kdeui/kfontdialog.cpp:467
+#: kdeui/kfontdialog.cpp:470
 msgid "Normal"
 msgstr "Нормальный"
 
@@ -359,11 +359,11 @@ msgstr "Низ"
 msgid "Floating"
 msgstr "Плавающий"
 
-#: kdeui/kmenubar.cpp:196 kdeui/kmenubar.cpp:336 kdeui/ktoolbar.cpp:1453
+#: kdeui/kmenubar.cpp:197 kdeui/kmenubar.cpp:337 kdeui/ktoolbar.cpp:1455
 msgid "Float"
 msgstr "Сделать плавающей"
 
-#: kdeui/kmenubar.cpp:325 kdeui/ktoolbar.cpp:1435
+#: kdeui/kmenubar.cpp:326 kdeui/ktoolbar.cpp:1437
 msgid "UnFloat"
 msgstr "Сделать неплавающей"
 
@@ -514,7 +514,7 @@ msgid "The specified directory does not exist or was not readable."
 msgstr "Указанный файл не существует"
 
 #: kfile/kfiledialog.cpp:871
-msgid "Create new directory in :  "
+msgid "Create new directory in: "
 msgstr ""
 
 #: kfile/kfiledialog.cpp:874
@@ -542,7 +542,7 @@ msgstr ""
 msgid "directories"
 msgstr ""
 
-#: kfile/kfiledialog.cpp:1260 kfile/kpreview.cpp:299
+#: kfile/kfiledialog.cpp:1260 kfile/kpreview.cpp:324
 #, fuzzy
 msgid "file"
 msgstr "Файл"
@@ -558,7 +558,7 @@ msgid "%d %s and %d %s"
 msgstr ""
 
 #: kfile/kfiledialog.cpp:1274
-msgid "1 directory"
+msgid "one directory"
 msgstr ""
 
 #: kfile/kfiledialogconf.cpp:41
@@ -632,36 +632,36 @@ msgid "unknown"
 msgstr ""
 
 #
-#: kfile/kpreview.cpp:164
+#: kfile/kpreview.cpp:187
 #, fuzzy
 msgid "Name:"
 msgstr "Новая игра"
 
-#: kfile/kpreview.cpp:182
+#: kfile/kpreview.cpp:205
 msgid "Date:"
 msgstr ""
 
-#: kfile/kpreview.cpp:191
+#: kfile/kpreview.cpp:214
 msgid "Owner:"
 msgstr ""
 
-#: kfile/kpreview.cpp:200
+#: kfile/kpreview.cpp:223
 msgid "Group:"
 msgstr ""
 
-#: kfile/kpreview.cpp:209
+#: kfile/kpreview.cpp:232
 msgid "Type:"
 msgstr ""
 
-#: kfile/kpreview.cpp:262
+#: kfile/kpreview.cpp:287
 msgid "locked"
 msgstr ""
 
-#: kfile/kpreview.cpp:286
+#: kfile/kpreview.cpp:311
 msgid "picture"
 msgstr ""
 
-#: kfile/kpreview.cpp:314
+#: kfile/kpreview.cpp:339
 msgid "folder"
 msgstr ""
 
