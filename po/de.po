@@ -1022,7 +1022,7 @@ msgstr "Schlieﬂen"
 
 #: po/texts.cpp:86
 msgid "&Close"
-msgstr "&Schliessen"
+msgstr "&Schlieﬂen"
 
 #: po/texts.cpp:87
 msgid "&Print..."
