@@ -24,7 +24,7 @@
 #ifndef AMPSEQ_H
 #define AMPSEQ_H
 
-#define NUM_AMPSEQ      (103+24) // 103 HTMLsym + 24 capital greek letters
+#define NUM_AMPSEQ      164
 
 struct ampseq_s
 {
