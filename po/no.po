@@ -1,13 +1,19 @@
+# Norwegian translations for KDE Libs
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Hans Petter Bieker <zerium@webindex.no>, 1998.
+#
+# $Id$
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: KDE base 1.1\n"
+"Project-Id-Version: KDE LIBS\n"
 "POT-Creation-Date: 1998-09-29 23:17+0200\n"
 "PO-Revision-Date: 1998-04-20 18:55+0100\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO_8859-1\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: kab/PrintDialog.cpp:22
 msgid "Headline text:"
@@ -1524,27 +1530,27 @@ msgstr "Kunne ikke finne forrige lagde seksjon, avslutter."
 
 #: kab/addressbook.cc:1033
 msgid "Cannot save newly created database."
-msgstr ""
+msgstr "Kan ikke lagre nylig lagd database."
 
 #: kab/addressbook.cc:1041
 msgid "Cannot erase database contents."
-msgstr ""
+msgstr "Kan ikke slette databaseinnhold."
 
 #: kab/addressbook.cc:1126
 msgid "First name"
-msgstr ""
+msgstr "Fornavn"
 
 #: kab/addressbook.cc:1130
 msgid "Additional name"
-msgstr ""
+msgstr "Mellomnavn"
 
 #: kab/addressbook.cc:1134
 msgid "Name prefix"
-msgstr ""
+msgstr "Etternavn"
 
 #: kab/addressbook.cc:1138
 msgid "Formatted name"
-msgstr ""
+msgstr "Formatert navn"
 
 #: kab/addressbook.cc:1142
 msgid "Comment"
@@ -1568,7 +1574,7 @@ msgstr "Tittel"
 
 #: kab/addressbook.cc:1162
 msgid "Role"
-msgstr ""
+msgstr "Rolle"
 
 #: kab/addressbook.cc:1166
 msgid "Birthday"
@@ -1576,11 +1582,11 @@ msgstr "Fødselsdag"
 
 #: kab/addressbook.cc:1170
 msgid "Talk addresses"
-msgstr ""
+msgstr "Talk-adresse"
 
 #: kab/addressbook.cc:1174
 msgid "Delivery label"
-msgstr ""
+msgstr "Leveringsetikett"
 
 #: kab/addressbook.cc:1178
 msgid "Email address"
@@ -1660,7 +1666,7 @@ msgstr "Mellomnavn:"
 
 #: kab/editentry.cc:71
 msgid "Formatted Name:"
-msgstr ""
+msgstr "Formatert navn:"
 
 #: kab/editentry.cc:94
 msgid "&Name"
@@ -1760,7 +1766,7 @@ msgstr "søkeresultater"
 
 #: kab/widget.cc:153
 msgid "Conversion problem"
-msgstr ""
+msgstr "Omformingsproblem"
 
 #: kab/widget.cc:154
 msgid ""
@@ -1769,12 +1775,17 @@ msgid ""
 "You can use it, but not all features will be\n"
 "supported."
 msgstr ""
+"Kab kunne ikke konvertere database til\n"
+"gjeldende filformat.\n"
+"Du kan bruke den, men alle egenskapene vil ikke bli støttet."
 
 #: kab/widget.cc:173
 msgid ""
 "The application saved the last current entry,\n"
 "but this entry does not exist anymore."
 msgstr ""
+"Applikasjonen lagret siste gjeldende oppføring,\n"
+"men denne oppføringen eksisterer ikke mer."
 
 #: kab/widget.cc:236 kab/widget.cc:301 kab/widget.cc:309
 msgid "File handling error"
@@ -1786,7 +1797,7 @@ msgstr "Umulig å åpne databasefil i skrive- og lesemodus."
 
 #: kab/widget.cc:245
 msgid "Email storage conversion"
-msgstr ""
+msgstr "Epost-lagringsomforming"
 
 #: kab/widget.cc:246
 msgid ""
@@ -1794,6 +1805,9 @@ msgid ""
 "the new style supporting unlimited numbers\n"
 "of email addresses per entry."
 msgstr ""
+"Kab vil flytte alle epostadresser til\n"
+"den nye stilen som støtter uendelig antall\n"
+"epostadresser per oppføring."
 
 #: kab/widget.cc:280
 msgid "kab database update"
@@ -1810,6 +1824,14 @@ msgid ""
 "You will probably need to edit some of your\n"
 "entries to make use of it."
 msgstr ""
+"Vennligst noter at kab nå støtter noen nye\n"
+"felter i dens adresser. Disse nye feiltene\n"
+"er:\n"
+"° tittel-feltet,\n"
+"° landfeilt og\n"
+"° postkodefeltet.\n"
+"Du vil trolig bli nødt til å redigere noen av dine\n"
+"oppføringer for å bruke dem."
 
 #: kab/widget.cc:302
 msgid "Could not save database after update."
