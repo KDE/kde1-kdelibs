@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs 1.1\n"
-"POT-Creation-Date: 1998-11-22 01:01+0100\n"
+"POT-Creation-Date: 1998-11-23 01:01+0100\n"
 "PO-Revision-Date: 1998-11-13 22:35+01:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
@@ -402,8 +402,8 @@ msgstr "Ja"
 msgid "No"
 msgstr "Nej"
 
-#: kab/datepickerdialog.cc:26 kab/kabapi.cc:38 kab/widget.cc:1369
-#: kab/widget.cc:1411 kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466
+#: kab/datepickerdialog.cc:26 kab/kabapi.cc:38 kab/widget.cc:1373
+#: kab/widget.cc:1415 kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466
 #: kdeui/kcontrol.cpp:48 kdeui/kcontrol.cpp:55 kdeui/keditcl1.cpp:414
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:365
 #: kdeui/kiconloaderdialog.cpp:255 kdeui/kmsgbox.cpp:312
@@ -524,7 +524,7 @@ msgstr "fre"
 msgid "Sat"
 msgstr "lör"
 
-#: kab/kabapi.cc:134 kab/widget.cc:817 kab/widget.cc:837 kab/widget.cc:1901
+#: kab/kabapi.cc:134 kab/widget.cc:821 kab/widget.cc:841 kab/widget.cc:1905
 #: kdeui/keditcl1.cpp:139 kdeui/keditcl1.cpp:168 kdeui/keditcl1.cpp:189
 #: kdeui/keditcl1.cpp:202 kdeui/keditcl1.cpp:1559 po/texts.cpp:83
 msgid "Sorry"
@@ -775,23 +775,23 @@ msgstr "&Standardtangent"
 msgid "&Custom key"
 msgstr "&Egen tangent"
 
-#: kdeui/kmenubar.cpp:215 kdeui/ktoolbar.cpp:841
+#: kdeui/kmenubar.cpp:223 kdeui/ktoolbar.cpp:841
 msgid "Top"
 msgstr "Överst"
 
-#: kdeui/kmenubar.cpp:216 kdeui/ktoolbar.cpp:843
+#: kdeui/kmenubar.cpp:224 kdeui/ktoolbar.cpp:843
 msgid "Bottom"
 msgstr "Underst"
 
-#: kdeui/kmenubar.cpp:217 kdeui/ktoolbar.cpp:844
+#: kdeui/kmenubar.cpp:225 kdeui/ktoolbar.cpp:844
 msgid "Floating"
 msgstr "Svävande"
 
-#: kdeui/kmenubar.cpp:364 kdeui/kmenubar.cpp:622 kdeui/ktoolbar.cpp:2155
+#: kdeui/kmenubar.cpp:375 kdeui/kmenubar.cpp:656 kdeui/ktoolbar.cpp:2155
 msgid "Float"
 msgstr "Sväva"
 
-#: kdeui/kmenubar.cpp:591 kdeui/ktoolbar.cpp:2136
+#: kdeui/kmenubar.cpp:625 kdeui/ktoolbar.cpp:2136
 msgid "UnFloat"
 msgstr "Landa"
 
@@ -1169,9 +1169,9 @@ msgstr ""
 "Filen %s är trasig\n"
 "Kunde ej kontrollera identitet"
 
-#: kab/widget.cc:157 kab/widget.cc:1149 kab/widget.cc:1207 kab/widget.cc:1218
-#: kab/widget.cc:1921 kab/widget.cc:2013 kab/widget.cc:2097 kab/widget.cc:2142
-#: kab/widget.cc:2153 kio/kio_error.cc:118 kio/kio_paste.cc:48
+#: kab/widget.cc:159 kab/widget.cc:1153 kab/widget.cc:1211 kab/widget.cc:1222
+#: kab/widget.cc:1925 kab/widget.cc:2017 kab/widget.cc:2101 kab/widget.cc:2146
+#: kab/widget.cc:2157 kio/kio_error.cc:118 kio/kio_paste.cc:48
 #: kio/kio_paste.cc:60 kio/kio_paste.cc:75 kio/kio_paste.cc:87
 #: kio/kio_rename_dlg.cc:217 kio/kio_rename_dlg.cc:224 kio/kmimetypes.cc:487
 #: kio/kmimetypes.cc:505 kio/kmimetypes.cc:519 kio/kmimetypes.cc:566
@@ -1432,7 +1432,7 @@ msgstr "&Ladda om"
 msgid "Files"
 msgstr "Filer"
 
-#: kab/widget.cc:1369 kab/widget.cc:1411 po/texts.cpp:112
+#: kab/widget.cc:1373 kab/widget.cc:1415 po/texts.cpp:112
 msgid "Continue"
 msgstr "Fortsätt"
 
@@ -1839,11 +1839,11 @@ msgstr "Kunde inte lägga till din nya post."
 msgid "search results"
 msgstr "sökresultat"
 
-#: kab/widget.cc:139
+#: kab/widget.cc:141
 msgid "Conversion problem"
 msgstr "Översättningsproblem"
 
-#: kab/widget.cc:140
+#: kab/widget.cc:142
 msgid ""
 "Kab could not convert your database to the\n"
 "current file format.\n"
@@ -1855,7 +1855,7 @@ msgstr ""
 "Du kan använda den, men kommer inte kunna\n"
 "använda alla finesser."
 
-#: kab/widget.cc:158
+#: kab/widget.cc:160
 msgid ""
 "The application saved the last current entry,\n"
 "but this entry does not exist anymore."
@@ -1863,11 +1863,11 @@ msgstr ""
 "Programmet sparade den senast aktuella posten,\n"
 "men den existerar inte längre."
 
-#: kab/widget.cc:224
+#: kab/widget.cc:226
 msgid "kab: Removed bug warning"
 msgstr "kab: Tog bort felvarning"
 
-#: kab/widget.cc:225
+#: kab/widget.cc:227
 msgid ""
 "The version of kab you used before had an\n"
 "error regarding the upgrading of the database\n"
@@ -1883,19 +1883,19 @@ msgstr ""
 "Alla inställningar har återställts till sina\n"
 "standardvärden."
 
-#: kab/widget.cc:243 kab/widget.cc:307 kab/widget.cc:315
+#: kab/widget.cc:245 kab/widget.cc:309 kab/widget.cc:317
 msgid "File handling error"
 msgstr "Filhanteringsfel"
 
-#: kab/widget.cc:244
+#: kab/widget.cc:246
 msgid "Unable to open database file r/w."
 msgstr "Kunde inte öppna databasfilen för läs/skriv."
 
-#: kab/widget.cc:252
+#: kab/widget.cc:254
 msgid "Email storage conversion"
 msgstr "Flyttning E-postadresser"
 
-#: kab/widget.cc:253
+#: kab/widget.cc:255
 msgid ""
 "Kab will move all your email addresses to\n"
 "the new style supporting unlimited numbers\n"
@@ -1905,11 +1905,11 @@ msgstr ""
 "det nya formatet som stödjer obegränsat antal\n"
 "E-postadresser per post."
 
-#: kab/widget.cc:286
+#: kab/widget.cc:288
 msgid "kab database update"
 msgstr "kab databasuppdatering"
 
-#: kab/widget.cc:287
+#: kab/widget.cc:289
 msgid ""
 "Please note that kab now supports some new\n"
 "fields in its addresses. These new fields\n"
@@ -1928,96 +1928,96 @@ msgstr ""
 "Du kommer förmodligen behöva editera några av\n"
 "dina poster för att dra nytta av dem."
 
-#: kab/widget.cc:308
+#: kab/widget.cc:310
 msgid "Could not save database after update."
 msgstr "Kunde inte spara databasen efter uppdateringen."
 
-#: kab/widget.cc:316
+#: kab/widget.cc:318
 msgid "Unable to reopen database file r/o."
 msgstr "Kunde inte öppna databasfilen igen för läsning."
 
-#: kab/widget.cc:477
+#: kab/widget.cc:479
 msgid "first entry"
 msgstr "första posten"
 
-#: kab/widget.cc:478
+#: kab/widget.cc:480
 msgid "previous entry"
 msgstr "föregående post"
 
-#: kab/widget.cc:479
+#: kab/widget.cc:481
 msgid "next entry"
 msgstr "nästa post"
 
-#: kab/widget.cc:480
+#: kab/widget.cc:482
 msgid "last entry"
 msgstr "sista posten"
 
-#: kab/widget.cc:481
+#: kab/widget.cc:483
 msgid "search entries"
 msgstr "sök bland posterna"
 
-#: kab/widget.cc:482
+#: kab/widget.cc:484
 msgid "add a new entry"
 msgstr "lägg till en ny post"
 
-#: kab/widget.cc:483
+#: kab/widget.cc:485
 msgid "change this entry"
 msgstr "ändra denna post"
 
-#: kab/widget.cc:484
+#: kab/widget.cc:486
 msgid "remove this entry"
 msgstr "ta bort denna post"
 
-#: kab/widget.cc:523
+#: kab/widget.cc:525
 msgid "Switched to first entry."
 msgstr "Bytte till första posten."
 
-#: kab/widget.cc:555
+#: kab/widget.cc:557
 msgid "Switched to last entry."
 msgstr "Bytte till sista posten."
 
-#: kab/widget.cc:616 kab/widget.cc:670 kab/widget.cc:845 kab/widget.cc:907
+#: kab/widget.cc:618 kab/widget.cc:672 kab/widget.cc:849 kab/widget.cc:911
 msgid "Sorry, file changed."
 msgstr "Tyvärr, filen har ändrats."
 
-#: kab/widget.cc:620 kab/widget.cc:674 kab/widget.cc:911
+#: kab/widget.cc:622 kab/widget.cc:676 kab/widget.cc:915
 msgid "Permission denied."
 msgstr "Åtkomst nekades."
 
-#: kab/widget.cc:631
+#: kab/widget.cc:633
 msgid "Remove entry?"
 msgstr "Ta bort post?"
 
-#: kab/widget.cc:632
+#: kab/widget.cc:634
 msgid "Really remove this entry?"
 msgstr "Vill du verkligen ta bort denna post?"
 
-#: kab/widget.cc:650
+#: kab/widget.cc:652
 msgid "Entry deleted."
 msgstr "Posten borttagen."
 
-#: kab/widget.cc:684
+#: kab/widget.cc:686
 msgid "Added a new entry."
 msgstr "Lade till en ny post."
 
-#: kab/widget.cc:806
+#: kab/widget.cc:810
 msgid "Opened browser window."
 msgstr "Öppnade bläddrarfönster."
 
-#: kab/widget.cc:809
+#: kab/widget.cc:813
 msgid "No URL."
 msgstr "Ingen URL."
 
-#: kab/widget.cc:813 kab/widget.cc:982 kab/widget.cc:1161 kab/widget.cc:1774
-#: kab/widget.cc:1952 kab/widget.cc:2036
+#: kab/widget.cc:817 kab/widget.cc:986 kab/widget.cc:1165 kab/widget.cc:1778
+#: kab/widget.cc:1956 kab/widget.cc:2040
 msgid "No entries."
 msgstr "Inga poster."
 
-#: kab/widget.cc:818
+#: kab/widget.cc:822
 msgid "The filemanager is busy, please try again."
 msgstr "Filhanteraren är upptagen, var god försök igen."
 
-#: kab/widget.cc:838
+#: kab/widget.cc:842
 msgid ""
 "The addressbook file is currently\n"
 "locked by another application.\n"
@@ -2027,84 +2027,84 @@ msgstr ""
 "låst av ett annat program.\n"
 "kab kan inte spara den."
 
-#: kab/widget.cc:855
+#: kab/widget.cc:859
 msgid "Database saved successfully."
 msgstr "Databasen sparades utan problem."
 
-#: kab/widget.cc:860
+#: kab/widget.cc:864
 msgid "kab: File error"
 msgstr "kab: Fel på filen"
 
-#: kab/widget.cc:860
+#: kab/widget.cc:864
 msgid "Could not save database."
 msgstr "Kunde inte spara databasen."
 
-#: kab/widget.cc:861
+#: kab/widget.cc:865
 msgid "&Retry"
 msgstr "&Försök igen"
 
-#: kab/widget.cc:861
+#: kab/widget.cc:865
 msgid "&Ignore"
 msgstr "&Ignorera"
 
-#: kab/widget.cc:864
+#: kab/widget.cc:868
 msgid "Saving cancelled.\n"
 msgstr "Sparandet avbröts.\n"
 
-#: kab/widget.cc:930
+#: kab/widget.cc:934
 msgid "Entry changed."
 msgstr "Posten ändrad."
 
-#: kab/widget.cc:1026
+#: kab/widget.cc:1030
 msgid "Results"
 msgstr "Resultat"
 
-#: kab/widget.cc:1026
+#: kab/widget.cc:1030
 msgid "No entry matches this."
 msgstr "Ingen post överensstämmer med detta."
 
-#: kab/widget.cc:1035 kab/widget.cc:1681 kab/widget.cc:1816 kab/widget.cc:1981
-#: kab/widget.cc:2004 kab/widget.cc:2061
+#: kab/widget.cc:1039 kab/widget.cc:1685 kab/widget.cc:1820 kab/widget.cc:1985
+#: kab/widget.cc:2008 kab/widget.cc:2065
 msgid "Rejected."
 msgstr "Avslogs."
 
-#: kab/widget.cc:1051
+#: kab/widget.cc:1055
 msgid "Search results window closed."
 msgstr "Fönstret med sökresultat stängdes."
 
-#: kab/widget.cc:1150
+#: kab/widget.cc:1154
 msgid "The talk command must be configured before!"
 msgstr "Pratkommandot måste ställas in först!"
 
-#: kab/widget.cc:1155
+#: kab/widget.cc:1159
 msgid "Talk configuration"
 msgstr "Pratinställningar"
 
-#: kab/widget.cc:1156
+#: kab/widget.cc:1160
 msgid "Please configure the parameters for the talk command."
 msgstr "Var god ställ in parametrarna till pratkommandot."
 
-#: kab/widget.cc:1169
+#: kab/widget.cc:1173
 msgid "No talk address."
 msgstr "Ingen pratadress."
 
-#: kab/widget.cc:1177
+#: kab/widget.cc:1181
 msgid "kab: Talk addresses"
 msgstr "kab: Pratadresser"
 
-#: kab/widget.cc:1178
+#: kab/widget.cc:1182
 msgid "Available talk addresses:"
 msgstr "Tillgängliga pratadresser:"
 
-#: kab/widget.cc:1184 kab/widget.cc:1912
+#: kab/widget.cc:1188 kab/widget.cc:1916
 msgid "Cancelled."
 msgstr "Avbruten."
 
-#: kab/widget.cc:1207
+#: kab/widget.cc:1211
 msgid "The talk command parameters are wrong."
 msgstr "Pratkommandots parametrar är felaktiga."
 
-#: kab/widget.cc:1219
+#: kab/widget.cc:1223
 msgid ""
 "Talk command failed.\n"
 "Make sure you did setup your talk command and parameter!"
@@ -2112,19 +2112,19 @@ msgstr ""
 "Pratkommandot misslyckades.\n"
 "Kontrollera att du verkligen ställt in pratkommando och parametrar!"
 
-#: kab/widget.cc:1222
+#: kab/widget.cc:1226
 msgid "Talk program started."
 msgstr "Startade pratkommandot."
 
-#: kab/widget.cc:1270
+#: kab/widget.cc:1274
 msgid "Attention: printing is still experimental!"
 msgstr "Observera: utskrifter är fortfarande på försöksstadiet!"
 
-#: kab/widget.cc:1366 kab/widget.cc:1408
+#: kab/widget.cc:1370 kab/widget.cc:1412
 msgid "Page size problem"
 msgstr "Problem med sidstorlek"
 
-#: kab/widget.cc:1367 kab/widget.cc:1409
+#: kab/widget.cc:1371 kab/widget.cc:1413
 msgid ""
 "The fields you requested to print do\n"
 "not fit into the page width."
@@ -2132,115 +2132,115 @@ msgstr ""
 "Fälten du begärt utskrift på\n"
 "får inte plats på sidan."
 
-#: kab/widget.cc:1586 kab/widget.cc:2015
+#: kab/widget.cc:1590 kab/widget.cc:2019
 msgid "Printing finished successfully."
 msgstr "Utskriften avslutades utan problem."
 
-#: kab/widget.cc:1612
+#: kab/widget.cc:1616
 msgid "kab: Email addresses"
 msgstr "kab: E-postadresser"
 
-#: kab/widget.cc:1613
+#: kab/widget.cc:1617
 msgid "Available email addresses:"
 msgstr "Tillgängliga E-postadresser:"
 
-#: kab/widget.cc:1678
+#: kab/widget.cc:1682
 msgid "kab: Select fields to copy"
 msgstr "kab: Välj fält att kopiera"
 
-#: kab/widget.cc:1688
+#: kab/widget.cc:1692
 msgid "Nothing selected."
 msgstr "Ingenting är valt."
 
-#: kab/widget.cc:1746 kab/widget.cc:1998
+#: kab/widget.cc:1750 kab/widget.cc:2002
 msgid "KDE addressbook overview"
 msgstr "Översikt av KDE adressbok"
 
-#: kab/widget.cc:1790
+#: kab/widget.cc:1794
 msgid "Name-Email-Link (!!)"
 msgstr "Namn-E-postlänk (!!)"
 
-#: kab/widget.cc:1792
+#: kab/widget.cc:1796
 msgid "Select table columns"
 msgstr "Välj tabellkolumner"
 
-#: kab/widget.cc:1797
+#: kab/widget.cc:1801
 msgid "Nothing to export."
 msgstr "Inget att exportera."
 
-#: kab/widget.cc:1826
+#: kab/widget.cc:1830
 msgid "Email link"
 msgstr "E-postlänk"
 
-#: kab/widget.cc:1901
+#: kab/widget.cc:1905
 msgid "Could not find the users home directory."
 msgstr "Kunde inte hitta användarens hemkatalog."
 
-#: kab/widget.cc:1902
+#: kab/widget.cc:1906
 msgid "Intern error!"
 msgstr "Internt fel!"
 
-#: kab/widget.cc:1922
+#: kab/widget.cc:1926
 msgid "Could not open the file to create the HTML table."
 msgstr "Kunde inte öppna filen för att skapa HTML-tabellen."
 
-#: kab/widget.cc:1958
+#: kab/widget.cc:1962
 msgid "Printing cancelled."
 msgstr "Utskriften avbröts."
 
-#: kab/widget.cc:1974
+#: kab/widget.cc:1978
 msgid "kab: Select columns for printing"
 msgstr "kab: Välj kolumner för utskriften"
 
-#: kab/widget.cc:1987
+#: kab/widget.cc:1991
 msgid "Nothing to print."
 msgstr "Inget att skriva ut."
 
-#: kab/widget.cc:1999
+#: kab/widget.cc:2003
 msgid "Page <p>"
 msgstr "Sida <p>"
 
-#: kab/widget.cc:2000
+#: kab/widget.cc:2004
 msgid "KDE - the professionals choice."
 msgstr "KDE - proffsens val."
 
-#: kab/widget.cc:2013
+#: kab/widget.cc:2017
 msgid "Printing failed!"
 msgstr "Utskriften misslyckades!"
 
-#: kab/widget.cc:2044
+#: kab/widget.cc:2048
 msgid "Empty email address."
 msgstr "Tom E-postadress."
 
-#: kab/widget.cc:2063
+#: kab/widget.cc:2067
 msgid "No email address."
 msgstr "Ingen E-postadress."
 
-#: kab/widget.cc:2073
+#: kab/widget.cc:2077
 msgid "Error calling mailer."
 msgstr "Fel vid anrop av E-postprogrammet."
 
-#: kab/widget.cc:2075
+#: kab/widget.cc:2079
 msgid "Mailer called."
 msgstr "E-postprogrammet har anropats."
 
-#: kab/widget.cc:2098
+#: kab/widget.cc:2102
 msgid "The mail command must be configured before!"
 msgstr "E-postkommandot måste ställas in först!"
 
-#: kab/widget.cc:2103
+#: kab/widget.cc:2107
 msgid "Mail configuration"
 msgstr "E-postinställning"
 
-#: kab/widget.cc:2104
+#: kab/widget.cc:2108
 msgid "Please configure the parameters for the email command."
 msgstr "Var god ställ in parametrar för E-postkommandot."
 
-#: kab/widget.cc:2142
+#: kab/widget.cc:2146
 msgid "The email command parameters are wrong."
 msgstr "E-postkommandots parametrar är felaktiga."
 
-#: kab/widget.cc:2154
+#: kab/widget.cc:2158
 msgid ""
 "Email command failed.\n"
 "Make sure you did setup your email command and parameter!"
@@ -2248,7 +2248,7 @@ msgstr ""
 "E-postkommandot misslyckades.\n"
 "Kontrollera att du verkligen ställt in E-postkommando och parametrar!"
 
-#: kab/widget.cc:2158
+#: kab/widget.cc:2162
 msgid "Mail program started."
 msgstr "Startade E-postprogrammet."
 
