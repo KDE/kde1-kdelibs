@@ -1159,7 +1159,7 @@ msgstr "(ничего)"
 
 #: po/texts.cpp:107
 msgid "None"
-msgstr "Никому"
+msgstr "Нет"
 
 #: po/texts.cpp:108
 msgid "Stop"
