@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1999-01-18 01:00+0100\n"
-"PO-Revision-Date: 1998-12-21 00:00+0600\n"
+"PO-Revision-Date: 1999-01-18 02:00+0600\n"
 "Content-Type: text/plain; charset=koi8-r\n"
 "Date: 1997-11-20 18:24:38+0600\n"
 "From: Denis Y. Pershin <dyp@inetlab.com>\n"
@@ -722,7 +722,7 @@ msgstr "роман"
 #: kdeui/kfontdialog.cpp:337 kdeui/kfontdialog.cpp:496
 #: kdeui/kfontdialog.cpp:521
 msgid "italic"
-msgstr "наклонный"
+msgstr "курсив"
 
 #: kdeui/kfontdialog.cpp:345
 msgid "Charset"
@@ -1206,9 +1206,8 @@ msgid "Keep dirs first"
 msgstr "Каталоги вначале"
 
 #: kfile/kfilefilter.cpp:35
-#, fuzzy
 msgid "*|All Files"
-msgstr "Файлы"
+msgstr "*|Все файлы"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"
@@ -1336,48 +1335,45 @@ msgstr ""
 
 #: kspell/ksconfig.cpp:66
 msgid "Create Root/Affix combinations not in the dictionary"
-msgstr ""
+msgstr "Комбинации корней/аффиксов создавать не в словаре"
 
 #: kspell/ksconfig.cpp:75
 msgid "Consider run-together words as spelling errors"
-msgstr ""
+msgstr "Считать написанные вместе слова ошибочными"
 
 #
 #: kspell/ksconfig.cpp:92
-#, fuzzy
 msgid "Dictionary"
-msgstr "каталог"
+msgstr "Словарь"
 
 #: kspell/ksconfig.cpp:140
 msgid "Encoding:"
-msgstr ""
+msgstr "Кодировка:"
 
 #
 #: kspell/ksconfig.cpp:147
-#, fuzzy
 msgid "Latin1"
-msgstr "&Расположение"
+msgstr "Latin1"
 
 #: kspell/ksconfig.cpp:148
 msgid "7-Bit/ASCII"
-msgstr ""
+msgstr "7-бит/ASCII"
 
 #: kspell/ksconfig.cpp:292
 msgid "English"
-msgstr ""
+msgstr "Английский"
 
 #: kspell/ksconfig.cpp:298
 msgid "Spanish"
-msgstr ""
+msgstr "Испанский"
 
 #: kspell/ksconfig.cpp:304
-#, fuzzy
 msgid "German"
-msgstr "роман"
+msgstr "Немецкий"
 
 #: kspell/ksconfig.cpp:311
 msgid "Brazilian Portuguese"
-msgstr ""
+msgstr "Бразильский португальский"
 
 #: kio/kio_cache.cc:422 kspell/ksconfig.cpp:317
 msgid "Unknown"
@@ -1385,32 +1381,28 @@ msgstr "Неизвестно"
 
 # 
 #: kspell/ksconfig.cpp:348
-#, fuzzy
 msgid "ISpell Default"
-msgstr "Умолчания"
+msgstr "Умолчания ISpell"
 
 #: kspell/kspelldlg.cpp:58
 msgid "Misspelled Word:"
-msgstr ""
+msgstr "Ошибочное слово:"
 
 #: kspell/kspelldlg.cpp:68
-#, fuzzy
 msgid "Replacement:"
-msgstr "Заменить"
+msgstr "Замена:"
 
 #: kspell/kspelldlg.cpp:77
 msgid "Suggestions:"
-msgstr ""
+msgstr "Предложения:"
 
 #: kspell/kspelldlg.cpp:88
-#, fuzzy
 msgid "Ignore"
 msgstr "Игнорировать"
 
 #: kspell/kspelldlg.cpp:99
-#, fuzzy
 msgid "Ignore All"
-msgstr "Игнорировать"
+msgstr "Игнорировать все"
 
 #: kspell/kspelldlg.cpp:120 po/texts.cpp:86
 msgid "Add"
@@ -1601,7 +1593,7 @@ msgstr "Очистить"
 
 #: po/texts.cpp:91
 msgid "Italic"
-msgstr "Наклонный"
+msgstr "Курсив"
 
 #: po/texts.cpp:92
 msgid "Roman"
