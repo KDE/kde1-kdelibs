@@ -1,35 +1,35 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1998-06-21 18:14+0200\n"
-"PO-Revision-Date: 1998-06-19 08:54 MET DST\n"
+"POT-Creation-Date: 1998-06-18 22:45+0200\n"
+"PO-Revision-Date: 1998-06-20 18:58 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: kdecore/kapp.cpp:494
+#: kdecore/kapp.cpp:490
 msgid "&Contents"
 msgstr "&Nápovìda"
 
-#: kdecore/kapp.cpp:500
+#: kdecore/kapp.cpp:496
 msgid "&About"
 msgstr "&Informace"
 
-#: kdecore/kapp.cpp:507
+#: kdecore/kapp.cpp:503
 msgid "About &KDE..."
 msgstr "Informace o &KDE ..."
 
-#: kdecore/kapp.cpp:528
+#: kdecore/kapp.cpp:524
 msgid "About KDE"
 msgstr "Informace o KDE"
 
-#: kdecore/kapp.cpp:530
+#: kdecore/kapp.cpp:526
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
-"a world-wide network of software engineers committed to\n"
+"a world-wide network of software engineers commited to\n"
 "free software development.\n"
 "\n"
 "Visit http://www.kde.org for more information on the KDE\n"
@@ -324,7 +324,7 @@ msgstr "Hledej odzadu"
 
 #: kdeui/keditcl2.cpp:690 kdeui/keditcl2.cpp:797 po/texts.cpp:88
 msgid "Done"
-msgstr "Vyhodnotit"
+msgstr "Hotovo"
 
 #: kdeui/keditcl2.cpp:770
 msgid "Find:"
@@ -430,7 +430,7 @@ msgstr "Vyber ikonu"
 
 #: kdeui/kiconloaderdialog.cpp:242
 msgid "Filter:"
-msgstr "Filtr:"
+msgstr "Maska:"
 
 #: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:470
 msgid "Top"
@@ -568,7 +568,7 @@ msgstr "&Umístìní"
 
 #: kfile/kfiledialog.cpp:206
 msgid "&Filter:"
-msgstr "&Filtr:"
+msgstr "&Maska:"
 
 #: kfile/kfiledialog.cpp:220
 msgid "Show hidden"
@@ -943,7 +943,7 @@ msgstr "Nový"
 
 #: po/texts.cpp:63
 msgid "&New"
-msgstr "&Nová hra"
+msgstr "&Nová"
 
 #: po/texts.cpp:64
 msgid "&New..."
@@ -955,11 +955,11 @@ msgstr "&Nové okno..."
 
 #: po/texts.cpp:66
 msgid "New &Window..."
-msgstr "Nové &okno..."
+msgstr "Nové o&kno..."
 
 #: po/texts.cpp:67
 msgid "&New Window"
-msgstr "Nové &okno"
+msgstr "Nové o&kno"
 
 #: po/texts.cpp:68
 msgid "New Game"
@@ -1163,11 +1163,11 @@ msgstr "O&bnov"
 
 #: po/texts.cpp:123
 msgid "&Previous"
-msgstr "&Pøede¹lý uzel"
+msgstr "&Pøedchozí"
 
 #: po/texts.cpp:124
 msgid "&Next"
-msgstr "&Následující uzel"
+msgstr "Nás&ledující"
 
 #: po/texts.cpp:125
 msgid "Files"
@@ -1243,4 +1243,4 @@ msgstr "&Následující >>"
 
 #: po/texts.cpp:145
 msgid "<< &Previous"
-msgstr "<< &Pøede¹lý"
+msgstr "<< &Pøedchozí"
