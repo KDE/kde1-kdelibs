@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-11-12 13:50+0100\n"
+"POT-Creation-Date: 1998-11-16 01:02+0100\n"
 "PO-Revision-Date: 1998-11-04 14:02+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <flidr@kky.cu.cz>\n"
@@ -44,7 +44,7 @@ msgstr "Poslat e-mail programátoru aplikace"
 #: kdeui/keditcl1.cpp:1718 kdeui/kfontdialog.cpp:370
 #: kdeui/kiconloaderdialog.cpp:254 kdeui/kmsgbox.cpp:277
 #: kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:505
-#: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:400
+#: kfile/kfiledialog.cpp:887 kfile/kfiledialogconf.cpp:60 kfmlib/kfm.cpp:409
 #: po/texts.cpp:35
 msgid "OK"
 msgstr "OK"
@@ -404,7 +404,7 @@ msgstr "Ne"
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:365
 #: kdeui/kiconloaderdialog.cpp:255 kdeui/kmsgbox.cpp:312
 #: kfile/kfiledialog.cpp:258 kfile/kfiledialog.cpp:892
-#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:404 kio/kio_job.cc:693
+#: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:413 kio/kio_job.cc:693
 #: kio/kio_linedit_dlg.cc:50 kio/kio_openwith.cc:272 kio/kio_pass_dlg.cc:78
 #: kio/kio_progress_dlg.cc:53 kio/kio_rename_dlg.cc:30 kio/kio_skip_dlg.cc:20
 #: po/texts.cpp:39
@@ -456,7 +456,7 @@ msgstr "Bøezen"
 msgid "April"
 msgstr "Duben"
 
-#: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:224
+#: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:225
 msgid "May"
 msgstr "Kvìten"
 
@@ -1063,47 +1063,47 @@ msgstr "Zobrazovat nejprve adresáøe"
 msgid "unknown"
 msgstr "neznámé"
 
-#: kfile/kfileinfo.cpp:220
+#: kfile/kfileinfo.cpp:221
 msgid "Jan"
 msgstr "Led"
 
-#: kfile/kfileinfo.cpp:221
+#: kfile/kfileinfo.cpp:222
 msgid "Feb"
 msgstr "Úno"
 
-#: kfile/kfileinfo.cpp:222
+#: kfile/kfileinfo.cpp:223
 msgid "Mar"
 msgstr "Bøe"
 
-#: kfile/kfileinfo.cpp:223
+#: kfile/kfileinfo.cpp:224
 msgid "Apr"
 msgstr "Dub"
 
-#: kfile/kfileinfo.cpp:225
+#: kfile/kfileinfo.cpp:226
 msgid "Jun"
 msgstr "Èen"
 
-#: kfile/kfileinfo.cpp:226
+#: kfile/kfileinfo.cpp:227
 msgid "Jul"
 msgstr "Èec"
 
-#: kfile/kfileinfo.cpp:227
+#: kfile/kfileinfo.cpp:228
 msgid "Aug"
 msgstr "Srp"
 
-#: kfile/kfileinfo.cpp:228
+#: kfile/kfileinfo.cpp:229
 msgid "Sep"
 msgstr "Záø"
 
-#: kfile/kfileinfo.cpp:229
+#: kfile/kfileinfo.cpp:230
 msgid "Oct"
 msgstr "Øíj"
 
-#: kfile/kfileinfo.cpp:230
+#: kfile/kfileinfo.cpp:231
 msgid "Nov"
 msgstr "Lis"
 
-#: kfile/kfileinfo.cpp:231
+#: kfile/kfileinfo.cpp:232
 msgid "Dec"
 msgstr "Pro"
 
