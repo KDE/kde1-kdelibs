@@ -37,6 +37,7 @@
 #include <strings.h>
 #include "khtmlform.moc"
 
+#include "khtml.h"
 //----------------------------------------------------------------------------
 
 

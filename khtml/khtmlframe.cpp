@@ -27,6 +27,7 @@
 #include "khtmlframe.h"
 #include "khtml.h"
 #include "khtmlview.h"
+#include "khtmltoken.h"
 
 #include <strings.h>
 #include <stdlib.h>
