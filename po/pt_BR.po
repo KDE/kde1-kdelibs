@@ -1914,7 +1914,6 @@ msgid "Address:"
 msgstr "Endereço:"
 
 #: kab/editentry.cc:104
-#, fuzzy
 msgid "Town/City:"
 msgstr "Cidade:"
 
@@ -1923,7 +1922,6 @@ msgid "State:"
 msgstr "Estado:"
 
 #: kab/editentry.cc:106
-#, fuzzy
 msgid "Zip/Postal Code:"
 msgstr "CEP:"
 
@@ -1940,16 +1938,14 @@ msgid "Organization:"
 msgstr "Organização:"
 
 #: kab/editentry.cc:146
-#, fuzzy
 msgid "Department:"
-msgstr "Substituir por:"
+msgstr "Departamento:"
 
 #: kab/editentry.cc:147
 msgid "Sub-Department:"
-msgstr ""
+msgstr "Sub-Departamento:"
 
 #: kab/editentry.cc:148
-#, fuzzy
 msgid "Job/Role:"
 msgstr "Função:"
 
@@ -1986,9 +1982,8 @@ msgid "&Contact"
 msgstr "&Contato"
 
 #: kab/editentry.cc:239
-#, fuzzy
 msgid "Additional Comment:"
-msgstr "Nome adicional:"
+msgstr "Comentário adicional:"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
