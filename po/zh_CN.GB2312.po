@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1999-03-06 01:01+0100\n"
+"POT-Creation-Date: 1999-03-07 01:01+0100\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -872,23 +872,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr ""
 
-#: kdeui/kmenubar.cpp:281 kdeui/ktoolbar.cpp:856
+#: kdeui/kmenubar.cpp:285 kdeui/ktoolbar.cpp:860
 msgid "Top"
 msgstr "顶端"
 
-#: kdeui/kmenubar.cpp:282 kdeui/ktoolbar.cpp:858
+#: kdeui/kmenubar.cpp:286 kdeui/ktoolbar.cpp:862
 msgid "Bottom"
 msgstr "底端"
 
-#: kdeui/kmenubar.cpp:283 kdeui/ktoolbar.cpp:859
+#: kdeui/kmenubar.cpp:287 kdeui/ktoolbar.cpp:863
 msgid "Floating"
 msgstr "浮动"
 
-#: kdeui/kmenubar.cpp:432 kdeui/kmenubar.cpp:774 kdeui/ktoolbar.cpp:2170
+#: kdeui/kmenubar.cpp:436 kdeui/kmenubar.cpp:788 kdeui/ktoolbar.cpp:2090
 msgid "Float"
 msgstr "浮动"
 
-#: kdeui/kmenubar.cpp:726 kdeui/ktoolbar.cpp:2151
+#: kdeui/kmenubar.cpp:740 kdeui/ktoolbar.cpp:2071
 msgid "UnFloat"
 msgstr "固定"
 
@@ -905,15 +905,15 @@ msgstr "默认[&D]"
 msgid "Quickhelp"
 msgstr ""
 
-#: kdeui/ktoolbar.cpp:284 kdeui/ktoolbar.cpp:336
+#: kdeui/ktoolbar.cpp:288 kdeui/ktoolbar.cpp:340
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: 空的图标, 也许缺少某些文件"
 
-#: kdeui/ktoolbar.cpp:855
+#: kdeui/ktoolbar.cpp:859
 msgid "Left"
 msgstr "左"
 
-#: kdeui/ktoolbar.cpp:857
+#: kdeui/ktoolbar.cpp:861
 msgid "Right"
 msgstr "右"
 

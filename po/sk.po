@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1999-03-06 01:01+0100\n"
+"POT-Creation-Date: 1999-03-07 01:01+0100\n"
 "PO-Revision-Date: 1998-03-20 12:20 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -865,23 +865,23 @@ msgstr ""
 msgid "Key conflict"
 msgstr "Konflikt kláves"
 
-#: kdeui/kmenubar.cpp:281 kdeui/ktoolbar.cpp:856
+#: kdeui/kmenubar.cpp:285 kdeui/ktoolbar.cpp:860
 msgid "Top"
 msgstr "Hore"
 
-#: kdeui/kmenubar.cpp:282 kdeui/ktoolbar.cpp:858
+#: kdeui/kmenubar.cpp:286 kdeui/ktoolbar.cpp:862
 msgid "Bottom"
 msgstr "Dole"
 
-#: kdeui/kmenubar.cpp:283 kdeui/ktoolbar.cpp:859
+#: kdeui/kmenubar.cpp:287 kdeui/ktoolbar.cpp:863
 msgid "Floating"
 msgstr "Plávajúci"
 
-#: kdeui/kmenubar.cpp:432 kdeui/kmenubar.cpp:774 kdeui/ktoolbar.cpp:2170
+#: kdeui/kmenubar.cpp:436 kdeui/kmenubar.cpp:788 kdeui/ktoolbar.cpp:2090
 msgid "Float"
 msgstr "Plávajúci"
 
-#: kdeui/kmenubar.cpp:726 kdeui/ktoolbar.cpp:2151
+#: kdeui/kmenubar.cpp:740 kdeui/ktoolbar.cpp:2071
 msgid "UnFloat"
 msgstr "Pripevni»"
 
@@ -897,15 +897,15 @@ msgstr "&©tandardné"
 msgid "Quickhelp"
 msgstr "Rýchla pomoc"
 
-#: kdeui/ktoolbar.cpp:284 kdeui/ktoolbar.cpp:336
+#: kdeui/ktoolbar.cpp:288 kdeui/ktoolbar.cpp:340
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: pixmapa je prázdna, pravdepodovne chýba nejaký súbor"
 
-#: kdeui/ktoolbar.cpp:855
+#: kdeui/ktoolbar.cpp:859
 msgid "Left"
 msgstr "Vµavo"
 
-#: kdeui/ktoolbar.cpp:857
+#: kdeui/ktoolbar.cpp:861
 msgid "Right"
 msgstr "Vpravo"
 
