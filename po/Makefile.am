@@ -52,9 +52,9 @@ install-yes: all
 	name=charset ; \
 	dir=$$destdir/$$lang; \
 	$(mkinstalldirs) $$dir; \
-	$(INSTALL_DATA) $$chset $$dir/$$name; \
+	$(INSTALL_DATA) $(srcdir)/$$chset $$dir/$$name; \
 	  echo "installing $$chset as $$dir/$$name"; \
-	done  
+	done
 
 install-no:
 
