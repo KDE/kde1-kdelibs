@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1998-06-21 18:14+0200\n"
-"PO-Revision-Date: 1998-05-01 12:12+0100\n"
+"PO-Revision-Date: 1998-07-16 19:06+0100\n"
 "Last-Translator: Bla¾ Zupanèiè <Blaz.Zupancic@guest.arnes.si>\n"
 "Language-Team: Slovenian\n"
 "MIME-Version: 1.0\n"
@@ -51,7 +51,7 @@ msgstr ""
 #: kdeui/keditcl2.cpp:475 kdeui/kmsgbox.cpp:488 kdeui/kmsgbox.cpp:503
 #: po/texts.cpp:27
 msgid "Yes"
-msgstr "Ja"
+msgstr "Da"
 
 #: kdetest/klocaletest.cpp:101 kdeui/keditcl1.cpp:396 kdeui/keditcl1.cpp:417
 #: kdeui/keditcl1.cpp:478 kdeui/keditcl1.cpp:498 kdeui/keditcl1.cpp:1574
@@ -85,11 +85,11 @@ msgstr "Sistemske barve"
 
 #: kdeui/kcolordlg.cpp:328
 msgid "Custom Colors"
-msgstr "Izbrane barve"
+msgstr "Doloèene barve"
 
 #: kdeui/kcolordlg.cpp:341
 msgid "Add to Custom Colors"
-msgstr "Dodaj izbranim barvam"
+msgstr "Dodaj doloèenim barvam"
 
 #: kdeui/kcolordlg.cpp:463 kdeui/kfontdialog.cpp:360
 #: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872
@@ -99,7 +99,7 @@ msgstr "V redu"
 
 #: kdeui/kcolordlg.cpp:788 kdeui/kcolordlg.cpp:840
 msgid "Custom..."
-msgstr "Izbrano..."
+msgstr "Doloèi..."
 
 #: kdeui/kcontrol.cpp:39
 #, fuzzy
@@ -116,7 +116,7 @@ msgstr "V redu"
 
 #: kdeui/kcontrol.cpp:45 kfile/kfiledialogconf.cpp:59 po/texts.cpp:42
 msgid "Apply"
-msgstr "Uporabi"
+msgstr "Uveljavi"
 
 #: kdeui/kdatepik.cpp:102
 msgid "January"
@@ -131,8 +131,9 @@ msgid "March"
 msgstr ""
 
 #: kdeui/kdatepik.cpp:103
+#, fuzzy
 msgid "April"
-msgstr ""
+msgstr "Uveljavi"
 
 #: kdeui/kdatepik.cpp:104 kfile/kfileinfo.cpp:222
 msgid "May"
@@ -205,7 +206,7 @@ msgstr "Oprostite"
 
 #: kdeui/keditcl1.cpp:128
 msgid "The specified File does not exist"
-msgstr "®eljena datoteka ne obstaja"
+msgstr "Iskana datoteka ne obstaja"
 
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:413 kdeui/keditcl1.cpp:494
 #: kdeui/keditcl1.cpp:1627
@@ -330,7 +331,7 @@ msgstr "Najdi:"
 
 #: kdeui/keditcl2.cpp:780
 msgid "Replace with:"
-msgstr "Zamenjaj z:"
+msgstr "Zamenjaj s/z:"
 
 #: kdeui/keditcl2.cpp:794
 msgid "Replace All"
@@ -342,7 +343,7 @@ msgstr "Pojdi v vrstico"
 
 #: kdeui/keditcl2.cpp:896
 msgid "Go"
-msgstr "Gremo"
+msgstr "Pojdi"
 
 #: kdeui/kfontdialog.cpp:171
 msgid "Select Font"
@@ -358,15 +359,15 @@ msgstr "Dejanska pisava"
 
 #: kdeui/kfontdialog.cpp:184 kdeui/kfontdialog.cpp:188
 msgid "Family:"
-msgstr "Rod:"
+msgstr "Dru¾ina:"
 
 #: kdeui/kfontdialog.cpp:195 kdeui/kfontdialog.cpp:201 po/texts.cpp:26
 msgid "Charset:"
-msgstr "Nabor z.:"
+msgstr "Nabor znakov:"
 
 #: kdeui/kfontdialog.cpp:208 kdeui/kfontdialog.cpp:213 kfile/kpreview.cpp:196
 msgid "Size:"
-msgstr "Mera:"
+msgstr "Velikost:"
 
 #: kdeui/kfontdialog.cpp:220 kdeui/kfontdialog.cpp:225
 msgid "Weight:"
@@ -378,11 +379,11 @@ msgstr "Slog:"
 
 #: kdeui/kfontdialog.cpp:276
 msgid "Charset"
-msgstr "Nabor z."
+msgstr "Nabor znakov"
 
 #: kdeui/kfontdialog.cpp:287 kfile/kfiledetaillist.cpp:38
 msgid "Size"
-msgstr "Mera"
+msgstr "Velikost"
 
 #: kdeui/kfontdialog.cpp:328
 msgid "Weight"
@@ -412,7 +413,7 @@ msgstr "po¹even"
 
 #: kdeui/kfontdialog.cpp:373
 msgid "Dolor Ipse"
-msgstr "Ta suhi ¹kafec pu¹èa."
+msgstr "Sreèa je opoteèa."
 
 #: kdeui/kfontdialog.cpp:505
 msgid "Bold"
@@ -598,7 +599,7 @@ msgstr ""
 msgid ""
 "The specified directory does not exist\n"
 "or was not readable."
-msgstr "®eljena datoteka ne obstaja"
+msgstr "Iskana datoteka ne obstaja"
 
 #: kfile/kfiledialog.cpp:505 kfile/kfiledialog.cpp:611
 msgid "Dismiss"
@@ -620,7 +621,7 @@ msgstr ""
 #: kfile/kfiledialog.cpp:609
 #, fuzzy
 msgid "The specified directory does not exist or was not readable."
-msgstr "®eljena datoteka ne obstaja"
+msgstr "Iskana datoteka ne obstaja"
 
 #: kfile/kfiledialog.cpp:857
 msgid "Create new directory in: "
@@ -633,7 +634,7 @@ msgstr ""
 #: kfile/kfiledialog.cpp:932
 #, fuzzy
 msgid "Add to bookmarks"
-msgstr "Dodaj izbranim barvam"
+msgstr "Dodaj doloèenim barvam"
 
 #: kfile/kfiledialog.cpp:1213
 msgid "Choose Directory"
@@ -792,8 +793,9 @@ msgid "Name:"
 msgstr "Nova igra"
 
 #: kfile/kpreview.cpp:205
+#, fuzzy
 msgid "Date:"
-msgstr ""
+msgstr "Prilepi"
 
 #: kfile/kpreview.cpp:214
 msgid "Owner:"
@@ -816,8 +818,9 @@ msgid "picture"
 msgstr ""
 
 #: kfile/kpreview.cpp:343
+#, fuzzy
 msgid "folder"
-msgstr ""
+msgstr "krepka"
 
 #: kfmlib/kfm.cpp:197
 #, c-format
@@ -892,7 +895,7 @@ msgstr "&Uredi"
 
 #: po/texts.cpp:49
 msgid "&Options"
-msgstr "&Mo¾nosti"
+msgstr "&Nastavitve"
 
 #: po/texts.cpp:50
 msgid "View"
@@ -1026,7 +1029,7 @@ msgstr "&Tiskaj..."
 
 #: po/texts.cpp:90
 msgid "Options"
-msgstr "Mo¾nosti"
+msgstr "Nastavitve"
 
 #: po/texts.cpp:91
 msgid "Remove"
@@ -1089,8 +1092,9 @@ msgid "Browse..."
 msgstr "Brskaj..."
 
 #: po/texts.cpp:106
+#, fuzzy
 msgid "(none)"
-msgstr ""
+msgstr "Opravljeno"
 
 #: po/texts.cpp:107
 #, fuzzy
@@ -1120,12 +1124,14 @@ msgid "&Start"
 msgstr ""
 
 #: po/texts.cpp:113
+#, fuzzy
 msgid "St&op"
-msgstr ""
+msgstr "&Kopiraj"
 
 #: po/texts.cpp:114
+#, fuzzy
 msgid "Move"
-msgstr ""
+msgstr "Odstrani"
 
 #: po/texts.cpp:115
 msgid "Miscellaneous"
@@ -1134,7 +1140,7 @@ msgstr ""
 #: po/texts.cpp:116
 #, fuzzy
 msgid "Font Size"
-msgstr "Mera"
+msgstr "Velikost"
 
 #: po/texts.cpp:117
 msgid "Small"
@@ -1213,8 +1219,9 @@ msgid "Thursday"
 msgstr ""
 
 #: po/texts.cpp:134
+#, fuzzy
 msgid "Friday"
-msgstr ""
+msgstr "Najdi"
 
 #: po/texts.cpp:135
 msgid "Saturday"
@@ -1270,10 +1277,10 @@ msgstr ""
 #~ msgstr ""
 #~ "KDE namizno okolje je napisala KDE ekipa.\n"
 #~ "\n"
-#~ "Prosimo, da poroèate o hro¹èih na naslovu http://buglist.kde.org.\n"
+#~ "Prosimo, da poroèate o hro¹èih na http://buglist.kde.org.\n"
 #~ "\n"
 #~ "\n"
 #~ "KDE je bil razvit s Qt, GUI knji¾nico za veè platform.\n"
 #~ "\n"
 #~ "Qt je proizvod Troll Techa (http://www.troll.no, info@troll.no).\n"
-#~ "Lahko ga zastonj uporabljate za pisanje brezplaènih programov v X Oknih.\n"
+#~ "Lahko ga brezplaèno uporabljate za pisanje brezplaènih programov v X Oknih.\n"

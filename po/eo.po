@@ -53,7 +53,6 @@ msgstr ""
 "\n"
 "Bonvolu raporti erarojn æe http://buglist.kde.org.\n"
 
-
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:395 kdeui/keditcl1.cpp:416
 #: kdeui/keditcl1.cpp:477 kdeui/keditcl1.cpp:497 kdeui/keditcl1.cpp:1573
 #: kdeui/keditcl2.cpp:108 kdeui/keditcl2.cpp:125 kdeui/keditcl2.cpp:365
@@ -1247,4 +1246,3 @@ msgstr "&Sekva >>"
 #: po/texts.cpp:145
 msgid "<< &Previous"
 msgstr "<< &Antaýa"
-
