@@ -911,7 +911,7 @@ msgstr "Se p&å"
 
 #: po/texts.cpp:52
 msgid "E&xit"
-msgstr "Gå ut"
+msgstr "G&å ut"
 
 #: po/texts.cpp:53
 msgid "Quit"
@@ -959,7 +959,7 @@ msgstr "Nytt Vin&du..."
 
 #: po/texts.cpp:67
 msgid "&New Window"
-msgstr "Nytt Vindu"
+msgstr "&Nytt indu"
 
 #: po/texts.cpp:68
 msgid "New Game"
