@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
 "POT-Creation-Date: 1998-06-15 18:34+0200\n"
-"PO-Revision-Date: 1998-06-15 08:31 MET DST\n"
+"PO-Revision-Date: 1998-06-16 08:40 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -828,11 +828,12 @@ msgid ""
 "You dont have the file %s\n"
 "Could not do Authorization"
 msgstr ""
+"Nemáte soubor %s\n"
+"Není mo¾né provést autorizaci"
 
-# , fuzzy
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
 msgid "KFM Error"
-msgstr "Chyba"
+msgstr "Chyba KFM"
 
 # , c-format
 #: kfmlib/kfm.cpp:208
@@ -841,6 +842,8 @@ msgid ""
 "The file %s is corrupted\n"
 "Could not do Authorization"
 msgstr ""
+"Soubor %s je po¹kozen\n"
+"Není mo¾né provést autorizaci"
 
 #: po/texts.cpp:24
 msgid "Error"
@@ -1226,21 +1229,18 @@ msgstr "Rozvr¾ení"
 msgid "Highscore"
 msgstr "Nejlep¹í výsledky"
 
-# , fuzzy
 #: po/texts.cpp:140
 msgid "&New View"
-msgstr "Po&hled"
+msgstr "&Nový pohled"
 
 #: po/texts.cpp:141
 msgid "&Insert"
-msgstr ""
+msgstr "&Vlo¾it"
 
-# , fuzzy
 #: po/texts.cpp:144
 msgid "&Next >>"
-msgstr "&Následující uzel"
+msgstr "&Následující >>"
 
-# , fuzzy
 #: po/texts.cpp:145
 msgid "<< &Previous"
-msgstr "&Pøede¹lý uzel"
+msgstr "<< &Pøede¹lý"
