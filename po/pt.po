@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klibs\n"
-"POT-Creation-Date: 1998-09-30 23:21+0200\n"
+"POT-Creation-Date: 1998-10-02 01:57+0200\n"
 "PO-Revision-Date: 1998-01-22 00:00+0100\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
@@ -238,16 +238,16 @@ msgstr "Desfazer"
 
 #: kdecore/kaccel.cpp:269 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
 #: kdeui/keditcl2.cpp:360 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:676
-#: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786 po/texts.cpp:147
+#: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786
 msgid "Find"
 msgstr "Procurar"
 
 #: kdecore/kaccel.cpp:273 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
-#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:148
+#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:147
 msgid "Replace"
 msgstr "Substituir"
 
-#: kdecore/kaccel.cpp:277 po/texts.cpp:149
+#: kdecore/kaccel.cpp:277 po/texts.cpp:148
 #, fuzzy
 msgid "Insert"
 msgstr "&Inserir"
@@ -260,12 +260,12 @@ msgstr "Casa"
 msgid "End"
 msgstr ""
 
-#: kdecore/kaccel.cpp:289 po/texts.cpp:151
+#: kdecore/kaccel.cpp:289 po/texts.cpp:150
 #, fuzzy
 msgid "Prior"
 msgstr "Erro"
 
-#: kdecore/kaccel.cpp:293 po/texts.cpp:150
+#: kdecore/kaccel.cpp:293 po/texts.cpp:149
 #, fuzzy
 msgid "Next"
 msgstr "&Seguinte"
@@ -287,7 +287,7 @@ msgstr ""
 msgid "ALT"
 msgstr ""
 
-#: kdecore/kapp.cpp:545
+#: kdecore/kapp.cpp:545 po/texts.cpp:153
 msgid "&Contents"
 msgstr "&Conteúdo"
 
@@ -365,7 +365,7 @@ msgstr "Adicionar a Cores Personalizadas"
 msgid "Custom..."
 msgstr "Personalizar..."
 
-#: kdeui/kcontrol.cpp:39 po/texts.cpp:152
+#: kdeui/kcontrol.cpp:39 po/texts.cpp:151
 msgid "Default"
 msgstr "Por omissão"
 
@@ -680,7 +680,7 @@ msgstr "Filtro:"
 msgid "&Help"
 msgstr "&Ajuda"
 
-#: kdeui/kkeydialog.cpp:236 po/texts.cpp:153
+#: kdeui/kkeydialog.cpp:236 po/texts.cpp:152
 #, fuzzy
 msgid "&Defaults"
 msgstr "Valores por &omissão"
@@ -1480,6 +1480,11 @@ msgstr "&Próximo >>"
 #: po/texts.cpp:145
 msgid "<< &Previous"
 msgstr "<<< &Anterior"
+
+#: po/texts.cpp:154
+#, fuzzy
+msgid "&About..."
+msgstr "A&cerca..."
 
 #: kab/addressbook.cc:92
 msgid ""

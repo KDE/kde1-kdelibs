@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE LIBS\n"
-"POT-Creation-Date: 1998-09-30 23:21+0200\n"
+"POT-Creation-Date: 1998-10-02 01:57+0200\n"
 "PO-Revision-Date: 1998-04-20 18:55+0100\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -241,16 +241,16 @@ msgstr "Angre"
 
 #: kdecore/kaccel.cpp:269 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
 #: kdeui/keditcl2.cpp:360 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:676
-#: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786 po/texts.cpp:147
+#: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786
 msgid "Find"
 msgstr "Finn"
 
 #: kdecore/kaccel.cpp:273 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
-#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:148
+#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:147
 msgid "Replace"
 msgstr "Erstatt"
 
-#: kdecore/kaccel.cpp:277 po/texts.cpp:149
+#: kdecore/kaccel.cpp:277 po/texts.cpp:148
 msgid "Insert"
 msgstr "Sett inn"
 
@@ -262,11 +262,11 @@ msgstr "Hjem"
 msgid "End"
 msgstr "Slutt"
 
-#: kdecore/kaccel.cpp:289 po/texts.cpp:151
+#: kdecore/kaccel.cpp:289 po/texts.cpp:150
 msgid "Prior"
 msgstr "Forrige"
 
-#: kdecore/kaccel.cpp:293 po/texts.cpp:150
+#: kdecore/kaccel.cpp:293 po/texts.cpp:149
 msgid "Next"
 msgstr "Neste"
 
@@ -287,7 +287,7 @@ msgstr "CTRL"
 msgid "ALT"
 msgstr "ALT"
 
-#: kdecore/kapp.cpp:545
+#: kdecore/kapp.cpp:545 po/texts.cpp:153
 msgid "&Contents"
 msgstr "&Innhold"
 
@@ -363,7 +363,7 @@ msgstr "Tilføy til brukerdefinerte farger"
 msgid "Custom..."
 msgstr "Brukerdefinert..."
 
-#: kdeui/kcontrol.cpp:39 po/texts.cpp:152
+#: kdeui/kcontrol.cpp:39 po/texts.cpp:151
 msgid "Default"
 msgstr "Standard"
 
@@ -678,7 +678,7 @@ msgstr "Filter:"
 msgid "&Help"
 msgstr "&Hjelp"
 
-#: kdeui/kkeydialog.cpp:236 po/texts.cpp:153
+#: kdeui/kkeydialog.cpp:236 po/texts.cpp:152
 msgid "&Defaults"
 msgstr "&Standarder"
 
@@ -1476,6 +1476,11 @@ msgstr "&Neste >>"
 #: po/texts.cpp:145
 msgid "<< &Previous"
 msgstr "<< &Forrige"
+
+#: po/texts.cpp:154
+#, fuzzy
+msgid "&About..."
+msgstr "&Om"
 
 #: kab/addressbook.cc:92
 msgid ""

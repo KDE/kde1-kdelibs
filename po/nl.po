@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-09-30 23:21+0200\n"
+"POT-Creation-Date: 1998-10-02 01:57+0200\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-10-01 16:40:07+0200\n"
 "From: root <flidr@CyberGate.zcu.cz>\n"
@@ -249,17 +249,17 @@ msgstr "Maak zet ongedaan"
 
 #: kdecore/kaccel.cpp:269 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
 #: kdeui/keditcl2.cpp:360 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:676
-#: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786 po/texts.cpp:147
+#: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786
 msgid "Find"
 msgstr "Zoek"
 
 # , fuzzy
 #: kdecore/kaccel.cpp:273 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
-#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:148
+#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:147
 msgid "Replace"
 msgstr "&Vervangen"
 
-#: kdecore/kaccel.cpp:277 po/texts.cpp:149
+#: kdecore/kaccel.cpp:277 po/texts.cpp:148
 msgid "Insert"
 msgstr ""
 
@@ -272,12 +272,12 @@ msgstr "Mijn Home"
 msgid "End"
 msgstr ""
 
-#: kdecore/kaccel.cpp:289 po/texts.cpp:151
+#: kdecore/kaccel.cpp:289 po/texts.cpp:150
 #, fuzzy
 msgid "Prior"
 msgstr "Fout"
 
-#: kdecore/kaccel.cpp:293 po/texts.cpp:150
+#: kdecore/kaccel.cpp:293 po/texts.cpp:149
 #, fuzzy
 msgid "Next"
 msgstr "&Volgende"
@@ -299,7 +299,7 @@ msgstr ""
 msgid "ALT"
 msgstr ""
 
-#: kdecore/kapp.cpp:545
+#: kdecore/kapp.cpp:545 po/texts.cpp:153
 msgid "&Contents"
 msgstr "Inhoud"
 
@@ -369,7 +369,7 @@ msgid "Custom..."
 msgstr "Eigen..."
 
 # , fuzzy
-#: kdeui/kcontrol.cpp:39 po/texts.cpp:152
+#: kdeui/kcontrol.cpp:39 po/texts.cpp:151
 msgid "Default"
 msgstr "Standaard:"
 
@@ -716,7 +716,7 @@ msgid "&Help"
 msgstr "&Help"
 
 # , fuzzy
-#: kdeui/kkeydialog.cpp:236 po/texts.cpp:153
+#: kdeui/kkeydialog.cpp:236 po/texts.cpp:152
 #, fuzzy
 msgid "&Defaults"
 msgstr "Standaard:"
@@ -1605,6 +1605,12 @@ msgstr "&Volgende"
 #: po/texts.cpp:145
 msgid "<< &Previous"
 msgstr "Vo&rige"
+
+# , fuzzy
+#: po/texts.cpp:154
+#, fuzzy
+msgid "&About..."
+msgstr "Info..."
 
 #: kab/addressbook.cc:92
 msgid ""

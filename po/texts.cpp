@@ -150,4 +150,6 @@ i18n( "Next");
 i18n( "Prior");
 i18n( "Default");
 i18n( "&Defaults");
+i18n( "&Contents");
+i18n( "&About...");
 

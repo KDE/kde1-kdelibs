@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-09-30 23:21+0200\n"
+"POT-Creation-Date: 1998-10-02 01:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -491,29 +491,33 @@ msgid "<< &Previous"
 msgstr ""
 
 #: po/texts.cpp:147
-msgid "Find"
-msgstr ""
-
-#: po/texts.cpp:148
 msgid "Replace"
 msgstr ""
 
-#: po/texts.cpp:149
+#: po/texts.cpp:148
 msgid "Insert"
 msgstr ""
 
-#: po/texts.cpp:150
+#: po/texts.cpp:149
 msgid "Next"
 msgstr ""
 
-#: po/texts.cpp:151
+#: po/texts.cpp:150
 msgid "Prior"
 msgstr ""
 
-#: po/texts.cpp:152
+#: po/texts.cpp:151
 msgid "Default"
 msgstr ""
 
-#: po/texts.cpp:153
+#: po/texts.cpp:152
 msgid "&Defaults"
+msgstr ""
+
+#: po/texts.cpp:153
+msgid "&Contents"
+msgstr ""
+
+#: po/texts.cpp:154
+msgid "&About..."
 msgstr ""
