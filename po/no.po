@@ -16,34 +16,32 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: kab/AssertDialog.cpp:24
-#, fuzzy
 msgid "(unknown file)"
-msgstr "ukjent"
+msgstr "(ukjent fil)"
 
 #: kab/AssertDialog.cpp:25
 msgid "(unknown line number)"
-msgstr ""
+msgstr "(ukjent linjenummer)"
 
 #: kab/AssertDialog.cpp:26
 msgid "(unknown condition)"
-msgstr ""
+msgstr "(ukjente betingelser)"
 
 #: kab/AssertDialog.cpp:34
 msgid "You have found a bug in "
-msgstr ""
+msgstr "Du har funnet en programfeil i "
 
 #: kab/AssertDialog.cpp:41
 msgid "Ignore the error, possibly causing much more damage"
-msgstr ""
+msgstr "Ignorer feilen, men muligens føre til enda større ødeleggelse"
 
 #: kab/AssertDialog.cpp:43
-#, fuzzy
 msgid "Kill the application, loosing all data"
-msgstr "Applikasjonskonfigfil\n"
+msgstr "Drep applikasjonen, mister alle data"
 
 #: kab/AssertDialog.cpp:45
 msgid "Send an email to the application maintainer"
-msgstr ""
+msgstr "Send en epost til applikasjonsvedlikeholderen"
 
 #: kab/AssertDialog.cpp:47 kab/StringListDialog.cpp:40
 #: kab/StringListSelectAndReorderSet.cpp:572
@@ -60,18 +58,16 @@ msgid "OK"
 msgstr "OK"
 
 #: kab/AssertDialog.cpp:134
-#, fuzzy
 msgid "The following condition failed:\n"
-msgstr "Applikasjonskonfigfil\n"
+msgstr "Den følgende betingelsen feilet:\n"
 
 #: kab/AssertDialog.cpp:135
-#, fuzzy
 msgid "In file "
-msgstr "fil"
+msgstr "I fil "
 
 #: kab/AssertDialog.cpp:135
 msgid ", line "
-msgstr ""
+msgstr ", linje "
 
 #: kab/PrintDialog.cpp:22
 msgid "Headline text:"
