@@ -350,11 +350,11 @@ msgstr "Escolher uma Fonte"
 
 #: kdeui/kfontdialog.cpp:175
 msgid "Requested Font"
-msgstr "Fonte Pedida"
+msgstr "Fonte Requerida"
 
 #: kdeui/kfontdialog.cpp:180
 msgid "Actual Font"
-msgstr "Fonte Efectiva"
+msgstr "Fonte Utilizada"
 
 #: kdeui/kfontdialog.cpp:184 kdeui/kfontdialog.cpp:188
 msgid "Family:"
