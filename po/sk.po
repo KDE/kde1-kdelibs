@@ -1822,7 +1822,7 @@ msgstr "Narodeniny:"
 
 #: kab/editentry.cc:249
 msgid "Double click to set date"
-msgstr ""
+msgstr "Dvojklik na nastavenie dátumu"
 
 #: kab/editentry.cc:256
 msgid "O&thers"
@@ -1862,7 +1862,7 @@ msgstr ""
 
 #: kab/widget.cc:224
 msgid "kab: Removed bug warning"
-msgstr ""
+msgstr "kab: Zmazané varovanie o chybe"
 
 #: kab/widget.cc:225
 msgid ""
