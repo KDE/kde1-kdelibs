@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1998-10-13 13:32+0200\n"
 "PO-Revision-Date: 1998-03-15 20:00-0500\n"
 "Last-Translator:  Almir Uzunovic <auzunovi@sava.utic.net.ba> \n"
@@ -12,19 +12,19 @@ msgstr ""
 #: kab/AssertDialog.cpp:24
 #, fuzzy
 msgid "(unknown file)"
-msgstr "nepoznato"
+msgstr "(nepoznata datoteka)"
 
 #: kab/AssertDialog.cpp:25
 msgid "(unknown line number)"
-msgstr ""
+msgstr "(nepoznati broj linije)"
 
 #: kab/AssertDialog.cpp:26
 msgid "(unknown condition)"
-msgstr ""
+msgstr "(nepoznato stanje)"
 
 #: kab/AssertDialog.cpp:34
 msgid "You have found a bug in "
-msgstr ""
+msgstr "Prona¹li ste bug u "
 
 #: kab/AssertDialog.cpp:41
 msgid "Ignore the error, possibly causing much more damage"
@@ -36,7 +36,7 @@ msgstr ""
 
 #: kab/AssertDialog.cpp:45
 msgid "Send an email to the application maintainer"
-msgstr ""
+msgstr "Po¹aljite poruku osobi koja odr¾ava aplikaciju"
 
 #: kab/AssertDialog.cpp:47 kab/StringListDialog.cpp:40
 #: kab/StringListSelectAndReorderSet.cpp:572
@@ -57,17 +57,16 @@ msgid "The following condition failed:\n"
 msgstr ""
 
 #: kab/AssertDialog.cpp:135
-#, fuzzy
 msgid "In file "
-msgstr "datoteka"
+msgstr "U datoteci"
 
 #: kab/AssertDialog.cpp:135
 msgid ", line "
-msgstr ""
+msgstr ", linija "
 
 #: kab/PrintDialog.cpp:22
 msgid "Headline text:"
-msgstr ""
+msgstr "Naslovni tekst:"
 
 #: kab/PrintDialog.cpp:23
 msgid "Right footer text:"
@@ -80,12 +79,11 @@ msgstr ""
 #: kab/SearchDialog.cpp:54
 #, fuzzy
 msgid "Search entries"
-msgstr "Tra¾i datoteku"
+msgstr "Pretrai "
 
 #: kab/SearchDialog.cpp:55
-#, fuzzy
 msgid "Search"
-msgstr "O¾ujak"
+msgstr "Tra¾i"
 
 #: kab/SearchDialog.cpp:56 kab/StringListDialog.cpp:41
 #: kab/StringListSelectAndReorderSet.cpp:573
@@ -104,99 +102,96 @@ msgid "Cancel"
 msgstr "Poni¹ti"
 
 #: kab/SearchDialog.cpp:57
-#, fuzzy
 msgid "contains"
-msgstr "Sadr¾aj"
+msgstr "sadr¾i"
 
 #: kab/SearchDialog.cpp:60
 msgid "The title"
-msgstr ""
+msgstr "Naslov"
 
 #: kab/SearchDialog.cpp:61
 msgid "The first name"
-msgstr ""
+msgstr "Prvo ime"
 
 #: kab/SearchDialog.cpp:62
 msgid "The additional name"
-msgstr ""
+msgstr "Dodatno ime"
 
 #: kab/SearchDialog.cpp:63
 msgid "The name prefix"
-msgstr ""
+msgstr "Prefiks imenu"
 
 #: kab/SearchDialog.cpp:64
-#, fuzzy
 msgid "The name"
-msgstr "Putanja (path)"
+msgstr "Ime"
 
 #: kab/SearchDialog.cpp:65
 msgid "The formatted name"
-msgstr ""
+msgstr "Formatirano ime"
 
 #: kab/SearchDialog.cpp:66
 msgid "The address"
-msgstr ""
+msgstr "Adresa"
 
 #: kab/SearchDialog.cpp:67
-#, fuzzy
 msgid "The town"
-msgstr "Putanja (path)"
+msgstr "Grad"
 
 #: kab/SearchDialog.cpp:68
 msgid "The organization"
-msgstr ""
+msgstr "Organizacija"
 
 #: kab/SearchDialog.cpp:69
 msgid "The role"
-msgstr ""
+msgstr "Uloga"
 
 #: kab/SearchDialog.cpp:70
 msgid "The org unit"
-msgstr ""
+msgstr "Org. jedinica"
 
 #: kab/SearchDialog.cpp:71
 msgid "The org subunit"
-msgstr ""
+msgstr "Org. podjedinica"
 
 #: kab/SearchDialog.cpp:72
 msgid "The email address"
-msgstr ""
+msgstr "E-mail adresa"
 
 #: kab/SearchDialog.cpp:73
 msgid "The second email address"
-msgstr ""
+msgstr "Druga e-mail adresa"
 
 #: kab/SearchDialog.cpp:74
 msgid "The third email address"
-msgstr ""
+msgstr "Treæa e-mail adresa"
 
 #: kab/SearchDialog.cpp:75
 msgid "The telephone number"
-msgstr ""
+msgstr "Broj telefona"
 
 #: kab/SearchDialog.cpp:76
 msgid "The fax number"
-msgstr ""
+msgstr "Broj faxa"
 
 #: kab/SearchDialog.cpp:77
 msgid "The modem number"
-msgstr ""
+msgstr "Broj modema"
 
 #: kab/SearchDialog.cpp:78
 msgid "The homepage URL"
-msgstr ""
+msgstr "URL web stranice"
 
 #: kab/SearchDialog.cpp:79
 msgid "The comment"
-msgstr ""
+msgstr "Komentar"
 
 #: kab/StringListSelectAndReorderSet.cpp:43
 msgid "Possible values:"
-msgstr ""
+msgstr "Moguæe vrijednosti:"
 
 #: kab/StringListSelectAndReorderSet.cpp:44
 msgid "Selected values:"
-msgstr ""
+msgstr "Izabrane vrijednosti:"
 
 #: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:549 kfile/kfiledialog.cpp:1193
 #: kfile/kfiledialog.cpp:1352 kfile/kfiledialog.cpp:1386 po/texts.cpp:65
@@ -205,7 +200,7 @@ msgstr "Otvori"
 
 #: kdecore/kaccel.cpp:235
 msgid "New"
-msgstr "Novi"
+msgstr "Novo"
 
 #: kab/searchresults.cc:33 kdecore/kaccel.cpp:239 po/texts.cpp:80
 msgid "Close"
@@ -238,13 +233,13 @@ msgstr "Umetni"
 
 #: kdecore/kaccel.cpp:267 po/texts.cpp:93
 msgid "Undo"
-msgstr "Povrati"
+msgstr "Vrati"
 
 #: kdecore/kaccel.cpp:271 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
 #: kdeui/keditcl2.cpp:360 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:676
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786
 msgid "Find"
-msgstr "Naði"
+msgstr "Pronaði"
 
 #: kdecore/kaccel.cpp:275 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
 #: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:133
@@ -252,9 +247,8 @@ msgid "Replace"
 msgstr "Zamijeni"
 
 #: kdecore/kaccel.cpp:279 po/texts.cpp:134
-#, fuzzy
 msgid "Insert"
-msgstr "&Umetni"
+msgstr "Umetni"
 
 #: kdecore/kaccel.cpp:283 kfile/kfiledialog.cpp:131
 msgid "Home"
@@ -262,17 +256,15 @@ msgstr "Poèetak"
 
 #: kdecore/kaccel.cpp:287
 msgid "End"
-msgstr ""
+msgstr "Kraj"
 
 #: kdecore/kaccel.cpp:291
-#, fuzzy
 msgid "Prior"
-msgstr "Gre¹ka"
+msgstr "Prija¹nji"
 
 #: kdecore/kaccel.cpp:295
-#, fuzzy
 msgid "Next"
-msgstr "Slj&edeæi"
+msgstr "Slijedeæi"
 
 #: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471
 #: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:240 po/texts.cpp:44
@@ -281,23 +273,23 @@ msgstr "Pomoæ"
 
 #: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:661
 msgid "SHIFT"
-msgstr ""
+msgstr "SHIFT"
 
 #: kdecore/kaccel.cpp:601 kdecore/kaccel.cpp:663
 msgid "CTRL"
-msgstr ""
+msgstr "CTRL"
 
 #: kdecore/kaccel.cpp:605 kdecore/kaccel.cpp:665
 msgid "ALT"
-msgstr ""
+msgstr "ALT"
 
 #: kdecore/kapp.cpp:551 po/texts.cpp:137
 msgid "&Contents"
-msgstr "&Sadr¾aj"
+msgstr "Sa&dr¾aj"
 
 #: kdecore/kapp.cpp:557
 msgid "&About"
-msgstr "&O programu"
+msgstr "O progr&amu"
 
 #: kdecore/kapp.cpp:564
 msgid "About &KDE..."
@@ -369,7 +361,7 @@ msgstr "Birane..."
 
 #: kdeui/kcontrol.cpp:41 kdeui/kcontrol.cpp:58 po/texts.cpp:135
 msgid "Default"
-msgstr "Podrazumijevano"
+msgstr "Uobièajeno"
 
 #: kdeui/kcontrol.cpp:47 kdeui/kcontrol.cpp:53 kfile/kfiledialogconf.cpp:59
 #: po/texts.cpp:41
@@ -464,7 +456,7 @@ msgstr "®alim"
 
 #: kdeui/keditcl1.cpp:129
 msgid "The specified File does not exist"
-msgstr "Izabrana datoteka ne postoji"
+msgstr "Navedena datoteka ne postoji"
 
 #: kdeui/keditcl1.cpp:142 kdeui/keditcl1.cpp:414 kdeui/keditcl1.cpp:495
 #: kdeui/keditcl1.cpp:1689
@@ -473,19 +465,19 @@ msgstr "®alim:"
 
 #: kdeui/keditcl1.cpp:143
 msgid "You have specificated a directory"
-msgstr "Izabrali ste direktorij"
+msgstr "Naveli ste direktorij"
 
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179
 msgid "You do not have read permission to this file."
-msgstr "Nemate dozvolu za èitanje ove datoteke."
+msgstr "Nemate ovlast èitanja ove datoteke."
 
 #: kdeui/keditcl1.cpp:192
 msgid "An Error occured while trying to open this Document"
-msgstr "Gre¹ka se dogogila prilikom otvaranja ovog dokumenta"
+msgstr "Gre¹ka prilikom otvaranja dokumenta"
 
 #: kdeui/keditcl1.cpp:357
 msgid "Select Document to Insert"
-msgstr "Izaberi Dokument za Umetanje"
+msgstr "Birajte dokument za umetanje"
 
 #: kdeui/keditcl1.cpp:393 kdeui/keditcl1.cpp:475 kdeui/keditcl1.cpp:1632
 msgid "Warning:"
@@ -509,7 +501,7 @@ msgstr ""
 
 #: kdeui/keditcl1.cpp:446
 msgid "Select Document to Open"
-msgstr "Izaberite dokument koji ¾elite otvoriti"
+msgstr "Birajte dokument koji ¾elite otvoriti"
 
 #: kdeui/keditcl1.cpp:496
 msgid ""
@@ -521,7 +513,7 @@ msgstr ""
 
 #: kdeui/keditcl1.cpp:531 kdeui/kpopmenu.cpp:10 po/texts.cpp:34
 msgid "Untitled"
-msgstr "Bezimen"
+msgstr "Bez imena"
 
 #: kdeui/keditcl1.cpp:1534
 msgid "Could not save the document\n"
@@ -529,7 +521,7 @@ msgstr "Ne mogu spremiti dokument\n"
 
 #: kdeui/keditcl1.cpp:1604
 msgid "Save Document As"
-msgstr "Spremi Pod Drugim Imenom"
+msgstr "Spremi dokument kao"
 
 #: kdeui/keditcl1.cpp:1633
 msgid ""
@@ -541,7 +533,7 @@ msgstr ""
 
 #: kdeui/keditcl1.cpp:1690
 msgid "You do not have write permission to this file.\n"
-msgstr "Nemate dozvolu za pisanje u ovu datoteku\n"
+msgstr "Nemate ovlast pisanja nad tom datotekom.\n"
 
 #: kdeui/keditcl2.cpp:104 kdeui/keditcl2.cpp:361 kdeui/keditcl2.cpp:454
 msgid ""
@@ -570,39 +562,39 @@ msgstr "Tra¾i unazad"
 
 #: kdeui/keditcl2.cpp:688 kdeui/keditcl2.cpp:795
 msgid "Done"
-msgstr "Gotovo"
+msgstr "Nijedan"
 
 #: kdeui/keditcl2.cpp:768
 msgid "Find:"
-msgstr "Naði:"
+msgstr "Pronaði:"
 
 #: kdeui/keditcl2.cpp:778
 msgid "Replace with:"
-msgstr "Zamijeni sa:"
+msgstr "Zamijeni s:"
 
 #: kdeui/keditcl2.cpp:792
 msgid "Replace All"
-msgstr "Zamijeni Sve"
+msgstr "Zamijeni sve"
 
 #: kdeui/keditcl2.cpp:889
 msgid "Goto Line"
-msgstr "Idi na Liniju"
+msgstr "Idi na"
 
 #: kdeui/keditcl2.cpp:894
 msgid "Go"
-msgstr "Idi"
+msgstr "Kreni"
 
 #: kdeui/kfontdialog.cpp:181
 msgid "Select Font"
-msgstr "Izaberi font"
+msgstr "Izaberi pismo"
 
 #: kdeui/kfontdialog.cpp:185
 msgid "Requested Font"
-msgstr "Tra¾eni font"
+msgstr "Tra¾eno pismo"
 
 #: kdeui/kfontdialog.cpp:190
 msgid "Actual Font"
-msgstr "Trenutni font"
+msgstr "Stvarno pismo"
 
 #: kdeui/kfontdialog.cpp:194 kdeui/kfontdialog.cpp:198
 msgid "Family:"
@@ -610,7 +602,7 @@ msgstr "Obitelj:"
 
 #: kdeui/kfontdialog.cpp:205 kdeui/kfontdialog.cpp:211 po/texts.cpp:26
 msgid "Charset:"
-msgstr "Skup znakova (charset):"
+msgstr "Skup znakova:"
 
 #: kdeui/kfontdialog.cpp:218 kdeui/kfontdialog.cpp:223 kfile/kpreview.cpp:196
 msgid "Size:"
@@ -618,7 +610,7 @@ msgstr "Velièina:"
 
 #: kdeui/kfontdialog.cpp:230 kdeui/kfontdialog.cpp:235
 msgid "Weight:"
-msgstr "Visina:"
+msgstr "Te¾ina:"
 
 #: kdeui/kfontdialog.cpp:243 kdeui/kfontdialog.cpp:250
 msgid "Style:"
@@ -626,7 +618,7 @@ msgstr "Stil:"
 
 #: kdeui/kfontdialog.cpp:286
 msgid "Charset"
-msgstr "Skup znakova (charset)"
+msgstr "Skup znakova"
 
 #: kdeui/kfontdialog.cpp:297 kfile/kfiledetaillist.cpp:38
 msgid "Size"
@@ -642,7 +634,7 @@ msgstr "normalno"
 
 #: kdeui/kfontdialog.cpp:340 kdeui/kfontdialog.cpp:482
 msgid "bold"
-msgstr "podebljano"
+msgstr "masno"
 
 #: kdeui/kfontdialog.cpp:351
 msgid "Style"
@@ -651,7 +643,7 @@ msgstr "Stil"
 #: kdeui/kfontdialog.cpp:352 kdeui/kfontdialog.cpp:493
 #: kdeui/kfontdialog.cpp:522
 msgid "roman"
-msgstr "roman"
+msgstr "rimski"
 
 #: kdeui/kfontdialog.cpp:353 kdeui/kfontdialog.cpp:495
 #: kdeui/kfontdialog.cpp:520
@@ -664,7 +656,7 @@ msgstr "Dolor Ipse"
 
 #: kdeui/kfontdialog.cpp:515
 msgid "Bold"
-msgstr "Zadebljano"
+msgstr "Masno"
 
 #: kdeui/kfontdialog.cpp:517
 msgid "Normal"
@@ -681,10 +673,9 @@ msgstr "Filter:"
 #: kdeui/kkeydialog.cpp:232 kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:205
 #: po/texts.cpp:45
 msgid "&Help"
-msgstr "Po&moæ"
+msgstr "&Pomoæ"
 
 #: kdeui/kkeydialog.cpp:236 po/texts.cpp:136
-#, fuzzy
 msgid "&Defaults"
 msgstr "&Uobièajeno"
 
@@ -696,30 +687,27 @@ msgstr "&U redu"
 #: kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178 kdeui/kwizard.cpp:159
 #: po/texts.cpp:40
 msgid "&Cancel"
-msgstr "&Odustani"
+msgstr "Pre&kini"
 
 #: kdeui/kkeydialog.cpp:320
 msgid "Current key"
 msgstr ""
 
 #: kdeui/kkeydialog.cpp:331
-#, fuzzy
 msgid "&Action"
-msgstr "&Lokacija:"
+msgstr "&Akcija"
 
 #: kdeui/kkeydialog.cpp:392
 msgid "&No key"
-msgstr ""
+msgstr "&Bez tipke"
 
 #: kdeui/kkeydialog.cpp:400
-#, fuzzy
 msgid "&Default key"
-msgstr "&Uobièajeno"
+msgstr "&Uobièajena tipka"
 
 #: kdeui/kkeydialog.cpp:408
-#, fuzzy
 msgid "&Custom key"
-msgstr "Birane..."
+msgstr "&Izabrana tipka"
 
 #: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:731
 msgid "Top"
@@ -772,7 +760,7 @@ msgstr "Stranica %d od %d"
 
 #: kfile/bookmark.cpp:246
 msgid "<!-- Do not edit this file -->"
-msgstr "<!-- Nemojte mijenjati ovu datoteku -->"
+msgstr "<!-- Ne mijenjajte ovu datoteku -->"
 
 #: kfile/kcombiview.cpp:80
 msgid "Folders:"
@@ -820,7 +808,7 @@ msgstr "Ponovo uèitaj"
 
 #: kfile/kfiledialog.cpp:150
 msgid "Bookmarks"
-msgstr "Knji¹ka oznaka"
+msgstr "Knji¹ke oznake"
 
 #: kfile/kfiledialog.cpp:154
 msgid "Create new folder"
@@ -876,11 +864,11 @@ msgstr ""
 
 #: kfile/kfiledialog.cpp:512 kfile/kfiledialog.cpp:618
 msgid "Dismiss"
-msgstr "Otka¾i"
+msgstr "Otpusti"
 
 #: kfile/kfiledialog.cpp:564 kfile/kfiledialog.cpp:1367 po/texts.cpp:77
 msgid "Save As"
-msgstr "Spremi pod drugim imenom"
+msgstr "Spremi kao"
 
 #: kfile/kfiledialog.cpp:587
 msgid "Root Directory"
@@ -1010,7 +998,7 @@ msgstr "Direktorije prvo"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"
-msgstr "nepoznato"
+msgstr "nepoznat"
 
 #: kfile/kfileinfo.cpp:220
 msgid "Jan"
@@ -1058,7 +1046,7 @@ msgstr "Pro"
 
 #: kab/editentry.cc:70 kfile/kpreview.cpp:187
 msgid "Name:"
-msgstr "Ime"
+msgstr "Ime:"
 
 #: kfile/kpreview.cpp:205
 msgid "Date:"
@@ -1074,7 +1062,7 @@ msgstr "Grupa:"
 
 #: kfile/kpreview.cpp:232
 msgid "Type:"
-msgstr "Tip"
+msgstr "Vrsta:"
 
 #: kfile/kpreview.cpp:287
 msgid "locked"
@@ -1101,7 +1089,7 @@ msgstr ""
 #: kio/kmimetypes.cc:88 kio/kmimetypes.cc:134 kio/kregfactories.cc:75
 #: kio/krun.cc:105 kio/kservices.cc:114
 msgid "KFM Error"
-msgstr "KFM Gre¹ka"
+msgstr "KFM gre¹ka"
 
 #: kfmlib/kfm.cpp:208
 #, c-format
@@ -1137,7 +1125,7 @@ msgstr "Spremi datoteku"
 
 #: po/texts.cpp:31
 msgid "Contents"
-msgstr "Sadr¾aj"
+msgstr "Sadr¾i"
 
 #: po/texts.cpp:33
 msgid "A&bout..."
@@ -1161,7 +1149,7 @@ msgstr "&Datoteka"
 
 #: po/texts.cpp:46
 msgid "Edit"
-msgstr "Urednik"
+msgstr "Uredi"
 
 #: po/texts.cpp:47
 msgid "&Edit"
@@ -1169,7 +1157,7 @@ msgstr "&Uredi"
 
 #: po/texts.cpp:48
 msgid "&Options"
-msgstr "&Izbori"
+msgstr "P&ostavke"
 
 #: po/texts.cpp:49
 msgid "View"
@@ -1233,19 +1221,19 @@ msgstr "&Izre¾i"
 
 #: po/texts.cpp:71
 msgid "C&ut"
-msgstr "Iz&re¾i"
+msgstr "&Izre¾i"
 
 #: po/texts.cpp:72
 msgid "Font"
-msgstr "Pismo"
+msgstr "Font"
 
 #: po/texts.cpp:73
 msgid "&Foreground Color"
-msgstr "Boja &Prvog Plana"
+msgstr "Boja s&lova"
 
 #: po/texts.cpp:74
 msgid "&Background Color"
-msgstr "&Boja Pozadine"
+msgstr "&Boja pozadine"
 
 #: po/texts.cpp:76
 msgid "&Save"
@@ -1253,7 +1241,7 @@ msgstr "&Spremi"
 
 #: po/texts.cpp:78
 msgid "Save as..."
-msgstr "Spremi kao..."
+msgstr "Spremi pod drugim imenom..."
 
 #: po/texts.cpp:79
 msgid "S&ave as..."
@@ -1261,11 +1249,11 @@ msgstr "S&premi pod drugim imenom..."
 
 #: po/texts.cpp:81
 msgid "&Close"
-msgstr "&Zatvori"
+msgstr "Zat&vori"
 
 #: po/texts.cpp:82
 msgid "&Print..."
-msgstr "&Ispi¹i..."
+msgstr "Is&pi¹i..."
 
 #: po/texts.cpp:84
 msgid "Options"
@@ -1281,31 +1269,31 @@ msgstr "Dodaj"
 
 #: po/texts.cpp:87
 msgid "Change"
-msgstr "Izmijeni"
+msgstr "Promijeni"
 
 #: po/texts.cpp:88
 msgid "Delete"
-msgstr "Pobri¹i"
+msgstr "Bri¹i"
 
 #: po/texts.cpp:89
 msgid "&Delete"
-msgstr "O&bri¹i"
+msgstr "&Bri¹i"
 
 #: kio/kio_linedit_dlg.cc:46 kio/kio_openwith.cc:268 po/texts.cpp:90
 msgid "Clear"
-msgstr "Oèisti"
+msgstr "Isprazni"
 
 #: po/texts.cpp:91
 msgid "Italic"
-msgstr "Kurziv"
+msgstr "Nako¹eno"
 
 #: po/texts.cpp:92
 msgid "Roman"
-msgstr "Roman"
+msgstr "Rimski"
 
 #: po/texts.cpp:94
 msgid "&Undo"
-msgstr "Po&vrati"
+msgstr "&Vrati"
 
 #: po/texts.cpp:95
 msgid "Redo"
@@ -1321,7 +1309,7 @@ msgstr "&Igra"
 
 #: kio/kio_rename_dlg.cc:22 kio/kio_skip_dlg.cc:18 po/texts.cpp:98
 msgid "Information"
-msgstr "Informacije"
+msgstr "Informacija"
 
 #: po/texts.cpp:99
 msgid "Browse..."
@@ -1361,7 +1349,7 @@ msgstr "Velièina fonta"
 
 #: po/texts.cpp:108
 msgid "Fonts"
-msgstr "Fontovi"
+msgstr "Pismo"
 
 #: po/texts.cpp:109
 msgid "&Fonts"
@@ -1444,9 +1432,8 @@ msgid "<< &Previous"
 msgstr "<< &Prethodni"
 
 #: po/texts.cpp:138
-#, fuzzy
 msgid "&About..."
-msgstr "&O programu"
+msgstr "&O programu..."
 
 #: kab/addressbook.cc:90
 msgid ""
@@ -1552,44 +1539,39 @@ msgstr ""
 
 #: kab/addressbook.cc:1136
 msgid "Formatted name"
-msgstr ""
+msgstr "Formatirano ime"
 
 #: kab/addressbook.cc:1140
-#, fuzzy
 msgid "Comment"
-msgstr "Sadr¾aj"
+msgstr "Komentar"
 
 #: kab/addressbook.cc:1144
 msgid "Organization"
-msgstr ""
+msgstr "Organizacija"
 
 #: kab/addressbook.cc:1148
-#, fuzzy
 msgid "Unit"
-msgstr "Bezimen"
+msgstr "Jedinica"
 
 #: kab/addressbook.cc:1152
-#, fuzzy
 msgid "Subunit"
-msgstr "Ned"
+msgstr "Podjedinica"
 
 #: kab/addressbook.cc:1156
-#, fuzzy
 msgid "Title"
-msgstr "datoteka"
+msgstr "Naslov"
 
 #: kab/addressbook.cc:1160
-#, fuzzy
 msgid "Role"
-msgstr "direktorij"
+msgstr "Uloga"
 
 #: kab/addressbook.cc:1164
 msgid "Birthday"
-msgstr ""
+msgstr "Roðendan"
 
 #: kab/addressbook.cc:1168
 msgid "Talk addresses"
-msgstr ""
+msgstr "Adresa za talk"
 
 #: kab/addressbook.cc:1172
 msgid "Delivery label"
@@ -1597,45 +1579,43 @@ msgstr ""
 
 #: kab/addressbook.cc:1176
 msgid "Email address"
-msgstr ""
+msgstr "Email adresa"
 
 #: kab/addressbook.cc:1180
 msgid "Second email address"
-msgstr ""
+msgstr "Druga email adresa"
 
 #: kab/addressbook.cc:1184
 msgid "Third email address"
-msgstr ""
+msgstr "Treæa email adresa"
 
 #: kab/addressbook.cc:1188
 msgid "Email addresses"
-msgstr ""
+msgstr "Email adresa"
 
 #: kab/addressbook.cc:1192
-#, fuzzy
 msgid "Address"
-msgstr "Dodaj"
+msgstr "Adresa"
 
 #: kab/addressbook.cc:1196
 msgid "City/Town"
-msgstr ""
+msgstr "Grad"
 
 #: kab/addressbook.cc:1200
 msgid "Telephone"
-msgstr ""
+msgstr "Telefon"
 
 #: kab/addressbook.cc:1204
 msgid "Fax number"
-msgstr ""
+msgstr "Broj faxa"
 
 #: kab/addressbook.cc:1208
-#, fuzzy
 msgid "Modem number"
-msgstr "Studeni"
+msgstr "Broj modema"
 
 #: kab/addressbook.cc:1212
 msgid "Homepage URL"
-msgstr ""
+msgstr "URL web stranice"
 
 #: kab/addressbook.cc:1216
 msgid "Zip/postal code"
@@ -1646,48 +1626,44 @@ msgid "State/province"
 msgstr ""
 
 #: kab/addressbook.cc:1224
-#, fuzzy
 msgid "Country"
-msgstr "Izre¾i"
+msgstr "Dr¾ava"
 
 #: kab/addressbook.cc:1404
 msgid "(unnamed entry)"
 msgstr ""
 
 #: kab/datepickerdialog.cc:35
-#, fuzzy
 msgid "Select birthday"
-msgstr "Izaberi font"
+msgstr "Izaberi roðendan"
 
 #: kab/editentry.cc:41
 msgid "Edit the current entry"
 msgstr ""
 
 #: kab/editentry.cc:67
-#, fuzzy
 msgid "Title:"
-msgstr "Stil:"
+msgstr "Naslov:"
 
 #: kab/editentry.cc:68
 msgid "First name:"
-msgstr ""
+msgstr "Ime:"
 
 #: kab/editentry.cc:69
 msgid "Additional Name:"
-msgstr ""
+msgstr "Dodatno ime:"
 
 #: kab/editentry.cc:71
 msgid "Formatted Name:"
-msgstr ""
+msgstr "Formatirano ime:"
 
 #: kab/editentry.cc:94
-#, fuzzy
 msgid "&Name"
-msgstr "Ime"
+msgstr "&Ime"
 
 #: kab/editentry.cc:114
 msgid "Address:"
-msgstr ""
+msgstr "Adresa:"
 
 #: kab/editentry.cc:115
 msgid "Zip/postal code:"
@@ -1695,7 +1671,7 @@ msgstr ""
 
 #: kab/editentry.cc:116
 msgid "Town:"
-msgstr ""
+msgstr "Grad:"
 
 #: kab/editentry.cc:117
 #, fuzzy
@@ -1704,15 +1680,15 @@ msgstr "Datum:"
 
 #: kab/editentry.cc:118
 msgid "Country:"
-msgstr ""
+msgstr "Dr¾ava:"
 
 #: kab/editentry.cc:141
 msgid "&Address"
-msgstr ""
+msgstr "&Adresa"
 
 #: kab/editentry.cc:161
 msgid "Organization:"
-msgstr ""
+msgstr "Organizacija:"
 
 #: kab/editentry.cc:162
 msgid "Org Unit:"
@@ -1729,20 +1705,19 @@ msgstr "Direktoriji:"
 
 #: kab/editentry.cc:185
 msgid "&Organization"
-msgstr ""
+msgstr "&Organizacija"
 
 #: kab/editentry.cc:205
 msgid "Telephone:"
-msgstr ""
+msgstr "Telefon:"
 
 #: kab/editentry.cc:206
 msgid "Fax:"
-msgstr ""
+msgstr "Fax:"
 
 #: kab/editentry.cc:207
-#, fuzzy
 msgid "Modem:"
-msgstr "Premjesti"
+msgstr "Modem:"
 
 #: kab/editentry.cc:208
 msgid "Homepage (URL):"
@@ -1764,7 +1739,7 @@ msgstr "&Sadr¾aj"
 #: kab/editentry.cc:265
 #, fuzzy
 msgid "Comment:"
-msgstr "Sadr¾aj:"
+msgstr "Komentar:"
 
 #: kab/editentry.cc:273
 msgid "Birthday:"
@@ -1772,7 +1747,7 @@ msgstr ""
 
 #: kab/editentry.cc:283
 msgid "O&thers"
-msgstr ""
+msgstr "D&rugi"
 
 #: kab/kabapi.cc:144
 msgid "Your new entry could not be added."
@@ -1780,7 +1755,7 @@ msgstr ""
 
 #: kab/searchresults.cc:38
 msgid "search results"
-msgstr ""
+msgstr "rezultati pretrage"
 
 #: kab/widget.cc:153
 msgid "Conversion problem"
@@ -1924,12 +1899,12 @@ msgstr ""
 
 #: kab/widget.cc:822
 msgid "Empty email address."
-msgstr ""
+msgstr "Prazna email adresa."
 
 #: kab/widget.cc:832 kab/widget.cc:1860 kab/widget.cc:1996 kab/widgets.cc:75
 #: kab/widgets.cc:99
 msgid "Rejected."
-msgstr ""
+msgstr "Odbijen."
 
 #: kab/widget.cc:842
 msgid "Mail configuration"
@@ -1973,9 +1948,8 @@ msgid ""
 msgstr ""
 
 #: kab/widget.cc:959
-#, fuzzy
 msgid "Could not save database."
-msgstr "Ne mogu spremiti dokument\n"
+msgstr "Ne mogu spremiti bazu."
 
 #: kab/widget.cc:961
 msgid "Database saved successfully."
@@ -1983,7 +1957,7 @@ msgstr ""
 
 #: kab/widget.cc:1021
 msgid "Entry changed."
-msgstr ""
+msgstr "Unos promijenjen."
 
 #: kab/widget.cc:1121
 msgid "Results"
@@ -2022,9 +1996,8 @@ msgid "Available talk addresses:"
 msgstr ""
 
 #: kab/widget.cc:1305 kab/widget.cc:2101
-#, fuzzy
 msgid "Cancelled."
-msgstr "Poni¹ti"
+msgstr "Poni¹teno."
 
 #: kab/widget.cc:1331
 msgid "The talk command parameters are wrong."
@@ -2060,11 +2033,11 @@ msgstr ""
 
 #: kab/widget.cc:1791
 msgid "kab: Email addresses"
-msgstr ""
+msgstr "kab: Email adrese"
 
 #: kab/widget.cc:1792
 msgid "Available email addresses:"
-msgstr ""
+msgstr "Dostupne email adrese:"
 
 #: kab/widget.cc:1857
 msgid "kab: Select fields to copy"
@@ -2083,9 +2056,8 @@ msgid "Name-Email-Link (recommended!)"
 msgstr ""
 
 #: kab/widget.cc:1972
-#, fuzzy
 msgid "Select table columns"
-msgstr "Odaberi ikonu"
+msgstr "Izaberi stupce tabele"
 
 #: kab/widget.cc:1977
 msgid "Nothing to export."
@@ -2109,7 +2081,7 @@ msgstr ""
 
 #: kab/widgets.cc:52
 msgid "Printing cancelled."
-msgstr ""
+msgstr "Ispis prekinut"
 
 #: kab/widgets.cc:67
 msgid "kab: Select columns for printing"
@@ -2121,23 +2093,23 @@ msgstr ""
 
 #: kab/widgets.cc:93
 msgid "Page <p>"
-msgstr ""
+msgstr "Stranica <p>"
 
 #: kab/widgets.cc:94
 msgid "KDE - the professionals choice."
-msgstr ""
+msgstr "KDE - izbor profesionalaca."
 
 #: kab/widgets.cc:110
 msgid "Printing failed!"
-msgstr ""
+msgstr "Ispis nije uspio!"
 
 #: kio/kio_cache.cc:345
 msgid "KIO Cache"
-msgstr ""
+msgstr "KIO predmemorija"
 
 #: kio/kio_cache.cc:347
 msgid "Contents of the cache"
-msgstr ""
+msgstr "Sadr¾aj predmemorije"
 
 #: kio/kio_cache.cc:352
 msgid ""
@@ -2147,21 +2119,19 @@ msgstr ""
 
 #: kio/kio_cache.cc:355
 msgid "Creation Date"
-msgstr ""
+msgstr "Datum stvaranja"
 
 #: kio/kio_cache.cc:357
 msgid "Expiration Date"
-msgstr ""
+msgstr "Datum istjeka"
 
 #: kio/kio_cache.cc:422
-#, fuzzy
 msgid "Unknown"
-msgstr "nepoznato"
+msgstr "Nepoznat"
 
 #: kio/kio_cache.cc:428
-#, fuzzy
 msgid "Never"
-msgstr "Studeni"
+msgstr "Nikada"
 
 #: kio/kio_error.cc:16
 #, c-format
@@ -2171,18 +2141,21 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:19
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not write to\n"
+msgstr ""
+"Ne mogu pisati u\n"
 "%s"
-msgstr "Ne mogu spremiti dokument\n"
 
 #: kio/kio_error.cc:22
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not start process\n"
 "%s"
-msgstr "Ne mogu spremiti dokument\n"
+msgstr ""
+"Ne mogu pokrenuti proces\n"
+"%s"
 
 #: kio/kio_error.cc:25
 #, c-format
@@ -2194,11 +2167,13 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:28
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Malformed URL\n"
 "%s"
-msgstr "Neispravan URL"
+msgstr 
+"Neispravan URL\n"
+"%s"
 
 #: kio/kio_error.cc:31
 #, c-format
@@ -2206,6 +2181,8 @@ msgid ""
 "The protocol %s\n"
 " is not supported"
 msgstr ""
+"Protokol %s\n"
+" nije podr¾an"
 
 #: kio/kio_error.cc:34
 #, c-format
@@ -2213,6 +2190,8 @@ msgid ""
 "The protocol %s\n"
 "is only a filter protocol.\n"
 msgstr ""
+"Protokol %s\n"
+"je filter protokol.\n"
 
 #: kio/kio_error.cc:37
 #, c-format
@@ -2222,12 +2201,15 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:40
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The file or directory\n"
 "%s\n"
 "does not exist"
-msgstr "Izabrana datoteka ne postoji"
+msgstr ""
+"Datoteka/direktorij\n"
+"%s\n"
+"ne postoji"
 
 #: kio/kio_error.cc:43
 #, c-format
@@ -2238,11 +2220,13 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:46
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not make directory\n"
 "%s"
-msgstr "jedan direktorij"
+msgstr 
+"Ne mogu stvoriti direktorij\n"
+"%s"
 
 #: kio/kio_error.cc:49
 #, c-format
@@ -2258,13 +2242,17 @@ msgid ""
 "%s\n"
 "Access denied"
 msgstr ""
+"%s\n"
+"Pristup odbijen"
 
 #: kio/kio_error.cc:55
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not enter directory\n"
 "%s"
-msgstr "Ne mogu spremiti dokument\n"
+msgstr 
+"Ne mogu uæi u direktorij\n"
+"%s"
 
 #: kio/kio_error.cc:58
 #, c-format
@@ -2285,7 +2273,9 @@ msgstr ""
 msgid ""
 "Could not change permissions for\n"
 "%s"
-msgstr "Nemate dozvolu za pisanje u ovu datoteku\n"
+msgstr ""
+"Nemate dozvolu za promjenu privilegija za\n"
+"%s"
 
 #: kio/kio_error.cc:67
 #, c-format
@@ -2316,11 +2306,13 @@ msgid ""
 msgstr ""
 
 #: kio/kio_error.cc:79
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Could not connect to host\n"
 "%s"
-msgstr "Ne mogu spremiti dokument\n"
+msgstr 
+"Ne mogu se spojiti na raèunalo\n"
+"%s"
 
 #: kio/kio_error.cc:82
 #, c-format
@@ -2328,6 +2320,8 @@ msgid ""
 "Unknown host\n"
 "%s"
 msgstr ""
+"Nepoznato raèunalo\n"
+"%s"
 
 #: kio/kio_error.cc:85
 #, c-format
@@ -2343,6 +2337,8 @@ msgid ""
 "The protocol %s\n"
 "is not a filter protocol"
 msgstr ""
+"Protocol %s\n"
+"nije filter protokol"
 
 #: kio/kio_error.cc:91
 #, c-format
@@ -2351,6 +2347,9 @@ msgid ""
 "is a file,\n"
 "but a directory was expected"
 msgstr ""
+"%s\n"
+"je datoteka,\n"
+"meðutim oèekivao sam direktorij"
 
 #: kio/kio_error.cc:94
 #, c-format
@@ -2360,6 +2359,11 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Ne mogu montirati ureðaj.\n"
+"Prijavljena gre¹ka je:\n"
+"\n"
+"%s"
+
 
 #: kio/kio_error.cc:97
 #, c-format
@@ -2369,6 +2373,10 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"Ne mogu demontirati ureðaj.\n"
+"Prijavljena gre¹ka je:\n"
+"\n"
+"%s"
 
 #: kio/kio_error.cc:100
 #, c-format
@@ -2392,38 +2400,38 @@ msgstr "U redu"
 #: kio/kio_job.cc:137
 #, c-format
 msgid "Mounting %s ..."
-msgstr ""
+msgstr "Montiram %s ..."
 
 #: kio/kio_job.cc:157
 #, c-format
 msgid "Unmounting %s ..."
-msgstr ""
+msgstr "Demontiram %s ..."
 
 #: kio/kio_openwith.cc:133
 msgid "This group is empty!"
-msgstr ""
+msgstr "Ova grupa je prazna!"
 
 #: kio/kio_openwith.cc:264
-#, fuzzy
 msgid "&Browser"
-msgstr "Potra¾i..."
+msgstr "&Preglednik"
 
 #: kio/kio_pass_dlg.cc:33
 msgid "User"
-msgstr ""
+msgstr "Korisnik"
 
 #: kio/kio_pass_dlg.cc:44 kio/kio_pass_dlg.cc:88
 msgid "Password"
-msgstr ""
+msgstr "Lozinka"
 
 #: kio/kio_paste.cc:35 kio/kio_paste.cc:47
 msgid "The clipboard is empty"
-msgstr ""
+msgstr "Odlagali¹te je prazno"
 
 #: kio/kio_paste.cc:62
 msgid ""
 "Pasting clipboard data is only supported on the local hard disk currently"
 msgstr ""
+"Umetanje podataka sa odlagali¹ta podr¾ano je samo sa lokalnog hard diska"
 
 #: kio/kio_paste.cc:67
 msgid "Filename for clipboard content:"
@@ -2431,7 +2439,7 @@ msgstr ""
 
 #: kio/kio_paste.cc:74
 msgid "You did not enter a filename"
-msgstr ""
+msgstr "Niste unjeli ime datoteke"
 
 #: kio/kio_paste.cc:84
 #, fuzzy, c-format
@@ -2442,57 +2450,55 @@ msgstr ""
 
 #: kio/kio_progress_dlg.cc:92 kio/kio_progress_dlg.cc:108
 msgid " Bytes"
-msgstr ""
+msgstr " bajtova"
 
 #: kio/kio_progress_dlg.cc:97 kio/kio_progress_dlg.cc:113
 msgid " Kb"
-msgstr ""
+msgstr " Kb"
 
 #: kio/kio_progress_dlg.cc:102 kio/kio_progress_dlg.cc:118
 msgid " Mb"
-msgstr ""
+msgstr " Mb"
 
 #: kio/kio_progress_dlg.cc:151 kio/kio_progress_dlg.cc:177
-#, fuzzy
 msgid "Stalled"
-msgstr "Stil"
+msgstr "Zaustavljeno"
 
 #: kio/kio_progress_dlg.cc:159
 msgid " Bytes/s"
-msgstr ""
+msgstr " bajtova/s"
 
 #: kio/kio_progress_dlg.cc:164
 msgid " Kb/s"
-msgstr ""
+msgstr " Kb/s"
 
 #: kio/kio_progress_dlg.cc:169
 msgid " Mb/s"
-msgstr ""
+msgstr " Mb/s"
 
 #: kio/kio_progress_dlg.cc:184
 #, c-format
 msgid "%i seconds"
-msgstr ""
+msgstr "%i sekundi"
 
 #: kio/kio_progress_dlg.cc:190
 #, c-format
 msgid "%i:%i"
-msgstr ""
+msgstr "%i:%i"
 
 #: kio/kio_progress_dlg.cc:197
 #, c-format
 msgid "%i:%i:%i"
-msgstr ""
+msgstr "%i:%i:%i"
 
 #: kio/kio_progress_dlg.cc:201
 #, c-format
 msgid "%i%s  Remaining time: %s"
-msgstr ""
+msgstr "%i%s Preostalo vrijeme: %s"
 
 #: kio/kio_progress_dlg.cc:207
-#, fuzzy
 msgid "Scanning "
-msgstr "Upozorenje"
+msgstr "Ispitujem "
 
 #: kio/kio_progress_dlg.cc:222
 #, fuzzy
@@ -2504,74 +2510,73 @@ msgid "Fetching file"
 msgstr ""
 
 #: kio/kio_rename_dlg.cc:27
-#, fuzzy
 msgid "Rename"
-msgstr "Ukloni"
+msgstr "Promijeni ime"
 
 #: kio/kio_rename_dlg.cc:32 kio/kio_skip_dlg.cc:23
 msgid "Skip"
-msgstr ""
+msgstr "Preskoèi"
 
 #: kio/kio_rename_dlg.cc:35 kio/kio_skip_dlg.cc:28
 msgid "Auto Skip"
-msgstr ""
+msgstr "Autopreskok"
 
 #: kio/kio_rename_dlg.cc:41
 msgid "Overwrite"
-msgstr ""
+msgstr "Prepi¹i"
 
 #: kio/kio_rename_dlg.cc:46
 msgid "Overwrite All"
-msgstr ""
+msgstr "Prepi¹i sve"
 
 #: kio/kio_rename_dlg.cc:57
 msgid "You try to overwrite"
-msgstr ""
+msgstr "Poku¹ali ste prepisati preko"
 
 #: kio/kio_rename_dlg.cc:78
 msgid "already exists. Overwrite with"
-msgstr ""
+msgstr "veæ  postoji. Da prepi¹em s"
 
 #: kio/kio_rename_dlg.cc:90
 msgid "Or rename to"
-msgstr ""
+msgstr "ili promijenim ime u"
 
 #: kio/kio_rename_dlg.cc:101
 msgid "already exists."
-msgstr ""
+msgstr "veæ postoji."
 
 #: kio/kio_rename_dlg.cc:106
 msgid "Do you want to rename it ?"
-msgstr ""
+msgstr "®elite li ju/ga preimenovati ?"
 
 #: kio/kio_rename_dlg.cc:185
 #, fuzzy
 msgid "Malformed URL\n"
-msgstr "Neispravan URL"
+msgstr "Neispravan URL\n"
 
 #: kio/kio_rename_dlg.cc:194
 msgid "You must not change the protocol"
-msgstr ""
+msgstr "Ne smijete promijeniti protokol"
 
 #: kio/kio_skip_dlg.cc:35
 msgid "Can not overwrite"
-msgstr ""
+msgstr "Ne mogu prepisati"
 
 #: kio/kmimetypes.cc:61
 msgid "No mime types installed!"
-msgstr ""
+msgstr "Mime tipovi nisu instalirani!"
 
 #: kio/kmimetypes.cc:85
 msgid "Could not find mime type\n"
-msgstr ""
+msgstr "Ne mogu naæi mime tip\n"
 
 #: kio/kmimetypes.cc:131
 msgid "The mime type config file "
-msgstr ""
+msgstr "Mime postavna datoteka"
 
 #: kio/kmimetypes.cc:133 kio/kregfactories.cc:74
 msgid "does not conatain a MimeType=... entry"
-msgstr ""
+msgstr "ne sadr¾i polje  MimeType=..."
 
 #: kio/kmimetypes.cc:486
 #, c-format
@@ -2580,7 +2585,10 @@ msgid ""
 "%s\n"
 "has no Type=... entry"
 msgstr ""
-
+"The kdelnk datoteka\n"
+"%s\n"
+"nema Type=... unos"
+	
 #: kio/kmimetypes.cc:504
 #, c-format
 msgid ""
@@ -2588,6 +2596,9 @@ msgid ""
 "%s\n"
 "is unknown"
 msgstr ""
+"kdelnk vrsta\n"
+"%s\n"
+"je nepoznata"
 
 #: kio/kmimetypes.cc:518 kio/kmimetypes.cc:598 kio/kmimetypes.cc:690
 #, c-format
@@ -2596,6 +2607,10 @@ msgid ""
 "%s\n"
 "is of type FSDevice but has no Dev=... entry"
 msgstr ""
+"The kdelnk datoteka\n"
+"%s\n"
+"je tipa FSDevice meðutim nema Dev=... unos"
+
 
 #: kio/kmimetypes.cc:565
 #, c-format
@@ -2604,15 +2619,17 @@ msgid ""
 "%s\n"
 "is of type Link but has no URL=... entry"
 msgstr ""
+"The kdelnk datoteka\n"
+"%s\n"
+"je tipa Link meðutim nema URL=... unos"
 
 #: kio/kmimetypes.cc:608
-#, fuzzy
 msgid "Mount"
-msgstr "Pon"
+msgstr "Montiraj"
 
 #: kio/kmimetypes.cc:615
 msgid "Unmount"
-msgstr ""
+msgstr "Demontiraj"
 
 #: kio/kmimetypes.cc:658
 #, c-format
@@ -2622,6 +2639,11 @@ msgid ""
 " has an invalid menu entry\n"
 "%s"
 msgstr ""
+"The kdelnk datoteka\n"
+"%s\n"
+" ima neva¾eæi unos za izbornik\n"
+"%s"
+
 
 #: kio/kregfactories.cc:72
 msgid "The mime type _cfg file "
@@ -2634,6 +2656,9 @@ msgid ""
 "%s\n"
 "Access denied"
 msgstr ""
+"Ne mogu uæi u\n"
+"%s\n"
+"Pristup odbijen"
 
 #: kio/kservices.cc:111
 msgid "The application config file\n"
@@ -2644,36 +2669,5 @@ msgid ""
 "\n"
 "does not conatain a Name=... entry"
 msgstr ""
-
-#~ msgid "&New"
-#~ msgstr "&Novi"
-
-#~ msgid "&New..."
-#~ msgstr "&Nova..."
-
-#~ msgid "Move"
-#~ msgstr "Premjesti"
-
-#~ msgid "&Previous"
-#~ msgstr "&Prethodni"
-
-#~ msgid "&Next"
-#~ msgstr "Slj&edeæi"
-
-#~ msgid "Small"
-#~ msgstr "Mali"
-
-#~ msgid "Medium"
-#~ msgstr "Srednji"
-
-#~ msgid "Large"
-#~ msgstr "Veliki"
-
-#~ msgid "(none)"
-#~ msgstr "(nijedan)"
-
-#~ msgid "None"
-#~ msgstr "Nikakva"
-
-#~ msgid "&Ok"
-#~ msgstr "&U redu"
+"\n"
+"ne sadr¾i Name=... unos"
