@@ -3,7 +3,7 @@ GMOFILES = de.gmo fr.gmo sv.gmo cs.gmo es.gmo ru.gmo \
 	hu.gmo da.gmo it.gmo nl.gmo pt.gmo no.gmo pl.gmo \
 	el.gmo fi.gmo hr.gmo ro.gmo zh_TW.Big5.gmo zh_CN.GB2312.gmo \
 	sk.gmo ca.gmo sl.gmo en_UK.gmo mk.gmo pt_BR.gmo eo.gmo \
-	is.gmo
+	is.gmo ko.gmo
 
 POFILES = $(GMOFILES:.gmo=.po) 
 
@@ -84,7 +84,7 @@ merge:
 	@catalogs='$(POFILES)'; \
 	for cat in $$catalogs; do \
 	echo $$cat $$name; \
-	msgmerge -o $$cat.new $$cat kdelibs.pot ; \
+	msgmerge -o $$cat.new $$cat $(PACKAGE).pot ; \
 	if test -s $$cat.new; then \
 	  grep -v "\"POT-Creation" $$cat.new > $$cat.new.2 ; \
           grep -v "\"POT-Creation" $$cat >> $$cat.new.1; \
