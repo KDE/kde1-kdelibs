@@ -742,7 +742,7 @@ msgstr "Filtro:"
 
 #: kdeui/kkeydialog.cpp:219
 msgid "Configure key bindings"
-msgstr ""
+msgstr "Configurar dependências de teclado"
 
 #: kdeui/kkeydialog.cpp:232 kdeui/knotebook.cpp:224 kdeui/kwizard.cpp:205
 #: po/texts.cpp:45
@@ -763,7 +763,7 @@ msgstr "&Ação"
 
 #: kdeui/kkeydialog.cpp:365
 msgid "Choose a key for the selected action"
-msgstr ""
+msgstr "Escolha uma tecla para a ação selecionada"
 
 #: kdeui/kkeydialog.cpp:392
 msgid "&No key"
@@ -779,40 +779,39 @@ msgstr "T&ecla personalizada"
 
 #: kdeui/kkeydialog.cpp:471
 msgid "No keys defined"
-msgstr ""
+msgstr "Nenhuma tecla definida"
 
 #: kdeui/kkeydialog.cpp:473
 msgid "Not configurable"
-msgstr ""
+msgstr "Não configurável"
 
 #: kdeui/kkeydialog.cpp:528
 msgid "Global Keys"
-msgstr ""
+msgstr "Teclas Globais"
 
 #: kdeui/kkeydialog.cpp:560
 msgid "Keys"
-msgstr ""
+msgstr "Teclas"
 
 #: kdeui/kkeydialog.cpp:635 kdeui/kkeydialog.cpp:968
 msgid "Attention : key already used"
-msgstr ""
+msgstr "Atenção: tecla já usada"
 
 #: kdeui/kkeydialog.cpp:918
 msgid "Press the wanted key"
-msgstr ""
+msgstr "Pressione a tecla desejada"
 
 #: kdeui/kkeydialog.cpp:941
 msgid "Undefined key"
-msgstr ""
+msgstr "Tecla indefinida"
 
 #: kdeui/kkeydialog.cpp:990
 msgid "Return to end edition"
-msgstr ""
+msgstr "Retornar para finalizar edição"
 
 #: kdeui/kkeydialog.cpp:1000
-#, fuzzy
 msgid "Incorrect key"
-msgstr "Tecla corrente"
+msgstr "Tecla incorreta"
 
 #: kdeui/kkeydialog.cpp:1026
 #, c-format
@@ -822,10 +821,14 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"A combinação de teclas %s já foi alocada\n"
+"para a ação global %s.\n"
+"\n"
+"Escolha um combinação exclusiva de teclas."
 
 #: kdeui/kkeydialog.cpp:1030
 msgid "Global key conflict"
-msgstr ""
+msgstr "Conflito de teclas globais"
 
 #: kdeui/kkeydialog.cpp:1053
 #, c-format
@@ -835,10 +838,14 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"A combinação de teclas %s já foi alocada\n"
+"para a ação ordinária %s.\n"
+"\n"
+"Queira escolher uma combinação exclusiva de teclas."
 
 #: kdeui/kkeydialog.cpp:1057
 msgid "Standard key conflict"
-msgstr ""
+msgstr "Conflito de teclas ordinárias"
 
 #: kdeui/kkeydialog.cpp:1077
 #, c-format
@@ -848,10 +855,14 @@ msgid ""
 "\n"
 "Please choose a unique key combination."
 msgstr ""
+"A combinação de teclas %s já foi alocada\n"
+"para a ação %s.\n"
+"\n"
+"Escolha uma combinação exclusiva de teclas."
 
 #: kdeui/kkeydialog.cpp:1081
 msgid "Key conflict"
-msgstr ""
+msgstr "Conflito de teclas"
 
 #: kdeui/kmenubar.cpp:244 kdeui/ktoolbar.cpp:844
 msgid "Top"
