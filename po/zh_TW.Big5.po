@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-11-23 01:01+0100\n"
+"POT-Creation-Date: 1998-11-24 01:00+0100\n"
 "PO-Revision-Date: 1998-04-19 13:46+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -787,23 +787,23 @@ msgstr "預設:"
 msgid "&Custom key"
 msgstr "自定..."
 
-#: kdeui/kmenubar.cpp:223 kdeui/ktoolbar.cpp:841
+#: kdeui/kmenubar.cpp:241 kdeui/ktoolbar.cpp:841
 msgid "Top"
 msgstr "頂端"
 
-#: kdeui/kmenubar.cpp:224 kdeui/ktoolbar.cpp:843
+#: kdeui/kmenubar.cpp:242 kdeui/ktoolbar.cpp:843
 msgid "Bottom"
 msgstr "底端"
 
-#: kdeui/kmenubar.cpp:225 kdeui/ktoolbar.cpp:844
+#: kdeui/kmenubar.cpp:243 kdeui/ktoolbar.cpp:844
 msgid "Floating"
 msgstr "漂浮"
 
-#: kdeui/kmenubar.cpp:375 kdeui/kmenubar.cpp:656 kdeui/ktoolbar.cpp:2155
+#: kdeui/kmenubar.cpp:393 kdeui/kmenubar.cpp:727 kdeui/ktoolbar.cpp:2155
 msgid "Float"
 msgstr "漂浮"
 
-#: kdeui/kmenubar.cpp:625 kdeui/ktoolbar.cpp:2136
+#: kdeui/kmenubar.cpp:696 kdeui/ktoolbar.cpp:2136
 msgid "UnFloat"
 msgstr "固定"
 

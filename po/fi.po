@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-23 01:01+0100\n"
+"POT-Creation-Date: 1998-11-24 01:00+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -768,23 +768,23 @@ msgstr "&Oletusn‰pp‰in"
 msgid "&Custom key"
 msgstr "O&ma n‰pp‰in"
 
-#: kdeui/kmenubar.cpp:223 kdeui/ktoolbar.cpp:841
+#: kdeui/kmenubar.cpp:241 kdeui/ktoolbar.cpp:841
 msgid "Top"
 msgstr "Ylh‰‰ll‰"
 
-#: kdeui/kmenubar.cpp:224 kdeui/ktoolbar.cpp:843
+#: kdeui/kmenubar.cpp:242 kdeui/ktoolbar.cpp:843
 msgid "Bottom"
 msgstr "Alhaalla"
 
-#: kdeui/kmenubar.cpp:225 kdeui/ktoolbar.cpp:844
+#: kdeui/kmenubar.cpp:243 kdeui/ktoolbar.cpp:844
 msgid "Floating"
 msgstr "Kelluva"
 
-#: kdeui/kmenubar.cpp:375 kdeui/kmenubar.cpp:656 kdeui/ktoolbar.cpp:2155
+#: kdeui/kmenubar.cpp:393 kdeui/kmenubar.cpp:727 kdeui/ktoolbar.cpp:2155
 msgid "Float"
 msgstr "Kellua"
 
-#: kdeui/kmenubar.cpp:625 kdeui/ktoolbar.cpp:2136
+#: kdeui/kmenubar.cpp:696 kdeui/ktoolbar.cpp:2136
 msgid "UnFloat"
 msgstr "Upota"
 

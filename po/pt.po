@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: klibs\n"
-"POT-Creation-Date: 1998-11-23 01:01+0100\n"
+"POT-Creation-Date: 1998-11-24 01:00+0100\n"
 "PO-Revision-Date: 1998-01-22 00:00+0100\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
@@ -772,23 +772,23 @@ msgstr "Valores por &omissão"
 msgid "&Custom key"
 msgstr "Personalizar..."
 
-#: kdeui/kmenubar.cpp:223 kdeui/ktoolbar.cpp:841
+#: kdeui/kmenubar.cpp:241 kdeui/ktoolbar.cpp:841
 msgid "Top"
 msgstr "Topo"
 
-#: kdeui/kmenubar.cpp:224 kdeui/ktoolbar.cpp:843
+#: kdeui/kmenubar.cpp:242 kdeui/ktoolbar.cpp:843
 msgid "Bottom"
 msgstr "Fundo"
 
-#: kdeui/kmenubar.cpp:225 kdeui/ktoolbar.cpp:844
+#: kdeui/kmenubar.cpp:243 kdeui/ktoolbar.cpp:844
 msgid "Floating"
 msgstr "Flutuante"
 
-#: kdeui/kmenubar.cpp:375 kdeui/kmenubar.cpp:656 kdeui/ktoolbar.cpp:2155
+#: kdeui/kmenubar.cpp:393 kdeui/kmenubar.cpp:727 kdeui/ktoolbar.cpp:2155
 msgid "Float"
 msgstr "Flutuar"
 
-#: kdeui/kmenubar.cpp:625 kdeui/ktoolbar.cpp:2136
+#: kdeui/kmenubar.cpp:696 kdeui/ktoolbar.cpp:2136
 msgid "UnFloat"
 msgstr "DesFlutuar"
 

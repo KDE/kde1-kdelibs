@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs 1.0pre2\n"
-"POT-Creation-Date: 1998-11-23 01:01+0100\n"
+"POT-Creation-Date: 1998-11-24 01:00+0100\n"
 "PO-Revision-Date: 1998-07-13 19:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -780,23 +780,23 @@ msgstr "&Implicita"
 msgid "&Custom key"
 msgstr "Adaptu..."
 
-#: kdeui/kmenubar.cpp:223 kdeui/ktoolbar.cpp:841
+#: kdeui/kmenubar.cpp:241 kdeui/ktoolbar.cpp:841
 msgid "Top"
 msgstr "Supre"
 
-#: kdeui/kmenubar.cpp:224 kdeui/ktoolbar.cpp:843
+#: kdeui/kmenubar.cpp:242 kdeui/ktoolbar.cpp:843
 msgid "Bottom"
 msgstr "Malsupre"
 
-#: kdeui/kmenubar.cpp:225 kdeui/ktoolbar.cpp:844
+#: kdeui/kmenubar.cpp:243 kdeui/ktoolbar.cpp:844
 msgid "Floating"
 msgstr "Glitante"
 
-#: kdeui/kmenubar.cpp:375 kdeui/kmenubar.cpp:656 kdeui/ktoolbar.cpp:2155
+#: kdeui/kmenubar.cpp:393 kdeui/kmenubar.cpp:727 kdeui/ktoolbar.cpp:2155
 msgid "Float"
 msgstr "Glite"
 
-#: kdeui/kmenubar.cpp:625 kdeui/ktoolbar.cpp:2136
+#: kdeui/kmenubar.cpp:696 kdeui/ktoolbar.cpp:2136
 msgid "UnFloat"
 msgstr "Neglite"
 
