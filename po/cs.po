@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-10-29 13:38+0100\n"
+"POT-Creation-Date: 1998-10-29 14:16+0100\n"
 "PO-Revision-Date: 1998-10-24 16:13 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <flidr@kky.cu.cz>\n"
