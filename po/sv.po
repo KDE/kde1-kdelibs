@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs 1.1\n"
 "POT-Creation-Date: 1999-02-05 01:01+0100\n"
-"PO-Revision-Date: 1999-01-29 00:59+01:00\n"
+"PO-Revision-Date: 1999-02-05 21:40+01:00\n"
 "Last-Translator: Anders Widell <d95-awi@nada.kth.se>\n"
 "Language-Team: Swedish\n"
 "MIME-Version: 1.0\n"
@@ -2821,23 +2821,20 @@ msgid "The file %s does already exist. Do you really want to overwrite it ?"
 msgstr "Filen %s finns redan. Vill du verkligen skriva över den?"
 
 #: kio/kio_progress_dlg.cc:108 kio/kio_progress_dlg.cc:124
-#, fuzzy
 msgid "Bytes"
-msgstr " byte"
+msgstr "Byte"
 
 #: kio/kio_progress_dlg.cc:113 kio/kio_progress_dlg.cc:129
-#, fuzzy
 msgid "Kb"
-msgstr " KB"
+msgstr "KB"
 
 #: kio/kio_progress_dlg.cc:118 kio/kio_progress_dlg.cc:134
-#, fuzzy
 msgid "Mb"
-msgstr " MB"
+msgstr "MB"
 
 #: kio/kio_progress_dlg.cc:139 kio/kio_progress_dlg.cc:146
 msgid "of"
-msgstr ""
+msgstr "av"
 
 #: kio/kio_progress_dlg.cc:171 kio/kio_progress_dlg.cc:197
 msgid "Stalled"
@@ -2881,11 +2878,11 @@ msgstr "Söker "
 
 #: kio/kio_progress_dlg.cc:234
 msgid "From : "
-msgstr ""
+msgstr "Från : "
 
 #: kio/kio_progress_dlg.cc:238
 msgid "To: "
-msgstr ""
+msgstr "Till: "
 
 #: kio/kio_progress_dlg.cc:245
 msgid "Creating dir "
