@@ -25,22 +25,28 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <stdio.h>
-#include <sys/soundcard.h>
+#include "sndcard.h"
 #include <sys/ioctl.h>
 #include <errno.h>
 #include <string.h>
+#include <sys/param.h>
 
-SEQ_DEFINEBUF (1024); 
+//SEQ_DEFINEBUF (1024); 
+
+SEQ_USE_EXTBUF();
+
 //#define MIDIOUTDEBUG
 
-midiOut::midiOut(void)
+midiOut::midiOut(int d)
 {
 seqfd = -1;
-device= -1;
+device= d;
 count=0.0;
 lastcount=0.0;
-Map=new MidiMapper("yamaha790.map");
+Map=new MidiMapper(NULL);
 rate=100;
+convertrate=10;
+ok=1;
 };
 
 midiOut::~midiOut()
@@ -49,32 +55,90 @@ delete Map;
 closeDev();
 };
 
-void midiOut::openDev (void)
+void midiOut::openDev (int sqfd)
 {
-seqfd = open("/dev/sequencer", O_WRONLY, 0);
+ok=1;
+//seqfd = open("/dev/sequencer", O_WRONLY, 0);
+seqfd=sqfd;
 if (seqfd==-1)
     {
     printf("ERROR: Could not open /dev/sequencer\n");
+    ok=0;
     return;
     };
 ioctl(seqfd,SNDCTL_SEQ_NRSYNTHS,&ndevs);
 ioctl(seqfd,SNDCTL_SEQ_NRMIDIS,&nmidiports);
-ioctl(seqfd,SNDCTL_SEQ_CTRLRATE,&rate);
+rate=0;
+int r=ioctl(seqfd,SNDCTL_SEQ_CTRLRATE,&rate);
+if ((r==-1)||(rate<=0)) rate=HZ;
+
+midi_info midiinfo;
+midiinfo.device=device;
+if (ioctl(seqfd,SNDCTL_MIDI_INFO,&midiinfo)!=-1)
+	{
+	if (strcmp(midiinfo.name,"GUS MIDI emulation")==0) 
+			rate=(int)(((double)rate)*2.5);
+	};
+
 convertrate=1000/rate;
-/*int i=1;
-ioctl(seqfd,SNDCTL_SEQ_THRESHOLD,i);
-printf("Threshold : %d\n",i);
-*/
+
 #ifdef MIDIOUTDEBUG
 printf("Number of synth devices : %d\n",ndevs);
 printf("Number of midi ports : %d\n",nmidiports);
 printf("Rate : %d\n",rate);
+
+int i;
+synth_info synthinfo;
+for (i=0;i<ndevs;i++)
+    {
+    synthinfo.device=i;
+    if (ioctl(seqfd,SNDCTL_SYNTH_INFO,&synthinfo)!=-1)
+	{
+	printf("----");
+        printf("Device : %d\n",i);
+	printf("Name : %s\n",synthinfo.name);
+	switch (synthinfo.synth_type)
+	    {
+	    case (SYNTH_TYPE_FM) : printf("FM\n");break;
+	    case (SYNTH_TYPE_SAMPLE) : printf("Sample\n");break;
+	    case (SYNTH_TYPE_MIDI) : printf("Midi\n");break;
+	    default : printf("default type\n");break;
+	    };
+	switch (synthinfo.synth_subtype)
+	    {
+	    case (FM_TYPE_ADLIB) : printf("Adlib\n");break;
+	    case (FM_TYPE_OPL3) : printf("Opl3\n");break;
+	    case (MIDI_TYPE_MPU401) : printf("Mpu-401\n");break;
+	    case (SAMPLE_TYPE_GUS) : printf("Gus\n");break;
+	    default : printf("default subtype\n");break;
+	    };
+	};
+    };
+
+for (i=0;i<nmidiports;i++)
+    {
+    midiinfo.device=i;
+    if (ioctl(seqfd,SNDCTL_MIDI_INFO,&midiinfo)!=-1)
+	{
+	printf("----");
+        printf("Device : %d\n",i);
+	printf("Name : %s\n",midiinfo.name);
+	printf("Device type : %d\n",midiinfo.dev_type);
+	};
+    };
+
 #endif
 
-// if sound doesn't work, try changing the value of device to 1 or 2
-device=0;
+
 count=0.0;
 lastcount=0.0;
+if (nmidiports<=0)
+    {
+    printf("ERROR: There is no midi port !!\n");
+    ok=0;
+    return;
+    };
+
 };
 
 void midiOut::closeDev (void)
@@ -82,10 +146,10 @@ void midiOut::closeDev (void)
 if (!OK()) return;
 SEQ_STOP_TIMER();
 SEQ_DUMPBUF();
-if (seqfd>=0)
-    close(seqfd);
+//if (seqfd>=0)
+//    close(seqfd);
 seqfd=-1;
-device=-1;
+printf("Device %d closed\n",device);
 };
 
 void midiOut::initDev (void)
@@ -108,6 +172,7 @@ for (chn=0;chn<16;chn++)
     chnController(chn, 0x4a, 127);
 
     };
+printf("Device %d initialized\n",device);
 };
 
 void midiOut::useMapper(MidiMapper *map)
@@ -152,9 +217,11 @@ SEQ_MIDIOUT(device, vel);
 
 void midiOut::chnPatchChange (uchar chn, uchar patch)
 {
-//printf("PATCHCHANGE [%d] %d -> %d",chn,patch,Map->Patch(patch));
+#ifdef MIDIOUTDEBUG
+printf("PATCHCHANGE [%d->%d] %d -> %d\n",chn,Map->Channel(chn),patch,Map->Patch(chn,patch));
+#endif
 SEQ_MIDIOUT(device, MIDI_PGM_CHANGE + Map->Channel(chn));
-SEQ_MIDIOUT(device, Map->Patch(patch));
+SEQ_MIDIOUT(device, Map->Patch(chn,patch));
 chn_patch[chn]=patch;
 };
 
@@ -193,7 +260,9 @@ while (i<size)
     data++;
     i++;
     };
+#ifdef MIDIOUTDEBUG
 printf("sysex\n");
+#endif
 };
 
 void midiOut::channelSilence (uchar chn)
@@ -224,14 +293,11 @@ void midiOut::seqbuf_dump (void)
 {
     if (_seqbufptr)
         if (write (seqfd, _seqbuf, _seqbufptr) == -1)
-//        if (write (seqfd, _seqbuf, 32) == -1)
         {
             perror ("write /dev/sequencer");
             exit (-1);
         }
     _seqbufptr = 0;
-//    _seqbufptr -= 32;
-//    memmove(_seqbuf,_seqbuf+32,_seqbufptr);
 };
 
 void midiOut::seqbuf_clean(void)
@@ -292,3 +358,7 @@ SEQ_CONTINUE_TIMER();
 SEQ_DUMPBUF();
 };
 
+char *midiOut::getMidiMapFilename(void)
+{
+return (Map!=NULL) ? Map->getFilename() : (char *)"";
+};
