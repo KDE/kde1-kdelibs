@@ -1100,11 +1100,11 @@ msgid ""
 "Mario Weilguni <mweilguni@sime.com>\n"
 "and Martin Jones <mjones@kde.org>"
 msgstr ""
-"KDE File Selector av:\n"
+"KDE Filvelger av:\n"
 "\n"
 "Richard Moore <rich@kde.org>\n"
 "Stephan Kulow <coolo@kde.org>\n"
-"and Daniel Grana <grana@ie.iwi.unibe.ch>\n"
+"og Daniel Grana <grana@ie.iwi.unibe.ch>\n"
 "\n"
 "med bidrag fra\n"
 "\n"
@@ -1133,7 +1133,7 @@ msgstr "Blandet"
 
 #: kfile/kfiledialogconf.cpp:95
 msgid "Show Filter"
-msgstr "Vis filter:"
+msgstr "Vis filter"
 
 #: kfile/kfiledialogconf.cpp:101
 msgid "Show List Labels"
