@@ -1630,6 +1630,7 @@ msgstr ""
 "La directory dove i dati specifici dell'utente\n"
 "per l'addressbook sono salvati non esiste\n"
 "Il programma proverà a crearla\n"
+"         "
 
 #: kab/addressbook.cc:92
 msgid "and store all local files in this directory."
@@ -2467,7 +2468,7 @@ msgid ""
 "is only a filter protocol.\n"
 msgstr ""
 "Il protocollo %s\n"
-"è solo un protocollo filtro."
+"è solo un protocollo filtro.\n"
 
 #: kio/kio_error.cc:37
 #, c-format
@@ -2959,7 +2960,7 @@ msgid ""
 "The kdelnk file\n"
 "%s\n"
 "is of type Link but has no URL=... entry"
-msgstr "\n"
+msgstr ""
 "%s\n"
 "è del tipo Link ma non ha la voce URL=..."
 
