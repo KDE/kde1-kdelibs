@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-03 22:39+0100\n"
+"POT-Creation-Date: 1998-01-16 20:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgstr ""
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
-"Please send bug reports to kde-bugs@kde.org.\n"
+"Please report bug at http://buglist.kde.org.\n"
 "\n"
 "\n"
 "KDE was developed with Qt, a cross-platform GUI library.\n"
@@ -325,36 +325,36 @@ msgstr ""
 msgid "Filter:"
 msgstr ""
 
-#: kdeui/kmenubar.cpp:149 kdeui/ktoolbar.cpp:311
+#: kdeui/kmenubar.cpp:149 kdeui/ktoolbar.cpp:315
 msgid "Top"
 msgstr ""
 
-#: kdeui/kmenubar.cpp:150 kdeui/ktoolbar.cpp:313
+#: kdeui/kmenubar.cpp:150 kdeui/ktoolbar.cpp:317
 msgid "Bottom"
 msgstr ""
 
-#: kdeui/kmenubar.cpp:151 kdeui/ktoolbar.cpp:314
+#: kdeui/kmenubar.cpp:151 kdeui/ktoolbar.cpp:318
 msgid "Floating"
 msgstr ""
 
-#: kdeui/kmenubar.cpp:188 kdeui/kmenubar.cpp:327 kdeui/ktoolbar.cpp:831
-#: kdeui/ktoolbar.cpp:1373
+#: kdeui/kmenubar.cpp:191 kdeui/kmenubar.cpp:330 kdeui/ktoolbar.cpp:784
+#: kdeui/ktoolbar.cpp:1329
 msgid "Float"
 msgstr ""
 
-#: kdeui/kmenubar.cpp:316 kdeui/ktoolbar.cpp:1363
+#: kdeui/kmenubar.cpp:319 kdeui/ktoolbar.cpp:1315
 msgid "UnFloat"
 msgstr ""
 
-#: kdeui/ktoolbar.cpp:115 kdeui/ktoolbar.cpp:174
+#: kdeui/ktoolbar.cpp:118 kdeui/ktoolbar.cpp:177
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr ""
 
-#: kdeui/ktoolbar.cpp:310
+#: kdeui/ktoolbar.cpp:314
 msgid "Left"
 msgstr ""
 
-#: kdeui/ktoolbar.cpp:312
+#: kdeui/ktoolbar.cpp:316
 msgid "Right"
 msgstr ""
 
