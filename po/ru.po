@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-04-18 01:01+0200\n"
+"POT-Creation-Date: 1999-04-24 01:02+0200\n"
 "PO-Revision-Date: 1999-02-09 02:00+0600\n"
 "Content-Type: text/plain; charset=koi8-r\n"
 "Date: 1997-11-20 18:24:38+0600\n"
@@ -343,23 +343,23 @@ msgstr "CTRL"
 msgid "ALT"
 msgstr "ALT"
 
-#: kdecore/kapp.cpp:612 po/texts.cpp:137
+#: kdecore/kapp.cpp:616 po/texts.cpp:137
 msgid "&Contents"
 msgstr "Содержание"
 
-#: kdecore/kapp.cpp:618
+#: kdecore/kapp.cpp:622
 msgid "&About"
 msgstr "&О программе"
 
-#: kdecore/kapp.cpp:625
+#: kdecore/kapp.cpp:629
 msgid "About &KDE..."
 msgstr "О &KDE"
 
-#: kdecore/kapp.cpp:646
+#: kdecore/kapp.cpp:650
 msgid "About KDE"
 msgstr "О KDE"
 
-#: kdecore/kapp.cpp:648
+#: kdecore/kapp.cpp:652
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"

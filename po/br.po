@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs-1.1\n"
-"POT-Creation-Date: 1999-04-18 01:01+0200\n"
+"POT-Creation-Date: 1999-04-24 01:02+0200\n"
 "PO-Revision-Date: 1999-04-20 17:15+0200\n"
 "Last-Translator: Jañ-Mai Drapier <jan-mai.drapier@mail.dotcom.fr>\n"
 "Language-Team: Brezhoneg <Suav.Icb@wanadoo.fr>\n"
@@ -347,23 +347,23 @@ msgstr ""
 msgid "ALT"
 msgstr ""
 
-#: kdecore/kapp.cpp:612 po/texts.cpp:137
+#: kdecore/kapp.cpp:616 po/texts.cpp:137
 msgid "&Contents"
 msgstr "&Taolenn"
 
-#: kdecore/kapp.cpp:618
+#: kdecore/kapp.cpp:622
 msgid "&About"
 msgstr "&Diwar-benn"
 
-#: kdecore/kapp.cpp:625
+#: kdecore/kapp.cpp:629
 msgid "About &KDE..."
 msgstr "Diwar-benn &KDE"
 
-#: kdecore/kapp.cpp:646
+#: kdecore/kapp.cpp:650
 msgid "About KDE"
 msgstr "Diwar-benn KDE"
 
-#: kdecore/kapp.cpp:648
+#: kdecore/kapp.cpp:652
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-04-18 01:01+0200\n"
+"POT-Creation-Date: 1999-04-24 01:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -338,23 +338,23 @@ msgstr ""
 msgid "ALT"
 msgstr ""
 
-#: kdecore/kapp.cpp:612 po/texts.cpp:137
+#: kdecore/kapp.cpp:616 po/texts.cpp:137
 msgid "&Contents"
 msgstr ""
 
-#: kdecore/kapp.cpp:618
+#: kdecore/kapp.cpp:622
 msgid "&About"
 msgstr ""
 
-#: kdecore/kapp.cpp:625
+#: kdecore/kapp.cpp:629
 msgid "About &KDE..."
 msgstr ""
 
-#: kdecore/kapp.cpp:646
+#: kdecore/kapp.cpp:650
 msgid "About KDE"
 msgstr ""
 
-#: kdecore/kapp.cpp:648
+#: kdecore/kapp.cpp:652
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
@@ -364,7 +364,7 @@ msgid ""
 "Visit http://www.kde.org for more information on the KDE\n"
 "Project. Please consider joining and supporting KDE.\n"
 "\n"
-"Please report bugs at http://buglist.kde.org.\n"
+"Please report bugs at http://bugs.kde.org.\n"
 msgstr ""
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:412 kdeui/keditcl1.cpp:433
