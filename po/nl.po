@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-03-04 17:57+0100\n"
+"POT-Creation-Date: 1999-03-06 01:01+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-10-01 16:40:07+0200\n"
 "From: root <flidr@CyberGate.zcu.cz>\n"
@@ -926,7 +926,7 @@ msgstr ""
 msgid "&Default"
 msgstr "Standaard:"
 
-#: kdeui/kquickhelp.cpp:204
+#: kdeui/kquickhelp.cpp:203
 msgid "Quickhelp"
 msgstr ""
 

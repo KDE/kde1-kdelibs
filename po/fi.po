@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-03-04 17:50+0100\n"
+"POT-Creation-Date: 1999-03-06 01:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -892,7 +892,7 @@ msgstr "Yrit‰n lis‰t‰ sivua vaikka yht‰‰n KWizardia ei ole lis‰tty!"
 msgid "&Default"
 msgstr "&Oletus"
 
-#: kdeui/kquickhelp.cpp:204
+#: kdeui/kquickhelp.cpp:203
 msgid "Quickhelp"
 msgstr "Pika-apu"
 

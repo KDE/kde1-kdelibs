@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-03-04 17:54+0100\n"
+"POT-Creation-Date: 1999-03-06 01:01+0100\n"
 "PO-Revision-Date: 1998-12-22 20:00-0500\n"
 "Last-Translator:  Vladimir Vuksan <vuksan@veus.hr> \n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -872,7 +872,7 @@ msgstr "Poku¹ava¹ dodati stranicu meðjutim nijedan KWizard nije definiran!"
 msgid "&Default"
 msgstr "&Uobièajeno"
 
-#: kdeui/kquickhelp.cpp:204
+#: kdeui/kquickhelp.cpp:203
 msgid "Quickhelp"
 msgstr "Brza pomoæ"
 

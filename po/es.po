@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-03-04 17:50+0100\n"
+"POT-Creation-Date: 1999-03-06 01:01+0100\n"
 "PO-Revision-Date: 1999-02-18 16:07+0100\n"
 "Last-Translator: Boris Wesslowski <Boris@Wesslowski.com>\n"
 "Language-Team: Spanish <kde-es@kde.org>\n"
@@ -895,7 +895,7 @@ msgstr "¡Intentando añadir página sin añadir KWizard!"
 msgid "&Default"
 msgstr "Por &defecto"
 
-#: kdeui/kquickhelp.cpp:204
+#: kdeui/kquickhelp.cpp:203
 msgid "Quickhelp"
 msgstr "Ayuda rápida"
 

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE LIBS\n"
-"POT-Creation-Date: 1999-03-04 17:50+0100\n"
+"POT-Creation-Date: 1999-03-06 01:01+0100\n"
 "PO-Revision-Date: 1999-02-16 18:55-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
@@ -897,7 +897,7 @@ msgstr "Prøver at tilføje side når der ikke er tilføjet nogen KWizards"
 msgid "&Default"
 msgstr "&Standard"
 
-#: kdeui/kquickhelp.cpp:204
+#: kdeui/kquickhelp.cpp:203
 msgid "Quickhelp"
 msgstr "KvikHjælp"
 

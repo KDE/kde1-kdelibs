@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-03-04 01:00+0100\n"
+"POT-Creation-Date: 1999-03-06 01:01+0100\n"
 "PO-Revision-Date: 1999-03-04 23:30+0100\n"
 "Last-Translator: Francois-Xavier DURANCEAU "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
@@ -671,7 +671,8 @@ msgid "Actual Font"
 msgstr "Police actuelle"
 
 #: kdeui/kfontdialog.cpp:202 kdeui/kfontdialog.cpp:207
-msgid "Faily:"
+#, fuzzy
+msgid "Family:"
 msgstr "Famille :"
 
 #: kdeui/kfontdialog.cpp:214 kdeui/kfontdialog.cpp:219 po/texts.cpp:26
