@@ -200,14 +200,12 @@ msgid "Right"
 msgstr "Vpravo"
 
 #: kapp.cpp:330
-#, fuzzy
 msgid "About "
-msgstr "Informace"
+msgstr "Informace "
 
 #: kapp.cpp:334 kapp.cpp:355
-#, fuzzy
 msgid "About KDE"
-msgstr "Informace"
+msgstr "Informace o KDE"
 
 #: kapp.cpp:357
 msgid ""
