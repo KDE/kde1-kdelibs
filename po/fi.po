@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-12 09:46+0100\n"
+"POT-Creation-Date: 1999-01-13 01:01+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1156,7 +1156,7 @@ msgstr "Sekoita tiedostot ja hakemistot"
 msgid "Keep dirs first"
 msgstr "Hakemistot ensin"
 
-#: kfile/kfilefilter.cpp:33
+#: kfile/kfilefilter.cpp:35
 #, fuzzy
 msgid "*|All Files"
 msgstr "Tiedostot"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-01-12 09:46+0100\n"
+"POT-Creation-Date: 1999-01-13 01:01+0100\n"
 "PO-Revision-Date: 1998-09-22 16:18+0100\n"
 "Last-Translator: Bla¾ Zupanèiè <blazzupancic@hotmail.com>\n"
 "Language-Team: Slovenian\n"
@@ -1155,7 +1155,7 @@ msgstr "Pome¹aj imenike in datoteke"
 msgid "Keep dirs first"
 msgstr "Najprej poka¾i imenike"
 
-#: kfile/kfilefilter.cpp:33
+#: kfile/kfilefilter.cpp:35
 #, fuzzy
 msgid "*|All Files"
 msgstr "Datoteke"

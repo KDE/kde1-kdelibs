@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE 1.0\n"
-"POT-Creation-Date: 1999-01-12 09:46+0100\n"
+"POT-Creation-Date: 1999-01-13 01:01+0100\n"
 "PO-Revision-Date: 1998-11-19 18:00+0200\n"
 "Last-Translator: Kerem ERZURUMLU & Zerrin ÜNAL <kerem@linux.org.tri & @>\n"
 "Language-Team: Hacettepe Linux Users Group <hacettepe@linux.org.tr>\n"
@@ -1147,7 +1147,7 @@ msgstr "Dizinleri ve dosylarý karýþtýr"
 msgid "Keep dirs first"
 msgstr "Dizinler önce"
 
-#: kfile/kfilefilter.cpp:33
+#: kfile/kfilefilter.cpp:35
 #, fuzzy
 msgid "*|All Files"
 msgstr "Dosyalar"

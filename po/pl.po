@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs \n"
-"POT-Creation-Date: 1999-01-12 09:46+0100\n"
+"POT-Creation-Date: 1999-01-13 01:01+0100\n"
 "PO-Revision-Date: 1998-12-26 14:54+0200\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -1151,7 +1151,7 @@ msgstr "Mieszaj katalogi i pliki"
 msgid "Keep dirs first"
 msgstr "Katalogi s± jako pierwsze"
 
-#: kfile/kfilefilter.cpp:33
+#: kfile/kfilefilter.cpp:35
 #, fuzzy
 msgid "*|All Files"
 msgstr "Pliki"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-01-12 09:46+0100\n"
+"POT-Creation-Date: 1999-01-13 01:01+0100\n"
 "PO-Revision-Date: 1998-12-02 19:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -1151,7 +1151,7 @@ msgstr "Miksu ujojn kaj dosierojn"
 msgid "Keep dirs first"
 msgstr "Dosierujoj unue"
 
-#: kfile/kfilefilter.cpp:33
+#: kfile/kfilefilter.cpp:35
 #, fuzzy
 msgid "*|All Files"
 msgstr "Dosieroj"

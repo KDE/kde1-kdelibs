@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-01-12 09:46+0100\n"
+"POT-Creation-Date: 1999-01-13 01:01+0100\n"
 "PO-Revision-Date: 1998-10-10 16:33+0200\n"
 "Last-Translator: Stephan Kulow <coolo@kde.org>\n"
 
@@ -1160,7 +1160,7 @@ msgstr "Mische Verzeichnisse und Dateien"
 msgid "Keep dirs first"
 msgstr "Beginne mit Verzeichnissen"
 
-#: kfile/kfilefilter.cpp:33
+#: kfile/kfilefilter.cpp:35
 msgid "*|All Files"
 msgstr "*|Alle Dateien"
 
