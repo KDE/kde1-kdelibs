@@ -371,7 +371,7 @@ msgid ""
 "Visit http://www.kde.org for more information on the KDE\n"
 "Project. Please consider joining and supporting KDE.\n"
 "\n"
-"Please report bugs at http://buglist.kde.org.\n"
+"Please report bugs at http://bugs.kde.org.\n"
 msgstr ""
 "\n"
 "KDE Masaüstü Ortamý serbest yazýlým geliþtirmesine\n"
@@ -381,7 +381,7 @@ msgstr ""
 "KDE Projesi hakkýnda bilgi için http://www.kde.org\n"
 "adresine uðrayýnýz. Lütfen KDE'yi desteklemeyi ve\n"
 "katýlmayý düþününüz.\n"
-"Hatalarý lütfen http://buglist.kde.org adresine bildiriniz.\n"
+"Hatalarý lütfen http://bugs.kde.org adresine bildiriniz.\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:412 kdeui/keditcl1.cpp:433
 #: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661

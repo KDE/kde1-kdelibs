@@ -380,7 +380,7 @@ msgid ""
 "Visit http://www.kde.org for more information on the KDE\n"
 "Project. Please consider joining and supporting KDE.\n"
 "\n"
-"Please report bugs at http://buglist.kde.org.\n"
+"Please report bugs at http://bugs.kde.org.\n"
 msgstr ""
 "\n"
 "L'ambiente desktop KDE e' stato scritto dal Team KDE,\n"
@@ -390,7 +390,7 @@ msgstr ""
 "Visita http://www.kde.org per maggiori informazioni sul \n"
 "progetto KDE. Prendi in considerazione l'ipotesi di unirti a noi.\n"
 "\n"
-"Per favore segnale i bug a http://buglist.kde.org\n"
+"Per favore segnale i bug a http://bugs.kde.org\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:412 kdeui/keditcl1.cpp:433
 #: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661

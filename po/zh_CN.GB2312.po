@@ -368,7 +368,7 @@ msgid ""
 "Visit http://www.kde.org for more information on the KDE\n"
 "Project. Please consider joining and supporting KDE.\n"
 "\n"
-"Please report bugs at http://buglist.kde.org.\n"
+"Please report bugs at http://bugs.kde.org.\n"
 msgstr ""
 "\n"
 "KDE桌面环境由KDE小组开发. KDE小组是由\n"
@@ -378,7 +378,7 @@ msgstr ""
 "访问http://www.kde.org,可以获得更多的有关KDE\n"
 "的信息.请考虑加入和支持KDE.\n"
 "\n"
-"请向http://buglist.kde.org报告KDE的缺陷.\n"
+"请向http://bugs.kde.org报告KDE的缺陷.\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:412 kdeui/keditcl1.cpp:433
 #: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661

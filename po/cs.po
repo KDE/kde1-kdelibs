@@ -368,7 +368,7 @@ msgid ""
 "Visit http://www.kde.org for more information on the KDE\n"
 "Project. Please consider joining and supporting KDE.\n"
 "\n"
-"Please report bugs at http://buglist.kde.org.\n"
+"Please report bugs at http://bugs.kde.org.\n"
 msgstr ""
 "\n"
 "KDE Desktop Enviroment bylo napsáno KDE týmem,\n"
@@ -378,7 +378,7 @@ msgstr ""
 "K získání více informací o KDE projektu nav¹tivte http://www.kde.org.\n"
 "Prosím rozva¾te si zda se nepøipojíte nebo nepodpoøíte KDE.\n"
 "\n"
-"Prosím nahla¹te chyby na http://buglist.kde.org.\n"
+"Prosím nahla¹te chyby na http://bugs.kde.org.\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:412 kdeui/keditcl1.cpp:433
 #: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661

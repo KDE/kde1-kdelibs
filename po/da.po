@@ -372,7 +372,7 @@ msgid ""
 "Visit http://www.kde.org for more information on the KDE\n"
 "Project. Please consider joining and supporting KDE.\n"
 "\n"
-"Please report bugs at http://buglist.kde.org.\n"
+"Please report bugs at http://bugs.kde.org.\n"
 msgstr ""
 "\n"
 "KDE Desktop Miljøet er skrevet af KDE Holdet,\n"
@@ -382,7 +382,7 @@ msgstr ""
 "Besøg http://www.kde.org for mere information om KDE\n"
 "Projektet. Overvej at være med til at støtte KDE.\n"
 "\n"
-"Rapporter problemer på http://buglist.kde.org.\n"
+"Rapporter problemer på http://bugs.kde.org.\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:412 kdeui/keditcl1.cpp:433
 #: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661

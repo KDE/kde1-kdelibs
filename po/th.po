@@ -373,7 +373,7 @@ msgid ""
 "Visit http://www.kde.org for more information on the KDE\n"
 "Project. Please consider joining and supporting KDE.\n"
 "\n"
-"Please report bugs at http://buglist.kde.org.\n"
+"Please report bugs at http://bugs.kde.org.\n"
 msgstr ""
 "\n"
 "ระบบจัดการเดสก์ท็อป KDE ถูกเขียนโดยทีม KDE\n"
@@ -384,7 +384,7 @@ msgstr ""
 "หากท่านเห็นว่าโครงการนี้มีประโยชน์ "
 "โปรดพิจารณาเพื่อเข้าร่วมและให้การสนับสนุน\n"
 "\n"
-"โปรดรายงานข้อผิดพลาดได้ที่ http://buglist.kde.org\n"
+"โปรดรายงานข้อผิดพลาดได้ที่ http://bugs.kde.org\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:412 kdeui/keditcl1.cpp:433
 #: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661

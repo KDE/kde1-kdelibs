@@ -373,7 +373,7 @@ msgid ""
 "Visit http://www.kde.org for more information on the KDE\n"
 "Project. Please consider joining and supporting KDE.\n"
 "\n"
-"Please report bugs at http://buglist.kde.org.\n"
+"Please report bugs at http://bugs.kde.org.\n"
 msgstr ""
 "\n"
 "La labortabula medio KDE estas farita de la\n"
@@ -384,7 +384,7 @@ msgstr ""
 "la KDE-projekto. Bonvolu ankaý konsideri aliøon kaj \n"
 "subtenon de KDE.\n"
 "\n"
-"Bonvolu raporti erarojn æe http://buglist.kde.org.\n"
+"Bonvolu raporti erarojn æe http://bugs.kde.org.\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:412 kdeui/keditcl1.cpp:433
 #: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661

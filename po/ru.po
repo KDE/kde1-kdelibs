@@ -369,7 +369,7 @@ msgid ""
 "Visit http://www.kde.org for more information on the KDE\n"
 "Project. Please consider joining and supporting KDE.\n"
 "\n"
-"Please report bugs at http://buglist.kde.org.\n"
+"Please report bugs at http://bugs.kde.org.\n"
 msgstr ""
 "\n"
 "Проект KDE написан командой KDE,\n"
@@ -379,7 +379,7 @@ msgstr ""
 "Для получения дополнительной информации о проекте KDE посетите\n"
 "http://www.kde.org. Пожайлуста, подумайте о присоединении и поддержке KDE.\n"
 "\n"
-"Об ошибках сообщайте: http://buglist.kde.org.\n"
+"Об ошибках сообщайте: http://bugs.kde.org.\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:412 kdeui/keditcl1.cpp:433
 #: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661

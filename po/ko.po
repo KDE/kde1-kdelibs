@@ -370,7 +370,7 @@ msgid ""
 "Visit http://www.kde.org for more information on the KDE\n"
 "Project. Please consider joining and supporting KDE.\n"
 "\n"
-"Please report bugs at http://buglist.kde.org.\n"
+"Please report bugs at http://bugs.kde.org.\n"
 msgstr ""
 "\n"
 "KDE 데스크탑 환경은 개방 소프트웨어 개발을 위해 헌신하는\n"
@@ -380,7 +380,7 @@ msgstr ""
 "KDE 프로젝트에 관한 자세한 정보는 http://www.kde.org를\n"
 "참고하기 바랍니다. KDE에 동참과 지원을 고려해 보십시오.\n"
 "\n"
-"버그 리포트는 http://buglist.kde.org로 해주길 바랍니다.\n"
+"버그 리포트는 http://bugs.kde.org로 해주길 바랍니다.\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:412 kdeui/keditcl1.cpp:433
 #: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661

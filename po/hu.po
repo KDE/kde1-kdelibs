@@ -384,7 +384,7 @@ msgid ""
 "Visit http://www.kde.org for more information on the KDE\n"
 "Project. Please consider joining and supporting KDE.\n"
 "\n"
-"Please report bugs at http://buglist.kde.org.\n"
+"Please report bugs at http://bugs.kde.org.\n"
 msgstr ""
 "\n"
 "A KDE Felületet a KDE Csoport csinálta,\n"
@@ -394,7 +394,7 @@ msgstr ""
 "Látogassa meg a http://www.kde.org címet további\n"
 "információért a KDE Projecrõl. Esetleg beszállhatna a fejlesztésbe...\n"
 "\n"
-"Az esetleges hibákat a http://buglist.kde.org címen jelentheti.\n"
+"Az esetleges hibákat a http://bugs.kde.org címen jelentheti.\n"
 
 #: kdetest/klocaletest.cpp:100 kdeui/keditcl1.cpp:412 kdeui/keditcl1.cpp:433
 #: kdeui/keditcl1.cpp:494 kdeui/keditcl1.cpp:514 kdeui/keditcl1.cpp:1661
