@@ -1750,10 +1750,8 @@ msgid "entry without name"
 msgstr "enmont dianav"
 
 #: kab/addressbook.cc:950
-msgid ""
-"Unable to create new database file (probably permission denied), exiting."
-mmsgstr ""
-"Divarrek da grouiñ ur rest diaz nevez (aotre nac'het moarvat), o kuitaat."
+msgid "Unable to create new database file (probably permission denied), exiting."
+msgstr "Divarrek da grouiñ ur rest diaz nevez (aotre nac'het moarvat), o kuitaat."
 
 #: kab/addressbook.cc:956
 msgid "Cannot create configuration section, exiting."
