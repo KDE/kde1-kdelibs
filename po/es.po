@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1998-04-17 23:25+0200\n"
-"PO-Revision-Date: 1998-05-09 18:39+0200\n"
+"PO-Revision-Date: 1998-05-11 20:47+0200\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
 #: kdecore/kapp.cpp:494
@@ -200,7 +200,7 @@ msgstr "No tiene derechos de escritura sobre este archivo.\n"
 #: kdeui/keditcl2.cpp:379 kdeui/keditcl2.cpp:678 kdeui/keditcl2.cpp:687
 #: kdeui/keditcl2.cpp:788
 msgid "Find"
-msgstr "Encontrar"
+msgstr "Buscar"
 
 #: kdeui/keditcl2.cpp:106 kdeui/keditcl2.cpp:363 kdeui/keditcl2.cpp:456
 msgid ""
@@ -230,7 +230,7 @@ msgstr "Distinguir mayúsculas"
 
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:785
 msgid "Find Backwards"
-msgstr "Encontrar hacia arriba"
+msgstr "Buscar hacia arriba"
 
 #: kdeui/keditcl2.cpp:690 kdeui/keditcl2.cpp:797 po/texts.cpp:86
 msgid "Done"
@@ -238,7 +238,7 @@ msgstr "Listo"
 
 #: kdeui/keditcl2.cpp:770
 msgid "Find:"
-msgstr "Encontrar:"
+msgstr "Buscar:"
 
 #: kdeui/keditcl2.cpp:780
 msgid "Replace with:"
@@ -416,11 +416,11 @@ msgstr "Adelante"
 
 #: kfile/kfiledialog.cpp:150
 msgid "Up to parent"
-msgstr "Arriba al pariente"
+msgstr "Ascender directorio"
 
 #: kfile/kfiledialog.cpp:153
 msgid "Home"
-msgstr "Propio"
+msgstr "Personal"
 
 #: kfile/kfiledialog.cpp:156 po/texts.cpp:55
 msgid "Reload"
@@ -428,7 +428,7 @@ msgstr "Actualizar"
 
 #: kfile/kfiledialog.cpp:172
 msgid "Bookmarks"
-msgstr "Favoritos"
+msgstr "Marcadores"
 
 #: kfile/kfiledialog.cpp:176
 msgid "Create new folder"
@@ -513,7 +513,7 @@ msgstr "Nuevo directorio"
 
 #: kfile/kfiledialog.cpp:958
 msgid "Add to bookmarks"
-msgstr "Agregar a favoritos"
+msgstr "Agregar a marcadores"
 
 #: kfile/kfiledialog.cpp:1190
 msgid "Choose Directory"
@@ -850,11 +850,11 @@ msgstr "&Abrir..."
 
 #: po/texts.cpp:73
 msgid "Cut"
-msgstr "Recortar"
+msgstr "Cortar"
 
 #: po/texts.cpp:74
 msgid "C&ut"
-msgstr "&Recortar"
+msgstr "&Cortar"
 
 #: po/texts.cpp:75
 msgid "Font"
