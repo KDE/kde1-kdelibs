@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs 1.0pre2\n"
-"POT-Creation-Date: 1998-10-02 01:57+0200\n"
+"POT-Creation-Date: 1998-10-03 19:29+0200\n"
 "PO-Revision-Date: 1998-07-13 19:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -221,7 +221,7 @@ msgstr "Fermu"
 msgid "Save"
 msgstr "Sekurigu"
 
-#: kdecore/kaccel.cpp:245 po/texts.cpp:129
+#: kdecore/kaccel.cpp:245 po/texts.cpp:127
 msgid "Print"
 msgstr "Presu"
 
@@ -252,11 +252,11 @@ msgid "Find"
 msgstr "Trovu"
 
 #: kdecore/kaccel.cpp:273 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
-#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:147
+#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:145
 msgid "Replace"
 msgstr "Anstataýigu"
 
-#: kdecore/kaccel.cpp:277 po/texts.cpp:148
+#: kdecore/kaccel.cpp:277 po/texts.cpp:146
 #, fuzzy
 msgid "Insert"
 msgstr "E&nmetu"
@@ -269,12 +269,12 @@ msgstr "Hejmen"
 msgid "End"
 msgstr ""
 
-#: kdecore/kaccel.cpp:289 po/texts.cpp:150
+#: kdecore/kaccel.cpp:289 po/texts.cpp:148
 #, fuzzy
 msgid "Prior"
 msgstr "Eraro"
 
-#: kdecore/kaccel.cpp:293 po/texts.cpp:149
+#: kdecore/kaccel.cpp:293 po/texts.cpp:147
 #, fuzzy
 msgid "Next"
 msgstr "&Sekva"
@@ -296,7 +296,7 @@ msgstr ""
 msgid "ALT"
 msgstr ""
 
-#: kdecore/kapp.cpp:545 po/texts.cpp:153
+#: kdecore/kapp.cpp:545 po/texts.cpp:151
 msgid "&Contents"
 msgstr "&Enhavo"
 
@@ -373,7 +373,7 @@ msgstr "Aldonu al la propraj koloroj"
 msgid "Custom..."
 msgstr "Adaptu..."
 
-#: kdeui/kcontrol.cpp:39 po/texts.cpp:151
+#: kdeui/kcontrol.cpp:39 po/texts.cpp:149
 msgid "Default"
 msgstr "Implicita"
 
@@ -688,7 +688,7 @@ msgstr "Filtrilo:"
 msgid "&Help"
 msgstr "&Helpo"
 
-#: kdeui/kkeydialog.cpp:236 po/texts.cpp:152
+#: kdeui/kkeydialog.cpp:236 po/texts.cpp:150
 #, fuzzy
 msgid "&Defaults"
 msgstr "&Implicita"
@@ -1340,154 +1340,146 @@ msgid "Browse..."
 msgstr "Rigardu..."
 
 #: po/texts.cpp:106
-msgid "(none)"
-msgstr "(nedifinite)"
-
-#: po/texts.cpp:107
-msgid "None"
-msgstr "Neniu"
-
-#: po/texts.cpp:108
 msgid "Stop"
 msgstr "Stop!"
 
-#: po/texts.cpp:109
+#: po/texts.cpp:107
 msgid "&Remove"
 msgstr "&Forigu"
 
-#: po/texts.cpp:110
+#: po/texts.cpp:108
 msgid "&Properties..."
 msgstr "&Ecoj..."
 
-#: po/texts.cpp:111
+#: po/texts.cpp:109
 msgid "Properties"
 msgstr "Ecoj"
 
-#: po/texts.cpp:112
+#: po/texts.cpp:110
 msgid "&Start"
 msgstr "&Ek"
 
-#: po/texts.cpp:113
+#: po/texts.cpp:111
 msgid "St&op"
 msgstr "&Stop"
 
-#: po/texts.cpp:114
+#: po/texts.cpp:112
 msgid "Move"
 msgstr "Movu"
 
-#: po/texts.cpp:115
+#: po/texts.cpp:113
 msgid "Miscellaneous"
 msgstr "Diversaj"
 
-#: po/texts.cpp:116
+#: po/texts.cpp:114
 msgid "Font Size"
 msgstr "Tipargrandeco"
 
-#: po/texts.cpp:117
+#: po/texts.cpp:115
 msgid "Small"
 msgstr "Malgranda"
 
-#: po/texts.cpp:118
+#: po/texts.cpp:116
 msgid "Medium"
 msgstr "Mezgranda"
 
-#: po/texts.cpp:119
+#: po/texts.cpp:117
 msgid "Large"
 msgstr "Granda"
 
-#: po/texts.cpp:120
+#: po/texts.cpp:118
 msgid "Fonts"
 msgstr "Tiparoj"
 
-#: po/texts.cpp:121
+#: po/texts.cpp:119
 msgid "&Fonts"
 msgstr "&Tiparoj"
 
-#: po/texts.cpp:122
+#: po/texts.cpp:120
 msgid "&Reload"
 msgstr "&Relegu"
 
-#: po/texts.cpp:123
+#: po/texts.cpp:121
 msgid "&Previous"
 msgstr "&Antaýa"
 
-#: po/texts.cpp:124
+#: po/texts.cpp:122
 msgid "&Next"
 msgstr "&Sekva"
 
-#: po/texts.cpp:125
+#: po/texts.cpp:123
 msgid "Files"
 msgstr "Dosieroj"
 
-#: kab/widget.cc:1507 kab/widget.cc:1555 po/texts.cpp:126
+#: kab/widget.cc:1507 kab/widget.cc:1555 po/texts.cpp:124
 msgid "Continue"
 msgstr "Daýrigu"
 
-#: po/texts.cpp:127
+#: po/texts.cpp:125
 msgid "Restore"
 msgstr "Restarigu"
 
-#: po/texts.cpp:128
+#: po/texts.cpp:126
 msgid "Appearance"
 msgstr "Aspekto"
 
-#: po/texts.cpp:130
+#: po/texts.cpp:128
 msgid "Monday"
 msgstr "Lundo"
 
-#: po/texts.cpp:131
+#: po/texts.cpp:129
 msgid "Tuesday"
 msgstr "Mardo"
 
-#: po/texts.cpp:132
+#: po/texts.cpp:130
 msgid "Wednesday"
 msgstr "Merkredo"
 
-#: po/texts.cpp:133
+#: po/texts.cpp:131
 msgid "Thursday"
 msgstr "¬aýdo"
 
-#: po/texts.cpp:134
+#: po/texts.cpp:132
 msgid "Friday"
 msgstr "Vendredo"
 
-#: po/texts.cpp:135
+#: po/texts.cpp:133
 msgid "Saturday"
 msgstr "Sabato"
 
-#: po/texts.cpp:136
+#: po/texts.cpp:134
 msgid "Sunday"
 msgstr "Dimanæo"
 
-#: po/texts.cpp:137
+#: po/texts.cpp:135
 msgid "&Update"
 msgstr "&Renovigu"
 
-#: po/texts.cpp:138
+#: po/texts.cpp:136
 msgid "Layout"
 msgstr "Aranøo"
 
-#: po/texts.cpp:139
+#: po/texts.cpp:137
 msgid "Highscore"
 msgstr "Listo de plej bonaj"
 
-#: po/texts.cpp:140
+#: po/texts.cpp:138
 msgid "&New View"
 msgstr "&Nova rigardo"
 
-#: po/texts.cpp:141
+#: po/texts.cpp:139
 msgid "&Insert"
 msgstr "E&nmetu"
 
-#: po/texts.cpp:144
+#: po/texts.cpp:142
 msgid "&Next >>"
 msgstr "&Sekva >>"
 
-#: po/texts.cpp:145
+#: po/texts.cpp:143
 msgid "<< &Previous"
 msgstr "<< &Antaýa"
 
-#: po/texts.cpp:154
+#: po/texts.cpp:152
 #, fuzzy
 msgid "&About..."
 msgstr "&Pri..."
@@ -2688,6 +2680,12 @@ msgid ""
 "\n"
 "does not conatain a Name=... entry"
 msgstr ""
+
+#~ msgid "(none)"
+#~ msgstr "(nedifinite)"
+
+#~ msgid "None"
+#~ msgstr "Neniu"
 
 #~ msgid "&Ok"
 #~ msgstr "&Konfirmu"

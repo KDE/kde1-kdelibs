@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-10-02 01:57+0200\n"
+"POT-Creation-Date: 1998-10-03 19:29+0200\n"
 "PO-Revision-Date: 1998-06-25 01:00\n"
 "Last-Translator: Sebastià Pla <sastia@redestb.es>\n"
 "Language-Team: CATALAN <LL@li.org>\n"
@@ -220,7 +220,7 @@ msgstr "Tancar"
 msgid "Save"
 msgstr "Desar"
 
-#: kdecore/kaccel.cpp:245 po/texts.cpp:129
+#: kdecore/kaccel.cpp:245 po/texts.cpp:127
 msgid "Print"
 msgstr "Imprimir"
 
@@ -251,11 +251,11 @@ msgid "Find"
 msgstr "Buscar"
 
 #: kdecore/kaccel.cpp:273 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
-#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:147
+#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:145
 msgid "Replace"
 msgstr "Substituir"
 
-#: kdecore/kaccel.cpp:277 po/texts.cpp:148
+#: kdecore/kaccel.cpp:277 po/texts.cpp:146
 #, fuzzy
 msgid "Insert"
 msgstr "&Insertar"
@@ -268,12 +268,12 @@ msgstr "Llar"
 msgid "End"
 msgstr ""
 
-#: kdecore/kaccel.cpp:289 po/texts.cpp:150
+#: kdecore/kaccel.cpp:289 po/texts.cpp:148
 #, fuzzy
 msgid "Prior"
 msgstr "Error"
 
-#: kdecore/kaccel.cpp:293 po/texts.cpp:149
+#: kdecore/kaccel.cpp:293 po/texts.cpp:147
 #, fuzzy
 msgid "Next"
 msgstr "&Següent"
@@ -295,7 +295,7 @@ msgstr ""
 msgid "ALT"
 msgstr ""
 
-#: kdecore/kapp.cpp:545 po/texts.cpp:153
+#: kdecore/kapp.cpp:545 po/texts.cpp:151
 msgid "&Contents"
 msgstr "&Contingut"
 
@@ -372,7 +372,7 @@ msgstr "Afegir als colors a mida"
 msgid "Custom..."
 msgstr "A mida..."
 
-#: kdeui/kcontrol.cpp:39 po/texts.cpp:151
+#: kdeui/kcontrol.cpp:39 po/texts.cpp:149
 msgid "Default"
 msgstr "Omissió"
 
@@ -687,7 +687,7 @@ msgstr "Filtre:"
 msgid "&Help"
 msgstr "&Ajut"
 
-#: kdeui/kkeydialog.cpp:236 po/texts.cpp:152
+#: kdeui/kkeydialog.cpp:236 po/texts.cpp:150
 #, fuzzy
 msgid "&Defaults"
 msgstr "&Omissió"
@@ -1339,154 +1339,146 @@ msgid "Browse..."
 msgstr "Fullejar..."
 
 #: po/texts.cpp:106
-msgid "(none)"
-msgstr "(cap)"
-
-#: po/texts.cpp:107
-msgid "None"
-msgstr "Cap"
-
-#: po/texts.cpp:108
 msgid "Stop"
 msgstr "Aturar"
 
-#: po/texts.cpp:109
+#: po/texts.cpp:107
 msgid "&Remove"
 msgstr "&Eliminar"
 
-#: po/texts.cpp:110
+#: po/texts.cpp:108
 msgid "&Properties..."
 msgstr "&Propietats..."
 
-#: po/texts.cpp:111
+#: po/texts.cpp:109
 msgid "Properties"
 msgstr "Propietats"
 
-#: po/texts.cpp:112
+#: po/texts.cpp:110
 msgid "&Start"
 msgstr "E&ngegar"
 
-#: po/texts.cpp:113
+#: po/texts.cpp:111
 msgid "St&op"
 msgstr "&Aturar"
 
-#: po/texts.cpp:114
+#: po/texts.cpp:112
 msgid "Move"
 msgstr "Moure"
 
-#: po/texts.cpp:115
+#: po/texts.cpp:113
 msgid "Miscellaneous"
 msgstr "Miscel·làni"
 
-#: po/texts.cpp:116
+#: po/texts.cpp:114
 msgid "Font Size"
 msgstr "Mida de font"
 
-#: po/texts.cpp:117
+#: po/texts.cpp:115
 msgid "Small"
 msgstr "Xicoteta"
 
-#: po/texts.cpp:118
+#: po/texts.cpp:116
 msgid "Medium"
 msgstr "Mitjana"
 
-#: po/texts.cpp:119
+#: po/texts.cpp:117
 msgid "Large"
 msgstr "Gran"
 
-#: po/texts.cpp:120
+#: po/texts.cpp:118
 msgid "Fonts"
 msgstr "Fonts"
 
-#: po/texts.cpp:121
+#: po/texts.cpp:119
 msgid "&Fonts"
 msgstr "&Fonts"
 
-#: po/texts.cpp:122
+#: po/texts.cpp:120
 msgid "&Reload"
 msgstr "&Refrescar"
 
-#: po/texts.cpp:123
+#: po/texts.cpp:121
 msgid "&Previous"
 msgstr "&Previ"
 
-#: po/texts.cpp:124
+#: po/texts.cpp:122
 msgid "&Next"
 msgstr "&Següent"
 
-#: po/texts.cpp:125
+#: po/texts.cpp:123
 msgid "Files"
 msgstr "Fitxers"
 
-#: kab/widget.cc:1507 kab/widget.cc:1555 po/texts.cpp:126
+#: kab/widget.cc:1507 kab/widget.cc:1555 po/texts.cpp:124
 msgid "Continue"
 msgstr "Continuar"
 
-#: po/texts.cpp:127
+#: po/texts.cpp:125
 msgid "Restore"
 msgstr "Restaurar"
 
-#: po/texts.cpp:128
+#: po/texts.cpp:126
 msgid "Appearance"
 msgstr "Apariència"
 
-#: po/texts.cpp:130
+#: po/texts.cpp:128
 msgid "Monday"
 msgstr "Dilluns"
 
-#: po/texts.cpp:131
+#: po/texts.cpp:129
 msgid "Tuesday"
 msgstr "Dimarts"
 
-#: po/texts.cpp:132
+#: po/texts.cpp:130
 msgid "Wednesday"
 msgstr "Dimecres"
 
-#: po/texts.cpp:133
+#: po/texts.cpp:131
 msgid "Thursday"
 msgstr "Dijous"
 
-#: po/texts.cpp:134
+#: po/texts.cpp:132
 msgid "Friday"
 msgstr "Divendres"
 
-#: po/texts.cpp:135
+#: po/texts.cpp:133
 msgid "Saturday"
 msgstr "Dissabte"
 
-#: po/texts.cpp:136
+#: po/texts.cpp:134
 msgid "Sunday"
 msgstr "Diumenge"
 
-#: po/texts.cpp:137
+#: po/texts.cpp:135
 msgid "&Update"
 msgstr "&Actualitzar"
 
-#: po/texts.cpp:138
+#: po/texts.cpp:136
 msgid "Layout"
 msgstr "Distribució"
 
-#: po/texts.cpp:139
+#: po/texts.cpp:137
 msgid "Highscore"
 msgstr "Puntuació màxima"
 
-#: po/texts.cpp:140
+#: po/texts.cpp:138
 msgid "&New View"
 msgstr "Vista &Nova"
 
-#: po/texts.cpp:141
+#: po/texts.cpp:139
 msgid "&Insert"
 msgstr "&Insertar"
 
-#: po/texts.cpp:144
+#: po/texts.cpp:142
 msgid "&Next >>"
 msgstr "&Següent >>"
 
-#: po/texts.cpp:145
+#: po/texts.cpp:143
 msgid "<< &Previous"
 msgstr "<< &Previ"
 
-#: po/texts.cpp:154
+#: po/texts.cpp:152
 #, fuzzy
 msgid "&About..."
 msgstr "Q&uant a..."
@@ -2687,6 +2679,12 @@ msgid ""
 "\n"
 "does not conatain a Name=... entry"
 msgstr ""
+
+#~ msgid "(none)"
+#~ msgstr "(cap)"
+
+#~ msgid "None"
+#~ msgstr "Cap"
 
 #~ msgid "&Ok"
 #~ msgstr "&Bé"

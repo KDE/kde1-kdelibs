@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE LIBS\n"
-"POT-Creation-Date: 1998-10-02 01:57+0200\n"
+"POT-Creation-Date: 1998-10-03 19:29+0200\n"
 "PO-Revision-Date: 1998-04-20 18:55+0100\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -215,7 +215,7 @@ msgstr "Lukk"
 msgid "Save"
 msgstr "Lagre"
 
-#: kdecore/kaccel.cpp:245 po/texts.cpp:129
+#: kdecore/kaccel.cpp:245 po/texts.cpp:127
 msgid "Print"
 msgstr "Skriv ut"
 
@@ -246,11 +246,11 @@ msgid "Find"
 msgstr "Finn"
 
 #: kdecore/kaccel.cpp:273 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
-#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:147
+#: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 po/texts.cpp:145
 msgid "Replace"
 msgstr "Erstatt"
 
-#: kdecore/kaccel.cpp:277 po/texts.cpp:148
+#: kdecore/kaccel.cpp:277 po/texts.cpp:146
 msgid "Insert"
 msgstr "Sett inn"
 
@@ -262,11 +262,11 @@ msgstr "Hjem"
 msgid "End"
 msgstr "Slutt"
 
-#: kdecore/kaccel.cpp:289 po/texts.cpp:150
+#: kdecore/kaccel.cpp:289 po/texts.cpp:148
 msgid "Prior"
 msgstr "Forrige"
 
-#: kdecore/kaccel.cpp:293 po/texts.cpp:149
+#: kdecore/kaccel.cpp:293 po/texts.cpp:147
 msgid "Next"
 msgstr "Neste"
 
@@ -287,7 +287,7 @@ msgstr "CTRL"
 msgid "ALT"
 msgstr "ALT"
 
-#: kdecore/kapp.cpp:545 po/texts.cpp:153
+#: kdecore/kapp.cpp:545 po/texts.cpp:151
 msgid "&Contents"
 msgstr "&Innhold"
 
@@ -363,7 +363,7 @@ msgstr "Tilføy til brukerdefinerte farger"
 msgid "Custom..."
 msgstr "Brukerdefinert..."
 
-#: kdeui/kcontrol.cpp:39 po/texts.cpp:151
+#: kdeui/kcontrol.cpp:39 po/texts.cpp:149
 msgid "Default"
 msgstr "Standard"
 
@@ -678,7 +678,7 @@ msgstr "Filter:"
 msgid "&Help"
 msgstr "&Hjelp"
 
-#: kdeui/kkeydialog.cpp:236 po/texts.cpp:152
+#: kdeui/kkeydialog.cpp:236 po/texts.cpp:150
 msgid "&Defaults"
 msgstr "&Standarder"
 
@@ -1330,154 +1330,146 @@ msgid "Browse..."
 msgstr "Bla igjennom..."
 
 #: po/texts.cpp:106
-msgid "(none)"
-msgstr "(ingen)"
-
-#: po/texts.cpp:107
-msgid "None"
-msgstr "Ingen"
-
-#: po/texts.cpp:108
 msgid "Stop"
 msgstr "Stopp"
 
-#: po/texts.cpp:109
+#: po/texts.cpp:107
 msgid "&Remove"
 msgstr "&Fjern"
 
-#: po/texts.cpp:110
+#: po/texts.cpp:108
 msgid "&Properties..."
 msgstr "&Egenskaper..."
 
-#: po/texts.cpp:111
+#: po/texts.cpp:109
 msgid "Properties"
 msgstr "Egenskaper"
 
-#: po/texts.cpp:112
+#: po/texts.cpp:110
 msgid "&Start"
 msgstr "&Start"
 
-#: po/texts.cpp:113
+#: po/texts.cpp:111
 msgid "St&op"
 msgstr "St&opp"
 
-#: po/texts.cpp:114
+#: po/texts.cpp:112
 msgid "Move"
 msgstr "Flytt"
 
-#: po/texts.cpp:115
+#: po/texts.cpp:113
 msgid "Miscellaneous"
 msgstr "Forskjellig"
 
-#: po/texts.cpp:116
+#: po/texts.cpp:114
 msgid "Font Size"
 msgstr "Skriftstørrelse"
 
-#: po/texts.cpp:117
+#: po/texts.cpp:115
 msgid "Small"
 msgstr "Liten"
 
-#: po/texts.cpp:118
+#: po/texts.cpp:116
 msgid "Medium"
 msgstr "Medium"
 
-#: po/texts.cpp:119
+#: po/texts.cpp:117
 msgid "Large"
 msgstr "Stor"
 
-#: po/texts.cpp:120
+#: po/texts.cpp:118
 msgid "Fonts"
 msgstr "Skrifttyper"
 
-#: po/texts.cpp:121
+#: po/texts.cpp:119
 msgid "&Fonts"
 msgstr "&Skrifttyper"
 
-#: po/texts.cpp:122
+#: po/texts.cpp:120
 msgid "&Reload"
 msgstr "Last &inn på nytt"
 
-#: po/texts.cpp:123
+#: po/texts.cpp:121
 msgid "&Previous"
 msgstr "&Forrige"
 
-#: po/texts.cpp:124
+#: po/texts.cpp:122
 msgid "&Next"
 msgstr "&Neste"
 
-#: po/texts.cpp:125
+#: po/texts.cpp:123
 msgid "Files"
 msgstr "Filer"
 
-#: kab/widget.cc:1507 kab/widget.cc:1555 po/texts.cpp:126
+#: kab/widget.cc:1507 kab/widget.cc:1555 po/texts.cpp:124
 msgid "Continue"
 msgstr "Fortsett"
 
-#: po/texts.cpp:127
+#: po/texts.cpp:125
 msgid "Restore"
 msgstr "Gjenopprett"
 
-#: po/texts.cpp:128
+#: po/texts.cpp:126
 msgid "Appearance"
 msgstr "Utseende"
 
-#: po/texts.cpp:130
+#: po/texts.cpp:128
 msgid "Monday"
 msgstr "Mandag"
 
-#: po/texts.cpp:131
+#: po/texts.cpp:129
 msgid "Tuesday"
 msgstr "Tirsdag"
 
-#: po/texts.cpp:132
+#: po/texts.cpp:130
 msgid "Wednesday"
 msgstr "Onsdag"
 
-#: po/texts.cpp:133
+#: po/texts.cpp:131
 msgid "Thursday"
 msgstr "Torsdag"
 
-#: po/texts.cpp:134
+#: po/texts.cpp:132
 msgid "Friday"
 msgstr "Fredag"
 
-#: po/texts.cpp:135
+#: po/texts.cpp:133
 msgid "Saturday"
 msgstr "Lørdag"
 
-#: po/texts.cpp:136
+#: po/texts.cpp:134
 msgid "Sunday"
 msgstr "Søndag"
 
-#: po/texts.cpp:137
+#: po/texts.cpp:135
 msgid "&Update"
 msgstr "&Oppdater"
 
-#: po/texts.cpp:138
+#: po/texts.cpp:136
 msgid "Layout"
 msgstr "Stil"
 
-#: po/texts.cpp:139
+#: po/texts.cpp:137
 msgid "Highscore"
 msgstr "Liste over de beste"
 
-#: po/texts.cpp:140
+#: po/texts.cpp:138
 msgid "&New View"
 msgstr "&Ny visning"
 
-#: po/texts.cpp:141
+#: po/texts.cpp:139
 msgid "&Insert"
 msgstr "&Sett inn"
 
-#: po/texts.cpp:144
+#: po/texts.cpp:142
 msgid "&Next >>"
 msgstr "&Neste >>"
 
-#: po/texts.cpp:145
+#: po/texts.cpp:143
 msgid "<< &Previous"
 msgstr "<< &Forrige"
 
-#: po/texts.cpp:154
+#: po/texts.cpp:152
 #, fuzzy
 msgid "&About..."
 msgstr "&Om"
@@ -2771,3 +2763,9 @@ msgid ""
 msgstr ""
 "\n"
 "inneholder ikke en Name=...-oppføring"
+
+#~ msgid "(none)"
+#~ msgstr "(ingen)"
+
+#~ msgid "None"
+#~ msgstr "Ingen"
