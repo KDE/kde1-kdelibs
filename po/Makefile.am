@@ -8,7 +8,7 @@ localedir = $(kde_locale)
 
 MAINTAINERCLEANFILES = $(GMOFILES)
 
-EXTRA_DIST = kde.pot $(POFILES) $(GMOFILES)
+EXTRA_DIST = kde.pot $(POFILES) $(GMOFILES) texts.cpp
 
 
 all: all-@USE_NLS@
