@@ -1,17 +1,205 @@
-# SOME DESCRIPTIVE TITLE.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
-msgid ""
+# KDE Translation project
+# Italian Translation by Andrea Rizzzi <Bilibao@ouverture.it>
+# general messages, that are often used
+msgid "Error"
+msgstr "Errore"
+
+msgid "Malformed URL"
+msgstr "URL maldefinita"
+
+msgid "Yes"
+msgstr "Si"
+
+msgid "No"
+msgstr "No"
+
+msgid "Warning"
+msgstr "Attenzione"
+
+msgid "Open a file"
+msgstr "Apre un file"
+
+msgid "Save a file"
+msgstr "Salva un file"
+
+msgid "Contents"
+msgstr "Contenuti"
+
+msgid "About"
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-10-18 11:43+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+
+msgid "Open"
+msgstr "Apri"
+
+msgid "Save"
+msgstr "Salva"
+
+msgid "Save As"
+msgstr "Salva con nome"
+
+msgid "Close"
+msgstr "Chiudi"
+
+msgid "Quit"
+msgstr "Esci"
+
+msgid "Untitled"
+msgstr "Senza Titolo"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Ok"
+msgstr "Ok"
+
+msgid "Cancel"
+msgstr "Cancella"
+
+msgid "Apply"
+msgstr "Applica"
+
+msgid "File"
+msgstr "File"
+
+msgid "Help"
+msgstr "?"
+
+msgid "Edit"
+msgstr "Modifica"
+
+# libkdeui messages
+#: kcolordlg.cpp:239
+msgid "Select Color"
+msgstr "Scegli colore"
+
+#: kcolordlg.cpp:244
+msgid "System Colors"
+msgstr "Colori di sistema"
+
+#: kcolordlg.cpp:269
+msgid "Custom Colors"
+msgstr "Colori personalizzati"
+
+#: kcolordlg.cpp:345
+msgid "Add to Custom Colors"
+msgstr "Aggiungi ai colori personalizzati"
+
+#: kcolordlg.cpp:649 kcolordlg.cpp:699
+msgid "Custom..."
+msgstr "Personalizza..."
+
+#: kfontdialog.cpp:95
+msgid "Select Font"
+msgstr "Secgli carattere"
+
+#: kfontdialog.cpp:99
+msgid "Requested Font"
+msgstr "Carattere richiesto"
+
+#: kfontdialog.cpp:104
+msgid "Actual Font"
+msgstr "Carattere attuale"
+
+#: kfontdialog.cpp:108 kfontdialog.cpp:112
+msgid "Family:"
+msgstr "Famiglia:"
+
+#: kfontdialog.cpp:119 kfontdialog.cpp:124
+msgid "Size:"
+msgstr "Dimensione:"
+
+#: kfontdialog.cpp:133 kfontdialog.cpp:138
+msgid "Weight:"
+msgstr "Altezza:"
+
+#: kfontdialog.cpp:147 kfontdialog.cpp:155
+msgid "Style:"
+msgstr "Stile:"
+
+#: kfontdialog.cpp:190
+msgid "Size"
+msgstr "Dimensione"
+
+#: kfontdialog.cpp:229
+msgid "Weight"
+msgstr "Altezza"
+
+#: kfontdialog.cpp:230 kfontdialog.cpp:327
+msgid "normal"
+msgstr "normale"
+
+#: kfontdialog.cpp:231 kfontdialog.cpp:329
+msgid "bold"
+msgstr "bold"
+
+#: kfontdialog.cpp:240
+msgid "Style"
+msgstr "Stile"
+
+#: kfontdialog.cpp:241 kfontdialog.cpp:340 kfontdialog.cpp:369
+msgid "roman"
+msgstr "romano"
+
+#: kfontdialog.cpp:242 kfontdialog.cpp:342 kfontdialog.cpp:367
+msgid "italic"
+msgstr "italico"
+
+#: kfontdialog.cpp:270
+msgid "Dolor Ipse"
+msgstr ""
+
+#: kfontdialog.cpp:362
+msgid "Bold"
+msgstr ""
+
+#: kfontdialog.cpp:364
+msgid "Normal"
+msgstr "Normale"
+
+#: kiconloader.cpp:176
+msgid "Select Icon"
+msgstr "Scegli Icona"
+
+#: kiconloader.cpp:182
+msgid "Filter:"
+msgstr "Filtro:"
+
+#: kiconloader.cpp:337
+#, c-format
+msgid "ERROR: couldn't find icon: %s"
+msgstr "ERORRE: impossibile trovare l'icona: %s"
+
+#: kmenubar.cpp:106 ktoolbar.cpp:273
+msgid "Top"
+msgstr "In Alto"
+
+#: kmenubar.cpp:107 ktoolbar.cpp:275
+msgid "Bottom"
+msgstr "In Basso"
+
+#: kmenubar.cpp:108 ktoolbar.cpp:276
+msgid "Floating"
+msgstr "Galleggiante"
+
+#: kmenubar.cpp:182 kmenubar.cpp:223 ktoolbar.cpp:699 ktoolbar.cpp:1208
+msgid "Float"
+msgstr "Galleggia"
+
+#: kmenubar.cpp:213 ktoolbar.cpp:1198
+msgid "UnFloat"
+msgstr "Non Galleggiante"
+
+#: ktoolbar.cpp:87 ktoolbar.cpp:145
+msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
+msgstr "KToolBarButton: Pixmap vuota, è possibile che manchi il file"
+
+#: ktoolbar.cpp:272
+msgid "Left"
+msgstr "Sinistra"
+
+#: ktoolbar.cpp:274
+msgid "Right"
+msgstr "Destra"
 
 #: kapp.cpp:330
 msgid "About "
@@ -32,7 +220,7 @@ msgid ""
 "Matthias Ettrich (ettrich@kde.org)\n"
 "Steffen Hansen (stefh@mip.ou.dk)\n"
 "Martin Jones (mjones@kde.org)\n"
-"Sirtaj Singh Kang (tak@kde.org)\n"
+"Sirtaj Singh Kang (taj@kde.org)\n"
 "Martin Konold (konold@kde.org)\n"
 "Stephan Kulow (coolo@kde.org)\n"
 "Richard Moore (rich@kde.org)\n"
@@ -60,7 +248,7 @@ msgstr ""
 "Matthias Ettrich (ettrich@kde.org)\n"
 "Steffen Hansen (stefh@mip.ou.dk)\n"
 "Martin Jones (mjones@kde.org)\n"
-"Sirtaj Singh Kang (tak@kde.org)\n"
+"Sirtaj Singh Kang (taj@kde.org)\n"
 "Martin Konold (konold@kde.org)\n"
 "Stephan Kulow (coolo@kde.org)\n"
 "Richard Moore (rich@kde.org)\n"
@@ -74,167 +262,7 @@ msgstr ""
 "maintainers.\n"
 "\n"
 "\n"
-"Questo programma é stato sviluppato con Qt, una multipiattaforma-biblioteca GUI.\n"
+"KDE é stato sviluppato con Qt, una multipiattaforma-biblioteca GUI.\n"
 "\n"
 "Qt é un prodotto della ditta Troll Tech (http://www.troll.no, info@troll.no).\n"
 "Qt puó essere usata per sviluppare programmi \"free software\" per il \"X Window System\".\n"
-
-# KDE Translation project
-# Italian Translation by Andrea Rizzzi <Bilibao@ouverture.it>
-# general messages, that are often used
-#~ msgid "Error"
-#~ msgstr "Errore"
-
-#~ msgid "Malformed URL"
-#~ msgstr "URL maldefinita"
-
-#~ msgid "Yes"
-#~ msgstr "Si"
-
-#~ msgid "No"
-#~ msgstr "No"
-
-#~ msgid "Warning"
-#~ msgstr "Attenzione"
-
-#~ msgid "Open a file"
-#~ msgstr "Apre un file"
-
-#~ msgid "Save a file"
-#~ msgstr "Salva un file"
-
-#~ msgid "Contents"
-#~ msgstr "Contenuti"
-
-#~ msgid "Open"
-#~ msgstr "Apri"
-
-#~ msgid "Save"
-#~ msgstr "Salva"
-
-#~ msgid "Save As"
-#~ msgstr "Salva con nome"
-
-#~ msgid "Close"
-#~ msgstr "Chiudi"
-
-#~ msgid "Quit"
-#~ msgstr "Esci"
-
-#~ msgid "Untitled"
-#~ msgstr "Senza Titolo"
-
-#~ msgid "OK"
-#~ msgstr "OK"
-
-#~ msgid "Ok"
-#~ msgstr "Ok"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancella"
-
-#~ msgid "Apply"
-#~ msgstr "Applica"
-
-#~ msgid "File"
-#~ msgstr "File"
-
-#~ msgid "Help"
-#~ msgstr "?"
-
-#~ msgid "Edit"
-#~ msgstr "Modifica"
-
-# libkdeui messages
-#~ msgid "Select Color"
-#~ msgstr "Scegli colore"
-
-#~ msgid "System Colors"
-#~ msgstr "Colori di sistema"
-
-#~ msgid "Custom Colors"
-#~ msgstr "Colori personalizzati"
-
-#~ msgid "Add to Custom Colors"
-#~ msgstr "Aggiungi ai colori personalizzati"
-
-#~ msgid "Custom..."
-#~ msgstr "Personalizza..."
-
-#~ msgid "Select Font"
-#~ msgstr "Secgli carattere"
-
-#~ msgid "Requested Font"
-#~ msgstr "Carattere richiesto"
-
-#~ msgid "Actual Font"
-#~ msgstr "Carattere attuale"
-
-#~ msgid "Family:"
-#~ msgstr "Famiglia:"
-
-#~ msgid "Size:"
-#~ msgstr "Dimensione:"
-
-#~ msgid "Weight:"
-#~ msgstr "Altezza:"
-
-#~ msgid "Style:"
-#~ msgstr "Stile:"
-
-#~ msgid "Size"
-#~ msgstr "Dimensione"
-
-#~ msgid "Weight"
-#~ msgstr "Altezza"
-
-#~ msgid "normal"
-#~ msgstr "normale"
-
-#~ msgid "bold"
-#~ msgstr "bold"
-
-#~ msgid "Style"
-#~ msgstr "Stile"
-
-#~ msgid "roman"
-#~ msgstr "romano"
-
-#~ msgid "italic"
-#~ msgstr "italico"
-
-#~ msgid "Normal"
-#~ msgstr "Normale"
-
-#~ msgid "Select Icon"
-#~ msgstr "Scegli Icona"
-
-#~ msgid "Filter:"
-#~ msgstr "Filtro:"
-
-#~ msgid "ERROR: couldn't find icon: %s"
-#~ msgstr "ERORRE: impossibile trovare l'icona: %s"
-
-#~ msgid "Top"
-#~ msgstr "In Alto"
-
-#~ msgid "Bottom"
-#~ msgstr "In Basso"
-
-#~ msgid "Floating"
-#~ msgstr "Galleggiante"
-
-#~ msgid "Float"
-#~ msgstr "Galleggia"
-
-#~ msgid "UnFloat"
-#~ msgstr "Non Galleggiante"
-
-#~ msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
-#~ msgstr "KToolBarButton: Pixmap vuota, è possibile che manchi il file"
-
-#~ msgid "Left"
-#~ msgstr "Sinistra"
-
-#~ msgid "Right"
-#~ msgstr "Destra"
