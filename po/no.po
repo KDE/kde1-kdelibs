@@ -1071,9 +1071,9 @@ msgid "one directory"
 msgstr "en katalog"
 
 #: kfile/kfiledialog.cpp:1321
-#, fuzzy, c-format
+#, c-format
 msgid "%d directories"
-msgstr "kataloger"
+msgstr "%d kataloger"
 
 #: kfile/kfiledialogconf.cpp:41
 msgid "Look and Feel"
