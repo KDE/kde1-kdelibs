@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-21 18:14+0200\n"
+"POT-Creation-Date: 1998-06-15 18:34+0200\n"
 "PO-Revision-Date: 1998-03-15 20:00-0500\n"
 "Last-Translator:  Almir Uzunovic <auzunovi@sava.utic.net.ba> \n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -9,27 +9,27 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: kdecore/kapp.cpp:494
+#: kdecore/kapp.cpp:490
 msgid "&Contents"
 msgstr "&Sadr¾aj"
 
-#: kdecore/kapp.cpp:500
+#: kdecore/kapp.cpp:496
 msgid "&About"
 msgstr "&O programu"
 
-#: kdecore/kapp.cpp:507
+#: kdecore/kapp.cpp:503
 msgid "About &KDE..."
 msgstr "O &KDE..."
 
-#: kdecore/kapp.cpp:528
+#: kdecore/kapp.cpp:524
 msgid "About KDE"
 msgstr "O KDE"
 
-#: kdecore/kapp.cpp:530
+#: kdecore/kapp.cpp:526
 msgid ""
 "\n"
 "The KDE Desktop Environment was written by the KDE Team,\n"
-"a world-wide network of software engineers committed to\n"
+"a world-wide network of software engineers commited to\n"
 "free software development.\n"
 "\n"
 "Visit http://www.kde.org for more information on the KDE\n"
@@ -66,14 +66,14 @@ msgid "No"
 msgstr "Ne"
 
 #: kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:471 kdeui/kcontrol.cpp:34
-#: kfile/kfiledialog.cpp:240 po/texts.cpp:45
+#: kfile/kfiledialog.cpp:252 po/texts.cpp:45
 msgid "Help"
 msgstr "Pomoæ"
 
 #: kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:466 kdeui/kcontrol.cpp:46
 #: kdeui/keditcl1.cpp:397 kdeui/keditcl1.cpp:479 kdeui/keditcl2.cpp:897
 #: kdeui/kfontdialog.cpp:355 kdeui/kiconloaderdialog.cpp:255
-#: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:252 kfile/kfiledialog.cpp:877
+#: kdeui/kmsgbox.cpp:505 kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:877
 #: kfile/kfiledialogconf.cpp:58 kfmlib/kfm.cpp:407 po/texts.cpp:40
 msgid "Cancel"
 msgstr "Poni¹ti"
@@ -111,7 +111,7 @@ msgstr "Podrazumijevano"
 #: kdeui/kcontrol.cpp:44 kdeui/keditcl1.cpp:129 kdeui/keditcl1.cpp:143
 #: kdeui/keditcl1.cpp:158 kdeui/keditcl1.cpp:179 kdeui/keditcl1.cpp:192
 #: kdeui/keditcl1.cpp:1473 kdeui/keditcl1.cpp:1630 kdeui/kmsgbox.cpp:473
-#: kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:492
+#: kfile/kfiledialog.cpp:240 kfile/kfiledialog.cpp:492
 #: kfile/kfiledialogconf.cpp:60 po/texts.cpp:35
 msgid "OK"
 msgstr "U redu"
@@ -170,40 +170,35 @@ msgstr "Prosinac"
 
 #: kdeui/kdatepik.cpp:248
 msgid "(invalid)"
-msgstr ""
+msgstr "(nepravilno)"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:48
 msgid "Sun"
-msgstr "&Zvuk"
+msgstr "Ned"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:48
 msgid "Mon"
-msgstr "Montiraj"
+msgstr "Pon"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:48
 msgid "Tue"
-msgstr "Ten"
+msgstr "Uto"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:49
 msgid "Wed"
-msgstr "Crveni"
+msgstr "Sri"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Thu"
-msgstr ""
+msgstr "Èet"
 
 #: kdeui/kdatetbl.cpp:49
 msgid "Fri"
-msgstr ""
+msgstr "Pet"
 
-# , fuzzy
 #: kdeui/kdatetbl.cpp:50
 msgid "Sat"
-msgstr "na"
+msgstr "Sub"
 
 #: kdeui/keditcl1.cpp:127 kdeui/keditcl1.cpp:156 kdeui/keditcl1.cpp:177
 #: kdeui/keditcl1.cpp:190 kdeui/keditcl1.cpp:1471 po/texts.cpp:89
@@ -437,35 +432,34 @@ msgstr "Odaberi ikonu"
 msgid "Filter:"
 msgstr "Filter:"
 
-#: kdeui/kmenubar.cpp:171 kdeui/ktoolbar.cpp:470
+#: kdeui/kmenubar.cpp:168 kdeui/ktoolbar.cpp:453
 msgid "Top"
 msgstr "Vrh"
 
-#: kdeui/kmenubar.cpp:172 kdeui/ktoolbar.cpp:472
+#: kdeui/kmenubar.cpp:169 kdeui/ktoolbar.cpp:455
 msgid "Bottom"
 msgstr "Dno"
 
-#: kdeui/kmenubar.cpp:173 kdeui/ktoolbar.cpp:473
+#: kdeui/kmenubar.cpp:170 kdeui/ktoolbar.cpp:456
 msgid "Floating"
 msgstr "Plutajuæi"
 
-#: kdeui/kmenubar.cpp:287 kdeui/kmenubar.cpp:437 kdeui/ktoolbar.cpp:1605
+#: kdeui/kmenubar.cpp:284 kdeui/kmenubar.cpp:434 kdeui/ktoolbar.cpp:1588
 msgid "Float"
 msgstr "Plutaj"
 
-#: kdeui/kmenubar.cpp:426 kdeui/ktoolbar.cpp:1587
+#: kdeui/kmenubar.cpp:423 kdeui/ktoolbar.cpp:1570
 msgid "UnFloat"
 msgstr "Pristani"
 
 #: kdeui/knotebook.cpp:145
 msgid "Trying to add page when no KWizards are added!"
-msgstr ""
+msgstr "Poku¹ava¹ dodati stranicu meðjutim nijedan KWizard nije definiran!"
 
 #: kdeui/knotebook.cpp:178 kdeui/kwizard.cpp:120 po/texts.cpp:41
 msgid "&Cancel"
 msgstr "&Odustani"
 
-# , fuzzy
 #: kdeui/knotebook.cpp:201 kdeui/kwizard.cpp:143
 msgid "&Default"
 msgstr "&Uobièajeno"
@@ -478,23 +472,22 @@ msgstr "Po&moæ"
 msgid "&Ok"
 msgstr "&U redu"
 
-#: kdeui/ktoolbar.cpp:178 kdeui/ktoolbar.cpp:297
+#: kdeui/ktoolbar.cpp:164 kdeui/ktoolbar.cpp:283
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
 msgstr "KToolBarButton: slika je prazna, vjerojatno nedostaje datoteka"
 
-#: kdeui/ktoolbar.cpp:469
+#: kdeui/ktoolbar.cpp:452
 msgid "Left"
 msgstr "Lijevo"
 
-#: kdeui/ktoolbar.cpp:471
+#: kdeui/ktoolbar.cpp:454
 msgid "Right"
 msgstr "Desno"
 
-# , fuzzy, c-format
 #: kdeui/kwizard.cpp:492 kdeui/kwizard.cpp:625
 #, c-format
 msgid "Page %d of %d"
-msgstr "Redak: %d Stupac: %d"
+msgstr "Stranica %d od %d"
 
 #: kfile/bookmark.cpp:246
 msgid "<!-- Do not edit this file -->"
@@ -827,26 +820,27 @@ msgstr "slika"
 msgid "folder"
 msgstr "direktorij"
 
-# , c-format
 #: kfmlib/kfm.cpp:197
 #, c-format
 msgid ""
 "You dont have the file %s\n"
 "Could not do Authorization"
 msgstr ""
+"Datoteka %s ne postoji\n"
+"Ne mogu izvr¹iti provjeru"
 
-# , fuzzy
 #: kfmlib/kfm.cpp:200 kfmlib/kfm.cpp:210
 msgid "KFM Error"
-msgstr "Gre¹ka"
+msgstr "KFM Gre¹ka"
 
-# , c-format
 #: kfmlib/kfm.cpp:208
 #, c-format
 msgid ""
 "The file %s is corrupted\n"
 "Could not do Authorization"
 msgstr ""
+"Datoteka %s je o¹teæena\n"
+"Ne mogu izvr¹iti provjeru"
 
 #: po/texts.cpp:24
 msgid "Error"
@@ -1192,66 +1186,58 @@ msgstr "Izgled"
 msgid "Print"
 msgstr "Ispis"
 
-# , fuzzy
 #: po/texts.cpp:130
 msgid "Monday"
-msgstr "Svibanj"
+msgstr "Ponedjeljak"
 
 #: po/texts.cpp:131
 msgid "Tuesday"
-msgstr ""
+msgstr "Utorak"
 
 #: po/texts.cpp:132
 msgid "Wednesday"
-msgstr ""
+msgstr "Srijeda"
 
-# , fuzzy
 #: po/texts.cpp:133
 msgid "Thursday"
-msgstr "Treæi"
+msgstr "Èetvrtak"
 
-# , fuzzy
 #: po/texts.cpp:134
 msgid "Friday"
-msgstr "Primarni"
+msgstr "Petak"
 
 #: po/texts.cpp:135
 msgid "Saturday"
-msgstr ""
+msgstr "Subota"
 
-# , fuzzy
 #: po/texts.cpp:136
 msgid "Sunday"
-msgstr "&Zvuk"
+msgstr "Nedjelja"
 
 #: po/texts.cpp:137
 msgid "&Update"
-msgstr "Os&vje¾avi"
+msgstr "Os&vje¾i"
 
-# , fuzzy
 #: po/texts.cpp:138
 msgid "Layout"
-msgstr "Izgled "
+msgstr "Izgled"
 
 #: po/texts.cpp:139
 msgid "Highscore"
-msgstr ""
+msgstr "Najvi¹i rezultat"
 
-# , fuzzy
 #: po/texts.cpp:140
 msgid "&New View"
-msgstr "Po&gledaj"
+msgstr "&Novi pogled"
 
 #: po/texts.cpp:141
 msgid "&Insert"
-msgstr ""
+msgstr "&Umetni"
 
-# , fuzzy
 #: po/texts.cpp:144
 msgid "&Next >>"
-msgstr "Slj&edeæi"
+msgstr "&Slijedeæi >>"
 
-# , fuzzy
 #: po/texts.cpp:145
 msgid "<< &Previous"
-msgstr "&Prethodni"
+msgstr "<< &Prethodni"
