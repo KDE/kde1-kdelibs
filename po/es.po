@@ -1,10 +1,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1999-01-27 01:01+0100\n"
-"PO-Revision-Date: 1999-01-20 17:25+0100\n"
-"Last-Translator: Antonio Larrosa <larrosa@kde.org>\n"
-"Language-Team: Spanish <kde-es@kyb.ml.org>\n"
+"POT-Creation-Date: 1999-01-19 01:03+0100\n"
+"PO-Revision-Date: 1999-01-20 19:33+0100\n"
+"Last-Translator: Boris Wesslowski <Boris@Wesslowski.com>\n"
+"Language-Team: Spanish <kde-es@kyb.uni-stuttgart.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"First-Translator: Boris Wesslowski <Boris@Wesslowski.com>\n"
 
 #: kab/AssertDialog.cpp:29
 msgid "(unknown file)"
@@ -34,7 +38,7 @@ msgstr "Cerrar la aplicación con pérdida de todos los datos"
 msgid "Send an email to the application maintainer"
 msgstr "Mandar correo al responsable de la aplicación"
 
-#: kab/AssertDialog.cpp:51 kab/datepickerdialog.cc:25 kab/kabapi.cc:34
+#: kab/AssertDialog.cpp:51 kab/datepickerdialog.cc:25 kab/kabapi.cc:35
 #: kdeui/kcolordlg.cpp:467 kdeui/kcontrol.cpp:46 kdeui/kcontrol.cpp:51
 #: kdeui/keditcl1.cpp:141 kdeui/keditcl1.cpp:155 kdeui/keditcl1.cpp:170
 #: kdeui/keditcl1.cpp:191 kdeui/keditcl1.cpp:204 kdeui/keditcl1.cpp:1561
@@ -248,95 +252,95 @@ msgstr "Valores permitidos:"
 msgid "Selected values:"
 msgstr "Valores seleccionados:"
 
-#: kdecore/kaccel.cpp:223 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1217
+#: kdecore/kaccel.cpp:231 kfile/kfiledialog.cpp:558 kfile/kfiledialog.cpp:1217
 #: kfile/kfiledialog.cpp:1377 kfile/kfiledialog.cpp:1411 po/texts.cpp:65
 msgid "Open"
 msgstr "Abrir"
 
-#: kdecore/kaccel.cpp:227
+#: kdecore/kaccel.cpp:235
 msgid "New"
 msgstr "Nuevo"
 
-#: kab/searchresults.cc:30 kdecore/kaccel.cpp:231 po/texts.cpp:80
+#: kab/searchresults.cc:30 kdecore/kaccel.cpp:239 po/texts.cpp:80
 msgid "Close"
 msgstr "Cerrar"
 
-#: kdecore/kaccel.cpp:235 kfile/kfiledialog.cpp:1272
+#: kdecore/kaccel.cpp:243 kfile/kfiledialog.cpp:1272
 #: kfile/kfiledialog.cpp:1432 po/texts.cpp:75
 msgid "Save"
 msgstr "Guardar"
 
-#: kdecore/kaccel.cpp:239 po/texts.cpp:115
+#: kdecore/kaccel.cpp:247 po/texts.cpp:115
 msgid "Print"
 msgstr "Imprimir"
 
-#: kdecore/kaccel.cpp:243 po/texts.cpp:52
+#: kdecore/kaccel.cpp:251 po/texts.cpp:52
 msgid "Quit"
 msgstr "Cerrar"
 
-#: kdecore/kaccel.cpp:247 po/texts.cpp:69
+#: kdecore/kaccel.cpp:255 po/texts.cpp:69
 msgid "Cut"
 msgstr "Cortar"
 
-#: kdecore/kaccel.cpp:251 po/texts.cpp:56
+#: kdecore/kaccel.cpp:259 po/texts.cpp:56
 msgid "Copy"
 msgstr "Copiar"
 
-#: kdecore/kaccel.cpp:255 po/texts.cpp:58
+#: kdecore/kaccel.cpp:263 po/texts.cpp:58
 msgid "Paste"
 msgstr "Pegar"
 
-#: kdecore/kaccel.cpp:259 po/texts.cpp:93
+#: kdecore/kaccel.cpp:267 po/texts.cpp:93
 msgid "Undo"
 msgstr "Deshacer"
 
-#: kdecore/kaccel.cpp:263 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
+#: kdecore/kaccel.cpp:271 kdeui/keditcl2.cpp:103 kdeui/keditcl2.cpp:120
 #: kdeui/keditcl2.cpp:360 kdeui/keditcl2.cpp:377 kdeui/keditcl2.cpp:676
 #: kdeui/keditcl2.cpp:685 kdeui/keditcl2.cpp:786
 msgid "Find"
 msgstr "Buscar"
 
-#: kdecore/kaccel.cpp:267 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
+#: kdecore/kaccel.cpp:275 kdeui/keditcl2.cpp:423 kdeui/keditcl2.cpp:453
 #: kdeui/keditcl2.cpp:470 kdeui/keditcl2.cpp:789 kspell/kspelldlg.cpp:110
 #: po/texts.cpp:133
 msgid "Replace"
 msgstr "Reemplazar"
 
-#: kdecore/kaccel.cpp:271 po/texts.cpp:134
+#: kdecore/kaccel.cpp:279 po/texts.cpp:134
 msgid "Insert"
 msgstr "Insertar"
 
-#: kdecore/kaccel.cpp:275 kfile/kfiledialog.cpp:131
+#: kdecore/kaccel.cpp:283 kfile/kfiledialog.cpp:131
 msgid "Home"
 msgstr "Personal"
 
-#: kdecore/kaccel.cpp:279
+#: kdecore/kaccel.cpp:287
 msgid "End"
 msgstr "Fin"
 
-#: kdecore/kaccel.cpp:283
+#: kdecore/kaccel.cpp:291
 msgid "Prior"
 msgstr "Anterior"
 
-#: kdecore/kaccel.cpp:287
+#: kdecore/kaccel.cpp:295
 msgid "Next"
 msgstr "Siguiente"
 
-#: kdecore/kaccel.cpp:291 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
+#: kdecore/kaccel.cpp:299 kdetest/klocaletest.cpp:102 kdeui/kcolordlg.cpp:463
 #: kdeui/kcontrol.cpp:35 kfile/kfiledialog.cpp:246 kspell/ksconfig.cpp:212
 #: kspell/kspelldlg.cpp:131 po/texts.cpp:44
 msgid "Help"
 msgstr "Ayuda"
 
-#: kdecore/kaccel.cpp:589 kdecore/kaccel.cpp:653
+#: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:661
 msgid "SHIFT"
 msgstr "CAMBIO"
 
-#: kdecore/kaccel.cpp:593 kdecore/kaccel.cpp:655
+#: kdecore/kaccel.cpp:601 kdecore/kaccel.cpp:663
 msgid "CTRL"
 msgstr "CTRL"
 
-#: kdecore/kaccel.cpp:597 kdecore/kaccel.cpp:657
+#: kdecore/kaccel.cpp:605 kdecore/kaccel.cpp:665
 msgid "ALT"
 msgstr "ALT"
 
@@ -396,7 +400,7 @@ msgstr "Sí"
 msgid "No"
 msgstr "No"
 
-#: kab/datepickerdialog.cc:26 kab/kabapi.cc:37 kab/widget.cc:1384
+#: kab/datepickerdialog.cc:26 kab/kabapi.cc:38 kab/widget.cc:1384
 #: kab/widget.cc:1426 kdetest/klocaletest.cpp:103 kdeui/kcolordlg.cpp:470
 #: kdeui/kcontrol.cpp:48 kdeui/kcontrol.cpp:55 kdeui/keditcl1.cpp:414
 #: kdeui/keditcl1.cpp:496 kdeui/keditcl2.cpp:895 kdeui/kfontdialog.cpp:403
@@ -517,7 +521,7 @@ msgstr "Vie"
 msgid "Sat"
 msgstr "Sab"
 
-#: kab/kabapi.cc:138 kab/widget.cc:832 kab/widget.cc:852 kab/widget.cc:1916
+#: kab/kabapi.cc:139 kab/widget.cc:832 kab/widget.cc:852 kab/widget.cc:1916
 #: kdeui/keditcl1.cpp:139 kdeui/keditcl1.cpp:168 kdeui/keditcl1.cpp:189
 #: kdeui/keditcl1.cpp:202 kdeui/keditcl1.cpp:1559 po/texts.cpp:83
 msgid "Sorry"
@@ -924,7 +928,7 @@ msgstr "Contenido:"
 msgid "<!-- Do not edit this file -->"
 msgstr "<!-- No modifique este archivo -->"
 
-#: kab/addressbook.cc:1055 kfile/kfiledetaillist.cpp:36
+#: kab/addressbook.cc:1052 kfile/kfiledetaillist.cpp:36
 msgid "Name"
 msgstr "Nombre"
 
@@ -1156,7 +1160,7 @@ msgstr "Directorios primero"
 
 #: kfile/kfilefilter.cpp:35
 msgid "*|All Files"
-msgstr "*|Todos los Archivos"
+msgstr "*|Todos los archivos"
 
 #: kfile/kfileinfo.cpp:97 kfile/kfileinfo.cpp:101
 msgid "unknown"
@@ -1264,11 +1268,11 @@ msgstr ""
 
 #: kspell/ksconfig.cpp:66
 msgid "Create Root/Affix combinations not in the dictionary"
-msgstr "Crear combinaciones de Prefijo/Sufijo que no están en el diccionario"
+msgstr "Crear combinaciones raíz/postfijo no estan en el diccionario"
 
 #: kspell/ksconfig.cpp:75
 msgid "Consider run-together words as spelling errors"
-msgstr "Considerar palabras seguidas como errores"
+msgstr "Considerar palabras juntas como errores de ortografía"
 
 #: kspell/ksconfig.cpp:92
 msgid "Dictionary"
@@ -1284,7 +1288,7 @@ msgstr "Latin1"
 
 #: kspell/ksconfig.cpp:148
 msgid "7-Bit/ASCII"
-msgstr "7-Bit/ASCII"
+msgstr "ASCII, 7 bit"
 
 #: kspell/ksconfig.cpp:292
 msgid "English"
@@ -1300,7 +1304,7 @@ msgstr "Alemán"
 
 #: kspell/ksconfig.cpp:311
 msgid "Brazilian Portuguese"
-msgstr "Portugués de Brasil"
+msgstr "Portugués brasiliano"
 
 #: kio/kio_cache.cc:422 kspell/ksconfig.cpp:317
 msgid "Unknown"
@@ -1308,19 +1312,19 @@ msgstr "Desconocido"
 
 #: kspell/ksconfig.cpp:348
 msgid "ISpell Default"
-msgstr "Por Defecto de ISpell"
+msgstr "Por defecto"
 
 #: kspell/kspelldlg.cpp:58
 msgid "Misspelled Word:"
-msgstr "Palabra Mal Deletreada:"
+msgstr "Palabra mal escrita:"
 
 #: kspell/kspelldlg.cpp:68
 msgid "Replacement:"
-msgstr "Sustituir por:"
+msgstr "Reemplazo:"
 
 #: kspell/kspelldlg.cpp:77
 msgid "Suggestions:"
-msgstr "Sugerencias:"
+msgstr "Sugerencia:"
 
 #: kspell/kspelldlg.cpp:88
 msgid "Ignore"
@@ -1328,7 +1332,7 @@ msgstr "Ignorar"
 
 #: kspell/kspelldlg.cpp:99
 msgid "Ignore All"
-msgstr "Ignorar Todo"
+msgstr "Ignorar todos"
 
 #: kspell/kspelldlg.cpp:120 po/texts.cpp:86
 msgid "Add"
@@ -1665,7 +1669,7 @@ msgstr "<< A&nterior"
 msgid "&About..."
 msgstr "&Acerca de..."
 
-#: kab/addressbook.cc:90
+#: kab/addressbook.cc:87
 msgid ""
 "The directory where user specific data for the\n"
 "addressbook application is stored does not exist.\n"
@@ -1677,11 +1681,11 @@ msgstr ""
 "El programa intentará crear\n"
 "         "
 
-#: kab/addressbook.cc:94
+#: kab/addressbook.cc:91
 msgid "and store all local files in this directory."
 msgstr "y guardar todos los archivos locales en este directorio."
 
-#: kab/addressbook.cc:98
+#: kab/addressbook.cc:95
 msgid ""
 "The directory could not be created.\n"
 "Probably you do not have used KDE before, so\n"
@@ -1695,184 +1699,184 @@ msgstr ""
 "en su directorio. Abra el administrador de archivos\n"
 "del KDE kfm para crearlo automáticamente."
 
-#: kab/addressbook.cc:106
+#: kab/addressbook.cc:103
 msgid "The directory has been created.\n"
 msgstr "El directorio ha sido creado.\n"
 
-#: kab/addressbook.cc:140
+#: kab/addressbook.cc:137
 msgid "No addressbook database file, creating new one."
 msgstr "No hay archivo de base de datos para direcciones, creando nuevo."
 
-#: kab/addressbook.cc:159
+#: kab/addressbook.cc:156
 msgid "Tried to load database for creating backup, but failed"
 msgstr "Error al cargar base de datos para hacer un respaldo"
 
-#: kab/addressbook.cc:194
+#: kab/addressbook.cc:191
 msgid "Unable to save to backup file."
 msgstr "Imposible guardar el respaldo."
 
-#: kab/addressbook.cc:200
+#: kab/addressbook.cc:197
 msgid "Unable to reset filename after creating backup."
 msgstr "Imposible cambiar nombre después de crear el respaldo."
 
-#: kab/addressbook.cc:205
+#: kab/addressbook.cc:202
 msgid "Unable to create backup file"
 msgstr "Imposible crear el respaldo"
 
-#: kab/addressbook.cc:263
+#: kab/addressbook.cc:260
 msgid "Unable to insert \""
 msgstr "Imposible insertar \""
 
-#: kab/addressbook.cc:264
+#: kab/addressbook.cc:261
 msgid "\" into configuration section (ignored)."
 msgstr "\" en sección de configuración (ignorado)."
 
-#: kab/addressbook.cc:666
+#: kab/addressbook.cc:663
 msgid "Unable to add a new entry with available key."
 msgstr "Imposible añadir entrada nueva con tecla disponible."
 
-#: kab/addressbook.cc:672
+#: kab/addressbook.cc:669
 msgid "Cannot find previously created section."
 msgstr "No se pudo encontrar sección previamente creada."
 
-#: kab/addressbook.cc:703
+#: kab/addressbook.cc:700
 msgid "Unable to create key-value-map for entry."
 msgstr "Imposible crear mapa de valores de teclas para entrada."
 
-#: kab/addressbook.cc:932
+#: kab/addressbook.cc:929
 msgid "entry without name"
 msgstr "entrada sin nombre"
 
-#: kab/addressbook.cc:950
+#: kab/addressbook.cc:947
 msgid ""
 "Unable to create new database file (probably permission denied), exiting."
 msgstr "Imposible crear nueva base de datos (probablemente permiso denegado)."
 
-#: kab/addressbook.cc:956
+#: kab/addressbook.cc:953
 msgid "Cannot create configuration section, exiting."
 msgstr "Imposible crear sección de configuración."
 
-#: kab/addressbook.cc:961
+#: kab/addressbook.cc:958
 msgid "Cannot create entries section, exiting."
 msgstr "Imposible crear entradas de sección."
 
-#: kab/addressbook.cc:966
+#: kab/addressbook.cc:963
 msgid "Unable to find previously created section, exiting."
 msgstr "Imposible encontrar seciión previamente creada."
 
-#: kab/addressbook.cc:974
+#: kab/addressbook.cc:971
 msgid "Cannot save newly created database."
 msgstr "No se pudo guardar base de datos nueva."
 
-#: kab/addressbook.cc:980
+#: kab/addressbook.cc:977
 msgid "Cannot erase database contents."
 msgstr "No se pudo suprimir el contenido de la base de datos."
 
-#: kab/addressbook.cc:1059
+#: kab/addressbook.cc:1056
 msgid "First name"
 msgstr "Primer nombre"
 
-#: kab/addressbook.cc:1063
+#: kab/addressbook.cc:1060
 msgid "Additional name"
 msgstr "Nombre adicional"
 
-#: kab/addressbook.cc:1067
+#: kab/addressbook.cc:1064
 msgid "Name prefix"
 msgstr "Prefijo"
 
-#: kab/addressbook.cc:1071
+#: kab/addressbook.cc:1068
 msgid "Formatted name"
 msgstr "Nombre formateado"
 
-#: kab/addressbook.cc:1075
+#: kab/addressbook.cc:1072
 msgid "Comment"
 msgstr "Comentario"
 
-#: kab/addressbook.cc:1079
+#: kab/addressbook.cc:1076
 msgid "Organization"
 msgstr "Organización"
 
-#: kab/addressbook.cc:1083
+#: kab/addressbook.cc:1080
 msgid "Unit"
 msgstr "Unidad"
 
-#: kab/addressbook.cc:1087
+#: kab/addressbook.cc:1084
 msgid "Subunit"
 msgstr "Subunidad"
 
-#: kab/addressbook.cc:1091
+#: kab/addressbook.cc:1088
 msgid "Title"
 msgstr "Título"
 
-#: kab/addressbook.cc:1095
+#: kab/addressbook.cc:1092
 msgid "Role"
 msgstr "Papel"
 
-#: kab/addressbook.cc:1099
+#: kab/addressbook.cc:1096
 msgid "Birthday"
 msgstr "Cumpleaños"
 
-#: kab/addressbook.cc:1103
+#: kab/addressbook.cc:1100
 msgid "Talk addresses"
 msgstr "Dirección para talk"
 
-#: kab/addressbook.cc:1107
+#: kab/addressbook.cc:1104
 msgid "Delivery label"
 msgstr "Marca de envío"
 
-#: kab/addressbook.cc:1111
+#: kab/addressbook.cc:1108
 msgid "Email address"
 msgstr "Dirección de email"
 
-#: kab/addressbook.cc:1115
+#: kab/addressbook.cc:1112
 msgid "Second email address"
 msgstr "Segunda dirección de email"
 
-#: kab/addressbook.cc:1119
+#: kab/addressbook.cc:1116
 msgid "Third email address"
 msgstr "Tercera dirección de email"
 
-#: kab/addressbook.cc:1123
+#: kab/addressbook.cc:1120
 msgid "Email addresses"
 msgstr "Direcciónes de email"
 
-#: kab/addressbook.cc:1127
+#: kab/addressbook.cc:1124
 msgid "Address"
 msgstr "Dirección"
 
-#: kab/addressbook.cc:1131
+#: kab/addressbook.cc:1128
 msgid "City/Town"
 msgstr "Ciudad"
 
-#: kab/addressbook.cc:1135
+#: kab/addressbook.cc:1132
 msgid "Telephone"
 msgstr "Teléfono"
 
-#: kab/addressbook.cc:1139
+#: kab/addressbook.cc:1136
 msgid "Fax number"
 msgstr "Número de fax"
 
-#: kab/addressbook.cc:1143
+#: kab/addressbook.cc:1140
 msgid "Modem number"
 msgstr "Número de modem"
 
-#: kab/addressbook.cc:1147
+#: kab/addressbook.cc:1144
 msgid "Homepage URL"
 msgstr "URL del homepage"
 
-#: kab/addressbook.cc:1151
+#: kab/addressbook.cc:1148
 msgid "Zip/postal code"
 msgstr "Código postal"
 
-#: kab/addressbook.cc:1155
+#: kab/addressbook.cc:1152
 msgid "State/province"
 msgstr "Estado/provincia"
 
-#: kab/addressbook.cc:1159
+#: kab/addressbook.cc:1156
 msgid "Country"
 msgstr "País"
 
-#: kab/addressbook.cc:1326
+#: kab/addressbook.cc:1323
 msgid "(unnamed entry)"
 msgstr "(entrada sin nombre)"
 
@@ -1934,15 +1938,15 @@ msgstr "Organización:"
 
 #: kab/editentry.cc:146
 msgid "Department:"
-msgstr "Departamento:"
+msgstr "Area:"
 
 #: kab/editentry.cc:147
 msgid "Sub-Department:"
-msgstr "Sub-Departamento:"
+msgstr "Sub-area:"
 
 #: kab/editentry.cc:148
 msgid "Job/Role:"
-msgstr "Trabajo/Papel:"
+msgstr "Papel:"
 
 #: kab/editentry.cc:169
 msgid "&Organization"
@@ -1978,7 +1982,7 @@ msgstr "&Contacto"
 
 #: kab/editentry.cc:239
 msgid "Additional Comment:"
-msgstr "Comentario Adicional:"
+msgstr "Comentario adicional:"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
@@ -1986,13 +1990,13 @@ msgstr "Cumpleaños:"
 
 #: kab/editentry.cc:249
 msgid "Double click to set date"
-msgstr "Haga doble click para poner la fecha"
+msgstr "Haga doble click para poner la hora"
 
 #: kab/editentry.cc:256
 msgid "O&thers"
 msgstr "O&tros"
 
-#: kab/kabapi.cc:138
+#: kab/kabapi.cc:139
 msgid "Your new entry could not be added."
 msgstr "Su nueva entrada no pudo ser añadida."
 
@@ -3041,12 +3045,3 @@ msgid ""
 msgstr ""
 "\n"
 "no contiene una entrada Name=..."
-
-#~ msgid "Org Unit:"
-#~ msgstr "Unidad organizacional"
-
-#~ msgid "Org Subunit:"
-#~ msgstr "Subundad organizacional"
-
-#~ msgid "Comment:"
-#~ msgstr "Comentario:"
