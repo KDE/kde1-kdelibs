@@ -907,7 +907,7 @@ msgstr "Pozrie»"
 
 #: po/texts.cpp:51
 msgid "&View"
-msgstr "&Zobraz"
+msgstr "&Zobrazi»"
 
 #: po/texts.cpp:52
 msgid "E&xit"
@@ -1019,7 +1019,7 @@ msgstr "Ulo¾i» &ako"
 
 #: po/texts.cpp:85
 msgid "Close"
-msgstr "Zavri"
+msgstr "Zavrie»"
 
 #: po/texts.cpp:86
 msgid "&Close"
@@ -1051,7 +1051,7 @@ msgstr "Zmaza»"
 
 #: po/texts.cpp:95
 msgid "&Delete"
-msgstr "&Zma¾"
+msgstr "&Zmaza»"
 
 #: po/texts.cpp:96
 msgid "Clear"
