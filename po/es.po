@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
 "POT-Creation-Date: 1998-11-24 01:00+0100\n"
-"PO-Revision-Date: 1998-11-24 21:30+0100\n"
+"PO-Revision-Date: 1998-11-27 19:29+0100\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 "Language-Team: Spanish <kde-es@kyb.ml.org>\n"
 
@@ -1853,7 +1853,7 @@ msgstr ""
 
 #: kab/widget.cc:226
 msgid "kab: Removed bug warning"
-msgstr ""
+msgstr "kab: advertencia de error corregido"
 
 #: kab/widget.cc:227
 msgid ""
@@ -1864,6 +1864,12 @@ msgid ""
 "All configuration values have been reset to\n"
 "its default settings."
 msgstr ""
+"La versión de kab que estaba usando tenía un\n"
+"error en la actualización de la base de datos\n"
+"para nuevas versiones. Este error ha sido\n"
+"corregido y ya no lo afectará más.\n"
+"Los valores de la configuración han sido\n"
+"repuestos por los valores por defecto."
 
 #: kab/widget.cc:245 kab/widget.cc:309 kab/widget.cc:317
 msgid "File handling error"
@@ -2866,9 +2872,3 @@ msgid ""
 msgstr ""
 "\n"
 "no contiene una entrada Name=..."
-
-#~ msgid "Search"
-#~ msgstr "Buscar"
-
-#~ msgid "contains"
-#~ msgstr "contiene"
