@@ -91,7 +91,7 @@ msgstr "Adaugã la culorile utilizator"
 #: kdeui/kiconloaderdialog.cpp:254 kfile/kfiledialog.cpp:872
 #: kfmlib/kfm.cpp:403 po/texts.cpp:37
 msgid "Ok"
-msgstr "Ok"
+msgstr "Ochei"
 
 #: kdeui/kcolordlg.cpp:788 kdeui/kcolordlg.cpp:840
 msgid "Custom..."
@@ -107,7 +107,7 @@ msgstr "Implicit"
 #: kfile/kfiledialog.cpp:246 kfile/kfiledialog.cpp:492
 #: kfile/kfiledialogconf.cpp:60 po/texts.cpp:35
 msgid "OK"
-msgstr "OK"
+msgstr "Ochei"
 
 #: kdeui/kcontrol.cpp:45 kfile/kfiledialogconf.cpp:59 po/texts.cpp:42
 msgid "Apply"
@@ -283,7 +283,7 @@ msgstr "Nu ai voie sã scrii în acest fiºier !.\n"
 #: kdeui/keditcl2.cpp:379 kdeui/keditcl2.cpp:678 kdeui/keditcl2.cpp:687
 #: kdeui/keditcl2.cpp:788
 msgid "Find"
-msgstr "Gãseºte"
+msgstr "Cautã"
 
 #: kdeui/keditcl2.cpp:106 kdeui/keditcl2.cpp:363 kdeui/keditcl2.cpp:456
 msgid ""
@@ -373,7 +373,7 @@ msgstr "Stil:"
 
 #: kdeui/kfontdialog.cpp:276
 msgid "Charset"
-msgstr "Set de caractere"
+msgstr "Caractere"
 
 #: kdeui/kfontdialog.cpp:287 kfile/kfiledetaillist.cpp:38
 msgid "Size"
@@ -463,7 +463,7 @@ msgstr "&Ajutor"
 
 #: kdeui/knotebook.cpp:247 kdeui/kwizard.cpp:189
 msgid "&Ok"
-msgstr "&Ok"
+msgstr "&Ochei"
 
 #: kdeui/ktoolbar.cpp:178 kdeui/ktoolbar.cpp:297
 msgid "KToolBarButton: pixmap is empty, perhaps some missing file"
@@ -525,7 +525,7 @@ msgstr "Înainte"
 
 #: kfile/kfiledialog.cpp:128
 msgid "Up to parent"
-msgstr "Înapoi la parent"
+msgstr "Înapoi la pãrinte"
 
 #: kfile/kfiledialog.cpp:131
 msgid "Home"
@@ -561,7 +561,7 @@ msgstr "&Locaþia"
 
 #: kfile/kfiledialog.cpp:206
 msgid "&Filter:"
-msgstr "Filtru:"
+msgstr "&Filtru:"
 
 #: kfile/kfiledialog.cpp:220
 msgid "Show hidden"
@@ -700,7 +700,7 @@ msgstr "Aratã un rezumat"
 
 #: kfile/kfiledialogconf.cpp:80
 msgid "Show Detail View"
-msgstr "Aratã in detaliu"
+msgstr "Aratã în detaliu"
 
 #: kfile/kfiledialogconf.cpp:89
 msgid "Misc"
@@ -868,11 +868,11 @@ msgstr "&Ochei"
 
 #: po/texts.cpp:38
 msgid "On"
-msgstr "Pornire"
+msgstr "Activat"
 
 #: po/texts.cpp:39
 msgid "Off"
-msgstr "Oprire"
+msgstr "Dezactivat"
 
 #: po/texts.cpp:43
 msgid "File"
@@ -900,7 +900,7 @@ msgstr "Vizualizare"
 
 #: po/texts.cpp:51
 msgid "&View"
-msgstr "&Aratã"
+msgstr "&Vizualizare"
 
 #: po/texts.cpp:52
 msgid "E&xit"
@@ -908,7 +908,7 @@ msgstr "&Ieºire"
 
 #: po/texts.cpp:53
 msgid "Quit"
-msgstr "Sfîrºeºte"
+msgstr "Terminare"
 
 #: po/texts.cpp:54
 msgid "&Quit"
