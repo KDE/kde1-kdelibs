@@ -58,32 +58,33 @@ msgid ", line "
 msgstr ", linha "
 
 #: kab/AssertDialog.cpp:212 kab/AssertDialog.cpp:217
-#, fuzzy
 msgid "Error handling error"
-msgstr "Erro de manipulação de arquivo"
+msgstr "Erro de manipulação de erro"
 
 #: kab/AssertDialog.cpp:213
-#, fuzzy
 msgid "Could not send message."
-msgstr "Não consegui salvar banco de dados."
+msgstr "Não consegui mandar mensagem."
 
 #: kab/AssertDialog.cpp:218
-#, fuzzy
 msgid "The author did not publish an email address."
-msgstr "O terceiro e-mail"
+msgstr "O autor não publicou um e-mail."
 
 #: kab/DialogBase.cpp:36
 msgid ""
 "If you press the OK button, all changes\n"
 "you made will be used to proceed."
-msgstr ""
+msgstr "Se você pressionar o botão OK, todas as mudanças\n"
+"que você fez serão procedidas."
 
 #: kab/DialogBase.cpp:39
 msgid ""
 "When clicking apply, the settings will be\n"
 "handed over to the program, but the dialog\n"
 "will not be closed.Use this to try different settings."
-msgstr ""
+msgstr "Ao clicar Aplicar, as configurações serão\n"
+       "efetivadas, mas a janela não será fechada.\n"
+       "Utilize esta opção para tentar configurações\n" 
+       "diferentes."
 
 #: kab/DialogBase.cpp:44
 msgid ""
@@ -92,7 +93,11 @@ msgid ""
 "will be closed.\n"
 "The program will be in the state before\n"
 "opening the dialog."
-msgstr ""
+msgstr "Se você pressionar o botão Cancelar, todas\n" 
+       "as mudanças que você fez serão abandonadas\n"
+       "e a janela será fechada.\n"
+       "O programa continuará no estado anterior à\n"
+       "abertura da janela."
 
 #: kab/DialogBase.cpp:57 kdeui/kkeydialog.cpp:242 kdeui/knotebook.cpp:247
 #: kdeui/kwizard.cpp:228 po/texts.cpp:36
@@ -100,9 +105,8 @@ msgid "&OK"
 msgstr "&OK"
 
 #: kab/DialogBase.cpp:58
-#, fuzzy
 msgid "&Apply"
-msgstr "Aplicar"
+msgstr "&Aplicar"
 
 #: kab/DialogBase.cpp:59 kdeui/kkeydialog.cpp:245 kdeui/knotebook.cpp:178
 #: kdeui/kwizard.cpp:159 po/texts.cpp:40
@@ -202,40 +206,36 @@ msgid "The comment"
 msgstr "O comentário"
 
 #: kab/SearchDialog.cpp:74
-#, fuzzy
 msgid "kab: Search entries"
-msgstr "Procurar items"
+msgstr "kab: Procurar items"
 
 #: kab/SearchDialogMainWidget.cpp:22
 msgid "matches"
-msgstr ""
+msgstr "coincide"
 
 #: kab/SearchDialogMainWidget.cpp:23
 msgid "Use shell wildcard patterns here"
-msgstr ""
+msgstr "Use coringas aqui"
 
 #: kab/SearchDialogMainWidget.cpp:24
-#, fuzzy
 msgid "Select field to match the pattern"
-msgstr "kab: Selecione campos a copiar"
+msgstr "Selecione campos a cumprir os requisitos"
 
 #: kab/StringListEditWidget.cpp:30
-#, fuzzy
 msgid "Add a new string"
-msgstr "adicionar um novo registro"
+msgstr "Adicionar uma novo texto"
 
 #: kab/StringListEditWidget.cpp:31
-#, fuzzy
 msgid "Move this string up"
-msgstr "remover esse registro"
+msgstr "Mover esse texto para cima"
 
 #: kab/StringListEditWidget.cpp:32
 msgid "Move this string down"
-msgstr ""
+msgstr "Mover esse texto para baixo"
 
 #: kab/StringListEditWidget.cpp:33
 msgid "Delete this string"
-msgstr ""
+msgstr "Apagar esse texto"
 
 #: kab/StringListSelectAndReorderSet.cpp:34
 msgid "Possible values:"
@@ -1563,9 +1563,8 @@ msgid "Cannot find previously created section."
 msgstr "Impossível encontrar seção criada previamente"
 
 #: kab/addressbook.cc:696
-#, fuzzy
 msgid "Unable to create key-value-map for entry."
-msgstr "Impossível criar arquivo de cópia de segurança"
+msgstr "Impossível criar mapa de valores de chaves para o item."
 
 #: kab/addressbook.cc:925
 msgid "entry without name"
@@ -1816,7 +1815,7 @@ msgstr "Data de nascimento:"
 
 #: kab/editentry.cc:249
 msgid "Double click to set date"
-msgstr ""
+msgstr "Clique duas vezes para mudar data"
 
 #: kab/editentry.cc:256
 msgid "O&thers"
@@ -1856,7 +1855,7 @@ msgstr ""
 
 #: kab/widget.cc:224
 msgid "kab: Removed bug warning"
-msgstr ""
+msgstr "kab: Aviso de bug removido"
 
 #: kab/widget.cc:225
 msgid ""
@@ -1866,7 +1865,13 @@ msgid ""
 "now and will not affect you anymore.\n"
 "All configuration values have been reset to\n"
 "its default settings."
-msgstr ""
+msgstr "A versão do kab que você usou antes tinha\n"
+       "um problema concernente à atualização do\n"
+       "banco de dados para novas versões. Esse \n"
+       "erro foi removido e não vai mais lhe afetar.\n"
+       "Todos os valores da configuração foram\n"
+       "preenchidos com os valores originais."
+ 
 
 #: kab/widget.cc:243 kab/widget.cc:307 kab/widget.cc:315
 msgid "File handling error"
@@ -2019,25 +2024,23 @@ msgstr "Banco de dados salvo."
 
 #: kab/widget.cc:860
 msgid "kab: File error"
-msgstr ""
+msgstr "kab: erro de arquivo"
 
 #: kab/widget.cc:860
 msgid "Could not save database."
 msgstr "Não consegui salvar banco de dados."
 
 #: kab/widget.cc:861
-#, fuzzy
 msgid "&Retry"
-msgstr "Restaurar"
+msgstr "&Tentar novamente"
 
 #: kab/widget.cc:861
 msgid "&Ignore"
-msgstr ""
+msgstr "&Ignorar"
 
 #: kab/widget.cc:864
-#, fuzzy
 msgid "Saving cancelled.\n"
-msgstr "Impressão cancelada."
+msgstr "Salvamento cancelado.\n"
 
 #: kab/widget.cc:930
 msgid "Entry changed."
@@ -2145,9 +2148,8 @@ msgid "KDE addressbook overview"
 msgstr "Visão geral do Livro de Endereços do KDE"
 
 #: kab/widget.cc:1790
-#, fuzzy
 msgid "Name-Email-Link (!!)"
-msgstr "Nome-Email-Link (recomendado!)"
+msgstr "Nome-Email-Link (!!)"
 
 #: kab/widget.cc:1792
 msgid "Select table columns"
@@ -2202,18 +2204,16 @@ msgid "Empty email address."
 msgstr "Endereço de e-mail vazio."
 
 #: kab/widget.cc:2063
-#, fuzzy
 msgid "No email address."
-msgstr "Nenhum endereço de comunicação."
+msgstr "Nenhum e-mail."
 
 #: kab/widget.cc:2073
-#, fuzzy
 msgid "Error calling mailer."
-msgstr "Erro: Não é um arquivo local"
+msgstr "Erro ao chamar programa de correio."
 
 #: kab/widget.cc:2075
 msgid "Mailer called."
-msgstr ""
+msgstr "Programa de correio chamou."
 
 #: kab/widget.cc:2098
 msgid "The mail command must be configured before!"
@@ -2562,26 +2562,22 @@ msgstr ""
 "terminou inesperadamente"
 
 #: kio/kio_error.cc:103
-#, fuzzy, c-format
 msgid ""
 "Could not access\n"
 "%s"
-msgstr ""
-"Não consegui iniciar processo\n"
+msgstr "Não consegui acessar\n"
 "%s"
 
 #: kio/kio_error.cc:106
-#, fuzzy, c-format
 msgid ""
 "Unknown error code %i\n"
 "%s\n"
 "\n"
 "Please send a full bugreport to kde-bugs@kde.org"
-msgstr ""
-"Erro Interno\n"
-"Queira mandar um relatório de bugs para kde-bugs@kde.org\n"
+msgstr "Erro desconhecido, código %i\n"
+"%s\n"
 "\n"
-"%s"
+"Queira mandar um relatório completo para kde-bugs@kde.org"
 
 #: kio/kio_error.cc:118 kio/kio_linedit_dlg.cc:42 kio/kio_openwith.cc:260
 #: kio/kio_pass_dlg.cc:75 kio/kio_paste.cc:48 kio/kio_paste.cc:60
@@ -2723,14 +2719,12 @@ msgid "Overwrite All"
 msgstr "Sobreescrever todos"
 
 #: kio/kio_rename_dlg.cc:59
-#, fuzzy
 msgid "Resume"
-msgstr "Remover"
+msgstr "Continuar"
 
 #: kio/kio_rename_dlg.cc:64
-#, fuzzy
 msgid "Resume All"
-msgstr "Substituir Tudo"
+msgstr "Continuar todos"
 
 #: kio/kio_rename_dlg.cc:75
 msgid "You try to overwrite"
@@ -2761,14 +2755,12 @@ msgid "You must not change the protocol"
 msgstr "Você não pode mudar o protocolo"
 
 #: kio/kio_skip_dlg.cc:35
-#, fuzzy
 msgid "Can not write"
-msgstr "Impossível sobreescrever"
+msgstr "Impossível escrever"
 
 #: kio/kio_skip_dlg.cc:46
-#, fuzzy
 msgid "Permission denied!"
-msgstr "Permissão negada."
+msgstr "Permissão negada!"
 
 #: kio/kmimetypes.cc:61
 msgid "No mime types installed!"
