@@ -464,7 +464,7 @@ msgstr "Archivo"
 #: po/texts.cpp:52
 #, fuzzy
 msgid "E&xit"
-msgstr "Edición"
+msgstr "&Salir"
 
 #: po/texts.cpp:53
 msgid "Quit"
