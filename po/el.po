@@ -1,27 +1,30 @@
-
 msgid ""
 msgstr ""
 "Project-Id-Version: kdelibs\n"
-"POT-Creation-Date: 1998-01-02 21:12+0100\n"
+"POT-Creation-Date: 1998-01-03 16:29+0100\n"
 "PO-Revision-Date: 1998-01-02 17:06+0100\n"
 "Last-Translator: Fotis Andritsopoulos <fandrit@duth.gr>\n"
 
-#: kdecore/kapp.cpp:407 kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34
-#: po/texts.cpp:43
-msgid "Help"
+#: kdecore/kapp.cpp:410
+#, fuzzy
+msgid "&Help..."
 msgstr "Βοήθεια"
 
-#: kdecore/kapp.cpp:412
+#: kdecore/kapp.cpp:415
 #, fuzzy
-msgid "About "
+msgid "&About"
 msgstr "Σχετικά"
 
-#: kdecore/kapp.cpp:416 kdecore/kapp.cpp:437
+#: kdecore/kapp.cpp:419
 #, fuzzy
+msgid "About &KDE..."
+msgstr "Σχετικά"
+
+#: kdecore/kapp.cpp:440
 msgid "About KDE"
 msgstr "Σχετικά"
 
-#: kdecore/kapp.cpp:439
+#: kdecore/kapp.cpp:442
 msgid ""
 "The KDE Desktop Environment was written by the KDE team.\n"
 "\n"
@@ -38,10 +41,12 @@ msgstr ""
 "Στείλτε μας αναφορές για τυχόν προβλήματα στη διεύθυνση kde-bugs@kde.org.\n"
 "\n"
 "\n"
-"To KDE αναπτύχ8ηκε βάσει της Qt, μίας βιβλιοθήκης γραφικών για διάφορες πλατφόρμες.\n"
+"To KDE αναπτύχ8ηκε βάσει της Qt, μίας βιβλιοθήκης γραφικών για διάφορες "
+"πλατφόρμες.\n"
 "\n"
 "Η Qt είναι προϊόν της Troll Tech (http://www.troll.no, info@troll.no).\n"
-"Ηη Qt μπορεί να χρησιμοποιηθεί ελεύθερα για την ανάπτυξη δωρεάν λογισμικού για το X Window System.\n"
+"Ηη Qt μπορεί να χρησιμοποιηθεί ελεύθερα για την ανάπτυξη δωρεάν λογισμικού "
+"για το X Window System.\n"
 
 # libkdeui messages
 #: kdeui/kcolordlg.cpp:283
@@ -61,14 +66,18 @@ msgid "Add to Custom Colors"
 msgstr "Προσθήκη Διαμορφωμένου Χρώματος"
 
 #: kdeui/kcolordlg.cpp:461 kdeui/kfontdialog.cpp:351
-#: kdeui/kiconloaderdialog.cpp:210 po/texts.cpp:36
+#: kdeui/kiconloaderdialog.cpp:210 po/texts.cpp:37
 msgid "Ok"
 msgstr "OK"
 
 #: kdeui/kcolordlg.cpp:464 kdeui/kcontrol.cpp:41 kdeui/kfontdialog.cpp:346
-#: kdeui/kiconloaderdialog.cpp:211 po/texts.cpp:39
+#: kdeui/kiconloaderdialog.cpp:211 po/texts.cpp:40
 msgid "Cancel"
 msgstr "Ακύρωση"
+
+#: kdeui/kcolordlg.cpp:469 kdeui/kcontrol.cpp:34 po/texts.cpp:45
+msgid "Help"
+msgstr "Βοήθεια"
 
 #: kdeui/kcolordlg.cpp:786 kdeui/kcolordlg.cpp:838
 msgid "Custom..."
@@ -78,7 +87,7 @@ msgstr "Διαμόρφωση"
 msgid "OK"
 msgstr "OK"
 
-#: kdeui/kcontrol.cpp:40 po/texts.cpp:40
+#: kdeui/kcontrol.cpp:40 po/texts.cpp:42
 msgid "Apply"
 msgstr "Ενεργοποίησε"
 
@@ -181,11 +190,11 @@ msgid "Floating"
 msgstr "Επιπλέον"
 
 #: kdeui/kmenubar.cpp:188 kdeui/kmenubar.cpp:327 kdeui/ktoolbar.cpp:831
-#: kdeui/ktoolbar.cpp:1362
+#: kdeui/ktoolbar.cpp:1373
 msgid "Float"
 msgstr "Επέπλευσε"
 
-#: kdeui/kmenubar.cpp:316 kdeui/ktoolbar.cpp:1352
+#: kdeui/kmenubar.cpp:316 kdeui/ktoolbar.cpp:1363
 msgid "UnFloat"
 msgstr "Βούλιαξε"
 
@@ -239,280 +248,269 @@ msgid "About"
 msgstr "Σχετικά"
 
 #: po/texts.cpp:33
-#, fuzzy
 msgid "A&bout..."
 msgstr "Σχετικά"
 
-#: po/texts.cpp:37
+#: po/texts.cpp:36
 #, fuzzy
-msgid "On"
-msgstr "¶νοιξε"
+msgid "&OK"
+msgstr "OK"
 
 #: po/texts.cpp:38
+msgid "On"
+msgstr "¶νοιχτό"
+
+#: po/texts.cpp:39
 msgid "Off"
 msgstr "Κλειστό"
 
 #: po/texts.cpp:41
+#, fuzzy
+msgid "&Cancel"
+msgstr "Ακύρωση"
+
+#: po/texts.cpp:43
 msgid "File"
 msgstr "Αρχείο"
 
-#: po/texts.cpp:42
-#, fuzzy
+#: po/texts.cpp:44
 msgid "&File"
 msgstr "Αρχείο"
 
-#: po/texts.cpp:44
-#, fuzzy
+#: po/texts.cpp:46
 msgid "&Help"
 msgstr "Βοήθεια"
 
-#: po/texts.cpp:45
+#: po/texts.cpp:47
 msgid "Edit"
 msgstr "Διορθωση"
 
-#: po/texts.cpp:46
-#, fuzzy
+#: po/texts.cpp:48
 msgid "&Edit"
-msgstr "Διώρθωση"
+msgstr "Διόρθωση"
 
-#: po/texts.cpp:47
+#: po/texts.cpp:49
 msgid "&Options"
 msgstr "Επιλογές"
 
-#: po/texts.cpp:48
+#: po/texts.cpp:50
 msgid "View"
 msgstr "Προβολή"
 
-#: po/texts.cpp:49
-#, fuzzy
+#: po/texts.cpp:51
 msgid "&View"
 msgstr "Προβολή"
 
-#: po/texts.cpp:50
-#, fuzzy
+#: po/texts.cpp:52
 msgid "E&xit"
 msgstr "Διόρθωση"
 
-#: po/texts.cpp:51
+#: po/texts.cpp:53
 msgid "Quit"
 msgstr "Τερματισμός"
 
-#: po/texts.cpp:52
-#, fuzzy
+#: po/texts.cpp:54
 msgid "&Quit"
 msgstr "Τερματισμός"
 
-#: po/texts.cpp:53
+#: po/texts.cpp:55
 msgid "Reload"
 msgstr "Επαναφόρτωμα"
 
-#: po/texts.cpp:54
+#: po/texts.cpp:56
 msgid "Back"
 msgstr "Πίσω"
 
-#: po/texts.cpp:55
+#: po/texts.cpp:57
 msgid "Forward"
 msgstr "Επόμενο"
 
-#: po/texts.cpp:56
+#: po/texts.cpp:58
 msgid "Copy"
 msgstr "Αντιγραφή"
 
-#: po/texts.cpp:57
+#: po/texts.cpp:59
 msgid "&Copy"
 msgstr "Αντιγραφή"
 
-#: po/texts.cpp:58
+#: po/texts.cpp:60
 msgid "Paste"
 msgstr "Επικόλληση"
 
-#: po/texts.cpp:59
+#: po/texts.cpp:61
 msgid "&Paste"
 msgstr "Επικόλληση"
 
-#: po/texts.cpp:60
+#: po/texts.cpp:62
 msgid "New"
 msgstr "Νέο"
 
-#: po/texts.cpp:61
+#: po/texts.cpp:63
 msgid "&New"
 msgstr "Νέο"
 
-#: po/texts.cpp:62
-#, fuzzy
+#: po/texts.cpp:64
 msgid "&New..."
 msgstr "Νέο"
 
-#: po/texts.cpp:63
+#: po/texts.cpp:65
 msgid "&New Window..."
 msgstr "Νέο Παράθυρο"
 
-#: po/texts.cpp:64
+#: po/texts.cpp:66
 msgid "New &Window..."
 msgstr "Νέο Παράθυρο"
 
-#: po/texts.cpp:65
-#, fuzzy
+#: po/texts.cpp:67
 msgid "New Game"
 msgstr "Νέο Παιχνίδι"
 
-#: po/texts.cpp:66
-#, fuzzy
+#: po/texts.cpp:68
 msgid "&New Game"
 msgstr "Νέο Παιχνίδι"
 
-#: po/texts.cpp:67
+#: po/texts.cpp:69
 msgid "Open"
 msgstr "¶νοιξε"
 
-#: po/texts.cpp:68
+#: po/texts.cpp:70
 msgid "Open a file"
 msgstr "¶νοιγμα αρχείου"
 
-#: po/texts.cpp:69
-#, fuzzy
+#: po/texts.cpp:71
 msgid "Open..."
 msgstr "¶νοιξε"
 
-#: po/texts.cpp:70
-#, fuzzy
+#: po/texts.cpp:72
 msgid "&Open..."
 msgstr "¶νοιξε"
 
-#: po/texts.cpp:71
+#: po/texts.cpp:73
 msgid "Cut"
 msgstr "Αποκοπή"
 
-#: po/texts.cpp:72
-#, fuzzy
+#: po/texts.cpp:74
 msgid "C&ut"
 msgstr "Αποκοπή"
 
-#: po/texts.cpp:73
-#, fuzzy
+#: po/texts.cpp:75
 msgid "Font"
 msgstr "Γραμματοσειρά"
 
-#: po/texts.cpp:74
+#: po/texts.cpp:76
 msgid "&Foreground Color"
 msgstr "Χρώμα Προσκηνίου"
 
-#: po/texts.cpp:75
+#: po/texts.cpp:77
 msgid "&Background Color"
 msgstr "Χρώμα Παρασκηνίου"
 
-#: po/texts.cpp:76
+#: po/texts.cpp:78
 msgid "Save"
 msgstr "Σώσε"
 
-#: po/texts.cpp:77
-#, fuzzy
+#: po/texts.cpp:79
 msgid "&Save"
 msgstr "Σώσε"
 
-#: po/texts.cpp:78
+#: po/texts.cpp:80
 msgid "Save As"
 msgstr "Σώσε ως"
 
-#: po/texts.cpp:79
-#, fuzzy
+#: po/texts.cpp:81
 msgid "Save as..."
 msgstr "Σώσε ως"
 
-#: po/texts.cpp:80
-#, fuzzy
+#: po/texts.cpp:82
 msgid "S&ave as..."
 msgstr "Σώσε ως"
 
-#: po/texts.cpp:81
+#: po/texts.cpp:83
 msgid "Close"
 msgstr "Κλείσε"
 
-#: po/texts.cpp:82
-#, fuzzy
+#: po/texts.cpp:84
 msgid "&Close"
 msgstr "Κλείσε"
 
-#: po/texts.cpp:83
+#: po/texts.cpp:85
 msgid "&Print..."
 msgstr "Εκτύπωση"
 
-#: po/texts.cpp:84
+#: po/texts.cpp:86
 msgid "Done"
 msgstr "Έγινε"
 
-#: po/texts.cpp:85
+#: po/texts.cpp:87
 msgid "Sorry"
 msgstr "Λυπάμαι"
 
-#: po/texts.cpp:86
+#: po/texts.cpp:88
 msgid "Options"
 msgstr "Επιλογές"
 
-#: po/texts.cpp:87
+#: po/texts.cpp:89
 msgid "Remove"
 msgstr "Αφαίρεση"
 
-#: po/texts.cpp:88
+#: po/texts.cpp:90
 msgid "Add"
 msgstr "Προσθήκη"
 
-#: po/texts.cpp:89
-#, fuzzy
+#: po/texts.cpp:91
 msgid "Change"
 msgstr "Αλλαγή"
 
-#: po/texts.cpp:90
+#: po/texts.cpp:92
 msgid "Delete"
 msgstr "Διαγραφή"
 
-#: po/texts.cpp:91
+#: po/texts.cpp:93
 msgid "&Delete"
 msgstr "Διαγραφή"
 
-#: po/texts.cpp:92
-#, fuzzy
+#: po/texts.cpp:94
 msgid "Clear"
 msgstr "Καθαρισμός"
 
-#: po/texts.cpp:93
-#, fuzzy
+#: po/texts.cpp:95
 msgid "Italic"
 msgstr "πλαγιαστά"
 
-#: po/texts.cpp:94
-#, fuzzy
+#: po/texts.cpp:96
 msgid "Roman"
 msgstr "απλά"
 
-#: po/texts.cpp:95
+#: po/texts.cpp:97
 msgid "Undo"
 msgstr "Aναίρεση"
 
-#: po/texts.cpp:96
+#: po/texts.cpp:98
 msgid "&Undo"
 msgstr "Αναίρεση"
 
-#: po/texts.cpp:97
+#: po/texts.cpp:99
 msgid "Redo"
 msgstr "Επανάληψη"
 
-#: po/texts.cpp:98
+#: po/texts.cpp:100
 msgid "&Redo"
 msgstr "Επανάληψη"
 
-#: po/texts.cpp:99
-#, fuzzy
+#: po/texts.cpp:101
 msgid "&Game"
 msgstr "Παιχνίδι"
 
-#: po/texts.cpp:100
+#: po/texts.cpp:102
 msgid "Information"
 msgstr "Πληροφορίες"
 
-#: po/texts.cpp:101
+#: po/texts.cpp:103
 msgid "Browse..."
-msgstr "Εξερεύνηση..."
+msgstr "Εξερεύνηση"
+
+#~ msgid "About "
+#~ msgstr "Σχετικά"
 
 #~ msgid "ERROR: couldn't find icon: %s"
 #~ msgstr "ΛΑΘΟΣ: Δεν μπορώ να βρώ το εικονίδιο: %s"
