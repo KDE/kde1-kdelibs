@@ -1916,16 +1916,14 @@ msgid "Address:"
 msgstr "Adresse:"
 
 #: kab/editentry.cc:104
-#, fuzzy
 msgid "Town/City:"
-msgstr "By:"
+msgstr "By/Sted:"
 
 #: kab/editentry.cc:105
 msgid "State:"
 msgstr "Stilling:"
 
 #: kab/editentry.cc:106
-#, fuzzy
 msgid "Zip/Postal Code:"
 msgstr "Postnummer:"
 
@@ -1942,18 +1940,16 @@ msgid "Organization:"
 msgstr "Organisasjon:"
 
 #: kab/editentry.cc:146
-#, fuzzy
 msgid "Department:"
-msgstr "Erstatt"
+msgstr "Avdeling:"
 
 #: kab/editentry.cc:147
 msgid "Sub-Department:"
-msgstr ""
+msgstr "Underavdeling:"
 
 #: kab/editentry.cc:148
-#, fuzzy
 msgid "Job/Role:"
-msgstr "Rolle:"
+msgstr "Jobb/Rolle:"
 
 #: kab/editentry.cc:169
 msgid "&Organization"
@@ -1988,9 +1984,8 @@ msgid "&Contact"
 msgstr "&Kontakt"
 
 #: kab/editentry.cc:239
-#, fuzzy
 msgid "Additional Comment:"
-msgstr "Mellomnavn:"
+msgstr "Yttligere kommentar:"
 
 #: kab/editentry.cc:246
 msgid "Birthday:"
@@ -3053,12 +3048,3 @@ msgid ""
 msgstr ""
 "\n"
 "inneholder ikke en Name=...-oppføring"
-
-#~ msgid "Org Unit:"
-#~ msgstr "Organisasjonsenhet:"
-
-#~ msgid "Org Subunit:"
-#~ msgstr "Organisasjonsunderenhet:"
-
-#~ msgid "Comment:"
-#~ msgstr "Kommentar:"
