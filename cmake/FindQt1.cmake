@@ -40,27 +40,3 @@ mark_as_advanced(
   QT_INCLUDE_DIR
   QT_LIBRARIES
 )
-
-set(_LIBDIR_DEFAULT "lib")
-if("${CMAKE_SIZEOF_VOID_P}" EQUAL "8")
-    set(_LIBDIR_DEFAULT "lib64")
-endif()
-
-set(KDE1_PREFIX /opt/kde1)
-set(KDE1_APPSDIR ${KDE1_PREFIX}/share/applnk)
-set(KDE1_BINDIR ${KDE1_PREFIX}/bin)
-set(KDE1_CGIDIR ${KDE1_PREFIX}/cgi-bin)
-set(KDE1_CONFDIR ${KDE1_PREFIX}/share/config)
-set(KDE1_DATADIR ${KDE1_PREFIX}/share/apps)
-set(KDE1_HTMLDIR ${KDE1_PREFIX}/share/doc/HTML)
-set(KDE1_ICONDIR ${KDE1_PREFIX}/share/icons)
-set(KDE1_INCLUDES ${KDE1_PREFIX}/include)
-set(KDE1_LIBRARIES ${KDE1_PREFIX}/${_LIBDIR_DEFAULT})
-set(KDE1_LOCALE ${KDE1_PREFIX}/share/locale)
-set(KDE1_MIMEDIR ${KDE1_PREFIX}/share/mimelnk)
-set(KDE1_MINIDIR ${KDE1_PREFIX}/share/icons/mini)
-set(KDE1_PARTSDIR ${KDE1_PREFIX}/parts)
-set(KDE1_SOUNDDIR ${KDE1_PREFIX}/share/sounds)
-set(KDE1_TOOLBARDIR ${KDE1_PREFIX}/share/toolbar)
-set(KDE1_WALLPAPERDIR ${KDE1_PREFIX}/share/wallpapers)
-
