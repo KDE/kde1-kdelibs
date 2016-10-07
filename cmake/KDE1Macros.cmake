@@ -15,7 +15,7 @@
 
 ######################################
 #
-#       Macros for building KDE1 files
+# Macros for building KDE1 files
 #
 ######################################
 
@@ -41,6 +41,23 @@ function (install_charsets)
         install(FILES ${it}
             DESTINATION ${KDE1_LOCALE}/${language}/
             RENAME charset)
+    endforeach ()
+endfunction ()
+
+function (install_potfiles languages potfiles)
+    foreach(pot "${potfiles}"
+        foreach(ln "${languages}")
+            get_filename_component(potfile ${pot} NAME_WE)
+            set(infile "${CMAKE_CURRENT_SOURCE_DIR}/${pot}.pot")
+            set(basefile "${CMAKE_CURRENT_SOURCE_DIR}/i${ln}/${pot}.po")
+            if(EXISTS "${basefile}")
+                add_custom_command(
+                    OUTPUT ${pot}.po
+                    COMMAND ${GETTEXT_MSGMERGE_EXECUTABLE}
+                    ARGS ${infile} -o ${pot}.po ${basefile} ${infile}
+                    MAIN_DEPENDENCY ${infile} VERBATIM)
+                add_custom_target(pot_${pot} ALL DEPENDS ${pot}.po)
+            endif()
     endforeach ()
 endfunction ()
 
