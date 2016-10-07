@@ -12,14 +12,18 @@ endif()
 # additional cmake files
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
-find_package(KDE1 REQUIRED)
 find_package(PNG REQUIRED)
 find_package(JPEG REQUIRED)
 find_package(TIFF REQUIRED)
+find_package(X11 REQUIRED)
+find_package(Qt1 REQUIRED)
+find_package(Gettext REQUIRED)
+
+include(CMakePackageConfigHelpers)
+include(KDE11Macros)
+include(KDE1InstallDirs)
 
 set(KDELIBS_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}")
-
-set(BOOTSTRAP TRUE)
 
 include_directories(common)
 
