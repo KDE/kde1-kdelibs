@@ -1,27 +1,10 @@
 include_directories(
     ${QT_INCLUDE_DIR}
-    ${KDELIBS_SOURCE_DIR}/kdecore
-    ${KDELIBS_SOURCE_DIR}/kdeui
-    ${KDELIBS_SOURCE_DIR}/kfmlib
+    ${PNG_INCLUDE_DIR}
     )
 
-set(KFILE_SRCS
-    kfilebookmark.cpp kfiledialogconf.cpp kcombiview.cpp
-	kdir.cpp kfileinfo.cpp kremotefile.cpp kdirlistbox.cpp
-	kfiledetaillist.cpp kfiledialog.cpp booktoken.cpp
-	kfileinfocontents.cpp kfilesimpleview.cpp kpreview.cpp
-	kfilepreview.cpp xview.cpp kfilefilter.cpp
-    )
+set(KIMGIO_SRCS jpeg.cpp xview.cpp kimgio.cpp eps.cpp tiffr.cpp pngr.cpp)
 
-set(KFILE_MOC
-    kcombiview.h kdir.h kdirlistbox.h
-	kfilebookmark.h kfiledetaillist.h kfiledialog.h
-	kfiledialogconf.h kfilefilter.h kfileinfocontents.h
-	kfilepreview.h kfilesimpleview.h kpreview.h
-    )
-
-QT1_WRAP_HEADER(MOC_FILES ${KFILE_MOC})
-
-add_library(kfile SHARED ${KFILE_SRCS} ${MOC_FILES})
-set_target_properties(kfile PROPERTIES VERSION 1.1.2 SOVERSION 1)
-target_link_libraries(kfile kdecore kdeui kfm ${QT_LIBRARIES} ${X11_LIBRARIES})
+add_library(kimgio SHARED ${KIMGIO_SRCS})
+set_target_properties(kimgio PROPERTIES VERSION 1.1.2 SOVERSION 1)
+target_link_libraries(kimgio kdecore ${PNG_LIBRARY} ${JPEG_LIBRARY} ${TIFF_LIBRARY})

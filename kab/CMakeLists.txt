@@ -3,25 +3,58 @@ include_directories(
     ${KDELIBS_SOURCE_DIR}/kdecore
     ${KDELIBS_SOURCE_DIR}/kdeui
     ${KDELIBS_SOURCE_DIR}/kfmlib
+    ${KDELIBS_SOURCE_DIR}/kfile
     )
 
-set(KFILE_SRCS
-    kfilebookmark.cpp kfiledialogconf.cpp kcombiview.cpp
-	kdir.cpp kfileinfo.cpp kremotefile.cpp kdirlistbox.cpp
-	kfiledetaillist.cpp kfiledialog.cpp booktoken.cpp
-	kfileinfocontents.cpp kfilesimpleview.cpp kpreview.cpp
-	kfilepreview.cpp xview.cpp kfilefilter.cpp
+set(KAB_SRCS
+	kabapi.cc
+	AssertDialog.cpp
+	AssertDialogData.cpp
+	DialogBase.cpp
+	DialogBaseData.cpp
+	PrintDialog.cpp
+	PrintDialogData.cpp
+	SearchDialog.cpp
+	StringListEditWidget.cpp
+	StringListEditWidgetData.cpp
+	StringListEditDialog.cpp
+	addressbook.cc
+	businesscard.cc
+	datepickerdialog.cc
+	editentry.cc
+	searchresults.cc
+	widget.cc
+	configDB.cc
+	sections.cc
+	keyvaluemap.cc
+	functions.cc
+	StringListSelectOneDialog.cpp
+	StringListSelectOneDialogData.cpp
+	StringListSelectSetDialog.cpp
+	StringListSelectAndReorderSet.cpp
+	StringListSelectAndReorderSetData.cpp
+	widgets.cc
+	SearchDialogMainWidget.cpp
+	SearchDialogMainWidgetData.cpp
     )
 
-set(KFILE_MOC
-    kcombiview.h kdir.h kdirlistbox.h
-	kfilebookmark.h kfiledetaillist.h kfiledialog.h
-	kfiledialogconf.h kfilefilter.h kfileinfocontents.h
-	kfilepreview.h kfilesimpleview.h kpreview.h
+set(KAB_MOC
+    AssertDialog.h AssertDialogData.h DialogBase.h
+	DialogBaseData.h PrintDialog.h PrintDialogData.h
+	SearchDialog.h SearchDialogMainWidget.h
+	SearchDialogMainWidgetData.h StringListEditDialog.h
+	StringListEditWidget.h StringListEditWidgetData.h
+	StringListSelectAndReorderSet.h
+	StringListSelectAndReorderSetData.h
+	StringListSelectOneDialog.h
+	StringListSelectOneDialogData.h
+	StringListSelectSetDialog.h
+	businesscard.h datepickerdialog.h editentry.h
+	kab.h kabapi.h searchresults.h
     )
 
-QT1_WRAP_HEADER(MOC_FILES ${KFILE_MOC})
+QT1_WRAP_HEADER(MOC_FILES ${KAB_MOC})
 
-add_library(kfile SHARED ${KFILE_SRCS} ${MOC_FILES})
-set_target_properties(kfile PROPERTIES VERSION 1.1.2 SOVERSION 1)
-target_link_libraries(kfile kdecore kdeui kfm ${QT_LIBRARIES} ${X11_LIBRARIES})
+add_library(kab SHARED ${KAB_SRCS} ${MOC_FILES})
+set_target_properties(kab PROPERTIES VERSION 1.1.2 SOVERSION 1)
+target_link_libraries(kab kdecore kdeui kfm kfile ${QT_LIBRARIES} ${X11_LIBRARIES})
