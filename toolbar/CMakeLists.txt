@@ -1,27 +1,17 @@
-include_directories(
-    ${QT_INCLUDE_DIR}
-    ${KDELIBS_SOURCE_DIR}/kdecore
-    ${KDELIBS_SOURCE_DIR}/kdeui
-    ${KDELIBS_SOURCE_DIR}/kfmlib
+install(FILES
+    add_point.xpm airbrush.xpm back.xpm blend.xpm bottom.xpm
+	centrejust.xpm circle_select.xpm contents.xpm context_help.xpm
+	delete.xpm down.xpm droplet.xpm dropper.xpm edit_point.xpm
+	editcopy.xpm editcut.xpm editpaste.xpm eraser.xpm
+	exclamation.xpm exit.xpm filefloppy.xpm filemail.xpm
+	filenew.xpm filenew2.xpm fileopen.xpm fileprint.xpm find.xpm
+	finish.xpm flag.xpm forward.xpm help.xpm home.xpm idea.xpm
+	knife.xpm lassoo.xpm leftjust.xpm lock.xpm move.xpm next.xpm
+	openbook.xpm page.xpm paintbrush.xpm paintbucket.xpm pencil.xpm
+	prev.xpm print_preview.xpm rectangle_select.xpm redo.xpm
+	reload.xpm rightjust.xpm search.xpm send.xpm smart_select.xpm
+	spellcheck.xpm stamp.xpm start.xpm stop.xpm text.xpm tick.xpm
+	top.xpm transform.xpm undo.xpm up.xpm viewmag+.xpm
+	viewmag-.xpm viewmag.xpm viewzoom.xpm
+    DESTINATION ${KDE1_TOOLBARDIR}
     )
-
-set(KFILE_SRCS
-    kfilebookmark.cpp kfiledialogconf.cpp kcombiview.cpp
-	kdir.cpp kfileinfo.cpp kremotefile.cpp kdirlistbox.cpp
-	kfiledetaillist.cpp kfiledialog.cpp booktoken.cpp
-	kfileinfocontents.cpp kfilesimpleview.cpp kpreview.cpp
-	kfilepreview.cpp xview.cpp kfilefilter.cpp
-    )
-
-set(KFILE_MOC
-    kcombiview.h kdir.h kdirlistbox.h
-	kfilebookmark.h kfiledetaillist.h kfiledialog.h
-	kfiledialogconf.h kfilefilter.h kfileinfocontents.h
-	kfilepreview.h kfilesimpleview.h kpreview.h
-    )
-
-QT1_WRAP_HEADER(MOC_FILES ${KFILE_MOC})
-
-add_library(kfile SHARED ${KFILE_SRCS} ${MOC_FILES})
-set_target_properties(kfile PROPERTIES VERSION 1.1.2 SOVERSION 1)
-target_link_libraries(kfile kdecore kdeui kfm ${QT_LIBRARIES} ${X11_LIBRARIES})

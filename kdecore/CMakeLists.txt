@@ -56,8 +56,6 @@ QT1_WRAP_HEADER(MOC_FILES ${KDECORE_MOC})
 add_library(kdecore SHARED ${KDECORE_SRCS} ${MOC_FILES})
 set_target_properties(kdecore PROPERTIES VERSION 1.1.2 SOVERSION 1)
 target_link_libraries(kdecore ${QT_LIBRARIES} ${X11_LIBRARIES})
+install(TARGETS kdecore LIBRARY DESTINATION ${KDE1_LIBRARIES})
 
-install(
-    FILES charsets.config
-    DESTINATION "${KDE1_CONFDIR}/charsets"
-    )
+install(FILES charsets.config DESTINATION "${KDE1_CONFDIR}/charsets")

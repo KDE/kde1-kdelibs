@@ -125,15 +125,9 @@ KeyValueMap::save(const string& filename, bool force)
   LG(GUARD, "KeyValueMap::save: saving data to %s.\n", 
      filename.c_str());
   StringStringMap::iterator pos;
-  ofstream file;
+  fstream file(filename.c_str());
   // ----- open file, regarding existence:
-  if(force)
-    {
-      file.open(filename.c_str());
-    } else {
-      file.open(filename.c_str(), ios::nocreate);
-    }
-  if(!file.good())
+  if(! file.is_open());
     {
       LG(GUARD, "KeyValueMap::save: could not open "
 	 "file %s for saving.\n", filename.c_str());
@@ -468,7 +462,7 @@ KeyValueMap::insertLine(string line, bool force, bool relax, bool encode)
     }
   // -----
   key.assign(line, 0, index); // copy from start to '='
-  value.assign(line, index+1); // copy the rest
+  value.assign(line, index, line.size()); // copy the rest
   // keys should not contain whitespaces 
   // to avoid unpredictable results
   for(;;)
