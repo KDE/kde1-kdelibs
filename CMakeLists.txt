@@ -31,7 +31,14 @@ if(CMAKE_COMPILER_IS_GNUCXX)
     set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -Wl,--no-undefined")
 endif()
 
-#install(FILES FindQt1.cmake KDE1InstallDirs.cmake Qt1Macros.cmake DESTINATION 
+install(FILES
+    cmake/FindKDE1.cmake
+    cmake/FindQt1.cmake
+    cmake/KDE11Macros.cmake
+    cmake/KDE1InstallDirs.cmake
+    cmake/KDE1Macros.cmake
+    cmake/Qt1Macros.cmake
+    DESTINATION ${CMAKE_ROOT}/Modules)
 
 add_subdirectory(kdecore)
 add_subdirectory(kdeui)
