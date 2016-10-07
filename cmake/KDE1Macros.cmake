@@ -45,7 +45,7 @@ function (install_charsets)
 endfunction ()
 
 function (install_potfiles languages potfiles)
-    foreach(pot "${potfiles}"
+    foreach(pot "${potfiles}")
         foreach(ln "${languages}")
             get_filename_component(potfile ${pot} NAME_WE)
             set(infile "${CMAKE_CURRENT_SOURCE_DIR}/${pot}.pot")
