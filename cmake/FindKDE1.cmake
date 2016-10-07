@@ -20,7 +20,7 @@ find_package(Qt1 REQUIRED)
 find_package(Gettext REQUIRED)
 
 include(CMakePackageConfigHelpers)
-include(KDE11Macros)
+include(KDE1Macros)
 include(KDE1InstallDirs)
 
 if(UNIX)

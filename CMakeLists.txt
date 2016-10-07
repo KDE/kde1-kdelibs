@@ -20,7 +20,7 @@ find_package(Qt1 REQUIRED)
 find_package(Gettext REQUIRED)
 
 include(CMakePackageConfigHelpers)
-include(KDE11Macros)
+include(KDE1Macros)
 include(KDE1InstallDirs)
 
 set(KDELIBS_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}")
@@ -38,7 +38,7 @@ endif()
 install(FILES
     cmake/FindKDE1.cmake
     cmake/FindQt1.cmake
-    cmake/KDE11Macros.cmake
+    cmake/KDE1Macros.cmake
     cmake/KDE1InstallDirs.cmake
     cmake/KDE1Macros.cmake
     cmake/Qt1Macros.cmake
