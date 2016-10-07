@@ -23,3 +23,5 @@ endif()
 
 add_subdirectory(kdecore)
 add_subdirectory(kdeui)
+add_subdirectory(kfile)
+add_subdirectory(kfmlib)
