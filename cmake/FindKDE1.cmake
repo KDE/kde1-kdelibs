@@ -25,28 +25,28 @@ include(KDE1InstallDirs)
 
 if(UNIX)
     message(STATUS "Looking for KDE1 headers and libraries")
-    find_path(KDE1_INCLUDE_DIR kapp.h ${KDE1_INCLUDES})
-    find_library(KDE1_KDECORE kdecore ${KDE1_LIBRARIES})
-    find_library(KDE1_KDEUI kdeui ${KDE1_LIBRARIES})
-    find_library(KDE1_KFILE kfile ${KDE1_LIBRARIES})
-    find_library(KDE1_KFM kfm ${KDE1_LIBRARIES})
-    find_library(KDE1_KIMGIO kimgio ${KDE1_LIBRARIES})
-    find_library(KDE1_KHTMLW khtmlw ${KDE1_LIBRARIES})
-    find_library(KDE1_JSCRIPT jscript ${KDE1_LIBRARIES})
+    find_path(LIB_INCLUDE_DIR kapp.h ${KDE1_INCLUDES})
+    find_library(LIB_KDECORE kdecore ${KDE1_LIBRARIES})
+    find_library(LIB_KDEUI kdeui ${KDE1_LIBRARIES})
+    find_library(LIB_KFILE kfile ${KDE1_LIBRARIES})
+    find_library(LIB_KFM kfm ${KDE1_LIBRARIES})
+    find_library(LIB_KIMGIO kimgio ${KDE1_LIBRARIES})
+    find_library(LIB_KHTMLW khtmlw ${KDE1_LIBRARIES})
+    find_library(LIB_JSCRIPT jscript ${KDE1_LIBRARIES})
 endif()
 
 # handle the QUIETLY and REQUIRED arguments and set MOTIF_FOUND to TRUE if
 # all listed variables are TRUE
 include(FindPackageHandleStandardArgs)
-FIND_PACKAGE_HANDLE_STANDARD_ARGS(KDE1 DEFAULT_MSG KDE1_KDECORE KDE1_KDEUI KDE1_KFILE KDE1_KFM KDE1_KIMGIO KDE1_KHTMLW KDE1_JSCRIPT KDE1_INCLUDE_DIR)
+FIND_PACKAGE_HANDLE_STANDARD_ARGS(KDE1 DEFAULT_MSG LIB_KDECORE LIB_KDEUI LIB_KFILE LIB_KFM LIB_KIMGIO LIB_KHTMLW LIB_JSCRIPT KDE1_INCLUDE_DIR)
 
 mark_as_advanced(
     KDE1_INCLUDE_DIR
-    KDE1_KDECORE
-    KDE1_KDEUI
-    KDE1_KFILE
-    KDE1_KFM
-    KDE1_KIMGIO
-    KDE1_KHTMLW
-    KDE1_JSCRIPT
+    LIB_KDECORE
+    LIB_KDEUI
+    LIB_KFILE
+    LIB_KFM
+    LIB_KIMGIO
+    LIB_KHTMLW
+    LIB_JSCRIPT
 )
