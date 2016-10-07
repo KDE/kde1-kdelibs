@@ -65,7 +65,7 @@ void kimgio_png_read( QImageIO *io )
 
 	// error jump point
 
-	if( setjmp( png_ptr->jmpbuf ) ) {
+	if( setjmp( png_jmpbuf(png_ptr) ) ) {
 		png_destroy_read_struct( &png_ptr, &png_info, &png_end );
 		fclose( fp );
 		return;
@@ -79,14 +79,14 @@ void kimgio_png_read( QImageIO *io )
 	png_set_packing( png_ptr );
 	png_set_strip_16( png_ptr );
 
-	if( !(png_ptr->color_type & PNG_COLOR_MASK_COLOR) ) {
+	if( !(png_get_color_type(png_ptr, png_info) & PNG_COLOR_MASK_COLOR) ) {
 		png_set_gray_to_rgb( png_ptr );
 	}
 	else {
 		png_set_expand( png_ptr );
 	}
 
-	if( ! (png_info->color_type & PNG_COLOR_MASK_ALPHA) ) {
+	if( ! (png_get_color_type(png_ptr, png_info) & PNG_COLOR_MASK_ALPHA) ) {
 		debug( "using filler" );
 		png_set_filler( png_ptr, 0, PNG_FILLER_BEFORE );
 	}
@@ -95,17 +95,17 @@ void kimgio_png_read( QImageIO *io )
 
 	png_read_update_info( png_ptr, png_info );
 
-	if ( png_info->color_type != PNG_COLOR_TYPE_RGB_ALPHA ) {
+	if ( png_get_color_type(png_ptr, png_info) != PNG_COLOR_TYPE_RGB_ALPHA ) {
 		debug( "Colortype %d is not rgb/alpha",
-			png_info->color_type );
+			png_get_color_type(png_ptr, png_info) );
 	}
 
-	if( png_info->bit_depth != 8 ) {
-		debug( "Depth %d is not 8", png_info->bit_depth );
+	if( png_get_bit_depth(png_ptr, png_info) != 8 ) {
+		debug( "Depth %d is not 8", png_get_bit_depth(png_ptr, png_info) );
 	}
 
 	// create image
-	if ( !image.create( png_info->width, png_info->height, 32 ) ) {
+	if ( !image.create( png_get_image_width(png_ptr, png_info), png_get_image_height(png_ptr, png_info), 32 ) ) {
 		// out of memory
 		warning( "Out of memory creating QImage." );
 		png_destroy_read_struct( &png_ptr, &png_info, &png_end );
@@ -115,19 +115,19 @@ void kimgio_png_read( QImageIO *io )
 
 	// read image
 	for( ; passes; passes-- ) {
-		for( unsigned row = 0; row < png_info->height; row++ ) {
+		for( unsigned row = 0; row < png_get_image_height(png_ptr, png_info); row++ ) {
 			png_read_row( png_ptr, image.scanLine( row ), NULL );
 		}
 	}
 
-	if ( png_info->color_type == PNG_COLOR_TYPE_RGB_ALPHA ) {
+	if ( png_get_color_type(png_ptr, png_info) == PNG_COLOR_TYPE_RGB_ALPHA ) {
 		debug( "Colortype %d is rgb/alpha",
-			png_info->color_type );
+			png_get_color_type(png_ptr, png_info) );
 		image.setAlphaBuffer(true);
 	}
 	else {
 		unsigned *pixels = (unsigned *) image.bits();
-		for( unsigned row = 0; row < png_info->height; row++ ) {
+		for( unsigned row = 0; row < png_get_image_height(png_ptr, png_info); row++ ) {
 			for( int i = 0; i < image.width(); i++ ) {
 				*pixels = *pixels >> 8;
 				pixels++;
@@ -226,30 +226,35 @@ void kimgio_png_write( QImageIO *iio )
 	/* set the palette if there is one.  REQUIRED for indexed-color images */
 
 	if(numcolors > 0) {
-		info_ptr->palette = (png_colorp)png_malloc(png_ptr, numcolors * sizeof (png_color));
+/*		info_ptr->palette = (png_colorp)png_malloc(png_ptr, numcolors * sizeof (png_color));
 		for(int i = 0; i < numcolors; i++) {
 			info_ptr->palette[i].red = qRed(image.color(i));
 			info_ptr->palette[i].blue = qBlue(image.color(i));
 			info_ptr->palette[i].green = qGreen(image.color(i));
 		}
-		png_set_PLTE(png_ptr, info_ptr, info_ptr->palette, numcolors);
+		png_set_PLTE(png_ptr, info_ptr, info_ptr->palette, numcolors);*/
 	}
 
 	//optional significant bit chunk
 
+    /*png_color_8p sig_bit;
+    png_get_sBit(png_ptr, info_ptr, sig_bit);
+
 	if(image.isGrayscale()) {
-		info_ptr->sig_bit.gray = 8;
+		sig_bit->gray = 8;
 	}
 	else {
-		info_ptr->sig_bit.red = 8;
-		info_ptr->sig_bit.green = 8;
-		info_ptr->sig_bit.blue = 8;
+		sig_bit->red = 8;
+		sig_bit->green = 8;
+		sig_bit->blue = 8;
 	}
 
 	if(image.hasAlphaBuffer())
-		info_ptr->sig_bit.alpha = 8;
+		sig_bit->alpha = 8;
 
-  
+    png_set_sBit(png_ptr, info_ptr, &sig_bit);
+    */
+
 	// Optional gamma chunk is strongly suggested if you have any guess
 	// as to the correct gamma of the image.
 	//png_set_gAMA(png_ptr, info_ptr, gamma);
@@ -323,8 +328,8 @@ void kimgio_png_write( QImageIO *iio )
 	png_write_end(png_ptr, info_ptr);
 
 	// if you malloced the palette, free it here
-	if(numcolors > 0)
-		free(info_ptr->palette);
+	//if(numcolors > 0)
+	//	free(info_ptr->palette);
 
 	// if you allocated any text comments, free them here
 
