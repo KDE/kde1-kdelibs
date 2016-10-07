@@ -33,6 +33,25 @@ set(KDEUI_MOC
 QT1_WRAP_HEADER(MOC_FILES ${KDEUI_MOC})
 
 add_library(kdeui SHARED ${KDEUI_SRCS} ${MOC_FILES})
-set_target_properties(kdeui PROPERTIES VERSION 1.1.2 SOVERSION 1)
+set_target_properties(kdeui PROPERTIES VERSION 2.0.0 SOVERSION 2)
 target_link_libraries(kdeui kdecore ${QT_LIBRARIES} ${X11_LIBRARIES})
 install(TARGETS kdeui LIBRARY DESTINATION ${KDE1_LIBRARIES})
+
+install(FILES
+        kledlamp.h kprogress.h kpanner.h kcolordlg.h kselect.h
+		kdatepik.h kdatetbl.h
+		kfontdialog.h kmsgbox.h kpopmenu.h ktabctl.h
+		ktreelist.h kstatusbar.h ktopwidget.h ktmainwindow.h
+		ktoolbar.h kmenubar.h kbutton.h kslider.h kseparator.h
+		klined.h kcombo.h krestrictedline.h kintegerline.h
+		kspinbox.h kcolorbtn.h kiconloaderdialog.h
+		kwmmapp.h kbuttonbox.h ktablistbox.h kcontainer.h
+		knewpanner.h kcontrol.h keditcl.h ktoolboxmgr.h kled.h
+		kdbtn.h knotebook.h ktabbar.h kwizard.h kkeydialog.h
+		kurllabel.h kruler.h kquickhelp.h kcursor.h
+        DESTINATION ${KDE1_INCLUDES})
+
+install(FILES
+    error.xpm exclamation.xpm info.xpm stopsign.xpm question.xpm
+    arrow_up.xbm arrow_down.xbm arrow_left.xbm arrow_right.xbm
+    DESTINATION ${KDE1_DATADIR}/kde/pics)

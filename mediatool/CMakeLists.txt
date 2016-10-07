@@ -14,6 +14,8 @@ set(MEDIATOOL_MOC
 QT1_WRAP_HEADER(MOC_FILES ${MEDIATOOL_MOC})
 
 add_library(mediatool SHARED ${MEDIATOOL_SRCS} ${MOC_FILES})
-set_target_properties(mediatool PROPERTIES VERSION 1.1.2 SOVERSION 1)
+set_target_properties(mediatool PROPERTIES VERSION 2.0.0 SOVERSION 2)
 target_link_libraries(mediatool kdecore ${QT_LIBRARIES} ${X11_LIBRARIES})
 install(TARGETS mediatool LIBRARY DESTINATION ${KDE1_LIBRARIES})
+
+install(FILES mediatool.h kaudio.h DESTINATION ${KDE1_INCLUDES})

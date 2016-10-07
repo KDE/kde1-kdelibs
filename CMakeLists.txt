@@ -13,6 +13,8 @@ find_package(PNG REQUIRED)
 find_package(JPEG REQUIRED)
 find_package(TIFF REQUIRED)
 
+include(KDE1InstallDirs)
+
 set(KDELIBS_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}")
 
 include_directories(common)
@@ -36,3 +38,4 @@ add_subdirectory(mediatool)
 add_subdirectory(kspell)
 add_subdirectory(kab)
 add_subdirectory(toolbar)
+add_subdirectory(po)

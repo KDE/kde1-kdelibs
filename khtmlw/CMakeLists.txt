@@ -20,6 +20,13 @@ set(KHTMLW_MOC
 QT1_WRAP_HEADER(MOC_FILES ${KHTMLW_MOC})
 
 add_library(khtmlw SHARED ${KHTMLW_SRCS} ${MOC_FILES})
-set_target_properties(khtmlw PROPERTIES VERSION 1.1.2 SOVERSION 1)
+set_target_properties(khtmlw PROPERTIES VERSION 2.0.0 SOVERSION 2)
 target_link_libraries(khtmlw kdecore kdeui jscript kimgio ${QT_LIBRARIES} ${X11_LIBRARIES})
 install(TARGETS khtmlw LIBRARY DESTINATION ${KDE1_LIBRARIES})
+
+install(FILES jscript.h html.h htmlobj.h htmlfont.h htmlform.h
+    htmltoken.h htmlframe.h htmlview.h htmlclue.h htmldata.h
+    htmltable.h htmliter.h
+    DESTINATION ${KDE1_INCLUDES})
+
+install(FILES khtmlw_dnd.xpm DESTINATION ${KDE1_DATADIR}/khtmlw/pics )

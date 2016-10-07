@@ -54,8 +54,20 @@ set(KDECORE_MOC
 QT1_WRAP_HEADER(MOC_FILES ${KDECORE_MOC})
 
 add_library(kdecore SHARED ${KDECORE_SRCS} ${MOC_FILES})
-set_target_properties(kdecore PROPERTIES VERSION 1.1.2 SOVERSION 1)
+set_target_properties(kdecore PROPERTIES VERSION 2.0.0 SOVERSION 2)
 target_link_libraries(kdecore ${QT_LIBRARIES} ${X11_LIBRARIES})
 install(TARGETS kdecore LIBRARY DESTINATION ${KDE1_LIBRARIES})
 
-install(FILES charsets.config DESTINATION "${KDE1_CONFDIR}/charsets")
+install(FILES charsets.config DESTINATION "${KDE1_CONFDIR}" RENAME "charsets")
+
+install(FILES kdebug.areas DESTINATION "${KDE1_CONFDIR}")
+
+install(FILES
+	kconfig.h kconfigdata.h ksimpleconfig.h kconfigbase.h
+    kcolorgroup.h kapp.h kcharsets.h
+    kurl.h ksock.h drag.h  ckey.h kmisc.h
+    kprocess.h kprocctrl.h klocale.h kiconloader.h kdebug.h
+    kstdaccel.h kwm.h krootprop.h kstring.h kpixmap.h dither.h
+    kaccel.h kglobalaccel.h kckey.h kclipboard.h krect.h ksize.h
+    kpoint.h
+	DESTINATION ${KDE1_INCLUDES})

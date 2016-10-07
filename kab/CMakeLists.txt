@@ -56,6 +56,19 @@ set(KAB_MOC
 QT1_WRAP_HEADER(MOC_FILES ${KAB_MOC})
 
 add_library(kab SHARED ${KAB_SRCS} ${MOC_FILES})
-set_target_properties(kab PROPERTIES VERSION 1.1.2 SOVERSION 1)
+set_target_properties(kab PROPERTIES VERSION 2.0.0 SOVERSION 2)
 target_link_libraries(kab kdecore kdeui kfm kfile ${QT_LIBRARIES} ${X11_LIBRARIES})
 install(TARGETS kab LIBRARY DESTINATION ${KDE1_LIBRARIES})
+
+install(FILES
+	stl_headers.h
+	kabapi.h
+	kab.h
+	addressbook.h
+	configDB.h
+	keyvaluemap.h
+	sections.h
+    DESTINATION ${KDE1_INCLUDES})
+
+install(FILES dialog_background.jpg background_1.jpg DESTINATION ${KDE1_DATADIR}/kab/pics)
+

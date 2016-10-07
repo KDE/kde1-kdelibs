@@ -23,6 +23,15 @@ set(KFILE_MOC
 QT1_WRAP_HEADER(MOC_FILES ${KFILE_MOC})
 
 add_library(kfile SHARED ${KFILE_SRCS} ${MOC_FILES})
-set_target_properties(kfile PROPERTIES VERSION 1.1.2 SOVERSION 1)
+set_target_properties(kfile PROPERTIES VERSION 2.0.0 SOVERSION 2)
 target_link_libraries(kfile kdecore kdeui kfm ${QT_LIBRARIES} ${X11_LIBRARIES})
 install(TARGETS kfile LIBRARY DESTINATION ${KDE1_LIBRARIES})
+
+install(FILES kfiledialog.h kfileinfo.h kfilebookmark.h
+	kremotefile.h kdir.h kdirlistbox.h kfileinfocontents.h
+	booktoken.h kfiledetaillist.h kcombiview.h kpreview.h kfilepreview.h
+    xview.h kfilesimpleview.h kfilefilter.h
+    DESTINATION ${KDE1_INCLUDES})
+
+install(FILES configure.xpm DESTINATION ${KDE1_TOOLBARDIR})
+
