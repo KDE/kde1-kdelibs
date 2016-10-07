@@ -54,7 +54,7 @@ macro (QT1_WRAP_HEADER outfiles )
       COMMAND /opt/qt1/bin/moc
       ARGS ${infile} -o ${outfile}
       MAIN_DEPENDENCY ${infile} VERBATIM)
-    set(${outfiles} ${${outfiles}} ${outfile})
+  list(APPEND ${outfiles} ${outfile})
   endforeach ()
 
 endmacro ()
