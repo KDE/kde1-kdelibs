@@ -1,0 +1,2 @@
+install(FILES kde.pot DESTINATION ${KDE1_LOCALE})
+
