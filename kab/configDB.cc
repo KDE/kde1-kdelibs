@@ -8,14 +8,13 @@
  * mail to:    Mirko Sucker <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class,
  *             Nana (only for debugging)
- * $Revision$
+ * $Revision: 1.4 $
  */
 
 #pragma implementation
 
 #include "configDB.h"
 #include "debug.h"
-#include <fstream.h>
 extern "C" {
 #include <sys/types.h>
 #include <signal.h>

@@ -8,7 +8,7 @@
  * mail to:    Mirko Sucker <mirko.sucker@hamburg.netsurf.de>
  *                          <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class, NANA
- * $Revision$
+ * $Revision: 1.4 $
  */
 
 #ifndef KABAPI_H
@@ -60,7 +60,7 @@ class QFrame;
   * long the kab API is not completely finished (it is not).</tt>
   * @short The class KabAPI defines the API to access user address databases.
   * @author Mirko Sucker <mirko.sucker@unibw-hamburg.de>
-  * @version $Id$
+  * @version $Id: kabapi.h,v 1.4 1999/01/21 19:39:12 pbrown Exp $
   * @see #AddressBook #AddressWidget #QDialog
   */
 

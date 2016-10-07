@@ -1,7 +1,7 @@
 /* qktstreelist.h
 -------------------------------------------------------------------
-$Revision$
-$Date$
+$Revision: 1.8 $
+$Date: 1998/10/21 06:00:36 $
   
 KTreeList class declaration
 

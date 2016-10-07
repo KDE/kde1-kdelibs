@@ -1,5 +1,5 @@
 /*
-    $Id$
+    $Id: kfontdialog.h,v 1.14 1998/11/30 19:31:33 lavikka Exp $
 
     Requires the Qt widget libraries, available at no cost at 
     http://www.troll.no
@@ -22,7 +22,11 @@
     the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
     Boston, MA 02111-1307, USA.
   
-    $Log$
+    $Log: kfontdialog.h,v $
+    Revision 1.14  1998/11/30 19:31:33  lavikka
+    Now kfontdialog uses QLayout instead of hardcoded widget coordinates.
+    Command buttons are aligned correctly as well. Looks good and behaves well.
+
     Revision 1.13  1998/09/01 20:21:54  kulow
     I renamed all old qt header files to the new versions. I think, this looks
     nicer (and gives the change in configure a sense :)
@@ -122,7 +126,7 @@
 /**
 * Dialog for interactive font selection.
 * @author Bernd Wuebben (wuebben@kde.org)
-* @version $Id$
+* @version $Id: kfontdialog.h,v 1.14 1998/11/30 19:31:33 lavikka Exp $
 */
 class KFontDialog : public QDialog {
 

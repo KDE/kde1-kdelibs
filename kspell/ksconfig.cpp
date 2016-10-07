@@ -1,4 +1,4 @@
-// $Id$
+// $Id: ksconfig.cpp,v 1.16 1999/01/27 21:04:40 kulow Exp $
 
 #include <qcheckbox.h>
 #include <qfiledialog.h>

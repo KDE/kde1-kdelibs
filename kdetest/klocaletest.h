@@ -1,4 +1,4 @@
-// $Id$
+// $Id: klocaletest.h,v 1.1 1998/06/11 14:21:43 jacek Exp $
 
 #ifndef KLOCALETEST_H
 #define KLOCALETEST_H

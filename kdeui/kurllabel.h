@@ -17,9 +17,12 @@
    Boston, MA 02111-1307, USA.
 */
 /*
- * $Id$
+ * $Id: kurllabel.h,v 1.4 1998/11/28 06:32:28 granroth Exp $
  *
- * $Log$
+ * $Log: kurllabel.h,v $
+ * Revision 1.4  1998/11/28 06:32:28  granroth
+ * Got rid of built-in hand cursor and used KCursor
+ *
  * Revision 1.3  1998/11/22 20:23:15  mirko
  * I added the possibility to use KURLLabel on top of a (parent) widget that
  * uses a background pattern, like kab's main view.

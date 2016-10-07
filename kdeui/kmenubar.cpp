@@ -39,8 +39,11 @@
 #define CONTEXT_BOTTOM 2
 #define CONTEXT_FLOAT 3
 
-// $Id$
-// $Log$
+// $Id: kmenubar.cpp,v 1.63.2.3 1999/06/02 09:21:02 radej Exp $
+// $Log: kmenubar.cpp,v $
+// Revision 1.63.2.3  1999/06/02 09:21:02  radej
+// sven: From 1.1.1. release due to corruption
+//
 // Revision 1.63.2.2  1999/03/24 16:48:56  ettrich
 // workaround for qt-1.44 behaviour
 //

@@ -9,7 +9,7 @@
  *                          <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class, Qt
  *             NANA (for debugging)
- * $Revision$
+ * $Revision: 1.4 $
  */
 
 #ifndef EDITENTRYDIALOG_H

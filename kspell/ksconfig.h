@@ -38,7 +38,7 @@ enum Encoding {
  *
  *  @author David Sweet dsweet@wheatcomputers.com
  *  @short Configuration dialog for KSpell
- *  @version $Id$
+ *  @version $Id: ksconfig.h,v 1.9 1999/01/17 00:10:59 kulow Exp $
  *  @see KSpell
  */
 

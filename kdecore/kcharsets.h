@@ -1,6 +1,6 @@
 /* This file is part of the KDE libraries
     Copyright (C) 1997 Jacek Konieczny (jajcus@zeus.polsl.gliwice.pl)
-    $Id$
+    $Id: kcharsets.h,v 1.19.4.1 1999/03/22 17:16:16 porten Exp $
 
     This library is free software; you can redistribute it and/or
     modify it under the terms of the GNU Library General Public
@@ -29,12 +29,13 @@
 
 class KCharsetEntry;
 class KCharsetsData;
+class KCharsets;
 
 /**
 *  A class representing a charset.
 *
 * @author Jacek Konieczny <jacus@zeus.polsl.gliwice.pl>
-* @version $Id$
+* @version $Id: kcharsets.h,v 1.19.4.1 1999/03/22 17:16:16 porten Exp $
 * @short KDE charset support class
 */
 class KCharset{
@@ -191,7 +192,7 @@ private:
 *  A class representing result of charset conversion.
 *
 * @author Jacek Konieczny <jacus@zeus.polsl.gliwice.pl>
-* @version $Id$
+* @version $Id: kcharsets.h,v 1.19.4.1 1999/03/22 17:16:16 porten Exp $
 * @short KDE charset support class
 * @internal
 */
@@ -265,7 +266,7 @@ class KCharsetConverterData;
 * This class implements converting strings between charsets and encodings.
 *    
 * @author Jacek Konieczny <jacus@zeus.polsl.gliwice.pl>
-* @version $Id$
+* @version $Id: kcharsets.h,v 1.19.4.1 1999/03/22 17:16:16 porten Exp $
 * @short KDE charset support class
 */
 
@@ -388,7 +389,7 @@ private:
  * and converts charsets' names to Qt identifiers
  *
  * @author Jacek Konieczny <jacus@zeus.polsl.gliwice.pl>
- * @version $Id$
+ * @version $Id: kcharsets.h,v 1.19.4.1 1999/03/22 17:16:16 porten Exp $
  * @short KDE charset support class
  */
 

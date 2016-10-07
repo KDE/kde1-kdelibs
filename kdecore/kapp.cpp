@@ -17,9 +17,12 @@
     Boston, MA 02111-1307, USA.
 	*/
 
-// $Id$
+// $Id: kapp.cpp,v 1.122.4.3 1999/06/14 10:37:47 porten Exp $
 //
-// $Log$
+// $Log: kapp.cpp,v $
+// Revision 1.122.4.3  1999/06/14 10:37:47  porten
+// const char* for string constant
+//
 // Revision 1.122.4.2  1999/04/22 23:04:13  pfeiffer
 // I think http://buglist.kde.org is deprecated, so I changed it (in the
 // about-box) to http://bugs.kde.org, as in the HEAD-Branch.

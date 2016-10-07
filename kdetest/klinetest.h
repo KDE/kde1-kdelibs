@@ -1,4 +1,4 @@
-// $Id$
+// $Id: klinetest.h,v 1.1 1997/07/25 19:48:39 kalle Exp $
 
 #ifndef TEST_H
 #define TEST_H

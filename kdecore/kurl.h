@@ -53,7 +53,7 @@
 *
 * @author Torben Weis (weis@kde.org)
 *
-* @version $Id$
+* @version $Id: kurl.h,v 1.20 1998/11/29 20:23:31 garbanzo Exp $
 * @short A class for URL processing.
 */
 

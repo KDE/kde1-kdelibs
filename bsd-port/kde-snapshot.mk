@@ -1,4 +1,4 @@
-#$Id$
+#$Id: kde-snapshot.mk,v 1.6 1998/10/20 06:51:52 garbanzo Exp $
 
 CONFIGURE_ENV=	CXXFLAGS="$(CFLAGS)" \
 		install_root=$(INSTALL_ROOT) \

@@ -1,6 +1,9 @@
-/* $Id$
+/* $Id: ksimpleconfigtest.cpp,v 1.2.4.1 1999/02/26 12:24:18 dfaure Exp $
 
- * $Log$
+ * $Log: ksimpleconfigtest.cpp,v $
+ * Revision 1.2.4.1  1999/02/26 12:24:18  dfaure
+ * *** empty log message ***
+ *
  * Revision 1.2  1998/09/21 18:34:47  bieker
  * Use paths.h if we can.
  *

@@ -18,7 +18,7 @@
     Boston, MA 02111-1307, USA.
 */
 
-// $Id$
+// $Id: kcombiview.cpp,v 1.9 1999/01/18 10:57:21 kulow Exp $
 
 #include "kcombiview.h"
 #include "kdirlistbox.h"

@@ -20,8 +20,11 @@
     Boston, MA 02111-1307, USA.
     */
 
-// $Id$
-// $Log$
+// $Id: ktoolbar.h,v 1.46.4.1 1999/04/18 18:36:25 radej Exp $
+// $Log: ktoolbar.h,v $
+// Revision 1.46.4.1  1999/04/18 18:36:25  radej
+// sven: Docs.
+//
 // Revision 1.46  1998/11/25 13:22:00  radej
 // sven: Someone made some private things protected (was it me?).
 //

@@ -9,7 +9,7 @@
  * mail to:    Mirko Sucker <mirko.sucker@hamburg.netsurf.de>
  *                          <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class
- * $Revision$
+ * $Revision: 1.4 $
  */
 #ifndef CONFIGDB_H_INCLUDED
 #define CONFIGDB_H_INCLUDED
@@ -75,7 +75,7 @@ public:
   // (it is empty in this definition)
   virtual void changed(); 
   static const char* version() 
-    { return "0.6 (devel version) $Revision$"; }
+    { return "0.6 (devel version) $Revision: 1.4 $"; }
   // this method checks wether the given file is locked:
   // returns zero if not, 
   // a number > zero is the pid of the process locking the file,

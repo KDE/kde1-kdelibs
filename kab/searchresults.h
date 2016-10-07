@@ -8,7 +8,7 @@
  *                          <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class, Qt
  *             NANA (for debugging)
- * $Revision$
+ * $Revision: 1.5 $
  */
 
 #ifndef SEARCHRESULTS_H

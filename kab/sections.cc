@@ -7,7 +7,7 @@
  * mail to:    Mirko Sucker <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class,
  *             Nana (only for debugging)
- * $Revision$
+ * $Revision: 1.2 $
  */
 
 #pragma implementation

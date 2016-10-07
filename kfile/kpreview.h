@@ -45,7 +45,7 @@ class KPreviewObject;
  *
  * @author Daniel Grana grana@ie.iwi.unibe.ch
  *
- * @version $Id$
+ * @version $Id: kpreview.h,v 1.4 1998/09/01 20:22:43 kulow Exp $
  */
 class KPreview : public QWidget {
 

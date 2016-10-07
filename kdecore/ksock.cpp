@@ -17,8 +17,11 @@
     Boston, MA 02111-1307, USA.
 */
 /*
- * $Id$
- * $Log$
+ * $Id: ksock.cpp,v 1.24.4.5 1999/08/23 09:16:04 waba Exp $
+ * $Log: ksock.cpp,v $
+ * Revision 1.24.4.5  1999/08/23 09:16:04  waba
+ * WABA: Don't kill the application upon problems.
+ *
  * Revision 1.24.4.4  1999/07/09 21:16:41  porten
  * patch for bug #1336,1549 from Ingo <schneidi@informatik.tu-muenchen.de>
  *

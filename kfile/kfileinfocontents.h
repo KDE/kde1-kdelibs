@@ -60,7 +60,7 @@ signals:
   *
   * @short A base class for views of the KDE file selector
   * @author Stephan Kulow <coolo@kde.org>
-  * @version $Id$
+  * @version $Id: kfileinfocontents.h,v 1.12 1998/05/29 19:23:02 kulow Exp $
   **/
 class KFileInfoContents {
     

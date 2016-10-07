@@ -5,19 +5,20 @@
  * license:    GNU Public License, Version 2
  * mail to:    Mirko Sucker <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class
- * $Revision$
+ * $Revision: 1.5.4.1 $
  */
 
 #pragma implementation
 
+using namespace std;
+
 #include "keyvaluemap.h"
 #include "debug.h"
 #include "functions.h"
-#include <iostream.h>
-extern "C" {
-#include <stdio.h>
-	   }
-#include <fstream.h>
+#include <iostream>
+#include <cstdio>
+#include <string>
+#include <cstdlib>
 
 class StringStringMap 
   : public map<string, string, less<string> >
@@ -133,7 +134,7 @@ KeyValueMap::save(const string& filename, bool force)
 	 "file %s for saving.\n", filename.c_str());
       return false;
     }
-  file << "# automatically saved by KeyValueMap object ($Revision$)" 
+  file << "# automatically saved by KeyValueMap object ($Revision: 1.5.4.1 $)" 
        << endl;
   for(pos=data->begin(); pos!=data->end(); pos++)
     {

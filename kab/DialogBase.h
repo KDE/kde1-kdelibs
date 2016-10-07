@@ -8,7 +8,7 @@
  * mail to:    Mirko Sucker <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class,
  *             Nana for debugging
- * $Revision$
+ * $Revision: 1.4 $
  * 
  * This base class provides basic functionality needed by nearly all dialogs, as
  * the three standard buttons (OK, Apply, Cancel)  that are configurable in some

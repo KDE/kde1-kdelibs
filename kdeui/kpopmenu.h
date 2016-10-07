@@ -42,7 +42,7 @@ a constant KPM_FirstItem so use one of those approaches instead of the above:
 </pre>
 
 * @short Popup menu with title.
-* @version $Id$
+* @version $Id: kpopmenu.h,v 1.3 1998/09/01 20:22:05 kulow Exp $
 */
 class KPopupMenu : public QPopupMenu {
     Q_OBJECT

@@ -14,7 +14,7 @@
  *                          <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class,
  *             Nana (only for debugging)
- * $Revision$
+ * $Revision: 1.4 $
  */
 #ifndef SECTIONS_H_INCLUDED
 #define SECTIONS_H_INCLUDED
@@ -24,7 +24,6 @@
 #include "stl_headers.h"
 #include "keyvaluemap.h"
 #include <algorithm>
-#include <fstream.h>
 
 class Section
 {

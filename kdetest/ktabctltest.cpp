@@ -1,7 +1,11 @@
 /*
- * $Id$
+ * $Id: ktabctltest.cpp,v 1.4 1999/01/19 13:36:32 kulow Exp $
  *
- * $Log$
+ * $Log: ktabctltest.cpp,v $
+ * Revision 1.4  1999/01/19 13:36:32  kulow
+ * removed explicit settings of DISTCLEANFILES, where the only sense was
+ * to remove the MOC files
+ *
  * Revision 1.3  1999/01/15 08:59:42  kulow
  * use seperate moc.cpp files - did you know that most header files herein are
  * complete hacks? ;)

@@ -22,8 +22,12 @@
 
 #include <ktopwidget.h>
 #include <kstatusbar.h>
-// $Id$
-// $Log$
+// $Id: kstatusbar.cpp,v 1.18.4.1 1999/05/29 18:55:01 denis Exp $
+// $Log: kstatusbar.cpp,v $
+// Revision 1.18.4.1  1999/05/29 18:55:01  denis
+// Broken files repaired.
+// It looks like nothing has missed.
+//
 // Revision 1.18  1999/01/18 10:57:04  kulow
 // .moc files are back in kdelibs. Built fine here using automake 1.3
 //

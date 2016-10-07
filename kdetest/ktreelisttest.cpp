@@ -1,6 +1,6 @@
 /* outline.cpp
 -------------------------------------------------------------------
-$Id$
+$Id: ktreelisttest.cpp,v 1.4 1999/01/19 13:36:33 kulow Exp $
   
 outline class implementations
 An example using the QktsTreeListWidget

@@ -5,7 +5,7 @@
 //
 // Sirtaj Kang, Oct 1996.
 //
-// $Id$
+// $Id: jpeg.cpp,v 1.4.4.1 1999/06/29 18:27:39 garbanzo Exp $
 
 #ifdef HAVE_CONFIG_H
 #include"config.h"

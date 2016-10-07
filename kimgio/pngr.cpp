@@ -5,7 +5,7 @@
 *       Copyright (c) October 1998, Sirtaj Singh Kang.  Distributed under
 *       the LGPL.
 *
-*       $Id$
+*       $Id: pngr.cpp,v 1.5.4.1 1999/07/06 09:35:34 garbanzo Exp $
 */
 
 #ifdef HAVE_CONFIG_H

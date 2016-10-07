@@ -16,9 +16,12 @@
     the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
     Boston, MA 02111-1307, USA.
 */
-// $Id$
+// $Id: kconfig.cpp,v 1.21 1999/01/18 10:56:15 kulow Exp $
 //
-// $Log$
+// $Log: kconfig.cpp,v $
+// Revision 1.21  1999/01/18 10:56:15  kulow
+// .moc files are back in kdelibs. Built fine here using automake 1.3
+//
 // Revision 1.20  1999/01/15 09:30:33  kulow
 // it's official - kdelibs builds with srcdir != builddir. For this I
 // automocifized it, the generated rules are easier to maintain than

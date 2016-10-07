@@ -18,9 +18,12 @@
 */
 
 /*
- * $Id$
+ * $Id: ksock.h,v 1.20 1998/11/11 00:02:55 thufir Exp $
  *
- * $Log$
+ * $Log: ksock.h,v $
+ * Revision 1.20  1998/11/11 00:02:55  thufir
+ * addes ability to set a connect Time Out, breaks binary compatability
+ *
  * Revision 1.19  1998/09/01 20:21:33  kulow
  * I renamed all old qt header files to the new versions. I think, this looks
  * nicer (and gives the change in configure a sense :)
@@ -136,7 +139,7 @@
  * had no success.
  *
  * @author Torben Weis <weis@uni-frankfurt.de>
- * @version $Id$
+ * @version $Id: ksock.h,v 1.20 1998/11/11 00:02:55 thufir Exp $
  * @short a TCP/IP client socket.
  */
 class KSocket : public QObject
@@ -270,7 +273,7 @@ private:
  * If socket() is -1 or less the socket was not created properly.
  *
  * @author Torben Weis <weis@stud.uni-frankfurt.de>
- * @version $Id$
+ * @version $Id: ksock.h,v 1.20 1998/11/11 00:02:55 thufir Exp $
  * @short Monitor a port for incoming TCP/IP connections.
 */
 class KServerSocket : public QObject

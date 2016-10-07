@@ -8,7 +8,7 @@
  * mail to:    Mirko Sucker <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class, Qt > 1.40
  *             NANA (for debugging)
- * $Revision$
+ * $Revision: 1.16.4.2 $
  */
 
 #include <fnmatch.h>
@@ -55,6 +55,7 @@
 #include "text.xbm"
 #include "select.xbm"
 #include <kapp.h>
+#include <iterator>
 
 const unsigned int AddressWidget::Grid=3;
 const unsigned int AddressWidget::ButtonSize=24;
@@ -576,7 +577,8 @@ void AddressWidget::currentChanged()
   card->currentChanged(entry);
   enableWidgets();
   if(noOfEntries()!=0)
-    { // careful! distance(..) broken for empty containers!
+    { /*
+      // careful! distance(..) broken for empty containers!
       // (should return zero but crashes)
       // cast needed because of ambiguosity
       distance((StringStringMap::iterator)entries.begin(), 
@@ -585,7 +587,7 @@ void AddressWidget::currentChanged()
       LG(GUARD, "AddressWidget::currentChanged: activating "
 	 "item %i in selector.\n", which);
       comboSelector->setCurrentItem(which);
-      ++which;
+      ++which;*/
     }
   emit(entrySelected(which, noOfEntries()));
   // ############################################################################

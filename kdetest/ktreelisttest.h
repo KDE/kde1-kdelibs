@@ -1,6 +1,6 @@
 /* outline.h
 -------------------------------------------------------------------
-$Id$
+$Id: ktreelisttest.h,v 1.2 1997/09/10 13:53:21 kdecvs Exp $
   
 outline class declarations
 An example using the KTreeListWidget

@@ -18,7 +18,7 @@
 */
 
 #ifndef MEDIATOOL_H
-#define MEDIATOOL_H "$Id$"
+#define MEDIATOOL_H "$Id: mediatool.h,v 1.12 1998/12/14 22:07:23 esken Exp $"
 
 typedef signed char    int8;
 typedef unsigned char  uint8;

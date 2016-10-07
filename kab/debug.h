@@ -1,7 +1,7 @@
 /* -*- C++ -*-
  * Source file for removing Nana macros and managing kab's debugging system.
  * Mirko Sucker, 1998.
- * $Id$
+ * $Id: debug.h,v 1.5 1998/12/22 21:45:59 mirko Exp $
  *
  * The following is provided to remove Nana-assertions from the
  * sourcecode. I strongly recommend using Nana if you are sear-

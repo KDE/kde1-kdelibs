@@ -2,7 +2,7 @@
 * QImageIO Routines to read/write TIFF images.
 * Sirtaj Singh Kang, Oct 1998.
 *
-* $Id$
+* $Id: tiffr.h,v 1.1.1.1 1998/10/18 04:43:02 ssk Exp $
 */
 
 #ifndef KIMG_TIFFR_H

@@ -5,7 +5,7 @@
 //           using IJG JPEG library.
 //
 
-// $Id$
+// $Id: jpeg.h,v 1.1.1.1 1998/10/18 04:43:02 ssk Exp $
 
 #ifndef _SSK_JPEG_QHANDLERS_H
 #define _SSK_JPEG_QHANDLERS_H

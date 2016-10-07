@@ -1,4 +1,4 @@
-// $Id$
+// $Id: kspell.cpp,v 1.17.2.2 1999/05/05 01:38:25 porten Exp $
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>

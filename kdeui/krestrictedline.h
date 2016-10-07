@@ -1,6 +1,6 @@
 /**********************************************************************
 **
-** $Id$
+** $Id: krestrictedline.h,v 1.3 1998/09/01 20:22:10 kulow Exp $
 **
 ** Definition of KRestrictedLine
 **

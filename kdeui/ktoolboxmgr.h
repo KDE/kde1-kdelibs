@@ -31,8 +31,11 @@
 #include <X11/Xlib.h>
 #include <X11/Xutil.h>
 
- // $Id$
- // $Log$
+ // $Id: ktoolboxmgr.h,v 1.7 1998/11/06 15:45:44 radej Exp $
+ // $Log: ktoolboxmgr.h,v $
+ // Revision 1.7  1998/11/06 15:45:44  radej
+ // sven: added helper for addHotSpot
+ //
  // Revision 1.6  1998/09/01 20:22:26  kulow
  // I renamed all old qt header files to the new versions. I think, this looks
  // nicer (and gives the change in configure a sense :)

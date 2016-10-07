@@ -8,7 +8,7 @@
  *                          <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class
  *             Nana (only for debugging)
- * $Revision$
+ * $Revision: 1.4 $
  */
 
 #ifndef MS_FUNCTIONS_H_INCLUDED
@@ -17,7 +17,6 @@
 #pragma interface
 
 #include "stl_headers.h"
-#include <fstream.h>
 
 /** Read a line, ignore comments. */
 string ReadLineFromStream(ifstream&);

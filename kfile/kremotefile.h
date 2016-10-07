@@ -28,7 +28,7 @@
  * the file when it is deleted.
  *
  * @author rich@kde.org
- * @version $Id$
+ * @version $Id: kremotefile.h,v 1.1.1.1 1998/03/27 16:00:33 kulow Exp $
  */
 class KRemoteFile {
 public:

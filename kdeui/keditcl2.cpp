@@ -1,6 +1,6 @@
  /*
 
-  $Id$
+  $Id: keditcl2.cpp,v 1.5.4.1 1999/03/29 10:39:03 porten Exp $
  
   kedit, a simple text editor for the KDE project
   

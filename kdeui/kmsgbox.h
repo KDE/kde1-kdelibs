@@ -17,9 +17,12 @@
     Boston, MA 02111-1307, USA.
 */
 /*
- * $Id$
+ * $Id: kmsgbox.h,v 1.11 1998/10/31 15:25:01 porten Exp $
  *
- * $Log$
+ * $Log: kmsgbox.h,v $
+ * Revision 1.11  1998/10/31 15:25:01  porten
+ * Harri: fixed documented return value of yesNo()
+ *
  * Revision 1.10  1998/09/14 20:44:07  kulow
  * I know, Ok is ok too, but OK is more OK some GUI guides say :)
  *
@@ -107,7 +110,7 @@
   * are also provided for convenience.
   *
   * @author Alexander Sanda (alex@darkstar.ping.at)
-  * @version $Id$
+  * @version $Id: kmsgbox.h,v 1.11 1998/10/31 15:25:01 porten Exp $
   */
 class KMsgBox : public QDialog
 {

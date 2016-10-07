@@ -20,8 +20,12 @@
     Boston, MA 02111-1307, USA.
 */
 
-// $Id$
-// $Log$
+// $Id: ktoolbar.cpp,v 1.96.4.2 1999/05/29 18:55:01 denis Exp $
+// $Log: ktoolbar.cpp,v $
+// Revision 1.96.4.2  1999/05/29 18:55:01  denis
+// Broken files repaired.
+// It looks like nothing has missed.
+//
 // Revision 1.96.4.1  1999/03/06 21:46:00  radej
 // sven: Flat/Unflat with LMB too. Arrows and animation to come.
 //

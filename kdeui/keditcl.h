@@ -1,5 +1,5 @@
 /*
-  $Id$
+  $Id: keditcl.h,v 1.8 1998/10/28 15:47:03 ettrich Exp $
 
   KEdit, a simple text editor for the KDE project
 

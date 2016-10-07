@@ -17,9 +17,12 @@
     Boston, MA 02111-1307, USA.
 */
 /*
- * $Id$
+ * $Id: ktabctl.cpp,v 1.16 1999/01/18 10:57:07 kulow Exp $
  *
- * $Log$
+ * $Log: ktabctl.cpp,v $
+ * Revision 1.16  1999/01/18 10:57:07  kulow
+ * .moc files are back in kdelibs. Built fine here using automake 1.3
+ *
  * Revision 1.15  1999/01/15 09:31:26  kulow
  * it's official - kdelibs builds with srcdir != builddir. For this I
  * automocifized it, the generated rules are easier to maintain than

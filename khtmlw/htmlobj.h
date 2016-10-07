@@ -35,6 +35,7 @@
 #include <qstack.h>
 #include <qfont.h>
 #include <qtimer.h>
+#include <qbuffer.h>
 
 class QMovie;
 

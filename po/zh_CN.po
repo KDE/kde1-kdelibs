@@ -1188,10 +1188,6 @@ msgstr "三月"
 msgid "Apr"
 msgstr "四月"
 
-#: kfile/kfileinfo.cpp:225
-msgid "May"
-msgstr "五月"
-
 #: kfile/kfileinfo.cpp:226
 msgid "Jun"
 msgstr "六月"

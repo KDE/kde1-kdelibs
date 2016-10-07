@@ -159,9 +159,13 @@ private:
 };
 
 /*
- * $Id$
+ * $Id: kpanner.h,v 1.3 1997/10/16 11:15:28 torben Exp $
  *
- * $Log$
+ * $Log: kpanner.h,v $
+ * Revision 1.3  1997/10/16 11:15:28  torben
+ * Kalle: Copyright headers
+ * kdoctoolbar removed
+ *
  * Revision 1.2  1997/05/02 16:46:41  kalle
  * Kalle: You may now override how KApplication reacts to external changes
  * KButton uses the widget default palette

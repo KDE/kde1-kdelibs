@@ -1,6 +1,6 @@
 /* qktstreelist.cpp
 -------------------------------------------------------------------
-$Id$
+$Id: ktreelist.cpp,v 1.14 1999/01/18 10:57:15 kulow Exp $
   
 KTreeList class implementation
 

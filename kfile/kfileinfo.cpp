@@ -20,7 +20,7 @@
     Boston, MA 02111-1307, USA.
 */
 
-// $Id$
+// $Id: kfileinfo.cpp,v 1.8.4.2 1999/07/20 19:24:34 porten Exp $
 
 #include "kfileinfo.h"
 

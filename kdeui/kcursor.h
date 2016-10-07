@@ -17,9 +17,14 @@
    Boston, MA 02111-1307, USA.
 */
 /*
- * $Id$
+ * $Id: kcursor.h,v 1.2 1998/11/30 00:12:56 granroth Exp $
  *
- * $Log$
+ * $Log: kcursor.h,v $
+ * Revision 1.2  1998/11/30 00:12:56  granroth
+ * Updated KCursor to mimic all of Qt's cursors.  It would be a good idea
+ * for all apps to start using, say "KCursor::arrowCursor" instead of just
+ * "arrowCursor" so that when we have themes, the code won't have to change.
+ *
  * Revision 1.1  1998/11/28 06:30:59  granroth
  * Added KCursor -- a simple wrapper around QCursor allowing for "themable"
  * cursors.  Currently, it only supports a 'handCursor'.

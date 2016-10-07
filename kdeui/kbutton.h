@@ -25,7 +25,7 @@
 
 /**
 * Provides active-raise/lower buttons.
-* @version $Id$
+* @version $Id: kbutton.h,v 1.8 1997/10/16 11:15:14 torben Exp $
 */
 class KButton : public QButton
 {

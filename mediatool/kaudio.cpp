@@ -16,11 +16,11 @@
     the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
     Boston, MA 02111-1307, USA.
 */
-#include <stdio.h>
-#include <stdlib.h>
-#include <iostream.h>
+#include <cstdio>
+#include <cstdlib>
+#include <iostream>
 #include <unistd.h>
-#include <string.h>
+#include <string>
 #ifdef HAVE_CONFIG_H
 #include <config.h>
 #endif
@@ -30,6 +30,7 @@
 #include <sysent.h>
 #endif
 
+using namespace std;
 
 #define maxFnameLen 256
 

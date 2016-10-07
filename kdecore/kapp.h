@@ -17,7 +17,7 @@
     Boston, MA 02111-1307, USA.
 */
 
-// $Id$
+// $Id: kapp.h,v 1.61.2.3 1999/09/06 14:11:43 kulow Exp $
 
 #ifndef _KAPP_H
 #define _KAPP_H
@@ -71,7 +71,7 @@ class KCharsets;
 *
 * @short A base class for all KDE applications.
 * @author Matthias Kalle Dalheimer <kalle@kde.org>
-* @version $Id$
+* @version $Id: kapp.h,v 1.61.2.3 1999/09/06 14:11:43 kulow Exp $
 */ 
 class KApplication : public QApplication
 {
@@ -714,7 +714,10 @@ private:
 
 #endif
 
-// $Log$
+// $Log: kapp.h,v $
+// Revision 1.61.2.3  1999/09/06 14:11:43  kulow
+// use version 1.1.2 everywhere
+//
 // Revision 1.61.2.2  1999/04/17 22:12:18  kulow
 // setting RELEASE to 4
 //

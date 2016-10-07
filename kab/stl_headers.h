@@ -12,15 +12,19 @@
  * mail to:    Mirko Sucker <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class, Qt > 1.40
  *             NANA (for debugging)
- * $Revision$
+ * $Revision: 1.3 $
  */
 
 #ifndef MS_STL_HEADERS_H
 #define MS_STL_HEADERS_H
 
+using namespace std;
+
 #include <config.h>
 #include <string>
 #include <list>
+#include <iostream>
+#include <fstream>
 
 /* The map-header is needed, but declares two global 
  * symbols that are also globally declared in Qt, "red"

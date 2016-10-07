@@ -1,5 +1,5 @@
 /*
-    $Id$
+    $Id: kfontdialog.cpp,v 1.29 1999/01/18 10:56:41 kulow Exp $
 
     Requires the Qt widget libraries, available at no cost at 
     http://www.troll.no
@@ -22,7 +22,10 @@
     the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
     Boston, MA 02111-1307, USA.
   
-    $Log$
+    $Log: kfontdialog.cpp,v $
+    Revision 1.29  1999/01/18 10:56:41  kulow
+    .moc files are back in kdelibs. Built fine here using automake 1.3
+
     Revision 1.28  1999/01/15 09:31:00  kulow
     it's official - kdelibs builds with srcdir != builddir. For this I
     automocifized it, the generated rules are easier to maintain than

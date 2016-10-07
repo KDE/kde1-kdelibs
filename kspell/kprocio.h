@@ -5,7 +5,7 @@
 #include <kprocess.h>
 
 /**
- * @version $Id$
+ * @version $Id: kprocio.h,v 1.3 1998/11/06 00:37:07 dsweet Exp $
  * @author David Sweet
  * @short A slightly simpler interface to KProcess
  *

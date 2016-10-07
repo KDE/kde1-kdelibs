@@ -1,7 +1,11 @@
 /*
- * $Id$
+ * $Id: ktabctltest.h,v 1.3 1999/01/15 08:59:43 kulow Exp $
  *
- * $Log$
+ * $Log: ktabctltest.h,v $
+ * Revision 1.3  1999/01/15 08:59:43  kulow
+ * use seperate moc.cpp files - did you know that most header files herein are
+ * complete hacks? ;)
+ *
  * Revision 1.2  1997/07/24 21:04:03  kalle
  * Kalle: Patches for SGI
  * 	New ktoolbartest (for newtoolbar 0.6)

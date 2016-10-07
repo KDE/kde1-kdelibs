@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: kpannertest.cpp,v 1.5 1999/01/19 13:36:25 kulow Exp $
  */
 
 

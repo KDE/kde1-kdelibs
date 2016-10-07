@@ -16,9 +16,9 @@
     the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
     Boston, MA 02111-1307, USA.
 */
-// $Id$
+// $Id: kconfigbase.cpp,v 1.37.4.1 1999/03/03 15:33:15 kuepper Exp $
 //
-// $Log$
+// $Log: kconfigbase.cpp,v $
 // Revision 1.37.4.1  1999/03/03 15:33:15  kuepper
 // WriteConfig( ..., double, ... ) does store the full information !
 // (At least for 8 byte doubles, should be modified to use the machine
@@ -541,7 +541,7 @@ bool KConfigBase::readBoolEntry( const char* pKey, const bool bDefault ) const
 	return bDefault;
   else
 	{
-	  if( aValue == "true" || aValue == "on" || aValue == "yes" || aValue == "1" )
+	  if( aValue == "true" || aValue == "on" )
 		return true;
 	  else
 		{

@@ -26,7 +26,7 @@
 *
 * @short A Progress indicator widget
 * @author Martynas Kunigelis
-* @version $Id$
+* @version $Id: kprogress.h,v 1.6 1998/09/01 20:22:06 kulow Exp $
 */
 class KProgress : public QFrame, public QRangeControl {
 	Q_OBJECT

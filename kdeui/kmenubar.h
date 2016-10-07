@@ -18,8 +18,12 @@
     Boston, MA 02111-1307, USA.
 */
 
-//$Id$
-//$Log$
+//$Id: kmenubar.h,v 1.15.4.3 1999/05/29 18:55:00 denis Exp $
+//$Log: kmenubar.h,v $
+//Revision 1.15.4.3  1999/05/29 18:55:00  denis
+//Broken files repaired.
+//It looks like nothing has missed.
+//
 //Revision 1.15.4.2  1999/04/18 18:36:27  radej
 //sven: Docs.
 //

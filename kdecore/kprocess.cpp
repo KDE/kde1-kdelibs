@@ -1,6 +1,6 @@
 /*
 
-   $Id$
+   $Id: kprocess.cpp,v 1.29.4.6 1999/08/18 15:23:49 waba Exp $
 
    This file is part of the KDE libraries
    Copyright (C) 1997 Christian Czezatke (e9025461@student.tuwien.ac.at)
@@ -20,7 +20,10 @@
    the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
    Boston, MA 02111-1307, USA.
 
-   $Log$
+   $Log: kprocess.cpp,v $
+   Revision 1.29.4.6  1999/08/18 15:23:49  waba
+   WABA: Fix for communication with child processes
+
    Revision 1.29.4.5  1999/07/22 21:14:17  porten
    applied Waba's fix for the fix from HEAD
 

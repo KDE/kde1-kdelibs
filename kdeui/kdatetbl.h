@@ -41,7 +41,7 @@
 /**
   * Draws a calendar table.
   * @author Tim D. Gilman
-  * @version $Id$
+  * @version $Id: kdatetbl.h,v 1.7.4.1 1999/03/29 17:28:06 mirko Exp $
   */
 
 class KDateTable: public QTableView {

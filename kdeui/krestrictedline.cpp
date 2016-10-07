@@ -1,6 +1,6 @@
 /**********************************************************************
 **
-** $Id$
+** $Id: krestrictedline.cpp,v 1.3 1999/01/18 10:56:59 kulow Exp $
 **
 ** Implementation of KRestrictedLine
 **

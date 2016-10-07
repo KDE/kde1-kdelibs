@@ -16,9 +16,15 @@
     the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
     Boston, MA 02111-1307, USA.
 */
-// $Id$
+// $Id: ksimpleconfig.h,v 1.6 1998/01/18 14:39:02 kulow Exp $
 //
-// $Log$
+// $Log: ksimpleconfig.h,v $
+// Revision 1.6  1998/01/18 14:39:02  kulow
+// reverted the changes, Jacek commited.
+// Only the RCS comments were affected, but to keep them consistent, I
+// thought, it's better to revert them.
+// I checked twice, that only comments are affected ;)
+//
 // Revision 1.4  1998/01/15 13:22:31  kalle
 // Read-only mode for KSimpleConfig
 //
@@ -49,7 +55,7 @@
 * that need only one configuration file and no default system.
 *
 * @author Kalle Dalheimer (kalle@kde.org)
-* @version $Id$
+* @version $Id: ksimpleconfig.h,v 1.6 1998/01/18 14:39:02 kulow Exp $
 * @see KApplication::getConfig KConfigBase KConfig
 * @short KDE Configuration Management class
 */

@@ -10,7 +10,7 @@
  *                          <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class, Qt
  *             NANA (for debugging)
- * $Revision$
+ * $Revision: 1.6.4.1 $
  */
   
 #ifndef ADDRESSBOOK_H

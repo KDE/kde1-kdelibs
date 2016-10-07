@@ -1,5 +1,5 @@
 /* 
-   $Id$
+   $Id: kiconloader.h,v 1.15.4.3 1999/03/12 18:41:10 pbrown Exp $
    
    This file is part of the KDE libraries
    Copyright (C) 1997 Christoph Neerfeld (chris@kde.org)
@@ -19,7 +19,11 @@
    the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
    Boston, MA 02111-1307, USA.
    
-   $Log$
+   $Log: kiconloader.h,v $
+   Revision 1.15.4.3  1999/03/12 18:41:10  pbrown
+   removed KIconLoader:: from method getIconPath (extra qualification
+   unneeded and causing warnings).
+
    Revision 1.15.4.2  1999/03/09 15:46:29  dfaure
    Doc update (the path order was changed)
 

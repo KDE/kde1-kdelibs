@@ -48,7 +48,7 @@
  * PLEASE NOTE: This panner is NOT source or binary compatable with
  * the old one.
  *
- * @version $Id$
+ * @version $Id: knewpanner.h,v 1.7 1998/03/03 13:45:28 rich Exp $
  * @author Richard Moore rich@kde.org
  */
 class KNewPanner : public QWidget

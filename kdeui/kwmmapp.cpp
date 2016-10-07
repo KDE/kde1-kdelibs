@@ -1,6 +1,6 @@
 /*
 
-    $Id$
+    $Id: kwmmapp.cpp,v 1.18 1999/01/18 10:57:18 kulow Exp $
 
     This file is part of the KDE libraries
     Copyright (C) 1997 Matthias Ettrich (ettrich@kde.org)
@@ -21,7 +21,10 @@
     the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
     Boston, MA 02111-1307, USA.
 
-    $Log$
+    $Log: kwmmapp.cpp,v $
+    Revision 1.18  1999/01/18 10:57:18  kulow
+    .moc files are back in kdelibs. Built fine here using automake 1.3
+
     Revision 1.17  1999/01/15 09:31:37  kulow
     it's official - kdelibs builds with srcdir != builddir. For this I
     automocifized it, the generated rules are easier to maintain than

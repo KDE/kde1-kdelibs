@@ -1,13 +1,12 @@
 Source: kdelibs
 Section: contrib/libs
-Build-Depends: debhelper, autoconf, automake, libtool, libqt1g-dev, libjpeg62-dev, libpng2-dev, xlib6g-dev | xlibs-dev
-Priority: optional
-Maintainer: Ivan E. Moore II <rkrusty@debian.org>
-Standards-Version: 3.0.1
+Priority: extra
+Maintainer: Stephan Kulow <coolo@kde.org>
+Standards-Version: 2.5.1
 
 Package: kdelibs2g-dev
 Architecture: any
-Depends: kdelibs2g (= ${Source-Version}), gettext, libqt1g-dev, libjpeg62-dev, xlib6g-dev | xlibs-dev
+Depends: kdelibs2g (= ${Source-Version}), gettext, qt1g-dev, libjpeg62-dev, xlib6g-dev
 Conflicts: kdelibs0-dev
 Description: KDE core libraries (development files)
  KDE core libraries.
@@ -15,7 +14,8 @@ Description: KDE core libraries (development files)
 
 Package: kdelibs-doc
 Architecture: all
-Depends: qt-doc
+Depends: kdelibs2g (= ${Source-Version}), qt1g-doc
+Suggests: kdevelop, kdoc, ktranslator
 Description: KDE core libraries (kdoc documentation)
  KDE core libraries (kdoc documentation)
  .

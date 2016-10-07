@@ -128,7 +128,7 @@ struct KKeyEntry {
  * menu structure.
 
  * @short Configurable key binding support.
- * @version $Id$
+ * @version $Id: kaccel.h,v 1.9 1998/11/15 21:07:35 ettrich Exp $
  */
 class KAccel
 {

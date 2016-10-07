@@ -1,7 +1,7 @@
 /*
 * kstddirs.cpp -- Implementation of class KStandardDirs.
 * Author:	Sirtaj Singh Kang <taj@kde.org>
-* Version:	$Id$
+* Version:	$Id: kstddirs.cpp,v 1.3 1998/11/01 10:37:49 bieker Exp $
 * Generated:	Thu Mar  5 16:05:28 EST 1998
 */
 

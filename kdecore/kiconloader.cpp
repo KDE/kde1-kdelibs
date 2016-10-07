@@ -1,5 +1,5 @@
 /* 
-   $Id$
+   $Id: kiconloader.cpp,v 1.26.4.4 1999/06/03 23:01:50 dfaure Exp $
    
    This file is part of the KDE libraries
    Copyright (C) 1997 Christoph Neerfeld (chris@kde.org)
@@ -19,7 +19,16 @@
    the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
    Boston, MA 02111-1307, USA.
    
-   $Log$
+   $Log: kiconloader.cpp,v $
+   Revision 1.26.4.4  1999/06/03 23:01:50  dfaure
+   The second part of the patch - allows to set a per-application
+   style of icons (large or normal), still keeping binary compatibility
+   (implementation uses ~/.kderc to store the setting and kapp->appName()
+   to read the setting for the current app)
+   It's ugly, I completely agree with you, Taj, but it's the only way to
+   keep binary compatibility. We should think of something better for KDE 2.
+   (where this patch is already applied but is too ugly to remain as is)
+
    Revision 1.26.4.3  1999/05/29 18:41:25  denis
    File from 1.1.1 release restored.
    The old one was corrupted.

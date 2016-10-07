@@ -34,7 +34,7 @@
  *
  * @short This widget allows users to configure KFileDialog
  * @author Richard Moore (rich@kde.org)
- * @version $Id$
+ * @version $Id: kfiledialogconf.h,v 1.3 1998/09/01 20:22:36 kulow Exp $
  */
 class KFileDialogConfigure : public QWidget
 {

@@ -8,8 +8,10 @@
  * mail to:    Mirko Sucker <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class,
  *             Nana for debugging
- * $Revision$
+ * $Revision: 1.11.4.2 $
  */
+
+using namespace std;
 
 #include "addressbook.h"
 #ifdef KAB_DEBUG
@@ -17,6 +19,7 @@
 #endif
 #include <kapp.h>
 #include "debug.h"
+#include <iostream>
 
 extern "C" {
 #include <sys/types.h>

@@ -42,7 +42,7 @@
  * defined in the class KWM (see kwm.h).
  * @short Base class for KDE Window Manager modules.
  * @author Matthias Ettrich (ettrich@kde.org)
- * @version $Id$
+ * @version $Id: kwmmapp.h,v 1.12 1999/01/12 12:45:31 ettrich Exp $
  */
 class KWMModuleApplication:public KApplication {
   Q_OBJECT

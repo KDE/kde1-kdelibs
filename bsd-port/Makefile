@@ -3,7 +3,7 @@
 # Date created:        18 June 1998
 # Whom:                Alex Zepeda <garbanzo@hooked.net>
 #
-# $Id$
+# $Id: Makefile,v 1.6 1998/10/20 06:51:51 garbanzo Exp $
 #
 PKGNAME=	kdelibs-`date "+%y%m%d"`
 CATEGORIES=	x11 kde

@@ -1,4 +1,4 @@
-// $Id$
+// $Id: knewpanner.cpp,v 1.20 1999/01/18 10:56:51 kulow Exp $
 
 /* This file is part of the KDE libraries
     Copyright (C) 1997 Richard Moore (moorer@cs.man.ac.uk)

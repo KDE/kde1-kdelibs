@@ -5,7 +5,7 @@
 *	Copyright (c) October 1998, Sirtaj Singh Kang.
 *	Distributed under the LGPL.
 *
-*	$Id$
+*	$Id: pngr.h,v 1.1 1998/10/23 14:10:09 ssk Exp $
 */
 #ifndef	_SSK_PNGR_H
 #define _SSK_PNGR_H

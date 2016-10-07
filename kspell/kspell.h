@@ -34,7 +34,7 @@
  *  as acting as an options-setting dialog.
  * @short A KDE programmer's interface to International ISpell 3.1  (GPL 1997)
  * @author David Sweet dsweet@wheatcomputers.com
- * @version $Id$
+ * @version $Id: kspell.h,v 1.6 1998/11/06 00:37:09 dsweet Exp $
  * @see KSpellConfig
  */
 

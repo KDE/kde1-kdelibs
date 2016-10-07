@@ -16,9 +16,15 @@
     the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
     Boston, MA 02111-1307, USA.
 */
-// $Id$
+// $Id: kconfig.h,v 1.7 1998/01/18 14:38:48 kulow Exp $
 //
-// $Log$
+// $Log: kconfig.h,v $
+// Revision 1.7  1998/01/18 14:38:48  kulow
+// reverted the changes, Jacek commited.
+// Only the RCS comments were affected, but to keep them consistent, I
+// thought, it's better to revert them.
+// I checked twice, that only comments are affected ;)
+//
 // Revision 1.5  1997/12/12 14:46:01  denis
 // Reverting to lower case true/false
 //
@@ -52,7 +58,7 @@
 * This class implements KDE's default-based configuration system.
 *
 * @author Kalle Dalheimer (kalle@kde.org)
-* @version $Id$
+* @version $Id: kconfig.h,v 1.7 1998/01/18 14:38:48 kulow Exp $
 * @see KApplication::getConfig KConfigBase KSimpleConfig
 * @short KDE Configuration Management  class
 */

@@ -1,7 +1,11 @@
 /*
- * $Id$
+ * $Id: kmsgboxtest.h,v 1.3 1999/01/15 08:59:29 kulow Exp $
  *
- * $Log$
+ * $Log: kmsgboxtest.h,v $
+ * Revision 1.3  1999/01/15 08:59:29  kulow
+ * use seperate moc.cpp files - did you know that most header files herein are
+ * complete hacks? ;)
+ *
  * Revision 1.2  1997/07/24 21:04:01  kalle
  * Kalle: Patches for SGI
  * 	New ktoolbartest (for newtoolbar 0.6)

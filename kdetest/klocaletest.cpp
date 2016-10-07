@@ -1,6 +1,6 @@
 // klocaletest.cpp     -*- C++ -*-
 //
-// $Id$
+// $Id: klocaletest.cpp,v 1.3 1999/01/19 13:36:23 kulow Exp $
 // 
 // Author: Jacek Konieczny <jajcus@zeus.polsl.gliwice.pl>
 //

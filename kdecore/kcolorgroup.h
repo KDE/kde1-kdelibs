@@ -16,9 +16,12 @@
     the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
     Boston, MA 02111-1307, USA.
 */
-// $Id$
+// $Id: kcolorgroup.h,v 1.8 1998/06/16 06:03:20 kalle Exp $
 //
-// $Log$
+// $Log: kcolorgroup.h,v $
+// Revision 1.8  1998/06/16 06:03:20  kalle
+// Implemented copy constructors and assignment operators or disabled them
+//
 // Revision 1.7  1998/01/18 14:38:36  kulow
 // reverted the changes, Jacek commited.
 // Only the RCS comments were affected, but to keep them consistent, I

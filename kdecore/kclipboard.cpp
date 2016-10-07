@@ -7,8 +7,8 @@
 #include <X11/Xos.h>
 #include <X11/Xatom.h>  
 
-#include <assert.h>
-#include <iostream.h>
+#include <cassert>
+#include <iostream>
 #include <ctype.h>
 #include <string.h>
 
@@ -30,13 +30,13 @@ KClipboard::KClipboard()
 {
   if ( s_pSelf )
   {
-    cerr << "You may only open one KClipboard at once" << endl;
+    std::cerr << "You may only open one KClipboard at once" << std::endl;
     assert( 0 );
   }
   
   if ( qt_clipboard != 0L )
   {    
-    cerr << "KClipboard::KClipboard There is already a clipboard registered\n" << endl;
+    std::cerr << "KClipboard::KClipboard There is already a clipboard registered\n" << std::endl;
     assert( 0 );
   }
     
@@ -61,7 +61,7 @@ bool KClipboard::open( int _mode, const char *_format )
 {
   if ( _mode != IO_ReadOnly && _mode != ( IO_WriteOnly | IO_Truncate ) && _mode != IO_WriteOnly )
   {    
-    cerr << "KClipboard: Wrong flags in call for Ken" << endl;
+    std::cerr << "KClipboard: Wrong flags in call for Ken" << std::endl;
     assert( 0 );
   }
     
@@ -73,7 +73,7 @@ bool KClipboard::open( int _mode, const char *_format )
     m_bEmpty = false;
     m_strFormat = _format;
 
-    cerr << "Fuck ya too" << endl;
+    std::cerr << "Fuck ya too" << std::endl;
 
     QBuffer::open( _mode );
     if ( strcmp( _format, "application/octet-stream" ) != 0L && 
@@ -85,7 +85,7 @@ bool KClipboard::open( int _mode, const char *_format )
     else
       m_mimeTypeLen = 0;
     
-    cerr << "2 Fuck ya too" << endl;
+    std::cerr << "2 Fuck ya too" << std::endl;
 
     return true;
   }
@@ -163,7 +163,7 @@ void KClipboard::setOwner()
   XSetSelectionOwner( dpy, XA_PRIMARY, win, qt_x_clipboardtime );
   if ( XGetSelectionOwner( dpy, XA_PRIMARY ) != win )
   {
-    cerr <<  "KClipboard::setOwner: Cannot set X11 selection owner" << endl;
+    std::cerr <<  "KClipboard::setOwner: Cannot set X11 selection owner" << std::endl;
     return;
   }                            
 

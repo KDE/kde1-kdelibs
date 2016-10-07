@@ -17,9 +17,12 @@
     Boston, MA 02111-1307, USA.
 */
 /*
- * $Id$
+ * $Id: ktabctl.h,v 1.5.4.1 1999/06/22 18:32:14 gehrmab Exp $
  *
- * $Log$
+ * $Log: ktabctl.h,v $
+ * Revision 1.5.4.1  1999/06/22 18:32:14  gehrmab
+ * Removed unwanted html tags from kdocumentation
+ *
  * Revision 1.5  1998/07/23 08:34:10  garbanzo
  * Repeat after me: private members are bad, private members are bad, private
  * members are the bane of reusable code.

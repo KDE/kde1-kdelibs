@@ -9,7 +9,7 @@
  * mail to:    Mirko Sucker <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class,
  *             Nana for debugging
- * $Revision$
+ * $Revision: 1.7 $
  */
 
 #include "editentry.h"

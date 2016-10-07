@@ -1,6 +1,6 @@
 /* This file is part of the KDE libraries
     Copyright (C) 1997 Jacek Konieczny (jajcus@zeus.polsl.gliwice.pl)
-    $Id$
+    $Id: kcharsetsdata.h,v 1.18 1998/11/30 08:22:01 kalle Exp $
 
     This library is free software; you can redistribute it and/or
     modify it under the terms of the GNU Library General Public

@@ -1,6 +1,11 @@
-// $Id$
+// $Id: kconfigdata.h,v 1.11 1998/10/07 06:49:24 kalle Exp $
 //
-// $Log$
+// $Log: kconfigdata.h,v $
+// Revision 1.11  1998/10/07 06:49:24  kalle
+// Correctly read double dollar signs (patch by Harri Porten)
+// Dollar expansion can be turned off with setDollarExpansion( false ).
+// \sa isDollarExpansion
+//
 // Revision 1.10  1998/09/01 20:21:21  kulow
 // I renamed all old qt header files to the new versions. I think, this looks
 // nicer (and gives the change in configure a sense :)
@@ -61,7 +66,7 @@ typedef QDictIterator<KEntryDictEntry> KEntryIterator;
 /**
 * Configuration data manager, used internally by KConfig.
 * @short Configuration data manager, used internally by KConfig.
-* @version $Id$
+* @version $Id: kconfigdata.h,v 1.11 1998/10/07 06:49:24 kalle Exp $
 * @author Matthias Kalle Dalheimer (kalle@kde.org)
 * @internal
 */

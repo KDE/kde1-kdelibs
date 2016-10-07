@@ -46,7 +46,7 @@
 /**
 * Internal display class for @ref KIconLoaderDialog
 * @short Internal display class for KIconLoaderDialog
-* @version $Id$
+* @version $Id: kiconloaderdialog.h,v 1.11 1998/12/04 12:54:20 neerfeld Exp $
 * @author Christoph.Neerfeld@bonn.netsurf.de
 */
 class KIconLoaderCanvas : public QTableView

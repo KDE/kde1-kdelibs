@@ -16,9 +16,12 @@
     the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
     Boston, MA 02111-1307, USA.
 */
-/* $Id$
+/* $Id: drag.h,v 1.24 1998/10/22 12:22:37 ettrich Exp $
  *
- * $Log$
+ * $Log: drag.h,v $
+ * Revision 1.24  1998/10/22 12:22:37  ettrich
+ * grbmll... anyways, now it should compile again.
+ *
  * Revision 1.23  1998/10/22 12:18:12  ettrich
  * sorry....
  *
@@ -183,7 +186,7 @@ typedef XID Window;
 *
 * @short Icon for KDE Drag 'n Drop
 * @author Torben Weis (weis@kde.org)
-* @version $Id$
+* @version $Id: drag.h,v 1.24 1998/10/22 12:22:37 ettrich Exp $
 */
 class KDNDIcon : public QWidget
 {
@@ -234,7 +237,7 @@ protected:
 *
 * @short Drop zone for KDE Drag n Drop.
 * @author Torben Weis (weis@kde.org)
-* @version $Id$
+* @version $Id: drag.h,v 1.24 1998/10/22 12:22:37 ettrich Exp $
 */
 class KDNDDropZone : public QObject
 {
@@ -434,7 +437,7 @@ protected:
 *
 * @short A widget for drag support.
 * @author Torben Weis (weis@kde.org)
-* @version $Id$
+* @version $Id: drag.h,v 1.24 1998/10/22 12:22:37 ettrich Exp $
 */
 class KDNDWidget : public QWidget
 {

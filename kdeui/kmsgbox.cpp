@@ -17,9 +17,12 @@
     Boston, MA 02111-1307, USA.
 */
 /*                                                    cd source
- * $Id$
+ * $Id: kmsgbox.cpp,v 1.14 1999/01/18 10:56:50 kulow Exp $
  *
- * $Log$
+ * $Log: kmsgbox.cpp,v $
+ * Revision 1.14  1999/01/18 10:56:50  kulow
+ * .moc files are back in kdelibs. Built fine here using automake 1.3
+ *
  * Revision 1.13  1999/01/15 09:31:09  kulow
  * it's official - kdelibs builds with srcdir != builddir. For this I
  * automocifized it, the generated rules are easier to maintain than

@@ -18,7 +18,7 @@
     Boston, MA 02111-1307, USA.
 */
 
-// $Id$
+// $Id: kfilepreview.cpp,v 1.10 1999/01/18 10:57:32 kulow Exp $
 
 #include "kfilepreview.h"
 #include "kdirlistbox.h"

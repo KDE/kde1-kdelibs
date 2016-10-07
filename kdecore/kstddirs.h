@@ -30,7 +30,7 @@ class QStrList;
 * @ref KApplication::dirs method.
 *
 * @author Sirtaj Singh Kang <taj@kde.org>
-* @version $Id$
+* @version $Id: kstddirs.h,v 1.2 1998/06/16 06:03:30 kalle Exp $
 */
 class KStandardDirs
 {

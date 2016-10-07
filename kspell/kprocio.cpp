@@ -1,4 +1,4 @@
-// $Id$
+// $Id: kprocio.cpp,v 1.9 1999/01/18 10:58:14 kulow Exp $
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>

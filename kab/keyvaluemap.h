@@ -40,7 +40,7 @@
  *                          <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class
  *             Nana (only for debugging)
- * $Revision$
+ * $Revision: 1.5 $
  */
 #ifndef KEYVALUEMAP_H
 #define KEYVALUEMAP_H
@@ -48,7 +48,6 @@
 #pragma interface
 
 #include "stl_headers.h"
-#include <fstream.h>
 
 // forward declaration needed to avoid duplicate declaration 
 // of global specifiers "red" and "black" in

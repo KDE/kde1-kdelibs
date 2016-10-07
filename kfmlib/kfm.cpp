@@ -44,10 +44,9 @@ QString displayName()
   if (i==0)
     {
       // we are running local, so add the hostname
-      char name[256];
+      char name[25];
 
-      if (gethostname(name, 256) == 0)
-	name[255] = '\0';
+      if (gethostname(name, 25) == 0)
 	d = name + d;
     }
 

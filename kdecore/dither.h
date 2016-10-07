@@ -31,7 +31,7 @@
 /**
 * Allows Floyd-Steinberg dithering for low-colour situations.
 * @short Floyd-Steinberg dithering.
-* @version $Id$
+* @version $Id: dither.h,v 1.1 1998/04/25 13:15:27 mark Exp $
 * @author Marv Luse (tm Addison Wesley Publishing)
 */
 class kFSDither

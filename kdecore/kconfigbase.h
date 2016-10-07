@@ -16,9 +16,12 @@
     the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
     Boston, MA 02111-1307, USA.
 */
-// $Id$
+// $Id: kconfigbase.h,v 1.14 1998/11/22 21:52:33 garbanzo Exp $
 //
-// $Log$
+// $Log: kconfigbase.h,v $
+// Revision 1.14  1998/11/22 21:52:33  garbanzo
+// Fixed some comments that referred to sync() as Sync(), and a few other case issues.
+//
 // Revision 1.13  1998/10/20 18:58:12  ettrich
 // ugly hack to get rid of X11 includes, small fix
 //
@@ -105,7 +108,7 @@
 *   Lines starting with a hash mark(#) are comment lines.
 *
 * @author Kalle Dalheimer (kalle@kde.org)
-* @version $Id$
+* @version $Id: kconfigbase.h,v 1.14 1998/11/22 21:52:33 garbanzo Exp $
 * @see KApplication::getConfig KConfig KSimpleConfig
 * @short KDE Configuration Management abstract base class
 */
@@ -714,7 +717,7 @@ public:
   * in one block.
   *
   * @author Kalle Dalheimer <kalle@kde.org>
-  * @version $Id$
+  * @version $Id: kconfigbase.h,v 1.14 1998/11/22 21:52:33 garbanzo Exp $
   * @see KConfigBase, KConfig, KSimpleConfig
   * @short helper class for easier use of KConfig/KSimpleConfig groups
   */

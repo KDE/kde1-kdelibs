@@ -30,7 +30,7 @@
 *
 * @short A CDE-style LED lamp widget.
 * @author Richard J. Moore (moorer@cs.man.ac.uk)
-* @version $Id$
+* @version $Id: kledlamp.h,v 1.4 1997/10/16 11:15:24 torben Exp $
 */
 class KLedLamp : public QFrame
 {

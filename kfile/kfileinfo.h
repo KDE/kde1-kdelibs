@@ -36,7 +36,7 @@ class KDirEntry;
   * with KDir.
   *
   * @author rich@kde.org
-  * @version $Id$
+  * @version $Id: kfileinfo.h,v 1.8 1998/11/15 23:42:56 ettrich Exp $
   */
 class KFileInfo {
 

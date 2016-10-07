@@ -1,5 +1,5 @@
 /*
-    $Id$
+    $Id: kfontdialogtest.cpp,v 1.4 1997/10/04 19:42:50 kalle Exp $
 
     Requires the Qt widget libraries, available at no cost at 
     http://www.troll.no
@@ -21,7 +21,10 @@
     along with this program; if not, write to the Free Software
     Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
   
-    $Log$
+    $Log: kfontdialogtest.cpp,v $
+    Revision 1.4  1997/10/04 19:42:50  kalle
+    new KConfig
+
     Revision 1.3  1997/09/10 13:53:13  kdecvs
     Kalle: Use KApplication instead of QApplication
 

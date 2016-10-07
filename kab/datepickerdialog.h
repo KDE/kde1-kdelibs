@@ -7,7 +7,7 @@
  * mail to:    Mirko Sucker <mirko.sucker@unibw-hamburg.de>
  * requires:   C++-compiler, STL, string class, Qt > 1.40
  *             NANA (for debugging)
- * $Revision$
+ * $Revision: 1.4 $
  */
 
 #ifndef DATEPICKERDIALOG_H_INCL

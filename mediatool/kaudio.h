@@ -19,7 +19,7 @@
 */
 
 #ifndef KAUDIO_H
-#define KAUDIO_H "$Id$"
+#define KAUDIO_H "$Id: kaudio.h,v 1.10 1999/01/15 09:32:42 kulow Exp $"
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>

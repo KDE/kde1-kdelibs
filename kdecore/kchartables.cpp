@@ -1,6 +1,6 @@
 /* This file is part of the KDE libraries
     Copyright (C) 1997 Jacek Konieczny (jajcus@zeus.polsl.gliwice.pl)
-    $Id$
+    $Id: kchartables.cpp,v 1.13.4.1 1999/04/05 10:06:30 knoll Exp $
 
     This library is free software; you can redistribute it and/or
     modify it under the terms of the GNU Library General Public

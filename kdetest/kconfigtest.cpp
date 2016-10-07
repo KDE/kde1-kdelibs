@@ -16,9 +16,12 @@
     the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
     Boston, MA 02111-1307, USA.
 */
-/* $Id$
+/* $Id: kconfigtest.cpp,v 1.17.4.1 1999/02/26 12:24:17 dfaure Exp $
 
- * $Log$
+ * $Log: kconfigtest.cpp,v $
+ * Revision 1.17.4.1  1999/02/26 12:24:17  dfaure
+ * *** empty log message ***
+ *
  * Revision 1.17  1999/01/27 21:04:36  kulow
  * fixing bug 395
  *

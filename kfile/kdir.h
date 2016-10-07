@@ -20,7 +20,7 @@
     Boston, MA 02111-1307, USA.
 */
 
-// $Id$
+// $Id: kdir.h,v 1.1.1.1 1998/03/27 16:00:32 kulow Exp $
 
 #ifndef KDIR_H
 #define KDIR_H

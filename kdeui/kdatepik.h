@@ -62,7 +62,7 @@ class QDate;
   *
   * @short A widget for selecting dates.
   * @author Mirko Sucker (mirko.sucker@unibw-hamburg.de)
-  * @version $Id$
+  * @version $Id: kdatepik.h,v 1.6.4.1 1999/03/29 17:28:03 mirko Exp $
   */
 
 class KDatePicker : public QFrame {

@@ -1,6 +1,6 @@
 // test.cpp     -*- C++ -*-
 //
-// $Id$
+// $Id: klinetest.cpp,v 1.4 1999/01/19 13:36:22 kulow Exp $
 // 
 // Author: Michael Wiedmann <mw@miwie.in-berlin.de>
 //

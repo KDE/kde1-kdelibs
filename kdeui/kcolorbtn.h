@@ -28,7 +28,7 @@
 * @see KColorDialog
 *
 * @short A pushbutton to display or allow user selection of a colour.
-* @version $Id$
+* @version $Id: kcolorbtn.h,v 1.5 1998/09/01 20:21:40 kulow Exp $
 */
 class KColorButton : public QPushButton
 {
