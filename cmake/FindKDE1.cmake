@@ -25,7 +25,7 @@ include(KDE1InstallDirs)
 
 if(UNIX)
     message(STATUS "Looking for KDE1 headers and libraries")
-    find_path(LIB_INCLUDE_DIR kapp.h ${KDE1_INCLUDES})
+    find_path(KDE1_INCLUDE_DIR kapp.h ${KDE1_INCLUDES})
     find_library(LIB_KDECORE kdecore ${KDE1_LIBRARIES})
     find_library(LIB_KDEUI kdeui ${KDE1_LIBRARIES})
     find_library(LIB_KFILE kfile ${KDE1_LIBRARIES})
