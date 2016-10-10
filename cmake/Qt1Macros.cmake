@@ -76,3 +76,20 @@ macro (QT1_WRAP_MOC outfiles )
   #add_custom_target(moc_ALL ALL DEPENDS ${outfiles})
 endmacro ()
 
+macro (QT1_WRAP_CPP outfiles )
+  QT1_EXTRACT_OPTIONS(ui_files ui_options ui_target ${ARGN})
+
+  foreach (it ${ui_files})
+    get_filename_component(filename ${it} NAME_WE)
+    set(outfile ${CMAKE_CURRENT_BINARY_DIR}/${filename}.moc.cpp)
+    set(infile ${CMAKE_CURRENT_SOURCE_DIR}/${filename}.h)
+    add_custom_command(OUTPUT ${outfile}
+      COMMAND /opt/qt1/bin/moc
+      ARGS ${infile} -o ${outfile}
+      MAIN_DEPENDENCY ${infile} VERBATIM)
+    list(APPEND ${outfiles} ${outfile})
+  endforeach ()
+  list(APPEND ${outfiles} ${outfile})
+  #add_custom_target(moc_ALL ALL DEPENDS ${outfiles})
+endmacro ()
+

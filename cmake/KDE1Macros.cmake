@@ -61,3 +61,8 @@ function (install_potfiles languages potfiles)
     endforeach ()
 endfunction ()
 
+function (install_icon icon)
+    install(FILES ${icon}.xpm DESTINATION ${KDE1_ICONDIR}/ RENAME ${icon}.xpm)
+    install(FILES mini-${icon}.xpm DESTINATION ${KDE1_MINIDIR}/ RENAME ${icon}.xpm)
+    install(FILES large-${icon}.xpm DESTINATION ${KDE1_ICONDIR}/large/ RENAME ${icon}.xpm)
+endfunction ()
