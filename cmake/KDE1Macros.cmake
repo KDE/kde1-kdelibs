@@ -29,7 +29,7 @@ function (install_gmo)
             ARGS ${infile} -o ${language}.gmo
             MAIN_DEPENDENCY ${infile} VERBATIM)
         add_custom_target(gmo_${language} ALL DEPENDS ${language}.gmo)
-        install(FILES ${language}.gmo
+        install(FILES "${CMAKE_CURRENT_BINARY_DIR}/${language}.gmo"
             DESTINATION ${KDE1_LOCALE}/${language}/LC_MESSAGES
             RENAME kde.mo)
     endforeach ()
