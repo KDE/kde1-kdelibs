@@ -44,6 +44,7 @@ install(FILES
     cmake/Qt1Macros.cmake
     DESTINATION ${CMAKE_ROOT}/Modules)
 
+add_subdirectory(doc)
 add_subdirectory(kdecore)
 add_subdirectory(kdeui)
 add_subdirectory(kfile)
