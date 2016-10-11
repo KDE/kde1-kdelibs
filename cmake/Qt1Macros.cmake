@@ -48,7 +48,7 @@ macro (QT1_WRAP_HEADER outfiles )
 
   foreach (it ${ui_files})
     get_filename_component(outfile ${it} NAME_WE)
-    get_filename_component(infile ${it} ABSOLUTE)
+    set(infile ${CMAKE_CURRENT_SOURCE_DIR}/${outfile}.h)
     set(outfile ${CMAKE_CURRENT_BINARY_DIR}/${outfile}.moc)
     add_custom_command(OUTPUT ${outfile}
       COMMAND /opt/qt1/bin/moc
