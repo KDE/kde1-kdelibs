@@ -33,6 +33,7 @@ if(UNIX)
     find_library(KDE1_KIMGIO kimgio ${KDE1_LIBRARIES})
     find_library(KDE1_KHTMLW khtmlw ${KDE1_LIBRARIES})
     find_library(KDE1_JSCRIPT jscript ${KDE1_LIBRARIES})
+    find_library(KDE1_MEDIATOOL mediatool ${KDE1_LIBRARIES})
 endif()
 
 mark_as_advanced(
@@ -44,4 +45,5 @@ mark_as_advanced(
     KDE1_KIMGIO
     KDE1_KHTMLW
     KDE1_JSCRIPT
+    KDE1_MEDIATOOL
 )
