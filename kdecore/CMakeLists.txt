@@ -58,7 +58,7 @@ set_target_properties(kdecore PROPERTIES VERSION 2.0.0 SOVERSION 2)
 target_link_libraries(kdecore ${QT_LIBRARIES} ${X11_LIBRARIES})
 install(TARGETS kdecore LIBRARY DESTINATION ${KDE1_LIBRARIES})
 
-install(FILES charsets.config DESTINATION "${KDE1_CONFDIR}" RENAME "charsets")
+install(FILES charsets.config DESTINATION ${KDE1_CONFDIR} RENAME "charsets")
 
 install(FILES kdebug.areas DESTINATION "${KDE1_CONFDIR}")
 
