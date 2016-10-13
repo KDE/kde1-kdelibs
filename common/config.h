@@ -101,43 +101,43 @@
 #define KDEDIR "/opt/kde1"
 
 /* Where your docs should go to. */
-#define KDE_HTMLDIR "KDEDIR/share/doc/HTML"
+#define KDE_HTMLDIR "/opt/kde1/share/doc/HTML"
 
 /* Where your application file (.kdelnk) should go to. */
-#define KDE_APPSDIR "KDEDIR/share/applnk"
+#define KDE_APPSDIR "/opt/kde1/share/applnk"
 
 /* Where your icon should go to. */
-#define KDE_ICONDIR "KDEDIR/share/icons"
+#define KDE_ICONDIR "/opt/kde1/share/icons"
 
  /* Where your sound data should go to. */
-#define KDE_SOUNDDIR "KDEDIR/share/sounds"
+#define KDE_SOUNDDIR "/opt/kde1/share/sounds"
 
 /* Where you install application data. */
-#define KDE_DATADIR "KDEDIR/share/apps"
+#define KDE_DATADIR "/opt/kde1/share/apps"
 
 /* Where translation files should go to. */
-#define KDE_LOCALE "KDEDIR/share/locale"
+#define KDE_LOCALE "/opt/kde1/share/locale"
 
 /* Where cgi-bin executables should go to. */
-#define KDE_CGIDIR "KDEDIR/cgi-bin"
+#define KDE_CGIDIR "/opt/kde1/cgi-bin"
 
 /* Where mimetypes should go to. */
-#define KDE_MIMEDIR "KDEDIR/share/mimelnk"
+#define KDE_MIMEDIR "/opt/kde1/share/mimelnk"
 
 /* Where mimetypes should go to. */
-#define KDE_TOOLBARDIR "KDEDIR/share/toolbar"
+#define KDE_TOOLBARDIR "/opt/kde1/share/toolbar"
 
 /* Where general wallpapers should go to. */
-#define KDE_WALLPAPERDIR "KDEDIR/share/wallpapers"
+#define KDE_WALLPAPERDIR "/opt/kde1/share/wallpapers"
 
 /* Where binaries should be installed. */
-#define KDE_BINDIR "KDEDIR/bin"
+#define KDE_BINDIR "/opt/kde1/bin"
 
 /* Where KDE parts should be installed. */
-#define KDE_PARTSDIR "KDEDIR/parts"
+#define KDE_PARTSDIR "/opt/kde1/parts"
 
 /* Where KDE config files should be installed */
-#define KDE_CONFIGDIR "KDEDIR/share/config"
+#define KDE_CONFIGDIR "/opt/kde1/share/config"
 
 /* If the platform supports strdup */
 #define HAVE_STRDUP 1
