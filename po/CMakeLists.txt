@@ -14,5 +14,5 @@ set(CHARSETFILES
 
 
 install(FILES kde.pot DESTINATION ${KDE1_LOCALE})
-install_gmo(${GMOFILES})
+install_kdegmo(${GMOFILES})
 install_charsets(${CHARSETFILES})

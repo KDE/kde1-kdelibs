@@ -19,7 +19,7 @@
 #
 ######################################
 
-function (install_gmo)
+function (install_kdegmo)
     foreach (it ${ARGN})
         get_filename_component(language ${it} NAME_WE)
         set(infile "${CMAKE_CURRENT_SOURCE_DIR}/${language}.po")
@@ -32,6 +32,25 @@ function (install_gmo)
         install(FILES "${CMAKE_CURRENT_BINARY_DIR}/${language}.gmo"
             DESTINATION ${KDE1_LOCALE}/${language}/LC_MESSAGES
             RENAME kde.mo)
+    endforeach ()
+endfunction ()
+
+function (install_gmo)
+    set(language ${ARGV0})
+    set(list_var "${ARGN}")
+    list(REMOVE_AT list_var 0)
+    foreach (it IN LISTS list_var)
+        get_filename_component(module ${it} NAME_WE)
+        set(infile "${CMAKE_CURRENT_SOURCE_DIR}/${module}.po")
+        add_custom_command(
+            OUTPUT ${module}.gmo
+            COMMAND ${GETTEXT_MSGFMT_EXECUTABLE}
+            ARGS ${infile} -o ${module}.gmo
+            MAIN_DEPENDENCY ${infile} VERBATIM)
+        add_custom_target(gmo_${language}_${module} ALL DEPENDS ${module}.gmo)
+        install(FILES "${CMAKE_CURRENT_BINARY_DIR}/${module}.gmo"
+            DESTINATION ${KDE1_LOCALE}/${language}/LC_MESSAGES
+            RENAME ${module}.mo)
     endforeach ()
 endfunction ()
 
