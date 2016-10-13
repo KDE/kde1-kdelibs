@@ -47,11 +47,12 @@ function (install_gmo)
             COMMAND ${GETTEXT_MSGFMT_EXECUTABLE}
             ARGS ${infile} -o ${module}.gmo
             MAIN_DEPENDENCY ${infile} VERBATIM)
-        add_custom_target(gmo_${language}_${module} ALL DEPENDS ${module}.gmo)
+        list(APPEND elements ${module}.gmo)
         install(FILES "${CMAKE_CURRENT_BINARY_DIR}/${module}.gmo"
             DESTINATION ${KDE1_LOCALE}/${language}/LC_MESSAGES
             RENAME ${module}.mo)
     endforeach ()
+    add_custom_target(gmo_${language}_${module} ALL DEPENDS ${elements})
 endfunction ()
 
 function (install_charsets)
