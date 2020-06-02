@@ -49,9 +49,9 @@ install(FILES
 		knewpanner.h kcontrol.h keditcl.h ktoolboxmgr.h kled.h
 		kdbtn.h knotebook.h ktabbar.h kwizard.h kkeydialog.h
 		kurllabel.h kruler.h kquickhelp.h kcursor.h
-        DESTINATION ${KDE1_INCLUDES})
+        DESTINATION include/kde1)
 
 install(FILES
     error.xpm exclamation.xpm info.xpm stopsign.xpm question.xpm
     arrow_up.xbm arrow_down.xbm arrow_left.xbm arrow_right.xbm
-    DESTINATION ${KDE1_DATADIR}/kde/pics)
+    DESTINATION share/kde/pics)

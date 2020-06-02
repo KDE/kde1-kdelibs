@@ -16,8 +16,8 @@
 #include<qstring.h>
 #include<qstrlist.h>
 
-#define KDEDIR "/opt/kde"
-#define KDEDIR_LEN 6
+#define KDEDIR KDE1_PREFIX
+#define KDEDIR_LEN sizeof(KDE1_PREFIX)
 
 static const char *tokenize( QString& token, const char *str, 
 		const char *delim );
