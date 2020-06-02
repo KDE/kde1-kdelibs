@@ -17,7 +17,7 @@ set(KHTMLW_MOC
 	htmlobj.h htmlview.h
     )
 
-QT1_WRAP_HEADER(MOC_FILES ${KHTMLW_MOC})
+qt1_wrap_moc(MOC_FILES ${KHTMLW_MOC})
 
 add_library(khtmlw SHARED ${KHTMLW_SRCS} ${MOC_FILES})
 set_target_properties(khtmlw PROPERTIES VERSION 2.0.0 SOVERSION 2)

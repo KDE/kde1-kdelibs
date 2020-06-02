@@ -30,7 +30,7 @@ set(KDEUI_MOC
 	ktablistbox.h ktmainwindow.h ktoolbar.h ktoolboxmgr.h
 	ktopwidget.h ktreelist.h kurllabel.h kwizard.h kwmmapp.h)
 
-QT1_WRAP_HEADER(MOC_FILES ${KDEUI_MOC})
+qt1_wrap_moc(MOC_FILES ${KDEUI_MOC})
 
 add_library(kdeui SHARED ${KDEUI_SRCS} ${MOC_FILES})
 set_target_properties(kdeui PROPERTIES VERSION 2.0.0 SOVERSION 2)

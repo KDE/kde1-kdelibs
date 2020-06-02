@@ -1,7 +1,3 @@
-include_directories(
-    ${QT_INCLUDE_DIR}
-    )
-
 set(KDECORE_SRCS
         kconfig.cpp
         kconfigbase.cpp
@@ -51,11 +47,11 @@ set(KDECORE_MOC
     ksock.h
    )
 
-QT1_WRAP_HEADER(MOC_FILES ${KDECORE_MOC})
+qt1_wrap_moc(MOC_FILES ${KDECORE_MOC})
 
 add_library(kdecore SHARED ${KDECORE_SRCS} ${MOC_FILES})
 set_target_properties(kdecore PROPERTIES VERSION 2.0.0 SOVERSION 2)
-target_link_libraries(kdecore ${QT_LIBRARIES} ${X11_LIBRARIES})
+target_link_libraries(kdecore Qt::Qt1 ${X11_LIBRARIES})
 install(TARGETS kdecore LIBRARY DESTINATION ${KDE1_LIBRARIES})
 
 install(FILES charsets.config DESTINATION ${KDE1_CONFDIR} RENAME "charsets")

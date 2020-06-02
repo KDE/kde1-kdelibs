@@ -20,7 +20,7 @@ set(KFILE_MOC
 	kfilepreview.h kfilesimpleview.h kpreview.h
     )
 
-QT1_WRAP_HEADER(MOC_FILES ${KFILE_MOC})
+qt1_wrap_moc(MOC_FILES ${KFILE_MOC})
 
 add_library(kfile SHARED ${KFILE_SRCS} ${MOC_FILES})
 set_target_properties(kfile PROPERTIES VERSION 2.0.0 SOVERSION 2)

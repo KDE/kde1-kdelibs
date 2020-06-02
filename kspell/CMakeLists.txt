@@ -7,7 +7,7 @@ include_directories(
 set(KSPELL_SRCS kspelldlg.cpp kspell.cpp ksconfig.cpp kprocio.cpp)
 set(KSPELL_MOC kprocio.h ksconfig.h kspell.h kspelldlg.h)
 
-QT1_WRAP_HEADER(MOC_FILES ${KSPELL_MOC})
+qt1_wrap_moc(MOC_FILES ${KSPELL_MOC})
 
 add_library(kspell SHARED ${KSPELL_SRCS} ${MOC_FILES})
 set_target_properties(kspell PROPERTIES VERSION 2.0.0 SOVERSION 2)

@@ -51,7 +51,7 @@ macro (QT1_WRAP_HEADER outfiles )
     set(infile ${CMAKE_CURRENT_SOURCE_DIR}/${outfile}.h)
     set(outfile ${CMAKE_CURRENT_BINARY_DIR}/${outfile}.moc)
     add_custom_command(OUTPUT ${outfile}
-      COMMAND /opt/qt1/bin/moc
+      COMMAND moc-qt1
       ARGS ${infile} -o ${outfile}
       MAIN_DEPENDENCY ${infile} VERBATIM)
   list(APPEND ${outfiles} ${outfile})
@@ -67,7 +67,7 @@ macro (QT1_WRAP_MOC outfiles )
     set(outfile ${CMAKE_CURRENT_BINARY_DIR}/${filename}.moc)
     set(infile ${CMAKE_CURRENT_SOURCE_DIR}/${filename}.h)
     add_custom_command(OUTPUT ${outfile}
-      COMMAND /opt/qt1/bin/moc
+      COMMAND moc-qt1
       ARGS ${infile} -o ${outfile}
       MAIN_DEPENDENCY ${infile} VERBATIM)
     list(APPEND ${outfiles} ${outfile})
@@ -84,7 +84,7 @@ macro (QT1_WRAP_CPP outfiles )
     set(outfile ${CMAKE_CURRENT_BINARY_DIR}/${filename}.moc.cpp)
     set(infile ${CMAKE_CURRENT_SOURCE_DIR}/${filename}.h)
     add_custom_command(OUTPUT ${outfile}
-      COMMAND /opt/qt1/bin/moc
+      COMMAND moc-qt1
       ARGS ${infile} -o ${outfile}
       MAIN_DEPENDENCY ${infile} VERBATIM)
     list(APPEND ${outfiles} ${outfile})

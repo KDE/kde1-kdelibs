@@ -11,7 +11,7 @@ set(MEDIATOOL_MOC
     kaudio.h
     )
 
-QT1_WRAP_HEADER(MOC_FILES ${MEDIATOOL_MOC})
+qt1_wrap_moc(MOC_FILES ${MEDIATOOL_MOC})
 
 add_library(mediatool SHARED ${MEDIATOOL_SRCS} ${MOC_FILES})
 set_target_properties(mediatool PROPERTIES VERSION 2.0.0 SOVERSION 2)
