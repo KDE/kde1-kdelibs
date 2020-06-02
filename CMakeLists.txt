@@ -20,11 +20,16 @@ find_package(Qt1 REQUIRED)
 find_package(Gettext REQUIRED)
 
 include(CMakePackageConfigHelpers)
+include(GNUInstallDirs)
 include(Qt1Macros)
 include(KDE1Macros)
 include(KDE1InstallDirs)
 
 set(KDELIBS_SOURCE_DIR "${CMAKE_CURRENT_SOURCE_DIR}")
+
+configure_package_config_file(cmake/KDE1InstallDirs.cmake.in ${CMAKE_CURRENT_BINARY_DIR}/KDE1InstallDirs.cmake
+    INSTALL_DESTINATION ${LIB_INSTALL_DIR}/KDE1/cmake
+    )
 
 include_directories(common)
 
@@ -37,9 +42,9 @@ if(CMAKE_COMPILER_IS_GNUCXX)
 endif()
 
 install(FILES
+    ${CMAKE_CURRENT_BINARY_DIR}/KDE1InstallDirs.cmake
     cmake/FindKDE1.cmake
     cmake/KDE1Macros.cmake
-    cmake/KDE1InstallDirs.cmake
     cmake/KDE1Macros.cmake
     cmake/Qt1Macros.cmake
     DESTINATION ${CMAKE_ROOT}/Modules)
