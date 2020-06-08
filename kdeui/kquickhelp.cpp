@@ -237,8 +237,8 @@ void KQuickHelp::hyperlinkRequested(QString link) {
 	setgid(getgid());
 	setuid(getuid());
 	
-	QString s = "kfmclient exec " + link + " &";
-	execlp("kfmclient", "kfmclient", "exec", link.data(), 0);
+	QString s = "kfmclient1 exec " + link + " &";
+	execlp("kfmclient1", "kfmclient1", "exec", link.data(), 0);
 	_exit(0);
       }
     } else {
