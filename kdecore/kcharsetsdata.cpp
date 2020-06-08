@@ -811,6 +811,7 @@ Display *kde_display;
 	lst->append(face);
   }
   XFreeFontNames(fontNames);
+  return TRUE;
 }
 
 bool KCharsetsData::isDisplayableHack(KCharsetEntry *charset){

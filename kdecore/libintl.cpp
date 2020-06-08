@@ -621,7 +621,7 @@ k_dcgettext (const char *domainname, const char *msgid, const char *categoryvalu
 	  ".mo");
 
   /* Creating working area.  */
-  single_locale = (char *) alloca (strlen (categoryvalue) + 1);
+  single_locale = (char *) alloca (strlen (categoryvalue) + 2);
   ADD_BLOCK (block_list, single_locale);
 
 
