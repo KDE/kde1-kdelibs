@@ -628,7 +628,7 @@ KCharsetsData::~KCharsetsData(){
   while( (e=it.current()) ){
     ++it;
     if (e->toUnicodeDict) delete e->toUnicodeDict;
-    if (e->name) delete e->name;
+    if (e->name) delete[] e->name;
     delete e;
   }
   if (displayableCharsDict) delete displayableCharsDict;
