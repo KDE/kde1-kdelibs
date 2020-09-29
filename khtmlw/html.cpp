@@ -56,6 +56,11 @@
 
 #include <X11/Xlib.h>
 
+#ifndef QT_SCROLL_SUPPORT
+#define ScrollUpButton 0x40
+#define ScrollDownButton 0x80
+#endif
+
 //#ifdef HAVE_LIBJPEG
 //#include "jpeg.h"
 //#endif
@@ -546,6 +551,24 @@ void KHTMLWidget::mousePressEvent( QMouseEvent *_mouse )
 	    _mouse->state() ) )
 	return;
     
+    if ( _mouse->button() == ScrollUpButton ) { // ScrollUpButton
+        int newY = y_offset - 50;
+        if ( newY < 0 )
+          newY = 0;
+        slotScrollVert( newY );
+        emit scrollVert( newY );
+    }
+    if ( _mouse->button() == ScrollDownButton ) { // ScrollDownButton
+
+        int newY = y_offset + 50;
+        if ( newY > docHeight() - height() )
+          newY = docHeight() - height();
+        if ( newY < 0 )
+          newY = 0;
+        slotScrollVert( newY );
+        emit scrollVert( newY );
+    }
+
     if ( _mouse->button() == LeftButton || _mouse->button() == MidButton )
     {
     	pressed = TRUE;
