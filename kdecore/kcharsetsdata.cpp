@@ -557,6 +557,9 @@ void KCharsetsData::scanDirectory(const char *path){
   QFileInfo *fi;
   while( (fi=it.current()) ){
     QString name=fi->fileName();
+    if (name.right(3) == ".gz") {
+        name = name.left(name.size() - 3);
+    }
     QString alias=name.copy();
     int comma=alias.find(',');
     if (comma) alias.remove(comma,alias.length()-comma);
