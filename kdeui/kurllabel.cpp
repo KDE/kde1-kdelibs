@@ -9,6 +9,9 @@
 #include <qtooltip.h>
 #include <kcursor.h>
 
+#include <kapp.h>
+#include <kcharsets.h>
+
 KURLLabel::KURLLabel(QWidget *parent, const char* name, WFlags f)
 	: QLabel(parent, name, f),
 	  m_textAlign(Bottom),
@@ -530,6 +533,17 @@ QRect KURLLabel::m_textRect() const
 	 * text metrics and the current alignment
 	 */
 	QFontMetrics fm(font());
+
+        // To avoid killing performance, assume that the supported charset of the
+        // font doesn't change (usually holds true).
+        // We're a bit limited in better ways to solve it because we can't break
+        // the ABI.
+        static KApplication *app = KApplication::getKApplication();
+        static KCharsetConverter *converter = new KCharsetConverter(
+                app->getCharsets()->defaultCh(),
+                app->getCharsets()->charset(fm.font())
+                );
+        const int textWidth = fm.width(converter->convert(m_text));
 	if (alignment() & AlignHCenter)
 	{
 		switch (m_textAlign)
@@ -537,22 +551,22 @@ QRect KURLLabel::m_textRect() const
 			case Bottom:
 			case Top:
 				if (autoResize())
-					x_min = (pixmap_width > fm.width(m_text)) ? 
-						         (pixmap_width - fm.width(m_text)) / 2 : 0;
+					x_min = (pixmap_width > textWidth) ? 
+						         (pixmap_width - textWidth) / 2 : 0;
 				else
-					x_min = (width() - fm.width(m_text)) / 2;
+					x_min = (width() - textWidth) / 2;
 				break;
 			case Left:
 				if (autoResize())
 					x_min = 0;
 				else
-					x_min = (width() - fm.width(m_text) - pixmap_width) / 2;
+					x_min = (width() - textWidth - pixmap_width) / 2;
 				break;
 			case Right:
 				if (autoResize())
 					x_min = pixmap_width;
 				else
-					x_min = (width() - fm.width(m_text) + pixmap_width) / 2;
+					x_min = (width() - textWidth + pixmap_width) / 2;
 				break;
 		}
 	}
@@ -617,10 +631,10 @@ QRect KURLLabel::m_textRect() const
 			case Top:
 			case Bottom:
 			case Right:
-				x_min = width() - fm.width(m_text);
+				x_min = width() - textWidth;
 				break;
 			case Left:
-				x_min = width() - pixmap_width - fm.width(m_text);
+				x_min = width() - pixmap_width - textWidth;
 				break;
 		}
 	}
@@ -641,7 +655,7 @@ QRect KURLLabel::m_textRect() const
 	}
 
 	/* construct the bounding rectangle */
-	return QRect(x_min, y_min, fm.width(m_text), fm.height());
+	return QRect(x_min, y_min, textWidth, fm.height());
 }
 
 QRect KURLLabel::m_pixmapRect() const
@@ -654,7 +668,13 @@ QRect KURLLabel::m_pixmapRect() const
 	{
 		QFontMetrics metrics(font());
 		text_height = metrics.height();
-		text_width = metrics.width(m_text);
+
+                static KApplication *app = KApplication::getKApplication();
+                static KCharsetConverter *converter = new KCharsetConverter(
+                        app->getCharsets()->defaultCh(),
+                        app->getCharsets()->charset(font())
+                        );
+		text_width = metrics.width(converter->convert(m_text));
 	}
 
 	/* return now if there is no pixmap */
@@ -787,10 +807,20 @@ void KURLLabel::drawContents(QPainter* p)
 	QRect text_rect = m_textRect();
 	QRect pixmap_rect = m_pixmapRect();
 
+        // To avoid killing performance, assume that the supported charset of the
+        // font doesn't change (usually holds true).
+        // We're a bit limited in better ways to solve it because we can't break
+        // the ABI.
+        static KApplication *app = KApplication::getKApplication();
+        static KCharsetConverter *converter = new KCharsetConverter(
+                app->getCharsets()->defaultCh(),
+                app->getCharsets()->charset(p->font())
+                );
+
 	/* draw the text only if it is not null */
 	if (!m_text.isEmpty())
 		p->drawText(text_rect.bottomLeft().x(), text_rect.bottomLeft().y()-3,
-		            m_text);
+		            converter->convert(m_text));
 
 	/* draw the pixmap only if it is not null */
 	if (!m_pixmap.isNull())

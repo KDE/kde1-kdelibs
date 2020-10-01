@@ -28,6 +28,9 @@ Cambridge, MA 02139, USA.
 #include <config.h>
 #endif
 
+#include <kapp.h>
+#include <kcharsets.h>
+
 /* 
 -------------------------------------------------------------------
 
@@ -322,6 +325,16 @@ void KTreeListItem::paint(QPainter *p, const QColorGroup& cg, bool highlighted)
   
   // now draw the item pixmap and text, if applicable
   
+  // To avoid killing performance, assume that the supported charset of the
+  // font doesn't change (usually holds true).
+  // We're a bit limited in better ways to solve it because we can't break
+  // the ABI.
+  static KApplication *app = KApplication::getKApplication();
+  static KCharsetConverter *converter = new KCharsetConverter(
+          app->getCharsets()->defaultCh(),
+          app->getCharsets()->charset(p->font())
+          );
+
   p->drawPixmap(pixmapX, pixmapY, pixmap);
   if(doText) {
 	  int textX = pixmapX + pixmap.width() + 4;
@@ -341,7 +354,7 @@ void KTreeListItem::paint(QPainter *p, const QColorGroup& cg, bool highlighted)
 		  p->setPen(cg.text());
 		  p->setBackgroundColor(cg.base());
 	  }
-	  p->drawText(textX, textY, text);
+	  p->drawText(textX, textY, converter->convert(text));
   }
   p->restore();
 }
@@ -435,19 +448,39 @@ void KTreeListItem::setText(const char *t)
 // so I made my own
 QRect KTreeListItem::textBoundingRect(const QFontMetrics& fm) const
 {
+  // To avoid killing performance, assume that the supported charset of the
+  // font doesn't change (usually holds true).
+  // We're a bit limited in better ways to solve it because we can't break
+  // the ABI.
+  static KApplication *app = KApplication::getKApplication();
+  static KCharsetConverter *converter = new KCharsetConverter(
+          app->getCharsets()->defaultCh(),
+          app->getCharsets()->charset(fm.font())
+          );
+
   int cellHeight = itemHeight(fm);
   int rectX = 3 + indent + branch * indent + pixmap.width() + 3;
   int rectY = (cellHeight - fm.ascent() - fm.leading()) / 2 + 2;
-  int rectW = fm.width(text) + 1;
+  int rectW = fm.width(converter->convert(text)) + 1;
   int rectH = fm.ascent() + fm.leading();
   return QRect(rectX, rectY, rectW, rectH);
 }
 
 QRect KTreeListItem::itemBoundingRect(const QFontMetrics& fm) const
 {
+  // To avoid killing performance, assume that the supported charset of the
+  // font doesn't change (usually holds true).
+  // We're a bit limited in better ways to solve it because we can't break
+  // the ABI.
+  static KApplication *app = KApplication::getKApplication();
+  static KCharsetConverter *converter = new KCharsetConverter(
+          app->getCharsets()->defaultCh(),
+          app->getCharsets()->charset(fm.font())
+          );
+
   int rectX = indent + branch * indent + 2;
   int rectY = 4;
-  int rectW = fm.width(text) + pixmap.width() + 6;
+  int rectW = fm.width(converter->convert(text)) + pixmap.width() + 6;
 
   int rectH = ((pixmap.height() > fm.lineSpacing()) ? pixmap.height() :
               fm.lineSpacing()) + 2;
@@ -474,8 +507,18 @@ int KTreeListItem::itemHeight(const QFontMetrics& fm) const
 // and indent, or -1 if empty -- SHOULD NEVER BE -1!
 int KTreeListItem::itemWidth(const QFontMetrics& fm) const
 {
+  // To avoid killing performance, assume that the supported charset of the
+  // font doesn't change (usually holds true).
+  // We're a bit limited in better ways to solve it because we can't break
+  // the ABI.
+  static KApplication *app = KApplication::getKApplication();
+  static KCharsetConverter *converter = new KCharsetConverter(
+          app->getCharsets()->defaultCh(),
+          app->getCharsets()->charset(fm.font())
+          );
+
   int maxWidth = pixmap.width();
-  maxWidth += (4 + fm.width(text));
+  maxWidth += (4 + fm.width(converter->convert(text)));
   return maxWidth == 0 ? -1 : indent + maxWidth + 
     indent * branch + 6;
 }
