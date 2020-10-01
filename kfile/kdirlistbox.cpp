@@ -26,6 +26,7 @@
 #include <qkeycode.h>
 #include <qpainter.h>
 #include <qlistbox.h>
+#include <kcharsets.h>
 
 class QPixmap;
 class QPainter;
@@ -107,7 +108,18 @@ void KDirListBoxItem::paint( QPainter *p )
 	yPos = pm->height()/2 - fm.height()/2 + fm.ascent();
 
     yPos= yPos+2;
-    p->drawText( pm->width() + 5, yPos, text() );
+
+    // To avoid killing performance, assume that the supported charset of the
+    // font doesn't change (usually holds true).
+    // We're a bit limited in better ways to solve it because we can't break
+    // the ABI.
+    static KApplication *app = KApplication::getKApplication();
+    static KCharsetConverter *converter = new KCharsetConverter(
+            app->getCharsets()->defaultCh(),
+            app->getCharsets()->charset(p->font())
+            );
+
+    p->drawText( pm->width() + 5, yPos, converter->convert(text()) );
 
     if(italic)
 	p->restore();

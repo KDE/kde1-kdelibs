@@ -24,6 +24,8 @@
 #include "qkeycode.h"
 #include <qpainter.h>
 #include <kapp.h>
+#include <kcharsets.h>
+#include <kapp.h>
 #include "config-kfile.h"
 
 KFileSimpleView::KFileSimpleView(bool s, QDir::SortSpec sorting,
@@ -179,6 +181,16 @@ void KFileSimpleView::paintCell( QPainter *p, int row, int col)
     int x2 = w - 1;
     int y2 = h - 1;
 
+    // To avoid killing performance, assume that the supported charset of the
+    // font doesn't change (usually holds true).
+    // We're a bit limited in better ways to solve it because we can't break
+    // the ABI.
+    static KApplication *app = KApplication::getKApplication();
+    static KCharsetConverter *converter = new KCharsetConverter(
+            app->getCharsets()->defaultCh(),
+            app->getCharsets()->charset(font())
+            );
+
     if ( (row == curRow) && (col == curCol) ) { // if we are on current cell,
         if ( hasFocus() ) {
               p->fillRect(0, 0, x2, y2, kapp->selectColor);
@@ -195,7 +207,7 @@ void KFileSimpleView::paintCell( QPainter *p, int row, int col)
 
     if (index < count()) {
 	p->drawPixmap(0, 1, *pixmaps.at(index));
-	p->drawText(3 + pixmaps.at(index)->width(), 15, text(index));
+	p->drawText(3 + pixmaps.at(index)->width(), 15, converter->convert(text(index)));
     }
 }
 
