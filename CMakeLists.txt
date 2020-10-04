@@ -69,9 +69,9 @@ install(FILES
     cmake/Qt1Macros.cmake
     DESTINATION ${CMAKE_ROOT}/Modules)
 
-add_subdirectory(doc)
 add_subdirectory(kdecore)
 add_subdirectory(kdeui)
+add_subdirectory(kdetest)
 add_subdirectory(kfile)
 add_subdirectory(kfmlib)
 add_subdirectory(jscript)
@@ -81,4 +81,5 @@ add_subdirectory(mediatool)
 add_subdirectory(kspell)
 add_subdirectory(kab)
 add_subdirectory(toolbar)
+add_subdirectory(doc)
 add_subdirectory(po)

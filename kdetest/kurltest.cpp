@@ -1,5 +1,6 @@
 #include <kurl.h>
 #include <stdio.h>
+#include <cstdlib>
 
 bool check(QString txt, QString a, QString b)
 {
@@ -11,6 +12,7 @@ bool check(QString txt, QString a, QString b)
     printf("KO ! \n");
     exit(1);
   }
+  return true;
 }
 
 int main() 
