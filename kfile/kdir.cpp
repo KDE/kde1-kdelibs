@@ -246,7 +246,6 @@ void KDir::getEntries() {
 	myOpendir = opendir(ts);
 	if (!myOpendir)
 	    return;
-	dp = readdir(myOpendir); // take out the "."
     }
 
     if (myOpendir) {
@@ -259,6 +258,10 @@ void KDir::getEntries() {
 	    dp = readdir(myOpendir);
 	    if (!dp)
 		break;
+            if (strcmp(dp->d_name, ".") == 0) {
+                puts(dp->d_name);
+                continue;
+            }
 	    i = new KFileInfo(path, dp->d_name);
 	    CHECK_PTR(i);
 	    if (!i->fileName() || !i->fileName()[0]) {
