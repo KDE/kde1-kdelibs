@@ -56,6 +56,7 @@
 #include <qdrawutil.h>
 #include <qscrollbar.h>
 #include <kapp.h>
+#include <kcharsets.h>
 
 // This is only for flushKeys().
 #include <X11/Xlib.h>
@@ -188,7 +189,6 @@ void KTabListBoxColumn::setOrder(KTabListBox::OrderType ort,
 void KTabListBoxColumn::paintCell(QPainter* paint, int row,
 				  const QString& string, bool marked)
 {
-  QFontMetrics fm = paint->fontMetrics();
   QPixmap* pix = 0L;
   int beg, end, x;
   QPen pen, oldPen;
@@ -203,51 +203,66 @@ void KTabListBoxColumn::paintCell(QPainter* paint, int row,
   }
 
   if (!string.isEmpty())
-    switch(colType)
   {
-  case KTabListBox::PixmapColumn:
-    if (string) pix = parent->dict().find(string);
-    if (pix && !pix->isNull())
+      const QFont origFont = paint->font();
+      static KCharsetConverter *converter = new KCharsetConverter(klocale->charset());
+
+      switch(colType)
     {
-      paint->drawPixmap(0, 0, *pix);
+    case KTabListBox::PixmapColumn:
+      if (string) pix = parent->dict().find(string);
+      if (pix && !pix->isNull())
+      {
+        paint->drawPixmap(0, 0, *pix);
+        break;
+      }
+      /*else output as string*/
+
+    case KTabListBox::TextColumn: {
+      const KCharsetConversionResult conversion = converter->convert(string);
+      paint->setFont(conversion.font(origFont));
+      QFontMetrics fm = paint->fontMetrics();
+
+      paint->drawText(1, fm.ascent() +(fm.leading()),
+          	    conversion);
+      break;
+
+    }
+    case KTabListBox::MixedColumn: {
+      QString pixName;
+      for (x=0, beg=0; string[beg] == '\t'; x+=parent->tabPixels, beg++)
+        ;
+      end = beg-1;
+
+      while(string[beg] == '{')
+      {
+        end = string.find('}', beg+1);
+        if (end >= 0)
+        {
+          pixName = string.mid(beg+1, end-beg-1);
+          pix = parent->dict().find(pixName);
+          if (!pix)
+          {
+            debug("KTabListBox "+QString(name())+
+          	":\nno pixmap for\n`"+pixName+"' registered.");
+          }
+          if (!pix->isNull()) paint->drawPixmap(x, 0, *pix);
+          x += pix->width()+1;
+          beg = end+1;
+        }
+        else
+            break;
+      }
+      const KCharsetConversionResult conversion = converter->convert(string.mid(beg, string.length()-beg));
+      paint->setFont(conversion.font(origFont));
+      QFontMetrics fm = paint->fontMetrics();
+
+      paint->drawText(x+1, fm.ascent() +(fm.leading()),
+          	    conversion);
       break;
     }
-    /*else output as string*/
-
-  case KTabListBox::TextColumn:
-    paint->drawText(1, fm.ascent() +(fm.leading()),
-		    (const char*)string);
-    break;
-
-  case KTabListBox::MixedColumn:
-    QString pixName;
-    for (x=0, beg=0; string[beg] == '\t'; x+=parent->tabPixels, beg++)
-      ;
-    end = beg-1;
-
-    while(string[beg] == '{')
-    {
-      end = string.find('}', beg+1);
-      if (end >= 0)
-      {
-	pixName = string.mid(beg+1, end-beg-1);
-	pix = parent->dict().find(pixName);
-	if (!pix)
-	{
-	  debug("KTabListBox "+QString(name())+
-		":\nno pixmap for\n`"+pixName+"' registered.");
-	}
-	if (!pix->isNull()) paint->drawPixmap(x, 0, *pix);
-	x += pix->width()+1;
-	beg = end+1;
-      }
-      else
-          break;
     }
-
-    paint->drawText(x+1, fm.ascent() +(fm.leading()),
-		    (const char*)string.mid(beg, string.length()-beg));
-    break;
+    paint->setFont(origFont);
   }
 
   if (marked)
