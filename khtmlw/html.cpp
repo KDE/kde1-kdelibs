@@ -5530,6 +5530,8 @@ KHTMLWidget::~KHTMLWidget()
 
     if ( jsEnvironment )
 	delete jsEnvironment;            
+    if ( charsetConverter )
+        delete charsetConverter;
 	
     for ( int i = memPoolMax; i--;)
     	delete [] memPool[i];

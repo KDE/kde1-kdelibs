@@ -786,7 +786,7 @@ Display *kde_display;
   
   if (!lst) return FALSE;
   
-  kde_display = XOpenDisplay( 0L );
+  kde_display = qt_xdisplay();
   mask+=xcharsetname;
   fontNames = XListFonts(kde_display, mask, 32767, &numFonts);
 
