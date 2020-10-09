@@ -92,8 +92,8 @@ KDirListBoxItem::KDirListBoxItem(const KFileInfo *i)
 
 void KDirListBoxItem::paint( QPainter *p )
 {
+    p->save();
     if(italic) {
-	p->save();
 	QFont f = p->font();
 	f.setItalic(true);
 	p->setFont(f);
@@ -111,18 +111,13 @@ void KDirListBoxItem::paint( QPainter *p )
 
     // To avoid killing performance, assume that the supported charset of the
     // font doesn't change (usually holds true).
-    // We're a bit limited in better ways to solve it because we can't break
-    // the ABI.
-    static KApplication *app = KApplication::getKApplication();
-    static KCharsetConverter *converter = new KCharsetConverter(
-            app->getCharsets()->defaultCh(),
-            app->getCharsets()->charset(p->font())
-            );
+    static KCharsetConverter *converter = new KCharsetConverter(klocale->charset());
+    const KCharsetConversionResult conversion = converter->convert(text());
+    p->setFont(conversion.font(p->font()));
 
-    p->drawText( pm->width() + 5, yPos, converter->convert(text()) );
+    p->drawText( pm->width() + 5, yPos, conversion );
 
-    if(italic)
-	p->restore();
+    p->restore();
 }
 
 int KDirListBoxItem::height(const QListBox *lb ) const

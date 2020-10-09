@@ -206,8 +206,18 @@ void KFileSimpleView::paintCell( QPainter *p, int row, int col)
           p->setPen( kapp->windowTextColor );
 
     if (index < count()) {
+	const QFont origFont = p->font();
+
+	// To avoid killing performance, assume that the supported charset of the
+	// font doesn't change (usually holds true).
+	static KCharsetConverter *converter = new KCharsetConverter(klocale->charset());
+	const KCharsetConversionResult conversion = converter->convert(text(index));
+	p->setFont(conversion.font(origFont));
+
 	p->drawPixmap(0, 1, *pixmaps.at(index));
-	p->drawText(3 + pixmaps.at(index)->width(), 15, converter->convert(text(index)));
+	p->drawText(3 + pixmaps.at(index)->width(), 15, converter->convert(conversion));
+
+	p->setFont(origFont);
     }
 }
 

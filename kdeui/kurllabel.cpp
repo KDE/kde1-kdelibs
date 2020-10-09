@@ -528,22 +528,17 @@ QRect KURLLabel::m_textRect() const
 	if (m_text.isEmpty())
 		return QRect(0, 0, 0, 0);
 
+	// To avoid killing performance, assume that the supported charset of the
+	// font doesn't change (usually holds true).
+	static KCharsetConverter *converter = new KCharsetConverter(klocale->charset());
+	const KCharsetConversionResult conversion = converter->convert(m_text);
+
 	/**
 	 * calculate the boundry rect for the text based on the
 	 * text metrics and the current alignment
 	 */
-	QFontMetrics fm(font());
-
-        // To avoid killing performance, assume that the supported charset of the
-        // font doesn't change (usually holds true).
-        // We're a bit limited in better ways to solve it because we can't break
-        // the ABI.
-        static KApplication *app = KApplication::getKApplication();
-        static KCharsetConverter *converter = new KCharsetConverter(
-                app->getCharsets()->defaultCh(),
-                app->getCharsets()->charset(fm.font())
-                );
-        const int textWidth = fm.width(converter->convert(m_text));
+	QFontMetrics fm(conversion.font(font()));
+        const int textWidth = fm.width(conversion);
 	if (alignment() & AlignHCenter)
 	{
 		switch (m_textAlign)
@@ -666,15 +661,15 @@ QRect KURLLabel::m_pixmapRect() const
 	/* get the text info if necessary */
 	if (!m_text.isEmpty())
 	{
-		QFontMetrics metrics(font());
-		text_height = metrics.height();
+		// To avoid killing performance, assume that the supported charset of the
+		// font doesn't change (usually holds true).
+		static KCharsetConverter *converter = new KCharsetConverter(klocale->charset());
+		const KCharsetConversionResult conversion = converter->convert(m_text);
+		QString s2 = (const char*)conversion;
 
-                static KApplication *app = KApplication::getKApplication();
-                static KCharsetConverter *converter = new KCharsetConverter(
-                        app->getCharsets()->defaultCh(),
-                        app->getCharsets()->charset(font())
-                        );
-		text_width = metrics.width(converter->convert(m_text));
+		QFontMetrics metrics(conversion.font(font()));
+		text_height = metrics.height();
+		text_width = metrics.width((const char*)conversion);
 	}
 
 	/* return now if there is no pixmap */
@@ -807,20 +802,21 @@ void KURLLabel::drawContents(QPainter* p)
 	QRect text_rect = m_textRect();
 	QRect pixmap_rect = m_pixmapRect();
 
-        // To avoid killing performance, assume that the supported charset of the
-        // font doesn't change (usually holds true).
-        // We're a bit limited in better ways to solve it because we can't break
-        // the ABI.
-        static KApplication *app = KApplication::getKApplication();
-        static KCharsetConverter *converter = new KCharsetConverter(
-                app->getCharsets()->defaultCh(),
-                app->getCharsets()->charset(p->font())
-                );
-
 	/* draw the text only if it is not null */
-	if (!m_text.isEmpty())
+	if (!m_text.isEmpty()) {
+		const QFont origFont = p->font();
+		// To avoid killing performance, assume that the supported charset of the
+		// font doesn't change (usually holds true).
+		// We're a bit limited in better ways to solve it because we can't break
+		// the ABI.
+		static KCharsetConverter *converter = new KCharsetConverter(klocale->charset());
+		const KCharsetConversionResult conversion = converter->convert(m_text);
+		p->setFont(conversion.font(origFont));
+
 		p->drawText(text_rect.bottomLeft().x(), text_rect.bottomLeft().y()-3,
-		            converter->convert(m_text));
+		            (const char*)conversion);
+		p->setFont(origFont);
+	}
 
 	/* draw the pixmap only if it is not null */
 	if (!m_pixmap.isNull())
