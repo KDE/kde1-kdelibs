@@ -1533,7 +1533,7 @@ void HTMLImage::fileLoaded( const char *_filename )
       struct stat buff;
       stat( _filename, &buff );
       int size = buff.st_size;
-      char *p = new char[ size ];
+      char *p = (char*)malloc( size );
       FILE *f = fopen( _filename, "rb" );
       fread( p, 1, size, f );
       fclose( f );
