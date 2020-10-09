@@ -634,7 +634,7 @@ HTMLFitType HTMLTextSlave::fitLine( bool startOfLine, bool firstRun,
 {
     int newLen;
     int newWidth;
-    char *splitPtr;
+    const char *splitPtr;
 
     const char *text = owner->text;
     // Set font settings in painter for correct width calculation
@@ -698,7 +698,7 @@ HTMLFitType HTMLTextSlave::fitLine( bool startOfLine, bool firstRun,
             
             for(;;)
             {
-                char *splitPtr2 = index( splitPtr+1, ' ');
+                const char *splitPtr2 = index( splitPtr+1, ' ');
                 if (!splitPtr2)
                     break;
 	    	extraLen = splitPtr2 - splitPtr;

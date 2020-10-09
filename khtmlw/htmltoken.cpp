@@ -999,7 +999,7 @@ void StringTokenizer::tokenize( const char *str, const char *_separators )
     
     for ( ; *src != '\0'; src++ )
     {
-	char *x = strchr( _separators, *src );
+	const char *x = strchr( _separators, *src );
         if (( *src == '\"' ) && !quoted)
            quoted = DOUBLE_QUOTE;
         else if (( *src == '\'') && !quoted)
