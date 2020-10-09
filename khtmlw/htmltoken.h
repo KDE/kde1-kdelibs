@@ -193,7 +193,7 @@ protected:
     int scriptCodeMaxSize;
     
     // Stores characters if we are scanning for a string like "</script>"
-    char searchBuffer[ 10 ];
+    char searchBuffer[ 255 ];
     // Counts where we are in the string we are scanning for 
     int searchCount;
     // The string we are searching for
