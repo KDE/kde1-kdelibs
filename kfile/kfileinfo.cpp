@@ -51,6 +51,9 @@ KFileInfo::KFileInfo(const KDirEntry &e)
     myAccess= e.access;
     parsePermissions(e.access);
     myIsSymLink = false;
+    myIsDir = false;
+    myIsFile = false;
+    myIsReadable = true;
 }
 
 KFileInfo::KFileInfo(const QFileInfo &e)
@@ -64,6 +67,7 @@ KFileInfo::KFileInfo(const QFileInfo &e)
     myIsDir = e.isDir();
     myIsFile = e.isFile();
     myIsSymLink = e.isSymLink();
+    myIsReadable = true;
     myPermissions = 755;
 }
 
@@ -73,6 +77,7 @@ KFileInfo::KFileInfo(const char *dir, const char *name)
     myBaseURL = dir;
     struct stat buf;
     myIsSymLink = false;
+    myIsReadable = true;
 
     if (lstat((dir + myName).data(), &buf) == 0) {
 	myIsDir = (buf.st_mode & S_IFDIR) != 0;
@@ -130,6 +135,9 @@ KFileInfo &KFileInfo::operator=(const KFileInfo &i)
     myOwner= i.myOwner;
     myGroup= i.myGroup;
     myIsDir= i.myIsDir;
+    myIsFile= i.myIsFile;
+    myIsSymLink= i.myIsSymLink;
+    myIsReadable = i.myIsReadable;
     myPermissions= i.myPermissions;
     return *this;
 }
