@@ -1833,7 +1833,7 @@ HTMLTable::~HTMLTable()
     unsigned int r, c;
     HTMLTableCell *cell;
 
-    for ( r = 0; r < totalRows; r++ )
+    for ( r = 0; r < allocRows; r++ )
     {
 	for ( c = 0; c < totalCols; c++ )
 	{
