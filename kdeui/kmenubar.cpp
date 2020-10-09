@@ -229,6 +229,7 @@ KMenuBar::KMenuBar(QWidget *parent, const char *name)
 {
   Parent = parent;        // our father
   title = 0;
+  mgr = NULL;
   oldWFlags = getWFlags();
 
   standalone_menubar = FALSE;
