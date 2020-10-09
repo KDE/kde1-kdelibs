@@ -424,7 +424,7 @@ bool KToolBarButton::eventFilter (QObject *o, QEvent *ev)
          ev->type() == Event_MouseButtonDblClick) && radio && isOn())
       return true;
 
-  if ((QPopupMenu *) o != myPopup)
+  if ((void*) o != (void*)myPopup)
     return false; // just in case
   
   switch (ev->type())
