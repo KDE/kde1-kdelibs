@@ -259,7 +259,6 @@ void KDir::getEntries() {
 	    if (!dp)
 		break;
             if (strcmp(dp->d_name, ".") == 0) {
-                puts(dp->d_name);
                 continue;
             }
 	    i = new KFileInfo(path, dp->d_name);
