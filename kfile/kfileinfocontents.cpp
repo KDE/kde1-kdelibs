@@ -306,6 +306,9 @@ bool KFileInfoContents::addItemInternal(const KFileInfo *i)
     if ( sorted_length > 1 && mySorting != QDir::Unsorted) {
 	// insertation using log(n)
 	pos = findPosition(i, 0);
+        if (pos == 1 && compareItems(i, sortedArray[0]) < 0) {
+            pos = 0;
+        }
     } else {
 	if (sorted_length == 1 && compareItems(i, sortedArray[0]) < 0)
 	    pos = 0;
