@@ -339,7 +339,7 @@ void KURL::parse( const char * _url )
 	ref_part = "";
     } 
 
-    if ((protocol_part == "http") || (protocol_part == "imap4") || (protocol_part == "pop3"))
+    if ((protocol_part == "http") || (protocol_part == "imap4") || (protocol_part == "pop3") || (protocol_part == "https"))
     {
         p = path_part.find('?');
         if (p != -1)
