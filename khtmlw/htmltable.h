@@ -247,7 +247,7 @@ protected:
 
     unsigned int totalColInfos;
     unsigned int col, totalCols;
-    unsigned int row, totalRows, allocRows;
+    unsigned int row, totalRows, allocRows, allocRowInfos;
     int spacing;
     int padding;
     int border;

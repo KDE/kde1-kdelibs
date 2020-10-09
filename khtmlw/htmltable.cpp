@@ -183,6 +183,8 @@ HTMLTable::HTMLTable( int _x, int _y, int _max_width, int _width, int _percent,
     spacing = _spacing;
     border  = _border;
     caption = 0L;
+    rowInfo = NULL;
+    allocRowInfos = 0;
 
     setFixedWidth( false );
     row = 0;
@@ -1094,7 +1096,16 @@ void HTMLTable::calcColInfo()
 
     // Allocate some memory for column info
     colInfo.resize( totalCols*2 );
+    if ( rowInfo ) {
+        for ( r = 0; r < allocRowInfos; r++ )
+        {
+            if (  rowInfo[r].entry )
+                free( rowInfo[r].entry );
+        }
+        free( rowInfo );
+    }
     rowInfo = (RowInfo_t *) malloc( totalRows * sizeof(RowInfo_t) );
+    allocRowInfos = totalRows;
     totalColInfos = 0;
     
     for ( r = 0; r < totalRows; r++ )
@@ -1176,6 +1187,7 @@ void HTMLTable::calcColInfo()
     	if (!unique)
     	{
     	     free( rowInfo[i].entry);
+    	     rowInfo[i].entry = NULL;
     	}
     	else 
     	{
@@ -1836,5 +1848,14 @@ HTMLTable::~HTMLTable()
     delete [] cells;
 
     delete caption;
+
+    if ( rowInfo ) {
+        for ( r = 0; r < allocRowInfos; r++ )
+        {
+            if ( rowInfo[r].entry )
+                free( rowInfo[r].entry );
+        }
+        free( rowInfo );
+    }
 }
 
