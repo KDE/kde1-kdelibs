@@ -376,7 +376,7 @@ void HTMLTokenizer::write( const char *str )
 		    // check trailing char to be ";", but only if in a tag (David)
                     if ((searchBuffer[searchCount+1] == ';') || (!tag)) {
 	              searchBuffer[ searchCount+1] = '\0';
-	              res = charsets->convertTag(searchBuffer+1, len).copy();
+	              res = (const char*)(charsets->convertTag(searchBuffer+1, len));
 	              if (len <= 0)
 	              {
 		    	res = 0;
