@@ -296,9 +296,20 @@ void HTMLTokenizer::write( const char *str )
 	    {
 		if ( tolower(*src) == searchFor[ searchCount ] )
 		{
-		    searchBuffer[ searchCount ] = *src;
-		    searchCount++;
-		    src++;
+                    if (searchCount < sizeof(searchBuffer) - 2)
+                    {
+                        searchBuffer[ searchCount ] = *src;
+                        searchCount++;
+                        src++;
+                    }
+                    else
+                    {
+                        // This sequence is too long.. we ignore it
+                        charEntity = false;
+                        memcpy(dest,searchBuffer+1, searchCount);
+                        dest += searchCount;
+                        // *dest++ = *src++;
+                    }
 		}
 		// We were wrong => print all buffered characters and the current one;
 		else
@@ -325,6 +336,9 @@ void HTMLTokenizer::write( const char *str )
             unsigned long entityValue = 0;
 	    QString res = 0;
 
+            if (searchCount >= sizeof(searchBuffer) - 2) {
+                searchCount = sizeof(searchBuffer) - 3;
+            }
 	    searchBuffer[ searchCount+1] = *src;
 	    searchBuffer[ searchCount+2] = '\0';
 	    
@@ -431,7 +445,7 @@ void HTMLTokenizer::write( const char *str )
 	    default:;
 	    }
 	
-	    if (searchCount > 8)
+	    if (searchCount >= sizeof(searchBuffer) - 2)
 	    {
 	    	// This sequence is too long.. we ignore it
 	        charEntity = false;
@@ -853,9 +867,9 @@ void HTMLTokenizer::write( const char *str )
 
 	    if (tag)
 	    {
-	      if (searchCount > 0)
+	      if (searchCount > 0 && searchCount < sizeof(searchBuffer) - 2)
 	      {
-	    	if (*src == commentStart[searchCount])
+	    	if (searchCount < strlen(commentStart) && *src == commentStart[searchCount])
 	    	{
 	    	    searchCount++;
 	    	    if (searchCount == 4)
