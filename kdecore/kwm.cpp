@@ -316,7 +316,50 @@ void KWM::setIcon(Window w, const QPixmap &pm){
 }
 
 
+
+// Just a tiny piece of code to ensure that we are docked with "modern" system
+// tray implementations, and don't pop up over the entire screen.
+// No xembed or anything fancy, so it won't resize properly etc., but it makes
+// tray applications usable, at least.
+static void compat_EWMHDock(Window w)
+{
+  // We have to force set override redirect (i. e. bypass window manager).
+  XSetWindowAttributes attributes;
+  memset(&attributes, 0, sizeof(attributes));
+  attributes.override_redirect = True;
+  XChangeWindowAttributes(qt_xdisplay(), w, CWOverrideRedirect, &attributes);
+  XSync(qt_xdisplay(), False);
+
+  // Now we find the tray owner (this just supports screen 0 for now).
+  static Atom trayOwnerAtom = 0;
+  if (!trayOwnerAtom)
+    trayOwnerAtom = XInternAtom(qt_xdisplay(), "_NET_SYSTEM_TRAY_S0", False);
+
+  Window trayOwner = XGetSelectionOwner(qt_xdisplay(), trayOwnerAtom);
+  if (trayOwner == None) {
+    return; // No modern tray, bail out
+  }
+
+  static Atom a = 0;
+  if (!a)
+    a = XInternAtom(qt_xdisplay(), "_NET_SYSTEM_TRAY_OPCODE", False);
+
+  XEvent ev;
+  memset(&ev, 0, sizeof(ev));
+  ev.xclient.type = ClientMessage;
+  ev.xclient.window = trayOwner;
+  ev.xclient.message_type = a;
+  ev.xclient.format = 32;
+  ev.xclient.data.l[0] = CurrentTime;
+  ev.xclient.data.l[1] = 0; // SYSTEM_TRAY_REQUEST_DOCK
+  ev.xclient.data.l[2] = w;
+
+  XSendEvent(qt_xdisplay(), trayOwner, False, NoEventMask, &ev);
+}
+
 void KWM::setDockWindow(Window w){
+  compat_EWMHDock(w);
+
   static Atom a = 0;
   if (!a)
     a = XInternAtom(qt_xdisplay(), "KWM_DOCKWINDOW", False);
