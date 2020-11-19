@@ -323,13 +323,6 @@ void KWM::setIcon(Window w, const QPixmap &pm){
 // tray applications usable, at least.
 static void compat_EWMHDock(Window w)
 {
-  // We have to force set override redirect (i. e. bypass window manager).
-  XSetWindowAttributes attributes;
-  memset(&attributes, 0, sizeof(attributes));
-  attributes.override_redirect = True;
-  XChangeWindowAttributes(qt_xdisplay(), w, CWOverrideRedirect, &attributes);
-  XSync(qt_xdisplay(), False);
-
   // Now we find the tray owner (this just supports screen 0 for now).
   static Atom trayOwnerAtom = 0;
   if (!trayOwnerAtom)
@@ -339,6 +332,14 @@ static void compat_EWMHDock(Window w)
   if (trayOwner == None) {
     return; // No modern tray, bail out
   }
+
+  // We have to force set override redirect (i. e. bypass window manager).
+  XSetWindowAttributes attributes;
+  memset(&attributes, 0, sizeof(attributes));
+  attributes.override_redirect = True;
+  XChangeWindowAttributes(qt_xdisplay(), w, CWOverrideRedirect, &attributes);
+  XSync(qt_xdisplay(), False);
+
 
   static Atom a = 0;
   if (!a)
