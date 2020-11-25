@@ -54,4 +54,4 @@ install(FILES
 install(FILES
     error.xpm exclamation.xpm info.xpm stopsign.xpm question.xpm
     arrow_up.xbm arrow_down.xbm arrow_left.xbm arrow_right.xbm
-    DESTINATION share/kde/pics)
+    DESTINATION ${KDE1_DATADIR}/kde/pics)
