@@ -74,8 +74,7 @@ install(FILES
     cmake/KDE1Macros.cmake
     cmake/KDE1Macros.cmake
     cmake/Qt1Macros.cmake
-    DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/KDE1
-    )
+    DESTINATION ${CMAKE_ROOT}/Modules)
 
 add_subdirectory(kdecore)
 add_subdirectory(kdeui)
