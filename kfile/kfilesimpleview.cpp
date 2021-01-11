@@ -215,7 +215,7 @@ void KFileSimpleView::paintCell( QPainter *p, int row, int col)
 	p->setFont(conversion.font(origFont));
 
 	p->drawPixmap(0, 1, *pixmaps.at(index));
-	p->drawText(3 + pixmaps.at(index)->width(), 15, converter->convert(conversion));
+	p->drawText(3 + pixmaps.at(index)->width(), 15, conversion);
 
 	p->setFont(origFont);
     }
