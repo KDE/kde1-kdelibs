@@ -24,6 +24,7 @@
 #include <ktoolbar.h>
 #include <knewpanner.h>
 #include <kiconloader.h>
+#include <kcharsets.h>
 #include "kfileinfocontents.h"
 #include "kfiledialogconf.h"
 #include "kfiledialog.h"
@@ -595,10 +596,24 @@ void KFileBaseDialog::pathChanged()
     QStrList list;
 
     list.insert(0, i18n("Root Directory"));
+
+    // To avoid killing performance, assume that the supported charset of the
+    // font doesn't change (usually holds true).
+    static KCharsetConverter *converter = new KCharsetConverter(klocale->charset());
+
+    // It is unlikely, but just in case we need to change font to get a compatible one.
+    QFont compatibleFont = toolbar->getCombo(PATH_COMBO)->font();
+    const QFont originalFont = compatibleFont;
     while (!(pos.isNull())) {
-	list.insert(0, pos+"/");
+        const KCharsetConversionResult conversion = converter->convert(pos);
+        const QString convertedText = conversion;
+        if (pos != convertedText) {
+            compatibleFont = conversion.font(originalFont);
+        }
+	list.insert(0, convertedText+"/");
 	pos= strtok(0, "/");
     }
+    toolbar->getCombo(PATH_COMBO)->setFont(compatibleFont);
     toolbar->getCombo(PATH_COMBO)->insertStrList(&list);
 
     fileList->clear();
