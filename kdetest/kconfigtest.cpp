@@ -353,7 +353,7 @@ int main( int argc, char **argv )
   fprintf( stderr, "Autosave name for %s is %s\n", "/home/kalle/text/mytext.txt", kapp->tempSaveName( "/home/kalle/text/mytext.txt" ) );
 
   bool bRecoverFile = false;
-  const char* pRecoverFile = kapp->checkRecoverFile( "/home/kalle/text/mytext.txt", bRecoverFile );
+  char* pRecoverFile = strdup(kapp->checkRecoverFile( "/home/kalle/text/mytext.txt", bRecoverFile ));
   if( bRecoverFile )
 	fprintf( stderr, "Recover file exists and is at %s\n", pRecoverFile );
   else

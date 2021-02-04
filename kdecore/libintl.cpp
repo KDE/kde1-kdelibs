@@ -250,7 +250,7 @@ _nl_make_l10nflist  (struct loaded_l10nfile **l10nfile_list,
 
 extern const char *_nl_expand_alias(const char *name);
 
-extern int _nl_explode_name  (char *name, const char **language,
+extern int _nl_explode_name  (char *name, char **language,
 			      const char **modifier,
 			      const char **territory,
 			      const char **codeset,
@@ -794,7 +794,7 @@ stpcpy (char *dest, const char *src)
 
 
 int
-_nl_explode_name (char * name, const char **language, 
+_nl_explode_name (char * name, char **language,
 		  const char **modifier, const char **territory, 
 		  const char **codeset, 
 		  const char **normalized_codeset, 
@@ -945,7 +945,7 @@ _nl_find_domain (const char *dirname, char *locale,
 
 {
   struct loaded_l10nfile *retval;
-  const char *language;
+  char *language;
   const char *modifier;
   const char *territory;
   const char *codeset;
