@@ -10,7 +10,7 @@
  * The setSelection methods return  false on errors,  getSelection methods
  * return false if nothing is selected (please note the difference!).
  *
- * §Header§
+ * Â§HeaderÂ§
  */
 
 #ifndef StringListSelectSetDialog_included

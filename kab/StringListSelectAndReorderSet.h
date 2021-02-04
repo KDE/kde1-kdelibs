@@ -14,7 +14,7 @@
  * The dialog is derived from a widget that can be used separately, it pro-
  * vides the basic string operations. 
  *
- * §Header§
+ * Â§HeaderÂ§
  */
 
 #ifndef StringListSelectAndReorderSet_included

@@ -14,7 +14,7 @@
  *   void stringAdded(string);
  * is sent. With this you can keep track of the changes.
  *
- * §Header§
+ * Â§HeaderÂ§
  */
 
 #ifndef StringListSelectOneDialog_included

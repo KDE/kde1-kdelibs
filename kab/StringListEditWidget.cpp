@@ -1,5 +1,5 @@
 /* -*- C++ -*-
- * §Header§
+ * Â§HeaderÂ§
  */
 
 #include <qsize.h>
