@@ -1247,8 +1247,8 @@ bool AddressBook::literalName(const string& key, string& text, bool reverse,
   LG(GUARD, "AddressBook::literalName: called.\n");
   // ############################################################################  
   // ----- this method will return either (in this order)
-  //       ° the formatted name, if it is set,
-  //       ° a combination (see header) of the name fields
+  //       Â° the formatted name, if it is set,
+  //       Â° a combination (see header) of the name fields
   //       for purposes where an entry should be displayed
   //       identified by its name.
   Entry entry;

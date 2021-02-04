@@ -294,9 +294,9 @@ bool AddressWidget::updateDB()
 	 i18n("Please note that kab now supports some new\n"
 	      "fields in its addresses. These new fields\n"
 	      "are:\n"
-	      "° the state field,\n"
-	      "° the country field and\n"
-	      "° the postal code field.\n"
+	      "Â° the state field,\n"
+	      "Â° the country field and\n"
+	      "Â° the postal code field.\n"
 	      "You will probably need to edit some of your\n"
 	      "entries to make use of it."));
     }

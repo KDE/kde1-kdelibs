@@ -94,9 +94,9 @@ public:
   /** Fills the database from the file. If the parameter 
     * force is true, it overrides keys that are already declared in
     * the database and are declared again in the file.
-    * params: ° filename 
-    *         ° wether to override existing keys or not
-    *         ° wether values may be empty
+    * params: Â° filename 
+    *         Â° wether to override existing keys or not
+    *         Â° wether values may be empty
     */
   bool fill(const string&, bool force=false, bool relax=false);
   /** Saves the database to a file. Only overrides existing 

@@ -131,7 +131,7 @@ KeyValueMap::save(const string& filename, bool force)
   StringStringMap::iterator pos;
   fstream file(filename.c_str());
   // ----- open file, regarding existence:
-  if(! file.is_open());
+  if(! file.is_open())
     {
       LG(GUARD, "KeyValueMap::save: could not open "
 	 "file %s for saving.\n", filename.c_str());

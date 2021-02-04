@@ -105,7 +105,7 @@ bool htmlizeString(const string& orig, string& target)
       current=orig[index];
       switch(current)
 	{
-	case 'ä':
+	case '\xe4':
 	default: temp+=current;
 	}
     }
