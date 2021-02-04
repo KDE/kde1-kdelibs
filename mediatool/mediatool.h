@@ -231,7 +231,7 @@ typedef struct
 
 
 /*
- * The end chunk has no data portion. So there´s no point in defining an
+ * The end chunk has no data portion. So thereÂ´s no point in defining an
  * corresponding (empty) END-Chunk. The only effect would be an C compiler
  * complaining about "empty" structure definitions and the like.
  *
