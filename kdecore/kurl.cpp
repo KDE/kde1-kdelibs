@@ -605,7 +605,7 @@ const char* KURL::filename()
     if ( path_part.isEmpty() )
 	return "";
     
-    if ( path_part.data() == "/")
+    if ( path_part == "/")
 	return "";
     
     if (path_part_decoded.isNull()) {
