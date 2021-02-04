@@ -264,7 +264,8 @@ bool KProcess::start(RunMode runmode, Communication comm)
 
 	  // Its possible that the child's exit was caught by the SIGCHLD handler
 	  // which will have set status for us.
-	  if (waitpid(pid, &status, 0) != -1) this->status = status;
+	  int newstatus = 0;
+	  if (waitpid(pid, &newstatus, 0) != -1) this->status = newstatus;
 
 	  runs = FALSE;
 	  emit processExited(this);
