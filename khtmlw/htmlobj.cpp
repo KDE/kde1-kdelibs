@@ -95,7 +95,7 @@ void HTMLObject::select( KHTMLWidget *_htmlw, HTMLChain *_chain, QRect &_rect,
 
 void HTMLObject::getSelected( QStrList &_list )
 {
-    if ( &_list == 0L )
+    if ( _list.isEmpty() )
     {
 	return;
     }
