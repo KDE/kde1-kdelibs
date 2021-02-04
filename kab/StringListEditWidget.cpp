@@ -277,7 +277,7 @@ void StringListEditWidget::itemChanged(const char* text)
 {
   REQUIRE(lbStrings->currentItem()!=-1 || lbStrings->count()==0);
   // ############################################################################
-  if(!lbStrings->count()==0)
+  if(!(lbStrings->count()==0))
     {
       lbStrings->changeItem(text, lbStrings->currentItem());
     }

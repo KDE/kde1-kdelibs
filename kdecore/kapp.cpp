@@ -1735,7 +1735,7 @@ bool checkAccess(const char *pathname, int mode)
   // else
   // if we want to write the file would be created. Check, if the
   // user may write to the directory to create the file.
-  if ( mode & W_OK == 0 )
+  if ( (mode & W_OK) == 0 )
     return false;   // Check for write access is not part of mode => bail out
 
 
