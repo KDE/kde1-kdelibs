@@ -42,7 +42,7 @@ class KControlDialog : public QTabDialog
 {
   Q_OBJECT
 
-  friend KControlApplication;
+  friend class KControlApplication;
 
 public:
 

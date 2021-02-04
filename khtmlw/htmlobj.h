@@ -365,7 +365,7 @@ protected:
 class HTMLTextSlave;
 class HTMLText : public HTMLObject
 {
-	friend HTMLTextSlave;
+	friend class HTMLTextSlave;
 public:
     HTMLText( const char*, const HTMLFont *, QPainter *);
     HTMLText( const HTMLFont *, QPainter * );
@@ -395,7 +395,7 @@ protected:
 
 class HTMLTextMaster : public HTMLText
 {
-	friend HTMLTextSlave;
+	friend class HTMLTextSlave;
 public:
     HTMLTextMaster( const char* _text, const HTMLFont *_font, 
     				QPainter *_painter);

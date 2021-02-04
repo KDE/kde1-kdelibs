@@ -80,7 +80,7 @@ protected:
 class KTabListBoxTable: public QTableView
 {
   Q_OBJECT
-  friend KTabListBox;
+  friend class KTabListBox;
 public:
   KTabListBoxTable(KTabListBox *owner=0);
   virtual ~KTabListBoxTable();
@@ -124,8 +124,8 @@ protected:
 class KTabListBox : public KDNDWidget
 {
   Q_OBJECT
-  friend KTabListBoxTable;
-  friend KTabListBoxColumn;
+  friend class KTabListBoxTable;
+  friend class KTabListBoxColumn;
 
 public:
   enum ColumnType { TextColumn, PixmapColumn, MixedColumn };
