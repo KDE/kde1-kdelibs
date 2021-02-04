@@ -360,7 +360,7 @@ const char * KCharsetConverterData::convert(const char * str
 	 break;
        default:
          if (inBits<=8) index=(unsigned char)str[i];
-	 else if (inBits==16) index=(((unsigned char)str[i++])<<8)+(unsigned char)str[i];
+	 else if (inBits==16) { index=(((unsigned char)str[i])<<8)+(unsigned char)str[i]; i++; }
 	 break;
     }
     kchdebug("Got index: %x\n",index);
