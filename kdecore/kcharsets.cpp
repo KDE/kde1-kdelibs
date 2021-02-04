@@ -82,7 +82,7 @@ KCharset::KCharset(QFont::CharSet qtCharset){
 KCharset::KCharset( const KCharset& kc){
 
   if (!data || !charsets){
-     fatal("KCharset copy constructor called when no KCharsets object created (???)");
+     fatal("KCharset copy constructor called when no KCharsets object created (?)");
      return;
   }   
   entry=kc.entry;
