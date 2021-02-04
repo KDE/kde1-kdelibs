@@ -1,5 +1,5 @@
 /* This file is part of the KDE libraries
-    Copyright (C) 1998 Jörg Habenicht (j.habenicht@europemail.com)
+    Copyright (C) 1998 JÃ¶rg Habenicht (j.habenicht@europemail.com)
 
     This library is free software; you can redistribute it and/or
     modify it under the terms of the GNU Library General Public
@@ -32,7 +32,7 @@
 * light spot or a round view sunken in the screen.
 *
 * @short A round led widget
-* @author Jörg Habenicht
+* @author JÃ¶rg Habenicht
 */
 class KLed : public QWidget
 {
