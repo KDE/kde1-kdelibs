@@ -11,8 +11,6 @@
  * $Revision: 1.11.4.2 $
  */
 
-using namespace std;
-
 #include "addressbook.h"
 #ifdef KAB_DEBUG
 #include "debug.h"
@@ -27,6 +25,8 @@ extern "C" {
 #include <fcntl.h>
 #include <unistd.h>
 	   }
+
+using namespace std;
 
 bool AddressBook::initialized=false;
 const char* AddressBook::ConfigSection="Config";

@@ -10,7 +10,9 @@
  * $Revision: 1.3 $
  */
 
+#ifndef __clang__
 #pragma implementation
+#endif
 
 #include "functions.h"
 #include "debug.h"

@@ -8,9 +8,10 @@
  * $Revision: 1.5.4.1 $
  */
 
-#pragma implementation
 
-using namespace std;
+#ifndef __clang__
+#pragma implementation
+#endif
 
 #include "keyvaluemap.h"
 #include "debug.h"
@@ -19,6 +20,8 @@ using namespace std;
 #include <cstdio>
 #include <string>
 #include <cstdlib>
+
+using namespace std;
 
 class StringStringMap 
   : public map<string, string, less<string> >
