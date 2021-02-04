@@ -16,7 +16,7 @@
     the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
     Boston, MA 02111-1307, USA.
 */
-#ifndef _KROOTPROP_H
+#ifndef _KROOTPROP_H_
 #define _KROOTPROP_H_
 
 #include <kapp.h>
