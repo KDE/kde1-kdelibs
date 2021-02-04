@@ -1623,7 +1623,7 @@ bool AddressWidget::print(QPrinter& printer, const list<string>& fields,
 	}
     }
   p.end();
-  delete fieldWidth;
+  delete [] fieldWidth;
   emit(setStatus(i18n("Printing finished successfully.")));
   KApplication::restoreOverrideCursor();
   return true;
