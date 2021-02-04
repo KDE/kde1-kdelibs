@@ -1915,7 +1915,7 @@ bool HTMLMap::fileLoaded( QIODevice& file )
       do
       {
 	ch = file.getch();
-	if ( ch != '\n' && ch != -1 );
+	if ( ch != '\n' && ch != -1 )
 	buffer += ch;
       }
       while ( ch != '\n' && ch != -1 );

@@ -358,7 +358,7 @@ void KURLLabel::m_enterEvent()
 	}
 
 	/* if we are using a custom cursor, use it */
-	if (m_haveCursor);
+	if (m_haveCursor)
 		setCursor(m_customCursor);
 
 	/* check if we are in float mode */
