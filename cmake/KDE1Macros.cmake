@@ -78,6 +78,7 @@ function (install_potfiles languages potfiles)
                     MAIN_DEPENDENCY ${infile} VERBATIM)
                 add_custom_target(pot_${pot} ALL DEPENDS ${pot}.po)
             endif()
+        endforeach ()
     endforeach ()
 endfunction ()
 
